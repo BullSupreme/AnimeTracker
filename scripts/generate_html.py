@@ -1,0 +1,287 @@
+#!/usr/bin/env python3
+import json
+from datetime import datetime, timedelta
+import os
+
+def load_data():
+    """Load anime data and metadata"""
+    try:
+        with open('data/anime_data.json', 'r', encoding='utf-8') as f:
+            anime_data = json.load(f)
+        
+        with open('data/other_anime_sorted.json', 'r', encoding='utf-8') as f:
+            other_anime_sorted = json.load(f)
+        
+        with open('data/metadata.json', 'r', encoding='utf-8') as f:
+            metadata = json.load(f)
+        
+        return anime_data, other_anime_sorted, metadata
+    except FileNotFoundError as e:
+        print(f"Data file not found: {e}")
+        return [], [], {}
+
+def generate_html():
+    """Generate static HTML file"""
+    anime_data, other_anime_sorted, metadata = load_data()
+    
+    if not anime_data:
+        print("No anime data found")
+        return
+    
+    today_date = metadata.get('today_date', datetime.now().strftime('%Y-%m-%d'))
+    tomorrow_date = metadata.get('tomorrow_date', (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d'))
+    last_updated = metadata.get('last_updated', datetime.now().isoformat())
+    
+    # Load custom links if they exist
+    custom_links = {}
+    if os.path.exists('data/custom_links.json'):
+        with open('data/custom_links.json', 'r', encoding='utf-8') as f:
+            custom_links = json.load(f)
+    
+    html_content = f"""<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anime Tracker</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Current Anime Tracker</h1>
+            <div class="anime-count">({len(anime_data)} anime)</div>
+        </header>
+        <nav class="nav-tabs">
+            <button class="nav-tab active" data-tab="list">List View</button>
+            <button class="nav-tab" data-tab="calendar">Calendar</button>
+        </nav>
+        <main>
+            <!-- List View Section -->
+            <div id="list-view" class="tab-content active">
+                <div class="time-section">
+                    <h2 class="section-title">
+                        <span class="section-icon">🌟</span>
+                        Today's Releases
+                    <span class="date-label">{today_date}</span>
+                    </h2>
+                    <div class="anime-grid today-grid">
+"""
+    
+    # Add today's releases
+    for anime in anime_data:
+        if anime.get('release_date') == today_date:
+            custom_link = custom_links.get(anime['name'], anime['site_url'])
+            link_domain = custom_link.split('//')[1].split('/')[0] if '//' in custom_link else 'anilist.co'
+            
+            html_content += f"""                        <div class="anime-card today-card" data-name="{anime['name']}" data-link="{custom_link}" data-anime-id="{anime['id']}" data-release="{anime.get('release_date', '')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
+                            <div class="card-image-wrapper">
+                                <img class="anime-poster" src="{anime['poster_url']}" alt="{anime['name']} poster">
+                                <div class="card-overlay">
+                                    <button class="favorite-btn" data-anime-id="{anime['id']}">
+                                        <span class="favorite-icon">♡</span>
+                                    </button>
+                                    <div class="popularity-rank-badge" title="Popularity Rank #{anime['popularity_rank']} ({anime['popularity']} users)">
+                                        #{anime['popularity_rank']}
+                                    </div>
+                                </div>
+                                <div class="custom-link-badge" style="display: none;">
+                                    <span class="custom-favicon"></span>
+                                </div>
+                            </div>
+                            <div class="card-info">"""
+            
+            if anime.get('english_title'):
+                html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
+            
+            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
+                                <div class="episode-info">
+                                    <span class="episode-badge">Episode {anime['episode']}</span>
+                                    <a href="{custom_link}" target="_blank" class="main-link-btn">
+                                        {link_domain}
+                                    </a>
+                                </div>
+                                <div class="streaming-links">"""
+            
+            for link in anime.get('streaming_links', []):
+                html_content += f"""                                    <a href="{link['url']}" target="_blank" title="{link['site']}" class="streaming-link">
+                                        <img src="{link['icon']}" alt="{link['site']}">
+                                    </a>"""
+            
+            html_content += """                                </div>
+                            </div>
+                        </div>"""
+    
+    html_content += f"""                    </div>
+                </div>
+                <div class="time-section">
+                    <h2 class="section-title">
+                        <span class="section-icon">📅</span>
+                        Tomorrow's Releases
+                    <span class="date-label">{tomorrow_date}</span>
+                    </h2>
+                    <div class="anime-grid tomorrow-grid">
+"""
+    
+    # Add tomorrow's releases
+    for anime in anime_data:
+        if anime.get('release_date') == tomorrow_date:
+            custom_link = custom_links.get(anime['name'], anime['site_url'])
+            link_domain = custom_link.split('//')[1].split('/')[0] if '//' in custom_link else 'anilist.co'
+            
+            html_content += f"""                        <div class="anime-card tomorrow-card" data-name="{anime['name']}" data-link="{custom_link}" data-anime-id="{anime['id']}" data-release="{anime.get('release_date', '')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
+                            <div class="card-image-wrapper">
+                                <img class="anime-poster" src="{anime['poster_url']}" alt="{anime['name']} poster">
+                                <div class="card-overlay">
+                                    <button class="favorite-btn" data-anime-id="{anime['id']}">
+                                        <span class="favorite-icon">♡</span>
+                                    </button>
+                                    <div class="popularity-rank-badge" title="Popularity Rank #{anime['popularity_rank']} ({anime['popularity']} users)">
+                                        #{anime['popularity_rank']}
+                                    </div>
+                                </div>
+                                <div class="custom-link-badge" style="display: none;">
+                                    <span class="custom-favicon"></span>
+                                </div>
+                            </div>
+                            <div class="card-info">"""
+            
+            if anime.get('english_title'):
+                html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
+            
+            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
+                                <div class="episode-info">
+                                    <span class="episode-badge">Episode {anime['episode']}</span>
+                                    <a href="{custom_link}" target="_blank" class="main-link-btn">
+                                        {link_domain}
+                                    </a>
+                                </div>
+                                <div class="streaming-links">"""
+            
+            for link in anime.get('streaming_links', []):
+                html_content += f"""                                    <a href="{link['url']}" target="_blank" title="{link['site']}" class="streaming-link">
+                                        <img src="{link['icon']}" alt="{link['site']}">
+                                    </a>"""
+            
+            html_content += """                                </div>
+                            </div>
+                        </div>"""
+    
+    html_content += """                    </div>
+                </div>
+                <div class="time-section">
+                    <h2 class="section-title">
+                        <span class="section-icon">📺</span>
+                        Other Seasonal Anime
+                
+                    </h2>
+                    <div class="anime-grid other-grid">
+"""
+    
+    # Add other anime (sorted)
+    for anime in other_anime_sorted:
+        custom_link = custom_links.get(anime['name'], anime['site_url'])
+        link_domain = custom_link.split('//')[1].split('/')[0] if '//' in custom_link else 'anilist.co'
+        
+        html_content += f"""                        <div class="anime-card" data-name="{anime['name']}" data-link="{custom_link}" data-anime-id="{anime['id']}" data-release="{anime.get('release_date', '')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
+                            <div class="card-image-wrapper">
+                                <img class="anime-poster" src="{anime['poster_url']}" alt="{anime['name']} poster">
+                                <div class="card-overlay">
+                                    <button class="favorite-btn" data-anime-id="{anime['id']}">
+                                        <span class="favorite-icon">♡</span>
+                                    </button>
+                                    <div class="popularity-rank-badge" title="Popularity Rank #{anime['popularity_rank']} ({anime['popularity']} users)">
+                                        #{anime['popularity_rank']}
+                                    </div>
+                                </div>
+                                <div class="custom-link-badge" style="display: none;">
+                                    <span class="custom-favicon"></span>
+                                </div>
+                            </div>
+                            <div class="card-info">"""
+        
+        if anime.get('english_title'):
+            html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
+        
+        release_date_display = anime.get('release_date', 'Ongoing')
+        html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
+                                <div class="episode-info">
+                                    <span class="episode-badge">Episode {anime['episode']}</span>
+                                    <a href="{custom_link}" target="_blank" class="main-link-btn">
+                                        {link_domain}
+                                    </a>
+                                    <span class="release-date">{release_date_display}</span>
+                                </div>
+                                <div class="streaming-links">"""
+        
+        for link in anime.get('streaming_links', []):
+            html_content += f"""                                    <a href="{link['url']}" target="_blank" title="{link['site']}" class="streaming-link">
+                                        <img src="{link['icon']}" alt="{link['site']}">
+                                    </a>"""
+        
+        html_content += """                                </div>
+                            </div>
+                        </div>"""
+    
+    html_content += f"""                    </div>
+                </div>
+            </div>
+            <!-- Calendar View Section -->
+            <div id="calendar-view" class="tab-content">
+                <div class="calendar-controls">
+                    <button class="calendar-tab active" data-calendar-tab="all">All Anime</button>
+                    <button class="calendar-tab" data-calendar-tab="favorites">Favorites Only</button>
+                </div>
+                <div class="calendar-container">
+                    <div class="calendar-grid" id="calendar-all">
+                    <!-- Calendar will be populated by JavaScript -->
+                    </div>
+                    <div class="calendar-grid" id="calendar-favorites" style="display: none;">
+                    <!-- Favorites calendar will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Expanded Anime Modal -->
+        <div id="anime-modal" class="modal">
+            <div class="modal-content">
+                <button class="modal-close">&times;</button>
+                <div class="modal-body">
+                <!-- Modal content will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+        <!-- Context Menu -->
+        <div id="context-menu" class="context-menu">
+            <div class="context-item" id="edit-link">
+                <span class="context-icon">🔗</span>
+                Edit Link
+        
+            </div>
+        </div>
+        <!-- Footer with last updated info -->
+        <footer style="text-align: center; padding: 2rem; color: var(--text-secondary); font-size: 0.875rem;">
+            Last updated: {last_updated.split('T')[0]} at {last_updated.split('T')[1][:8]} UTC
+        </footer>
+        <!-- Pass anime data to JavaScript -->
+        <script>
+            window.animeData = {json.dumps(anime_data)};
+            window.customLinks = {json.dumps(custom_links)};
+            window.todayDate = "{today_date}";
+            window.tomorrowDate = "{tomorrow_date}";
+        </script>
+        <script src="js/script.js"></script>
+    </body>
+</html>"""
+    
+    # Write the HTML file
+    with open('index.html', 'w', encoding='utf-8') as f:
+        f.write(html_content)
+    
+    print("Generated index.html successfully")
+
+def main():
+    """Main function"""
+    generate_html()
+
+if __name__ == '__main__':
+    main()
