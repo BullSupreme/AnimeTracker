@@ -49,6 +49,21 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // List tab navigation
+    const listTabs = document.querySelectorAll('.list-tab');
+    
+    listTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            const targetListTab = tab.getAttribute('data-list-tab');
+            
+            listTabs.forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+            
+            // Show/hide anime cards based on favorites filter
+            filterListView(targetListTab === 'favorites');
+        });
+    });
+
     // Calendar tab navigation
     const calendarTabs = document.querySelectorAll('.calendar-tab');
     const calendarGrids = document.querySelectorAll('.calendar-grid');
@@ -384,6 +399,44 @@ document.addEventListener('DOMContentLoaded', () => {
             card.classList.toggle('favorite', isFavorite);
             if (favoriteIcon) {
                 favoriteIcon.textContent = isFavorite ? '♥' : '♡';
+            }
+        });
+        
+        // Re-apply current list filter if favorites view is active
+        const activeListTab = document.querySelector('.list-tab.active');
+        if (activeListTab && activeListTab.getAttribute('data-list-tab') === 'favorites') {
+            filterListView(true);
+        }
+    }
+
+    // Filter list view based on favorites
+    function filterListView(favoritesOnly = false) {
+        const animeCards = document.querySelectorAll('#list-view .anime-card');
+        const timeSections = document.querySelectorAll('#list-view .time-section');
+        
+        animeCards.forEach(card => {
+            const animeId = card.getAttribute('data-anime-id');
+            const isFavorite = favorites.includes(animeId);
+            
+            if (favoritesOnly) {
+                card.style.display = isFavorite ? 'flex' : 'none';
+            } else {
+                card.style.display = 'flex';
+            }
+        });
+        
+        // Hide/show time sections if they have no visible cards
+        timeSections.forEach(section => {
+            const visibleCards = section.querySelectorAll('.anime-card[style="display: flex"], .anime-card:not([style*="display: none"])');
+            const hasVisibleCards = Array.from(visibleCards).some(card => {
+                const computedStyle = window.getComputedStyle(card);
+                return computedStyle.display !== 'none';
+            });
+            
+            if (favoritesOnly) {
+                section.style.display = hasVisibleCards ? 'block' : 'none';
+            } else {
+                section.style.display = 'block';
             }
         });
     }
