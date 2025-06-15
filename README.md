@@ -1,4 +1,4 @@
-# Anime Tracker - GitHub Pages Edition
+# Anime Tracker v3.0 - GitHub Pages Edition
 
 A beautiful, responsive anime tracking website that displays currently airing anime with automatic updates via GitHub Actions.
 
@@ -20,11 +20,13 @@ A beautiful, responsive anime tracking website that displays currently airing an
 ## ✨ Features
 
 - 🌟 Today's & Tomorrow's anime releases
-- 📺 Sorted "Other Anime" section  
+- 📺 Next airing episodes with future dates
 - 🎨 Colored rank badges (Gold/Silver/Bronze)
 - ⭐ Favorites system (browser cookies)
 - 📱 Fully responsive design
 - 🔄 Automatic data updates twice daily
+- 💫 Hover-only UI elements (favorites, ranks)
+- 🚀 Fast custom tooltips
 
 ## 🛠 Manual Updates
 

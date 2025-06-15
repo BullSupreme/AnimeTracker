@@ -134,11 +134,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
             
-            const releaseDate = anime.release_date;
-            if (!animeByDate[releaseDate]) {
-                animeByDate[releaseDate] = [];
+            // Use next_airing_date if available, otherwise use release_date
+            const displayDate = anime.next_airing_date || anime.release_date;
+            if (displayDate) {
+                if (!animeByDate[displayDate]) {
+                    animeByDate[displayDate] = [];
+                }
+                animeByDate[displayDate].push(anime);
             }
-            animeByDate[releaseDate].push(anime);
         });
         
         // Add empty cells for days before month starts
