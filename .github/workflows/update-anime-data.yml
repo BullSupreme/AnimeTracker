@@ -1,42 +1,41 @@
+name: Update Anime Data
 
- name: Update Anime Data
+on:
+  schedule:
+    # Run twice daily at 8 AM and 8 PM UTC
+    - cron: '0 8,20 * * *'
+  workflow_dispatch: # Allow manual trigger
 
-  on:
-    schedule:
-      # Run twice daily at 8 AM and 8 PM UTC
-      - cron: '0 8,20 * * *'
-    workflow_dispatch: # Allow manual trigger
-
-  jobs:
-    update-data:
-      runs-on: ubuntu-latest
-
-      steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Fetch anime data
-        run: python3 scripts/fetch_anime_data.py
-
-      - name: Generate HTML
-        run: python3 scripts/generate_html.py
-
-      - name: Commit and push changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add data/ index.html
-          git diff --staged --quiet || git commit -m "🤖 Auto-update anime data - $(date '+%Y-%m-%d %H:%M UTC')"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Fetch anime data
+      run: python3 scripts/fetch_anime_data.py
+      
+    - name: Generate HTML
+      run: python3 scripts/generate_html.py
+      
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/ index.html
+        git diff --staged --quiet || git commit -m "🤖 Auto-update anime data - $(date '+%Y-%m-%d %H:%M UTC')"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
