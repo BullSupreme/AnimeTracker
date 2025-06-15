@@ -1,0 +1,1106 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-primary: #0a0e1a;
+    --bg-secondary: #141824;
+    --bg-card: #1e2433;
+    --bg-card-hover: #252b3d;
+    --text-primary: #ffffff;
+    --text-secondary: #a8b2c7;
+    --text-dim: #6b7280;
+    --accent-primary: #3b82f6;
+    --accent-secondary: #8b5cf6;
+    --accent-success: #10b981;
+    --accent-warning: #f59e0b;
+    --accent-danger: #ef4444;
+    --accent-gold: #fbbf24;
+    --border-color: #2a3142;
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.4);
+    --shadow-glow: 0 0 20px rgba(59, 130, 246, 0.5);
+    --transition-fast: 150ms ease;
+    --transition-normal: 300ms ease;
+    --transition-slow: 500ms ease;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Header Styles */
+header {
+    background: var(--bg-secondary);
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, var(--accent-primary) 0%, transparent 70%);
+    opacity: 0.05;
+    animation: pulse 20s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+}
+
+.anime-count {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-left: 1rem;
+    z-index: 1;
+    position: relative;
+}
+
+/* Navigation Tabs */
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.75rem;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-tab {
+    padding: 0.5rem 1.5rem;
+    background: transparent;
+    border: 2px solid transparent;
+    color: var(--text-secondary);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: all var(--transition-normal);
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-tab::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+    opacity: 0;
+    transition: opacity var(--transition-normal);
+    z-index: -1;
+}
+
+.nav-tab:hover {
+    color: var(--text-primary);
+    transform: translateY(-2px);
+}
+
+.nav-tab.active {
+    color: var(--text-primary);
+    border-color: var(--accent-primary);
+    background: rgba(59, 130, 246, 0.1);
+}
+
+.nav-tab.active::before {
+    opacity: 0.1;
+}
+
+/* Main Content */
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.tab-content {
+    display: none;
+    animation: fadeIn var(--transition-slow);
+}
+
+.tab-content.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Time Sections */
+.time-section {
+    margin-bottom: 3rem;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.section-icon {
+    font-size: 1.5rem;
+}
+
+.date-label {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    font-weight: 400;
+}
+
+/* Anime Grid */
+.anime-grid {
+    display: grid;
+    gap: 1rem;
+    animation: fadeIn var(--transition-slow);
+}
+
+.today-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.tomorrow-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.other-grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+}
+
+/* Anime Cards */
+.anime-card {
+    background: var(--bg-card);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all var(--transition-normal);
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border-color);
+}
+
+.anime-card:hover {
+    transform: translateY(-4px);
+    background: var(--bg-card-hover);
+    box-shadow: var(--shadow-lg);
+}
+
+.today-card {
+    border-color: var(--accent-primary);
+    background: linear-gradient(135deg, var(--bg-card), rgba(59, 130, 246, 0.1));
+}
+
+.tomorrow-card {
+    border-color: var(--accent-secondary);
+}
+
+/* Card Image Wrapper */
+.card-image-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 150%; /* Proper aspect ratio for anime posters */
+    overflow: hidden;
+}
+
+.anime-poster {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    transition: transform var(--transition-slow);
+    image-rendering: high-quality;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.anime-card:hover .anime-poster {
+    transform: scale(1.02);
+}
+
+/* Card Overlay */
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.9) 100%);
+    opacity: 0;
+    transition: opacity var(--transition-normal);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.anime-card:hover .card-overlay {
+    opacity: 1;
+}
+
+/* Favorite Button */
+.favorite-btn {
+    background: rgba(0, 0, 0, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    backdrop-filter: blur(10px);
+}
+
+.favorite-btn:hover {
+    background: rgba(0, 0, 0, 0.8);
+    border-color: var(--accent-gold);
+    transform: scale(1.1);
+}
+
+.favorite-icon {
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    transition: all var(--transition-normal);
+}
+
+.anime-card.favorite .favorite-icon {
+    color: var(--accent-gold);
+    text-shadow: 0 0 10px var(--accent-gold);
+}
+
+.anime-card.favorite {
+    border-color: var(--accent-gold);
+    box-shadow: 0 0 20px rgba(251, 191, 36, 0.3);
+}
+
+.anime-card.favorite .episode-badge {
+    background: var(--accent-gold);
+    color: var(--bg-primary);
+}
+
+/* Popularity Rank Badge */
+.popularity-rank-badge {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+    color: var(--text-primary);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.25rem 0.5rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: var(--shadow-md);
+    z-index: 10;
+    transition: all var(--transition-normal);
+}
+
+.popularity-rank-badge:hover {
+    transform: scale(1.1);
+    box-shadow: var(--shadow-lg);
+}
+
+/* Different colors for different rank tiers */
+/* Gold - 1st place */
+.popularity-rank-badge[title*="Rank #1"] {
+    background: linear-gradient(135deg, #ffd700 0%, #ffb300 100%);
+    color: #000;
+    text-shadow: none;
+}
+
+/* Silver - 2nd place */
+.popularity-rank-badge[title*="Rank #2"] {
+    background: linear-gradient(135deg, #c0c0c0 0%, #a8a8a8 100%);
+    color: #000;
+    text-shadow: none;
+}
+
+/* Bronze - 3rd place */
+.popularity-rank-badge[title*="Rank #3"] {
+    background: linear-gradient(135deg, #cd7f32 0%, #b8860b 100%);
+    color: #fff;
+}
+
+/* Ranks 4-9 - Purple */
+.popularity-rank-badge[title*="Rank #4"],
+.popularity-rank-badge[title*="Rank #5"],
+.popularity-rank-badge[title*="Rank #6"],
+.popularity-rank-badge[title*="Rank #7"],
+.popularity-rank-badge[title*="Rank #8"],
+.popularity-rank-badge[title*="Rank #9"] {
+    background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%);
+}
+
+/* Ranks 10-19 - Red */
+.popularity-rank-badge[title*="Rank #10"],
+.popularity-rank-badge[title*="Rank #11"],
+.popularity-rank-badge[title*="Rank #12"],
+.popularity-rank-badge[title*="Rank #13"],
+.popularity-rank-badge[title*="Rank #14"],
+.popularity-rank-badge[title*="Rank #15"],
+.popularity-rank-badge[title*="Rank #16"],
+.popularity-rank-badge[title*="Rank #17"],
+.popularity-rank-badge[title*="Rank #18"],
+.popularity-rank-badge[title*="Rank #19"] {
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+}
+
+/* Ranks 20-29 - Orange */
+.popularity-rank-badge[title*="Rank #20"],
+.popularity-rank-badge[title*="Rank #21"],
+.popularity-rank-badge[title*="Rank #22"],
+.popularity-rank-badge[title*="Rank #23"],
+.popularity-rank-badge[title*="Rank #24"],
+.popularity-rank-badge[title*="Rank #25"],
+.popularity-rank-badge[title*="Rank #26"],
+.popularity-rank-badge[title*="Rank #27"],
+.popularity-rank-badge[title*="Rank #28"],
+.popularity-rank-badge[title*="Rank #29"] {
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+}
+
+/* Ranks 30-39 - Yellow */
+.popularity-rank-badge[title*="Rank #30"],
+.popularity-rank-badge[title*="Rank #31"],
+.popularity-rank-badge[title*="Rank #32"],
+.popularity-rank-badge[title*="Rank #33"],
+.popularity-rank-badge[title*="Rank #34"],
+.popularity-rank-badge[title*="Rank #35"],
+.popularity-rank-badge[title*="Rank #36"],
+.popularity-rank-badge[title*="Rank #37"],
+.popularity-rank-badge[title*="Rank #38"],
+.popularity-rank-badge[title*="Rank #39"] {
+    background: linear-gradient(135deg, #eab308 0%, #ca8a04 100%);
+    color: #000;
+    text-shadow: none;
+}
+
+/* Ranks 40-49 - Green */
+.popularity-rank-badge[title*="Rank #40"],
+.popularity-rank-badge[title*="Rank #41"],
+.popularity-rank-badge[title*="Rank #42"],
+.popularity-rank-badge[title*="Rank #43"],
+.popularity-rank-badge[title*="Rank #44"],
+.popularity-rank-badge[title*="Rank #45"],
+.popularity-rank-badge[title*="Rank #46"],
+.popularity-rank-badge[title*="Rank #47"],
+.popularity-rank-badge[title*="Rank #48"],
+.popularity-rank-badge[title*="Rank #49"] {
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+}
+
+/* Ranks 50+ - Teal */
+.popularity-rank-badge[title*="Rank #50"],
+.popularity-rank-badge[title*="Rank #51"],
+.popularity-rank-badge[title*="Rank #52"],
+.popularity-rank-badge[title*="Rank #53"],
+.popularity-rank-badge[title*="Rank #54"],
+.popularity-rank-badge[title*="Rank #55"],
+.popularity-rank-badge[title*="Rank #56"],
+.popularity-rank-badge[title*="Rank #57"],
+.popularity-rank-badge[title*="Rank #58"],
+.popularity-rank-badge[title*="Rank #59"],
+.popularity-rank-badge[title*="Rank #60"],
+.popularity-rank-badge[title*="Rank #61"],
+.popularity-rank-badge[title*="Rank #62"],
+.popularity-rank-badge[title*="Rank #63"],
+.popularity-rank-badge[title*="Rank #64"],
+.popularity-rank-badge[title*="Rank #65"],
+.popularity-rank-badge[title*="Rank #66"],
+.popularity-rank-badge[title*="Rank #67"],
+.popularity-rank-badge[title*="Rank #68"],
+.popularity-rank-badge[title*="Rank #69"],
+.popularity-rank-badge[title*="Rank #70"],
+.popularity-rank-badge[title*="Rank #71"],
+.popularity-rank-badge[title*="Rank #72"],
+.popularity-rank-badge[title*="Rank #73"],
+.popularity-rank-badge[title*="Rank #74"],
+.popularity-rank-badge[title*="Rank #75"],
+.popularity-rank-badge[title*="Rank #76"],
+.popularity-rank-badge[title*="Rank #77"],
+.popularity-rank-badge[title*="Rank #78"],
+.popularity-rank-badge[title*="Rank #79"],
+.popularity-rank-badge[title*="Rank #80"],
+.popularity-rank-badge[title*="Rank #81"],
+.popularity-rank-badge[title*="Rank #82"],
+.popularity-rank-badge[title*="Rank #83"],
+.popularity-rank-badge[title*="Rank #84"],
+.popularity-rank-badge[title*="Rank #85"],
+.popularity-rank-badge[title*="Rank #86"],
+.popularity-rank-badge[title*="Rank #87"],
+.popularity-rank-badge[title*="Rank #88"],
+.popularity-rank-badge[title*="Rank #89"],
+.popularity-rank-badge[title*="Rank #90"],
+.popularity-rank-badge[title*="Rank #91"],
+.popularity-rank-badge[title*="Rank #92"],
+.popularity-rank-badge[title*="Rank #93"],
+.popularity-rank-badge[title*="Rank #94"],
+.popularity-rank-badge[title*="Rank #95"],
+.popularity-rank-badge[title*="Rank #96"],
+.popularity-rank-badge[title*="Rank #97"],
+.popularity-rank-badge[title*="Rank #98"],
+.popularity-rank-badge[title*="Rank #99"] {
+    background: linear-gradient(135deg, #14b8a6 0%, #0f766e 100%);
+}
+
+/* Custom Link Badge */
+.custom-link-badge {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: rgba(139, 92, 246, 0.6);
+    padding: 0.25rem 0.5rem;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    z-index: 5;
+}
+
+.custom-favicon img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    display: block;
+}
+
+/* Card Info */
+.card-info {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.anime-english-title {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    font-style: italic;
+    line-height: 1.1;
+    margin-bottom: -0.25rem;
+}
+
+.anime-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.2;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: -0.25rem;
+}
+
+.episode-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.episode-badge {
+    background: var(--accent-primary);
+    color: white;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.release-date {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+/* Streaming Links */
+.streaming-links {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+}
+
+.streaming-link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: all var(--transition-fast);
+    border: 1px solid var(--border-color);
+    background: transparent;
+    padding: 1px;
+}
+
+.streaming-link:hover {
+    transform: scale(1.1);
+    border-color: var(--accent-primary);
+}
+
+.streaming-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: none;
+    image-rendering: auto;
+    border-radius: 4px;
+    max-width: 32px;
+    max-height: 32px;
+}
+
+/* Calendar View */
+.calendar-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.calendar-tab {
+    padding: 0.5rem 1.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+}
+
+.calendar-tab:hover {
+    background: var(--bg-card-hover);
+    color: var(--text-primary);
+}
+
+.calendar-tab.active {
+    background: var(--accent-primary);
+    color: white;
+    border-color: var(--accent-primary);
+}
+
+/* Calendar Grid */
+.calendar-container {
+    background: var(--bg-secondary);
+    border-radius: 16px;
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+    position: relative;
+}
+
+/* Month Header */
+.calendar-month-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.calendar-month-header h3 {
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    min-width: 200px;
+    text-align: center;
+}
+
+.month-nav-btn {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+}
+
+.month-nav-btn:hover {
+    background: var(--accent-primary);
+    border-color: var(--accent-primary);
+    color: white;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5rem;
+}
+
+/* Weekday Headers */
+.calendar-weekday-header {
+    text-align: center;
+    font-weight: 600;
+    color: var(--text-secondary);
+    padding: 0.5rem;
+    font-size: 0.875rem;
+}
+
+/* Calendar Days */
+.calendar-day {
+    background: var(--bg-card);
+    border-radius: 8px;
+    padding: 0.5rem;
+    min-height: 80px;
+    border: 1px solid var(--border-color);
+    transition: all var(--transition-normal);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.calendar-day.empty {
+    background: transparent;
+    border: none;
+}
+
+.calendar-day:not(.empty):hover {
+    background: var(--bg-card-hover);
+    border-color: var(--accent-primary);
+}
+
+.calendar-day.today {
+    border-color: var(--accent-primary);
+    background: rgba(59, 130, 246, 0.1);
+}
+
+.calendar-day-number {
+    font-weight: 600;
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+}
+
+.calendar-day.today .calendar-day-number {
+    color: var(--accent-primary);
+}
+
+/* Calendar Anime Container */
+.calendar-day-anime {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex: 1;
+}
+
+/* Calendar Anime Items */
+.calendar-anime-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.25rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    border: 1px solid transparent;
+}
+
+.calendar-anime-item:hover {
+    background: rgba(59, 130, 246, 0.1);
+}
+
+.calendar-anime-item.favorite {
+    border-color: var(--accent-gold);
+    background: rgba(251, 191, 36, 0.1);
+}
+
+.calendar-anime-thumb {
+    width: 20px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 2px;
+    flex-shrink: 0;
+}
+
+.calendar-anime-name {
+    font-size: 0.625rem;
+    color: var(--text-primary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 140px;
+    display: inline-block;
+}
+
+/* Calendar Tooltip */
+.calendar-tooltip {
+    position: fixed;
+    display: none;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: var(--shadow-lg);
+    z-index: 1000;
+    gap: 1rem;
+    max-width: 400px;
+    pointer-events: none;
+    animation: tooltipFadeIn var(--transition-fast);
+}
+
+@keyframes tooltipFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.tooltip-poster-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0;
+}
+
+.tooltip-poster {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.tooltip-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.tooltip-info h4 {
+    font-size: 1rem;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.tooltip-english {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    margin: 0;
+}
+
+.tooltip-episode {
+    font-size: 0.875rem;
+    color: var(--accent-primary);
+    margin: 0;
+}
+
+.tooltip-streaming {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+.tooltip-streaming-link {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--text-primary);
+    font-size: 0.75rem;
+    transition: all var(--transition-normal);
+}
+
+.tooltip-streaming-link:hover {
+    background: var(--bg-card-hover);
+    border-color: var(--accent-primary);
+}
+
+.tooltip-streaming-link img {
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.tooltip-main-link {
+    width: 100px;
+    padding: 0.25rem 0.5rem;
+    background: var(--accent-primary);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    text-align: center;
+}
+
+.tooltip-main-link:hover {
+    background: var(--accent-secondary);
+    transform: translateY(-1px);
+}
+
+/* Main Link Button in Cards */
+.main-link-btn {
+    padding: 0.25rem 0.5rem;
+    background: var(--accent-secondary);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.main-link-btn:hover {
+    background: #6d28d9;
+    transform: translateY(-1px);
+    color: white;
+}
+
+/* Day Anime List (for modal) */
+.day-anime-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.day-anime-item {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    background: var(--bg-card);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+}
+
+.day-anime-item:hover {
+    background: var(--bg-card-hover);
+    transform: translateX(4px);
+}
+
+.day-anime-item img {
+    width: 60px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.day-anime-info h3 {
+    font-size: 1rem;
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+}
+
+.day-anime-info p {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+    animation: fadeIn var(--transition-normal);
+}
+
+.modal.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: var(--bg-secondary);
+    border-radius: 20px;
+    max-width: 800px;
+    max-height: 90vh;
+    width: 90%;
+    overflow: hidden;
+    position: relative;
+    animation: slideUp var(--transition-slow);
+    border: 1px solid var(--border-color);
+}
+
+@keyframes slideUp {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: var(--text-primary);
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    z-index: 10;
+}
+
+.modal-close:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(90deg);
+}
+
+.modal-body {
+    padding: 2rem;
+    overflow-y: auto;
+    max-height: 90vh;
+}
+
+/* Context Menu */
+.context-menu {
+    position: fixed;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 0.5rem;
+    box-shadow: var(--shadow-lg);
+    z-index: 1001;
+    display: none;
+    min-width: 180px;
+    pointer-events: auto;
+}
+
+.context-item {
+    padding: 0.75rem 1rem;
+    color: var(--text-primary);
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all var(--transition-fast);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.context-item:hover {
+    background: var(--accent-primary);
+    color: white;
+}
+
+.context-icon {
+    font-size: 1.1rem;
+}
+
+/* Empty State */
+.empty-state {
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-secondary);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .today-grid {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    .nav-tabs {
+        padding: 1rem;
+        gap: 0.5rem;
+    }
+    
+    .nav-tab {
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+    }
+    
+    main {
+        padding: 1rem;
+    }
+    
+    .today-grid,
+    .tomorrow-grid,
+    .other-grid {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    }
+    
+    .calendar-grid {
+        grid-template-columns: repeat(7, 1fr);
+        gap: 0.25rem;
+    }
+    
+    .calendar-anime-name {
+        font-size: 0.5rem;
+    }
+    
+    .calendar-anime-thumb {
+        width: 16px;
+        height: 24px;
+    }
+    
+    .modal-content {
+        width: 95%;
+        max-height: 95vh;
+    }
+}
