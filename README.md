@@ -2,11 +2,9 @@
 
 A beautiful, responsive anime tracking website that displays currently airing anime with automatic updates via GitHub Actions.
 
-## 🚀 Quick Setup for GitHub Pages
+## 🚀 Features
 
-1. **Upload this clean folder** to your GitHub repository
-2. **Enable GitHub Pages**: Settings → Pages → Deploy from branch "main"
-3. **Automatic updates**: Runs twice daily (8 AM & 8 PM UTC)
+**Automatic updates**: Runs twice daily (8 AM & 8 PM UTC)
 
 ## 📁 Files Included
 
