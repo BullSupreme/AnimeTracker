@@ -244,6 +244,23 @@ main {
     overflow: hidden;
 }
 
+.card-image-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.4) 85%, rgba(0, 0, 0, 0.8) 100%);
+    opacity: 0;
+    transition: opacity var(--transition-normal);
+    pointer-events: none;
+}
+
+.anime-card:hover .card-image-wrapper::after {
+    opacity: 1;
+}
+
 .anime-poster {
     position: absolute;
     top: 0;
@@ -258,7 +275,8 @@ main {
 }
 
 .anime-card:hover .anime-poster {
-    transform: scale(1.02);
+    transform: scale(1.05);
+    filter: brightness(1.05);
 }
 
 /* Card Overlay */
@@ -268,17 +286,11 @@ main {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.9) 100%);
-    opacity: 0;
-    transition: opacity var(--transition-normal);
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
-    padding: 1rem;
-}
-
-.anime-card:hover .card-overlay {
-    opacity: 1;
+    pointer-events: auto;
+    z-index: 10;
 }
 
 /* Favorite Button */

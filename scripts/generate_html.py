@@ -15,14 +15,21 @@ def load_data():
         with open('data/metadata.json', 'r', encoding='utf-8') as f:
             metadata = json.load(f)
         
-        return anime_data, other_anime_sorted, metadata
+        # Load manual streaming links
+        manual_streaming_links = {}
+        manual_streaming_path = 'data/manual_streaming_links.json'
+        if os.path.exists(manual_streaming_path):
+            with open(manual_streaming_path, 'r', encoding='utf-8') as f:
+                manual_streaming_links = json.load(f)
+        
+        return anime_data, other_anime_sorted, metadata, manual_streaming_links
     except FileNotFoundError as e:
         print(f"Data file not found: {e}")
-        return [], [], {}
+        return [], [], {}, {}
 
 def generate_html():
     """Generate static HTML file"""
-    anime_data, other_anime_sorted, metadata = load_data()
+    anime_data, other_anime_sorted, metadata, manual_streaming_links = load_data()
     
     if not anime_data:
         print("No anime data found")
@@ -58,6 +65,10 @@ def generate_html():
         <main>
             <!-- List View Section -->
             <div id="list-view" class="tab-content active">
+                <div class="list-controls">
+                    <button class="list-tab active" data-list-tab="all">All Anime</button>
+                    <button class="list-tab" data-list-tab="favorites">Favorites Only</button>
+                </div>
                 <div class="time-section">
                     <h2 class="section-title">
                         <span class="section-icon">🌟</span>
@@ -102,7 +113,19 @@ def generate_html():
                                 </div>
                                 <div class="streaming-links">"""
             
-            for link in anime.get('streaming_links', []):
+            # Get manual streaming links if they exist
+            manual_links = manual_streaming_links.get(anime['name'], [])
+            all_streaming_links = anime.get('streaming_links', []) + manual_links
+            
+            # Remove duplicates based on site name
+            seen_sites = set()
+            unique_links = []
+            for link in all_streaming_links:
+                if link['site'] not in seen_sites:
+                    seen_sites.add(link['site'])
+                    unique_links.append(link)
+            
+            for link in unique_links:
                 html_content += f"""                                    <a href="{link['url']}" target="_blank" title="{link['site']}" class="streaming-link">
                                         <img src="{link['icon']}" alt="{link['site']}">
                                     </a>"""
@@ -157,7 +180,19 @@ def generate_html():
                                 </div>
                                 <div class="streaming-links">"""
             
-            for link in anime.get('streaming_links', []):
+            # Get manual streaming links if they exist
+            manual_links = manual_streaming_links.get(anime['name'], [])
+            all_streaming_links = anime.get('streaming_links', []) + manual_links
+            
+            # Remove duplicates based on site name
+            seen_sites = set()
+            unique_links = []
+            for link in all_streaming_links:
+                if link['site'] not in seen_sites:
+                    seen_sites.add(link['site'])
+                    unique_links.append(link)
+            
+            for link in unique_links:
                 html_content += f"""                                    <a href="{link['url']}" target="_blank" title="{link['site']}" class="streaming-link">
                                         <img src="{link['icon']}" alt="{link['site']}">
                                     </a>"""
