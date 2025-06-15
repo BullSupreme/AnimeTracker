@@ -206,16 +206,27 @@ def process_anime_data(api_data):
         # Get episode info - use nextAiringEpisode if available, otherwise estimate
         episode_number = 1
         release_date = None
+        next_airing_date = None
+        # Initialize next airing preservation variables
+        original_next_episode = None
+        original_next_date = None
         
         if anime.get('nextAiringEpisode'):
             # Has confirmed next episode
             next_episode = anime['nextAiringEpisode']
             airing_timestamp = next_episode['airingAt']
-            episode_number = next_episode['episode']
+            next_episode_number = next_episode['episode']
             
             # Convert timestamp to date string
             airing_date = datetime.fromtimestamp(airing_timestamp)
-            release_date = airing_date.strftime('%Y-%m-%d')
+            next_airing_date = airing_date.strftime('%Y-%m-%d')
+            
+            # Store the original next airing info separately (never modified)
+            original_next_episode = next_episode_number
+            original_next_date = next_airing_date
+            
+            episode_number = next_episode_number
+            release_date = next_airing_date
             
             # Additional check for long-running series even with nextAiringEpisode
             start_year = anime.get('startDate', {}).get('year')
@@ -237,6 +248,8 @@ def process_anime_data(api_data):
             if started_long_ago or is_long_running:
                 # Override release date for long-running series to exclude from today/tomorrow
                 release_date = None
+                # But preserve next_airing_date for display purposes
+                # next_airing_date stays unchanged
             else:
                 # For recent anime with next episode, check if we should show a different episode
                 today_date = datetime.now().date()
@@ -251,6 +264,7 @@ def process_anime_data(api_data):
                         # Next episode airs on the same weekday as today
                         episode_number = episode_number - 1
                         release_date = today_date.strftime('%Y-%m-%d')
+                        # Don't modify original_next_date and original_next_episode
                     else:
                         # Different weekday, calculate when the previous episode aired
                         if start_year and start_month:
@@ -397,12 +411,24 @@ def process_anime_data(api_data):
                         'icon': icon_url
                     })
         
+        # Always prioritize original next airing data when available
+        final_next_airing_date = original_next_date
+        final_next_episode = original_next_episode
+        
+        # Use fallbacks only if original data doesn't exist
+        if not final_next_airing_date:
+            final_next_airing_date = next_airing_date
+        if not final_next_episode:
+            final_next_episode = episode_number
+        
         processed_anime.append({
             'id': anime['id'],
             'name': anime['title']['romaji'],
             'english_title': anime['title'].get('english'),
             'episode': episode_number,
             'release_date': release_date,
+            'next_airing_date': final_next_airing_date,
+            'next_episode_number': final_next_episode,
             'poster_url': anime['coverImage'].get('extraLarge') or anime['coverImage'].get('large') or anime['coverImage']['medium'],
             'site_url': anime['siteUrl'],
             'start_date': start_date,

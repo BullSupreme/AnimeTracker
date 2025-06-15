@@ -740,4 +740,39 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     `;
     document.head.appendChild(modalStyles);
+
+    // Rank badge tooltip functionality
+    function initRankTooltips() {
+        // Create tooltip element
+        const tooltip = document.createElement('div');
+        tooltip.className = 'rank-tooltip';
+        document.body.appendChild(tooltip);
+
+        // Add event listeners to all rank badges
+        document.addEventListener('mouseover', (e) => {
+            if (e.target.classList.contains('popularity-rank-badge')) {
+                const tooltipText = e.target.getAttribute('data-tooltip');
+                if (tooltipText) {
+                    tooltip.textContent = tooltipText;
+                    
+                    // Position tooltip above the badge
+                    const rect = e.target.getBoundingClientRect();
+                    tooltip.style.left = rect.left + (rect.width / 2) - (tooltip.offsetWidth / 2) + 'px';
+                    tooltip.style.top = rect.top - tooltip.offsetHeight - 10 + 'px';
+                    
+                    // Show tooltip
+                    tooltip.classList.add('show');
+                }
+            }
+        });
+
+        document.addEventListener('mouseout', (e) => {
+            if (e.target.classList.contains('popularity-rank-badge')) {
+                tooltip.classList.remove('show');
+            }
+        });
+    }
+
+    // Initialize rank tooltips
+    initRankTooltips();
 });

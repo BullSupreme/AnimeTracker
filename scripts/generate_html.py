@@ -91,7 +91,7 @@ def generate_html():
                                     <button class="favorite-btn" data-anime-id="{anime['id']}">
                                         <span class="favorite-icon">♡</span>
                                     </button>
-                                    <div class="popularity-rank-badge" title="Popularity Rank #{anime['popularity_rank']} ({anime['popularity']} users)">
+                                    <div class="popularity-rank-badge" data-tooltip="🔥 #{anime['popularity_rank']} most popular • {anime['popularity']:,} users tracking">
                                         #{anime['popularity_rank']}
                                     </div>
                                 </div>
@@ -158,7 +158,7 @@ def generate_html():
                                     <button class="favorite-btn" data-anime-id="{anime['id']}">
                                         <span class="favorite-icon">♡</span>
                                     </button>
-                                    <div class="popularity-rank-badge" title="Popularity Rank #{anime['popularity_rank']} ({anime['popularity']} users)">
+                                    <div class="popularity-rank-badge" data-tooltip="🔥 #{anime['popularity_rank']} most popular • {anime['popularity']:,} users tracking">
                                         #{anime['popularity_rank']}
                                     </div>
                                 </div>
@@ -224,7 +224,7 @@ def generate_html():
                                     <button class="favorite-btn" data-anime-id="{anime['id']}">
                                         <span class="favorite-icon">♡</span>
                                     </button>
-                                    <div class="popularity-rank-badge" title="Popularity Rank #{anime['popularity_rank']} ({anime['popularity']} users)">
+                                    <div class="popularity-rank-badge" data-tooltip="🔥 #{anime['popularity_rank']} most popular • {anime['popularity']:,} users tracking">
                                         #{anime['popularity_rank']}
                                     </div>
                                 </div>
@@ -237,10 +237,18 @@ def generate_html():
         if anime.get('english_title'):
             html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
         
-        release_date_display = anime.get('release_date', 'Ongoing')
+        # Use next airing date if available, otherwise use release date
+        next_airing = anime.get('next_airing_date')
+        next_episode_num = anime.get('next_episode_number', anime['episode'])
+        if next_airing:
+            release_date_display = f"Next: {next_airing}"
+            episode_display = f"Next Episode {next_episode_num}"
+        else:
+            release_date_display = anime.get('release_date', 'Ongoing')
+            episode_display = f"Episode {anime['episode']}"
         html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
                                 <div class="episode-info">
-                                    <span class="episode-badge">Episode {anime['episode']}</span>
+                                    <span class="episode-badge">{episode_display}</span>
                                     <a href="{custom_link}" target="_blank" class="main-link-btn">
                                         {link_domain}
                                     </a>

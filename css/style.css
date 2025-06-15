@@ -222,7 +222,7 @@ main {
 }
 
 .anime-card:hover {
-    transform: translateY(-4px);
+    transform: translateY(-4px) scale(1.02);
     background: var(--bg-card-hover);
     box-shadow: var(--shadow-lg);
 }
@@ -275,7 +275,6 @@ main {
 }
 
 .anime-card:hover .anime-poster {
-    transform: scale(1.05);
     filter: brightness(1.05);
 }
 
@@ -291,6 +290,12 @@ main {
     justify-content: flex-end;
     pointer-events: auto;
     z-index: 10;
+    opacity: 0;
+    transition: opacity var(--transition-normal);
+}
+
+.anime-card:hover .card-overlay {
+    opacity: 1;
 }
 
 /* Favorite Button */
@@ -347,11 +352,53 @@ main {
     box-shadow: var(--shadow-md);
     z-index: 10;
     transition: all var(--transition-normal);
+    opacity: 0;
+    cursor: pointer;
+}
+
+.anime-card:hover .popularity-rank-badge {
+    opacity: 1;
 }
 
 .popularity-rank-badge:hover {
     transform: scale(1.1);
     box-shadow: var(--shadow-lg);
+}
+
+/* Custom Rank Tooltip */
+.rank-tooltip {
+    position: fixed;
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(8px);
+    transition: all 0.15s ease;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-lg);
+    z-index: 9999;
+    pointer-events: none;
+}
+
+.rank-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: var(--bg-secondary);
+}
+
+.rank-tooltip.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 }
 
 /* Different colors for different rank tiers */
