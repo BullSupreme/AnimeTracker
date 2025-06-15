@@ -343,7 +343,7 @@ def process_anime_data(api_data):
         streaming_links = []
         streaming_sites = {
             'Crunchyroll', 'Funimation', 'Netflix', 'Hulu', 'Amazon Prime Video', 
-            'Disney Plus', 'HBO Max', 'VRV', 'Hidive', 'HIDIVE', 'AnimeLab', 'Wakanim',
+            'Disney Plus', 'HBO Max', 'VRV', 'Hidive', 'AnimeLab', 'Wakanim',
             'Bilibili', 'iQiyi', 'Tencent Video', 'YouTube', 'Niconico',
             'AbemaTV', 'dAnime Store', 'U-NEXT', 'Muse Asia', 'Oceanveil', 'Crave',
             'Apple TV+', 'Apple TV Plus', 'Peacock'
@@ -360,8 +360,7 @@ def process_anime_data(api_data):
             'YouTube': 'youtube.com',
             'Funimation': 'funimation.com',
             'VRV': 'vrv.co',
-            'Hidive': 'www.hidive.com',
-            'HIDIVE': 'www.hidive.com',
+            'Hidive': 'hidive.com',
             'Bilibili': 'bilibili.com',
             'AnimeLab': 'animelab.com',
             'Wakanim': 'wakanim.tv',

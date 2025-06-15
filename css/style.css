@@ -146,7 +146,7 @@ header h1 {
 main {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .tab-content {
@@ -205,7 +205,7 @@ main {
 }
 
 .other-grid {
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
 }
 
 /* Anime Cards */
@@ -590,35 +590,6 @@ main {
     border-radius: 4px;
     max-width: 32px;
     max-height: 32px;
-}
-
-/* List View Controls */
-.list-controls {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 0.5rem;
-}
-
-.list-tab {
-    padding: 0.5rem 1.5rem;
-    background: var(--bg-card);
-    border: 1px solid var(--border-color);
-    color: var(--text-secondary);
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all var(--transition-normal);
-}
-
-.list-tab:hover {
-    background: var(--bg-card-hover);
-    color: var(--text-primary);
-}
-
-.list-tab.active {
-    background: var(--accent-primary);
-    color: white;
-    border-color: var(--accent-primary);
 }
 
 /* Calendar View */
@@ -1111,7 +1082,7 @@ main {
     .today-grid,
     .tomorrow-grid,
     .other-grid {
-        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     }
     
     .calendar-grid {
