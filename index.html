@@ -19,8 +19,19 @@
             <!-- List View Section -->
             <div id="list-view" class="tab-content active">
                 <div class="list-controls">
-                    <button class="list-tab active" data-list-tab="all">All Anime</button>
-                    <button class="list-tab" data-list-tab="favorites">Favorites Only</button>
+                    <div class="filter-controls">
+                        <button class="list-tab active" data-list-tab="all">All Anime</button>
+                        <button class="list-tab" data-list-tab="favorites">Favorites Only</button>
+                    </div>
+                    <div class="layout-controls">
+                        <label for="layout-selector">Layout:</label>
+                        <select id="layout-selector" class="layout-selector">
+                            <option value="grid">Grid View</option>
+                            <option value="compact">Compact List</option>
+                            <option value="table">Table View</option>
+                            <option value="poster">Poster Wall</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="time-section">
                     <h2 class="section-title">

@@ -83,6 +83,151 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Layout switching functionality
+    const layoutSelector = document.getElementById('layout-selector');
+    const listView = document.getElementById('list-view');
+    
+    // Load saved layout preference
+    const savedLayout = getCookie('layout') || 'grid';
+    if (layoutSelector) {
+        layoutSelector.value = savedLayout;
+        applyLayout(savedLayout);
+    }
+    
+    // Handle layout changes
+    if (layoutSelector) {
+        layoutSelector.addEventListener('change', (e) => {
+            const selectedLayout = e.target.value;
+            applyLayout(selectedLayout);
+            setCookie('layout', selectedLayout, 365); // Save for 1 year
+        });
+    }
+    
+    function applyLayout(layout) {
+        // Remove all layout classes
+        listView.classList.remove('layout-grid', 'layout-compact', 'layout-table', 'layout-poster');
+        
+        // Add the selected layout class
+        listView.classList.add(`layout-${layout}`);
+        
+        // Special handling for different layouts
+        if (layout === 'table') {
+            addTableHeaders();
+            restructureForTable();
+        } else {
+            removeTableHeaders();
+            restoreOriginalStructure();
+            if (layout === 'compact') {
+                restructureForCompact();
+            }
+        }
+    }
+    
+    function addTableHeaders() {
+        // Add table headers for table layout
+        const sections = document.querySelectorAll('.time-section');
+        sections.forEach(section => {
+            const grid = section.querySelector('.anime-grid');
+            if (grid && !grid.querySelector('.table-header')) {
+                const headerRow = document.createElement('div');
+                headerRow.className = 'table-header anime-card';
+                headerRow.style.fontWeight = 'bold';
+                headerRow.style.background = 'var(--bg-secondary)';
+                headerRow.innerHTML = `
+                    <div class="table-cell-poster">Poster</div>
+                    <div class="table-cell-title">Title</div>
+                    <div class="table-cell-episode">Episode</div>
+                    <div class="table-cell-streaming">Streaming</div>
+                `;
+                grid.insertBefore(headerRow, grid.firstChild);
+            }
+        });
+    }
+    
+    function removeTableHeaders() {
+        // Remove table headers
+        document.querySelectorAll('.table-header').forEach(header => {
+            header.remove();
+        });
+    }
+    
+    function restructureForTable() {
+        // Restructure anime cards for table layout
+        const animeCards = document.querySelectorAll('.anime-card:not(.table-header)');
+        animeCards.forEach(card => {
+            // Skip if already restructured
+            if (card.querySelector('.table-cell-poster')) return;
+            
+            // Get original elements
+            const imageWrapper = card.querySelector('.card-image-wrapper');
+            const poster = imageWrapper?.querySelector('.anime-poster');
+            const cardInfo = card.querySelector('.card-info');
+            const title = cardInfo?.querySelector('.anime-title');
+            const episodeInfo = cardInfo?.querySelector('.episode-info');
+            const streamingLinks = cardInfo?.querySelector('.streaming-links');
+            
+            // Store original structure
+            card.setAttribute('data-original-structure', card.innerHTML);
+            
+            // Create table cell structure
+            card.innerHTML = `
+                <div class="table-cell-poster">
+                    ${poster ? `<img src="${poster.src}" alt="${poster.alt}">` : ''}
+                </div>
+                <div class="table-cell-title">
+                    ${title ? title.textContent : 'Unknown Title'}
+                </div>
+                <div class="table-cell-episode">
+                    ${episodeInfo ? episodeInfo.textContent : 'N/A'}
+                </div>
+                <div class="table-cell-streaming">
+                    ${streamingLinks ? streamingLinks.innerHTML : ''}
+                </div>
+            `;
+        });
+    }
+    
+    function restoreOriginalStructure() {
+        // Restore original structure for non-table layouts
+        const animeCards = document.querySelectorAll('.anime-card:not(.table-header)');
+        animeCards.forEach(card => {
+            const originalStructure = card.getAttribute('data-original-structure');
+            if (originalStructure) {
+                card.innerHTML = originalStructure;
+                card.removeAttribute('data-original-structure');
+            }
+        });
+    }
+    
+    function restructureForCompact() {
+        // Restructure card-info for compact layout
+        const animeCards = document.querySelectorAll('.anime-card');
+        animeCards.forEach(card => {
+            const cardInfo = card.querySelector('.card-info');
+            if (!cardInfo || cardInfo.querySelector('.anime-info-text')) return;
+            
+            // Get all the elements we need to reorganize
+            const englishTitle = cardInfo.querySelector('.anime-english-title');
+            const title = cardInfo.querySelector('.anime-title');
+            const episodeInfo = cardInfo.querySelector('.episode-info');
+            const streamingLinks = cardInfo.querySelector('.streaming-links');
+            
+            // Create wrapper for text info
+            const infoTextWrapper = document.createElement('div');
+            infoTextWrapper.className = 'anime-info-text';
+            
+            // Move title and episode info into the wrapper
+            if (englishTitle) infoTextWrapper.appendChild(englishTitle);
+            if (title) infoTextWrapper.appendChild(title);
+            if (episodeInfo) infoTextWrapper.appendChild(episodeInfo);
+            
+            // Clear card-info and rebuild structure
+            cardInfo.innerHTML = '';
+            cardInfo.appendChild(infoTextWrapper);
+            if (streamingLinks) cardInfo.appendChild(streamingLinks);
+        });
+    }
+
     // Change month function
     function changeMonth(direction) {
         window.currentCalendarMonth = (window.currentCalendarMonth !== undefined ? window.currentCalendarMonth : new Date().getMonth()) + direction;
