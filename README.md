@@ -25,19 +25,12 @@ A beautiful, responsive anime tracking website that displays currently airing an
 
 - 🌟 Today's & Tomorrow's anime releases
 - 📺 Next airing episodes with future dates
-- 🎨 Colored rank badges (Gold/Silver/Bronze)
+- 🎨 Colored User Tracking rank badges (Gold/Silver/Bronze)
 - ⭐ Favorites system (browser cookies)
 - 📱 Fully responsive design
 - 🔄 Automatic data updates twice daily
-- 💫 Hover-only UI elements (favorites, ranks)
+- 💫 Hover UI elements (favorites, ranks)
 - 🚀 Fast custom tooltips
-
-## 🛠 Manual Updates
-
-```bash
-python3 scripts/fetch_anime_data.py
-python3 scripts/generate_html.py
-```
 
 ## 🔗 GitHub Actions
 
@@ -52,7 +45,7 @@ Perfect for GitHub Pages hosting! 🎉
 
 ### Version 3.1 (Current)
 - Bug fixes and performance improvements
-- Enhanced next episode tracking
+- Enhanced next episode tracking logic.
 
 ### Version 3.0
 - Enhanced UI with hover-only elements (favorites, rank badges)
@@ -60,7 +53,6 @@ Perfect for GitHub Pages hosting! 🎉
 - Dedicated Favorites tab with improved layout
 - Next season anime preview section
 - GitHub Pages deployment with GitHub Actions for automatic updates
-- Fast custom tooltips replacing browser defaults
 
 ### Version 2.0
 - Complete refactor to Python backend with HTML/JavaScript/CSS frontend
@@ -68,6 +60,7 @@ Perfect for GitHub Pages hosting! 🎉
 - Full current season anime library using AniList API
 - PyInstaller executable for easy distribution to friends
 - Responsive web-based interface
+- Distrubuted to Friends only using Pyinstaller .exe conversion.
 
 ### Version 1.0
 - Small Python application using CustomTkinter module for UI
