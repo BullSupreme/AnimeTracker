@@ -12,9 +12,9 @@ A beautiful, responsive anime tracking website that displays currently airing an
 
 This repository is designed specifically for GitHub Pages deployment using GitHub Actions. The Python scripts handle API data fetching and processing logic to generate static HTML files. If you want to run this locally or on your own server, you'll need:
 
-- Python backend to fetch data from AniList API
-- Data processing logic to organize and display anime by release dates
-- A way to regularly update the data (cron job, scheduled tasks, etc.)
+- Python backend to fetch data from an API (AniList)
+- Data processing logic to organize and display anime per their release dates/airing dates and status.
+- A way to regularly update the data (cron job, scheduled tasks, manually).
 
 ## 🚀 Features
 
