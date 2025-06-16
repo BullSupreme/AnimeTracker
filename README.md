@@ -8,6 +8,14 @@ A beautiful, responsive anime tracking website that displays currently airing an
 
 🔗 **[View Live Site](https://bullsupreme.github.io/AnimeTracker/)**
 
+## 📋 Important Note
+
+This repository is designed specifically for GitHub Pages deployment using GitHub Actions. The Python scripts handle API data fetching and processing logic to generate static HTML files. If you want to run this locally or on your own server, you'll need:
+
+- Python backend to fetch data from AniList API
+- Data processing logic to organize and display anime by release dates
+- A way to regularly update the data (cron job, scheduled tasks, etc.)
+
 ## 🚀 Features
 
 **Automatic updates**: Runs twice daily (8 AM & 8 PM UTC)
