@@ -165,20 +165,36 @@ document.addEventListener('DOMContentLoaded', () => {
             
             const currentDate = new Date(currentYear, currentMonth, day);
             const dateStr = currentDate.toISOString().split('T')[0];
+            const dayOfWeek = currentDate.getDay(); // 0 = Sunday, 6 = Saturday
             const isToday = day === today.getDate() && currentMonth === today.getMonth() && currentYear === today.getFullYear();
+            const isWeekend = dayOfWeek === 0 || dayOfWeek === 6; // Sunday or Saturday
             
             if (isToday) {
                 dayDiv.classList.add('today');
             }
             
-            // Add day number
+            if (isWeekend) {
+                dayDiv.classList.add('weekend');
+            }
+            
+            // Add day number (clickable)
             const dayNumber = document.createElement('div');
             dayNumber.className = 'calendar-day-number';
             dayNumber.textContent = day;
+            
+            // Make day number clickable if there are anime for this day
+            const dayAnime = animeByDate[dateStr] || [];
+            if (dayAnime.length > 0) {
+                dayNumber.classList.add('clickable');
+                dayNumber.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    showExpandedDayView(dateStr, dayAnime);
+                });
+            }
+            
             dayDiv.appendChild(dayNumber);
             
             // Add anime for this day
-            const dayAnime = animeByDate[dateStr] || [];
             const animeContainer = document.createElement('div');
             animeContainer.className = 'calendar-day-anime';
             
@@ -308,6 +324,72 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                     </div>
                 `).join('')}
+            </div>
+        `;
+        
+        modal.classList.add('active');
+    }
+    
+    // Show expanded day view
+    function showExpandedDayView(date, animeList) {
+        const modal = document.getElementById('anime-modal');
+        const modalBody = document.querySelector('.modal-body');
+        
+        const dateObj = new Date(date);
+        const dayName = dateObj.toLocaleDateString('en-US', { weekday: 'long' });
+        const dayNumber = dateObj.getDate();
+        const monthName = dateObj.toLocaleDateString('en-US', { month: 'long' });
+        const year = dateObj.getFullYear();
+        
+        modalBody.innerHTML = `
+            <div class="expanded-day-view">
+                <div class="expanded-day-header">
+                    <div class="expanded-day-number">${dayNumber}</div>
+                    <div class="expanded-day-info">
+                        <h2>${dayName}</h2>
+                        <p>${monthName} ${year}</p>
+                        <p class="anime-count">${animeList.length} anime airing</p>
+                    </div>
+                </div>
+                <div class="expanded-day-anime-grid">
+                    ${animeList.map(anime => {
+                        const customLink = window.customLinks[anime.name] || anime.site_url;
+                        const isFavorite = favorites.includes(anime.id.toString());
+                        
+                        return `
+                            <div class="expanded-anime-card ${isFavorite ? 'favorite' : ''}" data-anime-id="${anime.id}">
+                                <div class="expanded-anime-poster">
+                                    <img src="${anime.poster_url}" alt="${anime.name}">
+                                    <div class="expanded-anime-overlay">
+                                        <button class="expanded-favorite-btn" onclick="toggleFavorite('${anime.id}')">
+                                            ${isFavorite ? '♥' : '♡'}
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="expanded-anime-info">
+                                    <h3 class="expanded-anime-title" title="${anime.name}">${anime.name}</h3>
+                                    ${anime.english_title ? `<p class="expanded-anime-english">${anime.english_title}</p>` : ''}
+                                    <div class="expanded-anime-details">
+                                        <span class="expanded-episode-badge">Episode ${anime.episode}</span>
+                                        ${anime.next_airing_date && anime.next_airing_date !== anime.release_date ? 
+                                            `<span class="expanded-next-episode">Next: ${anime.next_episode_number || anime.episode + 1}</span>` : ''}
+                                    </div>
+                                    <div class="expanded-streaming-links">
+                                        ${anime.streaming_links.slice(0, 3).map(link => `
+                                            <a href="${link.url}" target="_blank" class="expanded-streaming-link" title="${link.site}">
+                                                <img src="${link.icon}" alt="${link.site}">
+                                            </a>
+                                        `).join('')}
+                                        ${anime.streaming_links.length > 3 ? `<span class="more-links">+${anime.streaming_links.length - 3}</span>` : ''}
+                                    </div>
+                                    <button class="expanded-view-details" onclick="showAnimeModal(${JSON.stringify(anime).replace(/"/g, '&quot;')})">
+                                        View Details
+                                    </button>
+                                </div>
+                            </div>
+                        `;
+                    }).join('')}
+                </div>
             </div>
         `;
         
@@ -746,6 +828,253 @@ document.addEventListener('DOMContentLoaded', () => {
                 max-width: 200px;
                 height: auto;
                 margin: 0 auto 1rem;
+            }
+        }
+        
+        /* Expanded Day View Styles */
+        .expanded-day-view {
+            width: 100%;
+            max-width: 1200px;
+        }
+        
+        .expanded-day-header {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+        
+        .expanded-day-number {
+            font-size: 4rem;
+            font-weight: bold;
+            color: var(--accent-primary);
+            background: var(--bg-card);
+            border: 2px solid var(--accent-primary);
+            border-radius: 12px;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        
+        .expanded-day-info h2 {
+            margin: 0 0 0.5rem 0;
+            font-size: 2.5rem;
+            color: var(--text-primary);
+        }
+        
+        .expanded-day-info p {
+            margin: 0;
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+        
+        .anime-count {
+            color: var(--accent-gold) !important;
+            font-weight: 500;
+        }
+        
+        .expanded-day-anime-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .expanded-anime-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all var(--transition-normal);
+        }
+        
+        .expanded-anime-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+            border-color: var(--accent-primary);
+        }
+        
+        .expanded-anime-card.favorite {
+            border-color: var(--accent-gold);
+        }
+        
+        .expanded-anime-poster {
+            position: relative;
+            height: 180px;
+            overflow: hidden;
+        }
+        
+        .expanded-anime-poster img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .expanded-anime-overlay {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 0.5rem;
+            background: linear-gradient(135deg, transparent 30%, rgba(0,0,0,0.8));
+            opacity: 0;
+            transition: opacity var(--transition-normal);
+        }
+        
+        .expanded-anime-card:hover .expanded-anime-overlay {
+            opacity: 1;
+        }
+        
+        .expanded-favorite-btn {
+            background: none;
+            border: none;
+            color: var(--accent-gold);
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: transform var(--transition-normal);
+        }
+        
+        .expanded-favorite-btn:hover {
+            transform: scale(1.2);
+        }
+        
+        .expanded-anime-info {
+            padding: 1rem;
+        }
+        
+        .expanded-anime-title {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            line-height: 1.3;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        .expanded-anime-english {
+            margin: 0 0 0.75rem 0;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        .expanded-anime-details {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 0.75rem;
+            flex-wrap: wrap;
+        }
+        
+        .expanded-episode-badge {
+            background: var(--accent-primary);
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        .expanded-next-episode {
+            background: var(--accent-secondary);
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        .expanded-streaming-links {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .expanded-streaming-link {
+            width: 28px;
+            height: 28px;
+            border-radius: 4px;
+            overflow: hidden;
+            transition: transform var(--transition-normal);
+        }
+        
+        .expanded-streaming-link:hover {
+            transform: scale(1.1);
+        }
+        
+        .expanded-streaming-link img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .more-links {
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+        }
+        
+        .expanded-view-details {
+            width: 100%;
+            padding: 0.5rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            color: var(--text-primary);
+            cursor: pointer;
+            transition: all var(--transition-normal);
+        }
+        
+        .expanded-view-details:hover {
+            background: var(--accent-primary);
+            color: white;
+            border-color: var(--accent-primary);
+        }
+        
+        .calendar-day-number.clickable {
+            cursor: pointer;
+            transition: all var(--transition-normal);
+        }
+        
+        .calendar-day-number.clickable:hover {
+            background: var(--accent-primary);
+            color: white;
+            border-radius: 4px;
+            transform: scale(1.1);
+        }
+        
+        @media (max-width: 768px) {
+            .expanded-day-header {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
+            }
+            
+            .expanded-day-number {
+                width: 80px;
+                height: 80px;
+                font-size: 3rem;
+            }
+            
+            .expanded-day-info h2 {
+                font-size: 2rem;
+            }
+            
+            .expanded-day-anime-grid {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+                gap: 1rem;
             }
         }
     `;

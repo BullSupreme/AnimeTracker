@@ -242,7 +242,7 @@ def generate_html():
         next_episode_num = anime.get('next_episode_number', anime['episode'])
         if next_airing:
             release_date_display = f"Next: {next_airing}"
-            episode_display = f"Next Episode {next_episode_num}"
+            episode_display = f"Episode {next_episode_num}"
         else:
             release_date_display = anime.get('release_date', 'Ongoing')
             episode_display = f"Episode {anime['episode']}"

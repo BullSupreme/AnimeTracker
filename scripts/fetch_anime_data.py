@@ -123,15 +123,32 @@ def process_anime_data(api_data):
         'Anpanman'
     ]
     
+    # Exception list for long-running anime we want to keep
+    long_running_exceptions = [
+        'ONE PIECE',
+        'Naruto',
+        'Detective Conan',
+        'Boruto'
+    ]
+    
     for anime in api_data['data']['Page']['media']:
-        # Skip anime that started too long ago
+        # Skip anime that started too long ago (unless it's in our exception list)
         start_year = anime.get('startDate', {}).get('year')
-        if start_year and start_year < cutoff_date.year:
+        anime_title = anime['title']['romaji']
+        anime_title_english = anime['title'].get('english') or ''
+        
+        # Check if this is an exception anime
+        is_exception = False
+        for exception in long_running_exceptions:
+            if (exception.lower() in anime_title.lower() or 
+                exception.lower() in anime_title_english.lower()):
+                is_exception = True
+                break
+        
+        if start_year and start_year < cutoff_date.year and not is_exception:
             continue  # Skip this anime entirely
             
         # Skip kids anime
-        anime_title = anime['title']['romaji']
-        anime_title_english = anime['title'].get('english') or ''
         
         # Check if title contains any kids anime keywords
         is_kids_anime = False
@@ -245,7 +262,15 @@ def process_anime_data(api_data):
             # Also consider high episode counts as indication of long-running series
             is_long_running = episode_number > 50
             
-            if started_long_ago or is_long_running:
+            # Check if this is an exception anime (same logic as above)
+            is_exception_anime = False
+            for exception in long_running_exceptions:
+                if (exception.lower() in anime_title.lower() or 
+                    exception.lower() in anime_title_english.lower()):
+                    is_exception_anime = True
+                    break
+            
+            if (started_long_ago or is_long_running) and not is_exception_anime:
                 # Override release date for long-running series to exclude from today/tomorrow
                 release_date = None
                 # But preserve next_airing_date for display purposes
