@@ -297,7 +297,7 @@ def generate_html():
                         <span class="section-icon">🎭</span>
                         Next Seasonal Anime ({next_season} {next_season_year})
                     </h2>
-                    <div class="anime-grid other-grid">
+                    <div class="anime-grid upcoming-grid">
 """
         
         # Add upcoming anime (limited to top 20 by popularity)
