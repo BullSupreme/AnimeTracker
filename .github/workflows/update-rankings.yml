@@ -29,6 +29,11 @@ jobs:
         echo "Fetching anime data..."
         python scripts/fetch_anime_data.py || echo "API fetch failed, continuing with existing data..."
         
+    - name: Fetch MAL scores
+      run: |
+        echo "Fetching MAL scores..."
+        python scripts/fetch_mal_scores.py || echo "MAL fetch failed, continuing with existing data..."
+        
     - name: Fetch AniTrendz rankings
       run: |
         echo "Fetching AniTrendz rankings..."

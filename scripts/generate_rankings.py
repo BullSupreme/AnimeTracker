@@ -106,8 +106,7 @@ def generate_rankings_html():
     <header>
         <h1>🏆 Anime Rankings</h1>
         <nav>
-            <a href="/" class="back-btn">← Back to Tracker</a>
-            <button id="update-btn" class="update-btn">🔄 Update</button>
+            <a href="https://bullsupreme.github.io/AnimeTracker/" class="back-btn">← Back to Tracker</a>
         </nav>
     </header>
 
@@ -273,18 +272,6 @@ def generate_rankings_html():
             Last updated: ''' + datetime.now().strftime('%Y-%m-%d %H:%M UTC') + '''
         </div>
     </main>
-
-    <!-- Update Modal -->
-    <div id="update-modal" class="modal" style="display: none;">
-        <div class="modal-content">
-            <div class="loading-spinner"></div>
-            <h3 id="modal-title">Updating Rankings...</h3>
-            <div id="modal-status">
-                <p>🔄 Starting update process...</p>
-            </div>
-            <button id="modal-close" class="modal-close" style="display: none;">✕ Close</button>
-        </div>
-    </div>
 
     <script src="js/rankings.js"></script>
 </body>

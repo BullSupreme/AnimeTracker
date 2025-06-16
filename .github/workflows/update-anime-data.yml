@@ -27,6 +27,9 @@ jobs:
     - name: Fetch anime data
       run: python3 scripts/fetch_anime_data.py
       
+    - name: Fetch MAL scores
+      run: python3 scripts/fetch_mal_scores.py
+      
     - name: Generate HTML
       run: python3 scripts/generate_html.py
       
