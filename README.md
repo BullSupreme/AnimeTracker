@@ -1,6 +1,12 @@
-# Anime Tracker v3.0 - GitHub Pages Edition
+# Anime Tracker
+
+![Version](https://img.shields.io/badge/version-3.1-blue)
+![Release](https://img.shields.io/badge/release-stable-green)
+[![GitHub Pages](https://img.shields.io/badge/demo-live-brightgreen)](https://bullsupreme.github.io/AnimeTracker/)
 
 A beautiful, responsive anime tracking website that displays currently airing anime with automatic updates via GitHub Actions.
+
+🔗 **[View Live Demo](https://bullsupreme.github.io/AnimeTracker/)**
 
 ## 🚀 Features
 
@@ -41,3 +47,30 @@ The workflow automatically:
 - Commits and deploys changes
 
 Perfect for GitHub Pages hosting! 🎉
+
+## 📚 Version History
+
+### Version 3.1 (Current)
+- Bug fixes and performance improvements
+- Enhanced next episode tracking
+
+### Version 3.0
+- Enhanced UI with hover-only elements (favorites, rank badges)
+- Calendar feature for organized viewing
+- Dedicated Favorites tab with improved layout
+- Next season anime preview section
+- GitHub Pages deployment with GitHub Actions for automatic updates
+- Fast custom tooltips replacing browser defaults
+
+### Version 2.0
+- Complete refactor to Python backend with HTML/JavaScript/CSS frontend
+- Basic favorite functionality with browser storage
+- Full current season anime library using AniList API
+- PyInstaller executable for easy distribution to friends
+- Responsive web-based interface
+
+### Version 1.0
+- Small Python application using CustomTkinter module for UI
+- Basic weekly anime display with streaming links
+- MyAnimeList API integration
+- Desktop application for personal use
