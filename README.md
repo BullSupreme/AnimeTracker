@@ -2,11 +2,11 @@
 
 ![Version](https://img.shields.io/badge/version-3.1-blue)
 ![Release](https://img.shields.io/badge/release-stable-green)
-[![GitHub Pages](https://img.shields.io/badge/demo-live-brightgreen)](https://bullsupreme.github.io/AnimeTracker/)
+[![GitHub Pages](https://img.shields.io/badge/live-site-brightgreen)](https://bullsupreme.github.io/AnimeTracker/)
 
 A beautiful, responsive anime tracking website that displays currently airing anime with automatic updates via GitHub Actions.
 
-🔗 **[View Live Demo](https://bullsupreme.github.io/AnimeTracker/)**
+🔗 **[View Live Site](https://bullsupreme.github.io/AnimeTracker/)**
 
 ## 🚀 Features
 
