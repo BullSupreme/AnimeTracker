@@ -83,6 +83,24 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Change month function
+    function changeMonth(direction) {
+        window.currentCalendarMonth = (window.currentCalendarMonth !== undefined ? window.currentCalendarMonth : new Date().getMonth()) + direction;
+        window.currentCalendarYear = window.currentCalendarYear !== undefined ? window.currentCalendarYear : new Date().getFullYear();
+        
+        if (window.currentCalendarMonth > 11) {
+            window.currentCalendarMonth = 0;
+            window.currentCalendarYear++;
+        } else if (window.currentCalendarMonth < 0) {
+            window.currentCalendarMonth = 11;
+            window.currentCalendarYear--;
+        }
+        
+        // Re-render with new month
+        const isFavoritesView = document.querySelector('.calendar-tab.active').getAttribute('data-calendar-tab') === 'favorites';
+        renderCalendar(isFavoritesView);
+    }
+
     // Initialize calendar function
     function initializeCalendar() {
         renderCalendar(false);
@@ -98,8 +116,11 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Get current date info
         const today = new Date();
-        const currentMonth = today.getMonth();
-        const currentYear = today.getFullYear();
+        
+        // Use global calendar month/year if set, otherwise use current date
+        const currentMonth = window.currentCalendarMonth !== undefined ? window.currentCalendarMonth : today.getMonth();
+        const currentYear = window.currentCalendarYear !== undefined ? window.currentCalendarYear : today.getFullYear();
+        
         const firstDay = new Date(currentYear, currentMonth, 1);
         const lastDay = new Date(currentYear, currentMonth + 1, 0);
         const firstDayOfWeek = firstDay.getDay();
@@ -113,10 +134,17 @@ document.addEventListener('DOMContentLoaded', () => {
             calendarGrid.parentElement.insertBefore(monthHeader, calendarGrid);
         }
         monthHeader.innerHTML = `
-            <button class="month-nav-btn" onclick="changeMonth(-1)">‹</button>
+            <button class="month-nav-btn" id="prev-month-btn">‹</button>
             <h3>${firstDay.toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}</h3>
-            <button class="month-nav-btn" onclick="changeMonth(1)">›</button>
+            <button class="month-nav-btn" id="next-month-btn">›</button>
         `;
+        
+        // Add event listeners for month navigation
+        const prevBtn = monthHeader.querySelector('#prev-month-btn');
+        const nextBtn = monthHeader.querySelector('#next-month-btn');
+        
+        prevBtn.addEventListener('click', () => changeMonth(-1));
+        nextBtn.addEventListener('click', () => changeMonth(1));
         
         // Add day headers
         const dayHeaders = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
@@ -129,14 +157,24 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Group anime by date
         const animeByDate = {};
-        window.animeData.forEach(anime => {
+        
+        // Combine current and upcoming anime for calendar view
+        const allAnime = [];
+        if (window.animeData && Array.isArray(window.animeData)) {
+            allAnime.push(...window.animeData);
+        }
+        if (window.upcomingAnime && Array.isArray(window.upcomingAnime)) {
+            allAnime.push(...window.upcomingAnime);
+        }
+        
+        allAnime.forEach(anime => {
             if (favoritesOnly && !favorites.includes(anime.id.toString())) {
                 return;
             }
             
             // Add anime to both release_date and next_airing_date if they're different
             const dates = [];
-            if (anime.release_date) {
+            if (anime.release_date && anime.release_date !== 'TBD') {
                 dates.push(anime.release_date);
             }
             if (anime.next_airing_date && anime.next_airing_date !== anime.release_date) {
@@ -291,21 +329,6 @@ document.addEventListener('DOMContentLoaded', () => {
         window.currentCalendarYear = currentYear;
     }
     
-    // Change month function
-    window.changeMonth = function(direction) {
-        window.currentCalendarMonth += direction;
-        if (window.currentCalendarMonth > 11) {
-            window.currentCalendarMonth = 0;
-            window.currentCalendarYear++;
-        } else if (window.currentCalendarMonth < 0) {
-            window.currentCalendarMonth = 11;
-            window.currentCalendarYear--;
-        }
-        
-        // Re-render with new month
-        const isFavoritesView = document.querySelector('.calendar-tab.active').getAttribute('data-calendar-tab') === 'favorites';
-        renderCalendar(isFavoritesView);
-    }
     
     // Show all anime for a specific day
     function showDayAnimeList(date, animeList) {

@@ -1150,6 +1150,26 @@ main {
     color: var(--text-secondary);
 }
 
+/* Upcoming Anime Card Styling */
+.upcoming-card {
+    border-color: var(--accent-secondary);
+}
+
+.anime-details {
+    margin-top: 0.5rem;
+}
+
+.studio-info {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    font-weight: 500;
+    padding: 0.2rem 0.5rem;
+    background: rgba(139, 92, 246, 0.1);
+    border-radius: 12px;
+    border: 1px solid rgba(139, 92, 246, 0.3);
+    text-align: center;
+}
+
 /* Responsive Design */
 @media (max-width: 1200px) {
     .today-grid {

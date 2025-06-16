@@ -15,6 +15,13 @@ def load_data():
         with open('data/metadata.json', 'r', encoding='utf-8') as f:
             metadata = json.load(f)
         
+        # Load upcoming seasonal anime
+        upcoming_anime = []
+        upcoming_path = 'data/upcoming_seasonal_anime.json'
+        if os.path.exists(upcoming_path):
+            with open(upcoming_path, 'r', encoding='utf-8') as f:
+                upcoming_anime = json.load(f)
+        
         # Load manual streaming links
         manual_streaming_links = {}
         manual_streaming_path = 'data/manual_streaming_links.json'
@@ -22,14 +29,14 @@ def load_data():
             with open(manual_streaming_path, 'r', encoding='utf-8') as f:
                 manual_streaming_links = json.load(f)
         
-        return anime_data, other_anime_sorted, metadata, manual_streaming_links
+        return anime_data, other_anime_sorted, metadata, upcoming_anime, manual_streaming_links
     except FileNotFoundError as e:
         print(f"Data file not found: {e}")
-        return [], [], {}, {}
+        return [], [], {}, [], {}
 
 def generate_html():
     """Generate static HTML file"""
-    anime_data, other_anime_sorted, metadata, manual_streaming_links = load_data()
+    anime_data, other_anime_sorted, metadata, upcoming_anime, manual_streaming_links = load_data()
     
     if not anime_data:
         print("No anime data found")
@@ -265,9 +272,59 @@ def generate_html():
                             </div>
                         </div>"""
     
-    html_content += f"""                    </div>
-                </div>
-            </div>
+    html_content += """                    </div>
+                </div>"""
+    
+    # Add upcoming seasonal anime section if we have data
+    if upcoming_anime:
+        next_season = metadata.get('next_season', 'Summer').title()
+        next_season_year = metadata.get('next_season_year', 2025)
+        
+        html_content += f"""                <div class="time-section">
+                    <h2 class="section-title">
+                        <span class="section-icon">🎭</span>
+                        Next Seasonal Anime ({next_season} {next_season_year})
+                    </h2>
+                    <div class="anime-grid other-grid">
+"""
+        
+        # Add upcoming anime (limited to top 20 by popularity)
+        for anime in upcoming_anime[:20]:
+            html_content += f"""                        <div class="anime-card upcoming-card" data-name="{anime['name']}" data-link="{anime['site_url']}" data-anime-id="{anime['id']}" data-release="{anime.get('release_date', 'TBD')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
+                            <div class="card-image-wrapper">
+                                <img class="anime-poster" src="{anime['poster_url']}" alt="{anime['name']} poster">
+                                <div class="card-overlay">
+                                    <button class="favorite-btn" data-anime-id="{anime['id']}">
+                                        <span class="favorite-icon">♡</span>
+                                    </button>
+                                    <div class="popularity-rank-badge" data-tooltip="🔥 #{anime['popularity_rank']} most popular upcoming • {anime['popularity']:,} users tracking">
+                                        #{anime['popularity_rank']}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-info">"""
+            
+            if anime.get('english_title'):
+                html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
+            
+            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
+                                <div class="episode-info">
+                                    <span class="episode-badge">Episode 1</span>
+                                    <a href="{anime['site_url']}" target="_blank" class="main-link-btn">
+                                        anilist.co
+                                    </a>
+                                    <span class="release-date">{anime.get('release_date', 'TBD')}</span>
+                                </div>
+                                <div class="anime-details">
+                                    <div class="studio-info">{anime.get('studios', 'TBD')}</div>
+                                </div>
+                            </div>
+                        </div>"""
+        
+        html_content += """                    </div>
+                </div>"""
+    
+    html_content += """            </div>
             <!-- Calendar View Section -->
             <div id="calendar-view" class="tab-content">
                 <div class="calendar-controls">
@@ -303,14 +360,15 @@ def generate_html():
         </div>
         <!-- Footer with last updated info -->
         <footer style="text-align: center; padding: 2rem; color: var(--text-secondary); font-size: 0.875rem;">
-            Last updated: {last_updated.split('T')[0]} at {last_updated.split('T')[1][:8]} UTC
+            Last updated: """ + last_updated.split('T')[0] + """ at """ + last_updated.split('T')[1][:8] + """ UTC
         </footer>
         <!-- Pass anime data to JavaScript -->
         <script>
-            window.animeData = {json.dumps(anime_data)};
-            window.customLinks = {json.dumps(custom_links)};
-            window.todayDate = "{today_date}";
-            window.tomorrowDate = "{tomorrow_date}";
+            window.animeData = """ + json.dumps(anime_data) + """;
+            window.upcomingAnime = """ + json.dumps(upcoming_anime) + """;
+            window.customLinks = """ + json.dumps(custom_links) + """;
+            window.todayDate = \"""" + today_date + """\";
+            window.tomorrowDate = \"""" + tomorrow_date + """\";
         </script>
         <script src="js/script.js"></script>
     </body>

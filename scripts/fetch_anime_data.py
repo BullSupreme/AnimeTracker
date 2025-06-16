@@ -7,6 +7,63 @@ import os
 # Configuration
 ANILIST_API_URL = "https://graphql.anilist.co"
 
+def get_current_season():
+    """Get current season based on current date"""
+    current_month = datetime.now().month
+    if current_month in [1, 2, 3]:
+        return "WINTER"
+    elif current_month in [4, 5, 6]:
+        return "SPRING"
+    elif current_month in [7, 8, 9]:
+        return "SUMMER"
+    else:  # 10, 11, 12
+        return "FALL"
+
+def get_next_season():
+    """Get next season and year"""
+    current_season = get_current_season()
+    current_year = datetime.now().year
+    
+    season_map = {
+        "WINTER": ("SPRING", current_year),
+        "SPRING": ("SUMMER", current_year),
+        "SUMMER": ("FALL", current_year),
+        "FALL": ("WINTER", current_year + 1)
+    }
+    
+    return season_map[current_season]
+
+def is_within_season_threshold():
+    """Check if we're within 3 weeks of next season"""
+    current_month = datetime.now().month
+    current_day = datetime.now().day
+    
+    # Season start dates (approximate)
+    season_starts = {
+        1: (1, 1),   # Winter starts Jan 1
+        4: (4, 1),   # Spring starts Apr 1  
+        7: (7, 1),   # Summer starts Jul 1
+        10: (10, 1)  # Fall starts Oct 1
+    }
+    
+    # Find next season start
+    next_season_month = None
+    for month in [1, 4, 7, 10]:
+        if month > current_month:
+            next_season_month = month
+            break
+    
+    if next_season_month is None:
+        next_season_month = 1  # Next year's winter
+        next_year = datetime.now().year + 1
+        next_season_start = datetime(next_year, 1, 1)
+    else:
+        next_season_start = datetime(datetime.now().year, next_season_month, 1)
+    
+    # Check if within 3 weeks (21 days)
+    days_until_next_season = (next_season_start - datetime.now()).days
+    return days_until_next_season <= 21
+
 def fetch_current_anime():
     """Fetch currently airing anime from AniList API"""
     query = '''
@@ -90,6 +147,94 @@ def fetch_current_anime():
         
     except requests.RequestException as e:
         print(f"Error fetching anime data: {e}")
+        return None
+
+def fetch_upcoming_seasonal_anime():
+    """Fetch upcoming seasonal anime from AniList API"""
+    next_season, next_year = get_next_season()
+    
+    query = '''
+    query ($page: Int, $perPage: Int, $season: MediaSeason, $year: Int) {
+        Page(page: $page, perPage: $perPage) {
+            pageInfo {
+                hasNextPage
+                currentPage
+            }
+            media(status: NOT_YET_RELEASED, type: ANIME, format_in: [TV, ONA, TV_SHORT], season: $season, seasonYear: $year, sort: [POPULARITY_DESC]) {
+                id
+                title {
+                    romaji
+                    english
+                }
+                episodes
+                coverImage {
+                    extraLarge
+                    large
+                    medium
+                }
+                siteUrl
+                startDate {
+                    year
+                    month
+                    day
+                }
+                season
+                seasonYear
+                genres
+                isAdult
+                duration
+                format
+                popularity
+                favourites
+                studios {
+                    nodes {
+                        name
+                    }
+                }
+            }
+        }
+    }
+    '''
+    
+    all_anime = []
+    page = 1
+    per_page = 50
+    
+    try:
+        while True:
+            variables = {
+                'page': page,
+                'perPage': per_page,
+                'season': next_season,
+                'year': next_year
+            }
+            
+            response = requests.post(
+                ANILIST_API_URL,
+                json={'query': query, 'variables': variables},
+                timeout=10
+            )
+            response.raise_for_status()
+            data = response.json()
+            
+            if not data or 'data' not in data:
+                break
+                
+            page_data = data['data']['Page']
+            all_anime.extend(page_data['media'])
+            
+            # Check if there are more pages
+            if not page_data['pageInfo']['hasNextPage']:
+                break
+                
+            page += 1
+            print(f"Fetched upcoming page {page-1}, total anime so far: {len(all_anime)}")
+        
+        # Return in the same format as before
+        return {'data': {'Page': {'media': all_anime}}}
+        
+    except requests.RequestException as e:
+        print(f"Error fetching upcoming anime data: {e}")
         return None
 
 def process_anime_data(api_data):
@@ -382,7 +527,7 @@ def process_anime_data(api_data):
         streaming_links = []
         streaming_sites = {
             'Crunchyroll', 'Funimation', 'Netflix', 'Hulu', 'Amazon Prime Video', 
-            'Disney Plus', 'HBO Max', 'VRV', 'Hidive', 'AnimeLab', 'Wakanim',
+            'Disney Plus', 'HBO Max', 'VRV', 'Hidive', 'HIDIVE', 'AnimeLab', 'Wakanim',
             'Bilibili', 'iQiyi', 'Tencent Video', 'YouTube', 'Niconico',
             'AbemaTV', 'dAnime Store', 'U-NEXT', 'Muse Asia', 'Oceanveil', 'Crave',
             'Apple TV+', 'Apple TV Plus', 'Peacock'
@@ -399,7 +544,8 @@ def process_anime_data(api_data):
             'YouTube': 'youtube.com',
             'Funimation': 'funimation.com',
             'VRV': 'vrv.co',
-            'Hidive': 'hidive.com',
+            'Hidive': 'www.hidive.com',
+            'HIDIVE': 'www.hidive.com',
             'Bilibili': 'bilibili.com',
             'AnimeLab': 'animelab.com',
             'Wakanim': 'wakanim.tv',
@@ -465,6 +611,92 @@ def process_anime_data(api_data):
     processed_anime.sort(key=lambda x: x['popularity'], reverse=True)
     
     # Add popularity ranking to each anime
+    for rank, anime in enumerate(processed_anime, 1):
+        anime['popularity_rank'] = rank
+    
+    return processed_anime
+
+def process_upcoming_anime_data(api_data):
+    """Process upcoming seasonal anime API data"""
+    if not api_data or 'data' not in api_data:
+        return []
+    
+    processed_anime = []
+    
+    # Kids anime blacklist - same as main function
+    kids_anime_keywords = [
+        'Maebashi Witches', 'Shirobuta Kizoku', 'Mashin Souzouden Wataru',
+        'Crayon Shin-chan', 'Doraemon', 'Pokemon', 'Pocket Monsters',
+        'Beyblade', 'Yu-Gi-Oh', 'Digimon', 'PreCure', 'Pretty Cure',
+        'Aikatsu', 'PriPara', 'Yokai Watch', 'Hamtaro', 'Anpanman'
+    ]
+    
+    for anime in api_data['data']['Page']['media']:
+        anime_title = anime['title']['romaji']
+        anime_title_english = anime['title'].get('english') or ''
+        
+        # Skip kids anime
+        is_kids_anime = False
+        for keyword in kids_anime_keywords:
+            if (keyword.lower() in anime_title.lower() or 
+                (anime_title_english and keyword.lower() in anime_title_english.lower())):
+                is_kids_anime = True
+                break
+        
+        if is_kids_anime:
+            continue
+            
+        # Skip low popularity anime (less than 1000 for upcoming anime - lower threshold)
+        popularity = anime.get('popularity', 0)
+        if popularity < 1000:
+            continue
+            
+        # Skip short anime (less than 10 minutes per episode)
+        episode_duration = anime.get('duration')
+        anime_format = anime.get('format')
+        
+        if episode_duration and episode_duration < 10:
+            continue
+        elif anime_format == 'TV_SHORT' and (not episode_duration or episode_duration < 10):
+            continue
+        
+        # Get start date
+        start_date = None
+        start_date_display = "TBD"
+        if anime.get('startDate') and anime['startDate'].get('year'):
+            month = anime['startDate'].get('month') or 1
+            day = anime['startDate'].get('day') or 1
+            start_date = f"{anime['startDate']['year']}-{month:02d}-{day:02d}"
+            start_date_display = start_date
+        
+        # Get studio info
+        studios = []
+        if anime.get('studios') and anime['studios'].get('nodes'):
+            studios = [studio['name'] for studio in anime['studios']['nodes']]
+        studio_display = ', '.join(studios[:2]) if studios else 'TBD'  # Show up to 2 studios
+        
+        processed_anime.append({
+            'id': anime['id'],
+            'name': anime['title']['romaji'],
+            'english_title': anime['title'].get('english'),
+            'episode': 1,  # First episode for upcoming anime
+            'release_date': start_date_display,
+            'poster_url': anime['coverImage'].get('extraLarge') or anime['coverImage'].get('large') or anime['coverImage']['medium'],
+            'site_url': anime['siteUrl'],
+            'start_date': start_date,
+            'season': anime.get('season', '').title(),
+            'season_year': anime.get('seasonYear'),
+            'studios': studio_display,
+            'genres': anime.get('genres', []),
+            'popularity': anime.get('popularity', 0),
+            'favourites': anime.get('favourites', 0),
+            'streaming_links': []  # Will be populated when anime starts airing
+        })
+    
+    # Sort by popularity (highest first)
+    processed_anime.sort(key=lambda x: x['popularity'], reverse=True)
+    
+    # Add popularity ranking
     for rank, anime in enumerate(processed_anime, 1):
         anime['popularity_rank'] = rank
     
@@ -543,10 +775,30 @@ def main():
     with open('data/other_anime_sorted.json', 'w', encoding='utf-8') as f:
         json.dump(other_anime_sorted, f, ensure_ascii=False, indent=2)
     
+    # Fetch upcoming seasonal anime
+    next_season, next_year = get_next_season()
+    print(f"Fetching upcoming {next_season.lower()} {next_year} anime...")
+    
+    upcoming_api_data = fetch_upcoming_seasonal_anime()
+    upcoming_anime = []
+    if upcoming_api_data:
+        upcoming_anime = process_upcoming_anime_data(upcoming_api_data)
+        print(f"Processed {len(upcoming_anime)} upcoming anime")
+        
+        # Save upcoming anime data
+        with open('data/upcoming_seasonal_anime.json', 'w', encoding='utf-8') as f:
+            json.dump(upcoming_anime, f, ensure_ascii=False, indent=2)
+    else:
+        print("Failed to fetch upcoming seasonal anime data")
+    
     # Save metadata
     metadata = {
         'last_updated': datetime.now().isoformat(),
         'total_anime': len(processed_data),
+        'total_upcoming_anime': len(upcoming_anime),
+        'current_season': get_current_season(),
+        'next_season': next_season,
+        'next_season_year': next_year,
         'today_date': today,
         'tomorrow_date': tomorrow
     }
@@ -556,6 +808,7 @@ def main():
     
     print(f"Data saved to data/ directory")
     print(f"Last updated: {metadata['last_updated']}")
+    print(f"Next season: {next_season.title()} {next_year}")
 
 if __name__ == '__main__':
     main()
