@@ -1,0 +1,1770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Rankings - Ultimate Rankings</title>
+    <link rel="stylesheet" href="css/rankings.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>🏆 Anime Rankings</h1>
+        <nav>
+            <a href="/" class="back-btn">← Back to Tracker</a>
+            <button id="update-btn" class="update-btn">🔄 Update</button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="info-section">
+            <p>Comprehensive rankings combining data from multiple sources:</p>
+            <ul>
+                <li>
+                    <a href="https://anilist.co" target="_blank" class="source-link">
+                        <img src="https://anilist.co/favicon.ico" alt="AniList" class="source-favicon">
+                        <div class="source-info">
+                            <strong>AniList</strong>
+                            <small>User tracking & community score</small>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://myanimelist.net" target="_blank" class="source-link">
+                        <img src="https://myanimelist.net/favicon.ico" alt="MyAnimeList" class="source-favicon">
+                        <div class="source-info">
+                            <strong>MyAnimeList</strong>
+                            <small>Critical ratings & member count</small>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://anitrendz.com" target="_blank" class="source-link">
+                        <img src="https://www.google.com/s2/favicons?domain=anitrendz.com&sz=16" alt="AniTrendz" class="source-favicon">
+                        <div class="source-info">
+                            <strong>AniTrendz</strong>
+                            <small>Weekly popularity polls</small>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="controls">
+            <label>
+                Sort by: 
+                <select id="sort-select">
+                    <option value="overall">Overall Score</option>
+                    <option value="weekly">Weekly Score</option>
+                    <option value="anilist">AniList Rank</option>
+                    <option value="mal">MAL Score</option>
+                    <option value="anitrendz">AniTrendz Rank</option>
+                </select>
+            </label>
+            <button id="toggle-onepiece" class="filter-btn" data-hidden="false">
+                🏴‍☠️ Hide One Piece
+            </button>
+        </div>
+
+        <table id="rankings-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Anime</th>
+                    <th class="sortable" data-sort="anilist">AniList<br><small>Rank / Users</small></th>
+                    <th class="sortable" data-sort="mal">MAL<br><small>Score / Members</small></th>
+                    <th class="sortable" data-sort="anitrendz">AniTrendz<br><small>Rank / Trend</small></th>
+                    <th class="sortable" data-sort="weekly">Weekly<br><small>Score</small></th>
+                    <th class="sortable" data-sort="overall">Overall<br><small>Score</small></th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr data-anime-id="21">
+                    <td class="rank">🥇</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg" alt="ONE PIECE" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/21" target="_blank">ONE PIECE</a>
+                            <small>ONE PIECE</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data good">
+                        <strong>#1</strong><br>
+                        <small>610,262 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score good">
+                        <strong>100.0</strong>
+                    </td>
+                    <td class="overall-score good">
+                        <strong>100.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 25.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="176301">
+                    <td class="rank">🥈</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176301-TIGmldLffQGX.jpg" alt="Kusuriya no Hitorigoto 2nd Season" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/176301" target="_blank">Kusuriya no Hitorigoto 2nd Season</a>
+                            <small>The Apothecary Diaries Season 2</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data good">
+                        <strong>#2</strong><br>
+                        <small>110,274 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score good">
+                        <strong>98.0</strong>
+                    </td>
+                    <td class="overall-score good">
+                        <strong>98.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 24.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="149118">
+                    <td class="rank">🥉</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx149118-AOQb0xuTssGl.jpg" alt="Enen no Shouboutai: San no Shou" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/149118" target="_blank">Enen no Shouboutai: San no Shou</a>
+                            <small>Fire Force Season 3</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data good">
+                        <strong>#3</strong><br>
+                        <small>81,625 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score good">
+                        <strong>96.0</strong>
+                    </td>
+                    <td class="overall-score good">
+                        <strong>96.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 24.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="167336">
+                    <td class="rank">4</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx167336-KpGIIBie71OX.png" alt="Lazarus" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/167336" target="_blank">Lazarus</a>
+                            <small>LAZARUS</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data good">
+                        <strong>#4</strong><br>
+                        <small>79,103 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score good">
+                        <strong>94.0</strong>
+                    </td>
+                    <td class="overall-score good">
+                        <strong>94.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 23.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="178680">
+                    <td class="rank">5</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178680-nIAhCizY46ZU.jpg" alt="WIND BREAKER Season 2" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/178680" target="_blank">WIND BREAKER Season 2</a>
+                            <small>WIND BREAKER Season 2</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data good">
+                        <strong>#5</strong><br>
+                        <small>62,267 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score good">
+                        <strong>92.0</strong>
+                    </td>
+                    <td class="overall-score good">
+                        <strong>92.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 23.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="183161">
+                    <td class="rank">6</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183161-5M054tuPmZJX.jpg" alt="Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru?" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/183161" target="_blank">Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru?</a>
+                            <small>The Beginning After the End</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data good">
+                        <strong>#6</strong><br>
+                        <small>60,297 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score good">
+                        <strong>90.0</strong>
+                    </td>
+                    <td class="overall-score good">
+                        <strong>90.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 22.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="156092">
+                    <td class="rank">7</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156092-yHqgQZOF2mbg.jpg" alt="Tu Bian Yingxiong X" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/156092" target="_blank">Tu Bian Yingxiong X</a>
+                            <small>To Be Hero X</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data good">
+                        <strong>#7</strong><br>
+                        <small>55,537 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score good">
+                        <strong>88.0</strong>
+                    </td>
+                    <td class="overall-score good">
+                        <strong>88.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 22.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="180367">
+                    <td class="rank">8</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180367-GlRuB2lG7Kaa.jpg" alt="Witch Watch" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/180367" target="_blank">Witch Watch</a>
+                            <small>WITCH WATCH</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data good">
+                        <strong>#8</strong><br>
+                        <small>55,046 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score good">
+                        <strong>86.0</strong>
+                    </td>
+                    <td class="overall-score good">
+                        <strong>86.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 21.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="179955">
+                    <td class="rank">9</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179955-e4UPTow92B1O.jpg" alt="Katainaka no Ossan, Kensei ni Naru" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/179955" target="_blank">Katainaka no Ossan, Kensei ni Naru</a>
+                            <small>From Old Country Bumpkin to Master Swordsman</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data good">
+                        <strong>#9</strong><br>
+                        <small>44,711 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score good">
+                        <strong>84.0</strong>
+                    </td>
+                    <td class="overall-score good">
+                        <strong>84.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 21.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="182814">
+                    <td class="rank">10</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182814-UTKRUUm7Jah5.jpg" alt="Kowloon Generic Romance" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/182814" target="_blank">Kowloon Generic Romance</a>
+                            <small>KOWLOON GENERIC ROMANCE</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data good">
+                        <strong>#10</strong><br>
+                        <small>43,384 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score good">
+                        <strong>82.0</strong>
+                    </td>
+                    <td class="overall-score good">
+                        <strong>82.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 20.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="185736">
+                    <td class="rank">11</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185736-Ci6AiGwjKKtp.jpg" alt="Vigilante: Boku no Hero Academia ILLEGALS" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/185736" target="_blank">Vigilante: Boku no Hero Academia ILLEGALS</a>
+                            <small>My Hero Academia: Vigilantes</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data medium">
+                        <strong>#11</strong><br>
+                        <small>42,193 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score good">
+                        <strong>80.0</strong>
+                    </td>
+                    <td class="overall-score good">
+                        <strong>80.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 20.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="153554">
+                    <td class="rank">12</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153554-hHYe9aV6Gvlv.jpg" alt="Danjo no Yuujou wa Seiritsu suru? (Iya, Shinai!!)" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/153554" target="_blank">Danjo no Yuujou wa Seiritsu suru? (Iya, Shinai!!)</a>
+                            <small>Can a Boy-Girl Friendship Survive?</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data medium">
+                        <strong>#12</strong><br>
+                        <small>37,976 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score medium">
+                        <strong>78.0</strong>
+                    </td>
+                    <td class="overall-score medium">
+                        <strong>78.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 19.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="179965">
+                    <td class="rank">13</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179965-EwqzG3xSyxwc.jpg" alt="Haite Kudasai, Takamine-san" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/179965" target="_blank">Haite Kudasai, Takamine-san</a>
+                            <small>Please Put Them On, Takamine-san</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data medium">
+                        <strong>#13</strong><br>
+                        <small>37,736 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score medium">
+                        <strong>76.0</strong>
+                    </td>
+                    <td class="overall-score medium">
+                        <strong>76.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 19.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="175872">
+                    <td class="rank">14</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx175872-d55nfiC4WWHO.jpg" alt="Isshun de Chiryou Shiteita no ni Yakutatazu to Tsuihou Sareta Tensai Chiyushi, Yami Healer Toshite Tanoshiku Ikiru" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/175872" target="_blank">Isshun de Chiryou Shiteita no ni Yakutatazu to Tsuihou Sareta Tensai Chiyushi, Yami Healer Toshite Tanoshiku Ikiru</a>
+                            <small>The Brilliant Healer's New Life in the Shadows</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data medium">
+                        <strong>#14</strong><br>
+                        <small>37,279 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score medium">
+                        <strong>74.0</strong>
+                    </td>
+                    <td class="overall-score medium">
+                        <strong>74.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 18.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="143598">
+                    <td class="rank">15</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143598-FCvAhQJLllSP.png" alt="Kijin Gentoushou" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/143598" target="_blank">Kijin Gentoushou</a>
+                            <small>Sword of the Demon Hunter: Kijin Gentosho</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data medium">
+                        <strong>#15</strong><br>
+                        <small>36,099 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score medium">
+                        <strong>72.0</strong>
+                    </td>
+                    <td class="overall-score medium">
+                        <strong>72.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 18.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="143337">
+                    <td class="rank">16</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143337-2uPE0ywVcz9X.jpg" alt="Slime Taoshite 300-nen, Shiranai Uchi ni Level MAX ni Nattemashita: Sono ni" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/143337" target="_blank">Slime Taoshite 300-nen, Shiranai Uchi ni Level MAX ni Nattemashita: Sono ni</a>
+                            <small>I've Been Killing Slimes For 300 Years And Maxed Out My Level Season 2</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data medium">
+                        <strong>#16</strong><br>
+                        <small>35,723 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score medium">
+                        <strong>70.0</strong>
+                    </td>
+                    <td class="overall-score medium">
+                        <strong>70.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 17.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="180812">
+                    <td class="rank">17</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180812-162w2RBaqJzE.jpg" alt="A-Rank Party wo Ridatsu Shita Ore wa, Moto Oshiegotachi to Meikyuu Shinbu wo Mezasu." class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/180812" target="_blank">A-Rank Party wo Ridatsu Shita Ore wa, Moto Oshiegotachi to Meikyuu Shinbu wo Mezasu.</a>
+                            <small>I Left My A-Rank Party to Help My Former Students Reach the Dungeon Depths!</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data medium">
+                        <strong>#17</strong><br>
+                        <small>31,969 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score medium">
+                        <strong>68.0</strong>
+                    </td>
+                    <td class="overall-score medium">
+                        <strong>68.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 17.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="139825">
+                    <td class="rank">18</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139825-rFlrzdRZmlYK.jpg" alt="Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen Season II" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/139825" target="_blank">Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen Season II</a>
+                            <small>Our Last Crusade or the Rise of a New World Season 2</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data medium">
+                        <strong>#18</strong><br>
+                        <small>31,875 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score medium">
+                        <strong>66.0</strong>
+                    </td>
+                    <td class="overall-score medium">
+                        <strong>66.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 16.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="174802">
+                    <td class="rank">19</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174802-ILahIZlNWN3R.jpg" alt="Shiunji-ke no Kodomotachi" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/174802" target="_blank">Shiunji-ke no Kodomotachi</a>
+                            <small>The Shiunji Family Children</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data medium">
+                        <strong>#19</strong><br>
+                        <small>28,856 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score medium">
+                        <strong>64.0</strong>
+                    </td>
+                    <td class="overall-score medium">
+                        <strong>64.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 16.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="185213">
+                    <td class="rank">20</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185213-RKQN0qxKlqd6.jpg" alt="Kidou Senshi Gundam GQuuuuuuX" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/185213" target="_blank">Kidou Senshi Gundam GQuuuuuuX</a>
+                            <small>Mobile Suit Gundam GQuuuuuuX</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data medium">
+                        <strong>#20</strong><br>
+                        <small>24,893 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score medium">
+                        <strong>62.0</strong>
+                    </td>
+                    <td class="overall-score medium">
+                        <strong>62.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 15.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="179694">
+                    <td class="rank">21</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179694-7zhc0T6IImor.jpg" alt="Rock wa Lady no Tashinami Deshite" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/179694" target="_blank">Rock wa Lady no Tashinami Deshite</a>
+                            <small>Rock is a Lady’s Modesty</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data medium">
+                        <strong>#21</strong><br>
+                        <small>23,955 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score medium">
+                        <strong>60.0</strong>
+                    </td>
+                    <td class="overall-score medium">
+                        <strong>60.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 15.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="179979">
+                    <td class="rank">22</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179979-OiIKSkhJRmvo.jpg" alt="Aharen-san wa Hakarenai Season 2" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/179979" target="_blank">Aharen-san wa Hakarenai Season 2</a>
+                            <small>Aharen-san wa Hakarenai Season 2</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data medium">
+                        <strong>#22</strong><br>
+                        <small>22,923 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>58.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>58.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 14.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="178781">
+                    <td class="rank">23</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178781-pbk5FgfiAJxS.jpg" alt="Sentai Daishikkaku 2nd Season" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/178781" target="_blank">Sentai Daishikkaku 2nd Season</a>
+                            <small>Go! Go! Loser Ranger! Season 2</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data medium">
+                        <strong>#23</strong><br>
+                        <small>22,514 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>56.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>56.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 14.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="143200">
+                    <td class="rank">24</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143200-42OaDCS6VEy3.png" alt="Summer Pockets" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/143200" target="_blank">Summer Pockets</a>
+                            <small>Summer Pockets</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data medium">
+                        <strong>#24</strong><br>
+                        <small>22,372 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>54.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>54.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 13.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="183274">
+                    <td class="rank">25</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183274-zqrwevS4PBJF.jpg" alt="Ore wa Seikan Kokka no Akutoku Ryoushu! " class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/183274" target="_blank">Ore wa Seikan Kokka no Akutoku Ryoushu! </a>
+                            <small>I'm the Evil Lord of an Intergalactic Empire!</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data medium">
+                        <strong>#25</strong><br>
+                        <small>22,289 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>52.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>52.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 13.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="183275">
+                    <td class="rank">26</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183275-WtAo77sYDFW8.png" alt="Kanpeki Sugite Kawai-ge ga Nai to Konyaku Haki Sareta Seijo wa Ringoku ni Urareru" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/183275" target="_blank">Kanpeki Sugite Kawai-ge ga Nai to Konyaku Haki Sareta Seijo wa Ringoku ni Urareru</a>
+                            <small>The Too-Perfect Saint: Tossed Aside by My Fiancé and Sold to Another Kingdom</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data ">
+                        <strong>#26</strong><br>
+                        <small>19,292 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>50.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>50.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 12.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="180675">
+                    <td class="rank">27</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180675-YEwsxiMsnyvL.png" alt="Apocalypse Hotel" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/180675" target="_blank">Apocalypse Hotel</a>
+                            <small>Apocalypse Hotel</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data ">
+                        <strong>#27</strong><br>
+                        <small>19,065 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>48.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>48.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 12.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="180829">
+                    <td class="rank">28</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180829-jHViG8fIkaIJ.jpg" alt="Chotto dake Ai ga Omoi Dark Elf ga Isekai kara Oikakete Kita" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/180829" target="_blank">Chotto dake Ai ga Omoi Dark Elf ga Isekai kara Oikakete Kita</a>
+                            <small>Yandere Dark Elf: She Chased Me All the Way From Another World!</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data ">
+                        <strong>#28</strong><br>
+                        <small>18,815 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>46.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>46.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 11.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="178701">
+                    <td class="rank">29</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178701-OA537qbje5AU.jpg" alt="Aru Majo ga Shinu Made" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/178701" target="_blank">Aru Majo ga Shinu Made</a>
+                            <small>Once Upon a Witch's Death</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data ">
+                        <strong>#29</strong><br>
+                        <small>18,267 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>44.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>44.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 11.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="177120">
+                    <td class="rank">30</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177120-xRucIg2WDr77.png" alt="Ninja to Koroshiya no Futarigurashi" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/177120" target="_blank">Ninja to Koroshiya no Futarigurashi</a>
+                            <small>A Ninja and an Assassin Under One Roof</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data ">
+                        <strong>#30</strong><br>
+                        <small>17,907 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>42.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>42.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 10.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="176246">
+                    <td class="rank">31</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176246-ndH8bKh7cmzf.jpg" alt="mono" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/176246" target="_blank">mono</a>
+                            <small>mono</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data ">
+                        <strong>#31</strong><br>
+                        <small>16,990 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>40.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>40.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 10.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="177476">
+                    <td class="rank">32</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177476-kduwwEfxcZtU.jpg" alt="Shin Samurai-den YAIBA" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/177476" target="_blank">Shin Samurai-den YAIBA</a>
+                            <small>YAIBA: Samurai Legend</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data ">
+                        <strong>#32</strong><br>
+                        <small>16,411 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>38.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>38.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 9.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="167142">
+                    <td class="rank">33</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx167142-dJwdHptpILkF.jpg" alt="Your Forma" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/167142" target="_blank">Your Forma</a>
+                            <small>YOUR FORMA</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data ">
+                        <strong>#33</strong><br>
+                        <small>16,072 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>36.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>36.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 9.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="177509">
+                    <td class="rank">34</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177509-LzpyXGnjitvF.jpg" alt="Kakushite! Makina-san!!" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/177509" target="_blank">Kakushite! Makina-san!!</a>
+                            <small>Makina-san's a Love Bot?!</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data ">
+                        <strong>#34</strong><br>
+                        <small>15,925 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>34.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>34.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 8.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="181182">
+                    <td class="rank">35</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181182-lnlfAByYD7X6.png" alt="Shoushimin Series 2nd Season" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/181182" target="_blank">Shoushimin Series 2nd Season</a>
+                            <small>SHOSHIMIN: How to become Ordinary Season 2</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data ">
+                        <strong>#35</strong><br>
+                        <small>15,502 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>32.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>32.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 8.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="184639">
+                    <td class="rank">36</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184639-tmj8NbTroNeI.jpg" alt="Anne Shirley" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/184639" target="_blank">Anne Shirley</a>
+                            <small>Anne Shirley</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data ">
+                        <strong>#36</strong><br>
+                        <small>14,989 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>30.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>30.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 7.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="180516">
+                    <td class="rank">37</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180516-lebpoKLkw6E3.jpg" alt="Uma Musume: Cinderella Gray" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/180516" target="_blank">Uma Musume: Cinderella Gray</a>
+                            <small>Umamusume: Cinderella Gray</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data ">
+                        <strong>#37</strong><br>
+                        <small>13,934 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>28.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>28.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 7.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="165445">
+                    <td class="rank">38</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx165445-qwVP0w5NIaBW.jpg" alt="Zatsu Tabi: That's Journey" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/165445" target="_blank">Zatsu Tabi: That's Journey</a>
+                            <small>ZatsuTabi -That's Journey-</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data ">
+                        <strong>#38</strong><br>
+                        <small>13,806 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>26.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>26.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 6.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="179054">
+                    <td class="rank">39</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179054-HmN0Za4T157B.jpg" alt="Kuroshitsuji: Midori no Majo-hen" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/179054" target="_blank">Kuroshitsuji: Midori no Majo-hen</a>
+                            <small>Black Butler: Emerald Witch Arc</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data ">
+                        <strong>#39</strong><br>
+                        <small>13,660 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>24.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>24.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 6.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="182060">
+                    <td class="rank">40</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182060-r0ihNqhiyvpT.jpg" alt="Gorilla no Kami kara Kago sareta Reijou wa Ouritsu Kishidan de Kawaigarareru" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/182060" target="_blank">Gorilla no Kami kara Kago sareta Reijou wa Ouritsu Kishidan de Kawaigarareru</a>
+                            <small>The Gorilla God’s Go-To Girl</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data ">
+                        <strong>#40</strong><br>
+                        <small>13,625 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>22.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>22.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 5.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="185939">
+                    <td class="rank">41</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185939-hqt1He153el8.jpg" alt="Hibi wa Sugiredo Meshi Umashi" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/185939" target="_blank">Hibi wa Sugiredo Meshi Umashi</a>
+                            <small>Food for the Soul</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data ">
+                        <strong>#41</strong><br>
+                        <small>13,326 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>20.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>20.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 5.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="184279">
+                    <td class="rank">42</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184279-dw02k4DPxwGz.png" alt="Ballpark de Tsukamaete!" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/184279" target="_blank">Ballpark de Tsukamaete!</a>
+                            <small>Catch Me at the Ballpark!</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data ">
+                        <strong>#42</strong><br>
+                        <small>12,397 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>18.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>18.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 4.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="184989">
+                    <td class="rank">43</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184989-UaWWbrRn2vWV.jpg" alt="Nazotoki wa Dinner no Ato de" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/184989" target="_blank">Nazotoki wa Dinner no Ato de</a>
+                            <small>The Dinner Table Detective</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data ">
+                        <strong>#43</strong><br>
+                        <small>10,115 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>16.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>16.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 4.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="176702">
+                    <td class="rank">44</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176702-sD5AnHf8g4zi.jpg" alt="Teogonia" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/176702" target="_blank">Teogonia</a>
+                            <small>Teogonia</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data ">
+                        <strong>#44</strong><br>
+                        <small>9,970 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>14.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>14.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 3.5<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr data-anime-id="168537">
+                    <td class="rank">45</td>
+                    <td class="anime-title">
+                        <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx168537-pytXEirHtk3M.jpg" alt="Haigakura" class="mini-poster">
+                        <div>
+                            <a href="https://anilist.co/anime/168537" target="_blank">Haigakura</a>
+                            <small>HAIGAKURA</small>
+                        </div>
+                    </td>
+                    <td class="anilist-data ">
+                        <strong>#45</strong><br>
+                        <small>5,732 users</small>
+                        
+                    </td>
+                    <td class="mal-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span>/10</strong><br>
+                        <small><span style="color: #ff5722; font-weight: bold;">—</span> members</small>
+                    </td>
+                    <td class="anitrendz-data ">
+                        <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
+                        
+                    </td>
+                    <td class="weekly-score ">
+                        <strong>12.0</strong>
+                    </td>
+                    <td class="overall-score ">
+                        <strong>12.0</strong>
+                        <div class="score-breakdown" style="display:none;">
+                            <small>
+                                AniList: 3.0<br>
+                                MAL: 0<br>
+                                AniTrendz: 0
+                            </small>
+                        </div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        
+        <div class="last-updated">
+            Last updated: 2025-06-16 19:55 UTC
+        </div>
+    </main>
+
+    <!-- Update Modal -->
+    <div id="update-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="loading-spinner"></div>
+            <h3 id="modal-title">Updating Rankings...</h3>
+            <div id="modal-status">
+                <p>🔄 Starting update process...</p>
+            </div>
+            <button id="modal-close" class="modal-close" style="display: none;">✕ Close</button>
+        </div>
+    </div>
+
+    <script src="js/rankings.js"></script>
+</body>
+</html>

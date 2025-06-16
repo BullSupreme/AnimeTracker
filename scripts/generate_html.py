@@ -64,6 +64,7 @@ def generate_html():
         <header>
             <h1>Current Anime Tracker</h1>
             <div class="anime-count">({len(anime_data)} anime)</div>
+            <a href="rankings.html" class="rankings-link">🏆 Rankings</a>
         </header>
         <nav class="nav-tabs">
             <button class="nav-tab active" data-tab="list">List View</button>

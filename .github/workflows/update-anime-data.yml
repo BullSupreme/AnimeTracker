@@ -30,11 +30,14 @@ jobs:
     - name: Generate HTML
       run: python3 scripts/generate_html.py
       
+    - name: Generate rankings
+      run: python3 scripts/generate_rankings.py
+      
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add data/ index.html
+        git add data/ index.html rankings.html
         git diff --staged --quiet || git commit -m "🤖 Auto-update anime data - $(date '+%Y-%m-%d %H:%M UTC')"
         git push
       env:

@@ -75,10 +75,12 @@ def fetch_current_anime():
             }
             media(status: RELEASING, type: ANIME, format_in: [TV, ONA, TV_SHORT], sort: [POPULARITY_DESC]) {
                 id
+                idMal
                 title {
                     romaji
                     english
                 }
+                averageScore
                 episodes
                 nextAiringEpisode {
                     episode
@@ -162,10 +164,12 @@ def fetch_upcoming_seasonal_anime():
             }
             media(status: NOT_YET_RELEASED, type: ANIME, format_in: [TV, ONA, TV_SHORT], season: $season, seasonYear: $year, sort: [POPULARITY_DESC]) {
                 id
+                idMal
                 title {
                     romaji
                     english
                 }
+                averageScore
                 episodes
                 coverImage {
                     extraLarge
@@ -594,6 +598,7 @@ def process_anime_data(api_data):
         
         processed_anime.append({
             'id': anime['id'],
+            'mal_id': anime.get('idMal'),
             'name': anime['title']['romaji'],
             'english_title': anime['title'].get('english'),
             'episode': episode_number,
@@ -604,7 +609,8 @@ def process_anime_data(api_data):
             'site_url': anime['siteUrl'],
             'start_date': start_date,
             'streaming_links': streaming_links,
-            'popularity': anime.get('popularity', 0)
+            'popularity': anime.get('popularity', 0),
+            'anilist_score': anime.get('averageScore')
         })
     
     # Sort by popularity (highest first) to calculate rankings
@@ -677,6 +683,7 @@ def process_upcoming_anime_data(api_data):
         
         processed_anime.append({
             'id': anime['id'],
+            'mal_id': anime.get('idMal'),
             'name': anime['title']['romaji'],
             'english_title': anime['title'].get('english'),
             'episode': 1,  # First episode for upcoming anime
@@ -690,6 +697,7 @@ def process_upcoming_anime_data(api_data):
             'genres': anime.get('genres', []),
             'popularity': anime.get('popularity', 0),
             'favourites': anime.get('favourites', 0),
+            'anilist_score': anime.get('averageScore'),
             'streaming_links': []  # Will be populated when anime starts airing
         })
     
