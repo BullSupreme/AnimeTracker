@@ -44,7 +44,6 @@ header {
     padding: 1rem;
     border-bottom: 1px solid var(--border-color);
     position: relative;
-    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,9 +81,6 @@ header h1 {
 .anime-count {
     font-size: 1rem;
     color: var(--text-secondary);
-    margin-left: 1rem;
-    z-index: 1;
-    position: relative;
 }
 
 .rankings-link {
@@ -162,11 +158,50 @@ header h1 {
     opacity: 0.1;
 }
 
+/* Rankings button styling - prevent active state */
+.nav-tab[onclick*="rankings.html"] {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-color: transparent;
+}
+
+.nav-tab[onclick*="rankings.html"]:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.nav-tab[onclick*="rankings.html"]::before {
+    display: none;
+}
+
 /* Main Content */
 main {
     max-width: 1400px;
     margin: 0 auto;
     padding: 1rem;
+}
+
+/* Upcoming Season Separator */
+.upcoming-season-separator {
+    border-top: 3px solid var(--accent-warning);
+    margin-top: 3rem;
+    padding: 2rem;
+    position: relative;
+    background: rgba(139, 92, 246, 0.08);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+}
+
+.upcoming-season-separator::before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 6px;
+    background: linear-gradient(90deg, var(--accent-warning), #ff6b35);
+    border-radius: 3px;
 }
 
 .tab-content {
@@ -193,7 +228,7 @@ main {
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     font-size: 1.8rem;
     font-weight: 600;
     color: var(--text-primary);
@@ -217,8 +252,10 @@ main {
 }
 
 .today-grid {
-    grid-template-columns: repeat(auto-fill, minmax(262px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(236px, 1fr));
     justify-content: center;
+    gap: 0.2rem;
+    margin-top: 0.5rem;
 }
 
 .tomorrow-grid {
@@ -258,6 +295,12 @@ main {
 .today-card {
     border-color: var(--accent-primary);
     background: linear-gradient(135deg, var(--bg-card), rgba(59, 130, 246, 0.1));
+    transform: scale(0.90);
+    transform-origin: center;
+}
+
+.today-card:hover {
+    transform: translateY(-4px) scale(0.92);
 }
 
 .tomorrow-card {
