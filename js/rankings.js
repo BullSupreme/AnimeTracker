@@ -301,8 +301,8 @@ document.addEventListener('DOMContentLoaded', function() {
         try {
             // Load all anime data files
             const [seasonalResponse, otherResponse] = await Promise.all([
-                fetch('../data/anime_data.json'),
-                fetch('../data/other_anime_sorted.json')
+                fetch('data/anime_data.json'),
+                fetch('data/other_anime_sorted.json')
             ]);
             
             const seasonalData = await seasonalResponse.json();
