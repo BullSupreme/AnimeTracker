@@ -976,6 +976,21 @@ main {
     display: inline-block;
 }
 
+/* Calendar day clickable styles */
+.calendar-day-number.clickable {
+    color: var(--accent-primary);
+    font-weight: 600;
+}
+
+.calendar-day.has-anime {
+    cursor: pointer;
+    transition: background-color var(--transition-fast);
+}
+
+.calendar-day.has-anime:hover {
+    background: rgba(59, 130, 246, 0.1);
+}
+
 /* Calendar Tooltip */
 .calendar-tooltip {
     position: fixed;
@@ -1220,6 +1235,17 @@ main {
     padding: 2rem;
     overflow-y: auto;
     max-height: 90vh;
+}
+
+/* Expanded day view styles */
+.expanded-anime-card {
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.expanded-anime-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Context Menu */

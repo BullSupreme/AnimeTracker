@@ -347,7 +347,11 @@ document.addEventListener('DOMContentLoaded', () => {
             dayDiv.className = 'calendar-day';
             
             const currentDate = new Date(currentYear, currentMonth, day);
-            const dateStr = currentDate.toISOString().split('T')[0];
+            // Format date as YYYY-MM-DD in local timezone (not UTC)
+            const year = currentDate.getFullYear();
+            const month = String(currentDate.getMonth() + 1).padStart(2, '0');
+            const dayStr = String(currentDate.getDate()).padStart(2, '0');
+            const dateStr = `${year}-${month}-${dayStr}`;
             const dayOfWeek = currentDate.getDay(); // 0 = Sunday, 6 = Saturday
             const isToday = day === today.getDate() && currentMonth === today.getMonth() && currentYear === today.getFullYear();
             const isWeekend = dayOfWeek === 0 || dayOfWeek === 6; // Sunday or Saturday
@@ -369,9 +373,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const dayAnime = animeByDate[dateStr] || [];
             if (dayAnime.length > 0) {
                 dayNumber.classList.add('clickable');
-                dayNumber.addEventListener('click', (e) => {
-                    e.stopPropagation();
-                    showExpandedDayView(dateStr, dayAnime);
+                dayDiv.classList.add('has-anime');
+                
+                // Make entire day clickable
+                dayDiv.addEventListener('click', (e) => {
+                    // Only trigger if clicking on the day itself, not on anime items
+                    if (!e.target.closest('.calendar-anime-item')) {
+                        showExpandedDayView(dateStr, dayAnime);
+                    }
                 });
             }
             
@@ -503,11 +512,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const modal = document.getElementById('anime-modal');
         const modalBody = document.querySelector('.modal-body');
         
-        const dateObj = new Date(date);
+        // Parse the date components to avoid timezone issues
+        const [yearStr, monthStr, dayStr] = date.split('-');
+        const dateObj = new Date(parseInt(yearStr), parseInt(monthStr) - 1, parseInt(dayStr));
         const dayName = dateObj.toLocaleDateString('en-US', { weekday: 'long' });
-        const dayNumber = dateObj.getDate();
+        const dayNumber = parseInt(dayStr);
         const monthName = dateObj.toLocaleDateString('en-US', { month: 'long' });
-        const year = dateObj.getFullYear();
+        const year = parseInt(yearStr);
         
         modalBody.innerHTML = `
             <div class="expanded-day-view">
@@ -525,11 +536,11 @@ document.addEventListener('DOMContentLoaded', () => {
                         const isFavorite = favorites.includes(anime.id.toString());
                         
                         return `
-                            <div class="expanded-anime-card ${isFavorite ? 'favorite' : ''}" data-anime-id="${anime.id}">
+                            <div class="expanded-anime-card ${isFavorite ? 'favorite' : ''}" data-anime-id="${anime.id}" onclick="showAnimeModal(${JSON.stringify(anime).replace(/"/g, '&quot;')})">
                                 <div class="expanded-anime-poster">
                                     <img src="${anime.poster_url}" alt="${anime.name}">
                                     <div class="expanded-anime-overlay">
-                                        <button class="expanded-favorite-btn" onclick="toggleFavorite('${anime.id}')">
+                                        <button class="expanded-favorite-btn" onclick="event.stopPropagation(); toggleFavorite('${anime.id}')">
                                             ${isFavorite ? '♥' : '♡'}
                                         </button>
                                     </div>
@@ -539,20 +550,20 @@ document.addEventListener('DOMContentLoaded', () => {
                                     ${anime.english_title ? `<p class="expanded-anime-english">${anime.english_title}</p>` : ''}
                                     <div class="expanded-anime-details">
                                         <span class="expanded-episode-badge">Episode ${anime.episode}</span>
+                                        <a href="${customLink}" target="_blank" class="main-link-btn" onclick="event.stopPropagation()">
+                                            ${new URL(customLink).hostname}
+                                        </a>
                                         ${anime.next_airing_date && anime.next_airing_date !== anime.release_date ? 
                                             `<span class="expanded-next-episode">Next: ${anime.next_episode_number || anime.episode + 1}</span>` : ''}
                                     </div>
                                     <div class="expanded-streaming-links">
                                         ${anime.streaming_links.slice(0, 3).map(link => `
-                                            <a href="${link.url}" target="_blank" class="expanded-streaming-link" title="${link.site}">
+                                            <a href="${link.url}" target="_blank" class="expanded-streaming-link" title="${link.site}" onclick="event.stopPropagation()">
                                                 <img src="${link.icon}" alt="${link.site}">
                                             </a>
                                         `).join('')}
                                         ${anime.streaming_links.length > 3 ? `<span class="more-links">+${anime.streaming_links.length - 3}</span>` : ''}
                                     </div>
-                                    <button class="expanded-view-details" onclick="showAnimeModal(${JSON.stringify(anime).replace(/"/g, '&quot;')})">
-                                        View Details
-                                    </button>
                                 </div>
                             </div>
                         `;
