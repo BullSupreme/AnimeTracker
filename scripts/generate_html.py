@@ -34,9 +34,21 @@ def load_data():
         print(f"Data file not found: {e}")
         return [], [], {}, [], {}
 
+def get_season_emoji(season):
+    """Get emoji for a given season"""
+    season_emojis = {
+        'SPRING': '🌸',
+        'SUMMER': '☀️', 
+        'FALL': '🍂',
+        'AUTUMN': '🍂',
+        'WINTER': '❄️'
+    }
+    return season_emojis.get(season.upper(), '🎭')
+
 def generate_html():
     """Generate static HTML file"""
     anime_data, other_anime_sorted, metadata, upcoming_anime, manual_streaming_links = load_data()
+    
     
     if not anime_data:
         print("No anime data found")
@@ -64,11 +76,11 @@ def generate_html():
         <header>
             <h1>Current Anime Tracker</h1>
             <div class="anime-count">({len(anime_data)} anime)</div>
-            <a href="rankings.html" class="rankings-link">🏆 Rankings</a>
         </header>
         <nav class="nav-tabs">
-            <button class="nav-tab active" data-tab="list">List View</button>
-            <button class="nav-tab" data-tab="calendar">Calendar</button>
+            <button class="nav-tab active" data-tab="list">📋 List View</button>
+            <button class="nav-tab" data-tab="calendar">📅 Calendar</button>
+            <button class="nav-tab" onclick="window.location.href='rankings.html'">🏆 Rankings</button>
         </nav>
         <main>
             <!-- List View Section -->
@@ -221,11 +233,16 @@ def generate_html():
                         </div>"""
     
     html_content += """                    </div>
-                </div>
-                <div class="time-section">
+                </div>"""
+    
+    # Add other seasonal anime section with current season emoji
+    current_season = metadata.get('current_season', 'Spring').title()
+    current_season_emoji = get_season_emoji(current_season)
+    
+    html_content += f"""                <div class="time-section">
                     <h2 class="section-title">
-                        <span class="section-icon">📺</span>
-                        Other Seasonal Anime
+                        <span class="section-icon">{current_season_emoji}</span>
+                        {current_season} 2025 Anime
                 
                     </h2>
                     <div class="anime-grid other-grid">
@@ -291,18 +308,22 @@ def generate_html():
     if upcoming_anime:
         next_season = metadata.get('next_season', 'Summer').title()
         next_season_year = metadata.get('next_season_year', 2025)
+        season_emoji = get_season_emoji(next_season)
         
-        html_content += f"""                <div class="time-section">
+        html_content += f"""                <div class="time-section next-seasonal-section">
                     <h2 class="section-title">
-                        <span class="section-icon">🎭</span>
+                        <span class="section-icon">{season_emoji}</span>
                         Next Seasonal Anime ({next_season} {next_season_year})
                     </h2>
                     <div class="anime-grid upcoming-grid">
 """
         
-        # Add upcoming anime (limited to top 20 by popularity)
-        for anime in upcoming_anime[:20]:
-            html_content += f"""                        <div class="anime-card upcoming-card" data-name="{anime['name']}" data-link="{anime['site_url']}" data-anime-id="{anime['id']}" data-release="{anime.get('release_date', 'TBD')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
+        # Add all upcoming anime with show more functionality
+        for i, anime in enumerate(upcoming_anime):
+            # Add visibility class for items beyond the first 20
+            visibility_class = "" if i < 20 else " hidden-upcoming"
+            
+            html_content += f"""                        <div class="anime-card upcoming-card{visibility_class}" data-name="{anime['name']}" data-link="{anime['site_url']}" data-anime-id="{anime['id']}" data-release="{anime.get('release_date', 'TBD')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
                             <div class="card-image-wrapper">
                                 <img class="anime-poster" src="{anime['poster_url']}" alt="{anime['name']} poster">
                                 <div class="card-overlay">
@@ -333,7 +354,19 @@ def generate_html():
                             </div>
                         </div>"""
         
-        html_content += """                    </div>
+        # Add show more button if there are more than 20 anime
+        if len(upcoming_anime) > 20:
+            html_content += f"""                    </div>
+                    <div class="show-more-container">
+                        <button class="show-more-btn" id="show-more-upcoming" data-target="upcoming">
+                            <span class="show-more-text">Show More ({len(upcoming_anime) - 20} more)</span>
+                            <span class="show-less-text" style="display: none;">Show Less</span>
+                            <span class="show-more-icon">▼</span>
+                        </button>
+                    </div>
+                </div>"""
+        else:
+            html_content += """                    </div>
                 </div>"""
     
     html_content += """            </div>

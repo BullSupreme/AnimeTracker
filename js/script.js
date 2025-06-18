@@ -48,6 +48,32 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+    
+    // Check URL hash to switch to specific tab
+    const hash = window.location.hash.substring(1); // Remove the # symbol
+    if (hash === 'calendar') {
+        // Find and click the calendar tab
+        const calendarTab = document.querySelector('.nav-tab[data-tab="calendar"]');
+        if (calendarTab) {
+            // Use setTimeout to ensure DOM is ready
+            setTimeout(() => {
+                calendarTab.click();
+                // Clear the hash to prevent issues
+                history.replaceState(null, null, window.location.pathname);
+            }, 100);
+        }
+    }
+    
+    // Check sessionStorage for calendar request from rankings
+    if (sessionStorage.getItem('openCalendar') === 'true') {
+        sessionStorage.removeItem('openCalendar');
+        const calendarTab = document.querySelector('.nav-tab[data-tab="calendar"]');
+        if (calendarTab) {
+            setTimeout(() => {
+                calendarTab.click();
+            }, 50);
+        }
+    }
 
     // List tab navigation
     const listTabs = document.querySelectorAll('.list-tab');
@@ -1293,4 +1319,51 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialize rank tooltips
     initRankTooltips();
+    
+    // Show More functionality for upcoming anime
+    function initShowMoreButtons() {
+        const showMoreBtn = document.getElementById('show-more-upcoming');
+        
+        if (showMoreBtn) {
+            // Get all upcoming anime cards in the grid
+            const upcomingGrid = document.querySelector('.upcoming-grid');
+            if (!upcomingGrid) return;
+            
+            const allUpcomingCards = upcomingGrid.querySelectorAll('.anime-card');
+            // Cards after the first 20 are the ones to show/hide
+            const extraCards = Array.from(allUpcomingCards).slice(20);
+            
+            showMoreBtn.addEventListener('click', () => {
+                const showMoreText = showMoreBtn.querySelector('.show-more-text');
+                const showLessText = showMoreBtn.querySelector('.show-less-text');
+                const isExpanded = showMoreBtn.classList.contains('expanded');
+                
+                if (isExpanded) {
+                    // Hide extra anime
+                    extraCards.forEach(anime => {
+                        anime.classList.add('hidden-upcoming');
+                    });
+                    showMoreText.style.display = 'inline';
+                    showLessText.style.display = 'none';
+                    showMoreBtn.classList.remove('expanded');
+                } else {
+                    // Show extra anime
+                    extraCards.forEach(anime => {
+                        anime.classList.remove('hidden-upcoming');
+                    });
+                    showMoreText.style.display = 'none';
+                    showLessText.style.display = 'inline';
+                    showMoreBtn.classList.add('expanded');
+                }
+                
+                // Re-initialize calendar to include newly shown anime
+                if (document.getElementById('calendar-view').classList.contains('active')) {
+                    initializeCalendar();
+                }
+            });
+        }
+    }
+    
+    // Initialize show more buttons
+    initShowMoreButtons();
 });

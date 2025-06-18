@@ -10,10 +10,13 @@
 <body>
     <header>
         <h1>🏆 Anime Rankings</h1>
-        <nav>
-            <a href="https://bullsupreme.github.io/AnimeTracker/" class="back-btn">← Back to Tracker</a>
-        </nav>
+        <button id="update-btn" class="update-btn">🔄 Update</button>
     </header>
+    <nav class="nav-tabs">
+        <button class="nav-tab" onclick="window.location.href='/'">📋 List View</button>
+        <button class="nav-tab" onclick="window.location.href='/?tab=calendar'">📅 Calendar</button>
+        <button class="nav-tab active">🏆 Rankings</button>
+    </nav>
 
     <main>
         <div class="info-section">
@@ -243,7 +246,7 @@
                     </td>
                     <td class="mal-data medium">
                         <strong>7.78/10</strong><br>
-                        <small>151,771 members</small>
+                        <small>152,225 members</small>
                     </td>
                     <td class="anitrendz-data ">
                         <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
@@ -280,7 +283,7 @@
                     </td>
                     <td class="mal-data medium">
                         <strong>7.31/10</strong><br>
-                        <small>186,854 members</small>
+                        <small>187,322 members</small>
                     </td>
                     <td class="anitrendz-data ">
                         <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
@@ -317,7 +320,7 @@
                     </td>
                     <td class="mal-data medium">
                         <strong>7.47/10</strong><br>
-                        <small>129,453 members</small>
+                        <small>130,011 members</small>
                     </td>
                     <td class="anitrendz-data ">
                         <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
@@ -872,7 +875,7 @@
                     </td>
                     <td class="mal-data ">
                         <strong>6.55/10</strong><br>
-                        <small>76,612 members</small>
+                        <small>76,759 members</small>
                     </td>
                     <td class="anitrendz-data ">
                         <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
@@ -1093,18 +1096,18 @@
                         <br><small>Score: 57/100</small>
                     </td>
                     <td class="mal-data ">
-                        <strong>5.93/10</strong><br>
-                        <small>94,600 members</small>
+                        <strong>5.92/10</strong><br>
+                        <small>94,782 members</small>
                     </td>
                     <td class="anitrendz-data ">
                         <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
                         
                     </td>
                     <td class="weekly-score medium">
-                        <strong>63.41</strong>
+                        <strong>63.37</strong>
                     </td>
                     <td class="overall-score medium">
-                        <strong>64.25</strong>
+                        <strong>64.21</strong>
                         <div class="score-breakdown" style="display:none;">
                             <small>
                                 AniList: 19.0<br>
@@ -1279,7 +1282,7 @@
                     </td>
                     <td class="mal-data medium">
                         <strong>7.81/10</strong><br>
-                        <small>38,183 members</small>
+                        <small>38,280 members</small>
                     </td>
                     <td class="anitrendz-data ">
                         <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
@@ -1316,7 +1319,7 @@
                     </td>
                     <td class="mal-data ">
                         <strong>6.65/10</strong><br>
-                        <small>50,860 members</small>
+                        <small>51,109 members</small>
                     </td>
                     <td class="anitrendz-data ">
                         <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
@@ -1353,7 +1356,7 @@
                     </td>
                     <td class="mal-data medium">
                         <strong>7.67/10</strong><br>
-                        <small>28,887 members</small>
+                        <small>29,068 members</small>
                     </td>
                     <td class="anitrendz-data ">
                         <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
@@ -1390,7 +1393,7 @@
                     </td>
                     <td class="mal-data ">
                         <strong>6.9/10</strong><br>
-                        <small>29,842 members</small>
+                        <small>29,924 members</small>
                     </td>
                     <td class="anitrendz-data ">
                         <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
@@ -1427,7 +1430,7 @@
                     </td>
                     <td class="mal-data ">
                         <strong>6.09/10</strong><br>
-                        <small>35,793 members</small>
+                        <small>35,838 members</small>
                     </td>
                     <td class="anitrendz-data ">
                         <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
@@ -1537,18 +1540,18 @@
                         <br><small>Score: 63/100</small>
                     </td>
                     <td class="mal-data ">
-                        <strong>6.82/10</strong><br>
-                        <small>22,588 members</small>
+                        <strong>6.83/10</strong><br>
+                        <small>22,702 members</small>
                     </td>
                     <td class="anitrendz-data ">
                         <strong><span style="color: #ff5722; font-weight: bold;">—</span></strong>
                         
                     </td>
                     <td class="weekly-score ">
-                        <strong>52.37</strong>
+                        <strong>52.41</strong>
                     </td>
                     <td class="overall-score ">
-                        <strong>50.08</strong>
+                        <strong>50.12</strong>
                         <div class="score-breakdown" style="display:none;">
                             <small>
                                 AniList: 4.5<br>
@@ -1637,9 +1640,21 @@
         </table>
         
         <div class="last-updated">
-            Last updated: 2025-06-17 20:20 UTC
+            Last updated: 2025-06-17 22:16 UTC
         </div>
     </main>
+
+    <!-- Update Modal -->
+    <div id="update-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="loading-spinner"></div>
+            <h3 id="modal-title">Updating Rankings...</h3>
+            <div id="modal-status">
+                <p>🔄 Starting update process...</p>
+            </div>
+            <button id="modal-close" class="modal-close" style="display: none;">✕ Close</button>
+        </div>
+    </div>
 
     <script src="js/rankings.js"></script>
 </body>

@@ -224,6 +224,69 @@ main {
     margin-bottom: 3rem;
 }
 
+.next-seasonal-section {
+    background: rgba(139, 92, 246, 0.05);
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid rgba(139, 92, 246, 0.1);
+    border-top: 3px solid rgba(139, 92, 246, 0.3);
+    margin-top: 2rem;
+    position: relative;
+}
+
+.next-seasonal-section::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.4), transparent);
+}
+
+/* Hidden upcoming anime */
+.anime-card.hidden-upcoming {
+    display: none !important;
+}
+
+/* Show More Button */
+.show-more-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 1rem 0;
+}
+
+.show-more-btn {
+    background: linear-gradient(135deg, var(--accent-secondary), var(--accent-primary));
+    color: var(--text-primary);
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 25px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    box-shadow: var(--shadow-md);
+}
+
+.show-more-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+}
+
+.show-more-icon {
+    transition: transform var(--transition-normal);
+}
+
+.show-more-btn.expanded .show-more-icon {
+    transform: rotate(180deg);
+}
+
 .section-title {
     display: flex;
     align-items: center;
