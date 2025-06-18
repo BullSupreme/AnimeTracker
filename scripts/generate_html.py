@@ -179,7 +179,8 @@ def generate_html():
     
     # Add tomorrow's releases
     for anime in anime_data:
-        if anime.get('release_date') == tomorrow_date:
+        # Include anime if release_date is tomorrow OR if end_date is tomorrow (for final episodes)
+        if anime.get('release_date') == tomorrow_date or anime.get('end_date') == tomorrow_date:
             custom_link = custom_links.get(anime['name'], anime['site_url'])
             link_domain = custom_link.split('//')[1].split('/')[0] if '//' in custom_link else 'anilist.co'
             

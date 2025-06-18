@@ -215,10 +215,10 @@ def fetch_current_anime():
         page = 1
         
         # Convert dates to FuzzyDateInt format (YYYYMMDD)
-        # Include tomorrow to ensure we catch anime ending today
-        tomorrow = today + timedelta(days=1)
+        # Include next 3 days to catch anime ending soon
+        three_days_ahead = today + timedelta(days=3)
         start_fuzzy = int(f"{week_ago.year}{week_ago.month:02d}{week_ago.day:02d}")
-        end_fuzzy = int(f"{tomorrow.year}{tomorrow.month:02d}{tomorrow.day:02d}")
+        end_fuzzy = int(f"{three_days_ahead.year}{three_days_ahead.month:02d}{three_days_ahead.day:02d}")
         
         while True:
             variables = {
@@ -703,9 +703,12 @@ def process_anime_data(api_data):
                         'icon': icon_url
                     })
         
-        # Check if anime is ending today and set release_date accordingly
-        if end_date and end_date == datetime.now().strftime('%Y-%m-%d'):
-            # If anime ends today, set release_date to today for its final episode
+        # Check if anime is ending today or tomorrow and set release_date accordingly
+        today_str = datetime.now().strftime('%Y-%m-%d')
+        tomorrow_str = (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d')
+        
+        if end_date and (end_date == today_str or end_date == tomorrow_str):
+            # If anime ends today or tomorrow, set release_date to end_date for its final episode
             if not release_date or release_date != end_date:
                 release_date = end_date
                 # Set episode to total episodes for final episode
