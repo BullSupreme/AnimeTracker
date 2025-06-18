@@ -27,20 +27,14 @@ jobs:
     - name: Fetch anime data
       run: python3 scripts/fetch_anime_data.py
       
-    - name: Fetch MAL scores
-      run: python3 scripts/fetch_mal_scores.py
-      
     - name: Generate HTML
       run: python3 scripts/generate_html.py
-      
-    - name: Generate rankings
-      run: python3 scripts/generate_rankings.py
       
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add data/ index.html rankings.html
+        git add data/anime_data.json data/other_anime_sorted.json data/metadata.json data/upcoming_seasonal_anime.json index.html
         git diff --staged --quiet || git commit -m "🤖 Auto-update anime data - $(date '+%Y-%m-%d %H:%M UTC')"
         git push
       env:
