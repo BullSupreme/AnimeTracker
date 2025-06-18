@@ -108,8 +108,8 @@ def generate_rankings_html():
         <button id="update-btn" class="update-btn">🔄 Update</button>
     </header>
     <nav class="nav-tabs">
-        <button class="nav-tab" onclick="window.location.href='/'">📋 List View</button>
-        <button class="nav-tab" onclick="window.location.href='/?tab=calendar'">📅 Calendar</button>
+        <button class="nav-tab" onclick="window.location.href='index.html'">📋 List View</button>
+        <button class="nav-tab" onclick="window.location.href='index.html#calendar';">📅 Calendar</button>
         <button class="nav-tab active">🏆 Rankings</button>
     </nav>
 
