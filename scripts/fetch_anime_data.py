@@ -396,6 +396,14 @@ def process_anime_data(api_data):
         anime_title = anime['title']['romaji']
         anime_title_english = anime['title'].get('english') or ''
         
+        
+        # Extract end date for various logic checks
+        end_date = None
+        if anime.get('endDate') and anime['endDate'].get('year'):
+            month = anime['endDate'].get('month') or 1
+            day = anime['endDate'].get('day') or 1
+            end_date = f"{anime['endDate']['year']}-{month:02d}-{day:02d}"
+        
         # Check if this is an exception anime
         is_exception = False
         for exception in long_running_exceptions:
@@ -437,6 +445,7 @@ def process_anime_data(api_data):
         # Check if anime has a next airing episode or has aired recently
         has_next_episode = anime.get('nextAiringEpisode') is not None
         
+        
         # If no next episode, check if it might be a final episode or finished series
         if not has_next_episode:
             # Check if this could be a final episode airing today/recently
@@ -466,18 +475,33 @@ def process_anime_data(api_data):
                 except (ValueError, TypeError):
                     pass
             
-            # If it's not a potential finale, skip old anime without next episodes
+            # If it's not a potential finale, check if anime is ending soon before filtering by age
             if not could_be_finale_today:
-                if start_year:
-                    start_month = anime.get('startDate', {}).get('month', 1)
-                    start_day = anime.get('startDate', {}).get('day', 1)
+                # Check if anime is ending soon (within 2 days) - if so, don't filter it out
+                ending_soon = False
+                if end_date:
                     try:
-                        start_date_obj = datetime(start_year, start_month, start_day)
-                        four_weeks_ago = datetime.now() - timedelta(days=28)
-                        if start_date_obj < four_weeks_ago:
-                            continue  # Skip anime with no upcoming episodes that started > 4 weeks ago
+                        today_date = datetime.now().date()
+                        end_date_obj = datetime.strptime(end_date, '%Y-%m-%d').date()
+                        days_until_end = (end_date_obj - today_date).days
+                        # If ending within 2 days, consider it relevant
+                        if 0 <= days_until_end <= 2:
+                            ending_soon = True
                     except (ValueError, TypeError):
                         pass
+                
+                # Only apply the 4-week filter if the anime is NOT ending soon
+                if not ending_soon:
+                    if start_year:
+                        start_month = anime.get('startDate', {}).get('month', 1)
+                        start_day = anime.get('startDate', {}).get('day', 1)
+                        try:
+                            start_date_obj = datetime(start_year, start_month, start_day)
+                            four_weeks_ago = datetime.now() - timedelta(days=28)
+                            if start_date_obj < four_weeks_ago:
+                                continue  # Skip anime with no upcoming episodes that started > 4 weeks ago
+                        except (ValueError, TypeError):
+                            pass
 
         # Get episode info - use nextAiringEpisode if available, otherwise estimate
         episode_number = 1
@@ -588,47 +612,67 @@ def process_anime_data(api_data):
                     except (ValueError, TypeError):
                         pass
         else:
-            # No next episode data - check if anime is old or long-running
-            start_year = anime.get('startDate', {}).get('year')
-            start_month = anime.get('startDate', {}).get('month', 1)
-            
-            started_long_ago = False
+            # No next episode data - check if this anime just finished
             episode_count = anime.get('episodes', 1) or 1
-            is_long_running = episode_count > 50
+            today_date = datetime.now().date()
             
-            if started_long_ago or is_long_running:
-                episode_number = episode_count
-                release_date = None
-            else:
-                episode_number = episode_count
+            # Check if anime ended recently (tomorrow or day after) - means final episode was today
+            recently_finished = False
+            if end_date:
+                try:
+                    end_date_obj = datetime.strptime(end_date, '%Y-%m-%d').date()
+                    days_until_end = (end_date_obj - today_date).days
+                    
+                    
+                    # If end date is tomorrow (1 day) or day after (2 days), final episode was likely today
+                    if 1 <= days_until_end <= 2:
+                        episode_number = episode_count  # Final episode
+                        release_date = today_date.strftime('%Y-%m-%d')  # Today
+                        recently_finished = True
+                except (ValueError, TypeError):
+                    pass
+            
+            # If not recently finished, use normal logic for older anime
+            if not recently_finished:
+                start_year = anime.get('startDate', {}).get('year')
+                start_month = anime.get('startDate', {}).get('month', 1)
                 
-                # For recent ongoing anime, check if today would be an episode day
-                if start_year and start_month:
-                    try:
-                        start_day = anime.get('startDate', {}).get('day') or 1
-                        start_date_obj = datetime(start_year, start_month, start_day)
-                        today_date = datetime.now().date()
-                        start_date_only = start_date_obj.date()
-                        
-                        # Calculate days since start
-                        days_since_start = (today_date - start_date_only).days
-                        weeks_since_start = days_since_start // 7
-                        days_remainder = days_since_start % 7
-                        
-                        if (days_remainder == 0 and days_since_start >= 7):
-                            # Calculate expected episode number for today
-                            expected_episode = weeks_since_start + 1
-                            if expected_episode <= episode_count:
-                                episode_number = expected_episode
-                                release_date = today_date.strftime('%Y-%m-%d')
+                started_long_ago = False
+                is_long_running = episode_count > 50
+                
+                if started_long_ago or is_long_running:
+                    episode_number = episode_count
+                    release_date = None
+                else:
+                    episode_number = episode_count
+                    
+                    # For recent ongoing anime, check if today would be an episode day
+                    if start_year and start_month:
+                        try:
+                            start_day = anime.get('startDate', {}).get('day') or 1
+                            start_date_obj = datetime(start_year, start_month, start_day)
+                            today_date = datetime.now().date()
+                            start_date_only = start_date_obj.date()
+                            
+                            # Calculate days since start
+                            days_since_start = (today_date - start_date_only).days
+                            weeks_since_start = days_since_start // 7
+                            days_remainder = days_since_start % 7
+                            
+                            if (days_remainder == 0 and days_since_start >= 7):
+                                # Calculate expected episode number for today
+                                expected_episode = weeks_since_start + 1
+                                if expected_episode <= episode_count:
+                                    episode_number = expected_episode
+                                    release_date = today_date.strftime('%Y-%m-%d')
+                                else:
+                                    release_date = None
                             else:
                                 release_date = None
-                        else:
+                        except (ValueError, TypeError):
                             release_date = None
-                    except (ValueError, TypeError):
+                    else:
                         release_date = None
-                else:
-                    release_date = None
         
         # Get start date
         start_date = None
@@ -637,12 +681,7 @@ def process_anime_data(api_data):
             day = anime['startDate'].get('day') or 1
             start_date = f"{anime['startDate']['year']}-{month:02d}-{day:02d}"
         
-        # Get end date
-        end_date = None
-        if anime.get('endDate') and anime['endDate'].get('year'):
-            month = anime['endDate'].get('month') or 1
-            day = anime['endDate'].get('day') or 1
-            end_date = f"{anime['endDate']['year']}-{month:02d}-{day:02d}"
+        # Get end date (already extracted above for recently finished check)
         
         # Process streaming links - filter out social media and non-streaming sites
         streaming_links = []
@@ -724,6 +763,7 @@ def process_anime_data(api_data):
             final_next_airing_date = next_airing_date
         if not final_next_episode:
             final_next_episode = episode_number
+        
         
         processed_anime.append({
             'id': anime['id'],
