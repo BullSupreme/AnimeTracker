@@ -60,7 +60,7 @@
     ],
     "popularity": 38321,
     "anilist_score": 66,
-    "popularity_rank": 11
+    "popularity_rank": 12
   },
   {
     "id": 184989,
@@ -84,7 +84,7 @@
     ],
     "popularity": 10155,
     "anilist_score": 58,
-    "popularity_rank": 40
+    "popularity_rank": 42
   },
   {
     "id": 176702,
@@ -108,41 +108,7 @@
     ],
     "popularity": 10073,
     "anilist_score": 63,
-    "popularity_rank": 41
-  },
-  {
-    "id": 156092,
-    "mal_id": 53447,
-    "name": "Tu Bian Yingxiong X",
-    "english_title": "To Be Hero X",
-    "episode": 12,
-    "release_date": "2025-06-21",
-    "next_airing_date": "2025-06-21",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156092-yHqgQZOF2mbg.jpg",
-    "site_url": "https://anilist.co/anime/156092",
-    "start_date": "2025-04-06",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md28340128/",
-        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GQWH0M1J3/to-be-hero-x",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "Bilibili",
-        "url": "https://space.bilibili.com/1203126943",
-        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
-      }
-    ],
-    "popularity": 56596,
-    "anilist_score": 83,
-    "popularity_rank": 6
+    "popularity_rank": 43
   },
   {
     "id": 179955,
@@ -166,7 +132,7 @@
     ],
     "popularity": 45258,
     "anilist_score": 68,
-    "popularity_rank": 8
+    "popularity_rank": 9
   },
   {
     "id": 182814,
@@ -195,7 +161,7 @@
     ],
     "popularity": 43841,
     "anilist_score": 72,
-    "popularity_rank": 9
+    "popularity_rank": 10
   },
   {
     "id": 143337,
@@ -224,7 +190,7 @@
     ],
     "popularity": 35863,
     "anilist_score": 68,
-    "popularity_rank": 15
+    "popularity_rank": 16
   },
   {
     "id": 183274,
@@ -253,7 +219,7 @@
     ],
     "popularity": 22586,
     "anilist_score": 62,
-    "popularity_rank": 24
+    "popularity_rank": 25
   },
   {
     "id": 176246,
@@ -277,7 +243,7 @@
     ],
     "popularity": 17223,
     "anilist_score": 75,
-    "popularity_rank": 28
+    "popularity_rank": 30
   },
   {
     "id": 177476,
@@ -306,7 +272,7 @@
     ],
     "popularity": 16491,
     "anilist_score": 72,
-    "popularity_rank": 29
+    "popularity_rank": 31
   },
   {
     "id": 181182,
@@ -335,7 +301,7 @@
     ],
     "popularity": 15638,
     "anilist_score": 77,
-    "popularity_rank": 32
+    "popularity_rank": 34
   },
   {
     "id": 184639,
@@ -369,7 +335,7 @@
     ],
     "popularity": 15086,
     "anilist_score": 75,
-    "popularity_rank": 33
+    "popularity_rank": 35
   },
   {
     "id": 179054,
@@ -398,7 +364,7 @@
     ],
     "popularity": 13786,
     "anilist_score": 79,
-    "popularity_rank": 37
+    "popularity_rank": 39
   },
   {
     "id": 185939,
@@ -422,7 +388,7 @@
     ],
     "popularity": 13544,
     "anilist_score": 75,
-    "popularity_rank": 38
+    "popularity_rank": 40
   },
   {
     "id": 21,
@@ -488,6 +454,40 @@
     "popularity_rank": 4
   },
   {
+    "id": 156092,
+    "mal_id": 53447,
+    "name": "Tu Bian Yingxiong X",
+    "english_title": "To Be Hero X",
+    "episode": 12,
+    "release_date": "2025-06-22",
+    "next_airing_date": "2025-06-22",
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156092-yHqgQZOF2mbg.jpg",
+    "site_url": "https://anilist.co/anime/156092",
+    "start_date": "2025-04-06",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Bilibili",
+        "url": "https://www.bilibili.com/bangumi/media/md28340128/",
+        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GQWH0M1J3/to-be-hero-x",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Bilibili",
+        "url": "https://space.bilibili.com/1203126943",
+        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
+      }
+    ],
+    "popularity": 56596,
+    "anilist_score": 83,
+    "popularity_rank": 7
+  },
+  {
     "id": 180367,
     "mal_id": 59597,
     "name": "Witch Watch",
@@ -524,7 +524,7 @@
     ],
     "popularity": 55803,
     "anilist_score": 73,
-    "popularity_rank": 7
+    "popularity_rank": 8
   },
   {
     "id": 178781,
@@ -553,7 +553,7 @@
     ],
     "popularity": 22687,
     "anilist_score": 71,
-    "popularity_rank": 22
+    "popularity_rank": 23
   },
   {
     "id": 180829,
@@ -577,7 +577,7 @@
     ],
     "popularity": 18959,
     "anilist_score": 52,
-    "popularity_rank": 26
+    "popularity_rank": 28
   },
   {
     "id": 177509,
@@ -601,7 +601,7 @@
     ],
     "popularity": 16088,
     "anilist_score": 53,
-    "popularity_rank": 31
+    "popularity_rank": 33
   },
   {
     "id": 180516,
@@ -635,7 +635,7 @@
     ],
     "popularity": 14141,
     "anilist_score": 83,
-    "popularity_rank": 34
+    "popularity_rank": 36
   },
   {
     "id": 182060,
@@ -659,7 +659,7 @@
     ],
     "popularity": 13829,
     "anilist_score": 63,
-    "popularity_rank": 36
+    "popularity_rank": 38
   },
   {
     "id": 176301,
@@ -717,7 +717,7 @@
     ],
     "popularity": 36460,
     "anilist_score": 71,
-    "popularity_rank": 14
+    "popularity_rank": 15
   },
   {
     "id": 180812,
@@ -746,7 +746,7 @@
     ],
     "popularity": 32146,
     "anilist_score": 64,
-    "popularity_rank": 16
+    "popularity_rank": 17
   },
   {
     "id": 139825,
@@ -770,7 +770,7 @@
     ],
     "popularity": 31951,
     "anilist_score": 66,
-    "popularity_rank": 17
+    "popularity_rank": 18
   },
   {
     "id": 185736,
@@ -799,7 +799,7 @@
     ],
     "popularity": 42678,
     "anilist_score": 75,
-    "popularity_rank": 10
+    "popularity_rank": 11
   },
   {
     "id": 179979,
@@ -828,7 +828,7 @@
     ],
     "popularity": 23035,
     "anilist_score": 72,
-    "popularity_rank": 21
+    "popularity_rank": 22
   },
   {
     "id": 143200,
@@ -852,7 +852,7 @@
     ],
     "popularity": 22621,
     "anilist_score": 69,
-    "popularity_rank": 23
+    "popularity_rank": 24
   },
   {
     "id": 165445,
@@ -876,7 +876,7 @@
     ],
     "popularity": 13890,
     "anilist_score": 66,
-    "popularity_rank": 35
+    "popularity_rank": 37
   },
   {
     "id": 174802,
@@ -905,7 +905,7 @@
     ],
     "popularity": 29312,
     "anilist_score": 67,
-    "popularity_rank": 18
+    "popularity_rank": 19
   },
   {
     "id": 185213,
@@ -929,7 +929,7 @@
     ],
     "popularity": 25117,
     "anilist_score": 73,
-    "popularity_rank": 19
+    "popularity_rank": 20
   },
   {
     "id": 180675,
@@ -958,6 +958,6 @@
     ],
     "popularity": 19313,
     "anilist_score": 75,
-    "popularity_rank": 25
+    "popularity_rank": 27
   }
 ]
