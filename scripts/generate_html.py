@@ -111,7 +111,8 @@ def generate_html():
     
     # Add today's releases
     for anime in anime_data:
-        if anime.get('release_date') == today_date:
+        # Include anime if release_date is today OR if end_date is today (for final episodes)
+        if anime.get('release_date') == today_date or anime.get('end_date') == today_date:
             custom_link = custom_links.get(anime['name'], anime['site_url'])
             link_domain = custom_link.split('//')[1].split('/')[0] if '//' in custom_link else 'anilist.co'
             

@@ -66,7 +66,8 @@ def is_within_season_threshold():
 
 def fetch_current_anime():
     """Fetch currently airing anime from AniList API"""
-    query = '''
+    # First query for RELEASING anime
+    query_releasing = '''
     query ($page: Int, $perPage: Int) {
         Page(page: $page, perPage: $perPage) {
             pageInfo {
@@ -97,6 +98,11 @@ def fetch_current_anime():
                     month
                     day
                 }
+                endDate {
+                    year
+                    month
+                    day
+                }
                 externalLinks {
                     site
                     url
@@ -107,16 +113,76 @@ def fetch_current_anime():
                 duration
                 format
                 popularity
+                status
+            }
+        }
+    }
+    '''
+    
+    # Second query for recently FINISHED anime (within last 7 days)
+    today = datetime.now()
+    week_ago = today - timedelta(days=7)
+    
+    query_finished = '''
+    query ($page: Int, $perPage: Int, $startDate: FuzzyDateInt, $endDate: FuzzyDateInt) {
+        Page(page: $page, perPage: $perPage) {
+            pageInfo {
+                hasNextPage
+                currentPage
+            }
+            media(status: FINISHED, type: ANIME, format_in: [TV, ONA, TV_SHORT], sort: [POPULARITY_DESC], endDate_greater: $startDate, endDate_lesser: $endDate) {
+                id
+                idMal
+                title {
+                    romaji
+                    english
+                }
+                averageScore
+                episodes
+                nextAiringEpisode {
+                    episode
+                    airingAt
+                }
+                coverImage {
+                    extraLarge
+                    large
+                    medium
+                }
+                siteUrl
+                startDate {
+                    year
+                    month
+                    day
+                }
+                endDate {
+                    year
+                    month
+                    day
+                }
+                externalLinks {
+                    site
+                    url
+                    icon
+                }
+                genres
+                isAdult
+                duration
+                format
+                popularity
+                status
             }
         }
     }
     '''
     
     all_anime = []
-    page = 1
-    per_page = 50
     
     try:
+        # First, fetch all RELEASING anime
+        print("Fetching currently airing anime...")
+        page = 1
+        per_page = 50
+        
         while True:
             variables = {
                 'page': page,
@@ -125,7 +191,7 @@ def fetch_current_anime():
             
             response = requests.post(
                 ANILIST_API_URL,
-                json={'query': query, 'variables': variables},
+                json={'query': query_releasing, 'variables': variables},
                 timeout=10
             )
             response.raise_for_status()
@@ -143,6 +209,50 @@ def fetch_current_anime():
                 
             page += 1
             print(f"Fetched page {page-1}, total anime so far: {len(all_anime)}")
+        
+        # Then, fetch recently FINISHED anime
+        print("Fetching recently finished anime...")
+        page = 1
+        
+        # Convert dates to FuzzyDateInt format (YYYYMMDD)
+        # Include tomorrow to ensure we catch anime ending today
+        tomorrow = today + timedelta(days=1)
+        start_fuzzy = int(f"{week_ago.year}{week_ago.month:02d}{week_ago.day:02d}")
+        end_fuzzy = int(f"{tomorrow.year}{tomorrow.month:02d}{tomorrow.day:02d}")
+        
+        while True:
+            variables = {
+                'page': page,
+                'perPage': per_page,
+                'startDate': start_fuzzy,
+                'endDate': end_fuzzy
+            }
+            
+            response = requests.post(
+                ANILIST_API_URL,
+                json={'query': query_finished, 'variables': variables},
+                timeout=10
+            )
+            response.raise_for_status()
+            data = response.json()
+            
+            if not data or 'data' not in data:
+                break
+                
+            page_data = data['data']['Page']
+            finished_anime = page_data['media']
+            
+            # Add finished anime to our list
+            all_anime.extend(finished_anime)
+            
+            # Check if there are more pages
+            if not page_data['pageInfo']['hasNextPage']:
+                break
+                
+            page += 1
+            print(f"Fetched page {page-1} of finished anime, added {len(finished_anime)} anime")
+        
+        print(f"Total anime fetched: {len(all_anime)}")
         
         # Return in the same format as before
         return {'data': {'Page': {'media': all_anime}}}
@@ -527,6 +637,13 @@ def process_anime_data(api_data):
             day = anime['startDate'].get('day') or 1
             start_date = f"{anime['startDate']['year']}-{month:02d}-{day:02d}"
         
+        # Get end date
+        end_date = None
+        if anime.get('endDate') and anime['endDate'].get('year'):
+            month = anime['endDate'].get('month') or 1
+            day = anime['endDate'].get('day') or 1
+            end_date = f"{anime['endDate']['year']}-{month:02d}-{day:02d}"
+        
         # Process streaming links - filter out social media and non-streaming sites
         streaming_links = []
         streaming_sites = {
@@ -586,6 +703,15 @@ def process_anime_data(api_data):
                         'icon': icon_url
                     })
         
+        # Check if anime is ending today and set release_date accordingly
+        if end_date and end_date == datetime.now().strftime('%Y-%m-%d'):
+            # If anime ends today, set release_date to today for its final episode
+            if not release_date or release_date != end_date:
+                release_date = end_date
+                # Set episode to total episodes for final episode
+                if anime.get('episodes'):
+                    episode_number = anime['episodes']
+        
         # Always prioritize original next airing data when available
         final_next_airing_date = original_next_date
         final_next_episode = original_next_episode
@@ -608,6 +734,7 @@ def process_anime_data(api_data):
             'poster_url': anime['coverImage'].get('extraLarge') or anime['coverImage'].get('large') or anime['coverImage']['medium'],
             'site_url': anime['siteUrl'],
             'start_date': start_date,
+            'end_date': end_date,
             'streaming_links': streaming_links,
             'popularity': anime.get('popularity', 0),
             'anilist_score': anime.get('averageScore')

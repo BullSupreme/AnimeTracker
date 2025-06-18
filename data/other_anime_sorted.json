@@ -11,6 +11,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx149118-AOQb0xuTssGl.jpg",
     "site_url": "https://anilist.co/anime/149118",
     "start_date": "2025-04-05",
+    "end_date": "2025-06-21",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -49,6 +50,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153554-hHYe9aV6Gvlv.jpg",
     "site_url": "https://anilist.co/anime/153554",
     "start_date": "2025-04-04",
+    "end_date": "2025-06-20",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -72,6 +74,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184989-UaWWbrRn2vWV.jpg",
     "site_url": "https://anilist.co/anime/184989",
     "start_date": "2025-04-04",
+    "end_date": "2025-06-20",
     "streaming_links": [
       {
         "site": "Amazon Prime Video",
@@ -81,7 +84,7 @@
     ],
     "popularity": 10155,
     "anilist_score": 58,
-    "popularity_rank": 38
+    "popularity_rank": 40
   },
   {
     "id": 176702,
@@ -95,6 +98,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176702-sD5AnHf8g4zi.jpg",
     "site_url": "https://anilist.co/anime/176702",
     "start_date": "2025-04-12",
+    "end_date": null,
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -104,7 +108,41 @@
     ],
     "popularity": 10073,
     "anilist_score": 63,
-    "popularity_rank": 39
+    "popularity_rank": 41
+  },
+  {
+    "id": 156092,
+    "mal_id": 53447,
+    "name": "Tu Bian Yingxiong X",
+    "english_title": "To Be Hero X",
+    "episode": 12,
+    "release_date": "2025-06-21",
+    "next_airing_date": "2025-06-21",
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156092-yHqgQZOF2mbg.jpg",
+    "site_url": "https://anilist.co/anime/156092",
+    "start_date": "2025-04-06",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Bilibili",
+        "url": "https://www.bilibili.com/bangumi/media/md28340128/",
+        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GQWH0M1J3/to-be-hero-x",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Bilibili",
+        "url": "https://space.bilibili.com/1203126943",
+        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
+      }
+    ],
+    "popularity": 56596,
+    "anilist_score": 83,
+    "popularity_rank": 6
   },
   {
     "id": 179955,
@@ -118,6 +156,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179955-e4UPTow92B1O.jpg",
     "site_url": "https://anilist.co/anime/179955",
     "start_date": "2025-04-05",
+    "end_date": null,
     "streaming_links": [
       {
         "site": "Amazon Prime Video",
@@ -141,6 +180,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182814-UTKRUUm7Jah5.jpg",
     "site_url": "https://anilist.co/anime/182814",
     "start_date": "2025-04-05",
+    "end_date": "2025-06-28",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -169,6 +209,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143337-2uPE0ywVcz9X.jpg",
     "site_url": "https://anilist.co/anime/143337",
     "start_date": "2025-04-05",
+    "end_date": "2025-06-21",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -183,7 +224,7 @@
     ],
     "popularity": 35863,
     "anilist_score": 68,
-    "popularity_rank": 14
+    "popularity_rank": 15
   },
   {
     "id": 183274,
@@ -197,6 +238,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183274-zqrwevS4PBJF.jpg",
     "site_url": "https://anilist.co/anime/183274",
     "start_date": "2025-04-06",
+    "end_date": null,
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -211,7 +253,7 @@
     ],
     "popularity": 22586,
     "anilist_score": 62,
-    "popularity_rank": 23
+    "popularity_rank": 24
   },
   {
     "id": 176246,
@@ -225,6 +267,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176246-ndH8bKh7cmzf.jpg",
     "site_url": "https://anilist.co/anime/176246",
     "start_date": "2025-04-13",
+    "end_date": "2025-06-29",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -234,7 +277,7 @@
     ],
     "popularity": 17223,
     "anilist_score": 75,
-    "popularity_rank": 27
+    "popularity_rank": 28
   },
   {
     "id": 177476,
@@ -248,6 +291,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177476-kduwwEfxcZtU.jpg",
     "site_url": "https://anilist.co/anime/177476",
     "start_date": "2025-04-05",
+    "end_date": null,
     "streaming_links": [
       {
         "site": "Netflix",
@@ -262,7 +306,7 @@
     ],
     "popularity": 16491,
     "anilist_score": 72,
-    "popularity_rank": 28
+    "popularity_rank": 29
   },
   {
     "id": 181182,
@@ -276,6 +320,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181182-lnlfAByYD7X6.png",
     "site_url": "https://anilist.co/anime/181182",
     "start_date": "2025-04-06",
+    "end_date": null,
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -290,7 +335,7 @@
     ],
     "popularity": 15638,
     "anilist_score": 77,
-    "popularity_rank": 31
+    "popularity_rank": 32
   },
   {
     "id": 184639,
@@ -304,6 +349,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184639-tmj8NbTroNeI.jpg",
     "site_url": "https://anilist.co/anime/184639",
     "start_date": "2025-04-05",
+    "end_date": null,
     "streaming_links": [
       {
         "site": "YouTube",
@@ -323,7 +369,7 @@
     ],
     "popularity": 15086,
     "anilist_score": 75,
-    "popularity_rank": 32
+    "popularity_rank": 33
   },
   {
     "id": 179054,
@@ -337,6 +383,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179054-HmN0Za4T157B.jpg",
     "site_url": "https://anilist.co/anime/179054",
     "start_date": "2025-04-05",
+    "end_date": "2025-06-28",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -351,7 +398,7 @@
     ],
     "popularity": 13786,
     "anilist_score": 79,
-    "popularity_rank": 36
+    "popularity_rank": 37
   },
   {
     "id": 185939,
@@ -365,6 +412,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185939-hqt1He153el8.jpg",
     "site_url": "https://anilist.co/anime/185939",
     "start_date": "2025-04-13",
+    "end_date": "2025-06-29",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -374,7 +422,7 @@
     ],
     "popularity": 13544,
     "anilist_score": 75,
-    "popularity_rank": 37
+    "popularity_rank": 38
   },
   {
     "id": 21,
@@ -388,6 +436,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
     "site_url": "https://anilist.co/anime/21",
     "start_date": "1999-10-20",
+    "end_date": null,
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -426,6 +475,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx167336-KpGIIBie71OX.png",
     "site_url": "https://anilist.co/anime/167336",
     "start_date": "2025-04-06",
+    "end_date": "2025-06-29",
     "streaming_links": [
       {
         "site": "Hulu",
@@ -436,39 +486,6 @@
     "popularity": 79740,
     "anilist_score": 71,
     "popularity_rank": 4
-  },
-  {
-    "id": 156092,
-    "mal_id": 53447,
-    "name": "Tu Bian Yingxiong X",
-    "english_title": "To Be Hero X",
-    "episode": 12,
-    "release_date": "2025-06-22",
-    "next_airing_date": "2025-06-22",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156092-yHqgQZOF2mbg.jpg",
-    "site_url": "https://anilist.co/anime/156092",
-    "start_date": "2025-04-06",
-    "streaming_links": [
-      {
-        "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md28340128/",
-        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GQWH0M1J3/to-be-hero-x",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "Bilibili",
-        "url": "https://space.bilibili.com/1203126943",
-        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
-      }
-    ],
-    "popularity": 56596,
-    "anilist_score": 83,
-    "popularity_rank": 6
   },
   {
     "id": 180367,
@@ -482,6 +499,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180367-GlRuB2lG7Kaa.jpg",
     "site_url": "https://anilist.co/anime/180367",
     "start_date": "2025-04-06",
+    "end_date": null,
     "streaming_links": [
       {
         "site": "Netflix",
@@ -520,6 +538,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178781-pbk5FgfiAJxS.jpg",
     "site_url": "https://anilist.co/anime/178781",
     "start_date": "2025-04-13",
+    "end_date": "2025-06-29",
     "streaming_links": [
       {
         "site": "Disney Plus",
@@ -534,7 +553,7 @@
     ],
     "popularity": 22687,
     "anilist_score": 71,
-    "popularity_rank": 21
+    "popularity_rank": 22
   },
   {
     "id": 180829,
@@ -548,6 +567,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180829-jHViG8fIkaIJ.jpg",
     "site_url": "https://anilist.co/anime/180829",
     "start_date": "2025-04-07",
+    "end_date": "2025-06-23",
     "streaming_links": [
       {
         "site": "HIDIVE",
@@ -557,7 +577,7 @@
     ],
     "popularity": 18959,
     "anilist_score": 52,
-    "popularity_rank": 25
+    "popularity_rank": 26
   },
   {
     "id": 177509,
@@ -571,6 +591,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177509-LzpyXGnjitvF.jpg",
     "site_url": "https://anilist.co/anime/177509",
     "start_date": "2025-04-07",
+    "end_date": null,
     "streaming_links": [
       {
         "site": "Amazon Prime Video",
@@ -580,7 +601,7 @@
     ],
     "popularity": 16088,
     "anilist_score": 53,
-    "popularity_rank": 30
+    "popularity_rank": 31
   },
   {
     "id": 180516,
@@ -594,6 +615,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180516-lebpoKLkw6E3.jpg",
     "site_url": "https://anilist.co/anime/180516",
     "start_date": "2025-04-06",
+    "end_date": "2025-06-29",
     "streaming_links": [
       {
         "site": "Amazon Prime Video",
@@ -613,7 +635,7 @@
     ],
     "popularity": 14141,
     "anilist_score": 83,
-    "popularity_rank": 33
+    "popularity_rank": 34
   },
   {
     "id": 182060,
@@ -627,6 +649,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182060-r0ihNqhiyvpT.jpg",
     "site_url": "https://anilist.co/anime/182060",
     "start_date": "2025-04-06",
+    "end_date": "2025-06-22",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -636,7 +659,7 @@
     ],
     "popularity": 13829,
     "anilist_score": 63,
-    "popularity_rank": 35
+    "popularity_rank": 36
   },
   {
     "id": 176301,
@@ -650,6 +673,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176301-TIGmldLffQGX.jpg",
     "site_url": "https://anilist.co/anime/176301",
     "start_date": "2025-01-10",
+    "end_date": "2025-07-04",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -678,6 +702,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143598-FCvAhQJLllSP.png",
     "site_url": "https://anilist.co/anime/143598",
     "start_date": "2025-03-31",
+    "end_date": null,
     "streaming_links": [
       {
         "site": "HIDIVE",
@@ -692,7 +717,7 @@
     ],
     "popularity": 36460,
     "anilist_score": 71,
-    "popularity_rank": 13
+    "popularity_rank": 14
   },
   {
     "id": 180812,
@@ -706,6 +731,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180812-162w2RBaqJzE.jpg",
     "site_url": "https://anilist.co/anime/180812",
     "start_date": "2025-01-12",
+    "end_date": null,
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -720,7 +746,7 @@
     ],
     "popularity": 32146,
     "anilist_score": 64,
-    "popularity_rank": 15
+    "popularity_rank": 16
   },
   {
     "id": 139825,
@@ -734,6 +760,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139825-rFlrzdRZmlYK.jpg",
     "site_url": "https://anilist.co/anime/139825",
     "start_date": "2024-07-10",
+    "end_date": null,
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -743,7 +770,7 @@
     ],
     "popularity": 31951,
     "anilist_score": 66,
-    "popularity_rank": 16
+    "popularity_rank": 17
   },
   {
     "id": 185736,
@@ -757,6 +784,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185736-Ci6AiGwjKKtp.jpg",
     "site_url": "https://anilist.co/anime/185736",
     "start_date": "2025-04-07",
+    "end_date": "2025-06-30",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -785,6 +813,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179979-OiIKSkhJRmvo.jpg",
     "site_url": "https://anilist.co/anime/179979",
     "start_date": "2025-04-07",
+    "end_date": null,
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -799,7 +828,7 @@
     ],
     "popularity": 23035,
     "anilist_score": 72,
-    "popularity_rank": 20
+    "popularity_rank": 21
   },
   {
     "id": 143200,
@@ -813,6 +842,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143200-42OaDCS6VEy3.png",
     "site_url": "https://anilist.co/anime/143200",
     "start_date": "2025-04-07",
+    "end_date": null,
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -822,7 +852,7 @@
     ],
     "popularity": 22621,
     "anilist_score": 69,
-    "popularity_rank": 22
+    "popularity_rank": 23
   },
   {
     "id": 165445,
@@ -836,6 +866,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx165445-qwVP0w5NIaBW.jpg",
     "site_url": "https://anilist.co/anime/165445",
     "start_date": "2025-04-07",
+    "end_date": "2025-06-23",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -845,7 +876,7 @@
     ],
     "popularity": 13890,
     "anilist_score": 66,
-    "popularity_rank": 34
+    "popularity_rank": 35
   },
   {
     "id": 174802,
@@ -859,6 +890,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174802-ILahIZlNWN3R.jpg",
     "site_url": "https://anilist.co/anime/174802",
     "start_date": "2025-04-08",
+    "end_date": "2025-06-24",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -873,7 +905,7 @@
     ],
     "popularity": 29312,
     "anilist_score": 67,
-    "popularity_rank": 17
+    "popularity_rank": 18
   },
   {
     "id": 185213,
@@ -887,6 +919,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185213-RKQN0qxKlqd6.jpg",
     "site_url": "https://anilist.co/anime/185213",
     "start_date": "2025-04-09",
+    "end_date": "2025-06-25",
     "streaming_links": [
       {
         "site": "Amazon Prime Video",
@@ -896,7 +929,7 @@
     ],
     "popularity": 25117,
     "anilist_score": 73,
-    "popularity_rank": 18
+    "popularity_rank": 19
   },
   {
     "id": 180675,
@@ -910,6 +943,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180675-YEwsxiMsnyvL.png",
     "site_url": "https://anilist.co/anime/180675",
     "start_date": "2025-04-09",
+    "end_date": "2025-06-25",
     "streaming_links": [
       {
         "site": "YouTube",
@@ -924,6 +958,6 @@
     ],
     "popularity": 19313,
     "anilist_score": 75,
-    "popularity_rank": 24
+    "popularity_rank": 25
   }
 ]
