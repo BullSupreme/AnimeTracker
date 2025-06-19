@@ -475,33 +475,39 @@ def process_anime_data(api_data):
                 except (ValueError, TypeError):
                     pass
             
-            # If it's not a potential finale, check if anime is ending soon before filtering by age
+            # For anime without next episodes, check if they're still relevant
             if not could_be_finale_today:
-                # Check if anime is ending soon (within 2 days) - if so, don't filter it out
+                # Check if anime is ending soon (within 7 days) - if so, keep it
                 ending_soon = False
                 if end_date:
                     try:
                         today_date = datetime.now().date()
                         end_date_obj = datetime.strptime(end_date, '%Y-%m-%d').date()
                         days_until_end = (end_date_obj - today_date).days
-                        # If ending within 2 days, consider it relevant
-                        if 0 <= days_until_end <= 2:
+                        # If ending within a week, consider it relevant
+                        if -3 <= days_until_end <= 7:  # Include anime that ended up to 3 days ago
                             ending_soon = True
                     except (ValueError, TypeError):
                         pass
                 
-                # Only apply the 4-week filter if the anime is NOT ending soon
-                if not ending_soon:
-                    if start_year:
-                        start_month = anime.get('startDate', {}).get('month', 1)
-                        start_day = anime.get('startDate', {}).get('day', 1)
-                        try:
-                            start_date_obj = datetime(start_year, start_month, start_day)
-                            four_weeks_ago = datetime.now() - timedelta(days=28)
-                            if start_date_obj < four_weeks_ago:
-                                continue  # Skip anime with no upcoming episodes that started > 4 weeks ago
-                        except (ValueError, TypeError):
-                            pass
+                # Check if anime finished recently (within last 7 days)
+                recently_finished = False
+                recently_finished_2weeks = False
+                if end_date:
+                    try:
+                        today_date = datetime.now().date()
+                        end_date_obj = datetime.strptime(end_date, '%Y-%m-%d').date()
+                        days_since_end = (today_date - end_date_obj).days
+                        if 0 <= days_since_end <= 7:  # Finished within last week
+                            recently_finished = True
+                        elif 0 <= days_since_end <= 14:  # Finished within last 2 weeks
+                            recently_finished_2weeks = True
+                    except (ValueError, TypeError):
+                        pass
+                
+                # If anime is neither ending soon nor recently finished, skip it
+                if not ending_soon and not recently_finished and not recently_finished_2weeks:
+                    continue
 
         # Get episode info - use nextAiringEpisode if available, otherwise estimate
         episode_number = 1
@@ -764,6 +770,17 @@ def process_anime_data(api_data):
         if not final_next_episode:
             final_next_episode = episode_number
         
+        # Check if recently finished (within 2 weeks)
+        is_recently_finished = False
+        if end_date and not has_next_episode:
+            try:
+                today_date = datetime.now().date()
+                end_date_obj = datetime.strptime(end_date, '%Y-%m-%d').date()
+                days_since_end = (today_date - end_date_obj).days
+                if 0 <= days_since_end <= 14:  # Finished within last 2 weeks
+                    is_recently_finished = True
+            except (ValueError, TypeError):
+                pass
         
         processed_anime.append({
             'id': anime['id'],
@@ -780,7 +797,8 @@ def process_anime_data(api_data):
             'end_date': end_date,
             'streaming_links': streaming_links,
             'popularity': anime.get('popularity', 0),
-            'anilist_score': anime.get('averageScore')
+            'anilist_score': anime.get('averageScore'),
+            'recently_finished': is_recently_finished
         })
     
     # Sort by popularity (highest first) to calculate rankings
@@ -883,15 +901,20 @@ def process_upcoming_anime_data(api_data):
 def sort_other_anime(anime_list, today_date, tomorrow_date):
     """Sort other anime based on air dates"""
     other_anime = []
+    recently_finished_anime = []
     today = datetime.strptime(today_date, '%Y-%m-%d').date()
     
     for anime in anime_list:
         # Skip anime that are in today or tomorrow sections
         if anime.get('release_date') == today_date or anime.get('release_date') == tomorrow_date:
             continue
-            
-        # Add anime to other section
-        other_anime.append(anime)
+        
+        # Check if this is a recently finished anime
+        if anime.get('recently_finished', False):
+            recently_finished_anime.append(anime)
+        else:
+            # Add anime to other section
+            other_anime.append(anime)
     
     # Sort other anime by priority
     def get_sort_priority(anime):
@@ -919,7 +942,11 @@ def sort_other_anime(anime_list, today_date, tomorrow_date):
             return (3, anime.get('popularity_rank', 999))  # Medium priority for invalid dates
     
     other_anime.sort(key=get_sort_priority)
-    return other_anime
+    
+    # Sort recently finished anime by end date (most recent first)
+    recently_finished_anime.sort(key=lambda x: x.get('end_date', ''), reverse=True)
+    
+    return other_anime, recently_finished_anime
 
 def main():
     """Main function to fetch and process anime data"""
@@ -943,7 +970,7 @@ def main():
     tomorrow = (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d')
     
     # Sort other anime with custom logic
-    other_anime_sorted = sort_other_anime(processed_data, today, tomorrow)
+    other_anime_sorted, recently_finished_sorted = sort_other_anime(processed_data, today, tomorrow)
     
     # Save processed data
     with open('data/anime_data.json', 'w', encoding='utf-8') as f:
@@ -952,6 +979,10 @@ def main():
     # Save other anime sorted data
     with open('data/other_anime_sorted.json', 'w', encoding='utf-8') as f:
         json.dump(other_anime_sorted, f, ensure_ascii=False, indent=2)
+    
+    # Save recently finished anime data
+    with open('data/recently_finished_anime.json', 'w', encoding='utf-8') as f:
+        json.dump(recently_finished_sorted, f, ensure_ascii=False, indent=2)
     
     # Fetch upcoming seasonal anime
     next_season, next_year = get_next_season()

@@ -29,10 +29,17 @@ def load_data():
             with open(manual_streaming_path, 'r', encoding='utf-8') as f:
                 manual_streaming_links = json.load(f)
         
-        return anime_data, other_anime_sorted, metadata, upcoming_anime, manual_streaming_links
+        # Load recently finished anime
+        recently_finished_anime = []
+        recently_finished_path = 'data/recently_finished_anime.json'
+        if os.path.exists(recently_finished_path):
+            with open(recently_finished_path, 'r', encoding='utf-8') as f:
+                recently_finished_anime = json.load(f)
+        
+        return anime_data, other_anime_sorted, metadata, upcoming_anime, manual_streaming_links, recently_finished_anime
     except FileNotFoundError as e:
         print(f"Data file not found: {e}")
-        return [], [], {}, [], {}
+        return [], [], {}, [], {}, []
 
 def get_season_emoji(season):
     """Get emoji for a given season"""
@@ -47,7 +54,7 @@ def get_season_emoji(season):
 
 def generate_html():
     """Generate static HTML file"""
-    anime_data, other_anime_sorted, metadata, upcoming_anime, manual_streaming_links = load_data()
+    anime_data, other_anime_sorted, metadata, upcoming_anime, manual_streaming_links, recently_finished_anime = load_data()
     
     
     if not anime_data:
@@ -304,6 +311,79 @@ def generate_html():
                         </div>"""
     
     html_content += """                    </div>
+                </div>"""
+    
+    # Add recently finished anime section if we have data
+    if recently_finished_anime:
+        html_content += """                <div class="time-section recently-finished-section">
+                    <h2 class="section-title">
+                        <span class="section-icon">✅</span>
+                        Recently Finished (Last 2 Weeks)
+                    </h2>
+                    <div class="anime-grid recently-finished-grid">
+"""
+        
+        # Add recently finished anime
+        for anime in recently_finished_anime:
+            custom_link = custom_links.get(anime['name'], anime['site_url'])
+            link_domain = custom_link.split('//')[1].split('/')[0] if '//' in custom_link else 'anilist.co'
+            
+            # Display the total episodes and end date
+            total_episodes = anime.get('episode', '?')
+            end_date_display = f"Finished: {anime.get('end_date', 'Unknown')}"
+            
+            html_content += f"""                        <div class="anime-card recently-finished-card" data-name="{anime['name']}" data-link="{custom_link}" data-anime-id="{anime['id']}" data-release="{anime.get('end_date', '')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
+                            <div class="card-image-wrapper">
+                                <img class="anime-poster" src="{anime['poster_url']}" alt="{anime['name']} poster">
+                                <div class="card-overlay">
+                                    <button class="favorite-btn" data-anime-id="{anime['id']}">
+                                        <span class="favorite-icon">♡</span>
+                                    </button>
+                                    <div class="popularity-rank-badge" data-tooltip="🔥 #{anime['popularity_rank']} most popular • {anime['popularity']:,} users tracking">
+                                        #{anime['popularity_rank']}
+                                    </div>
+                                </div>
+                                <div class="custom-link-badge" style="display: none;">
+                                    <span class="custom-favicon"></span>
+                                </div>
+                            </div>
+                            <div class="card-info">"""
+            
+            if anime.get('english_title'):
+                html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
+            
+            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
+                                <div class="episode-info">
+                                    <span class="episode-badge">Total: {total_episodes} Episodes</span>
+                                    <a href="{custom_link}" target="_blank" class="main-link-btn">
+                                        {link_domain}
+                                    </a>
+                                    <span class="release-date">{end_date_display}</span>
+                                </div>
+                                <div class="streaming-links">"""
+            
+            # Get manual streaming links if they exist
+            manual_links = manual_streaming_links.get(anime['name'], [])
+            all_streaming_links = anime.get('streaming_links', []) + manual_links
+            
+            # Remove duplicates based on site name
+            seen_sites = set()
+            unique_links = []
+            for link in all_streaming_links:
+                if link['site'] not in seen_sites:
+                    seen_sites.add(link['site'])
+                    unique_links.append(link)
+            
+            for link in unique_links:
+                html_content += f"""                                    <a href="{link['url']}" target="_blank" title="{link['site']}" class="streaming-link">
+                                        <img src="{link['icon']}" alt="{link['site']}">
+                                    </a>"""
+            
+            html_content += """                                </div>
+                            </div>
+                        </div>"""
+        
+        html_content += """                    </div>
                 </div>"""
     
     # Add upcoming seasonal anime section if we have data
