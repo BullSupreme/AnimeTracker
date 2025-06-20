@@ -75,7 +75,7 @@
     "name": "Enen no Shouboutai: San no Shou",
     "english_title": "Fire Force Season 3",
     "episode": 12,
-    "release_date": "2025-06-20",
+    "release_date": "2025-06-21",
     "next_airing_date": "2025-06-20",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx149118-AOQb0xuTssGl.jpg",
@@ -161,7 +161,7 @@
     ],
     "popularity": 62885,
     "anilist_score": 77,
-    "recently_finished": false,
+    "recently_finished": true,
     "popularity_rank": 5
   },
   {
@@ -170,7 +170,7 @@
     "name": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru?",
     "english_title": "The Beginning After the End",
     "episode": 12,
-    "release_date": "2025-06-19",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183161-5M054tuPmZJX.jpg",
@@ -405,7 +405,7 @@
     "name": "Isshun de Chiryou Shiteita no ni Yakutatazu to Tsuihou Sareta Tensai Chiyushi, Yami Healer Toshite Tanoshiku Ikiru",
     "english_title": "The Brilliant Healer's New Life in the Shadows",
     "episode": 12,
-    "release_date": "2025-06-19",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx175872-d55nfiC4WWHO.jpg",
@@ -554,8 +554,8 @@
     "mal_id": 58131,
     "name": "Shiunji-ke no Kodomotachi",
     "english_title": "The Shiunji Family Children",
-    "episode": 11,
-    "release_date": "2025-06-17",
+    "episode": 12,
+    "release_date": "2025-06-24",
     "next_airing_date": "2025-06-24",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174802-ILahIZlNWN3R.jpg",
@@ -609,8 +609,8 @@
     "mal_id": 60449,
     "name": "Kidou Senshi Gundam GQuuuuuuX",
     "english_title": "Mobile Suit Gundam GQuuuuuuX",
-    "episode": 11,
-    "release_date": "2025-06-17",
+    "episode": 12,
+    "release_date": "2025-06-24",
     "next_airing_date": "2025-06-24",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185213-RKQN0qxKlqd6.jpg",
@@ -780,7 +780,7 @@
     "name": "Kanpeki Sugite Kawai-ge ga Nai to Konyaku Haki Sareta Seijo wa Ringoku ni Urareru",
     "english_title": "The Too-Perfect Saint: Tossed Aside by My Fiancé and Sold to Another Kingdom",
     "episode": 12,
-    "release_date": "2025-06-19",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183275-WtAo77sYDFW8.png",
@@ -804,8 +804,8 @@
     "mal_id": 59675,
     "name": "Apocalypse Hotel",
     "english_title": "Apocalypse Hotel",
-    "episode": 11,
-    "release_date": "2025-06-17",
+    "episode": 12,
+    "release_date": "2025-06-24",
     "next_airing_date": "2025-06-24",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180675-YEwsxiMsnyvL.png",
@@ -1288,35 +1288,5 @@
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 45
-  },
-  {
-    "id": 191974,
-    "mal_id": 60572,
-    "name": "Kun Tun Tianxia Zhi Zhang Men Guilai",
-    "english_title": "The All-devouring Whale: Homecoming",
-    "episode": 8,
-    "release_date": "2025-06-19",
-    "next_airing_date": null,
-    "next_episode_number": 8,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx191974-1tqbmtbkCpJ1.jpg",
-    "site_url": "https://anilist.co/anime/191974",
-    "start_date": "2025-05-01",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md21082583",
-        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/watch?v=vVMRvv-8dWo",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 5502,
-    "anilist_score": 71,
-    "recently_finished": false,
-    "popularity_rank": 46
   }
 ]
