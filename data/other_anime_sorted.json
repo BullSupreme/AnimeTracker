@@ -1,115 +1,5 @@
 [
   {
-    "id": 185736,
-    "mal_id": 60593,
-    "name": "Vigilante: Boku no Hero Academia ILLEGALS",
-    "english_title": "My Hero Academia: Vigilantes",
-    "episode": 12,
-    "release_date": "2025-06-23",
-    "next_airing_date": "2025-06-23",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185736-Ci6AiGwjKKtp.jpg",
-    "site_url": "https://anilist.co/anime/185736",
-    "start_date": "2025-04-07",
-    "end_date": "2025-06-30",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://crunchyroll.com/series/G79H23ZQ3/my-hero-academia-vigilantes",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Ji6xNpTPVde69l-VVcWyhVR",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 43058,
-    "anilist_score": 75,
-    "recently_finished": false,
-    "popularity_rank": 11
-  },
-  {
-    "id": 179979,
-    "mal_id": 59466,
-    "name": "Aharen-san wa Hakarenai Season 2",
-    "english_title": "Aharen-san wa Hakarenai Season 2",
-    "episode": 12,
-    "release_date": "2025-06-23",
-    "next_airing_date": "2025-06-23",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179979-OiIKSkhJRmvo.jpg",
-    "site_url": "https://anilist.co/anime/179979",
-    "start_date": "2025-04-07",
-    "end_date": "2025-06-23",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GNVHKN72N/aharen-san-wa-hakarenai",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "Amazon Prime Video",
-        "url": "https://www.amazon.com/dp/B0F2FG9YN6/",
-        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
-      }
-    ],
-    "popularity": 23156,
-    "anilist_score": 72,
-    "recently_finished": false,
-    "popularity_rank": 23
-  },
-  {
-    "id": 143200,
-    "mal_id": 50694,
-    "name": "Summer Pockets",
-    "english_title": "Summer Pockets",
-    "episode": 12,
-    "release_date": "2025-06-23",
-    "next_airing_date": "2025-06-23",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143200-42OaDCS6VEy3.png",
-    "site_url": "https://anilist.co/anime/143200",
-    "start_date": "2025-04-07",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://crunchyroll.com/series/G0XHWM17X/summer-pockets",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 22797,
-    "anilist_score": 69,
-    "recently_finished": false,
-    "popularity_rank": 25
-  },
-  {
-    "id": 165445,
-    "mal_id": 55514,
-    "name": "Zatsu Tabi: That's Journey",
-    "english_title": "ZatsuTabi -That's Journey-",
-    "episode": 12,
-    "release_date": "2025-06-23",
-    "next_airing_date": "2025-06-23",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx165445-qwVP0w5NIaBW.jpg",
-    "site_url": "https://anilist.co/anime/165445",
-    "start_date": "2025-04-07",
-    "end_date": "2025-06-23",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GG5H5XQ85/zatsutabi--thats-journey-",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 13952,
-    "anilist_score": 66,
-    "recently_finished": false,
-    "popularity_rank": 39
-  },
-  {
     "id": 174802,
     "mal_id": 58131,
     "name": "Shiunji-ke no Kodomotachi",
@@ -137,7 +27,12 @@
     "popularity": 29725,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 19
+    "popularity_rank": 19,
+    "mal_score": 6.98,
+    "mal_scored_by": 11462,
+    "mal_rank": 4528,
+    "mal_popularity": 2781,
+    "mal_members": 72342
   },
   {
     "id": 185213,
@@ -162,7 +57,12 @@
     "popularity": 25353,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 21
+    "popularity_rank": 20,
+    "mal_score": 7.41,
+    "mal_scored_by": 6457,
+    "mal_rank": 2371,
+    "mal_popularity": 3611,
+    "mal_members": 45047
   },
   {
     "id": 180675,
@@ -192,7 +92,12 @@
     "popularity": 19592,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 27
+    "popularity_rank": 26,
+    "mal_score": 7.64,
+    "mal_scored_by": 5263,
+    "mal_rank": 1496,
+    "mal_popularity": 4065,
+    "mal_members": 35655
   },
   {
     "id": 167142,
@@ -217,7 +122,77 @@
     "popularity": 16184,
     "anilist_score": 57,
     "recently_finished": false,
-    "popularity_rank": 34
+    "popularity_rank": 32,
+    "mal_score": 6.09,
+    "mal_scored_by": 3859,
+    "mal_rank": 9557,
+    "mal_popularity": 4040,
+    "mal_members": 36074
+  },
+  {
+    "id": 179694,
+    "mal_id": 59360,
+    "name": "Rock wa Lady no Tashinami Deshite",
+    "english_title": "Rock is a Lady’s Modesty",
+    "episode": 13,
+    "release_date": "2025-06-26",
+    "next_airing_date": "2025-06-26",
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179694-7zhc0T6IImor.jpg",
+    "site_url": "https://anilist.co/anime/179694",
+    "start_date": "2025-04-03",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "HIDIVE",
+        "url": "https://www.hidive.com/season/30188",
+        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JjgRVMAKk5LAZB89yQ0h4Xw",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 24490,
+    "anilist_score": 75,
+    "recently_finished": false,
+    "popularity_rank": 21,
+    "mal_score": 7.68,
+    "mal_scored_by": 7595,
+    "mal_rank": 1376,
+    "mal_popularity": 3363,
+    "mal_members": 51053
+  },
+  {
+    "id": 177120,
+    "mal_id": 58725,
+    "name": "Ninja to Koroshiya no Futarigurashi",
+    "english_title": "A Ninja and an Assassin Under One Roof",
+    "episode": 12,
+    "release_date": "2025-06-26",
+    "next_airing_date": "2025-06-26",
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177120-xRucIg2WDr77.png",
+    "site_url": "https://anilist.co/anime/177120",
+    "start_date": "2025-04-10",
+    "end_date": "2025-06-26",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://crunchyroll.com/series/GNVHKN9EW/a-ninja-and-an-assassin-under-one-roof",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 18349,
+    "anilist_score": 73,
+    "recently_finished": false,
+    "popularity_rank": 29,
+    "mal_score": 7.4,
+    "mal_scored_by": 6003,
+    "mal_rank": 2398,
+    "mal_popularity": 3968,
+    "mal_members": 37356
   },
   {
     "id": 176301,
@@ -247,7 +222,12 @@
     "popularity": 111747,
     "anilist_score": 87,
     "recently_finished": false,
-    "popularity_rank": 2
+    "popularity_rank": 2,
+    "mal_score": 8.88,
+    "mal_scored_by": 71428,
+    "mal_rank": 23,
+    "mal_popularity": 820,
+    "mal_members": 319907
   },
   {
     "id": 143598,
@@ -277,7 +257,12 @@
     "popularity": 36743,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 15
+    "popularity_rank": 15,
+    "mal_score": 7.5,
+    "mal_scored_by": 12214,
+    "mal_rank": 2010,
+    "mal_popularity": 2481,
+    "mal_members": 86855
   },
   {
     "id": 180812,
@@ -307,7 +292,12 @@
     "popularity": 32288,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 17
+    "popularity_rank": 17,
+    "mal_score": 6.54,
+    "mal_scored_by": 17687,
+    "mal_rank": 6903,
+    "mal_popularity": 2669,
+    "mal_members": 77354
   },
   {
     "id": 139825,
@@ -332,92 +322,12 @@
     "popularity": 32086,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 18
-  },
-  {
-    "id": 177476,
-    "mal_id": 58812,
-    "name": "Shin Samurai-den YAIBA",
-    "english_title": "YAIBA: Samurai Legend",
-    "episode": 1,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177476-kduwwEfxcZtU.jpg",
-    "site_url": "https://anilist.co/anime/177476",
-    "start_date": "2025-04-05",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/82030192",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      },
-      {
-        "site": "Hulu",
-        "url": "https://www.hulu.com/series/5dcf8f0f-4262-4d50-9a57-1814838dbf4d",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      }
-    ],
-    "popularity": 16552,
-    "anilist_score": 72,
-    "recently_finished": false,
-    "popularity_rank": 32
-  },
-  {
-    "id": 179694,
-    "mal_id": 59360,
-    "name": "Rock wa Lady no Tashinami Deshite",
-    "english_title": "Rock is a Lady’s Modesty",
-    "episode": 12,
-    "release_date": "2025-06-19",
-    "next_airing_date": "2025-06-26",
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179694-7zhc0T6IImor.jpg",
-    "site_url": "https://anilist.co/anime/179694",
-    "start_date": "2025-04-03",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "HIDIVE",
-        "url": "https://www.hidive.com/season/30188",
-        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JjgRVMAKk5LAZB89yQ0h4Xw",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 24490,
-    "anilist_score": 75,
-    "recently_finished": false,
-    "popularity_rank": 22
-  },
-  {
-    "id": 177120,
-    "mal_id": 58725,
-    "name": "Ninja to Koroshiya no Futarigurashi",
-    "english_title": "A Ninja and an Assassin Under One Roof",
-    "episode": 11,
-    "release_date": "2025-06-19",
-    "next_airing_date": "2025-06-26",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177120-xRucIg2WDr77.png",
-    "site_url": "https://anilist.co/anime/177120",
-    "start_date": "2025-04-10",
-    "end_date": "2025-06-26",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://crunchyroll.com/series/GNVHKN9EW/a-ninja-and-an-assassin-under-one-roof",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 18349,
-    "anilist_score": 73,
-    "recently_finished": false,
-    "popularity_rank": 30
+    "popularity_rank": 18,
+    "mal_score": 6.69,
+    "mal_scored_by": 9080,
+    "mal_rank": 6058,
+    "mal_popularity": 2326,
+    "mal_members": 96459
   },
   {
     "id": 176702,
@@ -442,6 +352,181 @@
     "popularity": 10181,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 44
+    "popularity_rank": 42,
+    "mal_score": 6.82,
+    "mal_scored_by": 3761,
+    "mal_rank": 5334,
+    "mal_popularity": 4919,
+    "mal_members": 23288
+  },
+  {
+    "id": 182814,
+    "mal_id": 60083,
+    "name": "Kowloon Generic Romance",
+    "english_title": "KOWLOON GENERIC ROMANCE",
+    "episode": 12,
+    "release_date": "2025-06-21",
+    "next_airing_date": "2025-06-28",
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182814-UTKRUUm7Jah5.jpg",
+    "site_url": "https://anilist.co/anime/182814",
+    "start_date": "2025-04-05",
+    "end_date": "2025-06-28",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GZJH3D8K1/kowloon-generic-romance",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JjTeCHu-bW77tOzPZpxcgoE",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 44165,
+    "anilist_score": 72,
+    "recently_finished": false,
+    "popularity_rank": 10,
+    "mal_score": 7.55,
+    "mal_scored_by": 14127,
+    "mal_rank": 1761,
+    "mal_popularity": 2113,
+    "mal_members": 111443
+  },
+  {
+    "id": 176246,
+    "mal_id": 58492,
+    "name": "mono",
+    "english_title": "mono",
+    "episode": 11,
+    "release_date": "2025-06-21",
+    "next_airing_date": "2025-06-28",
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176246-ndH8bKh7cmzf.jpg",
+    "site_url": "https://anilist.co/anime/176246",
+    "start_date": "2025-04-13",
+    "end_date": "2025-06-29",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G1XHJV0N8/mono",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 17415,
+    "anilist_score": 75,
+    "recently_finished": false,
+    "popularity_rank": 30,
+    "mal_score": 7.64,
+    "mal_scored_by": 4977,
+    "mal_rank": 1471,
+    "mal_popularity": 4258,
+    "mal_members": 32315
+  },
+  {
+    "id": 184639,
+    "mal_id": 60334,
+    "name": "Anne Shirley",
+    "english_title": "Anne Shirley",
+    "episode": 12,
+    "release_date": "2025-06-21",
+    "next_airing_date": "2025-06-28",
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184639-tmj8NbTroNeI.jpg",
+    "site_url": "https://anilist.co/anime/184639",
+    "start_date": "2025-04-05",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@anime-ann-e",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G8DHV78XM/anne-shirley",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JiKIvoMCqXUFcRRIUiJzE-O",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 15182,
+    "anilist_score": 74,
+    "recently_finished": false,
+    "popularity_rank": 34,
+    "mal_score": 7.8,
+    "mal_scored_by": 5593,
+    "mal_rank": 1048,
+    "mal_popularity": 3903,
+    "mal_members": 38771
+  },
+  {
+    "id": 179054,
+    "mal_id": 59228,
+    "name": "Kuroshitsuji: Midori no Majo-hen",
+    "english_title": "Black Butler: Emerald Witch Arc",
+    "episode": 12,
+    "release_date": "2025-06-21",
+    "next_airing_date": "2025-06-28",
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179054-HmN0Za4T157B.jpg",
+    "site_url": "https://anilist.co/anime/179054",
+    "start_date": "2025-04-05",
+    "end_date": "2025-06-28",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GYQ43P3E6/black-butler",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/70204955",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 13879,
+    "anilist_score": 79,
+    "recently_finished": false,
+    "popularity_rank": 38,
+    "mal_score": 8.26,
+    "mal_scored_by": 5738,
+    "mal_rank": 323,
+    "mal_popularity": 3395,
+    "mal_members": 50062
+  },
+  {
+    "id": 185939,
+    "mal_id": 60658,
+    "name": "Hibi wa Sugiredo Meshi Umashi",
+    "english_title": "Food for the Soul",
+    "episode": 11,
+    "release_date": "2025-06-21",
+    "next_airing_date": "2025-06-28",
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185939-hqt1He153el8.jpg",
+    "site_url": "https://anilist.co/anime/185939",
+    "start_date": "2025-04-13",
+    "end_date": "2025-06-29",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GJ0H7QGZM/food-for-the-soul",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 13713,
+    "anilist_score": 75,
+    "recently_finished": false,
+    "popularity_rank": 39,
+    "mal_score": 7.67,
+    "mal_scored_by": 4239,
+    "mal_rank": 1402,
+    "mal_popularity": 4422,
+    "mal_members": 29814
   }
 ]

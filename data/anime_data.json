@@ -34,10 +34,15 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 611293,
+    "popularity": 611495,
     "anilist_score": 88,
     "recently_finished": false,
-    "popularity_rank": 1
+    "popularity_rank": 1,
+    "mal_score": 8.73,
+    "mal_scored_by": 1445355,
+    "mal_rank": 50,
+    "mal_popularity": 17,
+    "mal_members": 2542347
   },
   {
     "id": 176301,
@@ -67,7 +72,17 @@
     "popularity": 111747,
     "anilist_score": 87,
     "recently_finished": false,
-    "popularity_rank": 2
+    "popularity_rank": 2,
+    "mal_score": 8.88,
+    "mal_scored_by": 71428,
+    "mal_rank": 23,
+    "mal_popularity": 820,
+    "mal_members": 319907,
+    "anitrendz_rank": 2,
+    "anitrendz_change": "stable",
+    "anitrendz_movement": 0,
+    "anitrendz_weeks": 23,
+    "anitrendz_peak": 1
   },
   {
     "id": 149118,
@@ -75,7 +90,7 @@
     "name": "Enen no Shouboutai: San no Shou",
     "english_title": "Fire Force Season 3",
     "episode": 12,
-    "release_date": "2025-06-21",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx149118-AOQb0xuTssGl.jpg",
@@ -107,7 +122,17 @@
     "popularity": 82637,
     "anilist_score": 78,
     "recently_finished": true,
-    "popularity_rank": 3
+    "popularity_rank": 3,
+    "mal_score": 7.81,
+    "mal_scored_by": 28477,
+    "mal_rank": 1023,
+    "mal_popularity": 1153,
+    "mal_members": 230182,
+    "anitrendz_rank": 3,
+    "anitrendz_change": "up",
+    "anitrendz_movement": 1,
+    "anitrendz_weeks": 11,
+    "anitrendz_peak": 2
   },
   {
     "id": 167336,
@@ -132,7 +157,17 @@
     "popularity": 80191,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 4
+    "popularity_rank": 4,
+    "mal_score": 7.3,
+    "mal_scored_by": 20666,
+    "mal_rank": 2865,
+    "mal_popularity": 1384,
+    "mal_members": 188868,
+    "anitrendz_rank": 25,
+    "anitrendz_change": "down",
+    "anitrendz_movement": -7,
+    "anitrendz_weeks": 3,
+    "anitrendz_peak": 5
   },
   {
     "id": 178680,
@@ -162,7 +197,17 @@
     "popularity": 63552,
     "anilist_score": 78,
     "recently_finished": true,
-    "popularity_rank": 5
+    "popularity_rank": 5,
+    "mal_score": 7.73,
+    "mal_scored_by": 38060,
+    "mal_rank": 1230,
+    "mal_popularity": 1618,
+    "mal_members": 157276,
+    "anitrendz_rank": 4,
+    "anitrendz_change": "down",
+    "anitrendz_movement": -1,
+    "anitrendz_weeks": 11,
+    "anitrendz_peak": 3
   },
   {
     "id": 183161,
@@ -187,7 +232,17 @@
     "popularity": 61441,
     "anilist_score": 57,
     "recently_finished": true,
-    "popularity_rank": 6
+    "popularity_rank": 6,
+    "mal_score": 5.96,
+    "mal_scored_by": 39029,
+    "mal_rank": 10262,
+    "mal_popularity": 1935,
+    "mal_members": 124979,
+    "anitrendz_rank": 27,
+    "anitrendz_change": "up",
+    "anitrendz_movement": 4,
+    "anitrendz_weeks": 0,
+    "anitrendz_peak": 15
   },
   {
     "id": 156092,
@@ -196,7 +251,7 @@
     "english_title": "To Be Hero X",
     "episode": 12,
     "release_date": "2025-06-22",
-    "next_airing_date": "2025-06-22",
+    "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156092-yHqgQZOF2mbg.jpg",
     "site_url": "https://anilist.co/anime/156092",
@@ -222,7 +277,12 @@
     "popularity": 57360,
     "anilist_score": 83,
     "recently_finished": false,
-    "popularity_rank": 7
+    "popularity_rank": 7,
+    "mal_score": 8.54,
+    "mal_scored_by": 25364,
+    "mal_rank": 126,
+    "mal_popularity": 1958,
+    "mal_members": 123207
   },
   {
     "id": 180367,
@@ -262,7 +322,17 @@
     "popularity": 56274,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 8
+    "popularity_rank": 8,
+    "mal_score": 7.46,
+    "mal_scored_by": 19870,
+    "mal_rank": 2146,
+    "mal_popularity": 1852,
+    "mal_members": 132116,
+    "anitrendz_rank": 5,
+    "anitrendz_change": "up",
+    "anitrendz_movement": 2,
+    "anitrendz_weeks": 11,
+    "anitrendz_peak": 4
   },
   {
     "id": 179955,
@@ -286,8 +356,18 @@
     ],
     "popularity": 45735,
     "anilist_score": 67,
-    "recently_finished": false,
-    "popularity_rank": 9
+    "recently_finished": true,
+    "popularity_rank": 9,
+    "mal_score": 6.98,
+    "mal_scored_by": 18920,
+    "mal_rank": 4572,
+    "mal_popularity": 2118,
+    "mal_members": 110876,
+    "anitrendz_rank": 23,
+    "anitrendz_change": "down",
+    "anitrendz_movement": -4,
+    "anitrendz_weeks": 0,
+    "anitrendz_peak": 13
   },
   {
     "id": 182814,
@@ -317,7 +397,17 @@
     "popularity": 44165,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 10
+    "popularity_rank": 10,
+    "mal_score": 7.55,
+    "mal_scored_by": 14127,
+    "mal_rank": 1761,
+    "mal_popularity": 2113,
+    "mal_members": 111443,
+    "anitrendz_rank": 7,
+    "anitrendz_change": "up",
+    "anitrendz_movement": 1,
+    "anitrendz_weeks": 11,
+    "anitrendz_peak": 6
   },
   {
     "id": 185736,
@@ -347,7 +437,17 @@
     "popularity": 43058,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 11
+    "popularity_rank": 11,
+    "mal_score": 7.58,
+    "mal_scored_by": 16308,
+    "mal_rank": 1675,
+    "mal_popularity": 2085,
+    "mal_members": 113749,
+    "anitrendz_rank": 6,
+    "anitrendz_change": "stable",
+    "anitrendz_movement": 0,
+    "anitrendz_weeks": 10,
+    "anitrendz_peak": 5
   },
   {
     "id": 153554,
@@ -372,7 +472,17 @@
     "popularity": 38950,
     "anilist_score": 66,
     "recently_finished": true,
-    "popularity_rank": 12
+    "popularity_rank": 12,
+    "mal_score": 6.73,
+    "mal_scored_by": 24146,
+    "mal_rank": 5779,
+    "mal_popularity": 2182,
+    "mal_members": 105726,
+    "anitrendz_rank": 8,
+    "anitrendz_change": "down",
+    "anitrendz_movement": -2,
+    "anitrendz_weeks": 12,
+    "anitrendz_peak": 5
   },
   {
     "id": 175872,
@@ -407,7 +517,17 @@
     "popularity": 38741,
     "anilist_score": 66,
     "recently_finished": true,
-    "popularity_rank": 13
+    "popularity_rank": 13,
+    "mal_score": 6.86,
+    "mal_scored_by": 25925,
+    "mal_rank": 5077,
+    "mal_popularity": 2384,
+    "mal_members": 92317,
+    "anitrendz_rank": 30,
+    "anitrendz_change": "stable",
+    "anitrendz_movement": 0,
+    "anitrendz_weeks": 0,
+    "anitrendz_peak": 29
   },
   {
     "id": 179965,
@@ -432,7 +552,17 @@
     "popularity": 38415,
     "anilist_score": 58,
     "recently_finished": true,
-    "popularity_rank": 14
+    "popularity_rank": 14,
+    "mal_score": 6.28,
+    "mal_scored_by": 21041,
+    "mal_rank": 8505,
+    "mal_popularity": 2309,
+    "mal_members": 97606,
+    "anitrendz_rank": 26,
+    "anitrendz_change": "stable",
+    "anitrendz_movement": 0,
+    "anitrendz_weeks": 0,
+    "anitrendz_peak": 17
   },
   {
     "id": 143598,
@@ -462,7 +592,17 @@
     "popularity": 36743,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 15
+    "popularity_rank": 15,
+    "mal_score": 7.5,
+    "mal_scored_by": 12214,
+    "mal_rank": 2010,
+    "mal_popularity": 2481,
+    "mal_members": 86855,
+    "anitrendz_rank": 29,
+    "anitrendz_change": "up",
+    "anitrendz_movement": 4,
+    "anitrendz_weeks": 0,
+    "anitrendz_peak": 18
   },
   {
     "id": 143337,
@@ -470,7 +610,7 @@
     "name": "Slime Taoshite 300-nen, Shiranai Uchi ni Level MAX ni Nattemashita: Sono ni",
     "english_title": "I've Been Killing Slimes For 300 Years And Maxed Out My Level Season 2",
     "episode": 12,
-    "release_date": "2025-06-21",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143337-2uPE0ywVcz9X.jpg",
@@ -492,7 +632,17 @@
     "popularity": 35968,
     "anilist_score": 68,
     "recently_finished": true,
-    "popularity_rank": 16
+    "popularity_rank": 16,
+    "mal_score": 6.82,
+    "mal_scored_by": 8311,
+    "mal_rank": 5251,
+    "mal_popularity": 2199,
+    "mal_members": 104465,
+    "anitrendz_rank": 28,
+    "anitrendz_change": "down",
+    "anitrendz_movement": -4,
+    "anitrendz_weeks": 0,
+    "anitrendz_peak": 22
   },
   {
     "id": 180812,
@@ -522,7 +672,17 @@
     "popularity": 32288,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 17
+    "popularity_rank": 17,
+    "mal_score": 6.54,
+    "mal_scored_by": 17687,
+    "mal_rank": 6903,
+    "mal_popularity": 2669,
+    "mal_members": 77354,
+    "anitrendz_rank": 36,
+    "anitrendz_change": "stable",
+    "anitrendz_movement": 0,
+    "anitrendz_weeks": 0,
+    "anitrendz_peak": 21
   },
   {
     "id": 139825,
@@ -547,7 +707,17 @@
     "popularity": 32086,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 18
+    "popularity_rank": 18,
+    "mal_score": 6.69,
+    "mal_scored_by": 9080,
+    "mal_rank": 6058,
+    "mal_popularity": 2326,
+    "mal_members": 96459,
+    "anitrendz_rank": 31,
+    "anitrendz_change": "up",
+    "anitrendz_movement": 3,
+    "anitrendz_weeks": 0,
+    "anitrendz_peak": 31
   },
   {
     "id": 174802,
@@ -577,32 +747,17 @@
     "popularity": 29725,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 19
-  },
-  {
-    "id": 183133,
-    "mal_id": 60140,
-    "name": "Kanchigai no Atelier Meister: Eiyuu Party no Moto Zatsuyougakari ga, Jitsu wa Sentou Igai ga SSS Rank Datta to Iu Yoku Aru Hanashi",
-    "english_title": "The Unaware Atelier Meister",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183133-SSeg5j1UrMDG.png",
-    "site_url": "https://anilist.co/anime/183133",
-    "start_date": "2025-03-30",
-    "end_date": "2025-06-15",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GKEH2G0J4/the-unaware-atelier-meister",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 25490,
-    "anilist_score": 64,
-    "recently_finished": true,
-    "popularity_rank": 20
+    "popularity_rank": 19,
+    "mal_score": 6.98,
+    "mal_scored_by": 11462,
+    "mal_rank": 4528,
+    "mal_popularity": 2781,
+    "mal_members": 72342,
+    "anitrendz_rank": 11,
+    "anitrendz_change": "down",
+    "anitrendz_movement": -1,
+    "anitrendz_weeks": 9,
+    "anitrendz_peak": 9
   },
   {
     "id": 185213,
@@ -627,15 +782,25 @@
     "popularity": 25353,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 21
+    "popularity_rank": 20,
+    "mal_score": 7.41,
+    "mal_scored_by": 6457,
+    "mal_rank": 2371,
+    "mal_popularity": 3611,
+    "mal_members": 45047,
+    "anitrendz_rank": 10,
+    "anitrendz_change": "stable",
+    "anitrendz_movement": 0,
+    "anitrendz_weeks": 10,
+    "anitrendz_peak": 8
   },
   {
     "id": 179694,
     "mal_id": 59360,
     "name": "Rock wa Lady no Tashinami Deshite",
     "english_title": "Rock is a Lady’s Modesty",
-    "episode": 12,
-    "release_date": "2025-06-19",
+    "episode": 13,
+    "release_date": "2025-06-26",
     "next_airing_date": "2025-06-26",
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179694-7zhc0T6IImor.jpg",
@@ -657,7 +822,17 @@
     "popularity": 24490,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 22
+    "popularity_rank": 21,
+    "mal_score": 7.68,
+    "mal_scored_by": 7595,
+    "mal_rank": 1376,
+    "mal_popularity": 3363,
+    "mal_members": 51053,
+    "anitrendz_rank": 9,
+    "anitrendz_change": "up",
+    "anitrendz_movement": 3,
+    "anitrendz_weeks": 11,
+    "anitrendz_peak": 7
   },
   {
     "id": 179979,
@@ -687,7 +862,17 @@
     "popularity": 23156,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 23
+    "popularity_rank": 22,
+    "mal_score": 7.42,
+    "mal_scored_by": 7452,
+    "mal_rank": 2284,
+    "mal_popularity": 2940,
+    "mal_members": 65679,
+    "anitrendz_rank": 22,
+    "anitrendz_change": "down",
+    "anitrendz_movement": -2,
+    "anitrendz_weeks": 0,
+    "anitrendz_peak": 11
   },
   {
     "id": 178781,
@@ -717,7 +902,17 @@
     "popularity": 22807,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 24
+    "popularity_rank": 23,
+    "mal_score": 7.48,
+    "mal_scored_by": 6148,
+    "mal_rank": 2073,
+    "mal_popularity": 3092,
+    "mal_members": 59623,
+    "anitrendz_rank": 21,
+    "anitrendz_change": "up",
+    "anitrendz_movement": 4,
+    "anitrendz_weeks": 0,
+    "anitrendz_peak": 13
   },
   {
     "id": 143200,
@@ -742,7 +937,17 @@
     "popularity": 22797,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 25
+    "popularity_rank": 24,
+    "mal_score": 7.35,
+    "mal_scored_by": 7161,
+    "mal_rank": 2602,
+    "mal_popularity": 3250,
+    "mal_members": 53965,
+    "anitrendz_rank": 13,
+    "anitrendz_change": "stable",
+    "anitrendz_movement": 0,
+    "anitrendz_weeks": 10,
+    "anitrendz_peak": 11
   },
   {
     "id": 183275,
@@ -767,7 +972,17 @@
     "popularity": 20265,
     "anilist_score": 71,
     "recently_finished": true,
-    "popularity_rank": 26
+    "popularity_rank": 25,
+    "mal_score": 7.34,
+    "mal_scored_by": 18341,
+    "mal_rank": 2649,
+    "mal_popularity": 3195,
+    "mal_members": 55681,
+    "anitrendz_rank": 14,
+    "anitrendz_change": "up",
+    "anitrendz_movement": 1,
+    "anitrendz_weeks": 12,
+    "anitrendz_peak": 12
   },
   {
     "id": 180675,
@@ -797,7 +1012,17 @@
     "popularity": 19592,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 27
+    "popularity_rank": 26,
+    "mal_score": 7.64,
+    "mal_scored_by": 5263,
+    "mal_rank": 1496,
+    "mal_popularity": 4065,
+    "mal_members": 35655,
+    "anitrendz_rank": 12,
+    "anitrendz_change": "up",
+    "anitrendz_movement": 2,
+    "anitrendz_weeks": 8,
+    "anitrendz_peak": 10
   },
   {
     "id": 180829,
@@ -805,7 +1030,7 @@
     "name": "Chotto dake Ai ga Omoi Dark Elf ga Isekai kara Oikakete Kita",
     "english_title": "Yandere Dark Elf: She Chased Me All the Way From Another World!",
     "episode": 12,
-    "release_date": "2025-06-22",
+    "release_date": "2025-06-23",
     "next_airing_date": "2025-06-22",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180829-jHViG8fIkaIJ.jpg",
@@ -822,7 +1047,17 @@
     "popularity": 19018,
     "anilist_score": 52,
     "recently_finished": false,
-    "popularity_rank": 28
+    "popularity_rank": 27,
+    "mal_score": 5.62,
+    "mal_scored_by": 3727,
+    "mal_rank": null,
+    "mal_popularity": 4744,
+    "mal_members": 25450,
+    "anitrendz_rank": 36,
+    "anitrendz_change": "down",
+    "anitrendz_movement": -1,
+    "anitrendz_weeks": 0,
+    "anitrendz_peak": 29
   },
   {
     "id": 178701,
@@ -847,15 +1082,25 @@
     "popularity": 18823,
     "anilist_score": 71,
     "recently_finished": true,
-    "popularity_rank": 29
+    "popularity_rank": 28,
+    "mal_score": 7.35,
+    "mal_scored_by": 10352,
+    "mal_rank": 2617,
+    "mal_popularity": 3796,
+    "mal_members": 41118,
+    "anitrendz_rank": 17,
+    "anitrendz_change": "stable",
+    "anitrendz_movement": 0,
+    "anitrendz_weeks": 12,
+    "anitrendz_peak": 15
   },
   {
     "id": 177120,
     "mal_id": 58725,
     "name": "Ninja to Koroshiya no Futarigurashi",
     "english_title": "A Ninja and an Assassin Under One Roof",
-    "episode": 11,
-    "release_date": "2025-06-19",
+    "episode": 12,
+    "release_date": "2025-06-26",
     "next_airing_date": "2025-06-26",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177120-xRucIg2WDr77.png",
@@ -872,7 +1117,17 @@
     "popularity": 18349,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 30
+    "popularity_rank": 29,
+    "mal_score": 7.4,
+    "mal_scored_by": 6003,
+    "mal_rank": 2398,
+    "mal_popularity": 3968,
+    "mal_members": 37356,
+    "anitrendz_rank": 15,
+    "anitrendz_change": "down",
+    "anitrendz_movement": -2,
+    "anitrendz_weeks": 9,
+    "anitrendz_peak": 12
   },
   {
     "id": 176246,
@@ -897,37 +1152,17 @@
     "popularity": 17415,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 31
-  },
-  {
-    "id": 177476,
-    "mal_id": 58812,
-    "name": "Shin Samurai-den YAIBA",
-    "english_title": "YAIBA: Samurai Legend",
-    "episode": 1,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177476-kduwwEfxcZtU.jpg",
-    "site_url": "https://anilist.co/anime/177476",
-    "start_date": "2025-04-05",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/82030192",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      },
-      {
-        "site": "Hulu",
-        "url": "https://www.hulu.com/series/5dcf8f0f-4262-4d50-9a57-1814838dbf4d",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      }
-    ],
-    "popularity": 16552,
-    "anilist_score": 72,
-    "recently_finished": false,
-    "popularity_rank": 32
+    "popularity_rank": 30,
+    "mal_score": 7.64,
+    "mal_scored_by": 4977,
+    "mal_rank": 1471,
+    "mal_popularity": 4258,
+    "mal_members": 32315,
+    "anitrendz_rank": 44,
+    "anitrendz_change": "up",
+    "anitrendz_movement": 1,
+    "anitrendz_weeks": 0,
+    "anitrendz_peak": 38
   },
   {
     "id": 177509,
@@ -935,7 +1170,7 @@
     "name": "Kakushite! Makina-san!!",
     "english_title": "Makina-san's a Love Bot?!",
     "episode": 12,
-    "release_date": "2025-06-22",
+    "release_date": "2025-06-23",
     "next_airing_date": "2025-06-22",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177509-LzpyXGnjitvF.jpg",
@@ -952,7 +1187,17 @@
     "popularity": 16223,
     "anilist_score": 53,
     "recently_finished": false,
-    "popularity_rank": 33
+    "popularity_rank": 31,
+    "mal_score": 5.66,
+    "mal_scored_by": 5020,
+    "mal_rank": 11739,
+    "mal_popularity": 3813,
+    "mal_members": 40778,
+    "anitrendz_rank": 39,
+    "anitrendz_change": "down",
+    "anitrendz_movement": -2,
+    "anitrendz_weeks": 0,
+    "anitrendz_peak": 36
   },
   {
     "id": 167142,
@@ -977,7 +1222,17 @@
     "popularity": 16184,
     "anilist_score": 57,
     "recently_finished": false,
-    "popularity_rank": 34
+    "popularity_rank": 32,
+    "mal_score": 6.09,
+    "mal_scored_by": 3859,
+    "mal_rank": 9557,
+    "mal_popularity": 4040,
+    "mal_members": 36074,
+    "anitrendz_rank": 41,
+    "anitrendz_change": "down",
+    "anitrendz_movement": -2,
+    "anitrendz_weeks": 0,
+    "anitrendz_peak": 19
   },
   {
     "id": 181182,
@@ -1006,8 +1261,18 @@
     ],
     "popularity": 15742,
     "anilist_score": 78,
-    "recently_finished": false,
-    "popularity_rank": 35
+    "recently_finished": true,
+    "popularity_rank": 33,
+    "mal_score": 7.99,
+    "mal_scored_by": 6242,
+    "mal_rank": 690,
+    "mal_popularity": 3991,
+    "mal_members": 36938,
+    "anitrendz_rank": 16,
+    "anitrendz_change": "up",
+    "anitrendz_movement": 1,
+    "anitrendz_weeks": 11,
+    "anitrendz_peak": 14
   },
   {
     "id": 184639,
@@ -1042,7 +1307,17 @@
     "popularity": 15182,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 36
+    "popularity_rank": 34,
+    "mal_score": 7.8,
+    "mal_scored_by": 5593,
+    "mal_rank": 1048,
+    "mal_popularity": 3903,
+    "mal_members": 38771,
+    "anitrendz_rank": 18,
+    "anitrendz_change": "down",
+    "anitrendz_movement": -1,
+    "anitrendz_weeks": 10,
+    "anitrendz_peak": 16
   },
   {
     "id": 180516,
@@ -1077,7 +1352,17 @@
     "popularity": 14311,
     "anilist_score": 83,
     "recently_finished": false,
-    "popularity_rank": 37
+    "popularity_rank": 35,
+    "mal_score": 8.36,
+    "mal_scored_by": 4853,
+    "mal_rank": 234,
+    "mal_popularity": 4410,
+    "mal_members": 29918,
+    "anitrendz_rank": 1,
+    "anitrendz_change": "stable",
+    "anitrendz_movement": 0,
+    "anitrendz_weeks": 6,
+    "anitrendz_peak": 1
   },
   {
     "id": 182060,
@@ -1102,7 +1387,17 @@
     "popularity": 13969,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 38
+    "popularity_rank": 36,
+    "mal_score": 6.57,
+    "mal_scored_by": 7066,
+    "mal_rank": 6756,
+    "mal_popularity": 3865,
+    "mal_members": 39547,
+    "anitrendz_rank": 24,
+    "anitrendz_change": "up",
+    "anitrendz_movement": 3,
+    "anitrendz_weeks": 0,
+    "anitrendz_peak": 22
   },
   {
     "id": 165445,
@@ -1127,7 +1422,12 @@
     "popularity": 13952,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 39
+    "popularity_rank": 37,
+    "mal_score": 6.89,
+    "mal_scored_by": 4376,
+    "mal_rank": 4953,
+    "mal_popularity": 4387,
+    "mal_members": 30241
   },
   {
     "id": 179054,
@@ -1157,7 +1457,17 @@
     "popularity": 13879,
     "anilist_score": 79,
     "recently_finished": false,
-    "popularity_rank": 40
+    "popularity_rank": 38,
+    "mal_score": 8.26,
+    "mal_scored_by": 5738,
+    "mal_rank": 323,
+    "mal_popularity": 3395,
+    "mal_members": 50062,
+    "anitrendz_rank": 20,
+    "anitrendz_change": "up",
+    "anitrendz_movement": 3,
+    "anitrendz_weeks": 1,
+    "anitrendz_peak": 8
   },
   {
     "id": 185939,
@@ -1182,7 +1492,17 @@
     "popularity": 13713,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 41
+    "popularity_rank": 39,
+    "mal_score": 7.67,
+    "mal_scored_by": 4239,
+    "mal_rank": 1402,
+    "mal_popularity": 4422,
+    "mal_members": 29814,
+    "anitrendz_rank": 19,
+    "anitrendz_change": "up",
+    "anitrendz_movement": 2,
+    "anitrendz_weeks": 9,
+    "anitrendz_peak": 17
   },
   {
     "id": 184279,
@@ -1207,7 +1527,17 @@
     "popularity": 12895,
     "anilist_score": 69,
     "recently_finished": true,
-    "popularity_rank": 42
+    "popularity_rank": 40,
+    "mal_score": 7.18,
+    "mal_scored_by": 9268,
+    "mal_rank": 3497,
+    "mal_popularity": 4284,
+    "mal_members": 31775,
+    "anitrendz_rank": 34,
+    "anitrendz_change": "down",
+    "anitrendz_movement": -6,
+    "anitrendz_weeks": 0,
+    "anitrendz_peak": 24
   },
   {
     "id": 184989,
@@ -1232,7 +1562,17 @@
     "popularity": 10208,
     "anilist_score": 58,
     "recently_finished": true,
-    "popularity_rank": 43
+    "popularity_rank": 41,
+    "mal_score": 6.49,
+    "mal_scored_by": 4054,
+    "mal_rank": 7240,
+    "mal_popularity": 4859,
+    "mal_members": 24030,
+    "anitrendz_rank": 38,
+    "anitrendz_change": "up",
+    "anitrendz_movement": 2,
+    "anitrendz_weeks": 0,
+    "anitrendz_peak": 28
   },
   {
     "id": 176702,
@@ -1257,6 +1597,16 @@
     "popularity": 10181,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 44
+    "popularity_rank": 42,
+    "mal_score": 6.82,
+    "mal_scored_by": 3761,
+    "mal_rank": 5334,
+    "mal_popularity": 4919,
+    "mal_members": 23288,
+    "anitrendz_rank": 42,
+    "anitrendz_change": "up",
+    "anitrendz_movement": 1,
+    "anitrendz_weeks": 0,
+    "anitrendz_peak": 41
   }
 ]
