@@ -19,7 +19,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 16187,
+    "popularity": 16198,
     "anilist_score": 57,
     "recently_finished": false,
     "popularity_rank": 32
@@ -49,7 +49,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 24597,
+    "popularity": 24680,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 21
@@ -74,7 +74,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 18426,
+    "popularity": 18498,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 29
@@ -99,7 +99,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 10249,
+    "popularity": 10295,
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 42
@@ -129,7 +129,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 111966,
+    "popularity": 112216,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 2
@@ -139,10 +139,10 @@
     "mal_id": 49778,
     "name": "Kijin Gentoushou",
     "english_title": "Sword of the Demon Hunter: Kijin Gentosho",
-    "episode": 13,
+    "episode": 14,
     "release_date": null,
-    "next_airing_date": "2025-06-23",
-    "next_episode_number": 13,
+    "next_airing_date": "2025-07-14",
+    "next_episode_number": 14,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143598-FCvAhQJLllSP.png",
     "site_url": "https://anilist.co/anime/143598",
     "start_date": "2025-03-31",
@@ -159,7 +159,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 36835,
+    "popularity": 36923,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 15
@@ -189,7 +189,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 32380,
+    "popularity": 32467,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 17
@@ -214,10 +214,35 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 32112,
+    "popularity": 32159,
     "anilist_score": 66,
     "recently_finished": false,
     "popularity_rank": 18
+  },
+  {
+    "id": 143200,
+    "mal_id": 50694,
+    "name": "Summer Pockets",
+    "english_title": "Summer Pockets",
+    "episode": 1,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143200-42OaDCS6VEy3.png",
+    "site_url": "https://anilist.co/anime/143200",
+    "start_date": "2025-04-07",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://crunchyroll.com/series/G0XHWM17X/summer-pockets",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 22917,
+    "anilist_score": 69,
+    "recently_finished": false,
+    "popularity_rank": 24
   },
   {
     "id": 168537,
@@ -239,7 +264,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 5757,
+    "popularity": 5761,
     "anilist_score": 50,
     "recently_finished": false,
     "popularity_rank": 43
@@ -269,7 +294,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 44336,
+    "popularity": 44469,
     "anilist_score": 72,
     "recently_finished": false,
     "popularity_rank": 10
@@ -294,7 +319,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 17513,
+    "popularity": 17595,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 30
@@ -329,7 +354,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 15228,
+    "popularity": 15272,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 34
@@ -359,7 +384,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 13928,
+    "popularity": 13980,
     "anilist_score": 79,
     "recently_finished": false,
     "popularity_rank": 38
@@ -384,7 +409,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 13817,
+    "popularity": 13894,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 39
@@ -424,7 +449,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 611659,
+    "popularity": 611857,
     "anilist_score": 88,
     "recently_finished": false,
     "popularity_rank": 1
@@ -449,7 +474,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 80335,
+    "popularity": 80623,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 4
@@ -484,7 +509,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
       }
     ],
-    "popularity": 57671,
+    "popularity": 58161,
     "anilist_score": 83,
     "recently_finished": false,
     "popularity_rank": 7
@@ -524,7 +549,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 56443,
+    "popularity": 56809,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 8
@@ -554,7 +579,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 22857,
+    "popularity": 22932,
     "anilist_score": 70,
     "recently_finished": false,
     "popularity_rank": 23
@@ -589,7 +614,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 14372,
+    "popularity": 14454,
     "anilist_score": 83,
     "recently_finished": false,
     "popularity_rank": 35
