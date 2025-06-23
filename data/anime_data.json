@@ -4,10 +4,10 @@
     "mal_id": 21,
     "name": "ONE PIECE",
     "english_title": "ONE PIECE",
-    "episode": 1134,
+    "episode": 1133,
     "release_date": "2025-06-22",
     "next_airing_date": "2025-06-29",
-    "next_episode_number": 1135,
+    "next_episode_number": 1134,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
     "site_url": "https://anilist.co/anime/21",
     "start_date": "1999-10-20",
@@ -270,7 +270,7 @@
     "name": "Katainaka no Ossan, Kensei ni Naru",
     "english_title": "From Old Country Bumpkin to Master Swordsman",
     "episode": 12,
-    "release_date": "2025-06-22",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179955-e4UPTow92B1O.jpg",
@@ -796,7 +796,7 @@
     ],
     "popularity": 19035,
     "anilist_score": 52,
-    "recently_finished": false,
+    "recently_finished": true,
     "popularity_rank": 27
   },
   {
@@ -896,7 +896,7 @@
     ],
     "popularity": 16246,
     "anilist_score": 53,
-    "recently_finished": false,
+    "recently_finished": true,
     "popularity_rank": 31
   },
   {
@@ -930,7 +930,7 @@
     "name": "Shoushimin Series 2nd Season",
     "english_title": "SHOSHIMIN: How to become Ordinary Season 2",
     "episode": 12,
-    "release_date": "2025-06-22",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181182-lnlfAByYD7X6.png",
@@ -1030,7 +1030,7 @@
     "name": "Gorilla no Kami kara Kago sareta Reijou wa Ouritsu Kishidan de Kawaigarareru",
     "english_title": "The Gorilla God’s Go-To Girl",
     "episode": 12,
-    "release_date": "2025-06-22",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182060-r0ihNqhiyvpT.jpg",
@@ -1184,8 +1184,8 @@
     "mal_id": 58614,
     "name": "Teogonia",
     "english_title": "Teogonia",
-    "episode": 11,
-    "release_date": "2025-06-20",
+    "episode": 12,
+    "release_date": "2025-06-27",
     "next_airing_date": "2025-06-27",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176702-sD5AnHf8g4zi.jpg",
@@ -1203,5 +1203,30 @@
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 42
+  },
+  {
+    "id": 168537,
+    "mal_id": 56420,
+    "name": "Haigakura",
+    "english_title": "HAIGAKURA",
+    "episode": 13,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx168537-pytXEirHtk3M.jpg",
+    "site_url": "https://anilist.co/anime/168537",
+    "start_date": "2024-10-07",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Amazon Prime Video",
+        "url": "https://www.amazon.com/dp/B0DHDGVXFD",
+        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+      }
+    ],
+    "popularity": 5757,
+    "anilist_score": 50,
+    "recently_finished": false,
+    "popularity_rank": 43
   }
 ]
