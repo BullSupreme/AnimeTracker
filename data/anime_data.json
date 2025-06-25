@@ -4,8 +4,8 @@
     "mal_id": 21,
     "name": "ONE PIECE",
     "english_title": "ONE PIECE",
-    "episode": 1133,
-    "release_date": "2025-06-22",
+    "episode": 1134,
+    "release_date": "2025-06-29",
     "next_airing_date": "2025-06-29",
     "next_episode_number": 1134,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
@@ -114,8 +114,8 @@
     "mal_id": 56038,
     "name": "Lazarus",
     "english_title": "LAZARUS",
-    "episode": 12,
-    "release_date": "2025-06-22",
+    "episode": 13,
+    "release_date": "2025-06-29",
     "next_airing_date": "2025-06-29",
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx167336-KpGIIBie71OX.png",
@@ -194,8 +194,8 @@
     "mal_id": 53447,
     "name": "Tu Bian Yingxiong X",
     "english_title": "To Be Hero X",
-    "episode": 12,
-    "release_date": "2025-06-22",
+    "episode": 13,
+    "release_date": "2025-06-29",
     "next_airing_date": "2025-06-29",
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156092-yHqgQZOF2mbg.jpg",
@@ -229,8 +229,8 @@
     "mal_id": 59597,
     "name": "Witch Watch",
     "english_title": "WITCH WATCH",
-    "episode": 12,
-    "release_date": "2025-06-22",
+    "episode": 13,
+    "release_date": "2025-06-29",
     "next_airing_date": "2025-06-29",
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180367-GlRuB2lG7Kaa.jpg",
@@ -410,31 +410,6 @@
     "popularity_rank": 13
   },
   {
-    "id": 179965,
-    "mal_id": 59457,
-    "name": "Haite Kudasai, Takamine-san",
-    "english_title": "Please Put Them On, Takamine-san",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179965-EwqzG3xSyxwc.jpg",
-    "site_url": "https://anilist.co/anime/179965",
-    "start_date": "2025-04-02",
-    "end_date": "2025-06-18",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G3KHEVD1D/please-put-them-on-takamine-san",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 38702,
-    "anilist_score": 58,
-    "recently_finished": true,
-    "popularity_rank": 14
-  },
-  {
     "id": 143598,
     "mal_id": 49778,
     "name": "Kijin Gentoushou",
@@ -462,7 +437,7 @@
     "popularity": 37077,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 15
+    "popularity_rank": 14
   },
   {
     "id": 143337,
@@ -492,7 +467,7 @@
     "popularity": 36278,
     "anilist_score": 68,
     "recently_finished": true,
-    "popularity_rank": 16
+    "popularity_rank": 15
   },
   {
     "id": 180812,
@@ -522,7 +497,7 @@
     "popularity": 32556,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 17
+    "popularity_rank": 16
   },
   {
     "id": 139825,
@@ -552,7 +527,7 @@
     "popularity": 32197,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 18
+    "popularity_rank": 17
   },
   {
     "id": 174802,
@@ -560,7 +535,7 @@
     "name": "Shiunji-ke no Kodomotachi",
     "english_title": "The Shiunji Family Children",
     "episode": 12,
-    "release_date": "2025-06-24",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174802-ILahIZlNWN3R.jpg",
@@ -582,7 +557,7 @@
     "popularity": 30039,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 19
+    "popularity_rank": 18
   },
   {
     "id": 185213,
@@ -606,8 +581,8 @@
     ],
     "popularity": 25504,
     "anilist_score": 73,
-    "recently_finished": false,
-    "popularity_rank": 20
+    "recently_finished": true,
+    "popularity_rank": 19
   },
   {
     "id": 179694,
@@ -637,7 +612,7 @@
     "popularity": 24725,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 21
+    "popularity_rank": 20
   },
   {
     "id": 179979,
@@ -667,7 +642,7 @@
     "popularity": 23377,
     "anilist_score": 74,
     "recently_finished": true,
-    "popularity_rank": 22
+    "popularity_rank": 21
   },
   {
     "id": 143200,
@@ -692,15 +667,15 @@
     "popularity": 23007,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 23
+    "popularity_rank": 22
   },
   {
     "id": 178781,
     "mal_id": 59189,
     "name": "Sentai Daishikkaku 2nd Season",
     "english_title": "Go! Go! Loser Ranger! Season 2",
-    "episode": 11,
-    "release_date": "2025-06-22",
+    "episode": 12,
+    "release_date": "2025-06-29",
     "next_airing_date": "2025-06-29",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178781-pbk5FgfiAJxS.jpg",
@@ -727,7 +702,7 @@
     "popularity": 22992,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 24
+    "popularity_rank": 23
   },
   {
     "id": 183275,
@@ -752,7 +727,7 @@
     "popularity": 20605,
     "anilist_score": 71,
     "recently_finished": true,
-    "popularity_rank": 25
+    "popularity_rank": 24
   },
   {
     "id": 180675,
@@ -781,8 +756,8 @@
     ],
     "popularity": 19800,
     "anilist_score": 75,
-    "recently_finished": false,
-    "popularity_rank": 26
+    "recently_finished": true,
+    "popularity_rank": 25
   },
   {
     "id": 180829,
@@ -807,7 +782,7 @@
     "popularity": 19222,
     "anilist_score": 52,
     "recently_finished": true,
-    "popularity_rank": 27
+    "popularity_rank": 26
   },
   {
     "id": 177120,
@@ -832,7 +807,7 @@
     "popularity": 18562,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 28
+    "popularity_rank": 27
   },
   {
     "id": 176246,
@@ -857,7 +832,7 @@
     "popularity": 17662,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 29
+    "popularity_rank": 28
   },
   {
     "id": 177476,
@@ -887,7 +862,7 @@
     "popularity": 16661,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 30
+    "popularity_rank": 29
   },
   {
     "id": 177509,
@@ -912,7 +887,7 @@
     "popularity": 16441,
     "anilist_score": 53,
     "recently_finished": true,
-    "popularity_rank": 31
+    "popularity_rank": 30
   },
   {
     "id": 167142,
@@ -937,7 +912,7 @@
     "popularity": 16209,
     "anilist_score": 57,
     "recently_finished": false,
-    "popularity_rank": 32
+    "popularity_rank": 31
   },
   {
     "id": 181182,
@@ -967,7 +942,7 @@
     "popularity": 16152,
     "anilist_score": 80,
     "recently_finished": true,
-    "popularity_rank": 33
+    "popularity_rank": 32
   },
   {
     "id": 184639,
@@ -1002,15 +977,15 @@
     "popularity": 15298,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 34
+    "popularity_rank": 33
   },
   {
     "id": 180516,
     "mal_id": 59636,
     "name": "Uma Musume: Cinderella Gray",
     "english_title": "Umamusume: Cinderella Gray",
-    "episode": 12,
-    "release_date": "2025-06-22",
+    "episode": 13,
+    "release_date": "2025-06-29",
     "next_airing_date": "2025-06-29",
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180516-lebpoKLkw6E3.jpg",
@@ -1037,7 +1012,7 @@
     "popularity": 14535,
     "anilist_score": 83,
     "recently_finished": false,
-    "popularity_rank": 35
+    "popularity_rank": 34
   },
   {
     "id": 182060,
@@ -1062,7 +1037,7 @@
     "popularity": 14362,
     "anilist_score": 63,
     "recently_finished": true,
-    "popularity_rank": 36
+    "popularity_rank": 35
   },
   {
     "id": 165445,
@@ -1087,7 +1062,7 @@
     "popularity": 14124,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 37
+    "popularity_rank": 36
   },
   {
     "id": 179054,
@@ -1117,7 +1092,7 @@
     "popularity": 14021,
     "anilist_score": 79,
     "recently_finished": false,
-    "popularity_rank": 38
+    "popularity_rank": 37
   },
   {
     "id": 185939,
@@ -1142,32 +1117,7 @@
     "popularity": 13960,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 39
-  },
-  {
-    "id": 184279,
-    "mal_id": 60293,
-    "name": "Ballpark de Tsukamaete!",
-    "english_title": "Catch Me at the Ballpark!",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184279-dw02k4DPxwGz.png",
-    "site_url": "https://anilist.co/anime/184279",
-    "start_date": "2025-04-02",
-    "end_date": "2025-06-18",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GVDHX85EQ/catch-me-at-the-ballpark",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 13101,
-    "anilist_score": 69,
-    "recently_finished": true,
-    "popularity_rank": 40
+    "popularity_rank": 38
   },
   {
     "id": 184989,
@@ -1192,7 +1142,7 @@
     "popularity": 10345,
     "anilist_score": 60,
     "recently_finished": true,
-    "popularity_rank": 41
+    "popularity_rank": 39
   },
   {
     "id": 176702,
@@ -1217,6 +1167,6 @@
     "popularity": 10335,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 42
+    "popularity_rank": 40
   }
 ]

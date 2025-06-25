@@ -1,60 +1,5 @@
 [
   {
-    "id": 179694,
-    "mal_id": 59360,
-    "name": "Rock wa Lady no Tashinami Deshite",
-    "english_title": "Rock is a Lady’s Modesty",
-    "episode": 13,
-    "release_date": "2025-06-26",
-    "next_airing_date": "2025-06-26",
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179694-7zhc0T6IImor.jpg",
-    "site_url": "https://anilist.co/anime/179694",
-    "start_date": "2025-04-03",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "HIDIVE",
-        "url": "https://www.hidive.com/season/30188",
-        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JjgRVMAKk5LAZB89yQ0h4Xw",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 24725,
-    "anilist_score": 75,
-    "recently_finished": false,
-    "popularity_rank": 21
-  },
-  {
-    "id": 177120,
-    "mal_id": 58725,
-    "name": "Ninja to Koroshiya no Futarigurashi",
-    "english_title": "A Ninja and an Assassin Under One Roof",
-    "episode": 12,
-    "release_date": "2025-06-26",
-    "next_airing_date": "2025-06-26",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177120-xRucIg2WDr77.png",
-    "site_url": "https://anilist.co/anime/177120",
-    "start_date": "2025-04-10",
-    "end_date": "2025-06-26",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://crunchyroll.com/series/GNVHKN9EW/a-ninja-and-an-assassin-under-one-roof",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 18562,
-    "anilist_score": 73,
-    "recently_finished": false,
-    "popularity_rank": 28
-  },
-  {
     "id": 176702,
     "mal_id": 58614,
     "name": "Teogonia",
@@ -77,7 +22,7 @@
     "popularity": 10335,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 42
+    "popularity_rank": 40
   },
   {
     "id": 182814,
@@ -132,7 +77,7 @@
     "popularity": 17662,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 29
+    "popularity_rank": 28
   },
   {
     "id": 177476,
@@ -162,7 +107,7 @@
     "popularity": 16661,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 30
+    "popularity_rank": 29
   },
   {
     "id": 184639,
@@ -197,7 +142,7 @@
     "popularity": 15298,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 34
+    "popularity_rank": 33
   },
   {
     "id": 179054,
@@ -227,7 +172,7 @@
     "popularity": 14021,
     "anilist_score": 79,
     "recently_finished": false,
-    "popularity_rank": 38
+    "popularity_rank": 37
   },
   {
     "id": 185939,
@@ -252,7 +197,217 @@
     "popularity": 13960,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 39
+    "popularity_rank": 38
+  },
+  {
+    "id": 21,
+    "mal_id": 21,
+    "name": "ONE PIECE",
+    "english_title": "ONE PIECE",
+    "episode": 1134,
+    "release_date": "2025-06-29",
+    "next_airing_date": "2025-06-29",
+    "next_episode_number": 1134,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
+    "site_url": "https://anilist.co/anime/21",
+    "start_date": "1999-10-20",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/one-piece",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Hulu",
+        "url": "http://www.hulu.com/one-piece",
+        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/80107103",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@onepieceofficial",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 612079,
+    "anilist_score": 88,
+    "recently_finished": false,
+    "popularity_rank": 1
+  },
+  {
+    "id": 167336,
+    "mal_id": 56038,
+    "name": "Lazarus",
+    "english_title": "LAZARUS",
+    "episode": 13,
+    "release_date": "2025-06-29",
+    "next_airing_date": "2025-06-29",
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx167336-KpGIIBie71OX.png",
+    "site_url": "https://anilist.co/anime/167336",
+    "start_date": "2025-04-06",
+    "end_date": "2025-06-29",
+    "streaming_links": [
+      {
+        "site": "Hulu",
+        "url": "https://www.hulu.com/series/a47ec22b-79c9-4e65-9407-2f73778eca4b",
+        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
+      }
+    ],
+    "popularity": 80827,
+    "anilist_score": 71,
+    "recently_finished": false,
+    "popularity_rank": 4
+  },
+  {
+    "id": 156092,
+    "mal_id": 53447,
+    "name": "Tu Bian Yingxiong X",
+    "english_title": "To Be Hero X",
+    "episode": 13,
+    "release_date": "2025-06-29",
+    "next_airing_date": "2025-06-29",
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156092-yHqgQZOF2mbg.jpg",
+    "site_url": "https://anilist.co/anime/156092",
+    "start_date": "2025-04-06",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Bilibili",
+        "url": "https://www.bilibili.com/bangumi/media/md28340128/",
+        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GQWH0M1J3/to-be-hero-x",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Bilibili",
+        "url": "https://space.bilibili.com/1203126943",
+        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
+      }
+    ],
+    "popularity": 58514,
+    "anilist_score": 83,
+    "recently_finished": false,
+    "popularity_rank": 7
+  },
+  {
+    "id": 180367,
+    "mal_id": 59597,
+    "name": "Witch Watch",
+    "english_title": "WITCH WATCH",
+    "episode": 13,
+    "release_date": "2025-06-29",
+    "next_airing_date": "2025-06-29",
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180367-GlRuB2lG7Kaa.jpg",
+    "site_url": "https://anilist.co/anime/180367",
+    "start_date": "2025-04-06",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81991687",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      },
+      {
+        "site": "Hulu",
+        "url": "https://www.hulu.com/series/witch-watch-7f008578-f8b2-4c27-8e5b-64320349ce63",
+        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G5PHNM9P0/witch-watch",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@witchwatch-anime",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 57035,
+    "anilist_score": 73,
+    "recently_finished": false,
+    "popularity_rank": 8
+  },
+  {
+    "id": 178781,
+    "mal_id": 59189,
+    "name": "Sentai Daishikkaku 2nd Season",
+    "english_title": "Go! Go! Loser Ranger! Season 2",
+    "episode": 12,
+    "release_date": "2025-06-29",
+    "next_airing_date": "2025-06-29",
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178781-pbk5FgfiAJxS.jpg",
+    "site_url": "https://anilist.co/anime/178781",
+    "start_date": "2025-04-13",
+    "end_date": "2025-06-29",
+    "streaming_links": [
+      {
+        "site": "Disney Plus",
+        "url": "https://www.disneyplus.com/series/go-go-loser-ranger/2VX5fKgeiVEl",
+        "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
+      },
+      {
+        "site": "Hulu",
+        "url": "https://www.hulu.com/series/9d994955-d20b-43c7-99be-3dfd3c6b6f22",
+        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
+      },
+      {
+        "site": "Hulu",
+        "url": "https://www.hulu.com/series/713ae2f3-5d7a-4a66-a724-a937f8ab6dd9",
+        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
+      }
+    ],
+    "popularity": 22992,
+    "anilist_score": 70,
+    "recently_finished": false,
+    "popularity_rank": 23
+  },
+  {
+    "id": 180516,
+    "mal_id": 59636,
+    "name": "Uma Musume: Cinderella Gray",
+    "english_title": "Umamusume: Cinderella Gray",
+    "episode": 13,
+    "release_date": "2025-06-29",
+    "next_airing_date": "2025-06-29",
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180516-lebpoKLkw6E3.jpg",
+    "site_url": "https://anilist.co/anime/180516",
+    "start_date": "2025-04-06",
+    "end_date": "2025-06-29",
+    "streaming_links": [
+      {
+        "site": "Amazon Prime Video",
+        "url": "https://www.amazon.com/dp/B0F1RY7C41",
+        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/82030222",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLhGamQZtJ7K9aElhFk89DyndS6JDvLh7z",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 14535,
+    "anilist_score": 83,
+    "recently_finished": false,
+    "popularity_rank": 34
   },
   {
     "id": 176301,
@@ -312,7 +467,7 @@
     "popularity": 37077,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 15
+    "popularity_rank": 14
   },
   {
     "id": 180812,
@@ -342,7 +497,7 @@
     "popularity": 32556,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 17
+    "popularity_rank": 16
   },
   {
     "id": 139825,
@@ -372,217 +527,7 @@
     "popularity": 32197,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 18
-  },
-  {
-    "id": 21,
-    "mal_id": 21,
-    "name": "ONE PIECE",
-    "english_title": "ONE PIECE",
-    "episode": 1133,
-    "release_date": "2025-06-22",
-    "next_airing_date": "2025-06-29",
-    "next_episode_number": 1134,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
-    "site_url": "https://anilist.co/anime/21",
-    "start_date": "1999-10-20",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "http://www.crunchyroll.com/one-piece",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "Hulu",
-        "url": "http://www.hulu.com/one-piece",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      },
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/80107103",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@onepieceofficial",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 612079,
-    "anilist_score": 88,
-    "recently_finished": false,
-    "popularity_rank": 1
-  },
-  {
-    "id": 167336,
-    "mal_id": 56038,
-    "name": "Lazarus",
-    "english_title": "LAZARUS",
-    "episode": 12,
-    "release_date": "2025-06-22",
-    "next_airing_date": "2025-06-29",
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx167336-KpGIIBie71OX.png",
-    "site_url": "https://anilist.co/anime/167336",
-    "start_date": "2025-04-06",
-    "end_date": "2025-06-29",
-    "streaming_links": [
-      {
-        "site": "Hulu",
-        "url": "https://www.hulu.com/series/a47ec22b-79c9-4e65-9407-2f73778eca4b",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      }
-    ],
-    "popularity": 80827,
-    "anilist_score": 71,
-    "recently_finished": false,
-    "popularity_rank": 4
-  },
-  {
-    "id": 156092,
-    "mal_id": 53447,
-    "name": "Tu Bian Yingxiong X",
-    "english_title": "To Be Hero X",
-    "episode": 12,
-    "release_date": "2025-06-22",
-    "next_airing_date": "2025-06-29",
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156092-yHqgQZOF2mbg.jpg",
-    "site_url": "https://anilist.co/anime/156092",
-    "start_date": "2025-04-06",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md28340128/",
-        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GQWH0M1J3/to-be-hero-x",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "Bilibili",
-        "url": "https://space.bilibili.com/1203126943",
-        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
-      }
-    ],
-    "popularity": 58514,
-    "anilist_score": 83,
-    "recently_finished": false,
-    "popularity_rank": 7
-  },
-  {
-    "id": 180367,
-    "mal_id": 59597,
-    "name": "Witch Watch",
-    "english_title": "WITCH WATCH",
-    "episode": 12,
-    "release_date": "2025-06-22",
-    "next_airing_date": "2025-06-29",
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180367-GlRuB2lG7Kaa.jpg",
-    "site_url": "https://anilist.co/anime/180367",
-    "start_date": "2025-04-06",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/81991687",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      },
-      {
-        "site": "Hulu",
-        "url": "https://www.hulu.com/series/witch-watch-7f008578-f8b2-4c27-8e5b-64320349ce63",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G5PHNM9P0/witch-watch",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@witchwatch-anime",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 57035,
-    "anilist_score": 73,
-    "recently_finished": false,
-    "popularity_rank": 8
-  },
-  {
-    "id": 178781,
-    "mal_id": 59189,
-    "name": "Sentai Daishikkaku 2nd Season",
-    "english_title": "Go! Go! Loser Ranger! Season 2",
-    "episode": 11,
-    "release_date": "2025-06-22",
-    "next_airing_date": "2025-06-29",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178781-pbk5FgfiAJxS.jpg",
-    "site_url": "https://anilist.co/anime/178781",
-    "start_date": "2025-04-13",
-    "end_date": "2025-06-29",
-    "streaming_links": [
-      {
-        "site": "Disney Plus",
-        "url": "https://www.disneyplus.com/series/go-go-loser-ranger/2VX5fKgeiVEl",
-        "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
-      },
-      {
-        "site": "Hulu",
-        "url": "https://www.hulu.com/series/9d994955-d20b-43c7-99be-3dfd3c6b6f22",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      },
-      {
-        "site": "Hulu",
-        "url": "https://www.hulu.com/series/713ae2f3-5d7a-4a66-a724-a937f8ab6dd9",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      }
-    ],
-    "popularity": 22992,
-    "anilist_score": 70,
-    "recently_finished": false,
-    "popularity_rank": 24
-  },
-  {
-    "id": 180516,
-    "mal_id": 59636,
-    "name": "Uma Musume: Cinderella Gray",
-    "english_title": "Umamusume: Cinderella Gray",
-    "episode": 12,
-    "release_date": "2025-06-22",
-    "next_airing_date": "2025-06-29",
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180516-lebpoKLkw6E3.jpg",
-    "site_url": "https://anilist.co/anime/180516",
-    "start_date": "2025-04-06",
-    "end_date": "2025-06-29",
-    "streaming_links": [
-      {
-        "site": "Amazon Prime Video",
-        "url": "https://www.amazon.com/dp/B0F1RY7C41",
-        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
-      },
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/82030222",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLhGamQZtJ7K9aElhFk89DyndS6JDvLh7z",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 14535,
-    "anilist_score": 83,
-    "recently_finished": false,
-    "popularity_rank": 35
+    "popularity_rank": 17
   },
   {
     "id": 185736,
@@ -637,6 +582,6 @@
     "popularity": 23007,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 23
+    "popularity_rank": 22
   }
 ]
