@@ -135,36 +135,6 @@
     "popularity_rank": 4
   },
   {
-    "id": 178680,
-    "mal_id": 59160,
-    "name": "WIND BREAKER Season 2",
-    "english_title": "WIND BREAKER Season 2",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178680-nIAhCizY46ZU.jpg",
-    "site_url": "https://anilist.co/anime/178680",
-    "start_date": "2025-04-04",
-    "end_date": "2025-06-20",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G3KHEVDPE/wind-breaker",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "Amazon Prime Video",
-        "url": "https://www.amazon.com/dp/B0DTMT25ZH/",
-        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
-      }
-    ],
-    "popularity": 64595,
-    "anilist_score": 78,
-    "recently_finished": true,
-    "popularity_rank": 5
-  },
-  {
     "id": 156092,
     "mal_id": 53447,
     "name": "Tu Bian Yingxiong X",
@@ -197,7 +167,7 @@
     "popularity": 59152,
     "anilist_score": 83,
     "recently_finished": false,
-    "popularity_rank": 6
+    "popularity_rank": 5
   },
   {
     "id": 180367,
@@ -237,7 +207,7 @@
     "popularity": 57404,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 7
+    "popularity_rank": 6
   },
   {
     "id": 179955,
@@ -262,7 +232,7 @@
     "popularity": 47748,
     "anilist_score": 70,
     "recently_finished": true,
-    "popularity_rank": 8
+    "popularity_rank": 7
   },
   {
     "id": 182814,
@@ -292,7 +262,7 @@
     "popularity": 44789,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 9
+    "popularity_rank": 8
   },
   {
     "id": 185736,
@@ -322,32 +292,7 @@
     "popularity": 43860,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 10
-  },
-  {
-    "id": 153554,
-    "mal_id": 52709,
-    "name": "Danjo no Yuujou wa Seiritsu suru? (Iya, Shinai!!)",
-    "english_title": "Can a Boy-Girl Friendship Survive?",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153554-hHYe9aV6Gvlv.jpg",
-    "site_url": "https://anilist.co/anime/153554",
-    "start_date": "2025-04-04",
-    "end_date": "2025-06-20",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G1XHJV0D8/can-a-boy-girl-friendship-survive",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 39928,
-    "anilist_score": 66,
-    "recently_finished": true,
-    "popularity_rank": 11
+    "popularity_rank": 9
   },
   {
     "id": 143598,
@@ -377,7 +322,7 @@
     "popularity": 37307,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 12
+    "popularity_rank": 10
   },
   {
     "id": 143337,
@@ -407,7 +352,7 @@
     "popularity": 36378,
     "anilist_score": 68,
     "recently_finished": true,
-    "popularity_rank": 13
+    "popularity_rank": 11
   },
   {
     "id": 180812,
@@ -437,7 +382,7 @@
     "popularity": 32686,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 14
+    "popularity_rank": 12
   },
   {
     "id": 139825,
@@ -445,7 +390,7 @@
     "name": "Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen Season II",
     "english_title": "Our Last Crusade or the Rise of a New World Season 2",
     "episode": 12,
-    "release_date": "2025-06-26",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139825-rFlrzdRZmlYK.jpg",
@@ -467,7 +412,7 @@
     "popularity": 32257,
     "anilist_score": 66,
     "recently_finished": true,
-    "popularity_rank": 15
+    "popularity_rank": 13
   },
   {
     "id": 174802,
@@ -497,7 +442,7 @@
     "popularity": 30816,
     "anilist_score": 69,
     "recently_finished": true,
-    "popularity_rank": 16
+    "popularity_rank": 14
   },
   {
     "id": 185213,
@@ -522,7 +467,7 @@
     "popularity": 26056,
     "anilist_score": 70,
     "recently_finished": true,
-    "popularity_rank": 17
+    "popularity_rank": 15
   },
   {
     "id": 179694,
@@ -530,7 +475,7 @@
     "name": "Rock wa Lady no Tashinami Deshite",
     "english_title": "Rock is a Lady’s Modesty",
     "episode": 13,
-    "release_date": "2025-06-26",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179694-7zhc0T6IImor.jpg",
@@ -552,7 +497,7 @@
     "popularity": 24890,
     "anilist_score": 75,
     "recently_finished": true,
-    "popularity_rank": 18
+    "popularity_rank": 16
   },
   {
     "id": 179979,
@@ -582,7 +527,7 @@
     "popularity": 23542,
     "anilist_score": 74,
     "recently_finished": true,
-    "popularity_rank": 19
+    "popularity_rank": 17
   },
   {
     "id": 143200,
@@ -607,7 +552,7 @@
     "popularity": 23151,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 20
+    "popularity_rank": 18
   },
   {
     "id": 178781,
@@ -642,7 +587,7 @@
     "popularity": 23084,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 21
+    "popularity_rank": 19
   },
   {
     "id": 180675,
@@ -672,7 +617,7 @@
     "popularity": 20508,
     "anilist_score": 79,
     "recently_finished": true,
-    "popularity_rank": 22
+    "popularity_rank": 20
   },
   {
     "id": 180829,
@@ -697,7 +642,7 @@
     "popularity": 19319,
     "anilist_score": 52,
     "recently_finished": true,
-    "popularity_rank": 23
+    "popularity_rank": 21
   },
   {
     "id": 177120,
@@ -705,7 +650,7 @@
     "name": "Ninja to Koroshiya no Futarigurashi",
     "english_title": "A Ninja and an Assassin Under One Roof",
     "episode": 12,
-    "release_date": "2025-06-26",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177120-xRucIg2WDr77.png",
@@ -722,7 +667,7 @@
     "popularity": 18700,
     "anilist_score": 73,
     "recently_finished": true,
-    "popularity_rank": 24
+    "popularity_rank": 22
   },
   {
     "id": 176246,
@@ -747,7 +692,7 @@
     "popularity": 17782,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 25
+    "popularity_rank": 23
   },
   {
     "id": 177476,
@@ -777,7 +722,7 @@
     "popularity": 16714,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 26
+    "popularity_rank": 24
   },
   {
     "id": 177509,
@@ -802,7 +747,7 @@
     "popularity": 16528,
     "anilist_score": 53,
     "recently_finished": true,
-    "popularity_rank": 27
+    "popularity_rank": 25
   },
   {
     "id": 181182,
@@ -832,7 +777,7 @@
     "popularity": 16294,
     "anilist_score": 80,
     "recently_finished": true,
-    "popularity_rank": 28
+    "popularity_rank": 26
   },
   {
     "id": 167142,
@@ -857,7 +802,7 @@
     "popularity": 16285,
     "anilist_score": 58,
     "recently_finished": true,
-    "popularity_rank": 29
+    "popularity_rank": 27
   },
   {
     "id": 184639,
@@ -892,7 +837,7 @@
     "popularity": 15354,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 30
+    "popularity_rank": 28
   },
   {
     "id": 180516,
@@ -927,7 +872,7 @@
     "popularity": 14688,
     "anilist_score": 83,
     "recently_finished": false,
-    "popularity_rank": 31
+    "popularity_rank": 29
   },
   {
     "id": 182060,
@@ -952,7 +897,7 @@
     "popularity": 14535,
     "anilist_score": 63,
     "recently_finished": true,
-    "popularity_rank": 32
+    "popularity_rank": 30
   },
   {
     "id": 165445,
@@ -977,7 +922,7 @@
     "popularity": 14215,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 33
+    "popularity_rank": 31
   },
   {
     "id": 179054,
@@ -1007,7 +952,7 @@
     "popularity": 14089,
     "anilist_score": 79,
     "recently_finished": false,
-    "popularity_rank": 34
+    "popularity_rank": 32
   },
   {
     "id": 185939,
@@ -1032,7 +977,7 @@
     "popularity": 14080,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 35
+    "popularity_rank": 33
   },
   {
     "id": 176702,
@@ -1057,61 +1002,6 @@
     "popularity": 10411,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 36
-  },
-  {
-    "id": 184989,
-    "mal_id": 60377,
-    "name": "Nazotoki wa Dinner no Ato de",
-    "english_title": "The Dinner Table Detective",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184989-UaWWbrRn2vWV.jpg",
-    "site_url": "https://anilist.co/anime/184989",
-    "start_date": "2025-04-04",
-    "end_date": "2025-06-20",
-    "streaming_links": [
-      {
-        "site": "Amazon Prime Video",
-        "url": "https://www.primevideo.com/detail/The-Dinner-Table-Detective/0TKRFV2FB8U18G5WS16GFOXNG2",
-        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
-      }
-    ],
-    "popularity": 10377,
-    "anilist_score": 60,
-    "recently_finished": true,
-    "popularity_rank": 37
-  },
-  {
-    "id": 191974,
-    "mal_id": 60572,
-    "name": "Kun Tun Tianxia Zhi Zhang Men Guilai",
-    "english_title": "The All-devouring Whale: Homecoming",
-    "episode": 9,
-    "release_date": "2025-06-26",
-    "next_airing_date": null,
-    "next_episode_number": 9,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx191974-1tqbmtbkCpJ1.jpg",
-    "site_url": "https://anilist.co/anime/191974",
-    "start_date": "2025-05-01",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md21082583",
-        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/watch?v=vVMRvv-8dWo",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 5831,
-    "anilist_score": 72,
-    "recently_finished": false,
-    "popularity_rank": 38
+    "popularity_rank": 34
   }
 ]
