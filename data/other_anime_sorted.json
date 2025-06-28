@@ -24,7 +24,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 43991,
+    "popularity": 44104,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 8
@@ -49,7 +49,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23202,
+    "popularity": 23253,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 16
@@ -79,7 +79,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 113106,
+    "popularity": 113403,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 2
@@ -109,40 +109,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 37397,
+    "popularity": 37494,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 9
-  },
-  {
-    "id": 180812,
-    "mal_id": 59730,
-    "name": "A-Rank Party wo Ridatsu Shita Ore wa, Moto Oshiegotachi to Meikyuu Shinbu wo Mezasu.",
-    "english_title": "I Left My A-Rank Party to Help My Former Students Reach the Dungeon Depths!",
-    "episode": 24,
-    "release_date": null,
-    "next_airing_date": "2025-06-28",
-    "next_episode_number": 24,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180812-162w2RBaqJzE.jpg",
-    "site_url": "https://anilist.co/anime/180812",
-    "start_date": "2025-01-12",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GKEH2G004/i-left-my-a-rank-party-to-help-my-former-students-reach-the-dungeon-depths",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl03q6rAPvEC-sRXeGiy6qMM",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 32744,
-    "anilist_score": 64,
-    "recently_finished": false,
-    "popularity_rank": 10
   },
   {
     "id": 185407,
@@ -162,11 +132,31 @@
         "site": "Crunchyroll",
         "url": "https://www.crunchyroll.com/series/GKEH2G0X4/takopis-original-sin",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://youtube.com/playlist?list=PLxSscENEp7JiXIF_XC3Q8zWzNLgWesqLY&si=RLVH4Sv9e3H4FsB0",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://youtube.com/playlist?list=PLNAQymMf9eaYu8Plp4tLZ_sHrgAtvYH_q&si=_n3ORfaRXxZEHdNl",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/82040459",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://youtube.com/playlist?list=PLhpMvmtHsuqLrFf_wGHlwVhw5GF6vdO2j",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 10074,
-    "anilist_score": null,
+    "popularity": 12415,
+    "anilist_score": 79,
     "recently_finished": false,
-    "popularity_rank": 34
+    "popularity_rank": 33
   }
 ]

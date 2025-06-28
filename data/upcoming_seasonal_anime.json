@@ -20,7 +20,7 @@
       "Sci-Fi",
       "Supernatural"
     ],
-    "popularity": 78683,
+    "popularity": 79254,
     "favourites": 1019,
     "anilist_score": null,
     "streaming_links": [],
@@ -45,7 +45,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 64579,
+    "popularity": 65080,
     "favourites": 829,
     "anilist_score": null,
     "streaming_links": [],
@@ -68,7 +68,7 @@
       "Action",
       "Sci-Fi"
     ],
-    "popularity": 59501,
+    "popularity": 59907,
     "favourites": 720,
     "anilist_score": null,
     "streaming_links": [],
@@ -92,7 +92,7 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 45236,
+    "popularity": 45797,
     "favourites": 1060,
     "anilist_score": null,
     "streaming_links": [],
@@ -116,7 +116,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 38153,
+    "popularity": 38728,
     "favourites": 407,
     "anilist_score": null,
     "streaming_links": [],
@@ -142,7 +142,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 34835,
+    "popularity": 35221,
     "favourites": 401,
     "anilist_score": null,
     "streaming_links": [],
@@ -165,7 +165,7 @@
       "Action",
       "Comedy"
     ],
-    "popularity": 34398,
+    "popularity": 34725,
     "favourites": 293,
     "anilist_score": null,
     "streaming_links": [],
@@ -191,7 +191,7 @@
       "Supernatural",
       "Thriller"
     ],
-    "popularity": 31825,
+    "popularity": 32247,
     "favourites": 255,
     "anilist_score": null,
     "streaming_links": [],
@@ -215,7 +215,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 31153,
+    "popularity": 31339,
     "favourites": 397,
     "anilist_score": null,
     "streaming_links": [],
@@ -240,7 +240,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 29808,
+    "popularity": 30137,
     "favourites": 371,
     "anilist_score": null,
     "streaming_links": [],
@@ -265,7 +265,7 @@
       "Comedy",
       "Sci-Fi"
     ],
-    "popularity": 25631,
+    "popularity": 25881,
     "favourites": 202,
     "anilist_score": null,
     "streaming_links": [],
@@ -289,7 +289,7 @@
       "Slice of Life",
       "Sports"
     ],
-    "popularity": 22128,
+    "popularity": 22364,
     "favourites": 261,
     "anilist_score": null,
     "streaming_links": [],
@@ -314,7 +314,7 @@
       "Ecchi",
       "Supernatural"
     ],
-    "popularity": 18941,
+    "popularity": 19066,
     "favourites": 166,
     "anilist_score": null,
     "streaming_links": [],
@@ -339,7 +339,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 18307,
+    "popularity": 18461,
     "favourites": 255,
     "anilist_score": null,
     "streaming_links": [],
@@ -363,7 +363,7 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 16318,
+    "popularity": 16558,
     "favourites": 176,
     "anilist_score": null,
     "streaming_links": [],
@@ -386,34 +386,11 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 15952,
+    "popularity": 16053,
     "favourites": 187,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 16
-  },
-  {
-    "id": 181841,
-    "mal_id": 59898,
-    "name": "CITY THE ANIMATION",
-    "english_title": "CITY THE ANIMATION",
-    "episode": 1,
-    "release_date": "2025-07-07",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181841-xg2brEzNHvjU.png",
-    "site_url": "https://anilist.co/anime/181841",
-    "start_date": "2025-07-07",
-    "season": "Summer",
-    "season_year": 2025,
-    "studios": "Kyoto Animation, Pony Canyon",
-    "genres": [
-      "Comedy",
-      "Slice of Life"
-    ],
-    "popularity": 14154,
-    "favourites": 73,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 17
   },
   {
     "id": 179966,
@@ -432,8 +409,31 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 14115,
+    "popularity": 14417,
     "favourites": 100,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 17
+  },
+  {
+    "id": 181841,
+    "mal_id": 59898,
+    "name": "CITY THE ANIMATION",
+    "english_title": "CITY THE ANIMATION",
+    "episode": 1,
+    "release_date": "2025-07-07",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181841-xg2brEzNHvjU.png",
+    "site_url": "https://anilist.co/anime/181841",
+    "start_date": "2025-07-07",
+    "season": "Summer",
+    "season_year": 2025,
+    "studios": "Kyoto Animation, Pony Canyon",
+    "genres": [
+      "Comedy",
+      "Slice of Life"
+    ],
+    "popularity": 14367,
+    "favourites": 73,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 18
@@ -455,7 +455,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 12472,
+    "popularity": 12660,
     "favourites": 106,
     "anilist_score": null,
     "streaming_links": [],
@@ -478,7 +478,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 10981,
+    "popularity": 11117,
     "favourites": 143,
     "anilist_score": null,
     "streaming_links": [],
@@ -502,7 +502,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 10452,
+    "popularity": 10706,
     "favourites": 116,
     "anilist_score": null,
     "streaming_links": [],
@@ -529,7 +529,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 9585,
+    "popularity": 9781,
     "favourites": 145,
     "anilist_score": null,
     "streaming_links": [],
@@ -553,7 +553,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 9346,
+    "popularity": 9495,
     "favourites": 92,
     "anilist_score": null,
     "streaming_links": [],
@@ -576,7 +576,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 8493,
+    "popularity": 8622,
     "favourites": 67,
     "anilist_score": null,
     "streaming_links": [],
@@ -602,7 +602,7 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 7450,
+    "popularity": 7548,
     "favourites": 47,
     "anilist_score": null,
     "streaming_links": [],
@@ -625,7 +625,7 @@
       "Adventure",
       "Slice of Life"
     ],
-    "popularity": 7098,
+    "popularity": 7309,
     "favourites": 38,
     "anilist_score": null,
     "streaming_links": [],
@@ -647,7 +647,7 @@
     "genres": [
       "Slice of Life"
     ],
-    "popularity": 6794,
+    "popularity": 6975,
     "favourites": 27,
     "anilist_score": null,
     "streaming_links": [],
@@ -670,7 +670,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 6486,
+    "popularity": 6632,
     "favourites": 64,
     "anilist_score": null,
     "streaming_links": [],
@@ -695,7 +695,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 6194,
+    "popularity": 6342,
     "favourites": 48,
     "anilist_score": null,
     "streaming_links": [],
@@ -719,7 +719,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 5960,
+    "popularity": 6117,
     "favourites": 65,
     "anilist_score": null,
     "streaming_links": [],
@@ -742,7 +742,7 @@
       "Action",
       "Fantasy"
     ],
-    "popularity": 5889,
+    "popularity": 5974,
     "favourites": 79,
     "anilist_score": null,
     "streaming_links": [],
@@ -764,7 +764,7 @@
     "genres": [
       "Comedy"
     ],
-    "popularity": 5642,
+    "popularity": 5739,
     "favourites": 27,
     "anilist_score": null,
     "streaming_links": [],
@@ -788,7 +788,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 5569,
+    "popularity": 5724,
     "favourites": 53,
     "anilist_score": null,
     "streaming_links": [],
@@ -813,7 +813,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 5263,
+    "popularity": 5378,
     "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
@@ -836,7 +836,7 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 5223,
+    "popularity": 5336,
     "favourites": 34,
     "anilist_score": null,
     "streaming_links": [],
@@ -859,7 +859,7 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 4848,
+    "popularity": 4957,
     "favourites": 37,
     "anilist_score": null,
     "streaming_links": [],
@@ -884,34 +884,11 @@
       "Horror",
       "Supernatural"
     ],
-    "popularity": 4831,
+    "popularity": 4940,
     "favourites": 35,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 37
-  },
-  {
-    "id": 180794,
-    "mal_id": 59689,
-    "name": "GaCen Shoujo to Ibunka Kouryuu",
-    "english_title": "Cultural Exchange with a Game Centre Girl",
-    "episode": 1,
-    "release_date": "2025-07-06",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180794-rQGxkguEc2ov.png",
-    "site_url": "https://anilist.co/anime/180794",
-    "start_date": "2025-07-06",
-    "season": "Summer",
-    "season_year": 2025,
-    "studios": "Nomad, KADOKAWA",
-    "genres": [
-      "Comedy",
-      "Romance"
-    ],
-    "popularity": 4695,
-    "favourites": 28,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 38
   },
   {
     "id": 180460,
@@ -930,8 +907,31 @@
       "Comedy",
       "Mystery"
     ],
-    "popularity": 4684,
+    "popularity": 4818,
     "favourites": 25,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 38
+  },
+  {
+    "id": 180794,
+    "mal_id": 59689,
+    "name": "GaCen Shoujo to Ibunka Kouryuu",
+    "english_title": "Cultural Exchange with a Game Centre Girl",
+    "episode": 1,
+    "release_date": "2025-07-06",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180794-rQGxkguEc2ov.png",
+    "site_url": "https://anilist.co/anime/180794",
+    "start_date": "2025-07-06",
+    "season": "Summer",
+    "season_year": 2025,
+    "studios": "Nomad, KADOKAWA",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "popularity": 4805,
+    "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 39
@@ -952,7 +952,7 @@
     "genres": [
       "Horror"
     ],
-    "popularity": 4675,
+    "popularity": 4769,
     "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
@@ -975,35 +975,11 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 4180,
+    "popularity": 4310,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 41
-  },
-  {
-    "id": 170113,
-    "mal_id": 56907,
-    "name": "Koujo Denka no Katei Kyoushi",
-    "english_title": "Private Tutor to the Duke's Daughter",
-    "episode": 1,
-    "release_date": "2025-06-29",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170113-fq1NyxPRvLKc.jpg",
-    "site_url": "https://anilist.co/anime/170113",
-    "start_date": "2025-06-29",
-    "season": "Summer",
-    "season_year": 2025,
-    "studios": "Studio Blanc, King Records",
-    "genres": [
-      "Drama",
-      "Fantasy",
-      "Romance"
-    ],
-    "popularity": 4042,
-    "favourites": 46,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 42
   },
   {
     "id": 157960,
@@ -1019,11 +995,11 @@
     "season_year": 2025,
     "studios": "E&H Production, GAGA",
     "genres": [],
-    "popularity": 3854,
+    "popularity": 3944,
     "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 43
+    "popularity_rank": 42
   },
   {
     "id": 159483,
@@ -1042,11 +1018,11 @@
       "Slice of Life",
       "Sports"
     ],
-    "popularity": 3829,
+    "popularity": 3903,
     "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 44
+    "popularity_rank": 43
   },
   {
     "id": 174188,
@@ -1068,11 +1044,11 @@
       "Ecchi",
       "Romance"
     ],
-    "popularity": 3700,
+    "popularity": 3888,
     "favourites": 49,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 45
+    "popularity_rank": 44
   },
   {
     "id": 185544,
@@ -1093,11 +1069,11 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 3612,
+    "popularity": 3701,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 46
+    "popularity_rank": 45
   },
   {
     "id": 186561,
@@ -1117,11 +1093,11 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 3559,
+    "popularity": 3670,
     "favourites": 24,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 47
+    "popularity_rank": 46
   },
   {
     "id": 184034,
@@ -1140,11 +1116,11 @@
       "Action",
       "Drama"
     ],
-    "popularity": 3138,
+    "popularity": 3218,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 48
+    "popularity_rank": 47
   },
   {
     "id": 186789,
@@ -1164,11 +1140,11 @@
       "Ecchi",
       "Romance"
     ],
-    "popularity": 2979,
+    "popularity": 3069,
     "favourites": 30,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 49
+    "popularity_rank": 48
   },
   {
     "id": 177761,
@@ -1187,11 +1163,11 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 2659,
+    "popularity": 2724,
     "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 50
+    "popularity_rank": 49
   },
   {
     "id": 175035,
@@ -1210,11 +1186,11 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 2625,
+    "popularity": 2650,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 51
+    "popularity_rank": 50
   },
   {
     "id": 186003,
@@ -1233,11 +1209,11 @@
       "Drama",
       "Slice of Life"
     ],
-    "popularity": 2441,
+    "popularity": 2495,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 52
+    "popularity_rank": 51
   },
   {
     "id": 173335,
@@ -1256,8 +1232,28 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 2399,
+    "popularity": 2476,
     "favourites": 22,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 52
+  },
+  {
+    "id": 184575,
+    "mal_id": 60316,
+    "name": "Busamen Gachi Fighter",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2025-07-06",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184575-hEzI5V8o818U.png",
+    "site_url": "https://anilist.co/anime/184575",
+    "start_date": "2025-07-06",
+    "season": "Summer",
+    "season_year": 2025,
+    "studios": "EGG FIRM, WHITE FOX",
+    "genres": [],
+    "popularity": 2446,
+    "favourites": 20,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 53
@@ -1280,31 +1276,11 @@
       "Mecha",
       "Sci-Fi"
     ],
-    "popularity": 2363,
+    "popularity": 2419,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 54
-  },
-  {
-    "id": 184575,
-    "mal_id": 60316,
-    "name": "Busamen Gachi Fighter",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2025-07-06",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184575-hEzI5V8o818U.png",
-    "site_url": "https://anilist.co/anime/184575",
-    "start_date": "2025-07-06",
-    "season": "Summer",
-    "season_year": 2025,
-    "studios": "EGG FIRM, WHITE FOX",
-    "genres": [],
-    "popularity": 2358,
-    "favourites": 20,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 55
   },
   {
     "id": 187387,
@@ -1322,11 +1298,11 @@
     "genres": [
       "Action"
     ],
-    "popularity": 2197,
+    "popularity": 2272,
     "favourites": 20,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 56
+    "popularity_rank": 55
   },
   {
     "id": 183127,
@@ -1345,11 +1321,11 @@
       "Comedy",
       "Music"
     ],
-    "popularity": 2162,
+    "popularity": 2222,
     "favourites": 11,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 57
+    "popularity_rank": 56
   },
   {
     "id": 183128,
@@ -1367,11 +1343,11 @@
     "genres": [
       "Slice of Life"
     ],
-    "popularity": 2009,
+    "popularity": 2055,
     "favourites": 4,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 58
+    "popularity_rank": 57
   },
   {
     "id": 166215,
@@ -1390,11 +1366,11 @@
       "Music",
       "Slice of Life"
     ],
-    "popularity": 1868,
+    "popularity": 1912,
     "favourites": 13,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 59
+    "popularity_rank": 58
   },
   {
     "id": 186043,
@@ -1412,11 +1388,11 @@
     "genres": [
       "Slice of Life"
     ],
-    "popularity": 1548,
+    "popularity": 1572,
     "favourites": 11,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 60
+    "popularity_rank": 59
   },
   {
     "id": 185505,
@@ -1432,11 +1408,11 @@
     "season_year": 2025,
     "studios": "Cygames, Studio Gokumi",
     "genres": [],
-    "popularity": 1402,
+    "popularity": 1465,
     "favourites": 6,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 61
+    "popularity_rank": 60
   },
   {
     "id": 177880,
@@ -1455,11 +1431,11 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 1255,
+    "popularity": 1263,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 62
+    "popularity_rank": 61
   },
   {
     "id": 185755,
@@ -1480,10 +1456,10 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 1208,
+    "popularity": 1226,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 63
+    "popularity_rank": 62
   }
 ]
