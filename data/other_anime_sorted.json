@@ -27,7 +27,12 @@
     "popularity": 44104,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 8
+    "popularity_rank": 8,
+    "mal_score": 7.6,
+    "mal_scored_by": 18179,
+    "mal_rank": 1625,
+    "mal_popularity": 2042,
+    "mal_members": 116960
   },
   {
     "id": 143200,
@@ -52,7 +57,12 @@
     "popularity": 23253,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 16
+    "popularity_rank": 16,
+    "mal_score": 7.33,
+    "mal_scored_by": 7633,
+    "mal_rank": 2745,
+    "mal_popularity": 3200,
+    "mal_members": 55579
   },
   {
     "id": 176301,
@@ -82,7 +92,12 @@
     "popularity": 113403,
     "anilist_score": 87,
     "recently_finished": false,
-    "popularity_rank": 2
+    "popularity_rank": 2,
+    "mal_score": 8.89,
+    "mal_scored_by": 74764,
+    "mal_rank": 22,
+    "mal_popularity": 808,
+    "mal_members": 325189
   },
   {
     "id": 143598,
@@ -112,7 +127,12 @@
     "popularity": 37494,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 9
+    "popularity_rank": 9,
+    "mal_score": 7.48,
+    "mal_scored_by": 13266,
+    "mal_rank": 2063,
+    "mal_popularity": 2439,
+    "mal_members": 89271
   },
   {
     "id": 185407,
@@ -157,6 +177,11 @@
     "popularity": 12415,
     "anilist_score": 79,
     "recently_finished": false,
-    "popularity_rank": 33
+    "popularity_rank": 33,
+    "mal_score": 8.43,
+    "mal_scored_by": 982,
+    "mal_rank": 207,
+    "mal_popularity": 5552,
+    "mal_members": 17389
   }
 ]
