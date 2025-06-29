@@ -24,7 +24,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 113403,
+    "popularity": 113710,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 2
@@ -54,7 +54,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 37494,
+    "popularity": 37573,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 8
@@ -99,10 +99,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 12415,
-    "anilist_score": 79,
+    "popularity": 15038,
+    "anilist_score": 81,
     "recently_finished": false,
-    "popularity_rank": 30
+    "popularity_rank": 26
   },
   {
     "id": 137667,
@@ -129,19 +129,19 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 20956,
-    "anilist_score": 81,
+    "popularity": 24941,
+    "anilist_score": 83,
     "recently_finished": false,
-    "popularity_rank": 17
+    "popularity_rank": 14
   },
   {
     "id": 177476,
     "mal_id": 58812,
     "name": "Shin Samurai-den YAIBA",
     "english_title": "YAIBA: Samurai Legend",
-    "episode": 13,
-    "release_date": "2025-06-28",
-    "next_airing_date": "2025-07-05",
+    "episode": 14,
+    "release_date": "2025-07-12",
+    "next_airing_date": "2025-07-12",
     "next_episode_number": 14,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177476-kduwwEfxcZtU.jpg",
     "site_url": "https://anilist.co/anime/177476",
@@ -159,7 +159,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 16768,
+    "popularity": 16822,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 22
@@ -194,9 +194,34 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 15403,
+    "popularity": 15458,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 25
+  },
+  {
+    "id": 170113,
+    "mal_id": 56907,
+    "name": "Koujo Denka no Katei Kyoushi",
+    "english_title": "Private Tutor to the Duke's Daughter",
+    "episode": 1,
+    "release_date": "2025-06-28",
+    "next_airing_date": "2025-07-05",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170113-fq1NyxPRvLKc.jpg",
+    "site_url": "https://anilist.co/anime/170113",
+    "start_date": "2025-06-29",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GG5H5XQGQ/private-tutor-to-the-dukes-daughter",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 5193,
+    "anilist_score": 62,
+    "recently_finished": false,
+    "popularity_rank": 32
   }
 ]
