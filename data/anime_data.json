@@ -34,7 +34,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 612914,
+    "popularity": 613181,
     "anilist_score": 88,
     "recently_finished": false,
     "popularity_rank": 1
@@ -75,7 +75,7 @@
     "name": "Lazarus",
     "english_title": "LAZARUS",
     "episode": 13,
-    "release_date": "2025-06-29",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx167336-KpGIIBie71OX.png",
@@ -99,8 +99,8 @@
     "mal_id": 53447,
     "name": "Tu Bian Yingxiong X",
     "english_title": "To Be Hero X",
-    "episode": 13,
-    "release_date": "2025-06-29",
+    "episode": 14,
+    "release_date": null,
     "next_airing_date": "2025-07-06",
     "next_episode_number": 14,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156092-yHqgQZOF2mbg.jpg",
@@ -134,8 +134,8 @@
     "mal_id": 59597,
     "name": "Witch Watch",
     "english_title": "WITCH WATCH",
-    "episode": 13,
-    "release_date": "2025-06-29",
+    "episode": 14,
+    "release_date": null,
     "next_airing_date": "2025-07-06",
     "next_episode_number": 14,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180367-GlRuB2lG7Kaa.jpg",
@@ -265,7 +265,7 @@
     "name": "A-Rank Party wo Ridatsu Shita Ore wa, Moto Oshiegotachi to Meikyuu Shinbu wo Mezasu.",
     "english_title": "I Left My A-Rank Party to Help My Former Students Reach the Dungeon Depths!",
     "episode": 24,
-    "release_date": "2025-06-29",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 24,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180812-162w2RBaqJzE.jpg",
@@ -435,42 +435,12 @@
     "popularity_rank": 14
   },
   {
-    "id": 179979,
-    "mal_id": 59466,
-    "name": "Aharen-san wa Hakarenai Season 2",
-    "english_title": "Aharen-san wa Hakarenai Season 2",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179979-OiIKSkhJRmvo.jpg",
-    "site_url": "https://anilist.co/anime/179979",
-    "start_date": "2025-04-07",
-    "end_date": "2025-06-23",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GNVHKN72N/aharen-san-wa-hakarenai",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "Amazon Prime Video",
-        "url": "https://www.amazon.com/dp/B0F2FG9YN6/",
-        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
-      }
-    ],
-    "popularity": 23699,
-    "anilist_score": 74,
-    "recently_finished": true,
-    "popularity_rank": 15
-  },
-  {
     "id": 143200,
     "mal_id": 50694,
     "name": "Summer Pockets",
     "english_title": "Summer Pockets",
     "episode": 13,
-    "release_date": "2025-06-30",
+    "release_date": null,
     "next_airing_date": "2025-06-30",
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143200-42OaDCS6VEy3.png",
@@ -487,7 +457,7 @@
     "popularity": 23305,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 16
+    "popularity_rank": 15
   },
   {
     "id": 178781,
@@ -495,7 +465,7 @@
     "name": "Sentai Daishikkaku 2nd Season",
     "english_title": "Go! Go! Loser Ranger! Season 2",
     "episode": 12,
-    "release_date": "2025-06-29",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178781-pbk5FgfiAJxS.jpg",
@@ -522,7 +492,7 @@
     "popularity": 23232,
     "anilist_score": 69,
     "recently_finished": true,
-    "popularity_rank": 17
+    "popularity_rank": 16
   },
   {
     "id": 180675,
@@ -552,32 +522,7 @@
     "popularity": 20925,
     "anilist_score": 79,
     "recently_finished": true,
-    "popularity_rank": 18
-  },
-  {
-    "id": 180829,
-    "mal_id": 59745,
-    "name": "Chotto dake Ai ga Omoi Dark Elf ga Isekai kara Oikakete Kita",
-    "english_title": "Yandere Dark Elf: She Chased Me All the Way From Another World!",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180829-jHViG8fIkaIJ.jpg",
-    "site_url": "https://anilist.co/anime/180829",
-    "start_date": "2025-04-07",
-    "end_date": "2025-06-23",
-    "streaming_links": [
-      {
-        "site": "HIDIVE",
-        "url": "https://www.hidive.com/season/30190",
-        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
-      }
-    ],
-    "popularity": 19377,
-    "anilist_score": 52,
-    "recently_finished": true,
-    "popularity_rank": 19
+    "popularity_rank": 17
   },
   {
     "id": 177120,
@@ -607,7 +552,7 @@
     "popularity": 19356,
     "anilist_score": 76,
     "recently_finished": true,
-    "popularity_rank": 20
+    "popularity_rank": 18
   },
   {
     "id": 176246,
@@ -615,7 +560,7 @@
     "name": "mono",
     "english_title": "mono",
     "episode": 12,
-    "release_date": "2025-06-29",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176246-ndH8bKh7cmzf.jpg",
@@ -632,7 +577,7 @@
     "popularity": 18108,
     "anilist_score": 76,
     "recently_finished": true,
-    "popularity_rank": 21
+    "popularity_rank": 19
   },
   {
     "id": 177476,
@@ -640,7 +585,7 @@
     "name": "Shin Samurai-den YAIBA",
     "english_title": "YAIBA: Samurai Legend",
     "episode": 14,
-    "release_date": "2025-07-12",
+    "release_date": null,
     "next_airing_date": "2025-07-12",
     "next_episode_number": 14,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177476-kduwwEfxcZtU.jpg",
@@ -662,32 +607,7 @@
     "popularity": 16822,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 22
-  },
-  {
-    "id": 177509,
-    "mal_id": 58833,
-    "name": "Kakushite! Makina-san!!",
-    "english_title": "Makina-san's a Love Bot?!",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177509-LzpyXGnjitvF.jpg",
-    "site_url": "https://anilist.co/anime/177509",
-    "start_date": "2025-04-07",
-    "end_date": "2025-06-23",
-    "streaming_links": [
-      {
-        "site": "Amazon Prime Video",
-        "url": "https://www.primevideo.com/detail?gti=amzn1.dv.gti.da0eeabb-9121-4571-9054-648641f39228",
-        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
-      }
-    ],
-    "popularity": 16621,
-    "anilist_score": 53,
-    "recently_finished": true,
-    "popularity_rank": 23
+    "popularity_rank": 20
   },
   {
     "id": 167142,
@@ -712,15 +632,15 @@
     "popularity": 16345,
     "anilist_score": 59,
     "recently_finished": true,
-    "popularity_rank": 24
+    "popularity_rank": 21
   },
   {
     "id": 184639,
     "mal_id": 60334,
     "name": "Anne Shirley",
     "english_title": "Anne Shirley",
-    "episode": 13,
-    "release_date": "2025-06-28",
+    "episode": 14,
+    "release_date": null,
     "next_airing_date": "2025-07-05",
     "next_episode_number": 14,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184639-tmj8NbTroNeI.jpg",
@@ -747,15 +667,15 @@
     "popularity": 15458,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 25
+    "popularity_rank": 22
   },
   {
     "id": 185407,
     "mal_id": 60489,
     "name": "Takopii no Genzai",
     "english_title": "Takopi's Original Sin",
-    "episode": 1,
-    "release_date": "2025-06-27",
+    "episode": 2,
+    "release_date": "2025-07-04",
     "next_airing_date": "2025-07-04",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185407-K8o5pta80AU0.jpg",
@@ -792,7 +712,7 @@
     "popularity": 15038,
     "anilist_score": 81,
     "recently_finished": false,
-    "popularity_rank": 26
+    "popularity_rank": 23
   },
   {
     "id": 180516,
@@ -800,7 +720,7 @@
     "name": "Uma Musume: Cinderella Gray",
     "english_title": "Umamusume: Cinderella Gray",
     "episode": 13,
-    "release_date": "2025-06-29",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180516-lebpoKLkw6E3.jpg",
@@ -827,7 +747,7 @@
     "popularity": 14929,
     "anilist_score": 83,
     "recently_finished": true,
-    "popularity_rank": 27
+    "popularity_rank": 24
   },
   {
     "id": 185939,
@@ -835,7 +755,7 @@
     "name": "Hibi wa Sugiredo Meshi Umashi",
     "english_title": "Food for the Soul",
     "episode": 12,
-    "release_date": "2025-06-29",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185939-hqt1He153el8.jpg",
@@ -852,32 +772,7 @@
     "popularity": 14454,
     "anilist_score": 77,
     "recently_finished": true,
-    "popularity_rank": 28
-  },
-  {
-    "id": 165445,
-    "mal_id": 55514,
-    "name": "Zatsu Tabi: That's Journey",
-    "english_title": "ZatsuTabi -That's Journey-",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx165445-qwVP0w5NIaBW.jpg",
-    "site_url": "https://anilist.co/anime/165445",
-    "start_date": "2025-04-07",
-    "end_date": "2025-06-23",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GG5H5XQ85/zatsutabi--thats-journey-",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 14328,
-    "anilist_score": 68,
-    "recently_finished": true,
-    "popularity_rank": 29
+    "popularity_rank": 25
   },
   {
     "id": 179054,
@@ -907,7 +802,7 @@
     "popularity": 14253,
     "anilist_score": 80,
     "recently_finished": true,
-    "popularity_rank": 30
+    "popularity_rank": 26
   },
   {
     "id": 176702,
@@ -932,7 +827,32 @@
     "popularity": 10773,
     "anilist_score": 66,
     "recently_finished": true,
-    "popularity_rank": 31
+    "popularity_rank": 27
+  },
+  {
+    "id": 168537,
+    "mal_id": 56420,
+    "name": "Haigakura",
+    "english_title": "HAIGAKURA",
+    "episode": 13,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx168537-pytXEirHtk3M.jpg",
+    "site_url": "https://anilist.co/anime/168537",
+    "start_date": "2024-10-07",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Amazon Prime Video",
+        "url": "https://www.amazon.com/dp/B0DHDGVXFD",
+        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+      }
+    ],
+    "popularity": 5783,
+    "anilist_score": 50,
+    "recently_finished": false,
+    "popularity_rank": 28
   },
   {
     "id": 170113,
@@ -957,6 +877,6 @@
     "popularity": 5193,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 32
+    "popularity_rank": 29
   }
 ]
