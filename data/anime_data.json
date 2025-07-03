@@ -64,10 +64,45 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 114601,
+    "popularity": 114847,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 2
+  },
+  {
+    "id": 185660,
+    "mal_id": 60543,
+    "name": "Dandadan 2nd Season",
+    "english_title": "DAN DA DAN Season 2",
+    "episode": 1,
+    "release_date": "2025-07-03",
+    "next_airing_date": "2025-07-10",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185660-uB8RUMBGovGr.jpg",
+    "site_url": "https://anilist.co/anime/185660",
+    "start_date": "2025-07-04",
+    "end_date": "2025-09-19",
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81736884",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GG5H5XQ0D/dan-da-dan",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Hulu",
+        "url": "https://www.hulu.com/series/bad0bb31-0fa5-4a69-b9a5-5e5ed5032a48",
+        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
+      }
+    ],
+    "popularity": 83502,
+    "anilist_score": 81,
+    "recently_finished": false,
+    "popularity_rank": 3
   },
   {
     "id": 167336,
@@ -89,44 +124,9 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 82897,
+    "popularity": 83085,
     "anilist_score": 70,
     "recently_finished": true,
-    "popularity_rank": 3
-  },
-  {
-    "id": 185660,
-    "mal_id": 60543,
-    "name": "Dandadan 2nd Season",
-    "english_title": "DAN DA DAN Season 2",
-    "episode": 1,
-    "release_date": "2025-07-04",
-    "next_airing_date": "2025-07-04",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185660-uB8RUMBGovGr.jpg",
-    "site_url": "https://anilist.co/anime/185660",
-    "start_date": "2025-07-04",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/81736884",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GG5H5XQ0D/dan-da-dan",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "Hulu",
-        "url": "https://www.hulu.com/series/bad0bb31-0fa5-4a69-b9a5-5e5ed5032a48",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      }
-    ],
-    "popularity": 82477,
-    "anilist_score": null,
-    "recently_finished": false,
     "popularity_rank": 4
   },
   {
@@ -149,7 +149,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 68188,
+    "popularity": 69021,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 5
@@ -174,7 +174,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 62095,
+    "popularity": 62690,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 6
@@ -209,7 +209,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
       }
     ],
-    "popularity": 61168,
+    "popularity": 61448,
     "anilist_score": 83,
     "recently_finished": false,
     "popularity_rank": 7
@@ -249,7 +249,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 58629,
+    "popularity": 58783,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 8
@@ -274,7 +274,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 48731,
+    "popularity": 49436,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 9
@@ -304,7 +304,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 45785,
+    "popularity": 45886,
     "anilist_score": 73,
     "recently_finished": true,
     "popularity_rank": 10
@@ -334,7 +334,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 45108,
+    "popularity": 45307,
     "anilist_score": 76,
     "recently_finished": true,
     "popularity_rank": 11
@@ -364,10 +364,35 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 41611,
+    "popularity": 42359,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 12
+  },
+  {
+    "id": 175914,
+    "mal_id": 58390,
+    "name": "Yofukashi no Uta Season 2",
+    "english_title": "Call of the Night Season 2",
+    "episode": 1,
+    "release_date": "2025-07-04",
+    "next_airing_date": "2025-07-04",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx175914-VsbL90WzuqoM.jpg",
+    "site_url": "https://anilist.co/anime/175914",
+    "start_date": "2025-07-04",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "HIDIVE",
+        "url": "https://www.hidive.com/season/31574",
+        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
+      }
+    ],
+    "popularity": 37987,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 13
   },
   {
     "id": 143598,
@@ -394,33 +419,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 37785,
+    "popularity": 37840,
     "anilist_score": 71,
-    "recently_finished": false,
-    "popularity_rank": 13
-  },
-  {
-    "id": 175914,
-    "mal_id": 58390,
-    "name": "Yofukashi no Uta Season 2",
-    "english_title": "Call of the Night Season 2",
-    "episode": 1,
-    "release_date": "2025-07-04",
-    "next_airing_date": "2025-07-04",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx175914-VsbL90WzuqoM.jpg",
-    "site_url": "https://anilist.co/anime/175914",
-    "start_date": "2025-07-04",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "HIDIVE",
-        "url": "https://www.hidive.com/tv/call-of-the-night",
-        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
-      }
-    ],
-    "popularity": 37427,
-    "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 14
   },
@@ -444,7 +444,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 36393,
+    "popularity": 36829,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 15
@@ -474,7 +474,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 34936,
+    "popularity": 35582,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 16
@@ -504,7 +504,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 33396,
+    "popularity": 33499,
     "anilist_score": 64,
     "recently_finished": true,
     "popularity_rank": 17
@@ -529,7 +529,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 32369,
+    "popularity": 32636,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 18
@@ -554,7 +554,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 32012,
+    "popularity": 32500,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 19
@@ -584,7 +584,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 30924,
+    "popularity": 32290,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 20
@@ -609,7 +609,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 27151,
+    "popularity": 27481,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 21
@@ -634,7 +634,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23808,
+    "popularity": 24167,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 22
@@ -659,7 +659,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23574,
+    "popularity": 23647,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 23
@@ -694,7 +694,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 23573,
+    "popularity": 23642,
     "anilist_score": 69,
     "recently_finished": true,
     "popularity_rank": 24
@@ -739,7 +739,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 19853,
+    "popularity": 21584,
     "anilist_score": 84,
     "recently_finished": false,
     "popularity_rank": 25
@@ -760,11 +760,11 @@
     "streaming_links": [
       {
         "site": "Amazon Prime Video",
-        "url": "https://www.amazon.com",
+        "url": "https://www.amazon.com/dp/B0FCQSGGMM",
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 19711,
+    "popularity": 19881,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 26
@@ -789,7 +789,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 19401,
+    "popularity": 19644,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 27
@@ -814,7 +814,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 18487,
+    "popularity": 18557,
     "anilist_score": 77,
     "recently_finished": true,
     "popularity_rank": 28
@@ -849,7 +849,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 17798,
+    "popularity": 18128,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 29
@@ -874,8 +874,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 17521,
-    "anilist_score": 63,
+    "popularity": 18016,
+    "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 30
   },
@@ -904,7 +904,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 16907,
+    "popularity": 16926,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 31
@@ -929,7 +929,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 16105,
+    "popularity": 16435,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 32
@@ -954,45 +954,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 15619,
+    "popularity": 15875,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 33
-  },
-  {
-    "id": 184639,
-    "mal_id": 60334,
-    "name": "Anne Shirley",
-    "english_title": "Anne Shirley",
-    "episode": 14,
-    "release_date": null,
-    "next_airing_date": "2025-07-05",
-    "next_episode_number": 14,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184639-tmj8NbTroNeI.jpg",
-    "site_url": "https://anilist.co/anime/184639",
-    "start_date": "2025-04-05",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@anime-ann-e",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G8DHV78XM/anne-shirley",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JiKIvoMCqXUFcRRIUiJzE-O",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 15587,
-    "anilist_score": 74,
-    "recently_finished": false,
-    "popularity_rank": 34
   },
   {
     "id": 180516,
@@ -1024,9 +989,44 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 15570,
+    "popularity": 15707,
     "anilist_score": 84,
     "recently_finished": true,
+    "popularity_rank": 34
+  },
+  {
+    "id": 184639,
+    "mal_id": 60334,
+    "name": "Anne Shirley",
+    "english_title": "Anne Shirley",
+    "episode": 14,
+    "release_date": null,
+    "next_airing_date": "2025-07-05",
+    "next_episode_number": 14,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184639-tmj8NbTroNeI.jpg",
+    "site_url": "https://anilist.co/anime/184639",
+    "start_date": "2025-04-05",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@anime-ann-e",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G8DHV78XM/anne-shirley",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JiKIvoMCqXUFcRRIUiJzE-O",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 15614,
+    "anilist_score": 74,
+    "recently_finished": false,
     "popularity_rank": 35
   },
   {
@@ -1049,7 +1049,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 14830,
+    "popularity": 14891,
     "anilist_score": 77,
     "recently_finished": true,
     "popularity_rank": 36
@@ -1079,7 +1079,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 14431,
+    "popularity": 14479,
     "anilist_score": 80,
     "recently_finished": true,
     "popularity_rank": 37
@@ -1098,7 +1098,7 @@
     "start_date": "2025-07-08",
     "end_date": null,
     "streaming_links": [],
-    "popularity": 13687,
+    "popularity": 13914,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 38
@@ -1109,9 +1109,9 @@
     "name": "Mizu Zokusei no Mahou Tsukai",
     "english_title": "The Water Magician",
     "episode": 1,
-    "release_date": "2025-07-04",
-    "next_airing_date": "2025-07-04",
-    "next_episode_number": 1,
+    "release_date": "2025-07-03",
+    "next_airing_date": "2025-07-10",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186052-zq8h0Qo0O0sP.jpg",
     "site_url": "https://anilist.co/anime/186052",
     "start_date": "2025-07-04",
@@ -1123,7 +1123,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12200,
+    "popularity": 12587,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 39
@@ -1148,60 +1148,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 11850,
+    "popularity": 12053,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 40
-  },
-  {
-    "id": 176702,
-    "mal_id": 58614,
-    "name": "Teogonia",
-    "english_title": "Teogonia",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176702-sD5AnHf8g4zi.jpg",
-    "site_url": "https://anilist.co/anime/176702",
-    "start_date": "2025-04-12",
-    "end_date": "2025-06-27",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GXJHM3GX8/teogonia",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 10961,
-    "anilist_score": 66,
-    "recently_finished": true,
-    "popularity_rank": 41
-  },
-  {
-    "id": 178433,
-    "mal_id": 59130,
-    "name": "Isekai Mokushiroku Mynoghra: Hametsu no Bunmei de Hajimeru Sekai Seifuku",
-    "english_title": "Apocalypse Bringer Mynoghra: World Conquest Starts with the Civilization of Ruin",
-    "episode": 1,
-    "release_date": "2025-07-06",
-    "next_airing_date": "2025-07-06",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178433-8KzNsjTmdAvw.jpg",
-    "site_url": "https://anilist.co/anime/178433",
-    "start_date": "2025-07-06",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 10925,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 42
   },
   {
     "id": 169440,
@@ -1228,9 +1178,59 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 10225,
+    "popularity": 11221,
+    "anilist_score": 62,
+    "recently_finished": false,
+    "popularity_rank": 41
+  },
+  {
+    "id": 178433,
+    "mal_id": 59130,
+    "name": "Isekai Mokushiroku Mynoghra: Hametsu no Bunmei de Hajimeru Sekai Seifuku",
+    "english_title": "Apocalypse Bringer Mynoghra: World Conquest Starts with the Civilization of Ruin",
+    "episode": 1,
+    "release_date": "2025-07-06",
+    "next_airing_date": "2025-07-06",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178433-8KzNsjTmdAvw.jpg",
+    "site_url": "https://anilist.co/anime/178433",
+    "start_date": "2025-07-06",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 11184,
     "anilist_score": null,
     "recently_finished": false,
+    "popularity_rank": 42
+  },
+  {
+    "id": 176702,
+    "mal_id": 58614,
+    "name": "Teogonia",
+    "english_title": "Teogonia",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176702-sD5AnHf8g4zi.jpg",
+    "site_url": "https://anilist.co/anime/176702",
+    "start_date": "2025-04-12",
+    "end_date": "2025-06-27",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GXJHM3GX8/teogonia",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 10994,
+    "anilist_score": 66,
+    "recently_finished": true,
     "popularity_rank": 43
   },
   {
@@ -1253,214 +1253,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 9378,
-    "anilist_score": null,
+    "popularity": 10679,
+    "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 44
-  },
-  {
-    "id": 180929,
-    "mal_id": 59791,
-    "name": "Ruri no Houseki",
-    "english_title": "Ruri Rocks",
-    "episode": 1,
-    "release_date": "2025-07-06",
-    "next_airing_date": "2025-07-06",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180929-ytdzqbrOhots.jpg",
-    "site_url": "https://anilist.co/anime/180929",
-    "start_date": "2025-07-06",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 8283,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 45
-  },
-  {
-    "id": 189326,
-    "mal_id": 61339,
-    "name": "Jibaku Shounen Hanako-kun 2 Part 2",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2025-07-06",
-    "next_airing_date": "2025-07-06",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189326-kaYdWFxyyYdx.jpg",
-    "site_url": "https://anilist.co/anime/189326",
-    "start_date": "2025-07-06",
-    "end_date": null,
-    "streaming_links": [],
-    "popularity": 8016,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 46
-  },
-  {
-    "id": 185965,
-    "mal_id": 60665,
-    "name": "Futari Solo Camp",
-    "english_title": "Solo Camping for Two",
-    "episode": 1,
-    "release_date": "2025-07-11",
-    "next_airing_date": "2025-07-11",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185965-LlzTLSTBUbEA.jpg",
-    "site_url": "https://anilist.co/anime/185965",
-    "start_date": "2025-07-11",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 7848,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 47
-  },
-  {
-    "id": 178886,
-    "mal_id": 59207,
-    "name": "Mikadono Sanshimai wa Angai, Choroi.",
-    "english_title": "Dealing with Mikadono Sisters Is a Breeze",
-    "episode": 1,
-    "release_date": "2025-07-10",
-    "next_airing_date": "2025-07-10",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178886-KjzSXyEB61zX.jpg",
-    "site_url": "https://anilist.co/anime/178886",
-    "start_date": "2025-07-10",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 7465,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 48
-  },
-  {
-    "id": 170113,
-    "mal_id": 56907,
-    "name": "Koujo Denka no Katei Kyoushi",
-    "english_title": "Private Tutor to the Duke's Daughter",
-    "episode": 2,
-    "release_date": "2025-07-05",
-    "next_airing_date": "2025-07-05",
-    "next_episode_number": 2,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170113-dk9h9ybZnGnZ.jpg",
-    "site_url": "https://anilist.co/anime/170113",
-    "start_date": "2025-06-29",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GG5H5XQGQ/private-tutor-to-the-dukes-daughter",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 7173,
-    "anilist_score": 64,
-    "recently_finished": false,
-    "popularity_rank": 49
-  },
-  {
-    "id": 169420,
-    "mal_id": 56693,
-    "name": "Watari-kun no xx ga Houkai Sunzen",
-    "english_title": "Watari-kun's ****** Is about to Collapse",
-    "episode": 1,
-    "release_date": "2025-07-05",
-    "next_airing_date": "2025-07-05",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169420-u4wDhHlTfX9P.jpg",
-    "site_url": "https://anilist.co/anime/169420",
-    "start_date": "2025-07-05",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G0XHWM18X/watari-kuns--is-about-to-collapse",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 7111,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 50
-  },
-  {
-    "id": 179885,
-    "mal_id": 59424,
-    "name": "Yuusha Party wo Tsuihou Sareta Shiro Madoushi, S Rank Boukensha ni Hirowareru: Kono Shiro Madoushi ga Kikakugaisugiru",
-    "english_title": "Scooped Up by an S-Rank Adventurer!",
-    "episode": 1,
-    "release_date": "2025-07-06",
-    "next_airing_date": "2025-07-06",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179885-m1nu1QvnRmII.jpg",
-    "site_url": "https://anilist.co/anime/179885",
-    "start_date": "2025-07-06",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G5PHNM9Q0/scooped-up-by-an-s-rank-adventurer",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 6913,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 51
-  },
-  {
-    "id": 180460,
-    "mal_id": 59632,
-    "name": "Mattaku Saikin no Tantei to Kitara",
-    "english_title": "Detectives These Days Are Crazy!",
-    "episode": 1,
-    "release_date": "2025-07-01",
-    "next_airing_date": "2025-07-08",
-    "next_episode_number": 2,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180460-rZn4pp9YNqW0.jpg",
-    "site_url": "https://anilist.co/anime/180460",
-    "start_date": "2025-07-01",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G79H23Z93/detectives-these-days-are-crazy",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj6CNtTYBAGqNvm6KcSzAYU",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 6873,
-    "anilist_score": 63,
-    "recently_finished": false,
-    "popularity_rank": 52
   },
   {
     "id": 178869,
@@ -1487,7 +1283,211 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 6702,
+    "popularity": 9448,
+    "anilist_score": 69,
+    "recently_finished": false,
+    "popularity_rank": 45
+  },
+  {
+    "id": 180929,
+    "mal_id": 59791,
+    "name": "Ruri no Houseki",
+    "english_title": "Ruri Rocks",
+    "episode": 1,
+    "release_date": "2025-07-06",
+    "next_airing_date": "2025-07-06",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180929-ytdzqbrOhots.jpg",
+    "site_url": "https://anilist.co/anime/180929",
+    "start_date": "2025-07-06",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 8493,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 46
+  },
+  {
+    "id": 189326,
+    "mal_id": 61339,
+    "name": "Jibaku Shounen Hanako-kun 2 Part 2",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2025-07-06",
+    "next_airing_date": "2025-07-06",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189326-kaYdWFxyyYdx.jpg",
+    "site_url": "https://anilist.co/anime/189326",
+    "start_date": "2025-07-06",
+    "end_date": null,
+    "streaming_links": [],
+    "popularity": 8162,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 47
+  },
+  {
+    "id": 185965,
+    "mal_id": 60665,
+    "name": "Futari Solo Camp",
+    "english_title": "Solo Camping for Two",
+    "episode": 1,
+    "release_date": "2025-07-11",
+    "next_airing_date": "2025-07-11",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185965-LlzTLSTBUbEA.jpg",
+    "site_url": "https://anilist.co/anime/185965",
+    "start_date": "2025-07-11",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 8054,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 48
+  },
+  {
+    "id": 178886,
+    "mal_id": 59207,
+    "name": "Mikadono Sanshimai wa Angai, Choroi.",
+    "english_title": "Dealing with Mikadono Sisters Is a Breeze",
+    "episode": 1,
+    "release_date": "2025-07-10",
+    "next_airing_date": "2025-07-10",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178886-KjzSXyEB61zX.jpg",
+    "site_url": "https://anilist.co/anime/178886",
+    "start_date": "2025-07-10",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 7672,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 49
+  },
+  {
+    "id": 180460,
+    "mal_id": 59632,
+    "name": "Mattaku Saikin no Tantei to Kitara",
+    "english_title": "Detectives These Days Are Crazy!",
+    "episode": 1,
+    "release_date": "2025-07-01",
+    "next_airing_date": "2025-07-08",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180460-rZn4pp9YNqW0.jpg",
+    "site_url": "https://anilist.co/anime/180460",
+    "start_date": "2025-07-01",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G79H23Z93/detectives-these-days-are-crazy",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj6CNtTYBAGqNvm6KcSzAYU",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 7659,
+    "anilist_score": 65,
+    "recently_finished": false,
+    "popularity_rank": 50
+  },
+  {
+    "id": 170113,
+    "mal_id": 56907,
+    "name": "Koujo Denka no Katei Kyoushi",
+    "english_title": "Private Tutor to the Duke's Daughter",
+    "episode": 2,
+    "release_date": "2025-07-05",
+    "next_airing_date": "2025-07-05",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170113-dk9h9ybZnGnZ.jpg",
+    "site_url": "https://anilist.co/anime/170113",
+    "start_date": "2025-06-29",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GG5H5XQGQ/private-tutor-to-the-dukes-daughter",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 7638,
+    "anilist_score": 65,
+    "recently_finished": false,
+    "popularity_rank": 51
+  },
+  {
+    "id": 169420,
+    "mal_id": 56693,
+    "name": "Watari-kun no xx ga Houkai Sunzen",
+    "english_title": "Watari-kun's ****** Is about to Collapse",
+    "episode": 1,
+    "release_date": "2025-07-05",
+    "next_airing_date": "2025-07-05",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169420-u4wDhHlTfX9P.jpg",
+    "site_url": "https://anilist.co/anime/169420",
+    "start_date": "2025-07-05",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G0XHWM18X/watari-kuns--is-about-to-collapse",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 7264,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 52
+  },
+  {
+    "id": 179885,
+    "mal_id": 59424,
+    "name": "Yuusha Party wo Tsuihou Sareta Shiro Madoushi, S Rank Boukensha ni Hirowareru: Kono Shiro Madoushi ga Kikakugaisugiru",
+    "english_title": "Scooped Up by an S-Rank Adventurer!",
+    "episode": 1,
+    "release_date": "2025-07-06",
+    "next_airing_date": "2025-07-06",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179885-m1nu1QvnRmII.jpg",
+    "site_url": "https://anilist.co/anime/179885",
+    "start_date": "2025-07-06",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G5PHNM9Q0/scooped-up-by-an-s-rank-adventurer",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 7092,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 53
@@ -1512,7 +1512,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 6456,
+    "popularity": 6566,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 54
@@ -1521,7 +1521,7 @@
     "id": 178675,
     "mal_id": 59161,
     "name": "Bad Girl",
-    "english_title": null,
+    "english_title": "Bad Girl",
     "episode": 1,
     "release_date": "2025-07-06",
     "next_airing_date": "2025-07-06",
@@ -1530,8 +1530,14 @@
     "site_url": "https://anilist.co/anime/178675",
     "start_date": "2025-07-06",
     "end_date": null,
-    "streaming_links": [],
-    "popularity": 6195,
+    "streaming_links": [
+      {
+        "site": "HIDIVE",
+        "url": "https://www.hidive.com/season/31577",
+        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
+      }
+    ],
+    "popularity": 6323,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 55
@@ -1561,7 +1567,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 6175,
+    "popularity": 6225,
     "anilist_score": 72,
     "recently_finished": false,
     "popularity_rank": 56
@@ -1591,10 +1597,35 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 5964,
+    "popularity": 6096,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 57
+  },
+  {
+    "id": 179678,
+    "mal_id": 59342,
+    "name": "Jigoku Sensei Nube (2025)",
+    "english_title": "Hell Teacher: Jigoku Sensei Nube (2025)",
+    "episode": 2,
+    "release_date": "2025-07-02",
+    "next_airing_date": "2025-07-09",
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179678-1isykDVghv8Q.png",
+    "site_url": "https://anilist.co/anime/179678",
+    "start_date": "2025-07-02",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "YouTube",
+        "url": "https://youtube.com/playlist?list=PLhGamQZtJ7K9NljzDXOMx02GwfyiCTy_b",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 6066,
+    "anilist_score": 60,
+    "recently_finished": false,
+    "popularity_rank": 58
   },
   {
     "id": 184574,
@@ -1616,10 +1647,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5817,
+    "popularity": 5904,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 58
+    "popularity_rank": 59
   },
   {
     "id": 179879,
@@ -1641,26 +1672,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5492,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 59
-  },
-  {
-    "id": 179678,
-    "mal_id": 59342,
-    "name": "Jigoku Sensei Nube (2025)",
-    "english_title": "Hell Teacher: Jigoku Sensei Nube (2025)",
-    "episode": 2,
-    "release_date": "2025-07-02",
-    "next_airing_date": "2025-07-09",
-    "next_episode_number": 3,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179678-1isykDVghv8Q.png",
-    "site_url": "https://anilist.co/anime/179678",
-    "start_date": "2025-07-02",
-    "end_date": null,
-    "streaming_links": [],
-    "popularity": 5454,
+    "popularity": 5617,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 60
@@ -1685,7 +1697,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5372,
+    "popularity": 5496,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 61
@@ -1710,7 +1722,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5201,
+    "popularity": 5328,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 62
@@ -1735,7 +1747,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4958,
+    "popularity": 5096,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 63
@@ -1754,7 +1766,7 @@
     "start_date": "2025-07-19",
     "end_date": null,
     "streaming_links": [],
-    "popularity": 4491,
+    "popularity": 4633,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 64
@@ -1779,7 +1791,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
       }
     ],
-    "popularity": 4380,
+    "popularity": 4496,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 65
@@ -1809,10 +1821,40 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 4316,
+    "popularity": 4479,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 66
+  },
+  {
+    "id": 185544,
+    "mal_id": 60523,
+    "name": "Tsuihousha Shokudou e Youkoso!",
+    "english_title": "Welcome to the Outcast's Restaurant!",
+    "episode": 1,
+    "release_date": "2025-07-03",
+    "next_airing_date": "2025-07-10",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185544-V9XoC8yJ906f.jpg",
+    "site_url": "https://anilist.co/anime/185544",
+    "start_date": "2025-07-04",
+    "end_date": "2025-09-19",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GEXH3W2E9/welcome-to-the-outcasts-restaurant",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@tsuishoku_PR",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 4397,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 67
   },
   {
     "id": 159483,
@@ -1834,37 +1876,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4250,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 67
-  },
-  {
-    "id": 185544,
-    "mal_id": 60523,
-    "name": "Tsuihousha Shokudou e Youkoso!",
-    "english_title": "Welcome to the Outcast's Restaurant!",
-    "episode": 1,
-    "release_date": "2025-07-04",
-    "next_airing_date": "2025-07-04",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185544-V9XoC8yJ906f.jpg",
-    "site_url": "https://anilist.co/anime/185544",
-    "start_date": "2025-07-04",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@tsuishoku_PR",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 4249,
+    "popularity": 4317,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 68
@@ -1889,35 +1901,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 3901,
+    "popularity": 3916,
     "anilist_score": 58,
     "recently_finished": false,
     "popularity_rank": 69
-  },
-  {
-    "id": 178052,
-    "mal_id": 59078,
-    "name": "Princess-Session Orchestra",
-    "english_title": null,
-    "episode": 13,
-    "release_date": null,
-    "next_airing_date": "2025-07-06",
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178052-igWygf0ZG1gl.jpg",
-    "site_url": "https://anilist.co/anime/178052",
-    "start_date": "2025-04-06",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@princess-session",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 3683,
-    "anilist_score": 63,
-    "recently_finished": false,
-    "popularity_rank": 70
   },
   {
     "id": 184034,
@@ -1939,129 +1926,35 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 3636,
+    "popularity": 3732,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 71
+    "popularity_rank": 70
   },
   {
-    "id": 177761,
-    "mal_id": 58957,
-    "name": "9-nine- Shihaisha no Oukan",
+    "id": 178052,
+    "mal_id": 59078,
+    "name": "Princess-Session Orchestra",
     "english_title": null,
-    "episode": 1,
-    "release_date": "2025-07-05",
-    "next_airing_date": "2025-07-05",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177761-KdJxyWwdBdiS.jpg",
-    "site_url": "https://anilist.co/anime/177761",
-    "start_date": "2025-07-05",
-    "end_date": null,
-    "streaming_links": [],
-    "popularity": 3090,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 72
-  },
-  {
-    "id": 184575,
-    "mal_id": 60316,
-    "name": "Busamen Gachi Fighter",
-    "english_title": "Uglymug, Epicfighter",
-    "episode": 1,
-    "release_date": "2025-07-06",
+    "episode": 13,
+    "release_date": null,
     "next_airing_date": "2025-07-06",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184575-hEzI5V8o818U.png",
-    "site_url": "https://anilist.co/anime/184575",
-    "start_date": "2025-07-06",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 2996,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 73
-  },
-  {
-    "id": 186003,
-    "mal_id": 60697,
-    "name": "Fermat no Ryouri",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2025-07-05",
-    "next_airing_date": "2025-07-05",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186003-scKw8JoTtnMT.jpg",
-    "site_url": "https://anilist.co/anime/186003",
-    "start_date": "2025-07-05",
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178052-igWygf0ZG1gl.jpg",
+    "site_url": "https://anilist.co/anime/178052",
+    "start_date": "2025-04-06",
     "end_date": null,
     "streaming_links": [
       {
         "site": "YouTube",
-        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A",
+        "url": "https://www.youtube.com/@princess-session",
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 2858,
-    "anilist_score": null,
+    "popularity": 3685,
+    "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 74
-  },
-  {
-    "id": 173335,
-    "mal_id": 57820,
-    "name": "Kamitsubaki-shi Kensetsuchuu.",
-    "english_title": "KAMITSUBAKI CITY UNDER CONSTRUCTION",
-    "episode": 1,
-    "release_date": "2025-07-03",
-    "next_airing_date": "2025-07-03",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx173335-iWDaWkuSuZW5.jpg",
-    "site_url": "https://anilist.co/anime/173335",
-    "start_date": "2025-07-03",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G3KHEVDGD/kamitsubaki-city-under-construction",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 2806,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 75
-  },
-  {
-    "id": 177887,
-    "mal_id": 59005,
-    "name": "Leviathan",
-    "english_title": "Leviathan",
-    "episode": 1,
-    "release_date": "2025-07-10",
-    "next_airing_date": "2025-07-10",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177887-CDAgIrZOQvZc.jpg",
-    "site_url": "https://anilist.co/anime/177887",
-    "start_date": "2025-07-10",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/81152269",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      }
-    ],
-    "popularity": 2714,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 76
+    "popularity_rank": 71
   },
   {
     "id": 187387,
@@ -2088,35 +1981,129 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 2670,
-    "anilist_score": null,
+    "popularity": 3464,
+    "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 77
+    "popularity_rank": 72
   },
   {
-    "id": 183127,
-    "mal_id": 60131,
-    "name": "Karaoke Iko!",
-    "english_title": "Let's Go Karaoke!",
+    "id": 177761,
+    "mal_id": 58957,
+    "name": "9-nine- Shihaisha no Oukan",
+    "english_title": null,
     "episode": 1,
-    "release_date": "2025-07-24",
-    "next_airing_date": "2025-07-24",
+    "release_date": "2025-07-05",
+    "next_airing_date": "2025-07-05",
     "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183127-NuhBFFae2NYe.jpg",
-    "site_url": "https://anilist.co/anime/183127",
-    "start_date": "2025-07-24",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177761-KdJxyWwdBdiS.jpg",
+    "site_url": "https://anilist.co/anime/177761",
+    "start_date": "2025-07-05",
+    "end_date": null,
+    "streaming_links": [],
+    "popularity": 3179,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 73
+  },
+  {
+    "id": 184575,
+    "mal_id": 60316,
+    "name": "Busamen Gachi Fighter",
+    "english_title": "Uglymug, Epicfighter",
+    "episode": 1,
+    "release_date": "2025-07-06",
+    "next_airing_date": "2025-07-06",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184575-hEzI5V8o818U.png",
+    "site_url": "https://anilist.co/anime/184575",
+    "start_date": "2025-07-06",
     "end_date": null,
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GJ0H7QGVM/lets-go-karaoke",
+        "url": "https://www.crunchyroll.com/",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 2497,
+    "popularity": 3130,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 78
+    "popularity_rank": 74
+  },
+  {
+    "id": 186003,
+    "mal_id": 60697,
+    "name": "Fermat no Ryouri",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2025-07-05",
+    "next_airing_date": "2025-07-05",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186003-scKw8JoTtnMT.jpg",
+    "site_url": "https://anilist.co/anime/186003",
+    "start_date": "2025-07-05",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 2947,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 75
+  },
+  {
+    "id": 173335,
+    "mal_id": 57820,
+    "name": "Kamitsubaki-shi Kensetsuchuu.",
+    "english_title": "KAMITSUBAKI CITY UNDER CONSTRUCTION",
+    "episode": 1,
+    "release_date": "2025-07-03",
+    "next_airing_date": "2025-07-10",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx173335-iWDaWkuSuZW5.jpg",
+    "site_url": "https://anilist.co/anime/173335",
+    "start_date": "2025-07-03",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G3KHEVDGD/kamitsubaki-city-under-construction",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 2909,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 76
+  },
+  {
+    "id": 177887,
+    "mal_id": 59005,
+    "name": "Leviathan",
+    "english_title": "Leviathan",
+    "episode": 1,
+    "release_date": "2025-07-10",
+    "next_airing_date": "2025-07-10",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177887-CDAgIrZOQvZc.jpg",
+    "site_url": "https://anilist.co/anime/177887",
+    "start_date": "2025-07-10",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81152269",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 2789,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 77
   },
   {
     "id": 185505,
@@ -2138,8 +2125,33 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 2317,
-    "anilist_score": 48,
+    "popularity": 2585,
+    "anilist_score": 49,
+    "recently_finished": false,
+    "popularity_rank": 78
+  },
+  {
+    "id": 183127,
+    "mal_id": 60131,
+    "name": "Karaoke Iko!",
+    "english_title": "Let's Go Karaoke!",
+    "episode": 1,
+    "release_date": "2025-07-24",
+    "next_airing_date": "2025-07-24",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183127-NuhBFFae2NYe.jpg",
+    "site_url": "https://anilist.co/anime/183127",
+    "start_date": "2025-07-24",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GJ0H7QGVM/lets-go-karaoke",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 2560,
+    "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 79
   },
@@ -2163,7 +2175,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 2288,
+    "popularity": 2344,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 80
@@ -2188,7 +2200,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 2073,
+    "popularity": 2074,
     "anilist_score": 50,
     "recently_finished": true,
     "popularity_rank": 81
