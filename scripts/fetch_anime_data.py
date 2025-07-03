@@ -390,7 +390,7 @@ def process_anime_data(api_data):
             
         # Skip low popularity anime (less than 5000 popularity)
         popularity = anime.get('popularity', 0)
-        if popularity < 2000:
+        if popularity < 5000:
             continue  # Skip unpopular anime
             
         # Skip short anime (less than 10 minutes per episode)
@@ -480,8 +480,8 @@ def process_anime_data(api_data):
         # Get start date first, as it's needed for the logic below
         start_date = None
         if anime.get('startDate') and anime['startDate'].get('year'):
-            month = anime['startDate'].get('month') or 1
-            day = anime['startDate'].get('day') or 1
+            month = anime.get('startDate').get('month') or 1
+            day = anime.get('startDate').get('day') or 1
             start_date = f"{anime['startDate']['year']}-{month:02d}-{day:02d}"
             
         if anime.get('nextAiringEpisode'):
@@ -490,21 +490,36 @@ def process_anime_data(api_data):
             airing_timestamp = next_episode['airingAt']
             next_episode_number = next_episode['episode']
             
-            # Convert timestamp to date string
+            # Convert timestamp to date objects/strings
             airing_date = datetime.fromtimestamp(airing_timestamp)
             next_airing_date_from_ts = airing_date.strftime('%Y-%m-%d')
             
             # Store the original next airing info separately (never modified)
             original_next_episode = next_episode_number
             original_next_date = next_airing_date_from_ts
+
+            # Get today and tomorrow for date checks
+            today_str = datetime.now().strftime('%Y-%m-%d')
+            tomorrow_str = (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d')
             
-            # *** FIX: Prioritize start_date for the first episode ***
-            if next_episode_number == 1 and start_date:
+            # *** NEW LOGIC START ***
+            # Handles the edge case at the start of a season where an anime's official start date
+            # is tomorrow, but the next airing episode (#2) is in less than a week, implying
+            # that episode #1 must have aired today.
+            if start_date == tomorrow_str and next_episode_number == 2 and (airing_date - datetime.now()) < timedelta(days=6, hours=23):
+                episode_number = 1
+                release_date = today_str
+                # The next airing date is still correct for episode 2
+                next_airing_date = next_airing_date_from_ts
+            # *** NEW LOGIC END ***
+
+            # FIX: Prioritize start_date for the first episode (original logic)
+            elif next_episode_number == 1 and start_date:
                 episode_number = 1
                 release_date = start_date
                 next_airing_date = start_date  # Ensure consistency
             else:
-                # *** ORIGINAL LOGIC for subsequent episodes (Ep 2+) ***
+                # ORIGINAL LOGIC for subsequent episodes (Ep 2+)
                 episode_number = next_episode_number
                 release_date = next_airing_date_from_ts
                 next_airing_date = next_airing_date_from_ts
