@@ -390,7 +390,7 @@ def process_anime_data(api_data):
             
         # Skip low popularity anime (less than 5000 popularity)
         popularity = anime.get('popularity', 0)
-        if popularity < 5000:
+        if popularity < 2000:
             continue  # Skip unpopular anime
             
         # Skip short anime (less than 10 minutes per episode)
