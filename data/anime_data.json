@@ -34,7 +34,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 614243,
+    "popularity": 614490,
     "anilist_score": 88,
     "recently_finished": false,
     "popularity_rank": 1
@@ -74,8 +74,8 @@
     "mal_id": 60543,
     "name": "Dandadan 2nd Season",
     "english_title": "DAN DA DAN Season 2",
-    "episode": 1,
-    "release_date": "2025-07-03",
+    "episode": 2,
+    "release_date": "2025-07-10",
     "next_airing_date": "2025-07-10",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185660-uB8RUMBGovGr.jpg",
@@ -105,31 +105,6 @@
     "popularity_rank": 3
   },
   {
-    "id": 167336,
-    "mal_id": 56038,
-    "name": "Lazarus",
-    "english_title": "LAZARUS",
-    "episode": 13,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx167336-KpGIIBie71OX.png",
-    "site_url": "https://anilist.co/anime/167336",
-    "start_date": "2025-04-06",
-    "end_date": "2025-06-29",
-    "streaming_links": [
-      {
-        "site": "Hulu",
-        "url": "https://www.hulu.com/series/a47ec22b-79c9-4e65-9407-2f73778eca4b",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      }
-    ],
-    "popularity": 83419,
-    "anilist_score": 70,
-    "recently_finished": true,
-    "popularity_rank": 4
-  },
-  {
     "id": 154768,
     "mal_id": 53065,
     "name": "Sono Bisque Doll wa Koi wo Suru Season 2",
@@ -152,7 +127,7 @@
     "popularity": 70907,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 5
+    "popularity_rank": 4
   },
   {
     "id": 178754,
@@ -177,17 +152,17 @@
     "popularity": 63947,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 6
+    "popularity_rank": 5
   },
   {
     "id": 156092,
     "mal_id": 53447,
     "name": "Tu Bian Yingxiong X",
     "english_title": "To Be Hero X",
-    "episode": 14,
+    "episode": 15,
     "release_date": null,
-    "next_airing_date": "2025-07-06",
-    "next_episode_number": 14,
+    "next_airing_date": "2025-07-13",
+    "next_episode_number": 15,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156092-yHqgQZOF2mbg.jpg",
     "site_url": "https://anilist.co/anime/156092",
     "start_date": "2025-04-06",
@@ -212,17 +187,17 @@
     "popularity": 61940,
     "anilist_score": 83,
     "recently_finished": false,
-    "popularity_rank": 7
+    "popularity_rank": 6
   },
   {
     "id": 180367,
     "mal_id": 59597,
     "name": "Witch Watch",
     "english_title": "WITCH WATCH",
-    "episode": 14,
+    "episode": 15,
     "release_date": null,
-    "next_airing_date": "2025-07-06",
-    "next_episode_number": 14,
+    "next_airing_date": "2025-07-13",
+    "next_episode_number": 15,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180367-GlRuB2lG7Kaa.jpg",
     "site_url": "https://anilist.co/anime/180367",
     "start_date": "2025-04-06",
@@ -252,7 +227,7 @@
     "popularity": 59125,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 8
+    "popularity_rank": 7
   },
   {
     "id": 181444,
@@ -277,7 +252,7 @@
     "popularity": 51114,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 9
+    "popularity_rank": 8
   },
   {
     "id": 185736,
@@ -307,7 +282,7 @@
     "popularity": 45602,
     "anilist_score": 76,
     "recently_finished": true,
-    "popularity_rank": 10
+    "popularity_rank": 9
   },
   {
     "id": 178025,
@@ -337,7 +312,7 @@
     "popularity": 43995,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 11
+    "popularity_rank": 10
   },
   {
     "id": 175914,
@@ -362,7 +337,7 @@
     "popularity": 40897,
     "anilist_score": 81,
     "recently_finished": false,
-    "popularity_rank": 12
+    "popularity_rank": 11
   },
   {
     "id": 143598,
@@ -392,7 +367,7 @@
     "popularity": 37951,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 13
+    "popularity_rank": 12
   },
   {
     "id": 184237,
@@ -417,7 +392,7 @@
     "popularity": 37682,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 14
+    "popularity_rank": 13
   },
   {
     "id": 177689,
@@ -447,7 +422,7 @@
     "popularity": 36969,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 15
+    "popularity_rank": 14
   },
   {
     "id": 137667,
@@ -477,37 +452,7 @@
     "popularity": 34529,
     "anilist_score": 82,
     "recently_finished": false,
-    "popularity_rank": 16
-  },
-  {
-    "id": 180812,
-    "mal_id": 59730,
-    "name": "A-Rank Party wo Ridatsu Shita Ore wa, Moto Oshiegotachi to Meikyuu Shinbu wo Mezasu.",
-    "english_title": "I Left My A-Rank Party to Help My Former Students Reach the Dungeon Depths!",
-    "episode": 24,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 24,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180812-162w2RBaqJzE.jpg",
-    "site_url": "https://anilist.co/anime/180812",
-    "start_date": "2025-01-12",
-    "end_date": "2025-06-29",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GKEH2G004/i-left-my-a-rank-party-to-help-my-former-students-reach-the-dungeon-depths",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl03q6rAPvEC-sRXeGiy6qMM",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 33654,
-    "anilist_score": 65,
-    "recently_finished": true,
-    "popularity_rank": 17
+    "popularity_rank": 15
   },
   {
     "id": 171046,
@@ -532,7 +477,7 @@
     "popularity": 33565,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 18
+    "popularity_rank": 16
   },
   {
     "id": 173780,
@@ -557,7 +502,7 @@
     "popularity": 33158,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 19
+    "popularity_rank": 17
   },
   {
     "id": 189117,
@@ -582,7 +527,7 @@
     "popularity": 28193,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 20
+    "popularity_rank": 18
   },
   {
     "id": 185407,
@@ -627,7 +572,7 @@
     "popularity": 25178,
     "anilist_score": 85,
     "recently_finished": false,
-    "popularity_rank": 21
+    "popularity_rank": 19
   },
   {
     "id": 182309,
@@ -652,42 +597,7 @@
     "popularity": 24885,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 22
-  },
-  {
-    "id": 178781,
-    "mal_id": 59189,
-    "name": "Sentai Daishikkaku 2nd Season",
-    "english_title": "Go! Go! Loser Ranger! Season 2",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178781-pbk5FgfiAJxS.jpg",
-    "site_url": "https://anilist.co/anime/178781",
-    "start_date": "2025-04-13",
-    "end_date": "2025-06-29",
-    "streaming_links": [
-      {
-        "site": "Disney Plus",
-        "url": "https://www.disneyplus.com/series/go-go-loser-ranger/2VX5fKgeiVEl",
-        "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
-      },
-      {
-        "site": "Hulu",
-        "url": "https://www.hulu.com/series/9d994955-d20b-43c7-99be-3dfd3c6b6f22",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      },
-      {
-        "site": "Hulu",
-        "url": "https://www.hulu.com/series/713ae2f3-5d7a-4a66-a724-a937f8ab6dd9",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      }
-    ],
-    "popularity": 23763,
-    "anilist_score": 69,
-    "recently_finished": true,
-    "popularity_rank": 23
+    "popularity_rank": 20
   },
   {
     "id": 143200,
@@ -712,7 +622,7 @@
     "popularity": 23742,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 24
+    "popularity_rank": 21
   },
   {
     "id": 151799,
@@ -737,7 +647,7 @@
     "popularity": 20210,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 25
+    "popularity_rank": 22
   },
   {
     "id": 178090,
@@ -762,7 +672,7 @@
     "popularity": 20146,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 26
+    "popularity_rank": 23
   },
   {
     "id": 179966,
@@ -787,7 +697,7 @@
     "popularity": 19008,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 27
+    "popularity_rank": 24
   },
   {
     "id": 177474,
@@ -822,7 +732,7 @@
     "popularity": 18718,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 28
+    "popularity_rank": 25
   },
   {
     "id": 179344,
@@ -847,40 +757,15 @@
     "popularity": 18706,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 29
-  },
-  {
-    "id": 176246,
-    "mal_id": 58492,
-    "name": "mono",
-    "english_title": "mono",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176246-ndH8bKh7cmzf.jpg",
-    "site_url": "https://anilist.co/anime/176246",
-    "start_date": "2025-04-13",
-    "end_date": "2025-06-29",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G1XHJV0N8/mono",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 18664,
-    "anilist_score": 77,
-    "recently_finished": true,
-    "popularity_rank": 30
+    "popularity_rank": 26
   },
   {
     "id": 186052,
     "mal_id": 60732,
     "name": "Mizu Zokusei no Mahou Tsukai",
     "english_title": "The Water Magician",
-    "episode": 1,
-    "release_date": "2025-07-03",
+    "episode": 2,
+    "release_date": "2025-07-10",
     "next_airing_date": "2025-07-10",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186052-zq8h0Qo0O0sP.jpg",
@@ -897,7 +782,7 @@
     "popularity": 17463,
     "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 31
+    "popularity_rank": 27
   },
   {
     "id": 177476,
@@ -927,7 +812,7 @@
     "popularity": 16971,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 32
+    "popularity_rank": 28
   },
   {
     "id": 181841,
@@ -952,42 +837,7 @@
     "popularity": 16393,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 33
-  },
-  {
-    "id": 180516,
-    "mal_id": 59636,
-    "name": "Uma Musume: Cinderella Gray",
-    "english_title": "Umamusume: Cinderella Gray",
-    "episode": 13,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180516-lebpoKLkw6E3.jpg",
-    "site_url": "https://anilist.co/anime/180516",
-    "start_date": "2025-04-06",
-    "end_date": "2025-06-29",
-    "streaming_links": [
-      {
-        "site": "Amazon Prime Video",
-        "url": "https://www.amazon.com/dp/B0F1RY7C41",
-        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
-      },
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/82030222",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLhGamQZtJ7K9aElhFk89DyndS6JDvLh7z",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 15971,
-    "anilist_score": 84,
-    "recently_finished": true,
-    "popularity_rank": 34
+    "popularity_rank": 29
   },
   {
     "id": 184639,
@@ -1022,32 +872,7 @@
     "popularity": 15649,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 35
-  },
-  {
-    "id": 185939,
-    "mal_id": 60658,
-    "name": "Hibi wa Sugiredo Meshi Umashi",
-    "english_title": "Food for the Soul",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185939-hqt1He153el8.jpg",
-    "site_url": "https://anilist.co/anime/185939",
-    "start_date": "2025-04-13",
-    "end_date": "2025-06-29",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GJ0H7QGZM/food-for-the-soul",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 15018,
-    "anilist_score": 77,
-    "recently_finished": true,
-    "popularity_rank": 36
+    "popularity_rank": 30
   },
   {
     "id": 184591,
@@ -1066,7 +891,7 @@
     "popularity": 14348,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 37
+    "popularity_rank": 31
   },
   {
     "id": 178869,
@@ -1096,7 +921,7 @@
     "popularity": 13148,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 38
+    "popularity_rank": 32
   },
   {
     "id": 155838,
@@ -1121,7 +946,7 @@
     "popularity": 12427,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 39
+    "popularity_rank": 33
   },
   {
     "id": 179828,
@@ -1146,7 +971,7 @@
     "popularity": 12364,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 40
+    "popularity_rank": 34
   },
   {
     "id": 169440,
@@ -1176,7 +1001,7 @@
     "popularity": 12098,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 41
+    "popularity_rank": 35
   },
   {
     "id": 178433,
@@ -1201,7 +1026,7 @@
     "popularity": 11669,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 42
+    "popularity_rank": 36
   },
   {
     "id": 169420,
@@ -1226,7 +1051,7 @@
     "popularity": 8857,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 43
+    "popularity_rank": 37
   },
   {
     "id": 180929,
@@ -1251,7 +1076,7 @@
     "popularity": 8857,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 44
+    "popularity_rank": 38
   },
   {
     "id": 180460,
@@ -1281,7 +1106,7 @@
     "popularity": 8543,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 45
+    "popularity_rank": 39
   },
   {
     "id": 185965,
@@ -1306,7 +1131,7 @@
     "popularity": 8403,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 46
+    "popularity_rank": 40
   },
   {
     "id": 189326,
@@ -1315,8 +1140,8 @@
     "english_title": null,
     "episode": 1,
     "release_date": "2025-07-06",
-    "next_airing_date": "2025-07-06",
-    "next_episode_number": 1,
+    "next_airing_date": "2025-07-13",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189326-kaYdWFxyyYdx.jpg",
     "site_url": "https://anilist.co/anime/189326",
     "start_date": "2025-07-06",
@@ -1325,7 +1150,7 @@
     "popularity": 8393,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 47
+    "popularity_rank": 41
   },
   {
     "id": 170113,
@@ -1350,7 +1175,7 @@
     "popularity": 8291,
     "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 48
+    "popularity_rank": 42
   },
   {
     "id": 178886,
@@ -1375,7 +1200,7 @@
     "popularity": 8083,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 49
+    "popularity_rank": 43
   },
   {
     "id": 179885,
@@ -1405,7 +1230,7 @@
     "popularity": 7462,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 50
+    "popularity_rank": 44
   },
   {
     "id": 177175,
@@ -1430,15 +1255,15 @@
     "popularity": 7119,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 51
+    "popularity_rank": 45
   },
   {
     "id": 185544,
     "mal_id": 60523,
     "name": "Tsuihousha Shokudou e Youkoso!",
     "english_title": "Welcome to the Outcast's Restaurant!",
-    "episode": 1,
-    "release_date": "2025-07-03",
+    "episode": 2,
+    "release_date": "2025-07-10",
     "next_airing_date": "2025-07-10",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185544-V9XoC8yJ906f.jpg",
@@ -1460,7 +1285,7 @@
     "popularity": 7115,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 52
+    "popularity_rank": 46
   },
   {
     "id": 179678,
@@ -1485,7 +1310,7 @@
     "popularity": 6885,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 53
+    "popularity_rank": 47
   },
   {
     "id": 179879,
@@ -1510,7 +1335,7 @@
     "popularity": 6657,
     "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 54
+    "popularity_rank": 48
   },
   {
     "id": 178675,
@@ -1535,7 +1360,7 @@
     "popularity": 6543,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 55
+    "popularity_rank": 49
   },
   {
     "id": 180425,
@@ -1565,7 +1390,7 @@
     "popularity": 6373,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 56
+    "popularity_rank": 50
   },
   {
     "id": 184574,
@@ -1590,7 +1415,7 @@
     "popularity": 6051,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 57
+    "popularity_rank": 51
   },
   {
     "id": 180794,
@@ -1615,7 +1440,7 @@
     "popularity": 5686,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 58
+    "popularity_rank": 52
   },
   {
     "id": 175124,
@@ -1640,7 +1465,7 @@
     "popularity": 5555,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 59
+    "popularity_rank": 53
   },
   {
     "id": 156395,
@@ -1659,7 +1484,7 @@
     "popularity": 5525,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 60
+    "popularity_rank": 54
   },
   {
     "id": 185519,
@@ -1684,6 +1509,6 @@
     "popularity": 5340,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 61
+    "popularity_rank": 55
   }
 ]
