@@ -481,8 +481,16 @@ def generate_html():
         <div id="context-menu" class="context-menu">
             <div class="context-item" id="edit-link">
                 <span class="context-icon">🔗</span>
-                Edit Link
-        
+                Edit Link            
+            </div>
+            <div class="context-separator"></div>
+            <div class="context-item" id="copy-main-title">
+                <span class="context-icon">📄</span>
+                Copy: Main Title
+            </div>
+            <div class="context-item" id="copy-english-title">
+                <span class="context-icon">📋</span>
+                Copy: English Title
             </div>
         </div>
         <!-- Footer with last updated info -->

@@ -3,9 +3,32 @@ import json
 import requests
 from datetime import datetime, timedelta
 import os
+import time
 
 # Configuration
 ANILIST_API_URL = "https://graphql.anilist.co"
+
+def make_anilist_request(query, variables, retry_count=3):
+    """Makes a request to the AniList API with retries for transient errors."""
+    for attempt in range(retry_count):
+        try:
+            response = requests.post(ANILIST_API_URL, json={'query': query, 'variables': variables}, timeout=15)
+            response.raise_for_status()
+            return response.json()
+        except requests.exceptions.HTTPError as e:
+            # Retry on 500-level errors or rate limiting
+            if e.response.status_code >= 500 or e.response.status_code == 429:
+                print(f"API Error ({e.response.status_code}). Retrying in {2**attempt}s...")
+                time.sleep(2**attempt)
+            else:
+                print(f"HTTP Error: {e}")
+                return None
+        except requests.RequestException as e:
+            print(f"Request Error: {e}. Retrying in {2**attempt}s...")
+            time.sleep(2**attempt)
+    
+    print(f"Failed to fetch from AniList after {retry_count} attempts.")
+    return None
 
 def get_current_season():
     """Get current season based on current date"""
@@ -98,8 +121,6 @@ def fetch_current_anime():
     '''
     
     # Query for recently FINISHED anime (within last 7 days)
-    today = datetime.now()
-    week_ago = today - timedelta(days=7)
     query_finished = '''
     query ($page: Int, $perPage: Int, $startDate: FuzzyDateInt, $endDate: FuzzyDateInt) {
         Page(page: $page, perPage: $perPage) {
@@ -165,9 +186,7 @@ def fetch_current_anime():
         
         while True:
             variables = {'page': page, 'perPage': per_page}
-            response = requests.post(ANILIST_API_URL, json={'query': query_releasing, 'variables': variables}, timeout=10)
-            response.raise_for_status()
-            data = response.json()
+            data = make_anilist_request(query_releasing, variables)
             if not data or 'data' not in data: break
             page_data = data['data']['Page']
             all_anime.extend(page_data['media'])
@@ -177,16 +196,15 @@ def fetch_current_anime():
         
         # 2. Fetch recently FINISHED anime
         print("Fetching recently finished anime...")
+        today = datetime.now()
+        week_ago = today - timedelta(days=7)
         page = 1
-        three_days_ahead = today + timedelta(days=3)
         start_fuzzy = int(f"{week_ago.year}{week_ago.month:02d}{week_ago.day:02d}")
-        end_fuzzy = int(f"{three_days_ahead.year}{three_days_ahead.month:02d}{three_days_ahead.day:02d}")
+        end_fuzzy = int(f"{today.year}{today.month:02d}{today.day:02d}")
         
         while True:
             variables = {'page': page, 'perPage': per_page, 'startDate': start_fuzzy, 'endDate': end_fuzzy}
-            response = requests.post(ANILIST_API_URL, json={'query': query_finished, 'variables': variables}, timeout=10)
-            response.raise_for_status()
-            data = response.json()
+            data = make_anilist_request(query_finished, variables)
             if not data or 'data' not in data: break
             page_data = data['data']['Page']
             finished_anime = page_data['media']
@@ -203,9 +221,7 @@ def fetch_current_anime():
 
         while True:
             variables = {'page': page, 'perPage': per_page, 'season': current_season, 'seasonYear': current_year}
-            response = requests.post(ANILIST_API_URL, json={'query': query_upcoming_current_season, 'variables': variables}, timeout=10)
-            response.raise_for_status()
-            data = response.json()
+            data = make_anilist_request(query_upcoming_current_season, variables)
             if not data or 'data' not in data: break
             page_data = data['data']['Page']
             upcoming_current_anime = page_data['media']
@@ -218,8 +234,8 @@ def fetch_current_anime():
         
         return {'data': {'Page': {'media': all_anime}}}
         
-    except requests.RequestException as e:
-        print(f"Error fetching anime data: {e}")
+    except Exception as e:
+        print(f"An unexpected error occurred in fetch_current_anime: {e}")
         return None
 
 def fetch_upcoming_seasonal_anime():
@@ -284,13 +300,7 @@ def fetch_upcoming_seasonal_anime():
                 'year': next_year
             }
             
-            response = requests.post(
-                ANILIST_API_URL,
-                json={'query': query, 'variables': variables},
-                timeout=10
-            )
-            response.raise_for_status()
-            data = response.json()
+            data = make_anilist_request(query, variables)
             
             if not data or 'data' not in data:
                 break
@@ -307,8 +317,8 @@ def fetch_upcoming_seasonal_anime():
         
         return {'data': {'Page': {'media': all_anime}}}
         
-    except requests.RequestException as e:
-        print(f"Error fetching upcoming anime data: {e}")
+    except Exception as e:
+        print(f"An unexpected error occurred in fetch_upcoming_seasonal_anime: {e}")
         return None
 
 def process_anime_data(api_data):
@@ -368,7 +378,7 @@ def process_anime_data(api_data):
         is_exception = False
         for exception in long_running_exceptions:
             if (exception.lower() in anime_title.lower() or 
-                exception.lower() in anime_title_english.lower()):
+                (anime_title_english and exception.lower() in anime_title_english.lower())):
                 is_exception = True
                 break
         
@@ -390,7 +400,7 @@ def process_anime_data(api_data):
             
         # Skip low popularity anime (less than 5000 popularity)
         popularity = anime.get('popularity', 0)
-        if popularity < 5000:
+        if popularity < 3000:
             continue  # Skip unpopular anime
             
         # Skip short anime (less than 10 minutes per episode)
@@ -513,82 +523,64 @@ def process_anime_data(api_data):
                 next_airing_date = next_airing_date_from_ts
             # *** NEW LOGIC END ***
 
-            # FIX: Prioritize start_date for the first episode (original logic)
-            elif next_episode_number == 1 and start_date:
+            # NEW LOGIC: Prioritize airingAt for premieres, as it's more precise than startDate.
+            # This handles cases where the first episode airs a day before the official site's listed start date.
+            elif next_episode_number == 1:
                 episode_number = 1
-                release_date = start_date
-                next_airing_date = start_date  # Ensure consistency
+                release_date = next_airing_date_from_ts
+                next_airing_date = next_airing_date_from_ts
             else:
                 # ORIGINAL LOGIC for subsequent episodes (Ep 2+)
                 episode_number = next_episode_number
                 release_date = next_airing_date_from_ts
                 next_airing_date = next_airing_date_from_ts
                 
-                # Additional check for long-running series even with nextAiringEpisode
-                start_year = anime.get('startDate', {}).get('year')
-                start_month = anime.get('startDate', {}).get('month', 1)
+                # Try to back-calculate for weekly shows first
+                today_date = datetime.now().date()
+                days_until_next = (airing_date.date() - today_date).days
                 
-                # Check if anime started more than 3 months ago OR has high episode count
-                started_long_ago = False
-                if start_year:
-                    try:
-                        start_date_obj = datetime(start_year, start_month, 1)
-                        three_months_ago = datetime.now() - timedelta(days=90)
-                        started_long_ago = start_date_obj < three_months_ago
-                    except (ValueError, TypeError):
-                        started_long_ago = False
-                
-                is_long_running = episode_number > 50
-                
-                is_exception_anime = False
-                for exception in long_running_exceptions:
-                    if (exception.lower() in anime_title.lower() or 
-                        exception.lower() in anime_title_english.lower()):
-                        is_exception_anime = True
-                        break
-                
-                if (started_long_ago or is_long_running) and not is_exception_anime:
-                    release_date = None
-                else:
-                    today_date = datetime.now().date()
-                    days_until_next = (airing_date.date() - today_date).days
+                calculated_release_date = False
+                if 0 < days_until_next <= 7:
+                    today_weekday = today_date.weekday()
+                    next_episode_weekday = airing_date.weekday()
                     
-                    if 0 < days_until_next <= 7:
-                        today_weekday = datetime.now().weekday()
-                        next_episode_weekday = airing_date.weekday()
-                        
-                        if today_weekday == next_episode_weekday:
+                    if today_weekday == next_episode_weekday:
+                        episode_number = episode_number - 1
+                        release_date = today_date.strftime('%Y-%m-%d')
+                        calculated_release_date = True
+                    else:
+                        previous_ep_date = airing_date.date() - timedelta(days=7)
+                        days_since_prev = (today_date - previous_ep_date).days
+                        if 0 < days_since_prev <= 2:
                             episode_number = episode_number - 1
-                            release_date = today_date.strftime('%Y-%m-%d')
-                        else:
-                            if start_year and start_month:
-                                try:
-                                    start_day = anime.get('startDate', {}).get('day') or 1
-                                    start_date_obj = datetime(start_year, start_month, start_day)
-                                    previous_ep_date = airing_date.date() - timedelta(days=7)
-                                    days_since_prev = (today_date - previous_ep_date).days
-                                    if 0 < days_since_prev <= 2:
-                                        episode_number = episode_number - 1
-                                        release_date = previous_ep_date.strftime('%Y-%m-%d')
-                                except (ValueError, TypeError):
-                                    pass
-                    elif start_year and start_month:
+                            release_date = previous_ep_date.strftime('%Y-%m-%d')
+                            calculated_release_date = True
+                
+                # If we couldn't determine a weekly release, check if it's a long-running show
+                if not calculated_release_date:
+                    start_year = anime.get('startDate', {}).get('year')
+                    start_month = anime.get('startDate', {}).get('month', 1)
+                    
+                    started_long_ago = False
+                    if start_year:
                         try:
-                            start_day = anime.get('startDate', {}).get('day') or 1
-                            start_date_obj = datetime(start_year, start_month, start_day)
-                            start_date_only = start_date_obj.date()
-                            
-                            days_since_start = (today_date - start_date_only).days
-                            weeks_since_start = days_since_start // 7
-                            days_remainder = days_since_start % 7
-                            
-                            if days_remainder == 0 and days_since_start >= 7:
-                                expected_episode = weeks_since_start + 1
-                                if expected_episode < episode_number:
-                                    episode_number = expected_episode
-                                    release_date = today_date.strftime('%Y-%m-%d')
+                            start_date_obj = datetime(start_year, start_month, 1)
+                            three_months_ago = datetime.now() - timedelta(days=90)
+                            started_long_ago = start_date_obj < three_months_ago
                         except (ValueError, TypeError):
-                            pass
+                            started_long_ago = False
+                    
+                    is_long_running = episode_number > 50
+                    
+                    is_exception_anime = False
+                    for exception in long_running_exceptions:
+                        if (exception.lower() in anime_title.lower() or 
+                            (anime_title_english and exception.lower() in anime_title_english.lower())):
+                            is_exception_anime = True
+                            break
+                    
+                    if (started_long_ago or is_long_running) and not is_exception_anime:
+                        release_date = None
         else:
             # No next episode data
             if anime['status'] == 'NOT_YET_RELEASED' and start_date:
@@ -697,11 +689,6 @@ def process_anime_data(api_data):
         # Always prioritize original next airing data when available
         final_next_airing_date = original_next_date if original_next_date is not None else next_airing_date
         final_next_episode = original_next_episode if original_next_episode is not None else episode_number
-        
-        # Another check to ensure consistency for premieres
-        if final_next_episode == 1 and start_date:
-            release_date = start_date
-            final_next_airing_date = start_date
         
         # Check if recently finished (within 2 weeks)
         is_recently_finished = False
@@ -891,8 +878,7 @@ def main():
     # Fetch data from API
     api_data = fetch_current_anime()
     if not api_data:
-        print("Failed to fetch data from API")
-        return
+        raise ConnectionError("Failed to fetch data from AniList API.")
     
     # Process the data
     processed_data = process_anime_data(api_data)

@@ -741,6 +741,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize anime cards
     const animeCards = document.querySelectorAll('.anime-card');
     let currentCard = null;
+    let currentAnimeData = null;
 
     animeCards.forEach(card => {
         const animeName = card.getAttribute('data-name');
@@ -789,6 +790,8 @@ document.addEventListener('DOMContentLoaded', () => {
         card.addEventListener('contextmenu', (e) => {
             e.preventDefault();
             currentCard = card;
+            // Find the full anime data object when the menu is opened
+            currentAnimeData = window.animeData.find(a => a.id.toString() === card.dataset.animeId);
             showContextMenu(e.pageX, e.pageY);
         });
 
@@ -826,6 +829,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Context menu
     const contextMenu = document.getElementById('context-menu');
     const editLinkItem = document.getElementById('edit-link');
+    const copyMainTitleItem = document.getElementById('copy-main-title');
+    const copyEnglishTitleItem = document.getElementById('copy-english-title');
 
     function showContextMenu(x, y) {
         contextMenu.style.display = 'block';
@@ -1319,51 +1324,92 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialize rank tooltips
     initRankTooltips();
-    
     // Show More functionality for upcoming anime
-    function initShowMoreButtons() {
-        const showMoreBtn = document.getElementById('show-more-upcoming');
+function initShowMoreButtons() {
+    const showMoreBtn = document.getElementById('show-more-upcoming');
+    
+    if (showMoreBtn) {
+        // Get all upcoming anime cards in the grid
+        const upcomingGrid = document.querySelector('.upcoming-grid');
+        if (!upcomingGrid) return;
         
-        if (showMoreBtn) {
-            // Get all upcoming anime cards in the grid
-            const upcomingGrid = document.querySelector('.upcoming-grid');
-            if (!upcomingGrid) return;
+        const allUpcomingCards = upcomingGrid.querySelectorAll('.anime-card');
+        // Cards after the first 20 are the ones to show/hide
+        const extraCards = Array.from(allUpcomingCards).slice(20);
+        
+        showMoreBtn.addEventListener('click', () => {
+            const showMoreText = showMoreBtn.querySelector('.show-more-text');
+            const showLessText = showMoreBtn.querySelector('.show-less-text');
+            const isExpanded = showMoreBtn.classList.contains('expanded');
             
-            const allUpcomingCards = upcomingGrid.querySelectorAll('.anime-card');
-            // Cards after the first 20 are the ones to show/hide
-            const extraCards = Array.from(allUpcomingCards).slice(20);
+            if (isExpanded) {
+                // Hide extra anime
+                extraCards.forEach(anime => {
+                    anime.classList.add('hidden-upcoming');
+                });
+                showMoreText.style.display = 'inline';
+                showLessText.style.display = 'none';
+                showMoreBtn.classList.remove('expanded');
+            } else {
+                // Show extra anime
+                extraCards.forEach(anime => {
+                    anime.classList.remove('hidden-upcoming');
+                });
+                showMoreText.style.display = 'none';
+                showLessText.style.display = 'inline';
+                showMoreBtn.classList.add('expanded');
+            }
             
-            showMoreBtn.addEventListener('click', () => {
-                const showMoreText = showMoreBtn.querySelector('.show-more-text');
-                const showLessText = showMoreBtn.querySelector('.show-less-text');
-                const isExpanded = showMoreBtn.classList.contains('expanded');
-                
-                if (isExpanded) {
-                    // Hide extra anime
-                    extraCards.forEach(anime => {
-                        anime.classList.add('hidden-upcoming');
-                    });
-                    showMoreText.style.display = 'inline';
-                    showLessText.style.display = 'none';
-                    showMoreBtn.classList.remove('expanded');
-                } else {
-                    // Show extra anime
-                    extraCards.forEach(anime => {
-                        anime.classList.remove('hidden-upcoming');
-                    });
-                    showMoreText.style.display = 'none';
-                    showLessText.style.display = 'inline';
-                    showMoreBtn.classList.add('expanded');
-                }
-                
-                // Re-initialize calendar to include newly shown anime
-                if (document.getElementById('calendar-view').classList.contains('active')) {
-                    initializeCalendar();
-                }
-            });
+            // Re-initialize calendar to include newly shown anime
+            if (document.getElementById('calendar-view').classList.contains('active')) {
+                initializeCalendar();
+            }
+        });
+    }
+}
+
+// Initialize show more buttons
+initShowMoreButtons();
+    
+// Initialize show more buttons
+    initShowMoreButtons();
+
+    // --- New Code for Copying Titles ---
+    function showCopyFeedback(element, feedbackText) {
+        // Find the text part of the menu item, ignoring the icon
+        const textNode = Array.from(element.childNodes).find(node => node.nodeType === Node.TEXT_NODE);
+        if (textNode) {
+            const originalText = textNode.textContent;
+            textNode.textContent = ` ${feedbackText}`; // The space at the start looks better
+            setTimeout(() => {
+                textNode.textContent = originalText;
+            }, 1200); // A little longer to see the message
         }
     }
-    
-    // Initialize show more buttons
-    initShowMoreButtons();
-});
+
+if (copyMainTitleItem) {
+        copyMainTitleItem.addEventListener('click', () => {
+            if (currentAnimeData && currentAnimeData.name) {
+                navigator.clipboard.writeText(currentAnimeData.name).then(() => {
+                    showCopyFeedback(copyMainTitleItem, 'Copied!');
+                });
+            }
+            hideContextMenu();
+        });
+    }
+
+    if (copyEnglishTitleItem) {
+        copyEnglishTitleItem.addEventListener('click', () => {
+            if (currentAnimeData && currentAnimeData.english_title) {
+                navigator.clipboard.writeText(currentAnimeData.english_title).then(() => {
+                    showCopyFeedback(copyEnglishTitleItem, 'Copied!');
+                });
+            } else {
+                showCopyFeedback(copyEnglishTitleItem, "No English Title!");
+            }
+            hideContextMenu();
+        });
+    }
+    // --- End of New Code ---
+
+}); // This is the closing bracket for the main DOMContentLoaded listener
