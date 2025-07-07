@@ -18,7 +18,7 @@
       "Sci-Fi",
       "Supernatural"
     ],
-    "popularity": 75532,
+    "popularity": 75947,
     "favourites": 1082,
     "anilist_score": null,
     "streaming_links": [],
@@ -41,7 +41,7 @@
       "Action",
       "Adventure"
     ],
-    "popularity": 37508,
+    "popularity": 37844,
     "favourites": 455,
     "anilist_score": null,
     "streaming_links": [],
@@ -66,7 +66,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 36469,
+    "popularity": 36902,
     "favourites": 299,
     "anilist_score": null,
     "streaming_links": [],
@@ -92,7 +92,7 @@
       "Psychological",
       "Supernatural"
     ],
-    "popularity": 24297,
+    "popularity": 24409,
     "favourites": 243,
     "anilist_score": null,
     "streaming_links": [],
@@ -116,7 +116,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 15222,
+    "popularity": 15317,
     "favourites": 138,
     "anilist_score": null,
     "streaming_links": [],
@@ -140,11 +140,35 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 13689,
+    "popularity": 13829,
     "favourites": 193,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 6
+  },
+  {
+    "id": 185731,
+    "mal_id": 60564,
+    "name": "Ranma 1/2 (2024) 2nd Season",
+    "english_title": "Ranma1/2 (2024) Season 2",
+    "episode": 1,
+    "release_date": "2025-10-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185731-uTPSpiDT0FQz.jpg",
+    "site_url": "https://anilist.co/anime/185731",
+    "start_date": "2025-10-01",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "MAPPA",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Romance"
+    ],
+    "popularity": 9930,
+    "favourites": 87,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 7
   },
   {
     "id": 181447,
@@ -166,32 +190,8 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 9866,
+    "popularity": 9916,
     "favourites": 116,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 7
-  },
-  {
-    "id": 185731,
-    "mal_id": 60564,
-    "name": "Ranma 1/2 (2024) 2nd Season",
-    "english_title": "Ranma1/2 (2024) Season 2",
-    "episode": 1,
-    "release_date": "2025-10-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185731-uTPSpiDT0FQz.jpg",
-    "site_url": "https://anilist.co/anime/185731",
-    "start_date": "2025-10-01",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "MAPPA",
-    "genres": [
-      "Action",
-      "Comedy",
-      "Romance"
-    ],
-    "popularity": 9858,
-    "favourites": 87,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 8
@@ -213,7 +213,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 8200,
+    "popularity": 8254,
     "favourites": 151,
     "anilist_score": null,
     "streaming_links": [],
@@ -239,7 +239,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 7875,
+    "popularity": 7954,
     "favourites": 82,
     "anilist_score": null,
     "streaming_links": [],
@@ -263,7 +263,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 7335,
+    "popularity": 7375,
     "favourites": 88,
     "anilist_score": null,
     "streaming_links": [],
@@ -287,7 +287,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 6834,
+    "popularity": 6910,
     "favourites": 108,
     "anilist_score": null,
     "streaming_links": [],
@@ -310,7 +310,7 @@
       "Drama",
       "Mystery"
     ],
-    "popularity": 6590,
+    "popularity": 6631,
     "favourites": 44,
     "anilist_score": null,
     "streaming_links": [],
@@ -332,7 +332,7 @@
     "genres": [
       "Comedy"
     ],
-    "popularity": 6137,
+    "popularity": 6176,
     "favourites": 54,
     "anilist_score": null,
     "streaming_links": [],
@@ -355,7 +355,7 @@
       "Drama",
       "Sports"
     ],
-    "popularity": 4093,
+    "popularity": 4131,
     "favourites": 20,
     "anilist_score": null,
     "streaming_links": [],
@@ -378,7 +378,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 4050,
+    "popularity": 4079,
     "favourites": 34,
     "anilist_score": null,
     "streaming_links": [],
@@ -402,7 +402,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3852,
+    "popularity": 3893,
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
@@ -427,7 +427,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 3580,
+    "popularity": 3600,
     "favourites": 40,
     "anilist_score": null,
     "streaming_links": [],
@@ -451,57 +451,11 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3419,
+    "popularity": 3445,
     "favourites": 51,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 19
-  },
-  {
-    "id": 183291,
-    "mal_id": 60162,
-    "name": "Akujiki Reijou to Kyouketsu Koushaku: Sono Mamono, Watashi ga Oishiku Itadakimasu!",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2025-10-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183291-EDtdJLW13yV0.jpg",
-    "site_url": "https://anilist.co/anime/183291",
-    "start_date": "2025-10-01",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "TBD",
-    "genres": [
-      "Fantasy",
-      "Romance"
-    ],
-    "popularity": 2885,
-    "favourites": 17,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 20
-  },
-  {
-    "id": 170018,
-    "mal_id": 56877,
-    "name": "Ao no Orchestra 2nd Season",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2025-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170018-2BTcPY0K9iqy.png",
-    "site_url": "https://anilist.co/anime/170018",
-    "start_date": "2025-01-01",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "NHK, NHK Enterprises",
-    "genres": [
-      "Drama",
-      "Music"
-    ],
-    "popularity": 2852,
-    "favourites": 28,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 21
   },
   {
     "id": 195240,
@@ -520,8 +474,54 @@
       "Drama",
       "Sports"
     ],
-    "popularity": 2840,
+    "popularity": 2943,
     "favourites": 17,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 20
+  },
+  {
+    "id": 183291,
+    "mal_id": 60162,
+    "name": "Akujiki Reijou to Kyouketsu Koushaku: Sono Mamono, Watashi ga Oishiku Itadakimasu!",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2025-10-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183291-EDtdJLW13yV0.jpg",
+    "site_url": "https://anilist.co/anime/183291",
+    "start_date": "2025-10-01",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "TBD",
+    "genres": [
+      "Fantasy",
+      "Romance"
+    ],
+    "popularity": 2912,
+    "favourites": 17,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 21
+  },
+  {
+    "id": 170018,
+    "mal_id": 56877,
+    "name": "Ao no Orchestra 2nd Season",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2025-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170018-2BTcPY0K9iqy.png",
+    "site_url": "https://anilist.co/anime/170018",
+    "start_date": "2025-01-01",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "NHK, NHK Enterprises",
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "popularity": 2865,
+    "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 22
@@ -543,11 +543,36 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2702,
+    "popularity": 2733,
     "favourites": 43,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 23
+  },
+  {
+    "id": 169969,
+    "mal_id": 56854,
+    "name": "Mushoku no Eiyuu: Betsu ni Skill nanka Ira Nakattan Daga",
+    "english_title": "Hero Without a Class: Who Even Needs Skills?!",
+    "episode": 1,
+    "release_date": "2025-10-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169969-n0wv8pDCsVgk.jpg",
+    "site_url": "https://anilist.co/anime/169969",
+    "start_date": "2025-10-01",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "studio A-CAT",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "popularity": 2684,
+    "favourites": 24,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 24
   },
   {
     "id": 184322,
@@ -567,33 +592,8 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2644,
+    "popularity": 2681,
     "favourites": 36,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 24
-  },
-  {
-    "id": 169969,
-    "mal_id": 56854,
-    "name": "Mushoku no Eiyuu: Betsu ni Skill nanka Ira Nakattan Daga",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2025-10-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169969-n0wv8pDCsVgk.jpg",
-    "site_url": "https://anilist.co/anime/169969",
-    "start_date": "2025-10-01",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "studio A-CAT",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Comedy",
-      "Fantasy"
-    ],
-    "popularity": 2628,
-    "favourites": 24,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 25
@@ -616,7 +616,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 2528,
+    "popularity": 2568,
     "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
@@ -640,7 +640,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2347,
+    "popularity": 2363,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
@@ -663,7 +663,7 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 2335,
+    "popularity": 2354,
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
@@ -687,35 +687,11 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2281,
+    "popularity": 2316,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 29
-  },
-  {
-    "id": 174914,
-    "mal_id": 58146,
-    "name": "Tensei Akujo no Kuro Rekishi",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2025-10-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174914-RfPIqbrapByY.jpg",
-    "site_url": "https://anilist.co/anime/174914",
-    "start_date": "2025-10-01",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "Studio DEEN, FuRyu",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Romance"
-    ],
-    "popularity": 2171,
-    "favourites": 18,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 30
   },
   {
     "id": 183960,
@@ -735,8 +711,32 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2158,
+    "popularity": 2197,
     "favourites": 22,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 30
+  },
+  {
+    "id": 174914,
+    "mal_id": 58146,
+    "name": "Tensei Akujo no Kuro Rekishi",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2025-10-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174914-RfPIqbrapByY.jpg",
+    "site_url": "https://anilist.co/anime/174914",
+    "start_date": "2025-10-01",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "Studio DEEN, FuRyu",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Romance"
+    ],
+    "popularity": 2187,
+    "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 31
@@ -759,7 +759,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 2137,
+    "popularity": 2159,
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
@@ -781,7 +781,7 @@
     "genres": [
       "Action"
     ],
-    "popularity": 2102,
+    "popularity": 2122,
     "favourites": 40,
     "anilist_score": null,
     "streaming_links": [],
@@ -803,7 +803,7 @@
     "genres": [
       "Romance"
     ],
-    "popularity": 2081,
+    "popularity": 2105,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
@@ -827,7 +827,7 @@
       "Sci-Fi",
       "Slice of Life"
     ],
-    "popularity": 2078,
+    "popularity": 2093,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
@@ -851,7 +851,7 @@
       "Mystery",
       "Sci-Fi"
     ],
-    "popularity": 1953,
+    "popularity": 1962,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
@@ -876,7 +876,7 @@
       "Romance",
       "Sci-Fi"
     ],
-    "popularity": 1924,
+    "popularity": 1959,
     "favourites": 14,
     "anilist_score": null,
     "streaming_links": [],
@@ -901,7 +901,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 1780,
+    "popularity": 1807,
     "favourites": 27,
     "anilist_score": null,
     "streaming_links": [],
@@ -926,7 +926,7 @@
       "Romance",
       "Sports"
     ],
-    "popularity": 1650,
+    "popularity": 1673,
     "favourites": 13,
     "anilist_score": null,
     "streaming_links": [],
@@ -949,7 +949,7 @@
       "Romance",
       "Sci-Fi"
     ],
-    "popularity": 1163,
+    "popularity": 1216,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
