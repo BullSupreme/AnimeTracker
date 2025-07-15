@@ -34,7 +34,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 616681,
+    "popularity": 616983,
     "anilist_score": 88,
     "recently_finished": false,
     "popularity_rank": 1
@@ -84,8 +84,8 @@
     "mal_id": 53065,
     "name": "Sono Bisque Doll wa Koi wo Suru Season 2",
     "english_title": "My Dress-Up Darling Season 2",
-    "episode": 2,
-    "release_date": "2025-07-12",
+    "episode": 3,
+    "release_date": "2025-07-19",
     "next_airing_date": "2025-07-19",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154768-DHHvNd4MjV1p.jpg",
@@ -109,8 +109,8 @@
     "mal_id": 59845,
     "name": "Kaoru Hana wa Rin to Saku",
     "english_title": "The Fragrant Flower Blooms With Dignity",
-    "episode": 2,
-    "release_date": "2025-07-12",
+    "episode": 3,
+    "release_date": "2025-07-19",
     "next_airing_date": "2025-07-19",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181444-Ut9DDUZdfHwg.jpg",
@@ -274,8 +274,8 @@
     "mal_id": 58913,
     "name": "Hikaru ga Shinda Natsu",
     "english_title": "The Summer Hikaru Died",
-    "episode": 2,
-    "release_date": "2025-07-12",
+    "episode": 3,
+    "release_date": "2025-07-19",
     "next_airing_date": "2025-07-19",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177689-d0mB5nYgdnhi.jpg",
@@ -329,8 +329,8 @@
     "mal_id": 49818,
     "name": "Guimi Zhi Zhu",
     "english_title": "Lord of Mysteries",
-    "episode": 4,
-    "release_date": "2025-07-12",
+    "episode": 5,
+    "release_date": "2025-07-19",
     "next_airing_date": "2025-07-19",
     "next_episode_number": 5,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137667-zHFOF6qbpksP.jpg",
@@ -359,8 +359,8 @@
     "mal_id": 57433,
     "name": "Seishun Buta Yarou wa Santa Claus no Yume wo Minai",
     "english_title": "Rascal Does Not Dream of Santa Claus",
-    "episode": 2,
-    "release_date": "2025-07-12",
+    "episode": 3,
+    "release_date": "2025-07-19",
     "next_airing_date": "2025-07-19",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171046-9leqLiNuOqNu.png",
@@ -425,6 +425,31 @@
     "popularity_rank": 13
   },
   {
+    "id": 184237,
+    "mal_id": 60285,
+    "name": "SAKAMOTO DAYS Part 2",
+    "english_title": "SAKAMOTO DAYS Part 2",
+    "episode": 1,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184237-OJAksU2fsIPx.jpg",
+    "site_url": "https://anilist.co/anime/184237",
+    "start_date": "2025-07-15",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81663325",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 40883,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 14
+  },
+  {
     "id": 143598,
     "mal_id": 49778,
     "name": "Kijin Gentoushou",
@@ -452,7 +477,7 @@
     "popularity": 38504,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 14
+    "popularity_rank": 15
   },
   {
     "id": 173780,
@@ -477,7 +502,7 @@
     "popularity": 38172,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 15
+    "popularity_rank": 16
   },
   {
     "id": 189117,
@@ -507,7 +532,7 @@
     "popularity": 34082,
     "anilist_score": 80,
     "recently_finished": false,
-    "popularity_rank": 16
+    "popularity_rank": 17
   },
   {
     "id": 182309,
@@ -532,7 +557,7 @@
     "popularity": 31969,
     "anilist_score": 84,
     "recently_finished": false,
-    "popularity_rank": 17
+    "popularity_rank": 18
   },
   {
     "id": 179966,
@@ -557,7 +582,7 @@
     "popularity": 27904,
     "anilist_score": 76,
     "recently_finished": false,
-    "popularity_rank": 18
+    "popularity_rank": 19
   },
   {
     "id": 186052,
@@ -582,7 +607,7 @@
     "popularity": 26157,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 19
+    "popularity_rank": 20
   },
   {
     "id": 178090,
@@ -607,7 +632,7 @@
     "popularity": 25392,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 20
+    "popularity_rank": 21
   },
   {
     "id": 177474,
@@ -647,7 +672,7 @@
     "popularity": 24666,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 21
+    "popularity_rank": 22
   },
   {
     "id": 143200,
@@ -672,7 +697,7 @@
     "popularity": 24256,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 22
+    "popularity_rank": 23
   },
   {
     "id": 181841,
@@ -697,7 +722,7 @@
     "popularity": 23291,
     "anilist_score": 77,
     "recently_finished": false,
-    "popularity_rank": 23
+    "popularity_rank": 24
   },
   {
     "id": 151799,
@@ -722,7 +747,7 @@
     "popularity": 23000,
     "anilist_score": 80,
     "recently_finished": false,
-    "popularity_rank": 24
+    "popularity_rank": 25
   },
   {
     "id": 178869,
@@ -752,7 +777,7 @@
     "popularity": 21167,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 25
+    "popularity_rank": 26
   },
   {
     "id": 179344,
@@ -777,7 +802,7 @@
     "popularity": 20713,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 26
+    "popularity_rank": 27
   },
   {
     "id": 184591,
@@ -802,7 +827,7 @@
     "popularity": 20272,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 27
+    "popularity_rank": 28
   },
   {
     "id": 178433,
@@ -832,15 +857,15 @@
     "popularity": 19554,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 28
+    "popularity_rank": 29
   },
   {
     "id": 177476,
     "mal_id": 58812,
     "name": "Shin Samurai-den YAIBA",
     "english_title": "YAIBA: Samurai Legend",
-    "episode": 14,
-    "release_date": "2025-07-12",
+    "episode": 15,
+    "release_date": null,
     "next_airing_date": "2025-07-19",
     "next_episode_number": 15,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177476-kduwwEfxcZtU.jpg",
@@ -862,15 +887,15 @@
     "popularity": 17198,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 29
+    "popularity_rank": 30
   },
   {
     "id": 184639,
     "mal_id": 60334,
     "name": "Anne Shirley",
     "english_title": "Anne Shirley",
-    "episode": 15,
-    "release_date": "2025-07-12",
+    "episode": 16,
+    "release_date": null,
     "next_airing_date": "2025-07-19",
     "next_episode_number": 16,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184639-tmj8NbTroNeI.jpg",
@@ -897,7 +922,7 @@
     "popularity": 15990,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 30
+    "popularity_rank": 31
   },
   {
     "id": 155838,
@@ -922,7 +947,7 @@
     "popularity": 15546,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 31
+    "popularity_rank": 32
   },
   {
     "id": 180929,
@@ -947,7 +972,7 @@
     "popularity": 15305,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 32
+    "popularity_rank": 33
   },
   {
     "id": 179828,
@@ -972,7 +997,7 @@
     "popularity": 15032,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 33
+    "popularity_rank": 34
   },
   {
     "id": 169440,
@@ -1002,15 +1027,15 @@
     "popularity": 13834,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 34
+    "popularity_rank": 35
   },
   {
     "id": 179885,
     "mal_id": 59424,
     "name": "Yuusha Party wo Tsuihou Sareta Shiro Madoushi, S Rank Boukensha ni Hirowareru: Kono Shiro Madoushi ga Kikakugaisugiru",
     "english_title": "Scooped Up by an S-Rank Adventurer!",
-    "episode": 2,
-    "release_date": "2025-07-12",
+    "episode": 3,
+    "release_date": "2025-07-19",
     "next_airing_date": "2025-07-19",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179885-m1nu1QvnRmII.jpg",
@@ -1032,7 +1057,7 @@
     "popularity": 13710,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 35
+    "popularity_rank": 36
   },
   {
     "id": 178886,
@@ -1057,7 +1082,7 @@
     "popularity": 13484,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 36
+    "popularity_rank": 37
   },
   {
     "id": 169420,
@@ -1082,15 +1107,15 @@
     "popularity": 12574,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 37
+    "popularity_rank": 38
   },
   {
     "id": 170113,
     "mal_id": 56907,
     "name": "Koujo Denka no Katei Kyoushi",
     "english_title": "Private Tutor to the Duke's Daughter",
-    "episode": 3,
-    "release_date": "2025-07-12",
+    "episode": 4,
+    "release_date": "2025-07-19",
     "next_airing_date": "2025-07-19",
     "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170113-dk9h9ybZnGnZ.jpg",
@@ -1107,7 +1132,7 @@
     "popularity": 11295,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 38
+    "popularity_rank": 39
   },
   {
     "id": 185965,
@@ -1137,7 +1162,7 @@
     "popularity": 11031,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 39
+    "popularity_rank": 40
   },
   {
     "id": 185544,
@@ -1162,12 +1187,17 @@
         "site": "YouTube",
         "url": "https://www.youtube.com/@tsuishoku_PR",
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLbuF5Onrcu9e5l4Gv5c7Knwsoxwy_3EJr",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
     "popularity": 10958,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 40
+    "popularity_rank": 41
   },
   {
     "id": 180460,
@@ -1197,7 +1227,7 @@
     "popularity": 10944,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 41
+    "popularity_rank": 42
   },
   {
     "id": 189326,
@@ -1227,15 +1257,15 @@
     "popularity": 10205,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 42
+    "popularity_rank": 43
   },
   {
     "id": 180425,
     "mal_id": 59619,
     "name": "Ame to Kimi to",
     "english_title": "With You and the Rain",
-    "episode": 2,
-    "release_date": "2025-07-12",
+    "episode": 3,
+    "release_date": "2025-07-19",
     "next_airing_date": "2025-07-19",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180425-e5yNWog1hDuu.jpg",
@@ -1257,7 +1287,7 @@
     "popularity": 10086,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 43
+    "popularity_rank": 44
   },
   {
     "id": 179879,
@@ -1282,15 +1312,15 @@
     "popularity": 9582,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 44
+    "popularity_rank": 45
   },
   {
     "id": 186561,
     "mal_id": 60951,
     "name": "Kizetsu Yuusha to Ansatsu Hime",
     "english_title": "The Shy Hero and the Assassin Princesses",
-    "episode": 2,
-    "release_date": "2025-07-12",
+    "episode": 3,
+    "release_date": "2025-07-19",
     "next_airing_date": "2025-07-19",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186561-9qIZCSTYkAfw.jpg",
@@ -1312,15 +1342,15 @@
     "popularity": 9445,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 45
+    "popularity_rank": 46
   },
   {
     "id": 178675,
     "mal_id": 59161,
     "name": "Bad Girl",
     "english_title": "Bad Girl",
-    "episode": 2,
-    "release_date": "2025-07-12",
+    "episode": 3,
+    "release_date": "2025-07-19",
     "next_airing_date": "2025-07-19",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178675-cTYMOedSpXsJ.jpg",
@@ -1342,7 +1372,7 @@
     "popularity": 9334,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 46
+    "popularity_rank": 47
   },
   {
     "id": 180794,
@@ -1367,7 +1397,7 @@
     "popularity": 8606,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 47
+    "popularity_rank": 48
   },
   {
     "id": 177175,
@@ -1392,7 +1422,7 @@
     "popularity": 8337,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 48
+    "popularity_rank": 49
   },
   {
     "id": 185519,
@@ -1422,7 +1452,7 @@
     "popularity": 8187,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 49
+    "popularity_rank": 50
   },
   {
     "id": 179678,
@@ -1447,7 +1477,7 @@
     "popularity": 8032,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 50
+    "popularity_rank": 51
   },
   {
     "id": 175124,
@@ -1472,7 +1502,7 @@
     "popularity": 7731,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 51
+    "popularity_rank": 52
   },
   {
     "id": 184575,
@@ -1502,7 +1532,7 @@
     "popularity": 7662,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 52
+    "popularity_rank": 53
   },
   {
     "id": 184574,
@@ -1532,7 +1562,7 @@
     "popularity": 7473,
     "anilist_score": 58,
     "recently_finished": false,
-    "popularity_rank": 53
+    "popularity_rank": 54
   },
   {
     "id": 191974,
@@ -1562,7 +1592,7 @@
     "popularity": 6989,
     "anilist_score": 74,
     "recently_finished": true,
-    "popularity_rank": 54
+    "popularity_rank": 55
   },
   {
     "id": 156395,
@@ -1581,7 +1611,7 @@
     "popularity": 6970,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 55
+    "popularity_rank": 56
   },
   {
     "id": 159483,
@@ -1606,7 +1636,7 @@
     "popularity": 6517,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 56
+    "popularity_rank": 57
   },
   {
     "id": 184034,
@@ -1635,31 +1665,6 @@
     ],
     "popularity": 5900,
     "anilist_score": 62,
-    "recently_finished": false,
-    "popularity_rank": 57
-  },
-  {
-    "id": 168537,
-    "mal_id": 56420,
-    "name": "Haigakura",
-    "english_title": "HAIGAKURA",
-    "episode": 13,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx168537-pytXEirHtk3M.jpg",
-    "site_url": "https://anilist.co/anime/168537",
-    "start_date": "2024-10-07",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Amazon Prime Video",
-        "url": "https://www.amazon.com/dp/B0DHDGVXFD",
-        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
-      }
-    ],
-    "popularity": 5872,
-    "anilist_score": 50,
     "recently_finished": false,
     "popularity_rank": 58
   },
@@ -1730,6 +1735,11 @@
         "site": "Disney Plus",
         "url": "https://www.disneyplus.com/browse/entity-52e7dbe7-b28a-428a-963e-acfaa81b4ba6",
         "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
+      },
+      {
+        "site": "Hulu",
+        "url": "https://www.hulu.com/series/bullet-bullet-4baef481-cf49-429f-99f4-78f8fc9d377b",
+        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
     "popularity": 5210,
@@ -1742,8 +1752,8 @@
     "mal_id": 60697,
     "name": "Fermat no Ryouri",
     "english_title": null,
-    "episode": 2,
-    "release_date": "2025-07-12",
+    "episode": 3,
+    "release_date": "2025-07-19",
     "next_airing_date": "2025-07-19",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186003-scKw8JoTtnMT.jpg",
@@ -1792,8 +1802,8 @@
     "mal_id": 58957,
     "name": "9-nine- Shihaisha no Oukan",
     "english_title": null,
-    "episode": 3,
-    "release_date": "2025-07-12",
+    "episode": 4,
+    "release_date": "2025-07-19",
     "next_airing_date": "2025-07-19",
     "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177761-KdJxyWwdBdiS.jpg",
