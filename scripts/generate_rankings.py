@@ -2,6 +2,7 @@
 import json
 import os
 from datetime import datetime
+import uuid
 
 def calculate_overall_score(anime):
     """Calculate overall ranking score based on multiple metrics"""
@@ -82,6 +83,7 @@ def generate_rankings_html():
     try:
         with open('data/anime_data.json', 'r', encoding='utf-8') as f:
             anime_data = json.load(f)
+        print(f"Loaded {len(anime_data)} anime entries from anime_data.json")
     except FileNotFoundError:
         print("Error: 'data/anime_data.json' file not found. Please ensure the file exists in the 'data' directory.")
         return
@@ -106,8 +108,70 @@ def generate_rankings_html():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title净="css/rankings.css">
+    <title>Anime Rankings - Ultimate Rankings</title>
+    <link rel="stylesheet" href="css/rankings.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Minimal fallback styles in case rankings.css or style.css is missing */
+        body {{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #1a1a1a;
+            color: #fff;
+        }}
+        header {{
+            text-align: center;
+            margin-bottom: 20px;
+        }}
+        h1 {{
+            font-size: 2.2rem;
+            margin: 0;
+        }}
+        #rankings-table {{
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }}
+        #rankings-table th, #rankings-table td {{
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }}
+        #rankings-table th {{
+            background-color: #2c3e50;
+            color: white;
+        }}
+        .anime-title {{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }}
+        .mini-poster {{
+            width: 70px;
+            height: 98px;
+            object-fit: cover;
+            border-radius: 5px;
+        }}
+        .good {{
+            background: rgba(76, 175, 80, 0.2);
+        }}
+        .medium {{
+            background: rgba(255, 193, 7, 0.2);
+        }}
+        .trend-up {{
+            color: #4caf50;
+        }}
+        .trend-down {{
+            color: #f44336;
+        }}
+        .last-updated {{
+            text-align: center;
+            margin-top: 20px;
+            color: #777;
+        }}
+    </style>
 </head>
 <body>
     <header>
@@ -127,19 +191,28 @@ def generate_rankings_html():
                 <li>
                     <a href="https://anilist.co" target="_blank" class="source-link">
                         <img src="https://anilist.co/favicon.ico" alt="AniList" class="source-favicon">
-                        <div> <strong>AniList</strong> <small>User tracking & community score</small> </div>
+                        <div class="source-info">
+                            <strong>AniList</strong>
+                            <small>User tracking & community score</small>
+                        </div>
                     </a>
                 </li>
                 <li>
                     <a href="https://myanimelist.net" target="_blank" class="source-link">
                         <img src="https://myanimelist.net/favicon.ico" alt="MyAnimeList" class="source-favicon">
-                        <div> <strong>MyAnimeList</strong> <small>Critical ratings & member count</small> </div>
+                        <div class="source-info">
+                            <strong>MyAnimeList</strong>
+                            <small>Critical ratings & member count</small>
+                        </div>
                     </a>
                 </li>
                 <li>
-                    <a href="https://anitrendz.com" target="_blank" class class="source-link">
+                    <a href="https://anitrendz.com" target="_blank" class="source-link">
                         <img src="https://www.google.com/s2/favicons?domain=anitrendz.com&sz=16" alt="AniTrendz" class="source-favicon">
-                        <div> <strong>AniTrendz</strong> <small>Weekly popularity polls</small> </div>
+                        <div class="source-info">
+                            <strong>AniTrendz</strong>
+                            <small>Weekly popularity polls</small>
+                        </div>
                     </a>
                 </li>
             </ul>
