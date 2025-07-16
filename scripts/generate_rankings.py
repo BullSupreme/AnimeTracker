@@ -81,8 +81,18 @@ def generate_rankings_html():
     """Generate rankings.html with comprehensive anime rankings"""
     
     # Load anime data
-    with open('data/anime_data.json', 'r', encoding='utf-8') as f:
-        anime_data = json.load(f)
+    try:
+        with open('data/anime_data.json', 'r', encoding='utf-8') as f:
+            anime_data = json.load(f)
+    except FileNotFoundError:
+        print("Error: 'data/anime_data.json' file not found. Please ensure the file exists in the 'data' directory.")
+        return
+    except json.JSONDecodeError:
+        print("Error: 'data/anime_data.json' contains invalid JSON. Please check the file format.")
+        return
+    except Exception as e:
+        print(f"Error loading anime_data.json: {str(e)}")
+        return
     
     # Calculate both overall and weekly scores
     for anime in anime_data:
