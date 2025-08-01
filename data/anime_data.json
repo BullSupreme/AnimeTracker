@@ -34,7 +34,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 620781,
+    "popularity": 620995,
     "anilist_score": 88,
     "recently_finished": false,
     "popularity_rank": 1
@@ -305,7 +305,7 @@
     "name": "Takopii no Genzai",
     "english_title": "Takopi's Original Sin",
     "episode": 6,
-    "release_date": "2025-08-01",
+    "release_date": "2025-08-02",
     "next_airing_date": "2025-08-01",
     "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185407-7uzY4fA3hokP.jpg",
@@ -816,7 +816,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178433-8KzNsjTmdAvw.jpg",
     "site_url": "https://anilist.co/anime/178433",
     "start_date": "2025-07-06",
-    "end_date": null,
+    "end_date": "2025-09-21",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -839,8 +839,8 @@
     "mal_id": 59277,
     "name": "Kanojo, Okarishimasu 4th Season",
     "english_title": "Rent-a-Girlfriend Season 4",
-    "episode": 5,
-    "release_date": "2025-07-29",
+    "episode": 6,
+    "release_date": "2025-08-05",
     "next_airing_date": "2025-08-05",
     "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179344-GQzJfehpQI72.png",
@@ -974,8 +974,8 @@
     "mal_id": 59402,
     "name": "Kakkou no Iinazuke Season 2",
     "english_title": "A Couple of Cuckoos Season 2",
-    "episode": 4,
-    "release_date": "2025-07-29",
+    "episode": 5,
+    "release_date": "2025-08-05",
     "next_airing_date": "2025-08-05",
     "next_episode_number": 5,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179828-Yc1b1R2dxQyc.jpg",
@@ -1228,8 +1228,8 @@
     "mal_id": 59632,
     "name": "Mattaku Saikin no Tantei to Kitara",
     "english_title": "Detectives These Days Are Crazy!",
-    "episode": 5,
-    "release_date": "2025-07-29",
+    "episode": 6,
+    "release_date": "2025-08-05",
     "next_airing_date": "2025-08-05",
     "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180460-rZn4pp9YNqW0.jpg",
@@ -1612,8 +1612,8 @@
     "mal_id": 54028,
     "name": "Turkey!",
     "english_title": "Turkey! Time to Strike",
-    "episode": 4,
-    "release_date": "2025-07-29",
+    "episode": 5,
+    "release_date": "2025-08-05",
     "next_airing_date": "2025-08-05",
     "next_episode_number": 5,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx159483-nQKJ2EEqoo8x.jpg",
@@ -1851,8 +1851,8 @@
     "mal_id": 60505,
     "name": "Necronomico no Cosmic Horror Show",
     "english_title": "Necronomico and the Cosmic Horror Show",
-    "episode": 5,
-    "release_date": "2025-07-29",
+    "episode": 6,
+    "release_date": "2025-08-05",
     "next_airing_date": "2025-08-05",
     "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185505-l2ZcSDvdzhd8.jpg",
@@ -1897,6 +1897,31 @@
     "popularity_rank": 67
   },
   {
+    "id": 157692,
+    "mal_id": 59662,
+    "name": "Long Zu 2",
+    "english_title": "Dragon Raja II -The Mourner's Eyes-",
+    "episode": 3,
+    "release_date": "2025-08-01",
+    "next_airing_date": null,
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx157692-lihmnuJGcbM6.png",
+    "site_url": "https://anilist.co/anime/157692",
+    "start_date": "2025-07-18",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Tencent Video",
+        "url": "https://v.qq.com/x/cover/mzc002008260hny.html",
+        "icon": "https://www.google.com/s2/favicons?domain=v.qq.com&sz=32"
+      }
+    ],
+    "popularity": 3486,
+    "anilist_score": 65,
+    "recently_finished": false,
+    "popularity_rank": 68
+  },
+  {
     "id": 175035,
     "mal_id": 58953,
     "name": "Pokémon Concierge Part 2",
@@ -1919,6 +1944,6 @@
     "popularity": 3155,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 68
+    "popularity_rank": 69
   }
 ]
