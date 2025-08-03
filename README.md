@@ -5,83 +5,83 @@
 [![GitHub Pages](https://img.shields.io/badge/live-site-brightgreen)](https://bullsupreme.github.io/AnimeTracker/)
 
 A beautiful, responsive anime tracking website that displays currently airing anime with automatic updates via GitHub Actions.
-🔗 View Live Site
-📋 Important Note
+
+🔗 **[View Live Site](https://bullsupreme.github.io/AnimeTracker/)**
+
+## 📋 Important Note
+
 This repository is designed specifically for GitHub Pages deployment using GitHub Actions. The Python scripts handle API data fetching and processing logic to generate static HTML files. If you want to run this locally or on your own server, you'll need:
 
-Python backend to fetch data from an API (AniList)
-Data processing logic to organize and display anime per their release dates/airing dates and status.
-A way to regularly update the data (cron job, scheduled tasks, manually).
+- Python backend to fetch data from an API (AniList)
+- Data processing logic to organize and display anime per their release dates/airing dates and status.
+- A way to regularly update the data (cron job, scheduled tasks, manually).
 
-🚀 Features
-Automatic updates: Runs twice daily (8 AM & 8 PM UTC)
-📁 Files Included
+## 🚀 Features
 
-index.html - Main page (auto-generated)
-css/style.css - All styles with rank colors
-js/script.js - JavaScript functionality
-data/ - JSON data files
-scripts/ - Python automation scripts
-.github/workflows/ - Auto-update workflow
+**Automatic updates**: Runs twice daily (8 AM & 8 PM UTC)
 
-✨ Features
+## 📁 Files Included
 
-🌟 Today's & Tomorrow's anime releases
-📺 Next airing episodes with future dates
-🎨 Colored User Tracking rank badges (Gold/Silver/Bronze)
-⭐ Favorites system (browser cookies)
-📱 Fully responsive design
-🔄 Automatic data updates twice daily
-💫 Hover UI elements (favorites, ranks)
-🚀 Fast custom tooltips
+- `index.html` - Main page (auto-generated)
+- `css/style.css` - All styles with rank colors
+- `js/script.js` - JavaScript functionality
+- `data/` - JSON data files
+- `scripts/` - Python automation scripts
+- `.github/workflows/` - Auto-update workflow
 
-🔗 GitHub Actions
+## ✨ Features
+
+- 🌟 Today's & Tomorrow's anime releases
+- 📺 Next airing episodes with future dates
+- 🎨 Colored User Tracking rank badges (Gold/Silver/Bronze)
+- ⭐ Favorites system (browser cookies)
+- 📱 Fully responsive design
+- 🔄 Automatic data updates twice daily
+- 💫 Hover UI elements (favorites, ranks)
+- 🚀 Fast custom tooltips
+
+## 🔗 GitHub Actions
+
 The workflow automatically:
-
-Fetches fresh anime data from AniList API
-Generates updated static HTML
-Commits and deploys changes
+- Fetches fresh anime data from AniList API
+- Generates updated static HTML
+- Commits and deploys changes
 
 Perfect for GitHub Pages hosting! 🎉
-📚 Version History
-Version 3.2 (August 03, 2025)
 
-Enhanced AniTrendz scraping with JS rendering via requests-html for full dynamic chart capture.
-Removed outdated hardcoded rankings; now dynamically fetches current top-anime list (e.g., 20+ entries).
-Improved title matching using dynamic variations from anime_data.json for better AniList integration.
-Fixed push failures in scheduled GitHub Actions by adding git pull --rebase before commits.
-Added dependencies like requests-html and headless browser support to workflow YAML.
-System aggregates data from AniList (metadata), MAL (scores), and AniTrendz (weekly ranks).
-Matches AniTrendz titles to AniList entries via normalization and partial string checks.
-Updates anime_data.json with fields like rank, change, movement, weeks, and peak.
-Generates HTML pages (index.html and rankings) with latest aggregated data.
-Automates weekly via update-rankings.yml every Saturday at 8 PM UTC, with manual trigger option.
+## 📚 Version History
 
-Version 3.1 (Current)
+### Version 3.2 (Current)
+- Enhanced AniTrendz scraping with JS rendering via requests-html for full dynamic chart capture.
+- Removed outdated hardcoded rankings; now dynamically fetches current top-anime list (e.g., 20+ entries).
+- Improved title matching using dynamic variations from anime_data.json for better AniList integration.
+- Fixed push failures in scheduled GitHub Actions by adding git pull --rebase before commits.
+- Added dependencies like requests-html and headless browser support to workflow YAML.
+- System aggregates data from AniList (metadata), MAL (scores), and AniTrendz (weekly ranks).
+- Matches AniTrendz titles to AniList entries via normalization and partial string checks.
+- Updates anime_data.json with fields like rank, change, movement, weeks, and peak.
+- Generates HTML pages (index.html and rankings) with latest aggregated data.
+- Automates weekly via update-rankings.yml every Saturday at 8 PM UTC, with manual trigger option.
 
-Bug fixes and performance improvements
-Enhanced next episode tracking logic.
+### Version 3.0 - 3.1
+- Enhanced UI with hover-only elements (favorites, rank badges)
+- Calendar feature for organized viewing
+- Dedicated Favorites tab with improved layout
+- Next season anime preview section
+- GitHub Pages deployment with GitHub Actions for automatic updates
+- Bug fixes and performance improvements
+- Enhanced next episode tracking logic.
 
-Version 3.0
+### Version 2.0
+- Complete refactor to Python backend with HTML/JavaScript/CSS frontend
+- Basic favorite functionality with browser storage
+- Full current season anime library using AniList API
+- PyInstaller executable for easy distribution to friends
+- Responsive web-based interface
+- Distrubuted to Friends only using Pyinstaller .exe conversion.
 
-Enhanced UI with hover-only elements (favorites, rank badges)
-Calendar feature for organized viewing
-Dedicated Favorites tab with improved layout
-Next season anime preview section
-GitHub Pages deployment with GitHub Actions for automatic updates
-
-Version 2.0
-
-Complete refactor to Python backend with HTML/JavaScript/CSS frontend
-Basic favorite functionality with browser storage
-Full current season anime library using AniList API
-PyInstaller executable for easy distribution to friends
-Responsive web-based interface
-Distributed to Friends only using Pyinstaller .exe conversion.
-
-Version 1.0
-
-Small Python application using CustomTkinter module for UI
-Basic weekly anime display with streaming links
-MyAnimeList API integration
-Desktop application for personal use
+### Version 1.0
+- Small Python application using CustomTkinter module for UI
+- Basic weekly anime display with streaming links
+- MyAnimeList API integration
+- Desktop application for personal use
