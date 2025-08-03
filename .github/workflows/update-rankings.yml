@@ -14,6 +14,9 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
     
+    - name: Pull latest changes
+      run: git pull --rebase origin main
+    
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
@@ -24,7 +27,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         pip install requests-html
-        pyppeteer-install  # Correct command to install Chromium
+        pyppeteer-install  # Corrected for Chromium install
         
     - name: Fetch anime data
       run: |
@@ -50,9 +53,6 @@ jobs:
       run: |
         echo "Generating main HTML page..."
         python scripts/generate_html.py
-        
-    - name: Pull latest changes
-      run: git pull --rebase origin main
         
     - name: Commit and push changes
       run: |
