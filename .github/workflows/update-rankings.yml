@@ -24,7 +24,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         pip install requests-html
-        python -m pyppeteer.install  # Installs Chromium for JS rendering
+        pyppeteer-install  # Correct command to install Chromium
         
     - name: Fetch anime data
       run: |
