@@ -18,30 +18,11 @@ def fetch_anitrendz_rankings():
         
         soup = BeautifulSoup(response.content, 'html.parser')
         
-        # Find the ranking entries using multiple possible structures
+        # Find ranking entries using the primary structure only (to avoid duplicates)
+        ranking_items = soup.find_all('div', class_='ChartChoice_at-mcc-entry__Cciiz')
+        print(f"Found {len(ranking_items)} ranking entries")
+        
         rankings = []
-        
-        # Try to find all possible ranking entry patterns
-        ranking_items = []
-        
-        # Find ALL entries (both top entries and standard list entries)
-        all_entries = soup.find_all('div', class_='ChartChoice_at-mcc-entry__Cciiz')
-        ranking_items.extend(all_entries)
-        print(f"Found {len(all_entries)} total ranking entries")
-        
-        # Pattern 2: Look for any div with rank information
-        potential_items = soup.find_all('div', class_=lambda x: x and 'rank' in x.lower())
-        ranking_items.extend(potential_items)
-        
-        # Pattern 3: Look for elements containing numbers 1-19
-        for i in range(1, 20):
-            number_items = soup.find_all(text=str(i))
-            for item in number_items:
-                parent = item.parent
-                if parent and parent.name == 'div':
-                    ranking_items.append(parent)
-        
-        print(f"Found {len(ranking_items)} potential ranking items")
         
         for item in ranking_items:
             try:
@@ -129,37 +110,15 @@ def fetch_anitrendz_rankings():
                 print(f"Error parsing ranking item: {e}")
                 continue
         
-        # Add missing top 19 rankings manually as AniTrendz doesn't expose them via scraping
-        manual_top_rankings = [
-            {'rank': 1, 'title': 'Umamusume: Cinderella Gray', 'change': 'stable', 'movement_number': 0, 'weeks_on_chart': 6, 'peak_rank': 1, 'last_position': 1},
-            {'rank': 2, 'title': 'The Apothecary Diaries S2', 'change': 'stable', 'movement_number': 0, 'weeks_on_chart': 23, 'peak_rank': 1, 'last_position': 2},
-            {'rank': 3, 'title': 'Fire Force Season 3', 'change': 'up', 'movement_number': 1, 'weeks_on_chart': 11, 'peak_rank': 2, 'last_position': 4},
-            {'rank': 4, 'title': 'WIND BREAKER S2', 'change': 'down', 'movement_number': -1, 'weeks_on_chart': 11, 'peak_rank': 3, 'last_position': 3},
-            {'rank': 5, 'title': 'WITCH WATCH', 'change': 'up', 'movement_number': 2, 'weeks_on_chart': 11, 'peak_rank': 4, 'last_position': 7},
-            {'rank': 6, 'title': 'My Hero Academia: Vigilantes', 'change': 'stable', 'movement_number': 0, 'weeks_on_chart': 10, 'peak_rank': 5, 'last_position': 6},
-            {'rank': 7, 'title': 'KOWLOON GENERIC ROMANCE', 'change': 'up', 'movement_number': 1, 'weeks_on_chart': 11, 'peak_rank': 6, 'last_position': 8},
-            {'rank': 8, 'title': 'Can a Boy-Girl Friendship Survive?', 'change': 'down', 'movement_number': -2, 'weeks_on_chart': 12, 'peak_rank': 5, 'last_position': 6},
-            {'rank': 9, 'title': 'Rock Is a Lady\'s Modesty', 'change': 'up', 'movement_number': 3, 'weeks_on_chart': 11, 'peak_rank': 7, 'last_position': 12},
-            {'rank': 10, 'title': 'Mobile Suit Gundam GQuuuuuuX', 'change': 'stable', 'movement_number': 0, 'weeks_on_chart': 10, 'peak_rank': 8, 'last_position': 10},
-            {'rank': 11, 'title': 'The Shiunji Family Children', 'change': 'down', 'movement_number': -1, 'weeks_on_chart': 9, 'peak_rank': 9, 'last_position': 10},
-            {'rank': 12, 'title': 'Apocalypse Hotel', 'change': 'up', 'movement_number': 2, 'weeks_on_chart': 8, 'peak_rank': 10, 'last_position': 14},
-            {'rank': 13, 'title': 'Summer Pockets', 'change': 'stable', 'movement_number': 0, 'weeks_on_chart': 10, 'peak_rank': 11, 'last_position': 13},
-            {'rank': 14, 'title': 'The Too-Perfect Saint: Tossed Aside by My Fiancé and Sold to Another Kingdom', 'change': 'up', 'movement_number': 1, 'weeks_on_chart': 12, 'peak_rank': 12, 'last_position': 15},
-            {'rank': 15, 'title': 'A Ninja and an Assassin Under One Roof', 'change': 'down', 'movement_number': -2, 'weeks_on_chart': 9, 'peak_rank': 12, 'last_position': 13},
-            {'rank': 16, 'title': 'SHOSHIMIN: How to become Ordinary S2', 'change': 'up', 'movement_number': 1, 'weeks_on_chart': 11, 'peak_rank': 14, 'last_position': 17},
-            {'rank': 17, 'title': 'Once Upon a Witch\'s Death', 'change': 'stable', 'movement_number': 0, 'weeks_on_chart': 12, 'peak_rank': 15, 'last_position': 17},
-            {'rank': 18, 'title': 'Anne Shirley', 'change': 'down', 'movement_number': -1, 'weeks_on_chart': 10, 'peak_rank': 16, 'last_position': 17},
-            {'rank': 19, 'title': 'Food for the Soul', 'change': 'up', 'movement_number': 2, 'weeks_on_chart': 9, 'peak_rank': 17, 'last_position': 21}
-        ]
-        
-        # Add manual rankings to the beginning
-        all_rankings = manual_top_rankings + rankings
+        # Sort rankings by rank to deduplicate or order them (optional, but helpful)
+        rankings = sorted(set(tuple(sorted(d.items())) for d in rankings))  # Dedup by converting to sorted tuples
+        rankings = [dict(t) for t in rankings]
         
         return {
-            'rankings': all_rankings,
+            'rankings': rankings,
             'last_updated': datetime.now().isoformat(),
             'week': datetime.now().strftime('%Y-W%U'),
-            'total_entries': len(all_rankings)
+            'total_entries': len(rankings)
         }
         
     except Exception as e:
@@ -176,8 +135,8 @@ def match_anitrendz_with_anilist(anitrendz_data, anime_data):
     # Dynamically generate title variations from anime_data.json
     title_variations = {}
     for anime in anime_data:
-        name = anime.get('name', '').lower()
-        english = anime.get('english_title', '').lower()
+        name = (anime.get('name') or '').lower()
+        english = (anime.get('english_title') or '').lower()
         if name and english and name != english:
             title_variations[english] = name  # Map English to romaji/AniList primary
         # Add more variations if needed, e.g., removing "S2" for seasons
@@ -186,7 +145,9 @@ def match_anitrendz_with_anilist(anitrendz_data, anime_data):
             title_variations[no_season] = name
     
     for ranking in anitrendz_data['rankings']:
-        anitrendz_title = ranking['title']
+        anitrendz_title = ranking.get('title')
+        if not anitrendz_title:  # Skip if no title
+            continue
         
         # Check if there's a direct mapping
         if anitrendz_title in title_variations:
@@ -197,11 +158,11 @@ def match_anitrendz_with_anilist(anitrendz_data, anime_data):
         # Try to find matching anime in our data
         matched = False
         for anime in anime_data:
-            anime_title = anime['name'].lower()
+            anime_title = (anime.get('name') or '').lower()
             anime_english = (anime.get('english_title') or '').lower()
             
             # Check for exact or close match
-            if (target_title == anime_title or 
+            if (target_title == anime_title or
                 target_title == anime_english or
                 anitrendz_title.lower() == anime_title or
                 anitrendz_title.lower() == anime_english or
@@ -236,7 +197,7 @@ def save_anitrendz_data():
         with open('data/anitrendz_rankings.json', 'w', encoding='utf-8') as f:
             json.dump(rankings, f, ensure_ascii=False, indent=2)
         
-        print(f"Saved {len(rankings['rankings'])} AniTrendz rankings")
+        print(f"Saved {rankings['total_entries']} AniTrendz rankings")
         
         # Load anime data to match rankings
         try:
@@ -248,7 +209,7 @@ def save_anitrendz_data():
             
             # Update anime data with AniTrendz rankings
             for anime in anime_data:
-                if anime['id'] in matched:
+                if anime.get('id') in matched:  # Safe check
                     anime.update(matched[anime['id']])
             
             # Save updated anime data
