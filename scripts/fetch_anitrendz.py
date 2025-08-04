@@ -129,31 +129,63 @@ def get_title_variations(title):
     if not title:
         return set()
     lower = title.lower()
-    variations = [lower]
-    # Find and normalize season
-    season_match = re.search(r'(s|season|(\d+)(nd|rd|th)\s+season\s*)(\d+)', lower, re.IGNORECASE)
+    base = lower
+    season_num = None
+    part_num = None
+
+    # Season
+    season_match = re.search(r'(s|season|(\d+)(nd|rd|th)\s+season\s*)(\d+)', base, re.IGNORECASE)
     if season_match:
-        num = season_match.group(4) or season_match.group(2)
-        if num:
-            base = re.sub(r'(s|season|\d+(nd|rd|th)\s+season\s*)\d+', '', lower, flags=re.IGNORECASE).strip()
-            variations.append(base + f' season {num}')
-            variations.append(base + f' s{num}')
-            if num == '2':
-                variations.append(base + ' 2nd season')
-            elif num == '3':
-                variations.append(base + ' 3rd season')
-            else:
-                variations.append(base + f' {num}th season')
-            # No season
-            variations.append(base.strip())
-    # Part variations
-    part_match = re.search(r'part\s*(ii|2)', lower, re.IGNORECASE)
+        season_num = int(season_match.group(4) or season_match.group(2))
+        base = re.sub(r'(s|season|\d+(nd|rd|th)\s+season\s*)\d+', '', base, flags=re.IGNORECASE).strip()
+
+    # Part
+    part_match = re.search(r'part\s*(ii|iii|iv|v|2|3|4|5)', base, re.IGNORECASE)
     if part_match:
-        base = re.sub(r'part\s*(ii|2)', '', lower, flags=re.IGNORECASE).strip()
-        variations.append(base + ' part 2')
-        variations.append(base + ' part ii')
-        variations.append(base.strip())
-    return set(variations)
+        p = part_match.group(1).lower()
+        if p == 'ii': part_num = 2
+        elif p == 'iii': part_num = 3
+        elif p == 'iv': part_num = 4
+        elif p == 'v': part_num = 5
+        else: part_num = int(p)
+        base = re.sub(r'part\s*(ii|iii|iv|v|2|3|4|5)', '', base, flags=re.IGNORECASE).strip()
+
+    variations = set([base.strip()])
+
+    # Season variations
+    season_vars = ['']
+    if season_num:
+        season_vars += [f' s{season_num}', f' season {season_num}']
+        if season_num == 1:
+            season_vars += [' 1st season']
+        elif season_num == 2:
+            season_vars += [' 2nd season']
+        elif season_num == 3:
+            season_vars += [' 3rd season']
+        else:
+            season_vars += [f' {season_num}th season']
+
+    # Part variations
+    part_vars = ['']
+    if part_num:
+        part_vars += [f' part {part_num}']
+        if part_num == 2:
+            part_vars += [' part ii']
+        elif part_num == 3:
+            part_vars += [' part iii']
+        elif part_num == 4:
+            part_vars += [' part iv']
+        elif part_num == 5:
+            part_vars += [' part v']
+
+    # Combine
+    for s in season_vars:
+        for p in part_vars:
+            var = (base + s + p).strip()
+            if var:
+                variations.add(var)
+
+    return variations
 
 def match_anitrendz_with_anilist(anitrendz_data, anime_data):
     """Match AniTrendz rankings with AniList anime data"""
@@ -169,41 +201,43 @@ def match_anitrendz_with_anilist(anitrendz_data, anime_data):
         english = (anime.get('english_title') or '').lower()
         if name and english and name != english:
             title_variations[english] = name  # Map English to romaji/AniList primary
-        # Add more variations if needed, e.g., removing "S2" for seasons
-        no_season = re.sub(r'\s(s\d+|season \d+)', '', english)
-        if no_season != english:
-            title_variations[no_season] = name
     
     for ranking in anitrendz_data['rankings']:
         anitrendz_title = ranking.get('title')
-        if not anitrendz_title:
+        if not anitrendz_title:  # Skip if no title
             continue
         
         anitrendz_variations = get_title_variations(anitrendz_title)
         
-        # Check if there's a direct mapping and add its variations
+        # Check if there's a direct mapping
         anitrendz_lower = anitrendz_title.lower()
         if anitrendz_lower in title_variations:
-            romaji = title_variations[anitrendz_lower]
-            anitrendz_variations.update(get_title_variations(romaji))
+            target_title = title_variations[anitrendz_lower].lower()
+            anitrendz_variations.update(get_title_variations(target_title))
+        else:
+            target_title = anitrendz_lower
         
         # Try to find matching anime in our data
         matched = False
         for anime in anime_data:
-            anime_title_lower = (anime.get('name') or '').lower()
-            anime_english_lower = (anime.get('english_title') or '').lower()
+            anime_title = (anime.get('name') or '').lower()
+            anime_english = (anime.get('english_title') or '').lower()
             
-            anime_variations = get_title_variations(anime.get('name') or '')
-            anime_variations.update(get_title_variations(anime.get('english_title') or ''))
+            anime_variations = get_title_variations(anime_title)
+            anime_variations.update(get_title_variations(anime_english))
             
+            # Check for exact or close match
             for var in anitrendz_variations:
                 if (var in anime_variations or
-                    var == anime_title_lower or
-                    var == anime_english_lower or
-                    var in anime_title_lower or
-                    var in anime_english_lower or
-                    anime_title_lower in var or
-                    anime_english_lower in var):
+                    var == anime_title or
+                    var == anime_english or
+                    anitrendz_lower == anime_title or
+                    anitrendz_lower == anime_english or
+                    # More flexible matching
+                    var in anime_title or
+                    var in anime_english or
+                    anime_title in var or
+                    anime_english in var):
                     
                     matched_rankings[anime['id']] = {
                         'anitrendz_rank': ranking['rank'],
