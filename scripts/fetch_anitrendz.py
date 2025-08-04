@@ -150,6 +150,14 @@ def get_title_variations(title):
         else: part_num = int(p)
         base = re.sub(r'part\s*(ii|iii|iv|v|2|3|4|5)', '', base, flags=re.IGNORECASE).strip()
 
+    # Cour
+    cour_match = re.search(r'cour\s*(\d+)', base, re.IGNORECASE)
+    if cour_match:
+        c = int(cour_match.group(1))
+        base = re.sub(r'cour\s*\d+', '', base, flags=re.IGNORECASE).strip()
+        if c == 2:
+            base += ' part 2'
+
     variations = set([base.strip()])
 
     # Season variations
@@ -187,6 +195,76 @@ def get_title_variations(title):
 
     return variations
 
+hardcoded_mappings = {
+    "takopi's original sin": "takopii no genzai",
+    "my dress-up darling s2": "sono bisque doll wa koi wo suru season 2",
+    "the fragrant flower blooms with dignity": "kaoru hana wa rin to saku",
+    "dan da dan s2": "dandadan 2nd season",
+    "the summer hikaru died": "hikaru ga shinda natsu",
+    "secrets of the silent witch": "silent witch: chinmoku no majo no kakushigoto",
+    "toilet-bound hanako-kun s2 part ii": "jibaku shounen hanako-kun 2 part 2",
+    "rascal does not dream of santa claus": "seishun buta yarou wa santa claus no yume wo minai",
+    "gachiakuta": "gachiakuta",
+    "there's no freaking way i'll be your lover! unless...": "watashi ga koibito ni nareru wake naijan, murimuri! (※muri ja nakatta!?)",
+    "kaiju no. 8 s2": "kaijuu 8-gou 2nd season",
+    "call of the night s2": "yofukashi no uta season 2",
+    "witch watch": "witch watch",
+    "rent-a-girlfriend s4": "kanojo, okarishimasu 4th season",
+    "dr. stone science future part ii": "dr. stone: science future part 2",
+    "sakamoto days part ii": "sakamoto days part 2",
+    "grand blue dreaming s2": "grand blue season 2",
+    "clevatess": "clevatess: majuu no ou to akago to kabane no yuusha",
+    "ruri rocks": "ruri no houseki",
+    "dealing with mikadono sisters is a breeze": "mikadono sanshimai wa angai, choroi.",
+    "the rising of the shield hero s4": "tate no yuusha no nariagari season 4",
+    "the water magician": "mizu zokusei no mahou tsukai",
+    "a couple of cuckoos s2": "kakkou no iinazuke season 2",
+    "anne shirley": "anne shirley",
+    "see you tomorrow at the food court": "food court de, mata ashita.",
+    "new panty & stocking with garterbelt": "new panty & stocking with garterbelt",
+    "bad girl": "bad girl",
+    "tougen anki": "tougen anki",
+    "betrothed to my sister's ex": "zutaboro reijou wa ane no moto konyakusha ni dekiai sareru",
+    "with you and the rain": "ame to kimi to",
+    "summer pockets": "summer pockets",
+    "i was reincarnated as the 7th prince so i can take my time perfecting my magical ability s2": "tensei shitara dai nana ouji dattanode, kimamani majutsu wo kiwamemasu 2nd season",
+    "watari-kun's ****** is about to collapse": "watari-kun no xx ga houkai sunzen",
+    "cultural exchange with a game centre girl": "gacen shoujo to ibunka kouryuu",
+    "detectives these days are crazy!": "mattaku saikin no tantei to kitara",
+    "welcome to the outcast's restaurant!": "tsuihousha shokudou e youkoso!",
+    "private tutor to the duke's daughter": "koujo denka no katei kyoushi",
+    "solo camping for two": "futari solo camp",
+    "turkey! -time to strike-": "turkey!",
+    "with vengeance, sincerely, your broken saintess": "fukushuu wo chikatta shirube no reijou wa hageshiku ai sareru: ane no moto konyakusha ga watashi wo sukui, amaku dekiai suru you desu",
+    "nyaight of the living cat": "nyaight of the living cat",
+    "sword of the demon hunter: kijin gentousho": "kijin gentoushou",
+    "reborn as a vending machine, i now wander the dungeon s2": "jidou hanbaiki ni umarekawatta ore wa meikyuu wo samayou 2nd season",
+    "arknights: rise from ember": "arknights: enshin shomei",
+    "the shy hero and the assassin princesses": "kizetsu yuusha to ansatsu hime",
+    "onmyo kaiten re:birth verse": "onmyo kaiten re:verse",
+    "new saga": "tsuyokute new saga",
+    "hotel inhumans": "hotel inhumans",
+    "uglymug, epicfighter": "busamen gachi fighter",
+    "hell teacher: jigoku sensei nube": "jigoku sensei nube (2025)",
+    "9-nine- ruler's crown": "9-nine- shihaisha no oukan",
+    "dekin no mogura: the earthbound mole": "dekin no mogura",
+    "necronomico and the cosmic horror show": "necronomico no cosmic horror show",
+    "fermat kitchen": "fermat no ryouri",
+    "puniru is a kawaii slime s2": "puniru is a kawaii slime s2",
+    "yaiba: samurai legend": "shin samurai-den yaiba",
+    "milky☆subway: the galactic limited express": "milky☆subway: the galactic limited express",
+    "mr. osomatsu s4": "osomatsu-san 4th season",
+    "kamitsubaki city under construction": "kamitsubaki-shi kensetsuchuu.",
+    "harmony of mille-feuille": "harmony of mille-feuille",
+    "binan koukou chikyuu bouei-bu haikara!": "binan koukou chikyuu bouei-bu haikara!",
+    "cardfight!! vanguard divinez deluxe finals": "cardfight!! vanguard divinez deluxe finals",
+    "princession orchestra": "princess-session orchestra",
+    "me and the alien muumu": "uchuujin muumu",
+    "secret aipri ring arc": "secret aipri ring arc",
+    "lets go karaoke!": "karaoke iko!",
+    "puniru is a kawaii slime s2": "puniru is a kawaii slime s2"
+}
+
 def match_anitrendz_with_anilist(anitrendz_data, anime_data):
     """Match AniTrendz rankings with AniList anime data"""
     if not anitrendz_data or 'rankings' not in anitrendz_data:
@@ -207,15 +285,17 @@ def match_anitrendz_with_anilist(anitrendz_data, anime_data):
         if not anitrendz_title:  # Skip if no title
             continue
         
+        anitrendz_lower = anitrendz_title.lower()
+        if anitrendz_lower in hardcoded_mappings:
+            anitrendz_title = hardcoded_mappings[anitrendz_lower]
+        
         anitrendz_variations = get_title_variations(anitrendz_title)
         
         # Check if there's a direct mapping
-        anitrendz_lower = anitrendz_title.lower()
         if anitrendz_lower in title_variations:
             target_title = title_variations[anitrendz_lower].lower()
-            anitrendz_variations.update(get_title_variations(target_title))
         else:
-            target_title = anitrendz_lower
+            target_title = anitrendz_title.lower()
         
         # Try to find matching anime in our data
         matched = False
@@ -227,29 +307,39 @@ def match_anitrendz_with_anilist(anitrendz_data, anime_data):
             anime_variations.update(get_title_variations(anime_english))
             
             # Check for exact or close match
-            for var in anitrendz_variations:
-                if (var in anime_variations or
-                    var == anime_title or
-                    var == anime_english or
-                    anitrendz_lower == anime_title or
-                    anitrendz_lower == anime_english or
-                    # More flexible matching
-                    var in anime_title or
-                    var in anime_english or
-                    anime_title in var or
-                    anime_english in var):
-                    
-                    matched_rankings[anime['id']] = {
-                        'anitrendz_rank': ranking['rank'],
-                        'anitrendz_change': ranking['change'],
-                        'anitrendz_movement': ranking['movement_number'],
-                        'anitrendz_weeks': ranking['weeks_on_chart'],
-                        'anitrendz_peak': ranking['peak_rank']
-                    }
-                    matched = True
-                    break
-            if matched:
+            if (target_title == anime_title or
+                target_title == anime_english or
+                anitrendz_lower == anime_title or
+                anitrendz_lower == anime_english or
+                # More flexible matching
+                target_title in anime_title or
+                target_title in anime_english or
+                anime_title in target_title or
+                anime_english in target_title):
+                
+                matched_rankings[anime['id']] = {
+                    'anitrendz_rank': ranking['rank'],
+                    'anitrendz_change': ranking['change'],
+                    'anitrendz_movement': ranking['movement_number'],
+                    'anitrendz_weeks': ranking['weeks_on_chart'],
+                    'anitrendz_peak': ranking['peak_rank']
+                }
+                matched = True
                 break
+            else:
+                for var in anitrendz_variations:
+                    if var in anime_variations:
+                        matched_rankings[anime['id']] = {
+                            'anitrendz_rank': ranking['rank'],
+                            'anitrendz_change': ranking['change'],
+                            'anitrendz_movement': ranking['movement_number'],
+                            'anitrendz_weeks': ranking['weeks_on_chart'],
+                            'anitrendz_peak': ranking['peak_rank']
+                        }
+                        matched = True
+                        break
+                if matched:
+                    break
         
         if not matched:
             pass  # Skip problematic Unicode titles for now
