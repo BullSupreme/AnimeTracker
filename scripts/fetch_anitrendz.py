@@ -250,19 +250,16 @@ hardcoded_mappings = {
     "dekin no mogura: the earthbound mole": "dekin no mogura",
     "necronomico and the cosmic horror show": "necronomico no cosmic horror show",
     "fermat kitchen": "fermat no ryouri",
-    "puniru is a kawaii slime s2": "puniru is a kawaii slime s2",
+    "puniru is a kawaii slime s2": "puniru wa kawaii slime season 2",
     "yaiba: samurai legend": "shin samurai-den yaiba",
-    "milky☆subway: the galactic limited express": "milky☆subway: the galactic limited express",
+    "milky☆subway: the galactic limited express": "ginga tokkyuu milky☆subway",
     "mr. osomatsu s4": "osomatsu-san 4th season",
-    "kamitsubaki city under construction": "kamitsubaki-shi kensetsuchuu.",
-    "harmony of mille-feuille": "harmony of mille-feuille",
+    "harmony of mille-feuille": "utagoe wa mille-feuille",
     "binan koukou chikyuu bouei-bu haikara!": "binan koukou chikyuu bouei-bu haikara!",
-    "cardfight!! vanguard divinez deluxe finals": "cardfight!! vanguard divinez deluxe finals",
-    "princession orchestra": "princess-session orchestra",
+    "cardfight!! vanguard divinez deluxe finals": "cardfight!! vanguard divinez deluxe kesshou-hen",
+    "princession orchestra": "princession orchestra",
     "me and the alien muumu": "uchuujin muumu",
-    "secret aipri ring arc": "secret aipri ring arc",
-    "lets go karaoke!": "karaoke iko!",
-    "puniru is a kawaii slime s2": "puniru is a kawaii slime s2"
+    "secret aipri ring arc": "himitsu no aipri: ring-hen"
 }
 
 def match_anitrendz_with_anilist(anitrendz_data, anime_data):
