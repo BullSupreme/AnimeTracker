@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 from datetime import datetime
+import difflib
 
 def fetch_anitrendz_rankings():
     """Fetch current weekly anime rankings from AniTrendz"""
@@ -231,12 +232,15 @@ hardcoded_mappings = {
     "watari-kun's ****** is about to collapse": "watari-kun no xx ga houkai sunzen",
     "cultural exchange with a game centre girl": "gacen shoujo to ibunka kouryuu",
     "detectives these days are crazy!": "mattaku saikin no tantei to kitara",
+    "april showers bring may flowers": "haru no yurei",
     "welcome to the outcast's restaurant!": "tsuihousha shokudou e youkoso!",
     "private tutor to the duke's daughter": "koujo denka no katei kyoushi",
+    "nukitashi the animation": "nukitashi the animation",
+    "apocalypse bringer mynoghra: world conquest starts with the civilization of ruin": "isekai mokushiroku mynoghra: hametsu no bunmei de hajimeru sekai seifuku",
+    "let's go karaoke!": "karaoke iko!",
     "solo camping for two": "futari solo camp",
     "turkey! -time to strike-": "turkey!",
-    "with vengeance, sincerely, your broken saintess": "fukushuu wo chikatta shirube no reijou wa hageshiku ai sareru: ane no moto konyakusha ga watashi wo sukui, amaku dekiai suru you desu",
-    "nyaight of the living cat": "nyaight of the living cat",
+    "scooped up by an s-rank adventurer!": "yuusha party wo tsuihou sareta shiro madoushi, s rank boukensha ni hirowareru: kono shiro madoushi ga kikakugaisugiru",
     "sword of the demon hunter: kijin gentousho": "kijin gentoushou",
     "reborn as a vending machine, i now wander the dungeon s2": "jidou hanbaiki ni umarekawatta ore wa meikyuu wo samayou 2nd season",
     "arknights: rise from ember": "arknights: enshin shomei",
@@ -254,6 +258,7 @@ hardcoded_mappings = {
     "yaiba: samurai legend": "shin samurai-den yaiba",
     "milky☆subway: the galactic limited express": "ginga tokkyuu milky☆subway",
     "mr. osomatsu s4": "osomatsu-san 4th season",
+    "kamitsubaki city under construction": "kamitsubaki-shi kensetsuchuu.",
     "harmony of mille-feuille": "utagoe wa mille-feuille",
     "binan koukou chikyuu bouei-bu haikara!": "binan koukou chikyuu bouei-bu haikara!",
     "cardfight!! vanguard divinez deluxe finals": "cardfight!! vanguard divinez deluxe kesshou-hen",
@@ -269,13 +274,15 @@ def match_anitrendz_with_anilist(anitrendz_data, anime_data):
     
     matched_rankings = {}
     
-    # Dynamically generate title variations from anime_data.json
-    title_variations = {}
+    # Create a list of all possible anime titles from anime_data for fuzzy matching
+    anime_titles = []
     for anime in anime_data:
-        name = (anime.get('name') or '').lower()
-        english = (anime.get('english_title') or '').lower()
-        if name and english and name != english:
-            title_variations[english] = name  # Map English to romaji/AniList primary
+        anime_title = (anime.get('name') or '').lower()
+        anime_english = (anime.get('english_title') or '').lower()
+        anime_id = anime.get('id')
+        anime_titles.append((anime_title, anime_id))
+        if anime_english and anime_english != anime_title:
+            anime_titles.append((anime_english, anime_id))
     
     for ranking in anitrendz_data['rankings']:
         anitrendz_title = ranking.get('title')
@@ -284,62 +291,59 @@ def match_anitrendz_with_anilist(anitrendz_data, anime_data):
         
         anitrendz_lower = anitrendz_title.lower()
         if anitrendz_lower in hardcoded_mappings:
-            anitrendz_title = hardcoded_mappings[anitrendz_lower]
+            mapped_title = hardcoded_mappings[anitrendz_lower]
+            anitrendz_title = mapped_title
+            anitrendz_lower = mapped_title.lower()
         
         anitrendz_variations = get_title_variations(anitrendz_title)
         
-        # Check if there's a direct mapping
-        if anitrendz_lower in title_variations:
-            target_title = title_variations[anitrendz_lower].lower()
-        else:
-            target_title = anitrendz_title.lower()
-        
-        # Try to find matching anime in our data
         matched = False
         for anime in anime_data:
-            anime_title = (anime.get('name') or '').lower()
-            anime_english = (anime.get('english_title') or '').lower()
+            anime_title_lower = (anime.get('name') or '').lower()
+            anime_english_lower = (anime.get('english_title') or '').lower()
             
-            anime_variations = get_title_variations(anime_title)
-            anime_variations.update(get_title_variations(anime_english))
+            anime_variations = get_title_variations(anime.get('name') or '')
+            anime_variations.update(get_title_variations(anime.get('english_title') or ''))
             
-            # Check for exact or close match
-            if (target_title == anime_title or
-                target_title == anime_english or
-                anitrendz_lower == anime_title or
-                anitrendz_lower == anime_english or
-                # More flexible matching
-                target_title in anime_title or
-                target_title in anime_english or
-                anime_title in target_title or
-                anime_english in target_title):
-                
-                matched_rankings[anime['id']] = {
-                    'anitrendz_rank': ranking['rank'],
-                    'anitrendz_change': ranking['change'],
-                    'anitrendz_movement': ranking['movement_number'],
-                    'anitrendz_weeks': ranking['weeks_on_chart'],
-                    'anitrendz_peak': ranking['peak_rank']
-                }
-                matched = True
+            for var in anitrendz_variations:
+                if (var in anime_variations or
+                    var == anime_title_lower or
+                    var == anime_english_lower or
+                    anitrendz_lower == anime_title_lower or
+                    anitrendz_lower == anime_english_lower or
+                    var in anime_title_lower or
+                    var in anime_english_lower or
+                    anime_title_lower in var or
+                    anime_english_lower in var):
+                    
+                    matched_rankings[anime['id']] = {
+                        'anitrendz_rank': ranking['rank'],
+                        'anitrendz_change': ranking['change'],
+                        'anitrendz_movement': ranking['movement_number'],
+                        'anitrendz_weeks': ranking['weeks_on_chart'],
+                        'anitrendz_peak': ranking['peak_rank']
+                    }
+                    matched = True
+                    break
+            if matched:
                 break
-            else:
-                for var in anitrendz_variations:
-                    if var in anime_variations:
-                        matched_rankings[anime['id']] = {
+        
+        if not matched:
+            # Fallback to fuzzy matching
+            closest = difflib.get_close_matches(anitrendz_lower, [t[0] for t in anime_titles], n=1, cutoff=0.8)
+            if closest:
+                closest_title = closest[0]
+                for t, id in anime_titles:
+                    if t == closest_title:
+                        matched_rankings[id] = {
                             'anitrendz_rank': ranking['rank'],
                             'anitrendz_change': ranking['change'],
                             'anitrendz_movement': ranking['movement_number'],
                             'anitrendz_weeks': ranking['weeks_on_chart'],
                             'anitrendz_peak': ranking['peak_rank']
                         }
-                        matched = True
+                        print(f"Fuzzy matched '{anitrendz_title}' to '{closest_title}'")
                         break
-                if matched:
-                    break
-        
-        if not matched:
-            pass  # Skip problematic Unicode titles for now
     
     return matched_rankings
 
