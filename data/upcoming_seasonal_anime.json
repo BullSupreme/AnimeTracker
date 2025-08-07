@@ -18,7 +18,7 @@
       "Sci-Fi",
       "Supernatural"
     ],
-    "popularity": 81557,
+    "popularity": 81688,
     "favourites": 1180,
     "anilist_score": null,
     "streaming_links": [],
@@ -43,7 +43,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 42302,
+    "popularity": 42438,
     "favourites": 365,
     "anilist_score": null,
     "streaming_links": [],
@@ -66,7 +66,7 @@
       "Action",
       "Adventure"
     ],
-    "popularity": 42120,
+    "popularity": 42228,
     "favourites": 519,
     "anilist_score": null,
     "streaming_links": [],
@@ -92,7 +92,7 @@
       "Psychological",
       "Supernatural"
     ],
-    "popularity": 25968,
+    "popularity": 26011,
     "favourites": 257,
     "anilist_score": null,
     "streaming_links": [],
@@ -116,7 +116,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 16736,
+    "popularity": 16782,
     "favourites": 170,
     "anilist_score": null,
     "streaming_links": [],
@@ -140,7 +140,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 15723,
+    "popularity": 15768,
     "favourites": 230,
     "anilist_score": null,
     "streaming_links": [],
@@ -164,7 +164,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 10931,
+    "popularity": 10953,
     "favourites": 99,
     "anilist_score": null,
     "streaming_links": [],
@@ -190,7 +190,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 10837,
+    "popularity": 10859,
     "favourites": 136,
     "anilist_score": null,
     "streaming_links": [],
@@ -213,7 +213,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 9199,
+    "popularity": 9237,
     "favourites": 162,
     "anilist_score": null,
     "streaming_links": [],
@@ -239,7 +239,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 9176,
+    "popularity": 9225,
     "favourites": 95,
     "anilist_score": null,
     "streaming_links": [],
@@ -263,7 +263,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 8434,
+    "popularity": 8484,
     "favourites": 130,
     "anilist_score": null,
     "streaming_links": [],
@@ -287,7 +287,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 7996,
+    "popularity": 8014,
     "favourites": 93,
     "anilist_score": null,
     "streaming_links": [],
@@ -310,7 +310,7 @@
       "Drama",
       "Mystery"
     ],
-    "popularity": 7339,
+    "popularity": 7355,
     "favourites": 50,
     "anilist_score": null,
     "streaming_links": [],
@@ -332,7 +332,7 @@
     "genres": [
       "Comedy"
     ],
-    "popularity": 6561,
+    "popularity": 6571,
     "favourites": 61,
     "anilist_score": null,
     "streaming_links": [],
@@ -355,7 +355,7 @@
       "Drama",
       "Sports"
     ],
-    "popularity": 5158,
+    "popularity": 5183,
     "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
@@ -379,7 +379,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 4724,
+    "popularity": 4756,
     "favourites": 43,
     "anilist_score": null,
     "streaming_links": [],
@@ -402,34 +402,11 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 4700,
+    "popularity": 4725,
     "favourites": 42,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 17
-  },
-  {
-    "id": 180082,
-    "mal_id": 59517,
-    "name": "Chitose-kun wa Ramune Bin no Naka",
-    "english_title": "Chitose Is in the Ramune Bottle",
-    "episode": 1,
-    "release_date": "2025-10-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180082-IZAlf06G2VVm.png",
-    "site_url": "https://anilist.co/anime/180082",
-    "start_date": "2025-10-01",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "feel.",
-    "genres": [
-      "Comedy",
-      "Romance"
-    ],
-    "popularity": 4581,
-    "favourites": 41,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 18
   },
   {
     "id": 195240,
@@ -448,8 +425,31 @@
       "Drama",
       "Sports"
     ],
-    "popularity": 4567,
+    "popularity": 4611,
     "favourites": 35,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 18
+  },
+  {
+    "id": 180082,
+    "mal_id": 59517,
+    "name": "Chitose-kun wa Ramune Bin no Naka",
+    "english_title": "Chitose Is in the Ramune Bottle",
+    "episode": 1,
+    "release_date": "2025-10-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180082-IZAlf06G2VVm.png",
+    "site_url": "https://anilist.co/anime/180082",
+    "start_date": "2025-10-01",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "feel.",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "popularity": 4604,
+    "favourites": 41,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 19
@@ -472,7 +472,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 4098,
+    "popularity": 4120,
     "favourites": 59,
     "anilist_score": null,
     "streaming_links": [],
@@ -497,7 +497,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 3911,
+    "popularity": 3920,
     "favourites": 43,
     "anilist_score": null,
     "streaming_links": [],
@@ -522,7 +522,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 3788,
+    "popularity": 3809,
     "favourites": 41,
     "anilist_score": null,
     "streaming_links": [],
@@ -546,7 +546,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3495,
+    "popularity": 3519,
     "favourites": 56,
     "anilist_score": null,
     "streaming_links": [],
@@ -569,7 +569,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3347,
+    "popularity": 3368,
     "favourites": 55,
     "anilist_score": null,
     "streaming_links": [],
@@ -592,7 +592,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3280,
+    "popularity": 3297,
     "favourites": 23,
     "anilist_score": null,
     "streaming_links": [],
@@ -616,7 +616,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 3138,
+    "popularity": 3168,
     "favourites": 24,
     "anilist_score": null,
     "streaming_links": [],
@@ -639,7 +639,7 @@
       "Drama",
       "Music"
     ],
-    "popularity": 3034,
+    "popularity": 3041,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
@@ -663,7 +663,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2889,
+    "popularity": 2909,
     "favourites": 32,
     "anilist_score": null,
     "streaming_links": [],
@@ -687,7 +687,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2854,
+    "popularity": 2870,
     "favourites": 39,
     "anilist_score": null,
     "streaming_links": [],
@@ -711,7 +711,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 2792,
+    "popularity": 2820,
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
@@ -735,7 +735,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2717,
+    "popularity": 2794,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
@@ -758,7 +758,7 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 2677,
+    "popularity": 2690,
     "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
@@ -780,7 +780,7 @@
     "genres": [
       "Romance"
     ],
-    "popularity": 2638,
+    "popularity": 2658,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
@@ -804,7 +804,7 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "popularity": 2617,
+    "popularity": 2624,
     "favourites": 7,
     "anilist_score": null,
     "streaming_links": [],
@@ -829,7 +829,7 @@
       "Romance",
       "Sci-Fi"
     ],
-    "popularity": 2572,
+    "popularity": 2595,
     "favourites": 23,
     "anilist_score": null,
     "streaming_links": [],
@@ -853,7 +853,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 2519,
+    "popularity": 2559,
     "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
@@ -877,7 +877,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2471,
+    "popularity": 2482,
     "favourites": 21,
     "anilist_score": null,
     "streaming_links": [],
@@ -901,7 +901,7 @@
       "Sci-Fi",
       "Slice of Life"
     ],
-    "popularity": 2466,
+    "popularity": 2480,
     "favourites": 13,
     "anilist_score": null,
     "streaming_links": [],
@@ -923,7 +923,7 @@
     "genres": [
       "Action"
     ],
-    "popularity": 2426,
+    "popularity": 2432,
     "favourites": 47,
     "anilist_score": null,
     "streaming_links": [],
@@ -948,7 +948,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 2379,
+    "popularity": 2397,
     "favourites": 34,
     "anilist_score": null,
     "streaming_links": [],
@@ -973,7 +973,7 @@
       "Romance",
       "Sports"
     ],
-    "popularity": 2249,
+    "popularity": 2264,
     "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
@@ -997,7 +997,7 @@
       "Mystery",
       "Sci-Fi"
     ],
-    "popularity": 2158,
+    "popularity": 2163,
     "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
@@ -1021,7 +1021,7 @@
       "Romance",
       "Sci-Fi"
     ],
-    "popularity": 1985,
+    "popularity": 2003,
     "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
@@ -1045,7 +1045,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 1194,
+    "popularity": 1213,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
