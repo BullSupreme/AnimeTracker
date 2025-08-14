@@ -329,8 +329,8 @@
     "mal_id": 60285,
     "name": "SAKAMOTO DAYS Part 2",
     "english_title": "SAKAMOTO DAYS Part 2",
-    "episode": 6,
-    "release_date": "2025-08-11",
+    "episode": 7,
+    "release_date": "2025-08-18",
     "next_airing_date": "2025-08-18",
     "next_episode_number": 7,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184237-OJAksU2fsIPx.jpg",
@@ -464,8 +464,8 @@
     "mal_id": 49778,
     "name": "Kijin Gentoushou",
     "english_title": "Sword of the Demon Hunter: Kijin Gentosho",
-    "episode": 18,
-    "release_date": "2025-08-11",
+    "episode": 19,
+    "release_date": null,
     "next_airing_date": "2025-08-18",
     "next_episode_number": 19,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143598-FCvAhQJLllSP.png",
@@ -544,8 +544,8 @@
     "mal_id": 59986,
     "name": "Grand Blue Season 2",
     "english_title": "Grand Blue Dreaming Season 2",
-    "episode": 6,
-    "release_date": "2025-08-11",
+    "episode": 7,
+    "release_date": "2025-08-18",
     "next_airing_date": "2025-08-18",
     "next_episode_number": 7,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182309-tThxqSRn3At1.jpg",
@@ -689,8 +689,8 @@
     "mal_id": 60326,
     "name": "Watashi ga Koibito ni Nareru Wake Naijan, Murimuri! (※Muri ja Nakatta!?)",
     "english_title": "There's No Freaking Way I'll Be Your Lover! Unless...",
-    "episode": 6,
-    "release_date": "2025-08-11",
+    "episode": 7,
+    "release_date": "2025-08-18",
     "next_airing_date": "2025-08-18",
     "next_episode_number": 7,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184591-jRXZ29bN61Zc.jpg",
@@ -769,8 +769,8 @@
     "mal_id": 50694,
     "name": "Summer Pockets",
     "english_title": "Summer Pockets",
-    "episode": 19,
-    "release_date": "2025-08-11",
+    "episode": 20,
+    "release_date": null,
     "next_airing_date": "2025-08-18",
     "next_episode_number": 20,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143200-42OaDCS6VEy3.png",
@@ -1648,6 +1648,36 @@
     "popularity_rank": 58
   },
   {
+    "id": 157960,
+    "mal_id": 53722,
+    "name": "BULLET/BULLET",
+    "english_title": "BULLET/BULLET",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx157960-IrnEWE1pvoT3.jpg",
+    "site_url": "https://anilist.co/anime/157960",
+    "start_date": "2025-07-16",
+    "end_date": "2025-08-13",
+    "streaming_links": [
+      {
+        "site": "Disney Plus",
+        "url": "https://www.disneyplus.com/browse/entity-52e7dbe7-b28a-428a-963e-acfaa81b4ba6",
+        "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
+      },
+      {
+        "site": "Hulu",
+        "url": "https://www.hulu.com/series/bullet-bullet-4baef481-cf49-429f-99f4-78f8fc9d377b",
+        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
+      }
+    ],
+    "popularity": 5989,
+    "anilist_score": 54,
+    "recently_finished": true,
+    "popularity_rank": 59
+  },
+  {
     "id": 186003,
     "mal_id": 60697,
     "name": "Fermat no Ryouri",
@@ -1670,7 +1700,7 @@
     "popularity": 5626,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 59
+    "popularity_rank": 60
   },
   {
     "id": 177761,
@@ -1689,7 +1719,7 @@
     "popularity": 4725,
     "anilist_score": 53,
     "recently_finished": false,
-    "popularity_rank": 60
+    "popularity_rank": 61
   },
   {
     "id": 173335,
@@ -1714,7 +1744,7 @@
     "popularity": 4649,
     "anilist_score": 50,
     "recently_finished": false,
-    "popularity_rank": 61
+    "popularity_rank": 62
   },
   {
     "id": 183127,
@@ -1744,7 +1774,7 @@
     "popularity": 4582,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 62
+    "popularity_rank": 63
   },
   {
     "id": 185070,
@@ -1769,7 +1799,7 @@
     "popularity": 4166,
     "anilist_score": 57,
     "recently_finished": false,
-    "popularity_rank": 63
+    "popularity_rank": 64
   },
   {
     "id": 185505,
@@ -1794,7 +1824,7 @@
     "popularity": 4094,
     "anilist_score": 51,
     "recently_finished": false,
-    "popularity_rank": 64
+    "popularity_rank": 65
   },
   {
     "id": 178052,
@@ -1819,7 +1849,7 @@
     "popularity": 3858,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 65
+    "popularity_rank": 66
   },
   {
     "id": 175035,
@@ -1844,7 +1874,7 @@
     "popularity": 3217,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 66
+    "popularity_rank": 67
   },
   {
     "id": 183128,
@@ -1874,6 +1904,6 @@
     "popularity": 3036,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 67
+    "popularity_rank": 68
   }
 ]
