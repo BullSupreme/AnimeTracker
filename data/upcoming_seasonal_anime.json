@@ -19,7 +19,7 @@
       "Supernatural"
     ],
     "popularity": 83666,
-    "favourites": 1199,
+    "favourites": 1200,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 1
@@ -191,7 +191,7 @@
       "Romance"
     ],
     "popularity": 11332,
-    "favourites": 144,
+    "favourites": 143,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 8
@@ -217,7 +217,7 @@
       "Supernatural"
     ],
     "popularity": 10277,
-    "favourites": 105,
+    "favourites": 104,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 9
@@ -240,7 +240,7 @@
       "Fantasy"
     ],
     "popularity": 9676,
-    "favourites": 172,
+    "favourites": 171,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 10
@@ -333,7 +333,7 @@
       "Comedy"
     ],
     "popularity": 6775,
-    "favourites": 64,
+    "favourites": 63,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 14
@@ -403,7 +403,7 @@
       "Romance"
     ],
     "popularity": 5233,
-    "favourites": 41,
+    "favourites": 42,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 17
@@ -449,7 +449,7 @@
       "Romance"
     ],
     "popularity": 5089,
-    "favourites": 43,
+    "favourites": 44,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 19
@@ -606,7 +606,7 @@
     "english_title": null,
     "episode": 1,
     "release_date": "2025-10-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183291-EDtdJLW13yV0.jpg",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b183291-mXF5NbzjQZGL.jpg",
     "site_url": "https://anilist.co/anime/183291",
     "start_date": "2025-10-01",
     "season": "Fall",
@@ -617,7 +617,7 @@
       "Romance"
     ],
     "popularity": 3510,
-    "favourites": 23,
+    "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 26
@@ -665,7 +665,7 @@
       "Slice of Life"
     ],
     "popularity": 3184,
-    "favourites": 20,
+    "favourites": 21,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 28
@@ -689,7 +689,7 @@
       "Fantasy"
     ],
     "popularity": 3131,
-    "favourites": 41,
+    "favourites": 40,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 29
@@ -758,7 +758,7 @@
       "Romance"
     ],
     "popularity": 2954,
-    "favourites": 10,
+    "favourites": 11,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 32
@@ -878,7 +878,7 @@
       "Slice of Life"
     ],
     "popularity": 2736,
-    "favourites": 14,
+    "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 37
@@ -949,7 +949,7 @@
       "Action"
     ],
     "popularity": 2560,
-    "favourites": 50,
+    "favourites": 51,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 40
@@ -998,7 +998,7 @@
       "Sci-Fi"
     ],
     "popularity": 2408,
-    "favourites": 19,
+    "favourites": 20,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 42
@@ -1074,5 +1074,30 @@
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 45
+  },
+  {
+    "id": 186190,
+    "mal_id": 60781,
+    "name": "Alma-chan wa Kazoku ni Naritai",
+    "english_title": "Alma-chan Wants to Be a Family!",
+    "episode": 1,
+    "release_date": "2025-10-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186190-Ru77wfF8I61X.jpg",
+    "site_url": "https://anilist.co/anime/186190",
+    "start_date": "2025-10-01",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "Studio Flad",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Sci-Fi",
+      "Slice of Life"
+    ],
+    "popularity": 1023,
+    "favourites": 9,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 46
   }
 ]
