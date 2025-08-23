@@ -8,12 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function setCookie(name, value, days) {
-        if (value.startsWith('https://anilist.co')) {
-            document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/`;
-            return;
-        }
         const expires = new Date(Date.now() + days * 864e5).toUTCString();
         document.cookie = `${name}=${encodeURIComponent(value)}; expires=${expires}; path=/`;
+    }
+
+    function deleteCookie(name) {
+        document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/`;
     }
 
     function sanitizeLink(link) {
@@ -878,7 +878,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 let trimmedLink = sanitizeLink(newLink.trim());
 
                 currentCard.setAttribute('data-link', trimmedLink);
-                setCookie(`link_${encodedName}`, trimmedLink, 30);
+
+                // If user sets link back to anilist.co (default), remove the custom link cookie
+                if (trimmedLink.startsWith('https://anilist.co')) {
+                    deleteCookie(`link_${encodedName}`);
+                } else {
+                    setCookie(`link_${encodedName}`, trimmedLink, 30);
+                }
 
                 // For GitHub Pages, we only store links locally in cookies/localStorage
                 // since we can't persist server-side changes
