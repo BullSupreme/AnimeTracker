@@ -18,7 +18,7 @@
       "Sci-Fi",
       "Supernatural"
     ],
-    "popularity": 84787,
+    "popularity": 84919,
     "favourites": 1231,
     "anilist_score": null,
     "streaming_links": [],
@@ -43,7 +43,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 45359,
+    "popularity": 45494,
     "favourites": 411,
     "anilist_score": null,
     "streaming_links": [],
@@ -66,7 +66,7 @@
       "Action",
       "Adventure"
     ],
-    "popularity": 44513,
+    "popularity": 44611,
     "favourites": 549,
     "anilist_score": null,
     "streaming_links": [],
@@ -92,7 +92,7 @@
       "Psychological",
       "Supernatural"
     ],
-    "popularity": 26932,
+    "popularity": 26968,
     "favourites": 268,
     "anilist_score": null,
     "streaming_links": [],
@@ -116,7 +116,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 17761,
+    "popularity": 17803,
     "favourites": 182,
     "anilist_score": null,
     "streaming_links": [],
@@ -140,7 +140,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 16858,
+    "popularity": 16912,
     "favourites": 251,
     "anilist_score": null,
     "streaming_links": [],
@@ -166,7 +166,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 11686,
+    "popularity": 11789,
     "favourites": 146,
     "anilist_score": null,
     "streaming_links": [],
@@ -190,7 +190,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 11597,
+    "popularity": 11627,
     "favourites": 103,
     "anilist_score": null,
     "streaming_links": [],
@@ -216,7 +216,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 10678,
+    "popularity": 10731,
     "favourites": 108,
     "anilist_score": null,
     "streaming_links": [],
@@ -239,7 +239,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 9901,
+    "popularity": 9929,
     "favourites": 177,
     "anilist_score": null,
     "streaming_links": [],
@@ -263,7 +263,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 9587,
+    "popularity": 9629,
     "favourites": 142,
     "anilist_score": null,
     "streaming_links": [],
@@ -287,7 +287,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 8411,
+    "popularity": 8435,
     "favourites": 97,
     "anilist_score": null,
     "streaming_links": [],
@@ -310,7 +310,7 @@
       "Drama",
       "Mystery"
     ],
-    "popularity": 8072,
+    "popularity": 8116,
     "favourites": 56,
     "anilist_score": null,
     "streaming_links": [],
@@ -332,7 +332,7 @@
     "genres": [
       "Comedy"
     ],
-    "popularity": 6905,
+    "popularity": 6917,
     "favourites": 66,
     "anilist_score": null,
     "streaming_links": [],
@@ -358,7 +358,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 6355,
+    "popularity": 6386,
     "favourites": 95,
     "anilist_score": null,
     "streaming_links": [],
@@ -381,7 +381,7 @@
       "Drama",
       "Sports"
     ],
-    "popularity": 5881,
+    "popularity": 5908,
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
@@ -405,7 +405,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 5562,
+    "popularity": 5597,
     "favourites": 47,
     "anilist_score": null,
     "streaming_links": [],
@@ -428,34 +428,11 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 5536,
+    "popularity": 5582,
     "favourites": 49,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 18
-  },
-  {
-    "id": 185575,
-    "mal_id": 60531,
-    "name": "Bukiyou na Senpai.",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2025-10-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b185575-cRHKCLmJI4Fr.jpg",
-    "site_url": "https://anilist.co/anime/185575",
-    "start_date": "2025-10-01",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "Asmik Ace, Studio elle",
-    "genres": [
-      "Comedy",
-      "Romance"
-    ],
-    "popularity": 5514,
-    "favourites": 47,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 19
   },
   {
     "id": 195240,
@@ -474,8 +451,31 @@
       "Drama",
       "Sports"
     ],
-    "popularity": 5509,
+    "popularity": 5543,
     "favourites": 42,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 19
+  },
+  {
+    "id": 185575,
+    "mal_id": 60531,
+    "name": "Bukiyou na Senpai.",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2025-10-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b185575-cRHKCLmJI4Fr.jpg",
+    "site_url": "https://anilist.co/anime/185575",
+    "start_date": "2025-10-01",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "Asmik Ace, Studio elle",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "popularity": 5542,
+    "favourites": 47,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 20
@@ -498,7 +498,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 4672,
+    "popularity": 4705,
     "favourites": 64,
     "anilist_score": null,
     "streaming_links": [],
@@ -523,7 +523,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 4542,
+    "popularity": 4573,
     "favourites": 49,
     "anilist_score": null,
     "streaming_links": [],
@@ -547,7 +547,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 4343,
+    "popularity": 4403,
     "favourites": 70,
     "anilist_score": null,
     "streaming_links": [],
@@ -572,7 +572,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 4225,
+    "popularity": 4236,
     "favourites": 51,
     "anilist_score": null,
     "streaming_links": [],
@@ -595,7 +595,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3817,
+    "popularity": 3838,
     "favourites": 59,
     "anilist_score": null,
     "streaming_links": [],
@@ -619,7 +619,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 3708,
+    "popularity": 3738,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
@@ -642,7 +642,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3695,
+    "popularity": 3713,
     "favourites": 23,
     "anilist_score": null,
     "streaming_links": [],
@@ -666,7 +666,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3590,
+    "popularity": 3617,
     "favourites": 43,
     "anilist_score": null,
     "streaming_links": [],
@@ -690,7 +690,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3496,
+    "popularity": 3527,
     "favourites": 48,
     "anilist_score": null,
     "streaming_links": [],
@@ -714,7 +714,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 3416,
+    "popularity": 3446,
     "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
@@ -738,7 +738,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3192,
+    "popularity": 3212,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
@@ -761,7 +761,7 @@
       "Drama",
       "Music"
     ],
-    "popularity": 3171,
+    "popularity": 3178,
     "favourites": 31,
     "anilist_score": null,
     "streaming_links": [],
@@ -783,7 +783,7 @@
     "genres": [
       "Romance"
     ],
-    "popularity": 3133,
+    "popularity": 3154,
     "favourites": 14,
     "anilist_score": null,
     "streaming_links": [],
@@ -807,35 +807,11 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 3105,
+    "popularity": 3130,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 34
-  },
-  {
-    "id": 174914,
-    "mal_id": 58146,
-    "name": "Tensei Akujo no Kuro Rekishi",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2025-10-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174914-RfPIqbrapByY.jpg",
-    "site_url": "https://anilist.co/anime/174914",
-    "start_date": "2025-10-01",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "Studio DEEN, FuRyu",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Romance"
-    ],
-    "popularity": 3025,
-    "favourites": 22,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 35
   },
   {
     "id": 179992,
@@ -856,8 +832,32 @@
       "Romance",
       "Sci-Fi"
     ],
-    "popularity": 3021,
+    "popularity": 3045,
     "favourites": 26,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 35
+  },
+  {
+    "id": 174914,
+    "mal_id": 58146,
+    "name": "Tensei Akujo no Kuro Rekishi",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2025-10-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174914-RfPIqbrapByY.jpg",
+    "site_url": "https://anilist.co/anime/174914",
+    "start_date": "2025-10-01",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "Studio DEEN, FuRyu",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Romance"
+    ],
+    "popularity": 3037,
+    "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 36
@@ -881,7 +881,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 2995,
+    "popularity": 3034,
     "favourites": 41,
     "anilist_score": null,
     "streaming_links": [],
@@ -904,7 +904,7 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 2936,
+    "popularity": 2957,
     "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
@@ -928,35 +928,11 @@
       "Sci-Fi",
       "Slice of Life"
     ],
-    "popularity": 2861,
+    "popularity": 2878,
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 39
-  },
-  {
-    "id": 184642,
-    "mal_id": 60336,
-    "name": "Star Wars: Visions Volume 3",
-    "english_title": "Star Wars: Visions Volume 3",
-    "episode": 1,
-    "release_date": "2025-10-29",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184642-tIIbvVKE5KSW.jpg",
-    "site_url": "https://anilist.co/anime/184642",
-    "start_date": "2025-10-29",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "David Production, Kamikaze Douga",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "popularity": 2790,
-    "favourites": 7,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 40
   },
   {
     "id": 195153,
@@ -977,8 +953,32 @@
       "Romance",
       "Sci-Fi"
     ],
-    "popularity": 2768,
+    "popularity": 2859,
     "favourites": 25,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 40
+  },
+  {
+    "id": 184642,
+    "mal_id": 60336,
+    "name": "Star Wars: Visions Volume 3",
+    "english_title": "Star Wars: Visions Volume 3",
+    "episode": 1,
+    "release_date": "2025-10-29",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184642-tIIbvVKE5KSW.jpg",
+    "site_url": "https://anilist.co/anime/184642",
+    "start_date": "2025-10-29",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "David Production, Kamikaze Douga",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "popularity": 2803,
+    "favourites": 7,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 41
@@ -1002,7 +1002,7 @@
       "Romance",
       "Sports"
     ],
-    "popularity": 2663,
+    "popularity": 2762,
     "favourites": 25,
     "anilist_score": null,
     "streaming_links": [],
@@ -1024,7 +1024,7 @@
     "genres": [
       "Action"
     ],
-    "popularity": 2637,
+    "popularity": 2644,
     "favourites": 52,
     "anilist_score": null,
     "streaming_links": [],
@@ -1048,7 +1048,7 @@
       "Mystery",
       "Sci-Fi"
     ],
-    "popularity": 2312,
+    "popularity": 2324,
     "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
@@ -1072,7 +1072,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 1732,
+    "popularity": 1786,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
@@ -1097,7 +1097,7 @@
       "Sci-Fi",
       "Slice of Life"
     ],
-    "popularity": 1181,
+    "popularity": 1199,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
@@ -1121,7 +1121,7 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 1139,
+    "popularity": 1146,
     "favourites": 4,
     "anilist_score": null,
     "streaming_links": [],
