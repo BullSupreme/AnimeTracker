@@ -74,7 +74,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 136004,
+    "popularity": 136402,
     "anilist_score": 83,
     "recently_finished": false,
     "popularity_rank": 2
@@ -99,7 +99,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 109155,
+    "popularity": 109485,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 3
@@ -111,8 +111,8 @@
     "english_title": "Gachiakuta",
     "episode": 8,
     "release_date": "2025-08-31",
-    "next_airing_date": "2025-08-31",
-    "next_episode_number": 8,
+    "next_airing_date": "2025-09-07",
+    "next_episode_number": 9,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178025-cWJKEsZynkil.jpg",
     "site_url": "https://anilist.co/anime/178025",
     "start_date": "2025-07-06",
@@ -134,7 +134,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 105538,
+    "popularity": 105992,
     "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 4
@@ -159,7 +159,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 96618,
+    "popularity": 96988,
     "anilist_score": 86,
     "recently_finished": false,
     "popularity_rank": 5
@@ -189,7 +189,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 94668,
+    "popularity": 95022,
     "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 6
@@ -219,7 +219,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 77856,
+    "popularity": 78106,
     "anilist_score": 80,
     "recently_finished": false,
     "popularity_rank": 7
@@ -254,7 +254,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
       }
     ],
-    "popularity": 73206,
+    "popularity": 73383,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 8
@@ -294,7 +294,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 66551,
+    "popularity": 66634,
     "anilist_score": 72,
     "recently_finished": false,
     "popularity_rank": 9
@@ -319,7 +319,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 60631,
+    "popularity": 60800,
     "anilist_score": 77,
     "recently_finished": false,
     "popularity_rank": 10
@@ -349,7 +349,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 59520,
+    "popularity": 59780,
     "anilist_score": 83,
     "recently_finished": false,
     "popularity_rank": 11
@@ -374,7 +374,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 59515,
+    "popularity": 59694,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 12
@@ -399,7 +399,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 51124,
+    "popularity": 51262,
     "anilist_score": 80,
     "recently_finished": false,
     "popularity_rank": 13
@@ -424,10 +424,35 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 45835,
+    "popularity": 45927,
     "anilist_score": 70,
     "recently_finished": false,
     "popularity_rank": 14
+  },
+  {
+    "id": 179966,
+    "mal_id": 59459,
+    "name": "Silent Witch: Chinmoku no Majo no Kakushigoto",
+    "english_title": "Secrets of the Silent Witch",
+    "episode": 10,
+    "release_date": "2025-09-12",
+    "next_airing_date": "2025-09-12",
+    "next_episode_number": 10,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179966-g0EU7rVe2Og7.jpg",
+    "site_url": "https://anilist.co/anime/179966",
+    "start_date": "2025-07-05",
+    "end_date": "2025-10-04",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G9VHN9Q3G/",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 44867,
+    "anilist_score": 78,
+    "recently_finished": false,
+    "popularity_rank": 15
   },
   {
     "id": 189117,
@@ -454,33 +479,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 44698,
+    "popularity": 44850,
     "anilist_score": 80,
-    "recently_finished": false,
-    "popularity_rank": 15
-  },
-  {
-    "id": 179966,
-    "mal_id": 59459,
-    "name": "Silent Witch: Chinmoku no Majo no Kakushigoto",
-    "english_title": "Secrets of the Silent Witch",
-    "episode": 10,
-    "release_date": "2025-09-12",
-    "next_airing_date": "2025-09-12",
-    "next_episode_number": 10,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179966-g0EU7rVe2Og7.jpg",
-    "site_url": "https://anilist.co/anime/179966",
-    "start_date": "2025-07-05",
-    "end_date": "2025-10-04",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G9VHN9Q3G/",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 44557,
-    "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 16
   },
@@ -504,7 +504,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 44460,
+    "popularity": 44710,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 17
@@ -534,7 +534,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 41028,
+    "popularity": 41056,
     "anilist_score": 70,
     "recently_finished": false,
     "popularity_rank": 18
@@ -564,7 +564,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 40925,
+    "popularity": 41017,
     "anilist_score": 83,
     "recently_finished": false,
     "popularity_rank": 19
@@ -604,7 +604,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 38980,
+    "popularity": 39203,
     "anilist_score": 66,
     "recently_finished": false,
     "popularity_rank": 20
@@ -634,7 +634,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 38722,
+    "popularity": 38902,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 21
@@ -659,7 +659,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 34731,
+    "popularity": 34848,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 22
@@ -671,8 +671,8 @@
     "english_title": "CITY THE ANIMATION",
     "episode": 9,
     "release_date": "2025-08-31",
-    "next_airing_date": "2025-08-31",
-    "next_episode_number": 9,
+    "next_airing_date": "2025-09-07",
+    "next_episode_number": 10,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181841-9TcjIyZefot2.jpg",
     "site_url": "https://anilist.co/anime/181841",
     "start_date": "2025-07-07",
@@ -684,7 +684,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 31020,
+    "popularity": 31081,
     "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 23
@@ -709,7 +709,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 29427,
+    "popularity": 29507,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 24
@@ -721,8 +721,8 @@
     "english_title": "Apocalypse Bringer Mynoghra: World Conquest Starts with the Civilization of Ruin",
     "episode": 9,
     "release_date": "2025-08-31",
-    "next_airing_date": "2025-08-31",
-    "next_episode_number": 9,
+    "next_airing_date": "2025-09-07",
+    "next_episode_number": 10,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178433-8KzNsjTmdAvw.jpg",
     "site_url": "https://anilist.co/anime/178433",
     "start_date": "2025-07-06",
@@ -739,7 +739,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 29054,
+    "popularity": 29149,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 25
@@ -764,7 +764,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 27997,
+    "popularity": 28062,
     "anilist_score": 80,
     "recently_finished": false,
     "popularity_rank": 26
@@ -794,7 +794,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 26072,
+    "popularity": 26112,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 27
@@ -819,7 +819,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 24171,
+    "popularity": 24204,
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 28
@@ -844,7 +844,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23393,
+    "popularity": 23486,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 29
@@ -856,8 +856,8 @@
     "english_title": "Ruri Rocks",
     "episode": 9,
     "release_date": "2025-08-31",
-    "next_airing_date": "2025-08-31",
-    "next_episode_number": 9,
+    "next_airing_date": "2025-09-07",
+    "next_episode_number": 10,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180929-ytdzqbrOhots.jpg",
     "site_url": "https://anilist.co/anime/180929",
     "start_date": "2025-07-06",
@@ -869,7 +869,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23012,
+    "popularity": 23092,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 30
@@ -894,7 +894,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 20813,
+    "popularity": 20873,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 31
@@ -913,8 +913,8 @@
     "start_date": "2025-07-19",
     "end_date": null,
     "streaming_links": [],
-    "popularity": 20418,
-    "anilist_score": 68,
+    "popularity": 20524,
+    "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 32
   },
@@ -943,7 +943,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 19846,
+    "popularity": 19994,
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 33
@@ -968,7 +968,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 18608,
+    "popularity": 18644,
     "anilist_score": 66,
     "recently_finished": false,
     "popularity_rank": 34
@@ -1003,7 +1003,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 18128,
+    "popularity": 18142,
     "anilist_score": 70,
     "recently_finished": false,
     "popularity_rank": 35
@@ -1038,7 +1038,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 16933,
+    "popularity": 16956,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 36
@@ -1063,7 +1063,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 16858,
+    "popularity": 16910,
     "anilist_score": 59,
     "recently_finished": false,
     "popularity_rank": 37
@@ -1093,7 +1093,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 16812,
+    "popularity": 16840,
     "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 38
@@ -1128,7 +1128,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 15991,
+    "popularity": 16066,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 39
@@ -1153,7 +1153,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 14834,
+    "popularity": 14913,
     "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 40
@@ -1183,7 +1183,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 14489,
+    "popularity": 14562,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 41
@@ -1213,7 +1213,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 13967,
+    "popularity": 14000,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 42
@@ -1243,7 +1243,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 13934,
+    "popularity": 13972,
     "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 43
@@ -1273,7 +1273,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 13321,
+    "popularity": 13423,
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 44
@@ -1298,7 +1298,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 13143,
+    "popularity": 13221,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 45
@@ -1328,7 +1328,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 12929,
+    "popularity": 12964,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 46
@@ -1358,7 +1358,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 11944,
+    "popularity": 11997,
     "anilist_score": 66,
     "recently_finished": false,
     "popularity_rank": 47
@@ -1370,8 +1370,8 @@
     "english_title": "Uglymug, Epicfighter",
     "episode": 9,
     "release_date": "2025-08-31",
-    "next_airing_date": "2025-08-31",
-    "next_episode_number": 9,
+    "next_airing_date": "2025-09-07",
+    "next_episode_number": 10,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184575-hEzI5V8o818U.png",
     "site_url": "https://anilist.co/anime/184575",
     "start_date": "2025-07-06",
@@ -1388,7 +1388,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 11921,
+    "popularity": 11967,
     "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 48
@@ -1400,8 +1400,8 @@
     "english_title": "Cultural Exchange with a Game Centre Girl",
     "episode": 8,
     "release_date": "2025-08-31",
-    "next_airing_date": "2025-08-31",
-    "next_episode_number": 8,
+    "next_airing_date": "2025-09-07",
+    "next_episode_number": 9,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180794-rQGxkguEc2ov.png",
     "site_url": "https://anilist.co/anime/180794",
     "start_date": "2025-07-06",
@@ -1413,7 +1413,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 11414,
+    "popularity": 11432,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 49
@@ -1438,7 +1438,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 9888,
+    "popularity": 9932,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 50
@@ -1450,8 +1450,8 @@
     "english_title": "Nyaight of the Living Cat",
     "episode": 9,
     "release_date": "2025-08-31",
-    "next_airing_date": "2025-08-31",
-    "next_episode_number": 9,
+    "next_airing_date": "2025-09-07",
+    "next_episode_number": 10,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx175124-eDYbn0W5F4to.jpg",
     "site_url": "https://anilist.co/anime/175124",
     "start_date": "2025-07-06",
@@ -1463,7 +1463,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 9472,
+    "popularity": 9481,
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 51
@@ -1488,7 +1488,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 9190,
+    "popularity": 9196,
     "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 52
@@ -1500,8 +1500,8 @@
     "english_title": "Dekin no Mogura: The Earthbound Mole",
     "episode": 9,
     "release_date": "2025-08-31",
-    "next_airing_date": "2025-08-31",
-    "next_episode_number": 9,
+    "next_airing_date": "2025-09-07",
+    "next_episode_number": 10,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184574-Mb2qvX1e3RgG.jpg",
     "site_url": "https://anilist.co/anime/184574",
     "start_date": "2025-07-06",
@@ -1518,7 +1518,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 8614,
+    "popularity": 8616,
     "anilist_score": 58,
     "recently_finished": false,
     "popularity_rank": 53
@@ -1537,7 +1537,7 @@
     "start_date": "2025-07-04",
     "end_date": "2025-09-26",
     "streaming_links": [],
-    "popularity": 8564,
+    "popularity": 8595,
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 54
@@ -1562,7 +1562,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 8163,
+    "popularity": 8172,
     "anilist_score": 57,
     "recently_finished": false,
     "popularity_rank": 55
@@ -1592,7 +1592,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 7705,
+    "popularity": 7743,
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 56
@@ -1604,8 +1604,8 @@
     "english_title": "Hotel Inhumans",
     "episode": 9,
     "release_date": "2025-08-31",
-    "next_airing_date": "2025-08-31",
-    "next_episode_number": 9,
+    "next_airing_date": "2025-09-07",
+    "next_episode_number": 10,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184034-gjIi5TIHJpZv.jpg",
     "site_url": "https://anilist.co/anime/184034",
     "start_date": "2025-07-06",
@@ -1622,7 +1622,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 7358,
+    "popularity": 7376,
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 57
@@ -1647,7 +1647,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 6067,
+    "popularity": 6079,
     "anilist_score": 50,
     "recently_finished": false,
     "popularity_rank": 58
@@ -1672,7 +1672,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 6006,
+    "popularity": 6045,
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 59
@@ -1702,7 +1702,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 5253,
+    "popularity": 5271,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 60
@@ -1721,7 +1721,7 @@
     "start_date": "2025-07-05",
     "end_date": "2025-09-27",
     "streaming_links": [],
-    "popularity": 4897,
+    "popularity": 4917,
     "anilist_score": 53,
     "recently_finished": false,
     "popularity_rank": 61
@@ -1746,7 +1746,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4829,
+    "popularity": 4841,
     "anilist_score": 50,
     "recently_finished": false,
     "popularity_rank": 62
@@ -1771,7 +1771,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4274,
+    "popularity": 4278,
     "anilist_score": 51,
     "recently_finished": false,
     "popularity_rank": 63
@@ -1796,7 +1796,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 4250,
+    "popularity": 4255,
     "anilist_score": 57,
     "recently_finished": false,
     "popularity_rank": 64
@@ -1821,7 +1821,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 3915,
+    "popularity": 3919,
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 65
@@ -1851,7 +1851,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 3644,
+    "popularity": 3667,
     "anilist_score": 58,
     "recently_finished": false,
     "popularity_rank": 66
@@ -1876,7 +1876,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 3295,
+    "popularity": 3314,
     "anilist_score": 54,
     "recently_finished": false,
     "popularity_rank": 67
