@@ -18,7 +18,7 @@
       "Sci-Fi",
       "Supernatural"
     ],
-    "popularity": 85300,
+    "popularity": 85499,
     "favourites": 1239,
     "anilist_score": null,
     "streaming_links": [],
@@ -43,7 +43,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 45878,
+    "popularity": 46143,
     "favourites": 413,
     "anilist_score": null,
     "streaming_links": [],
@@ -66,7 +66,7 @@
       "Action",
       "Adventure"
     ],
-    "popularity": 44833,
+    "popularity": 45002,
     "favourites": 554,
     "anilist_score": null,
     "streaming_links": [],
@@ -92,7 +92,7 @@
       "Psychological",
       "Supernatural"
     ],
-    "popularity": 27085,
+    "popularity": 27144,
     "favourites": 270,
     "anilist_score": null,
     "streaming_links": [],
@@ -116,7 +116,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 17933,
+    "popularity": 18010,
     "favourites": 188,
     "anilist_score": null,
     "streaming_links": [],
@@ -140,7 +140,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 17062,
+    "popularity": 17148,
     "favourites": 255,
     "anilist_score": null,
     "streaming_links": [],
@@ -166,7 +166,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 11976,
+    "popularity": 12054,
     "favourites": 150,
     "anilist_score": null,
     "streaming_links": [],
@@ -190,7 +190,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 11716,
+    "popularity": 11764,
     "favourites": 104,
     "anilist_score": null,
     "streaming_links": [],
@@ -216,7 +216,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 10861,
+    "popularity": 10938,
     "favourites": 109,
     "anilist_score": null,
     "streaming_links": [],
@@ -239,7 +239,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 10018,
+    "popularity": 10073,
     "favourites": 178,
     "anilist_score": null,
     "streaming_links": [],
@@ -263,7 +263,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 9763,
+    "popularity": 9846,
     "favourites": 145,
     "anilist_score": null,
     "streaming_links": [],
@@ -287,7 +287,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 8490,
+    "popularity": 8526,
     "favourites": 99,
     "anilist_score": null,
     "streaming_links": [],
@@ -310,7 +310,7 @@
       "Drama",
       "Mystery"
     ],
-    "popularity": 8226,
+    "popularity": 8293,
     "favourites": 58,
     "anilist_score": null,
     "streaming_links": [],
@@ -332,7 +332,7 @@
     "genres": [
       "Comedy"
     ],
-    "popularity": 6945,
+    "popularity": 6966,
     "favourites": 66,
     "anilist_score": null,
     "streaming_links": [],
@@ -358,7 +358,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 6456,
+    "popularity": 6489,
     "favourites": 97,
     "anilist_score": null,
     "streaming_links": [],
@@ -381,7 +381,7 @@
       "Drama",
       "Sports"
     ],
-    "popularity": 6009,
+    "popularity": 6056,
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
@@ -405,7 +405,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 5693,
+    "popularity": 5744,
     "favourites": 48,
     "anilist_score": null,
     "streaming_links": [],
@@ -428,34 +428,11 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 5689,
+    "popularity": 5739,
     "favourites": 52,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 18
-  },
-  {
-    "id": 185575,
-    "mal_id": 60531,
-    "name": "Bukiyou na Senpai.",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2025-10-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b185575-cRHKCLmJI4Fr.jpg",
-    "site_url": "https://anilist.co/anime/185575",
-    "start_date": "2025-10-01",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "Asmik Ace, Studio elle",
-    "genres": [
-      "Comedy",
-      "Romance"
-    ],
-    "popularity": 5633,
-    "favourites": 50,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 19
   },
   {
     "id": 195240,
@@ -474,8 +451,31 @@
       "Drama",
       "Sports"
     ],
-    "popularity": 5628,
+    "popularity": 5684,
     "favourites": 43,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 19
+  },
+  {
+    "id": 185575,
+    "mal_id": 60531,
+    "name": "Bukiyou na Senpai.",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2025-10-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b185575-cRHKCLmJI4Fr.jpg",
+    "site_url": "https://anilist.co/anime/185575",
+    "start_date": "2025-10-01",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "Asmik Ace, Studio elle",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "popularity": 5679,
+    "favourites": 50,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 20
@@ -498,7 +498,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 4781,
+    "popularity": 4839,
     "favourites": 66,
     "anilist_score": null,
     "streaming_links": [],
@@ -523,7 +523,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 4676,
+    "popularity": 4734,
     "favourites": 50,
     "anilist_score": null,
     "streaming_links": [],
@@ -547,7 +547,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 4534,
+    "popularity": 4614,
     "favourites": 72,
     "anilist_score": null,
     "streaming_links": [],
@@ -572,7 +572,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 4267,
+    "popularity": 4285,
     "favourites": 52,
     "anilist_score": null,
     "streaming_links": [],
@@ -595,7 +595,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3909,
+    "popularity": 3940,
     "favourites": 60,
     "anilist_score": null,
     "streaming_links": [],
@@ -619,7 +619,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 3805,
+    "popularity": 3844,
     "favourites": 27,
     "anilist_score": null,
     "streaming_links": [],
@@ -642,7 +642,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3776,
+    "popularity": 3809,
     "favourites": 23,
     "anilist_score": null,
     "streaming_links": [],
@@ -666,7 +666,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3686,
+    "popularity": 3737,
     "favourites": 43,
     "anilist_score": null,
     "streaming_links": [],
@@ -690,7 +690,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3604,
+    "popularity": 3652,
     "favourites": 50,
     "anilist_score": null,
     "streaming_links": [],
@@ -714,7 +714,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 3517,
+    "popularity": 3546,
     "favourites": 23,
     "anilist_score": null,
     "streaming_links": [],
@@ -738,34 +738,11 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3270,
+    "popularity": 3297,
     "favourites": 27,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 31
-  },
-  {
-    "id": 170018,
-    "mal_id": 56877,
-    "name": "Ao no Orchestra 2nd Season",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2025-10-05",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170018-1PqdLX68YayA.jpg",
-    "site_url": "https://anilist.co/anime/170018",
-    "start_date": "2025-10-05",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "NHK, NHK Enterprises",
-    "genres": [
-      "Drama",
-      "Music"
-    ],
-    "popularity": 3198,
-    "favourites": 31,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 32
   },
   {
     "id": 186524,
@@ -785,11 +762,11 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 3196,
+    "popularity": 3234,
     "favourites": 31,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 33
+    "popularity_rank": 32
   },
   {
     "id": 186621,
@@ -807,8 +784,31 @@
     "genres": [
       "Romance"
     ],
-    "popularity": 3193,
+    "popularity": 3221,
     "favourites": 15,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 33
+  },
+  {
+    "id": 170018,
+    "mal_id": 56877,
+    "name": "Ao no Orchestra 2nd Season",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2025-10-05",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170018-1PqdLX68YayA.jpg",
+    "site_url": "https://anilist.co/anime/170018",
+    "start_date": "2025-10-05",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "NHK, NHK Enterprises",
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "popularity": 3203,
+    "favourites": 31,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 34
@@ -832,7 +832,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 3130,
+    "popularity": 3191,
     "favourites": 44,
     "anilist_score": null,
     "streaming_links": [],
@@ -857,35 +857,11 @@
       "Romance",
       "Sci-Fi"
     ],
-    "popularity": 3128,
+    "popularity": 3173,
     "favourites": 27,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 36
-  },
-  {
-    "id": 174914,
-    "mal_id": 58146,
-    "name": "Tensei Akujo no Kuro Rekishi",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2025-10-09",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174914-RfPIqbrapByY.jpg",
-    "site_url": "https://anilist.co/anime/174914",
-    "start_date": "2025-10-09",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "Studio DEEN, FuRyu",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Romance"
-    ],
-    "popularity": 3082,
-    "favourites": 22,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 37
   },
   {
     "id": 195153,
@@ -906,8 +882,32 @@
       "Romance",
       "Sci-Fi"
     ],
-    "popularity": 3050,
+    "popularity": 3109,
     "favourites": 29,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 37
+  },
+  {
+    "id": 174914,
+    "mal_id": 58146,
+    "name": "Tensei Akujo no Kuro Rekishi",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2025-10-09",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174914-RfPIqbrapByY.jpg",
+    "site_url": "https://anilist.co/anime/174914",
+    "start_date": "2025-10-09",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "Studio DEEN, FuRyu",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Romance"
+    ],
+    "popularity": 3101,
+    "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 38
@@ -929,7 +929,7 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 3005,
+    "popularity": 3020,
     "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
@@ -953,7 +953,7 @@
       "Sci-Fi",
       "Slice of Life"
     ],
-    "popularity": 2918,
+    "popularity": 2938,
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
@@ -978,7 +978,7 @@
       "Romance",
       "Sports"
     ],
-    "popularity": 2824,
+    "popularity": 2842,
     "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
@@ -1002,7 +1002,7 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "popularity": 2822,
+    "popularity": 2828,
     "favourites": 7,
     "anilist_score": null,
     "streaming_links": [],
@@ -1024,7 +1024,7 @@
     "genres": [
       "Action"
     ],
-    "popularity": 2668,
+    "popularity": 2684,
     "favourites": 52,
     "anilist_score": null,
     "streaming_links": [],
@@ -1048,7 +1048,7 @@
       "Mystery",
       "Sci-Fi"
     ],
-    "popularity": 2345,
+    "popularity": 2365,
     "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
@@ -1072,7 +1072,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 1841,
+    "popularity": 1885,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
@@ -1097,7 +1097,7 @@
       "Sci-Fi",
       "Slice of Life"
     ],
-    "popularity": 1256,
+    "popularity": 1310,
     "favourites": 14,
     "anilist_score": null,
     "streaming_links": [],
@@ -1121,7 +1121,7 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 1169,
+    "popularity": 1189,
     "favourites": 4,
     "anilist_score": null,
     "streaming_links": [],
