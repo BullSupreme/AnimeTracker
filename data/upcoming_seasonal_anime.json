@@ -18,7 +18,7 @@
       "Sci-Fi",
       "Supernatural"
     ],
-    "popularity": 86767,
+    "popularity": 86953,
     "favourites": 1264,
     "anilist_score": null,
     "streaming_links": [],
@@ -43,7 +43,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 47430,
+    "popularity": 47647,
     "favourites": 424,
     "anilist_score": null,
     "streaming_links": [],
@@ -66,7 +66,7 @@
       "Action",
       "Adventure"
     ],
-    "popularity": 45843,
+    "popularity": 45976,
     "favourites": 567,
     "anilist_score": null,
     "streaming_links": [],
@@ -92,7 +92,7 @@
       "Psychological",
       "Supernatural"
     ],
-    "popularity": 27524,
+    "popularity": 27594,
     "favourites": 273,
     "anilist_score": null,
     "streaming_links": [],
@@ -140,7 +140,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 17591,
+    "popularity": 17652,
     "favourites": 268,
     "anilist_score": null,
     "streaming_links": [],
@@ -166,7 +166,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 12536,
+    "popularity": 12632,
     "favourites": 159,
     "anilist_score": null,
     "streaming_links": [],
@@ -190,7 +190,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 12082,
+    "popularity": 12120,
     "favourites": 107,
     "anilist_score": null,
     "streaming_links": [],
@@ -216,7 +216,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 11421,
+    "popularity": 11493,
     "favourites": 115,
     "anilist_score": null,
     "streaming_links": [],
@@ -240,7 +240,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 10575,
+    "popularity": 10681,
     "favourites": 151,
     "anilist_score": null,
     "streaming_links": [],
@@ -263,11 +263,34 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 10401,
+    "popularity": 10465,
     "favourites": 185,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 11
+  },
+  {
+    "id": 179302,
+    "mal_id": 59267,
+    "name": "SANDA",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2025-10-04",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179302-gWWAh5BfQyl4.jpg",
+    "site_url": "https://anilist.co/anime/179302",
+    "start_date": "2025-10-04",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "Science SARU, Akita Shoten",
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "popularity": 8783,
+    "favourites": 63,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 12
   },
   {
     "id": 185801,
@@ -287,31 +310,8 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 8736,
+    "popularity": 8770,
     "favourites": 105,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 12
-  },
-  {
-    "id": 179302,
-    "mal_id": 59267,
-    "name": "SANDA",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2025-10-04",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179302-gWWAh5BfQyl4.jpg",
-    "site_url": "https://anilist.co/anime/179302",
-    "start_date": "2025-10-04",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "Science SARU, Akita Shoten",
-    "genres": [
-      "Drama",
-      "Mystery"
-    ],
-    "popularity": 8707,
-    "favourites": 63,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 13
@@ -332,7 +332,7 @@
     "genres": [
       "Comedy"
     ],
-    "popularity": 7096,
+    "popularity": 7114,
     "favourites": 65,
     "anilist_score": null,
     "streaming_links": [],
@@ -358,7 +358,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 6692,
+    "popularity": 6724,
     "favourites": 102,
     "anilist_score": null,
     "streaming_links": [],
@@ -381,7 +381,7 @@
       "Drama",
       "Sports"
     ],
-    "popularity": 6442,
+    "popularity": 6509,
     "favourites": 35,
     "anilist_score": null,
     "streaming_links": [],
@@ -404,7 +404,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 6214,
+    "popularity": 6295,
     "favourites": 55,
     "anilist_score": null,
     "streaming_links": [],
@@ -427,7 +427,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 6009,
+    "popularity": 6074,
     "favourites": 52,
     "anilist_score": null,
     "streaming_links": [],
@@ -450,7 +450,7 @@
       "Drama",
       "Sports"
     ],
-    "popularity": 5947,
+    "popularity": 5985,
     "favourites": 49,
     "anilist_score": null,
     "streaming_links": [],
@@ -474,7 +474,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 5130,
+    "popularity": 5187,
     "favourites": 68,
     "anilist_score": null,
     "streaming_links": [],
@@ -498,7 +498,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 5068,
+    "popularity": 5153,
     "favourites": 79,
     "anilist_score": null,
     "streaming_links": [],
@@ -523,7 +523,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 5064,
+    "popularity": 5110,
     "favourites": 54,
     "anilist_score": null,
     "streaming_links": [],
@@ -548,7 +548,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 4417,
+    "popularity": 4439,
     "favourites": 55,
     "anilist_score": null,
     "streaming_links": [],
@@ -572,7 +572,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 4196,
+    "popularity": 4257,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
@@ -595,11 +595,31 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 4135,
+    "popularity": 4168,
     "favourites": 65,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 25
+  },
+  {
+    "id": 198188,
+    "mal_id": 62405,
+    "name": "Fujimoto Tatsuki 17-26",
+    "english_title": "Tatsuki Fujimoto 17-26",
+    "episode": 1,
+    "release_date": "2025-11-08",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198188-mlScDGb4cucY.jpg",
+    "site_url": "https://anilist.co/anime/198188",
+    "start_date": "2025-11-08",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "Studio Kafka, 100studio",
+    "genres": [],
+    "popularity": 4134,
+    "favourites": 26,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 26
   },
   {
     "id": 183960,
@@ -619,11 +639,11 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 4014,
+    "popularity": 4080,
     "favourites": 47,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 26
+    "popularity_rank": 27
   },
   {
     "id": 183291,
@@ -642,27 +662,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 4002,
-    "favourites": 26,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 27
-  },
-  {
-    "id": 198188,
-    "mal_id": 62405,
-    "name": "Fujimoto Tatsuki 17-26",
-    "english_title": "Tatsuki Fujimoto 17-26",
-    "episode": 1,
-    "release_date": "2025-11-08",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198188-mlScDGb4cucY.jpg",
-    "site_url": "https://anilist.co/anime/198188",
-    "start_date": "2025-11-08",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "Studio Kafka, 100studio",
-    "genres": [],
-    "popularity": 3997,
+    "popularity": 4039,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
@@ -686,7 +686,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3943,
+    "popularity": 3990,
     "favourites": 55,
     "anilist_score": null,
     "streaming_links": [],
@@ -710,7 +710,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 3840,
+    "popularity": 3898,
     "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
@@ -735,7 +735,7 @@
       "Romance",
       "Sci-Fi"
     ],
-    "popularity": 3546,
+    "popularity": 3641,
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
@@ -759,7 +759,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 3493,
+    "popularity": 3542,
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
@@ -781,7 +781,7 @@
     "genres": [
       "Romance"
     ],
-    "popularity": 3465,
+    "popularity": 3508,
     "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
@@ -805,7 +805,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3458,
+    "popularity": 3486,
     "favourites": 30,
     "anilist_score": null,
     "streaming_links": [],
@@ -830,7 +830,7 @@
       "Romance",
       "Sci-Fi"
     ],
-    "popularity": 3435,
+    "popularity": 3483,
     "favourites": 31,
     "anilist_score": null,
     "streaming_links": [],
@@ -855,7 +855,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 3423,
+    "popularity": 3457,
     "favourites": 51,
     "anilist_score": null,
     "streaming_links": [],
@@ -879,7 +879,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3260,
+    "popularity": 3288,
     "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
@@ -902,7 +902,7 @@
       "Drama",
       "Music"
     ],
-    "popularity": 3254,
+    "popularity": 3258,
     "favourites": 32,
     "anilist_score": null,
     "streaming_links": [],
@@ -925,7 +925,7 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 3182,
+    "popularity": 3212,
     "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
@@ -949,7 +949,7 @@
       "Sci-Fi",
       "Slice of Life"
     ],
-    "popularity": 3112,
+    "popularity": 3146,
     "favourites": 20,
     "anilist_score": null,
     "streaming_links": [],
@@ -974,7 +974,7 @@
       "Romance",
       "Sports"
     ],
-    "popularity": 3057,
+    "popularity": 3113,
     "favourites": 31,
     "anilist_score": null,
     "streaming_links": [],
@@ -998,7 +998,7 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "popularity": 2908,
+    "popularity": 2924,
     "favourites": 7,
     "anilist_score": null,
     "streaming_links": [],
@@ -1020,7 +1020,7 @@
     "genres": [
       "Action"
     ],
-    "popularity": 2760,
+    "popularity": 2775,
     "favourites": 55,
     "anilist_score": null,
     "streaming_links": [],
@@ -1044,7 +1044,7 @@
       "Mystery",
       "Sci-Fi"
     ],
-    "popularity": 2492,
+    "popularity": 2529,
     "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
@@ -1068,7 +1068,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 2102,
+    "popularity": 2135,
     "favourites": 11,
     "anilist_score": null,
     "streaming_links": [],
@@ -1093,7 +1093,7 @@
       "Sci-Fi",
       "Slice of Life"
     ],
-    "popularity": 1551,
+    "popularity": 1588,
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
@@ -1117,7 +1117,7 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 1298,
+    "popularity": 1317,
     "favourites": 6,
     "anilist_score": null,
     "streaming_links": [],
