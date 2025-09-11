@@ -304,8 +304,8 @@
     "mal_id": 60285,
     "name": "SAKAMOTO DAYS Part 2",
     "english_title": "SAKAMOTO DAYS Part 2",
-    "episode": 10,
-    "release_date": "2025-09-08",
+    "episode": 11,
+    "release_date": "2025-09-15",
     "next_airing_date": "2025-09-15",
     "next_episode_number": 11,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184237-OJAksU2fsIPx.jpg",
@@ -514,8 +514,8 @@
     "mal_id": 59986,
     "name": "Grand Blue Season 2",
     "english_title": "Grand Blue Dreaming Season 2",
-    "episode": 10,
-    "release_date": "2025-09-08",
+    "episode": 11,
+    "release_date": "2025-09-15",
     "next_airing_date": "2025-09-15",
     "next_episode_number": 11,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182309-tThxqSRn3At1.jpg",
@@ -694,8 +694,8 @@
     "mal_id": 60326,
     "name": "Watashi ga Koibito ni Nareru Wake Naijan, Murimuri! (※Muri ja Nakatta!?)",
     "english_title": "There's No Freaking Way I'll Be Your Lover! Unless...",
-    "episode": 10,
-    "release_date": "2025-09-08",
+    "episode": 11,
+    "release_date": "2025-09-15",
     "next_airing_date": "2025-09-15",
     "next_episode_number": 11,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184591-jRXZ29bN61Zc.jpg",
@@ -774,8 +774,8 @@
     "mal_id": 50694,
     "name": "Summer Pockets",
     "english_title": "Summer Pockets",
-    "episode": 23,
-    "release_date": "2025-09-08",
+    "episode": 24,
+    "release_date": null,
     "next_airing_date": "2025-09-15",
     "next_episode_number": 24,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143200-42OaDCS6VEy3.png",
@@ -1469,31 +1469,6 @@
     "popularity_rank": 51
   },
   {
-    "id": 179678,
-    "mal_id": 59342,
-    "name": "Jigoku Sensei Nube (2025)",
-    "english_title": "Hell Teacher: Jigoku Sensei Nube (2025)",
-    "episode": 1,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179678-1isykDVghv8Q.png",
-    "site_url": "https://anilist.co/anime/179678",
-    "start_date": "2025-07-02",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "YouTube",
-        "url": "https://youtube.com/playlist?list=PLhGamQZtJ7K9NljzDXOMx02GwfyiCTy_b",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 9304,
-    "anilist_score": 61,
-    "recently_finished": false,
-    "popularity_rank": 52
-  },
-  {
     "id": 156395,
     "mal_id": 53512,
     "name": "Busu ni Hanataba wo.",
@@ -1510,7 +1485,7 @@
     "popularity": 8761,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 53
+    "popularity_rank": 52
   },
   {
     "id": 184574,
@@ -1540,7 +1515,7 @@
     "popularity": 8739,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 54
+    "popularity_rank": 53
   },
   {
     "id": 159483,
@@ -1565,7 +1540,7 @@
     "popularity": 8316,
     "anilist_score": 58,
     "recently_finished": false,
-    "popularity_rank": 55
+    "popularity_rank": 54
   },
   {
     "id": 187387,
@@ -1595,7 +1570,7 @@
     "popularity": 8014,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 56
+    "popularity_rank": 55
   },
   {
     "id": 184034,
@@ -1625,7 +1600,7 @@
     "popularity": 7524,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 57
+    "popularity_rank": 56
   },
   {
     "id": 186003,
@@ -1650,7 +1625,7 @@
     "popularity": 6266,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 58
+    "popularity_rank": 57
   },
   {
     "id": 168537,
@@ -1675,7 +1650,7 @@
     "popularity": 6136,
     "anilist_score": 50,
     "recently_finished": false,
-    "popularity_rank": 59
+    "popularity_rank": 58
   },
   {
     "id": 183127,
@@ -1705,7 +1680,7 @@
     "popularity": 5443,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 60
+    "popularity_rank": 59
   },
   {
     "id": 177761,
@@ -1724,7 +1699,7 @@
     "popularity": 4999,
     "anilist_score": 53,
     "recently_finished": false,
-    "popularity_rank": 61
+    "popularity_rank": 60
   },
   {
     "id": 173335,
@@ -1749,7 +1724,7 @@
     "popularity": 4931,
     "anilist_score": 50,
     "recently_finished": false,
-    "popularity_rank": 62
+    "popularity_rank": 61
   },
   {
     "id": 185505,
@@ -1774,7 +1749,7 @@
     "popularity": 4383,
     "anilist_score": 51,
     "recently_finished": false,
-    "popularity_rank": 63
+    "popularity_rank": 62
   },
   {
     "id": 185070,
@@ -1799,7 +1774,7 @@
     "popularity": 4291,
     "anilist_score": 57,
     "recently_finished": false,
-    "popularity_rank": 64
+    "popularity_rank": 63
   },
   {
     "id": 178052,
@@ -1824,7 +1799,7 @@
     "popularity": 3954,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 65
+    "popularity_rank": 64
   },
   {
     "id": 183128,
@@ -1854,32 +1829,7 @@
     "popularity": 3825,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 66
-  },
-  {
-    "id": 175035,
-    "mal_id": 58953,
-    "name": "Pokémon Concierge Part 2",
-    "english_title": "Pokémon Concierge: Season 1: Part 2",
-    "episode": 4,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 4,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx175035-4MjdEE8Fd3Y2.jpg",
-    "site_url": "https://anilist.co/anime/175035",
-    "start_date": "2025-09-04",
-    "end_date": "2025-09-04",
-    "streaming_links": [
-      {
-        "site": "Netflix",
-        "url": "http://netflix.com/pokemonconcierge",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      }
-    ],
-    "popularity": 3499,
-    "anilist_score": 71,
-    "recently_finished": true,
-    "popularity_rank": 67
+    "popularity_rank": 65
   },
   {
     "id": 195209,
@@ -1904,6 +1854,6 @@
     "popularity": 3452,
     "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 68
+    "popularity_rank": 66
   }
 ]
