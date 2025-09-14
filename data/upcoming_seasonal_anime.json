@@ -18,7 +18,7 @@
       "Sci-Fi",
       "Supernatural"
     ],
-    "popularity": 87699,
+    "popularity": 87939,
     "favourites": 1294,
     "anilist_score": null,
     "streaming_links": [],
@@ -43,7 +43,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 48425,
+    "popularity": 48694,
     "favourites": 438,
     "anilist_score": null,
     "streaming_links": [],
@@ -66,7 +66,7 @@
       "Action",
       "Adventure"
     ],
-    "popularity": 46488,
+    "popularity": 46667,
     "favourites": 579,
     "anilist_score": null,
     "streaming_links": [],
@@ -92,7 +92,7 @@
       "Psychological",
       "Supernatural"
     ],
-    "popularity": 27820,
+    "popularity": 27900,
     "favourites": 277,
     "anilist_score": null,
     "streaming_links": [],
@@ -140,7 +140,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 17938,
+    "popularity": 18035,
     "favourites": 272,
     "anilist_score": null,
     "streaming_links": [],
@@ -166,7 +166,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 12984,
+    "popularity": 13127,
     "favourites": 164,
     "anilist_score": null,
     "streaming_links": [],
@@ -190,7 +190,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 12303,
+    "popularity": 12367,
     "favourites": 108,
     "anilist_score": null,
     "streaming_links": [],
@@ -216,7 +216,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 11803,
+    "popularity": 11947,
     "favourites": 120,
     "anilist_score": null,
     "streaming_links": [],
@@ -240,7 +240,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 11089,
+    "popularity": 11225,
     "favourites": 157,
     "anilist_score": null,
     "streaming_links": [],
@@ -286,7 +286,7 @@
       "Drama",
       "Mystery"
     ],
-    "popularity": 9072,
+    "popularity": 9184,
     "favourites": 68,
     "anilist_score": null,
     "streaming_links": [],
@@ -310,7 +310,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 8893,
+    "popularity": 8938,
     "favourites": 105,
     "anilist_score": null,
     "streaming_links": [],
@@ -332,11 +332,34 @@
     "genres": [
       "Comedy"
     ],
-    "popularity": 7201,
+    "popularity": 7235,
     "favourites": 66,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 14
+  },
+  {
+    "id": 180436,
+    "mal_id": 59623,
+    "name": "WanDance",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2025-10-08",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180436-KbHBZdUqLV1Q.png",
+    "site_url": "https://anilist.co/anime/180436",
+    "start_date": "2025-10-08",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "MADHOUSE, Cyclone Graphics",
+    "genres": [
+      "Drama",
+      "Sports"
+    ],
+    "popularity": 6910,
+    "favourites": 36,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 15
   },
   {
     "id": 176298,
@@ -358,31 +381,8 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 6857,
+    "popularity": 6903,
     "favourites": 104,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 15
-  },
-  {
-    "id": 180436,
-    "mal_id": 59623,
-    "name": "WanDance",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2025-10-08",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180436-KbHBZdUqLV1Q.png",
-    "site_url": "https://anilist.co/anime/180436",
-    "start_date": "2025-10-08",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "MADHOUSE, Cyclone Graphics",
-    "genres": [
-      "Drama",
-      "Sports"
-    ],
-    "popularity": 6807,
-    "favourites": 36,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 16
@@ -404,7 +404,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 6551,
+    "popularity": 6708,
     "favourites": 60,
     "anilist_score": null,
     "streaming_links": [],
@@ -427,7 +427,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 6325,
+    "popularity": 6430,
     "favourites": 56,
     "anilist_score": null,
     "streaming_links": [],
@@ -450,7 +450,7 @@
       "Drama",
       "Sports"
     ],
-    "popularity": 6128,
+    "popularity": 6176,
     "favourites": 49,
     "anilist_score": null,
     "streaming_links": [],
@@ -474,7 +474,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 5464,
+    "popularity": 5566,
     "favourites": 85,
     "anilist_score": null,
     "streaming_links": [],
@@ -498,7 +498,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 5420,
+    "popularity": 5506,
     "favourites": 72,
     "anilist_score": null,
     "streaming_links": [],
@@ -523,33 +523,28 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 5347,
+    "popularity": 5434,
     "favourites": 55,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 22
   },
   {
-    "id": 177271,
-    "mal_id": 58772,
-    "name": "Kakuriyo no Yadomeshi 2nd Season",
-    "english_title": "Kakuriyo -Bed & Breakfast for Spirits- 2",
+    "id": 198188,
+    "mal_id": 62405,
+    "name": "Fujimoto Tatsuki 17-26",
+    "english_title": "Tatsuki Fujimoto 17-26",
     "episode": 1,
-    "release_date": "2025-10-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177271-Lot4V9iMyPI7.jpg",
-    "site_url": "https://anilist.co/anime/177271",
-    "start_date": "2025-10-01",
+    "release_date": "2025-11-08",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198188-mlScDGb4cucY.jpg",
+    "site_url": "https://anilist.co/anime/198188",
+    "start_date": "2025-11-08",
     "season": "Fall",
     "season_year": 2025,
-    "studios": "GONZO, Makaria",
-    "genres": [
-      "Drama",
-      "Romance",
-      "Slice of Life",
-      "Supernatural"
-    ],
-    "popularity": 4512,
-    "favourites": 56,
+    "studios": "Studio Kafka, 100studio",
+    "genres": [],
+    "popularity": 4612,
+    "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 23
@@ -572,28 +567,33 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 4502,
+    "popularity": 4600,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 24
   },
   {
-    "id": 198188,
-    "mal_id": 62405,
-    "name": "Fujimoto Tatsuki 17-26",
-    "english_title": "Tatsuki Fujimoto 17-26",
+    "id": 177271,
+    "mal_id": 58772,
+    "name": "Kakuriyo no Yadomeshi 2nd Season",
+    "english_title": "Kakuriyo -Bed & Breakfast for Spirits- 2",
     "episode": 1,
-    "release_date": "2025-11-08",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198188-mlScDGb4cucY.jpg",
-    "site_url": "https://anilist.co/anime/198188",
-    "start_date": "2025-11-08",
+    "release_date": "2025-10-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177271-Lot4V9iMyPI7.jpg",
+    "site_url": "https://anilist.co/anime/177271",
+    "start_date": "2025-10-01",
     "season": "Fall",
     "season_year": 2025,
-    "studios": "Studio Kafka, 100studio",
-    "genres": [],
-    "popularity": 4492,
-    "favourites": 29,
+    "studios": "GONZO, Makaria",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Slice of Life",
+      "Supernatural"
+    ],
+    "popularity": 4550,
+    "favourites": 56,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 25
@@ -615,7 +615,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 4356,
+    "popularity": 4408,
     "favourites": 68,
     "anilist_score": null,
     "streaming_links": [],
@@ -639,7 +639,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 4293,
+    "popularity": 4366,
     "favourites": 49,
     "anilist_score": null,
     "streaming_links": [],
@@ -662,7 +662,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 4212,
+    "popularity": 4288,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
@@ -686,7 +686,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 4184,
+    "popularity": 4259,
     "favourites": 55,
     "anilist_score": null,
     "streaming_links": [],
@@ -710,7 +710,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 4118,
+    "popularity": 4220,
     "favourites": 31,
     "anilist_score": null,
     "streaming_links": [],
@@ -735,7 +735,7 @@
       "Romance",
       "Sci-Fi"
     ],
-    "popularity": 4007,
+    "popularity": 4125,
     "favourites": 40,
     "anilist_score": null,
     "streaming_links": [],
@@ -759,7 +759,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 3702,
+    "popularity": 3749,
     "favourites": 35,
     "anilist_score": null,
     "streaming_links": [],
@@ -784,7 +784,7 @@
       "Romance",
       "Sci-Fi"
     ],
-    "popularity": 3674,
+    "popularity": 3741,
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
@@ -806,7 +806,7 @@
     "genres": [
       "Romance"
     ],
-    "popularity": 3668,
+    "popularity": 3725,
     "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
@@ -831,7 +831,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 3626,
+    "popularity": 3677,
     "favourites": 54,
     "anilist_score": null,
     "streaming_links": [],
@@ -855,7 +855,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3586,
+    "popularity": 3629,
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
@@ -879,7 +879,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3386,
+    "popularity": 3421,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
@@ -902,31 +902,32 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 3313,
+    "popularity": 3350,
     "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 38
   },
   {
-    "id": 170018,
-    "mal_id": 56877,
-    "name": "Ao no Orchestra 2nd Season",
-    "english_title": null,
+    "id": 186920,
+    "mal_id": 61072,
+    "name": "Shuumatsu Touring",
+    "english_title": "Touring After the Apocalypse",
     "episode": 1,
     "release_date": "2025-10-05",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170018-1PqdLX68YayA.jpg",
-    "site_url": "https://anilist.co/anime/170018",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186920-nrYITcE4TEuk.jpg",
+    "site_url": "https://anilist.co/anime/186920",
     "start_date": "2025-10-05",
     "season": "Fall",
     "season_year": 2025,
-    "studios": "NHK, NHK Enterprises",
+    "studios": "Nexus, KADOKAWA",
     "genres": [
-      "Drama",
-      "Music"
+      "Adventure",
+      "Sci-Fi",
+      "Slice of Life"
     ],
-    "popularity": 3287,
-    "favourites": 33,
+    "popularity": 3343,
+    "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 39
@@ -950,32 +951,31 @@
       "Romance",
       "Sports"
     ],
-    "popularity": 3275,
+    "popularity": 3337,
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 40
   },
   {
-    "id": 186920,
-    "mal_id": 61072,
-    "name": "Shuumatsu Touring",
-    "english_title": "Touring After the Apocalypse",
+    "id": 170018,
+    "mal_id": 56877,
+    "name": "Ao no Orchestra 2nd Season",
+    "english_title": null,
     "episode": 1,
     "release_date": "2025-10-05",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186920-nrYITcE4TEuk.jpg",
-    "site_url": "https://anilist.co/anime/186920",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170018-1PqdLX68YayA.jpg",
+    "site_url": "https://anilist.co/anime/170018",
     "start_date": "2025-10-05",
     "season": "Fall",
     "season_year": 2025,
-    "studios": "Nexus, KADOKAWA",
+    "studios": "NHK, NHK Enterprises",
     "genres": [
-      "Adventure",
-      "Sci-Fi",
-      "Slice of Life"
+      "Drama",
+      "Music"
     ],
-    "popularity": 3271,
-    "favourites": 19,
+    "popularity": 3303,
+    "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 41
@@ -998,7 +998,7 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "popularity": 2975,
+    "popularity": 2994,
     "favourites": 7,
     "anilist_score": null,
     "streaming_links": [],
@@ -1020,7 +1020,7 @@
     "genres": [
       "Action"
     ],
-    "popularity": 2819,
+    "popularity": 2843,
     "favourites": 56,
     "anilist_score": null,
     "streaming_links": [],
@@ -1044,7 +1044,7 @@
       "Mystery",
       "Sci-Fi"
     ],
-    "popularity": 2646,
+    "popularity": 2795,
     "favourites": 21,
     "anilist_score": null,
     "streaming_links": [],
@@ -1068,7 +1068,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 2288,
+    "popularity": 2341,
     "favourites": 11,
     "anilist_score": null,
     "streaming_links": [],
@@ -1093,7 +1093,7 @@
       "Sci-Fi",
       "Slice of Life"
     ],
-    "popularity": 1716,
+    "popularity": 1770,
     "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
@@ -1117,10 +1117,33 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 1377,
+    "popularity": 1396,
     "favourites": 7,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 47
+  },
+  {
+    "id": 186914,
+    "mal_id": 61067,
+    "name": "Ninja to Gokudou",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2025-10-08",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186914-Im7Jgud1XCag.png",
+    "site_url": "https://anilist.co/anime/186914",
+    "start_date": "2025-10-08",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "Studio DEEN, Nikkatsu",
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "popularity": 1004,
+    "favourites": 7,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 48
   }
 ]
