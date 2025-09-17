@@ -4,8 +4,8 @@
     "mal_id": 21,
     "name": "ONE PIECE",
     "english_title": "ONE PIECE",
-    "episode": 1143,
-    "release_date": "2025-09-14",
+    "episode": 1144,
+    "release_date": "2025-09-21",
     "next_airing_date": "2025-09-21",
     "next_episode_number": 1144,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
@@ -34,7 +34,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 629744,
+    "popularity": 629936,
     "anilist_score": 88,
     "recently_finished": false,
     "popularity_rank": 1
@@ -109,8 +109,8 @@
     "mal_id": 59062,
     "name": "Gachiakuta",
     "english_title": "Gachiakuta",
-    "episode": 10,
-    "release_date": "2025-09-14",
+    "episode": 11,
+    "release_date": "2025-09-21",
     "next_airing_date": "2025-09-21",
     "next_episode_number": 11,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178025-cWJKEsZynkil.jpg",
@@ -264,8 +264,8 @@
     "mal_id": 59597,
     "name": "Witch Watch",
     "english_title": "WITCH WATCH",
-    "episode": 23,
-    "release_date": "2025-09-14",
+    "episode": 24,
+    "release_date": null,
     "next_airing_date": "2025-09-21",
     "next_episode_number": 24,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180367-GlRuB2lG7Kaa.jpg",
@@ -300,6 +300,31 @@
     "popularity_rank": 9
   },
   {
+    "id": 184237,
+    "mal_id": 60285,
+    "name": "SAKAMOTO DAYS Part 2",
+    "english_title": "SAKAMOTO DAYS Part 2",
+    "episode": 11,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 11,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184237-OJAksU2fsIPx.jpg",
+    "site_url": "https://anilist.co/anime/184237",
+    "start_date": "2025-07-15",
+    "end_date": "2025-09-16",
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81663325",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 64070,
+    "anilist_score": 78,
+    "recently_finished": true,
+    "popularity_rank": 10
+  },
+  {
     "id": 137667,
     "mal_id": 49818,
     "name": "Guimi Zhi Zhu",
@@ -327,7 +352,7 @@
     "popularity": 63669,
     "anilist_score": 84,
     "recently_finished": true,
-    "popularity_rank": 10
+    "popularity_rank": 11
   },
   {
     "id": 175914,
@@ -352,7 +377,7 @@
     "popularity": 61903,
     "anilist_score": 82,
     "recently_finished": false,
-    "popularity_rank": 11
+    "popularity_rank": 12
   },
   {
     "id": 171046,
@@ -377,7 +402,7 @@
     "popularity": 53002,
     "anilist_score": 81,
     "recently_finished": false,
-    "popularity_rank": 12
+    "popularity_rank": 13
   },
   {
     "id": 186052,
@@ -402,7 +427,7 @@
     "popularity": 48111,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 13
+    "popularity_rank": 14
   },
   {
     "id": 179966,
@@ -427,7 +452,7 @@
     "popularity": 47824,
     "anilist_score": 78,
     "recently_finished": false,
-    "popularity_rank": 14
+    "popularity_rank": 15
   },
   {
     "id": 173780,
@@ -452,7 +477,7 @@
     "popularity": 47276,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 15
+    "popularity_rank": 16
   },
   {
     "id": 189117,
@@ -482,7 +507,7 @@
     "popularity": 47146,
     "anilist_score": 82,
     "recently_finished": false,
-    "popularity_rank": 16
+    "popularity_rank": 17
   },
   {
     "id": 182309,
@@ -512,7 +537,7 @@
     "popularity": 42687,
     "anilist_score": 84,
     "recently_finished": false,
-    "popularity_rank": 17
+    "popularity_rank": 18
   },
   {
     "id": 178869,
@@ -542,7 +567,7 @@
     "popularity": 41901,
     "anilist_score": 76,
     "recently_finished": false,
-    "popularity_rank": 18
+    "popularity_rank": 19
   },
   {
     "id": 177474,
@@ -582,7 +607,7 @@
     "popularity": 41845,
     "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 19
+    "popularity_rank": 20
   },
   {
     "id": 143598,
@@ -612,7 +637,7 @@
     "popularity": 41737,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 20
+    "popularity_rank": 21
   },
   {
     "id": 178090,
@@ -637,15 +662,15 @@
     "popularity": 36631,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 21
+    "popularity_rank": 22
   },
   {
     "id": 181841,
     "mal_id": 59898,
     "name": "CITY THE ANIMATION",
     "english_title": "CITY THE ANIMATION",
-    "episode": 11,
-    "release_date": "2025-09-14",
+    "episode": 12,
+    "release_date": "2025-09-21",
     "next_airing_date": "2025-09-21",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181841-9TcjIyZefot2.jpg",
@@ -662,7 +687,7 @@
     "popularity": 32221,
     "anilist_score": 78,
     "recently_finished": false,
-    "popularity_rank": 22
+    "popularity_rank": 23
   },
   {
     "id": 184591,
@@ -687,15 +712,15 @@
     "popularity": 31194,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 23
+    "popularity_rank": 24
   },
   {
     "id": 178433,
     "mal_id": 59130,
     "name": "Isekai Mokushiroku Mynoghra: Hametsu no Bunmei de Hajimeru Sekai Seifuku",
     "english_title": "Apocalypse Bringer Mynoghra: World Conquest Starts with the Civilization of Ruin",
-    "episode": 11,
-    "release_date": "2025-09-14",
+    "episode": 12,
+    "release_date": "2025-09-21",
     "next_airing_date": "2025-09-21",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178433-8KzNsjTmdAvw.jpg",
@@ -717,7 +742,7 @@
     "popularity": 30883,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 24
+    "popularity_rank": 25
   },
   {
     "id": 151799,
@@ -742,7 +767,7 @@
     "popularity": 29081,
     "anilist_score": 79,
     "recently_finished": false,
-    "popularity_rank": 25
+    "popularity_rank": 26
   },
   {
     "id": 143200,
@@ -772,15 +797,15 @@
     "popularity": 26660,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 26
+    "popularity_rank": 27
   },
   {
     "id": 180929,
     "mal_id": 59791,
     "name": "Ruri no Houseki",
     "english_title": "Ruri Rocks",
-    "episode": 11,
-    "release_date": "2025-09-14",
+    "episode": 12,
+    "release_date": "2025-09-21",
     "next_airing_date": "2025-09-21",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180929-ytdzqbrOhots.jpg",
@@ -797,7 +822,7 @@
     "popularity": 25256,
     "anilist_score": 76,
     "recently_finished": false,
-    "popularity_rank": 27
+    "popularity_rank": 28
   },
   {
     "id": 178886,
@@ -805,7 +830,7 @@
     "name": "Mikadono Sanshimai wa Angai, Choroi.",
     "english_title": "Dealing with Mikadono Sisters Is a Breeze",
     "episode": 12,
-    "release_date": "2025-09-17",
+    "release_date": "2025-09-18",
     "next_airing_date": "2025-09-17",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178886-KjzSXyEB61zX.jpg",
@@ -822,7 +847,32 @@
     "popularity": 25174,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 28
+    "popularity_rank": 29
+  },
+  {
+    "id": 179344,
+    "mal_id": 59277,
+    "name": "Kanojo, Okarishimasu 4th Season",
+    "english_title": "Rent-a-Girlfriend Season 4",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179344-GQzJfehpQI72.png",
+    "site_url": "https://anilist.co/anime/179344",
+    "start_date": "2025-07-01",
+    "end_date": "2025-09-16",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G6QWV3976/rent-a-girlfriend",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 24817,
+    "anilist_score": 60,
+    "recently_finished": true,
+    "popularity_rank": 30
   },
   {
     "id": 155838,
@@ -830,7 +880,7 @@
     "name": "Tsuyokute New Saga",
     "english_title": "New Saga",
     "episode": 12,
-    "release_date": "2025-09-17",
+    "release_date": "2025-09-18",
     "next_airing_date": "2025-09-17",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155838-0zx6MTeoo5sk.jpg",
@@ -847,7 +897,7 @@
     "popularity": 22238,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 29
+    "popularity_rank": 31
   },
   {
     "id": 174188,
@@ -866,7 +916,7 @@
     "popularity": 21896,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 30
+    "popularity_rank": 32
   },
   {
     "id": 179885,
@@ -896,7 +946,7 @@
     "popularity": 21213,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 31
+    "popularity_rank": 33
   },
   {
     "id": 179828,
@@ -921,7 +971,7 @@
     "popularity": 19223,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 32
+    "popularity_rank": 34
   },
   {
     "id": 177476,
@@ -956,7 +1006,7 @@
     "popularity": 18300,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 33
+    "popularity_rank": 35
   },
   {
     "id": 169420,
@@ -981,7 +1031,7 @@
     "popularity": 17713,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 34
+    "popularity_rank": 36
   },
   {
     "id": 169440,
@@ -1011,7 +1061,7 @@
     "popularity": 17336,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 35
+    "popularity_rank": 37
   },
   {
     "id": 184639,
@@ -1046,7 +1096,7 @@
     "popularity": 17224,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 36
+    "popularity_rank": 38
   },
   {
     "id": 185544,
@@ -1081,7 +1131,7 @@
     "popularity": 16955,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 37
+    "popularity_rank": 39
   },
   {
     "id": 170113,
@@ -1106,7 +1156,7 @@
     "popularity": 15647,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 38
+    "popularity_rank": 40
   },
   {
     "id": 180425,
@@ -1136,7 +1186,37 @@
     "popularity": 15200,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 39
+    "popularity_rank": 41
+  },
+  {
+    "id": 180460,
+    "mal_id": 59632,
+    "name": "Mattaku Saikin no Tantei to Kitara",
+    "english_title": "Detectives These Days Are Crazy!",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180460-rZn4pp9YNqW0.jpg",
+    "site_url": "https://anilist.co/anime/180460",
+    "start_date": "2025-07-01",
+    "end_date": "2025-09-16",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G79H23Z93/detectives-these-days-are-crazy",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj6CNtTYBAGqNvm6KcSzAYU",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 14582,
+    "anilist_score": 68,
+    "recently_finished": true,
+    "popularity_rank": 42
   },
   {
     "id": 185965,
@@ -1166,7 +1246,7 @@
     "popularity": 14461,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 40
+    "popularity_rank": 43
   },
   {
     "id": 186561,
@@ -1196,7 +1276,7 @@
     "popularity": 14186,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 41
+    "popularity_rank": 44
   },
   {
     "id": 179879,
@@ -1221,15 +1301,15 @@
     "popularity": 14029,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 42
+    "popularity_rank": 45
   },
   {
     "id": 189326,
     "mal_id": 61339,
     "name": "Jibaku Shounen Hanako-kun 2 Part 2",
     "english_title": "Toilet-Bound Hanako-kun Season 2 Part 2",
-    "episode": 11,
-    "release_date": "2025-09-14",
+    "episode": 12,
+    "release_date": "2025-09-21",
     "next_airing_date": "2025-09-21",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189326-kaYdWFxyyYdx.jpg",
@@ -1251,15 +1331,15 @@
     "popularity": 13528,
     "anilist_score": 77,
     "recently_finished": false,
-    "popularity_rank": 43
+    "popularity_rank": 46
   },
   {
     "id": 184575,
     "mal_id": 60316,
     "name": "Busamen Gachi Fighter",
     "english_title": "Uglymug, Epicfighter",
-    "episode": 11,
-    "release_date": "2025-09-14",
+    "episode": 12,
+    "release_date": "2025-09-21",
     "next_airing_date": "2025-09-21",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184575-hEzI5V8o818U.png",
@@ -1281,7 +1361,7 @@
     "popularity": 12816,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 44
+    "popularity_rank": 47
   },
   {
     "id": 178675,
@@ -1311,15 +1391,15 @@
     "popularity": 12585,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 45
+    "popularity_rank": 48
   },
   {
     "id": 180794,
     "mal_id": 59689,
     "name": "GaCen Shoujo to Ibunka Kouryuu",
     "english_title": "Cultural Exchange with a Game Centre Girl",
-    "episode": 10,
-    "release_date": "2025-09-14",
+    "episode": 11,
+    "release_date": "2025-09-21",
     "next_airing_date": "2025-09-21",
     "next_episode_number": 11,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180794-rQGxkguEc2ov.png",
@@ -1336,15 +1416,15 @@
     "popularity": 11832,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 46
+    "popularity_rank": 49
   },
   {
     "id": 175124,
     "mal_id": 58197,
     "name": "Nyaight of the Living Cat",
     "english_title": "Nyaight of the Living Cat",
-    "episode": 11,
-    "release_date": "2025-09-14",
+    "episode": 12,
+    "release_date": "2025-09-21",
     "next_airing_date": "2025-09-21",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx175124-eDYbn0W5F4to.jpg",
@@ -1361,7 +1441,7 @@
     "popularity": 9741,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 47
+    "popularity_rank": 50
   },
   {
     "id": 179678,
@@ -1386,7 +1466,7 @@
     "popularity": 9360,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 48
+    "popularity_rank": 51
   },
   {
     "id": 156395,
@@ -1405,15 +1485,15 @@
     "popularity": 8863,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 49
+    "popularity_rank": 52
   },
   {
     "id": 184574,
     "mal_id": 60315,
     "name": "Dekin no Mogura",
     "english_title": "Dekin no Mogura: The Earthbound Mole",
-    "episode": 11,
-    "release_date": "2025-09-14",
+    "episode": 12,
+    "release_date": "2025-09-21",
     "next_airing_date": "2025-09-21",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184574-Mb2qvX1e3RgG.jpg",
@@ -1435,7 +1515,7 @@
     "popularity": 8819,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 50
+    "popularity_rank": 53
   },
   {
     "id": 159483,
@@ -1460,7 +1540,7 @@
     "popularity": 8366,
     "anilist_score": 58,
     "recently_finished": false,
-    "popularity_rank": 51
+    "popularity_rank": 54
   },
   {
     "id": 187387,
@@ -1468,7 +1548,7 @@
     "name": "Onmyo Kaiten Re:verse",
     "english_title": "Onmyo Kaiten Re:Birth Verse",
     "episode": 12,
-    "release_date": "2025-09-17",
+    "release_date": "2025-09-18",
     "next_airing_date": "2025-09-17",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187387-dbi9hPNKyA35.jpg",
@@ -1490,15 +1570,15 @@
     "popularity": 8147,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 52
+    "popularity_rank": 55
   },
   {
     "id": 184034,
     "mal_id": 60260,
     "name": "Hotel Inhumans",
     "english_title": "Hotel Inhumans",
-    "episode": 11,
-    "release_date": "2025-09-14",
+    "episode": 12,
+    "release_date": "2025-09-21",
     "next_airing_date": "2025-09-21",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184034-gjIi5TIHJpZv.jpg",
@@ -1520,7 +1600,7 @@
     "popularity": 7613,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 53
+    "popularity_rank": 56
   },
   {
     "id": 186003,
@@ -1545,7 +1625,7 @@
     "popularity": 6362,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 54
+    "popularity_rank": 57
   },
   {
     "id": 168537,
@@ -1570,7 +1650,7 @@
     "popularity": 6188,
     "anilist_score": 50,
     "recently_finished": false,
-    "popularity_rank": 55
+    "popularity_rank": 58
   },
   {
     "id": 183127,
@@ -1600,7 +1680,7 @@
     "popularity": 5594,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 56
+    "popularity_rank": 59
   },
   {
     "id": 177761,
@@ -1619,7 +1699,7 @@
     "popularity": 5041,
     "anilist_score": 52,
     "recently_finished": false,
-    "popularity_rank": 57
+    "popularity_rank": 60
   },
   {
     "id": 173335,
@@ -1644,7 +1724,32 @@
     "popularity": 4987,
     "anilist_score": 50,
     "recently_finished": false,
-    "popularity_rank": 58
+    "popularity_rank": 61
+  },
+  {
+    "id": 185505,
+    "mal_id": 60505,
+    "name": "Necronomico no Cosmic Horror Show",
+    "english_title": "Necronomico and the Cosmic Horror Show",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185505-l2ZcSDvdzhd8.jpg",
+    "site_url": "https://anilist.co/anime/185505",
+    "start_date": "2025-07-01",
+    "end_date": "2025-09-16",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G0XHWM18P/necronomico-and-the-cosmic-horror-show",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 4419,
+    "anilist_score": 51,
+    "recently_finished": true,
+    "popularity_rank": 62
   },
   {
     "id": 185070,
@@ -1669,7 +1774,7 @@
     "popularity": 4313,
     "anilist_score": 58,
     "recently_finished": false,
-    "popularity_rank": 59
+    "popularity_rank": 63
   },
   {
     "id": 183128,
@@ -1699,15 +1804,15 @@
     "popularity": 4297,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 60
+    "popularity_rank": 64
   },
   {
     "id": 178052,
     "mal_id": 59078,
     "name": "Princess-Session Orchestra",
     "english_title": null,
-    "episode": 23,
-    "release_date": "2025-09-14",
+    "episode": 24,
+    "release_date": null,
     "next_airing_date": "2025-09-21",
     "next_episode_number": 24,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178052-igWygf0ZG1gl.jpg",
@@ -1724,7 +1829,7 @@
     "popularity": 3974,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 61
+    "popularity_rank": 65
   },
   {
     "id": 195209,
@@ -1749,6 +1854,6 @@
     "popularity": 3531,
     "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 62
+    "popularity_rank": 66
   }
 ]
