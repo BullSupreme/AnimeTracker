@@ -120,7 +120,7 @@ def fetch_current_anime():
     }
     '''
     
-    # Query for recently FINISHED anime (within last 7 days)
+    # Query for recently FINISHED anime (within last 14 days)
     query_finished = '''
     query ($page: Int, $perPage: Int, $startDate: FuzzyDateInt, $endDate: FuzzyDateInt) {
         Page(page: $page, perPage: $perPage) {
@@ -197,7 +197,7 @@ def fetch_current_anime():
         # 2. Fetch recently FINISHED anime
         print("Fetching recently finished anime...")
         today = datetime.now()
-        week_ago = today - timedelta(days=7)
+        week_ago = today - timedelta(days=14)
         page = 1
         start_fuzzy = int(f"{week_ago.year}{week_ago.month:02d}{week_ago.day:02d}")
         end_fuzzy = int(f"{today.year}{today.month:02d}{today.day:02d}")
@@ -213,7 +213,25 @@ def fetch_current_anime():
             page += 1
             print(f"Fetched page {page-1} of finished anime, added {len(finished_anime)} anime")
 
-        # 3. Fetch upcoming anime for the CURRENT season
+        # 3. Fetch FINISHED anime that end today or in the near future (to handle AniList's premature FINISHED status)
+        print("Fetching FINISHED anime with end dates today or in the future...")
+        page = 1
+        tomorrow = today + timedelta(days=1)
+        future_end_fuzzy = int(f"{tomorrow.year}{tomorrow.month:02d}{tomorrow.day:02d}")
+        today_fuzzy = int(f"{today.year}{today.month:02d}{today.day:02d}")
+
+        while True:
+            variables = {'page': page, 'perPage': per_page, 'startDate': today_fuzzy, 'endDate': future_end_fuzzy}
+            data = make_anilist_request(query_finished, variables)
+            if not data or 'data' not in data: break
+            page_data = data['data']['Page']
+            future_finished_anime = page_data['media']
+            all_anime.extend(future_finished_anime)
+            if not page_data['pageInfo']['hasNextPage']: break
+            page += 1
+            print(f"Fetched page {page-1} of future-finished anime, added {len(future_finished_anime)} anime")
+
+        # 4. Fetch upcoming anime for the CURRENT season
         print("Fetching upcoming anime for the current season...")
         page = 1
         current_season = get_current_season()
