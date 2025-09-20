@@ -649,7 +649,11 @@ def process_anime_data(api_data):
                                     expected_episode = weeks_since_start + 1
                                     if expected_episode <= episode_count:
                                         episode_number = expected_episode
-                                        release_date = today_date.strftime('%Y-%m-%d')
+                                        # Don't set release_date for today if the anime has already finished
+                                        if not (end_date and end_date <= today_date.strftime('%Y-%m-%d')):
+                                            release_date = today_date.strftime('%Y-%m-%d')
+                                        else:
+                                            release_date = None
                                     else:
                                         release_date = None
                                 else:
@@ -696,10 +700,11 @@ def process_anime_data(api_data):
                     streaming_links.append({'site': site_name, 'url': link['url'], 'icon': icon_url})
         
         # Check if anime is ending today or tomorrow and set release_date accordingly
+        # Only do this if there's actually a next episode (indicating a finale airing today/tomorrow)
         today_str = datetime.now().strftime('%Y-%m-%d')
         tomorrow_str = (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d')
-        
-        if end_date and (end_date == today_str or end_date == tomorrow_str):
+
+        if end_date and (end_date == today_str or end_date == tomorrow_str) and has_next_episode:
             if not release_date or release_date != end_date:
                 release_date = end_date
                 if anime.get('episodes'):
