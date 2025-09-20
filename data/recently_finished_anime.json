@@ -1,47 +1,367 @@
 [
   {
-    "id": 185407,
-    "mal_id": 60489,
-    "name": "Takopii no Genzai",
-    "english_title": "Takopi's Original Sin",
-    "episode": 6,
+    "id": 178886,
+    "mal_id": 59207,
+    "name": "Mikadono Sanshimai wa Angai, Choroi.",
+    "english_title": "Dealing with Mikadono Sisters Is a Breeze",
+    "episode": 12,
     "release_date": null,
     "next_airing_date": null,
-    "next_episode_number": 6,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185407-7uzY4fA3hokP.jpg",
-    "site_url": "https://anilist.co/anime/185407",
-    "start_date": "2025-06-28",
-    "end_date": "2025-08-02",
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178886-KjzSXyEB61zX.jpg",
+    "site_url": "https://anilist.co/anime/178886",
+    "start_date": "2025-07-10",
+    "end_date": "2025-09-18",
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GKEH2G0X4/takopis-original-sin",
+        "url": "https://www.crunchyroll.com/series/GVDHX8548/dealing-with-mikadono-sisters-is-a-breeze",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 25981,
+    "anilist_score": 76,
+    "recently_finished": true,
+    "popularity_rank": 28
+  },
+  {
+    "id": 155838,
+    "mal_id": 53397,
+    "name": "Tsuyokute New Saga",
+    "english_title": "New Saga",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155838-0zx6MTeoo5sk.jpg",
+    "site_url": "https://anilist.co/anime/155838",
+    "start_date": "2025-07-03",
+    "end_date": "2025-09-18",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GVDHX859Q/new-saga",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 22710,
+    "anilist_score": 64,
+    "recently_finished": true,
+    "popularity_rank": 31
+  },
+  {
+    "id": 187387,
+    "mal_id": 61150,
+    "name": "Onmyo Kaiten Re:verse",
+    "english_title": "Onmyo Kaiten Re:Birth Verse",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187387-dbi9hPNKyA35.jpg",
+    "site_url": "https://anilist.co/anime/187387",
+    "start_date": "2025-07-03",
+    "end_date": "2025-09-18",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GMEHME7VW/onmyo-kaiten-rebirth-verse",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       },
       {
         "site": "YouTube",
-        "url": "https://youtube.com/playlist?list=PLxSscENEp7JiXIF_XC3Q8zWzNLgWesqLY&si=RLVH4Sv9e3H4FsB0",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://youtube.com/playlist?list=PLNAQymMf9eaYu8Plp4tLZ_sHrgAtvYH_q&si=_n3ORfaRXxZEHdNl",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/82040459",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://youtube.com/playlist?list=PLhpMvmtHsuqLrFf_wGHlwVhw5GF6vdO2j",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JjG44n8tKUhiWisNI-1dGhD",
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 62389,
-    "anilist_score": 88,
+    "popularity": 8293,
+    "anilist_score": 62,
+    "recently_finished": true,
+    "popularity_rank": 55
+  },
+  {
+    "id": 183128,
+    "mal_id": 60130,
+    "name": "Muchuu sa, Kimi ni.",
+    "english_title": "Captivated, By You",
+    "episode": 5,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 5,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183128-nMFf0c6IOs9g.jpg",
+    "site_url": "https://anilist.co/anime/183128",
+    "start_date": "2025-08-21",
+    "end_date": "2025-09-18",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G1XHJV0M8/captivated-by-you",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 4477,
+    "anilist_score": 67,
+    "recently_finished": true,
+    "popularity_rank": 64
+  },
+  {
+    "id": 185070,
+    "mal_id": 60401,
+    "name": "Uchuujin MuuMuu",
+    "english_title": null,
+    "episode": 24,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 24,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185070-VKzUA4B9kmaX.jpg",
+    "site_url": "https://anilist.co/anime/185070",
+    "start_date": "2025-04-10",
+    "end_date": "2025-09-18",
+    "streaming_links": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@mumu-anime",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 4333,
+    "anilist_score": 61,
+    "recently_finished": true,
+    "popularity_rank": 65
+  },
+  {
+    "id": 178869,
+    "mal_id": 59205,
+    "name": "Clevatess: Majuu no Ou to Akago to Kabane no Yuusha",
+    "english_title": "Clevatess",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178869-qiEz0gQD8H5N.png",
+    "site_url": "https://anilist.co/anime/178869",
+    "start_date": "2025-07-02",
+    "end_date": "2025-09-17",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G8DHV78ZM/clevatess",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JiIImQMFiu9H2lp2NZgcKk2",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 43493,
+    "anilist_score": 78,
+    "recently_finished": true,
+    "popularity_rank": 18
+  },
+  {
+    "id": 169440,
+    "mal_id": 56700,
+    "name": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou 2nd Season",
+    "english_title": "Reborn as a Vending Machine, I Now Wander the Dungeon Season 2",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169440-MhlOxaIyASRu.jpg",
+    "site_url": "https://anilist.co/anime/169440",
+    "start_date": "2025-07-02",
+    "end_date": "2025-09-17",
+    "streaming_links": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@jihankianime",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GVDHX8504/reborn-as-a-vending-machine-i-now-wander-the-dungeon",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 17533,
+    "anilist_score": 63,
+    "recently_finished": true,
+    "popularity_rank": 37
+  },
+  {
+    "id": 184237,
+    "mal_id": 60285,
+    "name": "SAKAMOTO DAYS Part 2",
+    "english_title": "SAKAMOTO DAYS Part 2",
+    "episode": 11,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 11,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184237-OJAksU2fsIPx.jpg",
+    "site_url": "https://anilist.co/anime/184237",
+    "start_date": "2025-07-15",
+    "end_date": "2025-09-16",
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81663325",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 64940,
+    "anilist_score": 78,
     "recently_finished": true,
     "popularity_rank": 10
+  },
+  {
+    "id": 179344,
+    "mal_id": 59277,
+    "name": "Kanojo, Okarishimasu 4th Season",
+    "english_title": "Rent-a-Girlfriend Season 4",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179344-GQzJfehpQI72.png",
+    "site_url": "https://anilist.co/anime/179344",
+    "start_date": "2025-07-01",
+    "end_date": "2025-09-16",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G6QWV3976/rent-a-girlfriend",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 25059,
+    "anilist_score": 60,
+    "recently_finished": true,
+    "popularity_rank": 30
+  },
+  {
+    "id": 180460,
+    "mal_id": 59632,
+    "name": "Mattaku Saikin no Tantei to Kitara",
+    "english_title": "Detectives These Days Are Crazy!",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180460-rZn4pp9YNqW0.jpg",
+    "site_url": "https://anilist.co/anime/180460",
+    "start_date": "2025-07-01",
+    "end_date": "2025-09-16",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G79H23Z93/detectives-these-days-are-crazy",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj6CNtTYBAGqNvm6KcSzAYU",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 14889,
+    "anilist_score": 70,
+    "recently_finished": true,
+    "popularity_rank": 42
+  },
+  {
+    "id": 185505,
+    "mal_id": 60505,
+    "name": "Necronomico no Cosmic Horror Show",
+    "english_title": "Necronomico and the Cosmic Horror Show",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185505-l2ZcSDvdzhd8.jpg",
+    "site_url": "https://anilist.co/anime/185505",
+    "start_date": "2025-07-01",
+    "end_date": "2025-09-16",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G0XHWM18P/necronomico-and-the-cosmic-horror-show",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 4493,
+    "anilist_score": 54,
+    "recently_finished": true,
+    "popularity_rank": 63
+  },
+  {
+    "id": 156092,
+    "mal_id": 53447,
+    "name": "Tu Bian Yingxiong X",
+    "english_title": "To Be Hero X",
+    "episode": 24,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 24,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156092-yHqgQZOF2mbg.jpg",
+    "site_url": "https://anilist.co/anime/156092",
+    "start_date": "2025-04-06",
+    "end_date": "2025-09-14",
+    "streaming_links": [
+      {
+        "site": "Bilibili",
+        "url": "https://www.bilibili.com/bangumi/media/md28340128/",
+        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GQWH0M1J3/to-be-hero-x",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Bilibili",
+        "url": "https://space.bilibili.com/1203126943",
+        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
+      }
+    ],
+    "popularity": 77960,
+    "anilist_score": 85,
+    "recently_finished": true,
+    "popularity_rank": 8
+  },
+  {
+    "id": 137667,
+    "mal_id": 49818,
+    "name": "Guimi Zhi Zhu",
+    "english_title": "Lord of Mysteries",
+    "episode": 13,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137667-zHFOF6qbpksP.jpg",
+    "site_url": "https://anilist.co/anime/137667",
+    "start_date": "2025-06-28",
+    "end_date": "2025-09-13",
+    "streaming_links": [
+      {
+        "site": "Tencent Video",
+        "url": "https://v.qq.com/detail/t/mzc00200x6fq63h.html",
+        "icon": "https://www.google.com/s2/favicons?domain=v.qq.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GEXH3W2EZ/lord-of-mysteries",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 64360,
+    "anilist_score": 84,
+    "recently_finished": true,
+    "popularity_rank": 11
   }
 ]

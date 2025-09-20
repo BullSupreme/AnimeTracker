@@ -213,15 +213,16 @@ def fetch_current_anime():
             page += 1
             print(f"Fetched page {page-1} of finished anime, added {len(finished_anime)} anime")
 
-        # 3. Fetch FINISHED anime that end today or in the near future (to handle AniList's premature FINISHED status)
+        # 3. Fetch FINISHED anime that end today or in the near future (to handle AniList's premature FINISHED status and timezone issues)
         print("Fetching FINISHED anime with end dates today or in the future...")
         page = 1
-        tomorrow = today + timedelta(days=1)
-        future_end_fuzzy = int(f"{tomorrow.year}{tomorrow.month:02d}{tomorrow.day:02d}")
-        today_fuzzy = int(f"{today.year}{today.month:02d}{today.day:02d}")
+        future_date = today + timedelta(days=3)  # Extend to 3 days in the future to handle timezone issues
+        future_end_fuzzy = int(f"{future_date.year}{future_date.month:02d}{future_date.day:02d}")
+        yesterday = today - timedelta(days=1)  # Also check yesterday to handle timezone edge cases
+        yesterday_fuzzy = int(f"{yesterday.year}{yesterday.month:02d}{yesterday.day:02d}")
 
         while True:
-            variables = {'page': page, 'perPage': per_page, 'startDate': today_fuzzy, 'endDate': future_end_fuzzy}
+            variables = {'page': page, 'perPage': per_page, 'startDate': yesterday_fuzzy, 'endDate': future_end_fuzzy}
             data = make_anilist_request(query_finished, variables)
             if not data or 'data' not in data: break
             page_data = data['data']['Page']
@@ -710,11 +711,12 @@ def process_anime_data(api_data):
         
         # Check if recently finished (within 2 weeks)
         is_recently_finished = False
-        if end_date and not has_next_episode:
+        if end_date:
             try:
                 today_date = datetime.now().date()
                 end_date_obj = datetime.strptime(end_date, '%Y-%m-%d').date()
                 days_since_end = (today_date - end_date_obj).days
+                # Mark as recently finished if ended within last 2 weeks (regardless of next episode status)
                 if 0 <= days_since_end <= 14:
                     is_recently_finished = True
             except (ValueError, TypeError):
@@ -846,7 +848,7 @@ def sort_other_anime(anime_list, today_date, tomorrow_date):
         # Skip anime that are in today or tomorrow sections
         if anime.get('release_date') == today_date or anime.get('release_date') == tomorrow_date:
             continue
-        
+
         # Check if this is a recently finished anime
         if anime.get('recently_finished', False):
             recently_finished_anime.append(anime)
