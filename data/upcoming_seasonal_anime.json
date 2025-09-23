@@ -18,7 +18,7 @@
       "Sci-Fi",
       "Supernatural"
     ],
-    "popularity": 90524,
+    "popularity": 90860,
     "favourites": 1335,
     "anilist_score": null,
     "streaming_links": [],
@@ -43,7 +43,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 51530,
+    "popularity": 51913,
     "favourites": 468,
     "anilist_score": null,
     "streaming_links": [],
@@ -66,7 +66,7 @@
       "Action",
       "Adventure"
     ],
-    "popularity": 48380,
+    "popularity": 48644,
     "favourites": 612,
     "anilist_score": null,
     "streaming_links": [],
@@ -92,7 +92,7 @@
       "Psychological",
       "Supernatural"
     ],
-    "popularity": 28818,
+    "popularity": 28952,
     "favourites": 285,
     "anilist_score": null,
     "streaming_links": [],
@@ -140,7 +140,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 19080,
+    "popularity": 19259,
     "favourites": 287,
     "anilist_score": null,
     "streaming_links": [],
@@ -166,7 +166,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 14468,
+    "popularity": 14673,
     "favourites": 178,
     "anilist_score": null,
     "streaming_links": [],
@@ -192,7 +192,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 13229,
+    "popularity": 13420,
     "favourites": 129,
     "anilist_score": null,
     "streaming_links": [],
@@ -216,7 +216,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 13135,
+    "popularity": 13237,
     "favourites": 111,
     "anilist_score": null,
     "streaming_links": [],
@@ -240,7 +240,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 12693,
+    "popularity": 12920,
     "favourites": 174,
     "anilist_score": null,
     "streaming_links": [],
@@ -286,7 +286,7 @@
       "Drama",
       "Mystery"
     ],
-    "popularity": 10378,
+    "popularity": 10540,
     "favourites": 72,
     "anilist_score": null,
     "streaming_links": [],
@@ -310,7 +310,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 9549,
+    "popularity": 9646,
     "favourites": 112,
     "anilist_score": null,
     "streaming_links": [],
@@ -333,7 +333,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 7936,
+    "popularity": 8094,
     "favourites": 74,
     "anilist_score": null,
     "streaming_links": [],
@@ -356,7 +356,7 @@
       "Drama",
       "Sports"
     ],
-    "popularity": 7815,
+    "popularity": 7950,
     "favourites": 40,
     "anilist_score": null,
     "streaming_links": [],
@@ -378,7 +378,7 @@
     "genres": [
       "Comedy"
     ],
-    "popularity": 7586,
+    "popularity": 7643,
     "favourites": 67,
     "anilist_score": null,
     "streaming_links": [],
@@ -404,7 +404,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 7460,
+    "popularity": 7563,
     "favourites": 107,
     "anilist_score": null,
     "streaming_links": [],
@@ -427,34 +427,11 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 7370,
+    "popularity": 7508,
     "favourites": 62,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 18
-  },
-  {
-    "id": 195240,
-    "mal_id": 61930,
-    "name": "Uma Musume: Cinderella Gray Part 2",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2025-10-05",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195240-RopaGsHkYSYi.jpg",
-    "site_url": "https://anilist.co/anime/195240",
-    "start_date": "2025-10-05",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "CygamesPictures",
-    "genres": [
-      "Drama",
-      "Sports"
-    ],
-    "popularity": 6706,
-    "favourites": 52,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 19
   },
   {
     "id": 184322,
@@ -474,8 +451,31 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 6661,
+    "popularity": 6825,
     "favourites": 103,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 19
+  },
+  {
+    "id": 195240,
+    "mal_id": 61930,
+    "name": "Uma Musume: Cinderella Gray Part 2",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2025-10-05",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195240-RopaGsHkYSYi.jpg",
+    "site_url": "https://anilist.co/anime/195240",
+    "start_date": "2025-10-05",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "CygamesPictures",
+    "genres": [
+      "Drama",
+      "Sports"
+    ],
+    "popularity": 6793,
+    "favourites": 52,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 20
@@ -498,7 +498,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 6391,
+    "popularity": 6542,
     "favourites": 86,
     "anilist_score": null,
     "streaming_links": [],
@@ -523,7 +523,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 6260,
+    "popularity": 6387,
     "favourites": 66,
     "anilist_score": null,
     "streaming_links": [],
@@ -543,7 +543,7 @@
     "season_year": 2025,
     "studios": "Studio Kafka, 100studio",
     "genres": [],
-    "popularity": 5682,
+    "popularity": 5829,
     "favourites": 31,
     "anilist_score": null,
     "streaming_links": [],
@@ -567,7 +567,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 5579,
+    "popularity": 5736,
     "favourites": 35,
     "anilist_score": null,
     "streaming_links": [],
@@ -592,7 +592,7 @@
       "Romance",
       "Sci-Fi"
     ],
-    "popularity": 5387,
+    "popularity": 5607,
     "favourites": 51,
     "anilist_score": null,
     "streaming_links": [],
@@ -615,7 +615,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 5183,
+    "popularity": 5311,
     "favourites": 72,
     "anilist_score": null,
     "streaming_links": [],
@@ -639,7 +639,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 5064,
+    "popularity": 5212,
     "favourites": 62,
     "anilist_score": null,
     "streaming_links": [],
@@ -663,7 +663,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 5064,
+    "popularity": 5197,
     "favourites": 35,
     "anilist_score": null,
     "streaming_links": [],
@@ -686,7 +686,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 4963,
+    "popularity": 5059,
     "favourites": 34,
     "anilist_score": null,
     "streaming_links": [],
@@ -711,7 +711,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 4803,
+    "popularity": 4838,
     "favourites": 58,
     "anilist_score": null,
     "streaming_links": [],
@@ -735,7 +735,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 4512,
+    "popularity": 4628,
     "favourites": 39,
     "anilist_score": null,
     "streaming_links": [],
@@ -760,7 +760,7 @@
       "Romance",
       "Sci-Fi"
     ],
-    "popularity": 4453,
+    "popularity": 4561,
     "favourites": 37,
     "anilist_score": null,
     "streaming_links": [],
@@ -785,7 +785,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 4365,
+    "popularity": 4480,
     "favourites": 56,
     "anilist_score": null,
     "streaming_links": [],
@@ -807,35 +807,11 @@
     "genres": [
       "Romance"
     ],
-    "popularity": 4305,
+    "popularity": 4396,
     "favourites": 24,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 34
-  },
-  {
-    "id": 186161,
-    "mal_id": 60765,
-    "name": "Kimi to Koete Koi ni Naru",
-    "english_title": "With You, Our Love Will Make It Through",
-    "episode": 1,
-    "release_date": "2025-10-14",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186161-rgdRQgwOJUpb.png",
-    "site_url": "https://anilist.co/anime/186161",
-    "start_date": "2025-10-14",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "REMOW, DeNA",
-    "genres": [
-      "Drama",
-      "Fantasy",
-      "Romance"
-    ],
-    "popularity": 3998,
-    "favourites": 38,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 35
   },
   {
     "id": 186920,
@@ -855,8 +831,32 @@
       "Sci-Fi",
       "Slice of Life"
     ],
-    "popularity": 3984,
+    "popularity": 4068,
     "favourites": 22,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 35
+  },
+  {
+    "id": 186161,
+    "mal_id": 60765,
+    "name": "Kimi to Koete Koi ni Naru",
+    "english_title": "With You, Our Love Will Make It Through",
+    "episode": 1,
+    "release_date": "2025-10-14",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186161-rgdRQgwOJUpb.png",
+    "site_url": "https://anilist.co/anime/186161",
+    "start_date": "2025-10-14",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "REMOW, DeNA",
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "popularity": 4037,
+    "favourites": 38,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 36
@@ -880,35 +880,11 @@
       "Romance",
       "Sports"
     ],
-    "popularity": 3933,
+    "popularity": 4032,
     "favourites": 39,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 37
-  },
-  {
-    "id": 174914,
-    "mal_id": 58146,
-    "name": "Tensei Akujo no Kuro Rekishi",
-    "english_title": "The Dark History of the Reincarnated Villainess",
-    "episode": 1,
-    "release_date": "2025-10-09",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174914-RfPIqbrapByY.jpg",
-    "site_url": "https://anilist.co/anime/174914",
-    "start_date": "2025-10-09",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "Studio DEEN, FuRyu",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Romance"
-    ],
-    "popularity": 3917,
-    "favourites": 33,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 38
   },
   {
     "id": 185116,
@@ -928,8 +904,32 @@
       "Mystery",
       "Sci-Fi"
     ],
-    "popularity": 3911,
+    "popularity": 4030,
     "favourites": 28,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 38
+  },
+  {
+    "id": 174914,
+    "mal_id": 58146,
+    "name": "Tensei Akujo no Kuro Rekishi",
+    "english_title": "The Dark History of the Reincarnated Villainess",
+    "episode": 1,
+    "release_date": "2025-10-09",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174914-RfPIqbrapByY.jpg",
+    "site_url": "https://anilist.co/anime/174914",
+    "start_date": "2025-10-09",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "Studio DEEN, FuRyu",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Romance"
+    ],
+    "popularity": 3983,
+    "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 39
@@ -951,7 +951,7 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 3853,
+    "popularity": 3945,
     "favourites": 25,
     "anilist_score": null,
     "streaming_links": [],
@@ -974,7 +974,7 @@
       "Drama",
       "Music"
     ],
-    "popularity": 3442,
+    "popularity": 3463,
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
@@ -998,7 +998,7 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "popularity": 3179,
+    "popularity": 3202,
     "favourites": 7,
     "anilist_score": null,
     "streaming_links": [],
@@ -1020,7 +1020,7 @@
     "genres": [
       "Action"
     ],
-    "popularity": 3014,
+    "popularity": 3033,
     "favourites": 62,
     "anilist_score": null,
     "streaming_links": [],
@@ -1044,7 +1044,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 2895,
+    "popularity": 2971,
     "favourites": 14,
     "anilist_score": null,
     "streaming_links": [],
@@ -1070,7 +1070,7 @@
       "Mystery",
       "Romance"
     ],
-    "popularity": 2624,
+    "popularity": 2687,
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
@@ -1095,7 +1095,7 @@
       "Sci-Fi",
       "Slice of Life"
     ],
-    "popularity": 2362,
+    "popularity": 2431,
     "favourites": 23,
     "anilist_score": null,
     "streaming_links": [],
@@ -1119,7 +1119,7 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 1635,
+    "popularity": 1664,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
@@ -1142,7 +1142,7 @@
       "Fantasy",
       "Mystery"
     ],
-    "popularity": 1271,
+    "popularity": 1319,
     "favourites": 5,
     "anilist_score": null,
     "streaming_links": [],
@@ -1165,7 +1165,7 @@
       "Action",
       "Drama"
     ],
-    "popularity": 1229,
+    "popularity": 1271,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
