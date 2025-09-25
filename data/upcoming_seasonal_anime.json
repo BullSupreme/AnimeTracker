@@ -18,7 +18,7 @@
       "Sci-Fi",
       "Supernatural"
     ],
-    "popularity": 91220,
+    "popularity": 91601,
     "favourites": 1345,
     "anilist_score": null,
     "streaming_links": [],
@@ -43,7 +43,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 52287,
+    "popularity": 52680,
     "favourites": 477,
     "anilist_score": null,
     "streaming_links": [],
@@ -66,7 +66,7 @@
       "Action",
       "Adventure"
     ],
-    "popularity": 48874,
+    "popularity": 49119,
     "favourites": 618,
     "anilist_score": null,
     "streaming_links": [],
@@ -92,7 +92,7 @@
       "Psychological",
       "Supernatural"
     ],
-    "popularity": 29091,
+    "popularity": 29223,
     "favourites": 289,
     "anilist_score": null,
     "streaming_links": [],
@@ -140,7 +140,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 19403,
+    "popularity": 19581,
     "favourites": 293,
     "anilist_score": null,
     "streaming_links": [],
@@ -166,7 +166,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 14859,
+    "popularity": 15071,
     "favourites": 179,
     "anilist_score": null,
     "streaming_links": [],
@@ -192,7 +192,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 13609,
+    "popularity": 13838,
     "favourites": 129,
     "anilist_score": null,
     "streaming_links": [],
@@ -216,7 +216,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 13322,
+    "popularity": 13443,
     "favourites": 113,
     "anilist_score": null,
     "streaming_links": [],
@@ -240,7 +240,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 13140,
+    "popularity": 13427,
     "favourites": 180,
     "anilist_score": null,
     "streaming_links": [],
@@ -286,7 +286,7 @@
       "Drama",
       "Mystery"
     ],
-    "popularity": 10703,
+    "popularity": 10902,
     "favourites": 73,
     "anilist_score": null,
     "streaming_links": [],
@@ -310,7 +310,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 9744,
+    "popularity": 9860,
     "favourites": 114,
     "anilist_score": null,
     "streaming_links": [],
@@ -333,7 +333,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 8250,
+    "popularity": 8436,
     "favourites": 76,
     "anilist_score": null,
     "streaming_links": [],
@@ -356,30 +356,31 @@
       "Drama",
       "Sports"
     ],
-    "popularity": 8055,
+    "popularity": 8187,
     "favourites": 43,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 15
   },
   {
-    "id": 162890,
-    "mal_id": 54757,
-    "name": "3-nen Z-gumi Ginpachi-sensei",
-    "english_title": "GINTAMA - Mr. Ginpachi's Zany Class",
+    "id": 185575,
+    "mal_id": 60531,
+    "name": "Bukiyou na Senpai.",
+    "english_title": null,
     "episode": 1,
-    "release_date": "2025-10-07",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162890-IXcik7NFdi3G.jpg",
-    "site_url": "https://anilist.co/anime/162890",
-    "start_date": "2025-10-07",
+    "release_date": "2025-10-02",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b185575-cRHKCLmJI4Fr.jpg",
+    "site_url": "https://anilist.co/anime/185575",
+    "start_date": "2025-10-02",
     "season": "Fall",
     "season_year": 2025,
-    "studios": "Bandai Namco Pictures, Shueisha",
+    "studios": "Asmik Ace, Studio elle",
     "genres": [
-      "Comedy"
+      "Comedy",
+      "Romance"
     ],
-    "popularity": 7686,
-    "favourites": 68,
+    "popularity": 7813,
+    "favourites": 63,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 16
@@ -404,31 +405,30 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 7649,
+    "popularity": 7752,
     "favourites": 108,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 17
   },
   {
-    "id": 185575,
-    "mal_id": 60531,
-    "name": "Bukiyou na Senpai.",
-    "english_title": null,
+    "id": 162890,
+    "mal_id": 54757,
+    "name": "3-nen Z-gumi Ginpachi-sensei",
+    "english_title": "GINTAMA - Mr. Ginpachi's Zany Class",
     "episode": 1,
-    "release_date": "2025-10-02",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b185575-cRHKCLmJI4Fr.jpg",
-    "site_url": "https://anilist.co/anime/185575",
-    "start_date": "2025-10-02",
+    "release_date": "2025-10-07",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162890-IXcik7NFdi3G.jpg",
+    "site_url": "https://anilist.co/anime/162890",
+    "start_date": "2025-10-07",
     "season": "Fall",
     "season_year": 2025,
-    "studios": "Asmik Ace, Studio elle",
+    "studios": "Bandai Namco Pictures, Shueisha",
     "genres": [
-      "Comedy",
-      "Romance"
+      "Comedy"
     ],
-    "popularity": 7646,
-    "favourites": 63,
+    "popularity": 7726,
+    "favourites": 68,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 18
@@ -451,7 +451,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 6986,
+    "popularity": 7207,
     "favourites": 107,
     "anilist_score": null,
     "streaming_links": [],
@@ -474,7 +474,7 @@
       "Drama",
       "Sports"
     ],
-    "popularity": 6856,
+    "popularity": 6933,
     "favourites": 54,
     "anilist_score": null,
     "streaming_links": [],
@@ -498,7 +498,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 6674,
+    "popularity": 6841,
     "favourites": 91,
     "anilist_score": null,
     "streaming_links": [],
@@ -518,7 +518,7 @@
     "season_year": 2025,
     "studios": "Studio Kafka, 100studio",
     "genres": [],
-    "popularity": 5944,
+    "popularity": 6102,
     "favourites": 31,
     "anilist_score": null,
     "streaming_links": [],
@@ -542,36 +542,11 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 5885,
+    "popularity": 6057,
     "favourites": 35,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 23
-  },
-  {
-    "id": 195153,
-    "mal_id": 61917,
-    "name": "Towa no Yuugure",
-    "english_title": "Dusk Beyond the End of the World",
-    "episode": 1,
-    "release_date": "2025-09-26",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195153-yiRxZP5pPJLi.png",
-    "site_url": "https://anilist.co/anime/195153",
-    "start_date": "2025-09-26",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "P.A.WORKS, Mainichi Broadcasting System",
-    "genres": [
-      "Action",
-      "Drama",
-      "Romance",
-      "Sci-Fi"
-    ],
-    "popularity": 5779,
-    "favourites": 56,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 24
   },
   {
     "id": 173692,
@@ -590,8 +565,32 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 5414,
+    "popularity": 5562,
     "favourites": 73,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 24
+  },
+  {
+    "id": 188487,
+    "mal_id": 61276,
+    "name": "Mikata ga Yowa Sugite Hojo Mahou ni Toushite Ita Kyuutei Mahoushi, Tsuihou Sarete Saikyou wo Mezasu",
+    "english_title": "The Banished Court Magician Aims to Become the Strongest",
+    "episode": 1,
+    "release_date": "2025-10-04",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188487-gewgvReLVli9.jpg",
+    "site_url": "https://anilist.co/anime/188487",
+    "start_date": "2025-10-04",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "Gekkou, CyberAgent",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "popularity": 5502,
+    "favourites": 66,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 25
@@ -614,35 +613,11 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 5329,
+    "popularity": 5488,
     "favourites": 36,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 26
-  },
-  {
-    "id": 188487,
-    "mal_id": 61276,
-    "name": "Mikata ga Yowa Sugite Hojo Mahou ni Toushite Ita Kyuutei Mahoushi, Tsuihou Sarete Saikyou wo Mezasu",
-    "english_title": "The Banished Court Magician Aims to Become the Strongest",
-    "episode": 1,
-    "release_date": "2025-10-04",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188487-gewgvReLVli9.jpg",
-    "site_url": "https://anilist.co/anime/188487",
-    "start_date": "2025-10-04",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "Gekkou, CyberAgent",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "popularity": 5326,
-    "favourites": 66,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 27
   },
   {
     "id": 183291,
@@ -661,11 +636,11 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 5148,
+    "popularity": 5274,
     "favourites": 36,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 28
+    "popularity_rank": 27
   },
   {
     "id": 177271,
@@ -686,11 +661,11 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 4870,
+    "popularity": 4917,
     "favourites": 58,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 29
+    "popularity_rank": 28
   },
   {
     "id": 186524,
@@ -710,11 +685,11 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 4733,
+    "popularity": 4875,
     "favourites": 41,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 30
+    "popularity_rank": 29
   },
   {
     "id": 179992,
@@ -735,11 +710,11 @@
       "Romance",
       "Sci-Fi"
     ],
-    "popularity": 4668,
+    "popularity": 4805,
     "favourites": 38,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 31
+    "popularity_rank": 30
   },
   {
     "id": 187663,
@@ -760,11 +735,11 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 4582,
+    "popularity": 4734,
     "favourites": 59,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 32
+    "popularity_rank": 31
   },
   {
     "id": 186621,
@@ -782,11 +757,11 @@
     "genres": [
       "Romance"
     ],
-    "popularity": 4472,
+    "popularity": 4582,
     "favourites": 24,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 33
+    "popularity_rank": 32
   },
   {
     "id": 186920,
@@ -806,11 +781,11 @@
       "Sci-Fi",
       "Slice of Life"
     ],
-    "popularity": 4165,
+    "popularity": 4266,
     "favourites": 24,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 34
+    "popularity_rank": 33
   },
   {
     "id": 185116,
@@ -830,11 +805,11 @@
       "Mystery",
       "Sci-Fi"
     ],
-    "popularity": 4140,
+    "popularity": 4251,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 35
+    "popularity_rank": 34
   },
   {
     "id": 187331,
@@ -855,8 +830,32 @@
       "Romance",
       "Sports"
     ],
-    "popularity": 4103,
+    "popularity": 4206,
     "favourites": 41,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 35
+  },
+  {
+    "id": 174914,
+    "mal_id": 58146,
+    "name": "Tensei Akujo no Kuro Rekishi",
+    "english_title": "The Dark History of the Reincarnated Villainess",
+    "episode": 1,
+    "release_date": "2025-10-09",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174914-RfPIqbrapByY.jpg",
+    "site_url": "https://anilist.co/anime/174914",
+    "start_date": "2025-10-09",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "Studio DEEN, FuRyu",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Romance"
+    ],
+    "popularity": 4152,
+    "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 36
@@ -879,35 +878,11 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 4076,
+    "popularity": 4136,
     "favourites": 38,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 37
-  },
-  {
-    "id": 174914,
-    "mal_id": 58146,
-    "name": "Tensei Akujo no Kuro Rekishi",
-    "english_title": "The Dark History of the Reincarnated Villainess",
-    "episode": 1,
-    "release_date": "2025-10-09",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174914-RfPIqbrapByY.jpg",
-    "site_url": "https://anilist.co/anime/174914",
-    "start_date": "2025-10-09",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "Studio DEEN, FuRyu",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Romance"
-    ],
-    "popularity": 4047,
-    "favourites": 33,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 38
   },
   {
     "id": 173523,
@@ -926,11 +901,11 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 4017,
+    "popularity": 4128,
     "favourites": 25,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 39
+    "popularity_rank": 38
   },
   {
     "id": 170018,
@@ -949,11 +924,11 @@
       "Drama",
       "Music"
     ],
-    "popularity": 3493,
+    "popularity": 3513,
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 40
+    "popularity_rank": 39
   },
   {
     "id": 184642,
@@ -973,8 +948,32 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "popularity": 3225,
+    "popularity": 3256,
     "favourites": 7,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 40
+  },
+  {
+    "id": 193968,
+    "mal_id": 61773,
+    "name": "Let’s Play: Quest Darake no My Life",
+    "english_title": "Let’s Play",
+    "episode": 1,
+    "release_date": "2025-10-02",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx193968-tXbbqBOTuClj.jpg",
+    "site_url": "https://anilist.co/anime/193968",
+    "start_date": "2025-10-02",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "OLM, Crunchyroll",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Slice of Life"
+    ],
+    "popularity": 3130,
+    "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 41
@@ -995,35 +994,11 @@
     "genres": [
       "Action"
     ],
-    "popularity": 3050,
+    "popularity": 3080,
     "favourites": 64,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 42
-  },
-  {
-    "id": 193968,
-    "mal_id": 61773,
-    "name": "Let’s Play: Quest Darake no My Life",
-    "english_title": "Let’s Play",
-    "episode": 1,
-    "release_date": "2025-10-02",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx193968-tXbbqBOTuClj.jpg",
-    "site_url": "https://anilist.co/anime/193968",
-    "start_date": "2025-10-02",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "OLM, Crunchyroll",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Slice of Life"
-    ],
-    "popularity": 3035,
-    "favourites": 15,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 43
   },
   {
     "id": 184718,
@@ -1045,11 +1020,11 @@
       "Mystery",
       "Romance"
     ],
-    "popularity": 2742,
+    "popularity": 2804,
     "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 44
+    "popularity_rank": 43
   },
   {
     "id": 186190,
@@ -1070,11 +1045,11 @@
       "Sci-Fi",
       "Slice of Life"
     ],
-    "popularity": 2521,
+    "popularity": 2636,
     "favourites": 25,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 45
+    "popularity_rank": 44
   },
   {
     "id": 170936,
@@ -1094,11 +1069,11 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 1694,
+    "popularity": 1726,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 46
+    "popularity_rank": 45
   },
   {
     "id": 184997,
@@ -1117,11 +1092,11 @@
       "Fantasy",
       "Mystery"
     ],
-    "popularity": 1366,
+    "popularity": 1433,
     "favourites": 5,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 47
+    "popularity_rank": 46
   },
   {
     "id": 186914,
@@ -1140,11 +1115,11 @@
       "Action",
       "Drama"
     ],
-    "popularity": 1307,
+    "popularity": 1345,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 48
+    "popularity_rank": 47
   },
   {
     "id": 196553,
@@ -1163,8 +1138,30 @@
       "Action",
       "Music"
     ],
-    "popularity": 1028,
+    "popularity": 1081,
     "favourites": 4,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 48
+  },
+  {
+    "id": 198561,
+    "mal_id": 62144,
+    "name": "Potion, Wagami wo Tasukeru",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2025-10-03",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198561-ugYb3oLGGdbD.png",
+    "site_url": "https://anilist.co/anime/198561",
+    "start_date": "2025-10-03",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "Imagica Infos, Imageworks Studio",
+    "genres": [
+      "Fantasy"
+    ],
+    "popularity": 1055,
+    "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 49
