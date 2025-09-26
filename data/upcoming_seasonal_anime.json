@@ -18,7 +18,7 @@
       "Sci-Fi",
       "Supernatural"
     ],
-    "popularity": 91601,
+    "popularity": 91958,
     "favourites": 1353,
     "anilist_score": null,
     "streaming_links": [],
@@ -43,7 +43,7 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 52680,
+    "popularity": 53073,
     "favourites": 480,
     "anilist_score": null,
     "streaming_links": [],
@@ -66,7 +66,7 @@
       "Action",
       "Adventure"
     ],
-    "popularity": 49119,
+    "popularity": 49368,
     "favourites": 621,
     "anilist_score": null,
     "streaming_links": [],
@@ -92,7 +92,7 @@
       "Psychological",
       "Supernatural"
     ],
-    "popularity": 29223,
+    "popularity": 29352,
     "favourites": 290,
     "anilist_score": null,
     "streaming_links": [],
@@ -140,7 +140,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 19581,
+    "popularity": 19747,
     "favourites": 297,
     "anilist_score": null,
     "streaming_links": [],
@@ -166,7 +166,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 15071,
+    "popularity": 15279,
     "favourites": 180,
     "anilist_score": null,
     "streaming_links": [],
@@ -192,35 +192,11 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 13838,
+    "popularity": 14058,
     "favourites": 129,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 8
-  },
-  {
-    "id": 185731,
-    "mal_id": 60564,
-    "name": "Ranma 1/2 (2024) 2nd Season",
-    "english_title": "Ranma1/2 (2024) Season 2",
-    "episode": 1,
-    "release_date": "2025-10-05",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185731-PJ6WKcFDUI4B.jpg",
-    "site_url": "https://anilist.co/anime/185731",
-    "start_date": "2025-10-05",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "MAPPA",
-    "genres": [
-      "Action",
-      "Comedy",
-      "Romance"
-    ],
-    "popularity": 13443,
-    "favourites": 114,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 9
   },
   {
     "id": 186794,
@@ -240,8 +216,32 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 13427,
+    "popularity": 13685,
     "favourites": 183,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 9
+  },
+  {
+    "id": 185731,
+    "mal_id": 60564,
+    "name": "Ranma 1/2 (2024) 2nd Season",
+    "english_title": "Ranma1/2 (2024) Season 2",
+    "episode": 1,
+    "release_date": "2025-10-05",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185731-PJ6WKcFDUI4B.jpg",
+    "site_url": "https://anilist.co/anime/185731",
+    "start_date": "2025-10-05",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "MAPPA",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Romance"
+    ],
+    "popularity": 13554,
+    "favourites": 114,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 10
@@ -286,7 +286,7 @@
       "Drama",
       "Mystery"
     ],
-    "popularity": 10902,
+    "popularity": 11079,
     "favourites": 73,
     "anilist_score": null,
     "streaming_links": [],
@@ -310,7 +310,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 9860,
+    "popularity": 9962,
     "favourites": 115,
     "anilist_score": null,
     "streaming_links": [],
@@ -333,7 +333,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 8436,
+    "popularity": 8635,
     "favourites": 76,
     "anilist_score": null,
     "streaming_links": [],
@@ -356,7 +356,7 @@
       "Drama",
       "Sports"
     ],
-    "popularity": 8187,
+    "popularity": 8330,
     "favourites": 44,
     "anilist_score": null,
     "streaming_links": [],
@@ -369,7 +369,7 @@
     "english_title": null,
     "episode": 1,
     "release_date": "2025-10-02",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b185575-cRHKCLmJI4Fr.jpg",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185575-moQeN8f5xRBv.jpg",
     "site_url": "https://anilist.co/anime/185575",
     "start_date": "2025-10-02",
     "season": "Fall",
@@ -379,7 +379,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 7813,
+    "popularity": 8015,
     "favourites": 64,
     "anilist_score": null,
     "streaming_links": [],
@@ -405,7 +405,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 7752,
+    "popularity": 7829,
     "favourites": 109,
     "anilist_score": null,
     "streaming_links": [],
@@ -427,7 +427,7 @@
     "genres": [
       "Comedy"
     ],
-    "popularity": 7726,
+    "popularity": 7784,
     "favourites": 68,
     "anilist_score": null,
     "streaming_links": [],
@@ -451,7 +451,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 7207,
+    "popularity": 7416,
     "favourites": 108,
     "anilist_score": null,
     "streaming_links": [],
@@ -474,7 +474,7 @@
       "Drama",
       "Sports"
     ],
-    "popularity": 6933,
+    "popularity": 7006,
     "favourites": 54,
     "anilist_score": null,
     "streaming_links": [],
@@ -498,7 +498,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 6841,
+    "popularity": 6998,
     "favourites": 92,
     "anilist_score": null,
     "streaming_links": [],
@@ -518,7 +518,7 @@
     "season_year": 2025,
     "studios": "Studio Kafka, 100studio",
     "genres": [],
-    "popularity": 6102,
+    "popularity": 6237,
     "favourites": 31,
     "anilist_score": null,
     "streaming_links": [],
@@ -542,7 +542,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 6057,
+    "popularity": 6232,
     "favourites": 36,
     "anilist_score": null,
     "streaming_links": [],
@@ -565,7 +565,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 5562,
+    "popularity": 5704,
     "favourites": 74,
     "anilist_score": null,
     "streaming_links": [],
@@ -589,7 +589,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 5502,
+    "popularity": 5666,
     "favourites": 66,
     "anilist_score": null,
     "streaming_links": [],
@@ -613,7 +613,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 5488,
+    "popularity": 5660,
     "favourites": 37,
     "anilist_score": null,
     "streaming_links": [],
@@ -636,11 +636,35 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 5274,
+    "popularity": 5391,
     "favourites": 37,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 27
+  },
+  {
+    "id": 186524,
+    "mal_id": 60933,
+    "name": "Chanto Suenai Kyuuketsuki-chan",
+    "english_title": "Li'l Miss Vampire Can't Suck Right",
+    "episode": 1,
+    "release_date": "2025-10-12",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186524-JSsyFR3FqTO8.jpg",
+    "site_url": "https://anilist.co/anime/186524",
+    "start_date": "2025-10-12",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "feel., Happinet",
+    "genres": [
+      "Comedy",
+      "Slice of Life",
+      "Supernatural"
+    ],
+    "popularity": 4997,
+    "favourites": 42,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 28
   },
   {
     "id": 177271,
@@ -661,32 +685,8 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "popularity": 4917,
+    "popularity": 4964,
     "favourites": 60,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 28
-  },
-  {
-    "id": 186524,
-    "mal_id": 60933,
-    "name": "Chanto Suenai Kyuuketsuki-chan",
-    "english_title": "Li'l Miss Vampire Can't Suck Right",
-    "episode": 1,
-    "release_date": "2025-10-12",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186524-JSsyFR3FqTO8.jpg",
-    "site_url": "https://anilist.co/anime/186524",
-    "start_date": "2025-10-12",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "feel., Happinet",
-    "genres": [
-      "Comedy",
-      "Slice of Life",
-      "Supernatural"
-    ],
-    "popularity": 4875,
-    "favourites": 42,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 29
@@ -710,7 +710,7 @@
       "Romance",
       "Sci-Fi"
     ],
-    "popularity": 4805,
+    "popularity": 4915,
     "favourites": 39,
     "anilist_score": null,
     "streaming_links": [],
@@ -735,7 +735,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 4734,
+    "popularity": 4889,
     "favourites": 61,
     "anilist_score": null,
     "streaming_links": [],
@@ -757,7 +757,7 @@
     "genres": [
       "Romance"
     ],
-    "popularity": 4582,
+    "popularity": 4689,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
@@ -781,7 +781,7 @@
       "Sci-Fi",
       "Slice of Life"
     ],
-    "popularity": 4266,
+    "popularity": 4376,
     "favourites": 24,
     "anilist_score": null,
     "streaming_links": [],
@@ -805,7 +805,7 @@
       "Mystery",
       "Sci-Fi"
     ],
-    "popularity": 4251,
+    "popularity": 4375,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
@@ -830,7 +830,7 @@
       "Romance",
       "Sports"
     ],
-    "popularity": 4206,
+    "popularity": 4326,
     "favourites": 41,
     "anilist_score": null,
     "streaming_links": [],
@@ -854,11 +854,34 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 4152,
+    "popularity": 4239,
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 36
+  },
+  {
+    "id": 173523,
+    "mal_id": 57859,
+    "name": "Egao no Taenai Shokuba desu.",
+    "english_title": "A Mangaka's Weirdly Wonderful Workplace",
+    "episode": 1,
+    "release_date": "2025-10-06",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx173523-wy1rDK1NaKuc.png",
+    "site_url": "https://anilist.co/anime/173523",
+    "start_date": "2025-10-06",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "Voil, Happinet",
+    "genres": [
+      "Comedy",
+      "Slice of Life"
+    ],
+    "popularity": 4212,
+    "favourites": 25,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 37
   },
   {
     "id": 186161,
@@ -878,31 +901,8 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 4136,
+    "popularity": 4201,
     "favourites": 38,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 37
-  },
-  {
-    "id": 173523,
-    "mal_id": 57859,
-    "name": "Egao no Taenai Shokuba desu.",
-    "english_title": "A Mangaka's Weirdly Wonderful Workplace",
-    "episode": 1,
-    "release_date": "2025-10-06",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx173523-wy1rDK1NaKuc.png",
-    "site_url": "https://anilist.co/anime/173523",
-    "start_date": "2025-10-06",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "Voil, Happinet",
-    "genres": [
-      "Comedy",
-      "Slice of Life"
-    ],
-    "popularity": 4128,
-    "favourites": 25,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 38
@@ -924,7 +924,7 @@
       "Drama",
       "Music"
     ],
-    "popularity": 3513,
+    "popularity": 3545,
     "favourites": 32,
     "anilist_score": null,
     "streaming_links": [],
@@ -948,7 +948,7 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "popularity": 3256,
+    "popularity": 3283,
     "favourites": 7,
     "anilist_score": null,
     "streaming_links": [],
@@ -972,7 +972,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 3130,
+    "popularity": 3218,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
@@ -994,7 +994,7 @@
     "genres": [
       "Action"
     ],
-    "popularity": 3080,
+    "popularity": 3099,
     "favourites": 64,
     "anilist_score": null,
     "streaming_links": [],
@@ -1019,7 +1019,7 @@
       "Sci-Fi",
       "Slice of Life"
     ],
-    "popularity": 2636,
+    "popularity": 2750,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
@@ -1043,7 +1043,7 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 1726,
+    "popularity": 1766,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
@@ -1066,7 +1066,7 @@
       "Fantasy",
       "Mystery"
     ],
-    "popularity": 1433,
+    "popularity": 1496,
     "favourites": 5,
     "anilist_score": null,
     "streaming_links": [],
@@ -1089,11 +1089,33 @@
       "Action",
       "Drama"
     ],
-    "popularity": 1345,
+    "popularity": 1383,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 46
+  },
+  {
+    "id": 198561,
+    "mal_id": 62144,
+    "name": "Potion, Wagami wo Tasukeru",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2025-10-03",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198561-ugYb3oLGGdbD.png",
+    "site_url": "https://anilist.co/anime/198561",
+    "start_date": "2025-10-03",
+    "season": "Fall",
+    "season_year": 2025,
+    "studios": "Imagica Infos, Imageworks Studio",
+    "genres": [
+      "Fantasy"
+    ],
+    "popularity": 1148,
+    "favourites": 7,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 47
   },
   {
     "id": 196553,
@@ -1112,30 +1134,8 @@
       "Action",
       "Music"
     ],
-    "popularity": 1081,
+    "popularity": 1130,
     "favourites": 5,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 47
-  },
-  {
-    "id": 198561,
-    "mal_id": 62144,
-    "name": "Potion, Wagami wo Tasukeru",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2025-10-03",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198561-ugYb3oLGGdbD.png",
-    "site_url": "https://anilist.co/anime/198561",
-    "start_date": "2025-10-03",
-    "season": "Fall",
-    "season_year": 2025,
-    "studios": "Imagica Infos, Imageworks Studio",
-    "genres": [
-      "Fantasy"
-    ],
-    "popularity": 1055,
-    "favourites": 7,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 48
