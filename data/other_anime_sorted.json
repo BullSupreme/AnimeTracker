@@ -19,10 +19,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 21480,
+    "popularity": 21760,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 28
+    "popularity_rank": 29
   },
   {
     "id": 180082,
@@ -44,7 +44,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 10372,
+    "popularity": 10588,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 46
@@ -69,7 +69,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 10075,
+    "popularity": 10538,
     "anilist_score": 66,
     "recently_finished": false,
     "popularity_rank": 47
@@ -99,10 +99,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 13347,
+    "popularity": 13774,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 39
+    "popularity_rank": 40
   },
   {
     "id": 180436,
@@ -129,10 +129,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 9675,
+    "popularity": 9857,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 49
+    "popularity_rank": 50
   },
   {
     "id": 177271,
@@ -154,10 +154,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5714,
+    "popularity": 5809,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 68
+    "popularity_rank": 69
   },
   {
     "id": 193968,
@@ -179,10 +179,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5481,
-    "anilist_score": 56,
+    "popularity": 5736,
+    "anilist_score": 57,
     "recently_finished": false,
-    "popularity_rank": 69
+    "popularity_rank": 70
   },
   {
     "id": 174914,
@@ -204,10 +204,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5097,
+    "popularity": 5195,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 75
+    "popularity_rank": 74
   },
   {
     "id": 183385,
@@ -229,35 +229,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 18972,
+    "popularity": 19791,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 31
-  },
-  {
-    "id": 185575,
-    "mal_id": 60531,
-    "name": "Bukiyou na Senpai.",
-    "english_title": "My Awkward Senpai",
-    "episode": 2,
-    "release_date": "2025-10-09",
-    "next_airing_date": "2025-10-09",
-    "next_episode_number": 2,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185575-moQeN8f5xRBv.jpg",
-    "site_url": "https://anilist.co/anime/185575",
-    "start_date": "2025-10-02",
-    "end_date": "2025-12-18",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00365233/my-awkward-senpai",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 12378,
-    "anilist_score": 65,
-    "recently_finished": false,
-    "popularity_rank": 42
   },
   {
     "id": 195153,
@@ -284,10 +259,35 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 12346,
-    "anilist_score": 67,
+    "popularity": 13297,
+    "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 43
+    "popularity_rank": 41
+  },
+  {
+    "id": 185575,
+    "mal_id": 60531,
+    "name": "Bukiyou na Senpai.",
+    "english_title": "My Awkward Senpai",
+    "episode": 2,
+    "release_date": "2025-10-09",
+    "next_airing_date": "2025-10-09",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185575-moQeN8f5xRBv.jpg",
+    "site_url": "https://anilist.co/anime/185575",
+    "start_date": "2025-10-02",
+    "end_date": "2025-12-18",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00365233/my-awkward-senpai",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 13076,
+    "anilist_score": 66,
+    "recently_finished": false,
+    "popularity_rank": 42
   },
   {
     "id": 183291,
@@ -314,8 +314,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 8519,
-    "anilist_score": 66,
+    "popularity": 9102,
+    "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 55
   },
@@ -339,10 +339,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 6967,
-    "anilist_score": 64,
+    "popularity": 7340,
+    "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 62
+    "popularity_rank": 61
   },
   {
     "id": 185116,
@@ -364,45 +364,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5339,
+    "popularity": 5443,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 71
-  },
-  {
-    "id": 178025,
-    "mal_id": 59062,
-    "name": "Gachiakuta",
-    "english_title": "Gachiakuta",
-    "episode": 13,
-    "release_date": null,
-    "next_airing_date": "2025-10-05",
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178025-cWJKEsZynkil.jpg",
-    "site_url": "https://anilist.co/anime/178025",
-    "start_date": "2025-07-06",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@gachiakuta_PR",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GP5HJ84P7/gachiakuta",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JihSS6ypHUEKS1n_6afn-X0",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 122417,
-    "anilist_score": 79,
-    "recently_finished": false,
-    "popularity_rank": 2
   },
   {
     "id": 185965,
@@ -429,10 +394,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 15162,
+    "popularity": 15214,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 36
+    "popularity_rank": 38
   },
   {
     "id": 157692,
@@ -459,7 +424,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4845,
+    "popularity": 4875,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 77
@@ -499,7 +464,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 44916,
+    "popularity": 45171,
     "anilist_score": 65,
     "recently_finished": false,
     "popularity_rank": 16
@@ -516,7 +481,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181447-aCmaQmtdwuU5.jpg",
     "site_url": "https://anilist.co/anime/181447",
     "start_date": "2025-10-04",
-    "end_date": null,
+    "end_date": "2025-12-20",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -524,10 +489,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 20070,
-    "anilist_score": 74,
+    "popularity": 22946,
+    "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 30
+    "popularity_rank": 28
   },
   {
     "id": 169420,
@@ -549,7 +514,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 18760,
+    "popularity": 18862,
     "anilist_score": 59,
     "recently_finished": false,
     "popularity_rank": 32
@@ -574,10 +539,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 14499,
-    "anilist_score": 69,
+    "popularity": 16183,
+    "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 38
+    "popularity_rank": 36
   },
   {
     "id": 184322,
@@ -597,12 +562,17 @@
         "site": "HIDIVE",
         "url": "https://www.hidive.com/season/33099",
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1gBwBsgwk8WFIcWW_YatlT",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 11450,
-    "anilist_score": 64,
+    "popularity": 13016,
+    "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 44
+    "popularity_rank": 43
   },
   {
     "id": 184718,
@@ -629,10 +599,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 4004,
-    "anilist_score": 55,
+    "popularity": 4095,
+    "anilist_score": 56,
     "recently_finished": false,
-    "popularity_rank": 80
+    "popularity_rank": 79
   },
   {
     "id": 153800,
@@ -648,7 +618,7 @@
     "start_date": "2025-10-12",
     "end_date": null,
     "streaming_links": [],
-    "popularity": 95701,
+    "popularity": 96427,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 5
@@ -665,7 +635,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177937-Tzgg6rAdhCoH.jpg",
     "site_url": "https://anilist.co/anime/177937",
     "start_date": "2025-10-04",
-    "end_date": null,
+    "end_date": "2025-12-27",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -674,12 +644,17 @@
       },
       {
         "site": "Hulu",
-        "url": "https://www.hulu.com/hub/anime",
+        "url": "https://www.hulu.com/series/65d158d4-443f-44c7-bd2c-eae39f6c60e9",
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1wGMYg5oB3uEns0CZNl6sI",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 57307,
-    "anilist_score": null,
+    "popularity": 60129,
+    "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 8
   },
@@ -706,12 +681,17 @@
         "site": "Hulu",
         "url": "https://www.hulu.com/series/my-hero-academia-b4859a95-39ba-4051-a550-256c42e70a1d",
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JhWoGB3CGCB6OpSkW5wqUAH",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 52120,
-    "anilist_score": 79,
+    "popularity": 54722,
+    "anilist_score": 80,
     "recently_finished": false,
-    "popularity_rank": 11
+    "popularity_rank": 10
   },
   {
     "id": 162669,
@@ -733,8 +713,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 30745,
-    "anilist_score": null,
+    "popularity": 31767,
+    "anilist_score": 77,
     "recently_finished": false,
     "popularity_rank": 22
   },
@@ -750,7 +730,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129195-9BT4wE1QTLj2.jpg",
     "site_url": "https://anilist.co/anime/129195",
     "start_date": "2025-10-05",
-    "end_date": null,
+    "end_date": "2025-12-21",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -758,10 +738,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23410,
-    "anilist_score": null,
+    "popularity": 25084,
+    "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 27
+    "popularity_rank": 26
   },
   {
     "id": 185731,
@@ -783,8 +763,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 14813,
-    "anilist_score": null,
+    "popularity": 15727,
+    "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 37
   },
@@ -808,10 +788,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 13342,
+    "popularity": 14604,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 40
+    "popularity_rank": 39
   },
   {
     "id": 185801,
@@ -831,10 +811,15 @@
         "site": "Crunchyroll",
         "url": "https://www.crunchyroll.com/series/GZJH3D8J9/let-this-grieving-soul-retire",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl39ouByN0ujsTUV3jnaJVLu",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 11178,
-    "anilist_score": null,
+    "popularity": 12313,
+    "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 45
   },
@@ -863,10 +848,40 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 8681,
-    "anilist_score": null,
+    "popularity": 9441,
+    "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 53
+  },
+  {
+    "id": 188487,
+    "mal_id": 61276,
+    "name": "Mikata ga Yowa Sugite Hojo Mahou ni Toushite Ita Kyuutei Mahoushi, Tsuihou Sarete Saikyou wo Mezasu",
+    "english_title": "The Banished Court Magician Aims to Become the Strongest",
+    "episode": 1,
+    "release_date": "2025-10-04",
+    "next_airing_date": "2025-10-11",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188487-gewgvReLVli9.jpg",
+    "site_url": "https://anilist.co/anime/188487",
+    "start_date": "2025-10-04",
+    "end_date": "2025-12-20",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364918/the-banished-court-magician-aims-to-become-the-strongest",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://youtube.com/playlist?list=PLxSscENEp7JjE60E-VU9vG2WX5y73ONWG&si=hvN1TPwrFHs-drF5",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 9288,
+    "anilist_score": 58,
+    "recently_finished": false,
+    "popularity_rank": 54
   },
   {
     "id": 187940,
@@ -888,40 +903,35 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7718,
-    "anilist_score": null,
+    "popularity": 9031,
+    "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 59
+    "popularity_rank": 56
   },
   {
-    "id": 188487,
-    "mal_id": 61276,
-    "name": "Mikata ga Yowa Sugite Hojo Mahou ni Toushite Ita Kyuutei Mahoushi, Tsuihou Sarete Saikyou wo Mezasu",
-    "english_title": "The Banished Court Magician Aims to Become the Strongest",
+    "id": 186920,
+    "mal_id": 61072,
+    "name": "Shuumatsu Touring",
+    "english_title": "Touring After the Apocalypse",
     "episode": 1,
     "release_date": "2025-10-04",
     "next_airing_date": "2025-10-11",
     "next_episode_number": 2,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188487-gewgvReLVli9.jpg",
-    "site_url": "https://anilist.co/anime/188487",
-    "start_date": "2025-10-04",
-    "end_date": null,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186920-nrYITcE4TEuk.jpg",
+    "site_url": "https://anilist.co/anime/186920",
+    "start_date": "2025-10-05",
+    "end_date": "2025-12-21",
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00364918/the-banished-court-magician-aims-to-become-the-strongest",
+        "url": "https://www.crunchyroll.com/series/GT00364667/touring-after-the-apocalypse",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://youtube.com/playlist?list=PLxSscENEp7JjE60E-VU9vG2WX5y73ONWG&si=hvN1TPwrFHs-drF5",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 7283,
-    "anilist_score": null,
+    "popularity": 6181,
+    "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 60
+    "popularity_rank": 67
   },
   {
     "id": 186524,
@@ -943,35 +953,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5956,
+    "popularity": 6094,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 67
-  },
-  {
-    "id": 186920,
-    "mal_id": 61072,
-    "name": "Shuumatsu Touring",
-    "english_title": "Touring After the Apocalypse",
-    "episode": 1,
-    "release_date": "2025-10-04",
-    "next_airing_date": "2025-10-11",
-    "next_episode_number": 2,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186920-nrYITcE4TEuk.jpg",
-    "site_url": "https://anilist.co/anime/186920",
-    "start_date": "2025-10-05",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00364667/touring-after-the-apocalypse",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 5348,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 70
+    "popularity_rank": 68
   },
   {
     "id": 186161,
@@ -993,10 +978,35 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4733,
+    "popularity": 4798,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 78
+  },
+  {
+    "id": 187464,
+    "mal_id": 61159,
+    "name": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
+    "english_title": "Tojima Wants to Be a Kamen Rider",
+    "episode": 1,
+    "release_date": "2025-10-04",
+    "next_airing_date": "2025-10-11",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187464-NJtK3VC54vPm.jpg",
+    "site_url": "https://anilist.co/anime/187464",
+    "start_date": "2025-10-05",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364945/tojima-wants-to-be-a-kamen-rider",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 3993,
+    "anilist_score": 66,
+    "recently_finished": false,
+    "popularity_rank": 81
   },
   {
     "id": 184642,
@@ -1018,10 +1028,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
       }
     ],
-    "popularity": 3561,
+    "popularity": 3596,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 84
+    "popularity_rank": 85
   },
   {
     "id": 190840,
@@ -1048,33 +1058,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 3354,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 85
-  },
-  {
-    "id": 187464,
-    "mal_id": 61159,
-    "name": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
-    "english_title": "Tojima Wants to Be a Kamen Rider",
-    "episode": 1,
-    "release_date": "2025-10-04",
-    "next_airing_date": "2025-10-11",
-    "next_episode_number": 2,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187464-NJtK3VC54vPm.jpg",
-    "site_url": "https://anilist.co/anime/187464",
-    "start_date": "2025-10-05",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://crunchyroll.com",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 3134,
-    "anilist_score": null,
+    "popularity": 3561,
+    "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 86
   }
