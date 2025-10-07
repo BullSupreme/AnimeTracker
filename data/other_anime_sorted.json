@@ -19,7 +19,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 20446,
+    "popularity": 20847,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 28
@@ -49,10 +49,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 13978,
+    "popularity": 14395,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 38
+    "popularity_rank": 39
   },
   {
     "id": 185575,
@@ -74,7 +74,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 13642,
+    "popularity": 14031,
     "anilist_score": 66,
     "recently_finished": false,
     "popularity_rank": 40
@@ -104,7 +104,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 9538,
+    "popularity": 9811,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 52
@@ -129,10 +129,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 7658,
+    "popularity": 7845,
     "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 59
+    "popularity_rank": 60
   },
   {
     "id": 181447,
@@ -154,7 +154,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 24877,
+    "popularity": 26368,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 25
@@ -179,7 +179,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 17441,
+    "popularity": 18290,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 32
@@ -209,10 +209,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 13939,
-    "anilist_score": 64,
+    "popularity": 14573,
+    "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 39
+    "popularity_rank": 37
   },
   {
     "id": 184718,
@@ -239,10 +239,35 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 4171,
+    "popularity": 4219,
     "anilist_score": 56,
     "recently_finished": false,
     "popularity_rank": 78
+  },
+  {
+    "id": 184997,
+    "mal_id": 60378,
+    "name": "Shabake",
+    "english_title": "Shabake",
+    "episode": 2,
+    "release_date": "2025-10-10",
+    "next_airing_date": "2025-10-10",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184997-CnmvTLC9JQP0.jpg",
+    "site_url": "https://anilist.co/anime/184997",
+    "start_date": "2025-10-03",
+    "end_date": "2025-12-26",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00362195/shabake",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 3074,
+    "anilist_score": 56,
+    "recently_finished": false,
+    "popularity_rank": 84
   },
   {
     "id": 153800,
@@ -258,7 +283,7 @@
     "start_date": "2025-10-12",
     "end_date": null,
     "streaming_links": [],
-    "popularity": 97715,
+    "popularity": 98427,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 5
@@ -293,7 +318,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 62211,
+    "popularity": 63312,
     "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 8
@@ -328,7 +353,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 56256,
+    "popularity": 57146,
     "anilist_score": 80,
     "recently_finished": false,
     "popularity_rank": 9
@@ -353,7 +378,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 32565,
+    "popularity": 32985,
     "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 20
@@ -378,7 +403,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 26215,
+    "popularity": 26764,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 24
@@ -403,7 +428,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 16422,
+    "popularity": 16775,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 34
@@ -428,7 +453,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 15497,
+    "popularity": 16052,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 35
@@ -458,7 +483,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 13095,
+    "popularity": 13493,
     "anilist_score": 70,
     "recently_finished": false,
     "popularity_rank": 41
@@ -488,10 +513,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 10406,
-    "anilist_score": 59,
+    "popularity": 10974,
+    "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 47
+    "popularity_rank": 46
   },
   {
     "id": 176298,
@@ -518,7 +543,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 9834,
+    "popularity": 10037,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 49
@@ -543,10 +568,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 9618,
-    "anilist_score": 64,
+    "popularity": 9948,
+    "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 51
+    "popularity_rank": 50
   },
   {
     "id": 186920,
@@ -568,10 +593,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 6607,
+    "popularity": 6797,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 62
+    "popularity_rank": 63
   },
   {
     "id": 186524,
@@ -593,7 +618,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 6231,
+    "popularity": 6324,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 65
@@ -618,10 +643,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5541,
+    "popularity": 5635,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 69
+    "popularity_rank": 70
   },
   {
     "id": 187464,
@@ -643,10 +668,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4819,
+    "popularity": 5291,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 77
+    "popularity_rank": 73
   },
   {
     "id": 190840,
@@ -673,7 +698,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 3764,
+    "popularity": 3869,
     "anilist_score": 77,
     "recently_finished": false,
     "popularity_rank": 82
@@ -713,7 +738,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 45406,
+    "popularity": 45632,
     "anilist_score": 65,
     "recently_finished": false,
     "popularity_rank": 15
@@ -738,10 +763,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 18929,
+    "popularity": 18978,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 29
+    "popularity_rank": 30
   },
   {
     "id": 185965,
@@ -768,7 +793,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 15252,
+    "popularity": 15283,
     "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 36
@@ -798,10 +823,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4913,
+    "popularity": 4938,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 75
+    "popularity_rank": 76
   },
   {
     "id": 178025,
@@ -833,7 +858,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 123615,
+    "popularity": 124354,
     "anilist_score": 79,
     "recently_finished": false,
     "popularity_rank": 2
@@ -863,10 +888,40 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 10531,
+    "popularity": 10948,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 46
+    "popularity_rank": 47
+  },
+  {
+    "id": 173692,
+    "mal_id": 57888,
+    "name": "Chichi wa Eiyuu, Haha wa Seirei, Musume no Watashi wa Tenseisha.",
+    "english_title": "Dad is a Hero, Mom is a Spirit, I'm a Reincarnator",
+    "episode": 1,
+    "release_date": "2025-10-05",
+    "next_airing_date": "2025-10-12",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx173692-shp7PGRQyCQl.jpg",
+    "site_url": "https://anilist.co/anime/173692",
+    "start_date": "2025-10-05",
+    "end_date": "2025-12-21",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364479/dad-is-a-hero-mom-is-a-spirit-im-a-reincarnator",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://youtube.com/playlist?list=PLxSscENEp7Jiu6HlKwcOdoXw3VczOGSw-&si=4gcyqf0hzD_fix5W",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 9914,
+    "anilist_score": 67,
+    "recently_finished": false,
+    "popularity_rank": 51
   },
   {
     "id": 195240,
@@ -898,40 +953,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 9364,
+    "popularity": 9780,
     "anilist_score": 79,
     "recently_finished": false,
-    "popularity_rank": 54
-  },
-  {
-    "id": 173692,
-    "mal_id": 57888,
-    "name": "Chichi wa Eiyuu, Haha wa Seirei, Musume no Watashi wa Tenseisha.",
-    "english_title": "Dad is a Hero, Mom is a Spirit, I'm a Reincarnator",
-    "episode": 1,
-    "release_date": "2025-10-05",
-    "next_airing_date": "2025-10-12",
-    "next_episode_number": 2,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx173692-shp7PGRQyCQl.jpg",
-    "site_url": "https://anilist.co/anime/173692",
-    "start_date": "2025-10-05",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00364479/dad-is-a-hero-mom-is-a-spirit-im-a-reincarnator",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://youtube.com/playlist?list=PLxSscENEp7Jiu6HlKwcOdoXw3VczOGSw-&si=4gcyqf0hzD_fix5W",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 9025,
-    "anilist_score": 66,
-    "recently_finished": false,
-    "popularity_rank": 55
+    "popularity_rank": 53
   },
   {
     "id": 179992,
@@ -958,10 +983,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 7508,
-    "anilist_score": 62,
+    "popularity": 8029,
+    "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 60
+    "popularity_rank": 58
   },
   {
     "id": 187331,
@@ -983,10 +1008,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 6294,
-    "anilist_score": 58,
+    "popularity": 6874,
+    "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 64
+    "popularity_rank": 62
   },
   {
     "id": 186190,
@@ -1008,10 +1033,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4938,
-    "anilist_score": 64,
+    "popularity": 5427,
+    "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 74
+    "popularity_rank": 71
   },
   {
     "id": 178052,
@@ -1038,7 +1063,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 4054,
+    "popularity": 4056,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 79
@@ -1063,8 +1088,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 3971,
-    "anilist_score": 59,
+    "popularity": 4023,
+    "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 80
   },
@@ -1103,7 +1128,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 633768,
+    "popularity": 633956,
     "anilist_score": 88,
     "recently_finished": false,
     "popularity_rank": 1
@@ -1126,12 +1151,17 @@
         "site": "Crunchyroll",
         "url": "https://www.crunchyroll.com/series/G0XHWM1JP/my-status-as-an-assassin-obviously-exceeds-the-heros",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0dSCBzzknNWxuXuMJ0xwmk",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 17271,
-    "anilist_score": null,
+    "popularity": 20496,
+    "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 33
+    "popularity_rank": 29
   },
   {
     "id": 187663,
@@ -1158,10 +1188,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 10720,
+    "popularity": 11451,
     "anilist_score": 56,
     "recently_finished": false,
-    "popularity_rank": 45
+    "popularity_rank": 43
   },
   {
     "id": 162890,
@@ -1191,12 +1221,17 @@
         "site": "Crunchyroll",
         "url": "https://www.crunchyroll.com/series/GT00365105/gintama-mr-ginpachis-zany-class",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Hulu",
+        "url": "https://www.hulu.com/series/67757c50-057c-4503-ba0e-6a826590db65",
+        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 8562,
-    "anilist_score": null,
+    "popularity": 9203,
+    "anilist_score": 77,
     "recently_finished": false,
-    "popularity_rank": 57
+    "popularity_rank": 56
   },
   {
     "id": 173523,
@@ -1210,7 +1245,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx173523-wy1rDK1NaKuc.png",
     "site_url": "https://anilist.co/anime/173523",
     "start_date": "2025-10-06",
-    "end_date": null,
+    "end_date": "2025-12-29",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -1218,10 +1253,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5195,
-    "anilist_score": null,
+    "popularity": 5985,
+    "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 72
+    "popularity_rank": 68
   },
   {
     "id": 186161,
@@ -1243,10 +1278,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4862,
+    "popularity": 4921,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 76
+    "popularity_rank": 77
   },
   {
     "id": 184642,
@@ -1268,7 +1303,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
       }
     ],
-    "popularity": 3624,
+    "popularity": 3653,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 83
