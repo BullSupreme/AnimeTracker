@@ -223,8 +223,8 @@
     "mal_id": 59027,
     "name": "SPY×FAMILY Season 3",
     "english_title": "SPY x FAMILY Season 3",
-    "episode": 1,
-    "release_date": "2025-10-04",
+    "episode": 2,
+    "release_date": "2025-10-11",
     "next_airing_date": "2025-10-11",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177937-Tzgg6rAdhCoH.jpg",
@@ -258,8 +258,8 @@
     "mal_id": 60098,
     "name": "Boku no Hero Academia FINAL SEASON",
     "english_title": "My Hero Academia FINAL SEASON",
-    "episode": 1,
-    "release_date": "2025-10-04",
+    "episode": 2,
+    "release_date": "2025-10-11",
     "next_airing_date": "2025-10-11",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182896-mvxTVHGdDB4q.jpg",
@@ -419,36 +419,6 @@
     "popularity_rank": 14
   },
   {
-    "id": 182309,
-    "mal_id": 59986,
-    "name": "Grand Blue Season 2",
-    "english_title": "Grand Blue Dreaming Season 2",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182309-tThxqSRn3At1.jpg",
-    "site_url": "https://anilist.co/anime/182309",
-    "start_date": "2025-07-08",
-    "end_date": "2025-09-23",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GNVHKN94W/grand-blue-dreaming",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLbuF5Onrcu9euvzKp4BbWaV1NJYw2PoDT",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 45679,
-    "anilist_score": 83,
-    "recently_finished": true,
-    "popularity_rank": 15
-  },
-  {
     "id": 177474,
     "mal_id": 58811,
     "name": "Tougen Anki",
@@ -486,7 +456,7 @@
     "popularity": 45406,
     "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 16
+    "popularity_rank": 15
   },
   {
     "id": 143598,
@@ -516,7 +486,7 @@
     "popularity": 42935,
     "anilist_score": 70,
     "recently_finished": true,
-    "popularity_rank": 17
+    "popularity_rank": 16
   },
   {
     "id": 178090,
@@ -541,7 +511,7 @@
     "popularity": 40009,
     "anilist_score": 76,
     "recently_finished": true,
-    "popularity_rank": 18
+    "popularity_rank": 17
   },
   {
     "id": 178433,
@@ -571,7 +541,7 @@
     "popularity": 34297,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 19
+    "popularity_rank": 18
   },
   {
     "id": 181841,
@@ -596,40 +566,15 @@
     "popularity": 34014,
     "anilist_score": 80,
     "recently_finished": true,
-    "popularity_rank": 20
-  },
-  {
-    "id": 184591,
-    "mal_id": 60326,
-    "name": "Watashi ga Koibito ni Nareru Wake Naijan, Murimuri! (※Muri ja Nakatta!?)",
-    "english_title": "There's No Freaking Way I'll Be Your Lover! Unless…",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184591-jRXZ29bN61Zc.jpg",
-    "site_url": "https://anilist.co/anime/184591",
-    "start_date": "2025-07-08",
-    "end_date": "2025-09-23",
-    "streaming_links": [
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/watch?v=wyyXL__Awlk&list=PLhGamQZtJ7K8yocPHbrtrYmX8NdN6hvOW",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 33638,
-    "anilist_score": 76,
-    "recently_finished": true,
-    "popularity_rank": 21
+    "popularity_rank": 19
   },
   {
     "id": 162669,
     "mal_id": 54703,
     "name": "Fumetsu no Anata e Season 3",
     "english_title": "To Your Eternity Season 3",
-    "episode": 1,
-    "release_date": "2025-10-04",
+    "episode": 2,
+    "release_date": "2025-10-11",
     "next_airing_date": "2025-10-11",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162669-FLYUTftoXgMh.jpg",
@@ -646,7 +591,7 @@
     "popularity": 32565,
     "anilist_score": 78,
     "recently_finished": false,
-    "popularity_rank": 22
+    "popularity_rank": 20
   },
   {
     "id": 151799,
@@ -671,7 +616,7 @@
     "popularity": 30438,
     "anilist_score": 79,
     "recently_finished": true,
-    "popularity_rank": 23
+    "popularity_rank": 21
   },
   {
     "id": 180929,
@@ -696,7 +641,7 @@
     "popularity": 27825,
     "anilist_score": 79,
     "recently_finished": true,
-    "popularity_rank": 24
+    "popularity_rank": 22
   },
   {
     "id": 143200,
@@ -726,15 +671,15 @@
     "popularity": 27509,
     "anilist_score": 71,
     "recently_finished": true,
-    "popularity_rank": 25
+    "popularity_rank": 23
   },
   {
     "id": 129195,
     "mal_id": 47158,
     "name": "Tomodachi no Imouto ga Ore ni dake Uzai",
     "english_title": "My Friend's Little Sister Has It In for Me!",
-    "episode": 1,
-    "release_date": "2025-10-04",
+    "episode": 2,
+    "release_date": "2025-10-11",
     "next_airing_date": "2025-10-11",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129195-9BT4wE1QTLj2.jpg",
@@ -751,7 +696,7 @@
     "popularity": 26215,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 26
+    "popularity_rank": 24
   },
   {
     "id": 181447,
@@ -776,7 +721,7 @@
     "popularity": 24877,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 27
+    "popularity_rank": 25
   },
   {
     "id": 174188,
@@ -795,7 +740,7 @@
     "popularity": 24400,
     "anilist_score": 68,
     "recently_finished": true,
-    "popularity_rank": 28
+    "popularity_rank": 26
   },
   {
     "id": 170577,
@@ -820,7 +765,7 @@
     "popularity": 22008,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 29
+    "popularity_rank": 27
   },
   {
     "id": 183385,
@@ -845,32 +790,7 @@
     "popularity": 20446,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 30
-  },
-  {
-    "id": 179828,
-    "mal_id": 59402,
-    "name": "Kakkou no Iinazuke Season 2",
-    "english_title": "A Couple of Cuckoos Season 2",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179828-Yc1b1R2dxQyc.jpg",
-    "site_url": "https://anilist.co/anime/179828",
-    "start_date": "2025-07-08",
-    "end_date": "2025-09-23",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GXJHM39MP/a-couple-of-cuckoos",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 20288,
-    "anilist_score": 66,
-    "recently_finished": true,
-    "popularity_rank": 31
+    "popularity_rank": 28
   },
   {
     "id": 169420,
@@ -895,7 +815,7 @@
     "popularity": 18929,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 32
+    "popularity_rank": 29
   },
   {
     "id": 177476,
@@ -930,7 +850,7 @@
     "popularity": 18680,
     "anilist_score": 71,
     "recently_finished": true,
-    "popularity_rank": 33
+    "popularity_rank": 30
   },
   {
     "id": 184639,
@@ -965,7 +885,7 @@
     "popularity": 17744,
     "anilist_score": 75,
     "recently_finished": true,
-    "popularity_rank": 34
+    "popularity_rank": 31
   },
   {
     "id": 179302,
@@ -990,7 +910,7 @@
     "popularity": 17441,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 35
+    "popularity_rank": 32
   },
   {
     "id": 186794,
@@ -1015,15 +935,15 @@
     "popularity": 17271,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 36
+    "popularity_rank": 33
   },
   {
     "id": 185731,
     "mal_id": 60564,
     "name": "Ranma 1/2 (2024) 2nd Season",
     "english_title": "Ranma1/2 (2024) Season 2",
-    "episode": 1,
-    "release_date": "2025-10-04",
+    "episode": 2,
+    "release_date": "2025-10-11",
     "next_airing_date": "2025-10-11",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185731-PJ6WKcFDUI4B.jpg",
@@ -1040,15 +960,15 @@
     "popularity": 16422,
     "anilist_score": 76,
     "recently_finished": false,
-    "popularity_rank": 37
+    "popularity_rank": 34
   },
   {
     "id": 180523,
     "mal_id": 59644,
     "name": "Yasei no Last Boss ga Arawareta!",
     "english_title": "A Wild Last Boss Appeared!",
-    "episode": 2,
-    "release_date": "2025-10-04",
+    "episode": 3,
+    "release_date": "2025-10-11",
     "next_airing_date": "2025-10-11",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180523-FjvW1XByUNMK.jpg",
@@ -1065,7 +985,7 @@
     "popularity": 15497,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 38
+    "popularity_rank": 35
   },
   {
     "id": 185965,
@@ -1095,7 +1015,7 @@
     "popularity": 15252,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 39
+    "popularity_rank": 36
   },
   {
     "id": 169969,
@@ -1125,7 +1045,7 @@
     "popularity": 14185,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 40
+    "popularity_rank": 37
   },
   {
     "id": 195153,
@@ -1155,7 +1075,7 @@
     "popularity": 13978,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 41
+    "popularity_rank": 38
   },
   {
     "id": 184322,
@@ -1185,7 +1105,7 @@
     "popularity": 13939,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 42
+    "popularity_rank": 39
   },
   {
     "id": 185575,
@@ -1210,21 +1130,21 @@
     "popularity": 13642,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 43
+    "popularity_rank": 40
   },
   {
     "id": 185801,
     "mal_id": 60619,
     "name": "Nageki no Bourei wa Intai shitai 2",
     "english_title": "Let This Grieving Soul Retire Cour 2",
-    "episode": 1,
-    "release_date": "2025-10-04",
+    "episode": 2,
+    "release_date": "2025-10-11",
     "next_airing_date": "2025-10-11",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185801-HaxWxYlkFnRg.png",
     "site_url": "https://anilist.co/anime/185801",
     "start_date": "2025-10-04",
-    "end_date": null,
+    "end_date": "2025-12-13",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -1240,7 +1160,7 @@
     "popularity": 13095,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 44
+    "popularity_rank": 41
   },
   {
     "id": 180794,
@@ -1265,7 +1185,7 @@
     "popularity": 12473,
     "anilist_score": 64,
     "recently_finished": true,
-    "popularity_rank": 45
+    "popularity_rank": 42
   },
   {
     "id": 183965,
@@ -1290,7 +1210,7 @@
     "popularity": 10949,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 46
+    "popularity_rank": 43
   },
   {
     "id": 180082,
@@ -1315,7 +1235,7 @@
     "popularity": 10831,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 47
+    "popularity_rank": 44
   },
   {
     "id": 187663,
@@ -1345,7 +1265,7 @@
     "popularity": 10720,
     "anilist_score": 56,
     "recently_finished": false,
-    "popularity_rank": 48
+    "popularity_rank": 45
   },
   {
     "id": 165530,
@@ -1375,15 +1295,15 @@
     "popularity": 10531,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 49
+    "popularity_rank": 46
   },
   {
     "id": 188487,
     "mal_id": 61276,
     "name": "Mikata ga Yowa Sugite Hojo Mahou ni Toushite Ita Kyuutei Mahoushi, Tsuihou Sarete Saikyou wo Mezasu",
     "english_title": "The Banished Court Magician Aims to Become the Strongest",
-    "episode": 1,
-    "release_date": "2025-10-04",
+    "episode": 2,
+    "release_date": "2025-10-11",
     "next_airing_date": "2025-10-11",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188487-gewgvReLVli9.jpg",
@@ -1405,7 +1325,7 @@
     "popularity": 10406,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 50
+    "popularity_rank": 47
   },
   {
     "id": 180436,
@@ -1435,15 +1355,15 @@
     "popularity": 10038,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 51
+    "popularity_rank": 48
   },
   {
     "id": 176298,
     "mal_id": 58515,
     "name": "Kekkon Yubiwa Monogatari II",
     "english_title": "Tales of Wedding Rings Season 2",
-    "episode": 1,
-    "release_date": "2025-10-04",
+    "episode": 2,
+    "release_date": "2025-10-11",
     "next_airing_date": "2025-10-11",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176298-fK1c8bBA73WQ.jpg",
@@ -1465,7 +1385,7 @@
     "popularity": 9834,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 52
+    "popularity_rank": 49
   },
   {
     "id": 179678,
@@ -1490,15 +1410,15 @@
     "popularity": 9658,
     "anilist_score": 64,
     "recently_finished": true,
-    "popularity_rank": 53
+    "popularity_rank": 50
   },
   {
     "id": 187940,
     "mal_id": 61209,
     "name": "Kao ni Denai Kashiwada-san to Kao ni Deru Oota-kun",
     "english_title": "Inexpressive Kashiwada and Expressive Oota",
-    "episode": 1,
-    "release_date": "2025-10-04",
+    "episode": 2,
+    "release_date": "2025-10-11",
     "next_airing_date": "2025-10-11",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187940-3ugUhO9h0luh.jpg",
@@ -1515,7 +1435,7 @@
     "popularity": 9618,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 54
+    "popularity_rank": 51
   },
   {
     "id": 183291,
@@ -1545,7 +1465,7 @@
     "popularity": 9538,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 55
+    "popularity_rank": 52
   },
   {
     "id": 156395,
@@ -1564,7 +1484,7 @@
     "popularity": 9485,
     "anilist_score": 69,
     "recently_finished": true,
-    "popularity_rank": 56
+    "popularity_rank": 53
   },
   {
     "id": 195240,
@@ -1599,7 +1519,7 @@
     "popularity": 9364,
     "anilist_score": 79,
     "recently_finished": false,
-    "popularity_rank": 57
+    "popularity_rank": 54
   },
   {
     "id": 173692,
@@ -1629,7 +1549,7 @@
     "popularity": 9025,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 58
+    "popularity_rank": 55
   },
   {
     "id": 159483,
@@ -1654,7 +1574,7 @@
     "popularity": 8710,
     "anilist_score": 62,
     "recently_finished": true,
-    "popularity_rank": 59
+    "popularity_rank": 56
   },
   {
     "id": 162890,
@@ -1689,7 +1609,7 @@
     "popularity": 8562,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 60
+    "popularity_rank": 57
   },
   {
     "id": 184034,
@@ -1719,7 +1639,7 @@
     "popularity": 8022,
     "anilist_score": 63,
     "recently_finished": true,
-    "popularity_rank": 61
+    "popularity_rank": 58
   },
   {
     "id": 186621,
@@ -1744,7 +1664,7 @@
     "popularity": 7658,
     "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 62
+    "popularity_rank": 59
   },
   {
     "id": 179992,
@@ -1774,7 +1694,7 @@
     "popularity": 7508,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 63
+    "popularity_rank": 60
   },
   {
     "id": 186003,
@@ -1799,15 +1719,15 @@
     "popularity": 6881,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 64
+    "popularity_rank": 61
   },
   {
     "id": 186920,
     "mal_id": 61072,
     "name": "Shuumatsu Touring",
     "english_title": "Touring After the Apocalypse",
-    "episode": 1,
-    "release_date": "2025-10-04",
+    "episode": 2,
+    "release_date": "2025-10-11",
     "next_airing_date": "2025-10-11",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186920-nrYITcE4TEuk.jpg",
@@ -1824,7 +1744,7 @@
     "popularity": 6607,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 65
+    "popularity_rank": 62
   },
   {
     "id": 168537,
@@ -1849,7 +1769,7 @@
     "popularity": 6328,
     "anilist_score": 51,
     "recently_finished": true,
-    "popularity_rank": 66
+    "popularity_rank": 63
   },
   {
     "id": 187331,
@@ -1874,7 +1794,7 @@
     "popularity": 6294,
     "anilist_score": 58,
     "recently_finished": false,
-    "popularity_rank": 67
+    "popularity_rank": 64
   },
   {
     "id": 186524,
@@ -1899,7 +1819,7 @@
     "popularity": 6231,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 68
+    "popularity_rank": 65
   },
   {
     "id": 183127,
@@ -1929,7 +1849,7 @@
     "popularity": 6204,
     "anilist_score": 74,
     "recently_finished": true,
-    "popularity_rank": 69
+    "popularity_rank": 66
   },
   {
     "id": 193968,
@@ -1954,7 +1874,7 @@
     "popularity": 5946,
     "anilist_score": 57,
     "recently_finished": false,
-    "popularity_rank": 70
+    "popularity_rank": 67
   },
   {
     "id": 177271,
@@ -1979,7 +1899,7 @@
     "popularity": 5874,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 71
+    "popularity_rank": 68
   },
   {
     "id": 185116,
@@ -2004,7 +1924,7 @@
     "popularity": 5541,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 72
+    "popularity_rank": 69
   },
   {
     "id": 174914,
@@ -2029,7 +1949,7 @@
     "popularity": 5303,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 73
+    "popularity_rank": 70
   },
   {
     "id": 177761,
@@ -2048,7 +1968,7 @@
     "popularity": 5254,
     "anilist_score": 53,
     "recently_finished": true,
-    "popularity_rank": 74
+    "popularity_rank": 71
   },
   {
     "id": 173523,
@@ -2073,7 +1993,7 @@
     "popularity": 5195,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 75
+    "popularity_rank": 72
   },
   {
     "id": 173335,
@@ -2098,7 +2018,7 @@
     "popularity": 5150,
     "anilist_score": 53,
     "recently_finished": true,
-    "popularity_rank": 76
+    "popularity_rank": 73
   },
   {
     "id": 186190,
@@ -2123,7 +2043,7 @@
     "popularity": 4938,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 77
+    "popularity_rank": 74
   },
   {
     "id": 157692,
@@ -2153,7 +2073,7 @@
     "popularity": 4913,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 78
+    "popularity_rank": 75
   },
   {
     "id": 186161,
@@ -2178,15 +2098,15 @@
     "popularity": 4862,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 79
+    "popularity_rank": 76
   },
   {
     "id": 187464,
     "mal_id": 61159,
     "name": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
     "english_title": "Tojima Wants to Be a Kamen Rider",
-    "episode": 1,
-    "release_date": "2025-10-04",
+    "episode": 2,
+    "release_date": "2025-10-11",
     "next_airing_date": "2025-10-11",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187464-NJtK3VC54vPm.jpg",
@@ -2203,7 +2123,7 @@
     "popularity": 4819,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 80
+    "popularity_rank": 77
   },
   {
     "id": 184718,
@@ -2233,7 +2153,7 @@
     "popularity": 4171,
     "anilist_score": 56,
     "recently_finished": false,
-    "popularity_rank": 81
+    "popularity_rank": 78
   },
   {
     "id": 178052,
@@ -2263,12 +2183,12 @@
     "popularity": 4054,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 82
+    "popularity_rank": 79
   },
   {
     "id": 170018,
     "mal_id": 56877,
-    "name": "Ao no Orchestra 2nd Season",
+    "name": "Ao no Orchestra Season 2",
     "english_title": null,
     "episode": 1,
     "release_date": "2025-10-05",
@@ -2288,7 +2208,7 @@
     "popularity": 3971,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 83
+    "popularity_rank": 80
   },
   {
     "id": 195209,
@@ -2313,15 +2233,15 @@
     "popularity": 3908,
     "anilist_score": 60,
     "recently_finished": true,
-    "popularity_rank": 84
+    "popularity_rank": 81
   },
   {
     "id": 190840,
     "mal_id": 61517,
     "name": "Kingdom 6th Season",
     "english_title": "Kingdom Season 6",
-    "episode": 1,
-    "release_date": "2025-10-04",
+    "episode": 2,
+    "release_date": "2025-10-11",
     "next_airing_date": "2025-10-11",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx190840-CvKAz6aWHB21.png",
@@ -2343,7 +2263,7 @@
     "popularity": 3764,
     "anilist_score": 77,
     "recently_finished": false,
-    "popularity_rank": 85
+    "popularity_rank": 82
   },
   {
     "id": 184642,
@@ -2368,6 +2288,6 @@
     "popularity": 3624,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 86
+    "popularity_rank": 83
   }
 ]
