@@ -44,8 +44,8 @@
     "mal_id": 59062,
     "name": "Gachiakuta",
     "english_title": "Gachiakuta",
-    "episode": 13,
-    "release_date": "2025-10-05",
+    "episode": 14,
+    "release_date": null,
     "next_airing_date": "2025-10-12",
     "next_episode_number": 14,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178025-cWJKEsZynkil.jpg",
@@ -394,31 +394,6 @@
     "popularity_rank": 13
   },
   {
-    "id": 173780,
-    "mal_id": 57907,
-    "name": "Tate no Yuusha no Nariagari Season 4",
-    "english_title": "The Rising of the Shield Hero Season 4",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx173780-O7v1YfXg61JT.png",
-    "site_url": "https://anilist.co/anime/173780",
-    "start_date": "2025-07-09",
-    "end_date": "2025-09-24",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G6W4QKX0R/the-rising-of-the-shield-hero",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 49823,
-    "anilist_score": 70,
-    "recently_finished": true,
-    "popularity_rank": 14
-  },
-  {
     "id": 177474,
     "mal_id": 58811,
     "name": "Tougen Anki",
@@ -456,7 +431,7 @@
     "popularity": 45632,
     "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 15
+    "popularity_rank": 14
   },
   {
     "id": 143598,
@@ -486,7 +461,7 @@
     "popularity": 42980,
     "anilist_score": 70,
     "recently_finished": true,
-    "popularity_rank": 16
+    "popularity_rank": 15
   },
   {
     "id": 178090,
@@ -511,7 +486,7 @@
     "popularity": 40135,
     "anilist_score": 76,
     "recently_finished": true,
-    "popularity_rank": 17
+    "popularity_rank": 16
   },
   {
     "id": 178433,
@@ -541,7 +516,7 @@
     "popularity": 34420,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 18
+    "popularity_rank": 17
   },
   {
     "id": 181841,
@@ -566,7 +541,7 @@
     "popularity": 34083,
     "anilist_score": 80,
     "recently_finished": true,
-    "popularity_rank": 19
+    "popularity_rank": 18
   },
   {
     "id": 162669,
@@ -591,7 +566,7 @@
     "popularity": 32985,
     "anilist_score": 78,
     "recently_finished": false,
-    "popularity_rank": 20
+    "popularity_rank": 19
   },
   {
     "id": 151799,
@@ -616,7 +591,7 @@
     "popularity": 30479,
     "anilist_score": 79,
     "recently_finished": true,
-    "popularity_rank": 21
+    "popularity_rank": 20
   },
   {
     "id": 180929,
@@ -641,7 +616,7 @@
     "popularity": 27947,
     "anilist_score": 79,
     "recently_finished": true,
-    "popularity_rank": 22
+    "popularity_rank": 21
   },
   {
     "id": 143200,
@@ -671,7 +646,7 @@
     "popularity": 27536,
     "anilist_score": 71,
     "recently_finished": true,
-    "popularity_rank": 23
+    "popularity_rank": 22
   },
   {
     "id": 129195,
@@ -696,7 +671,7 @@
     "popularity": 26764,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 24
+    "popularity_rank": 23
   },
   {
     "id": 181447,
@@ -721,7 +696,7 @@
     "popularity": 26368,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 25
+    "popularity_rank": 24
   },
   {
     "id": 174188,
@@ -740,7 +715,7 @@
     "popularity": 24542,
     "anilist_score": 68,
     "recently_finished": true,
-    "popularity_rank": 26
+    "popularity_rank": 25
   },
   {
     "id": 170577,
@@ -770,7 +745,7 @@
     "popularity": 22249,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 27
+    "popularity_rank": 26
   },
   {
     "id": 183385,
@@ -795,7 +770,7 @@
     "popularity": 20847,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 28
+    "popularity_rank": 27
   },
   {
     "id": 186794,
@@ -825,7 +800,7 @@
     "popularity": 20496,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 29
+    "popularity_rank": 28
   },
   {
     "id": 169420,
@@ -850,7 +825,7 @@
     "popularity": 18978,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 30
+    "popularity_rank": 29
   },
   {
     "id": 177476,
@@ -885,7 +860,7 @@
     "popularity": 18701,
     "anilist_score": 71,
     "recently_finished": true,
-    "popularity_rank": 31
+    "popularity_rank": 30
   },
   {
     "id": 179302,
@@ -910,7 +885,7 @@
     "popularity": 18290,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 32
+    "popularity_rank": 31
   },
   {
     "id": 184639,
@@ -945,7 +920,7 @@
     "popularity": 17759,
     "anilist_score": 75,
     "recently_finished": true,
-    "popularity_rank": 33
+    "popularity_rank": 32
   },
   {
     "id": 185731,
@@ -970,7 +945,7 @@
     "popularity": 16775,
     "anilist_score": 76,
     "recently_finished": false,
-    "popularity_rank": 34
+    "popularity_rank": 33
   },
   {
     "id": 180523,
@@ -995,7 +970,7 @@
     "popularity": 16052,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 35
+    "popularity_rank": 34
   },
   {
     "id": 185965,
@@ -1025,7 +1000,7 @@
     "popularity": 15283,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 36
+    "popularity_rank": 35
   },
   {
     "id": 184322,
@@ -1055,7 +1030,7 @@
     "popularity": 14573,
     "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 37
+    "popularity_rank": 36
   },
   {
     "id": 169969,
@@ -1085,7 +1060,7 @@
     "popularity": 14460,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 38
+    "popularity_rank": 37
   },
   {
     "id": 195153,
@@ -1115,7 +1090,7 @@
     "popularity": 14395,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 39
+    "popularity_rank": 38
   },
   {
     "id": 185575,
@@ -1140,7 +1115,7 @@
     "popularity": 14031,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 40
+    "popularity_rank": 39
   },
   {
     "id": 185801,
@@ -1170,7 +1145,7 @@
     "popularity": 13493,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 41
+    "popularity_rank": 40
   },
   {
     "id": 180794,
@@ -1195,7 +1170,7 @@
     "popularity": 12506,
     "anilist_score": 64,
     "recently_finished": true,
-    "popularity_rank": 42
+    "popularity_rank": 41
   },
   {
     "id": 187663,
@@ -1225,7 +1200,7 @@
     "popularity": 11451,
     "anilist_score": 56,
     "recently_finished": false,
-    "popularity_rank": 43
+    "popularity_rank": 42
   },
   {
     "id": 183965,
@@ -1250,7 +1225,7 @@
     "popularity": 11284,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 44
+    "popularity_rank": 43
   },
   {
     "id": 180082,
@@ -1280,7 +1255,7 @@
     "popularity": 11087,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 45
+    "popularity_rank": 44
   },
   {
     "id": 188487,
@@ -1310,15 +1285,15 @@
     "popularity": 10974,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 46
+    "popularity_rank": 45
   },
   {
     "id": 165530,
     "mal_id": 57353,
     "name": "Mofa Gongzhu De Xiao Fannao",
     "english_title": "The Fated Magical Princess: Who Made Me a Princess",
-    "episode": 4,
-    "release_date": "2025-10-05",
+    "episode": 5,
+    "release_date": "2025-10-12",
     "next_airing_date": "2025-10-12",
     "next_episode_number": 5,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx165530-Ku7VZt2NCIgf.jpg",
@@ -1340,7 +1315,7 @@
     "popularity": 10948,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 47
+    "popularity_rank": 46
   },
   {
     "id": 180436,
@@ -1370,7 +1345,7 @@
     "popularity": 10183,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 48
+    "popularity_rank": 47
   },
   {
     "id": 176298,
@@ -1400,7 +1375,7 @@
     "popularity": 10037,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 49
+    "popularity_rank": 48
   },
   {
     "id": 187940,
@@ -1425,15 +1400,15 @@
     "popularity": 9948,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 50
+    "popularity_rank": 49
   },
   {
     "id": 173692,
     "mal_id": 57888,
     "name": "Chichi wa Eiyuu, Haha wa Seirei, Musume no Watashi wa Tenseisha.",
     "english_title": "Dad is a Hero, Mom is a Spirit, I'm a Reincarnator",
-    "episode": 1,
-    "release_date": "2025-10-05",
+    "episode": 2,
+    "release_date": "2025-10-12",
     "next_airing_date": "2025-10-12",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx173692-shp7PGRQyCQl.jpg",
@@ -1455,7 +1430,7 @@
     "popularity": 9914,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 51
+    "popularity_rank": 50
   },
   {
     "id": 183291,
@@ -1485,15 +1460,15 @@
     "popularity": 9811,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 52
+    "popularity_rank": 51
   },
   {
     "id": 195240,
     "mal_id": 61930,
     "name": "Uma Musume: Cinderella Gray Part 2",
     "english_title": "Umamusume: Cinderella Gray 2nd Cour",
-    "episode": 1,
-    "release_date": "2025-10-05",
+    "episode": 2,
+    "release_date": "2025-10-12",
     "next_airing_date": "2025-10-12",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195240-hKcmllV6YHQT.jpg",
@@ -1520,32 +1495,7 @@
     "popularity": 9780,
     "anilist_score": 79,
     "recently_finished": false,
-    "popularity_rank": 53
-  },
-  {
-    "id": 179678,
-    "mal_id": 59342,
-    "name": "Jigoku Sensei Nube (2025)",
-    "english_title": "Hell Teacher: Jigoku Sensei Nube (2025)",
-    "episode": 13,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179678-1isykDVghv8Q.png",
-    "site_url": "https://anilist.co/anime/179678",
-    "start_date": "2025-07-02",
-    "end_date": "2025-09-24",
-    "streaming_links": [
-      {
-        "site": "YouTube",
-        "url": "https://youtube.com/playlist?list=PLhGamQZtJ7K9NljzDXOMx02GwfyiCTy_b",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 9662,
-    "anilist_score": 63,
-    "recently_finished": true,
-    "popularity_rank": 54
+    "popularity_rank": 52
   },
   {
     "id": 156395,
@@ -1564,7 +1514,7 @@
     "popularity": 9515,
     "anilist_score": 69,
     "recently_finished": true,
-    "popularity_rank": 55
+    "popularity_rank": 53
   },
   {
     "id": 162890,
@@ -1604,40 +1554,15 @@
     "popularity": 9203,
     "anilist_score": 77,
     "recently_finished": false,
-    "popularity_rank": 56
-  },
-  {
-    "id": 159483,
-    "mal_id": 54028,
-    "name": "Turkey!",
-    "english_title": "Turkey! Time to Strike",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx159483-nQKJ2EEqoo8x.jpg",
-    "site_url": "https://anilist.co/anime/159483",
-    "start_date": "2025-07-09",
-    "end_date": "2025-09-24",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GMEHME7GX/turkey-time-to-strike",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 8718,
-    "anilist_score": 62,
-    "recently_finished": true,
-    "popularity_rank": 57
+    "popularity_rank": 54
   },
   {
     "id": 179992,
     "mal_id": 59484,
     "name": "Kikaijikake no Marie",
     "english_title": "Mechanical Marie",
-    "episode": 1,
-    "release_date": "2025-10-05",
+    "episode": 2,
+    "release_date": "2025-10-12",
     "next_airing_date": "2025-10-12",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179992-tu21efjGADCO.png",
@@ -1659,7 +1584,7 @@
     "popularity": 8029,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 58
+    "popularity_rank": 55
   },
   {
     "id": 184034,
@@ -1689,7 +1614,7 @@
     "popularity": 8029,
     "anilist_score": 63,
     "recently_finished": true,
-    "popularity_rank": 59
+    "popularity_rank": 56
   },
   {
     "id": 186621,
@@ -1714,7 +1639,7 @@
     "popularity": 7845,
     "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 60
+    "popularity_rank": 57
   },
   {
     "id": 186003,
@@ -1739,15 +1664,15 @@
     "popularity": 6896,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 61
+    "popularity_rank": 58
   },
   {
     "id": 187331,
     "mal_id": 61142,
     "name": "Sawaranaide Kotesashi-kun",
     "english_title": "Hands off: Sawaranaide Kotesashi-kun!",
-    "episode": 1,
-    "release_date": "2025-10-05",
+    "episode": 2,
+    "release_date": "2025-10-12",
     "next_airing_date": "2025-10-12",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187331-ylRHyvJIVPeO.jpg",
@@ -1764,7 +1689,7 @@
     "popularity": 6874,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 62
+    "popularity_rank": 59
   },
   {
     "id": 186920,
@@ -1789,7 +1714,7 @@
     "popularity": 6797,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 63
+    "popularity_rank": 60
   },
   {
     "id": 168537,
@@ -1814,7 +1739,7 @@
     "popularity": 6335,
     "anilist_score": 51,
     "recently_finished": true,
-    "popularity_rank": 64
+    "popularity_rank": 61
   },
   {
     "id": 186524,
@@ -1839,7 +1764,7 @@
     "popularity": 6324,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 65
+    "popularity_rank": 62
   },
   {
     "id": 183127,
@@ -1869,7 +1794,7 @@
     "popularity": 6219,
     "anilist_score": 75,
     "recently_finished": true,
-    "popularity_rank": 66
+    "popularity_rank": 63
   },
   {
     "id": 193968,
@@ -1894,7 +1819,7 @@
     "popularity": 6064,
     "anilist_score": 57,
     "recently_finished": false,
-    "popularity_rank": 67
+    "popularity_rank": 64
   },
   {
     "id": 173523,
@@ -1919,7 +1844,7 @@
     "popularity": 5985,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 68
+    "popularity_rank": 65
   },
   {
     "id": 177271,
@@ -1944,7 +1869,7 @@
     "popularity": 5935,
     "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 69
+    "popularity_rank": 66
   },
   {
     "id": 185116,
@@ -1969,15 +1894,15 @@
     "popularity": 5635,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 70
+    "popularity_rank": 67
   },
   {
     "id": 186190,
     "mal_id": 60781,
     "name": "Alma-chan wa Kazoku ni Naritai",
     "english_title": "Alma-chan Wants to Be a Family!",
-    "episode": 1,
-    "release_date": "2025-10-05",
+    "episode": 2,
+    "release_date": "2025-10-12",
     "next_airing_date": "2025-10-12",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186190-Ru77wfF8I61X.jpg",
@@ -1994,7 +1919,7 @@
     "popularity": 5427,
     "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 71
+    "popularity_rank": 68
   },
   {
     "id": 174914,
@@ -2019,7 +1944,7 @@
     "popularity": 5411,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 72
+    "popularity_rank": 69
   },
   {
     "id": 187464,
@@ -2044,7 +1969,7 @@
     "popularity": 5291,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 73
+    "popularity_rank": 70
   },
   {
     "id": 177761,
@@ -2063,7 +1988,7 @@
     "popularity": 5258,
     "anilist_score": 53,
     "recently_finished": true,
-    "popularity_rank": 74
+    "popularity_rank": 71
   },
   {
     "id": 173335,
@@ -2088,7 +2013,7 @@
     "popularity": 5151,
     "anilist_score": 53,
     "recently_finished": true,
-    "popularity_rank": 75
+    "popularity_rank": 72
   },
   {
     "id": 157692,
@@ -2118,7 +2043,7 @@
     "popularity": 4938,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 76
+    "popularity_rank": 73
   },
   {
     "id": 186161,
@@ -2143,7 +2068,7 @@
     "popularity": 4921,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 77
+    "popularity_rank": 74
   },
   {
     "id": 184718,
@@ -2173,15 +2098,15 @@
     "popularity": 4219,
     "anilist_score": 56,
     "recently_finished": false,
-    "popularity_rank": 78
+    "popularity_rank": 75
   },
   {
     "id": 178052,
     "mal_id": 59078,
     "name": "Princess-Session Orchestra",
     "english_title": null,
-    "episode": 25,
-    "release_date": "2025-10-05",
+    "episode": 26,
+    "release_date": null,
     "next_airing_date": "2025-10-12",
     "next_episode_number": 26,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178052-igWygf0ZG1gl.jpg",
@@ -2203,15 +2128,15 @@
     "popularity": 4056,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 79
+    "popularity_rank": 76
   },
   {
     "id": 170018,
     "mal_id": 56877,
     "name": "Ao no Orchestra Season 2",
     "english_title": null,
-    "episode": 1,
-    "release_date": "2025-10-05",
+    "episode": 2,
+    "release_date": "2025-10-12",
     "next_airing_date": "2025-10-12",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170018-1PqdLX68YayA.jpg",
@@ -2228,7 +2153,7 @@
     "popularity": 4023,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 80
+    "popularity_rank": 77
   },
   {
     "id": 195209,
@@ -2253,7 +2178,7 @@
     "popularity": 3918,
     "anilist_score": 60,
     "recently_finished": true,
-    "popularity_rank": 81
+    "popularity_rank": 78
   },
   {
     "id": 190840,
@@ -2283,7 +2208,7 @@
     "popularity": 3869,
     "anilist_score": 77,
     "recently_finished": false,
-    "popularity_rank": 82
+    "popularity_rank": 79
   },
   {
     "id": 184642,
@@ -2308,7 +2233,7 @@
     "popularity": 3653,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 83
+    "popularity_rank": 80
   },
   {
     "id": 184997,
@@ -2333,6 +2258,6 @@
     "popularity": 3074,
     "anilist_score": 56,
     "recently_finished": false,
-    "popularity_rank": 84
+    "popularity_rank": 81
   }
 ]
