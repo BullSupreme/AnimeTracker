@@ -1,6 +1,6 @@
 # Anime Tracker
 
-![Version](https://img.shields.io/badge/version-3.2-blue)
+![Version](https://img.shields.io/badge/version-3.3-blue)
 ![Release](https://img.shields.io/badge/release-stable-green)
 [![GitHub Pages](https://img.shields.io/badge/live-site-brightgreen)](https://bullsupreme.github.io/AnimeTracker/)
 
@@ -51,17 +51,18 @@ Perfect for GitHub Pages hosting! 🎉
 
 ## 📚 Version History
 
-### Version 3.2 (Current)
-- Enhanced AniTrendz scraping with JS rendering via requests-html for full dynamic chart capture.
-- Removed outdated hardcoded rankings; now dynamically fetches current top-anime list (e.g., 20+ entries).
-- Improved title matching using dynamic variations from anime_data.json for better AniList integration.
-- Fixed push failures in scheduled GitHub Actions by adding git pull --rebase before commits.
-- Added dependencies like requests-html and headless browser support to workflow YAML.
-- System aggregates data from AniList (metadata), MAL (scores), and AniTrendz (weekly ranks).
-- Matches AniTrendz titles to AniList entries via normalization and partial string checks.
-- Updates anime_data.json with fields like rank, change, movement, weeks, and peak.
-- Generates HTML pages (index.html and rankings) with latest aggregated data.
-- Automates weekly via update-rankings.yml every Saturday at 8 PM UTC, with manual trigger option.
+### Version 3.3 (Current)
+- Removed Rankings page and external ranking data sources (MAL, AniTrendz)
+- Simplified codebase by removing ranking workflows and scripts
+- Kept AniList popularity rank badges on anime cards
+- Streamlined server endpoints and removed ranking-related code
+
+### Version 3.2
+- Enhanced AniTrendz scraping with JS rendering via requests-html for full dynamic chart capture
+- Removed outdated hardcoded rankings; now dynamically fetches current top-anime list (e.g., 20+ entries)
+- Improved title matching using dynamic variations from anime_data.json for better AniList integration
+- Fixed push failures in scheduled GitHub Actions by adding git pull --rebase before commits
+- Added dependencies like requests-html and headless browser support to workflow YAML
 
 ### Version 3.0 - 3.1
 - Enhanced UI with hover-only elements (favorites, rank badges)
