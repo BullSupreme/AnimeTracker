@@ -35,11 +35,18 @@ def load_data():
         if os.path.exists(recently_finished_path):
             with open(recently_finished_path, 'r', encoding='utf-8') as f:
                 recently_finished_anime = json.load(f)
-        
-        return anime_data, other_anime_sorted, metadata, upcoming_anime, manual_streaming_links, recently_finished_anime
+
+        # Load 9anime links
+        nine_anime_links = {}
+        nine_anime_path = 'data/9anime_links.json'
+        if os.path.exists(nine_anime_path):
+            with open(nine_anime_path, 'r', encoding='utf-8') as f:
+                nine_anime_links = json.load(f)
+
+        return anime_data, other_anime_sorted, metadata, upcoming_anime, manual_streaming_links, recently_finished_anime, nine_anime_links
     except FileNotFoundError as e:
         print(f"Data file not found: {e}")
-        return [], [], {}, [], {}, []
+        return [], [], {}, [], {}, [], {}
 
 def get_season_emoji(season):
     """Get emoji for a given season"""
@@ -54,7 +61,7 @@ def get_season_emoji(season):
 
 def generate_html():
     """Generate static HTML file"""
-    anime_data, other_anime_sorted, metadata, upcoming_anime, manual_streaming_links, recently_finished_anime = load_data()
+    anime_data, other_anime_sorted, metadata, upcoming_anime, manual_streaming_links, recently_finished_anime, nine_anime_links = load_data()
     
     
     if not anime_data:
@@ -122,7 +129,7 @@ def generate_html():
         if anime.get('release_date') == today_date or anime.get('end_date') == today_date:
             custom_link = custom_links.get(anime['name'], anime['site_url'])
             link_domain = custom_link.split('//')[1].split('/')[0] if '//' in custom_link else 'anilist.co'
-            
+
             html_content += f"""                        <div class="anime-card today-card" data-name="{anime['name']}" data-link="{custom_link}" data-anime-id="{anime['id']}" data-release="{anime.get('release_date', '')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
                             <div class="card-image-wrapper">
                                 <img class="anime-poster" src="{anime['poster_url']}" alt="{anime['name']} poster">
@@ -139,16 +146,25 @@ def generate_html():
                                 </div>
                             </div>
                             <div class="card-info">"""
-            
+
             if anime.get('english_title'):
                 html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
-            
+
+            # Check if 9anime link exists for Today's section
+            nine_anime_url = nine_anime_links.get(anime['name'], '')
+            nine_anime_button = ''
+            if nine_anime_url:
+                nine_anime_button = f"""
+                                    <a href="{nine_anime_url}" target="_blank" class="nine-anime-btn">
+                                        9anime.to
+                                    </a>"""
+
             html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
                                 <div class="episode-info">
                                     <span class="episode-badge">Episode {anime['episode']}</span>
                                     <a href="{custom_link}" target="_blank" class="main-link-btn">
                                         {link_domain}
-                                    </a>
+                                    </a>{nine_anime_button}
                                 </div>
                                 <div class="streaming-links">"""
             
@@ -190,7 +206,7 @@ def generate_html():
         if anime.get('release_date') == tomorrow_date or anime.get('end_date') == tomorrow_date:
             custom_link = custom_links.get(anime['name'], anime['site_url'])
             link_domain = custom_link.split('//')[1].split('/')[0] if '//' in custom_link else 'anilist.co'
-            
+
             html_content += f"""                        <div class="anime-card tomorrow-card" data-name="{anime['name']}" data-link="{custom_link}" data-anime-id="{anime['id']}" data-release="{anime.get('release_date', '')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
                             <div class="card-image-wrapper">
                                 <img class="anime-poster" src="{anime['poster_url']}" alt="{anime['name']} poster">
@@ -207,16 +223,25 @@ def generate_html():
                                 </div>
                             </div>
                             <div class="card-info">"""
-            
+
             if anime.get('english_title'):
                 html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
-            
+
+            # Check if 9anime link exists for Tomorrow's section
+            nine_anime_url = nine_anime_links.get(anime['name'], '')
+            nine_anime_button = ''
+            if nine_anime_url:
+                nine_anime_button = f"""
+                                    <a href="{nine_anime_url}" target="_blank" class="nine-anime-btn">
+                                        9anime.to
+                                    </a>"""
+
             html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
                                 <div class="episode-info">
                                     <span class="episode-badge">Episode {anime['episode']}</span>
                                     <a href="{custom_link}" target="_blank" class="main-link-btn">
                                         {link_domain}
-                                    </a>
+                                    </a>{nine_anime_button}
                                 </div>
                                 <div class="streaming-links">"""
             
@@ -281,7 +306,7 @@ def generate_html():
         
         if anime.get('english_title'):
             html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
-        
+
         # Use next airing date if available, otherwise use release date
         next_airing = anime.get('next_airing_date')
         next_episode_num = anime.get('next_episode_number', anime['episode'])
@@ -291,12 +316,22 @@ def generate_html():
         else:
             release_date_display = anime.get('release_date', 'Ongoing')
             episode_display = f"Episode {anime['episode']}"
+
+        # Check if 9anime link exists for Other Anime section
+        nine_anime_url = nine_anime_links.get(anime['name'], '')
+        nine_anime_button = ''
+        if nine_anime_url:
+            nine_anime_button = f"""
+                                    <a href="{nine_anime_url}" target="_blank" class="nine-anime-btn">
+                                        9anime.to
+                                    </a>"""
+
         html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
                                 <div class="episode-info">
                                     <span class="episode-badge">{episode_display}</span>
                                     <a href="{custom_link}" target="_blank" class="main-link-btn">
                                         {link_domain}
-                                    </a>
+                                    </a>{nine_anime_button}
                                     <span class="release-date">{release_date_display}</span>
                                 </div>
                                 <div class="streaming-links">"""
@@ -351,17 +386,26 @@ def generate_html():
             
             if anime.get('english_title'):
                 html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
-            
+
+            # Check if 9anime link exists for Recently Finished section
+            nine_anime_url = nine_anime_links.get(anime['name'], '')
+            nine_anime_button = ''
+            if nine_anime_url:
+                nine_anime_button = f"""
+                                    <a href="{nine_anime_url}" target="_blank" class="nine-anime-btn">
+                                        9anime.to
+                                    </a>"""
+
             html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
                                 <div class="episode-info">
                                     <span class="episode-badge">Total: {total_episodes} Episodes</span>
                                     <a href="{custom_link}" target="_blank" class="main-link-btn">
                                         {link_domain}
-                                    </a>
+                                    </a>{nine_anime_button}
                                     <span class="release-date">{end_date_display}</span>
                                 </div>
                                 <div class="streaming-links">"""
-            
+
             # Get manual streaming links if they exist
             manual_links = manual_streaming_links.get(anime['name'], [])
             all_streaming_links = anime.get('streaming_links', []) + manual_links
@@ -421,13 +465,22 @@ def generate_html():
             
             if anime.get('english_title'):
                 html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
-            
+
+            # Check if 9anime link exists for Upcoming Anime section
+            nine_anime_url = nine_anime_links.get(anime['name'], '')
+            nine_anime_button = ''
+            if nine_anime_url:
+                nine_anime_button = f"""
+                                    <a href="{nine_anime_url}" target="_blank" class="nine-anime-btn">
+                                        9anime.to
+                                    </a>"""
+
             html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
                                 <div class="episode-info">
                                     <span class="episode-badge">Episode 1</span>
                                     <a href="{anime['site_url']}" target="_blank" class="main-link-btn">
                                         anilist.co
-                                    </a>
+                                    </a>{nine_anime_button}
                                     <span class="release-date">{anime.get('release_date', 'TBD')}</span>
                                 </div>
                                 <div class="anime-details">

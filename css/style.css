@@ -1201,6 +1201,29 @@ main {
     color: white;
 }
 
+/* 9anime Button */
+.nine-anime-btn {
+    padding: 0.25rem 0.5rem;
+    background: #10b981;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 0.35rem;
+}
+
+.nine-anime-btn:hover {
+    background: #059669;
+    transform: translateY(-1px);
+    color: white;
+}
+
 /* Day Anime List (for modal) */
 .day-anime-list {
     display: flex;
