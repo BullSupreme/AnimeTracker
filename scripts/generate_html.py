@@ -94,7 +94,6 @@ def generate_html():
         <nav class="nav-tabs">
             <button class="nav-tab active" data-tab="list">📋 List View</button>
             <button class="nav-tab" data-tab="calendar">📅 Calendar</button>
-            <button class="nav-tab" onclick="window.location.href='rankings.html'">🏆 Rankings</button>
         </nav>
         <main>
             <!-- List View Section -->
