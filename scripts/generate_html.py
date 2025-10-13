@@ -227,7 +227,10 @@ def generate_html():
                     streaming_links_html += f'<a href="{link["url"]}" target="_blank" data-tooltip="{link["site"]}" class="streaming-link"><img src="{link["icon"]}" alt="{link["site"]}"></a>'
                 streaming_links_html += '</div>'
 
-            html_content += f"""                        <div class="anime-card tomorrow-card" data-name="{anime['name']}" data-link="{custom_link}" data-anime-id="{anime['id']}" data-release="{anime.get('release_date', '')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
+            # Add special class if 4+ streaming links
+            many_links_class = " many-streaming-links" if len(unique_links) >= 4 else ""
+
+            html_content += f"""                        <div class="anime-card tomorrow-card{many_links_class}" data-name="{anime['name']}" data-link="{custom_link}" data-anime-id="{anime['id']}" data-release="{anime.get('release_date', '')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
                             <div class="card-image-wrapper">
                                 <img class="anime-poster" src="{anime['poster_url']}" alt="{anime['name']} poster">
                                 <div class="card-overlay">
@@ -290,13 +293,18 @@ def generate_html():
 
         # Build streaming links HTML
         streaming_links_html = ""
+        streaming_link_count = 0
         if anime.get('streaming_links'):
             streaming_links_html = '<div class="streaming-links-overlay">'
             for link in anime.get('streaming_links', []):
                 streaming_links_html += f'<a href="{link["url"]}" target="_blank" data-tooltip="{link["site"]}" class="streaming-link"><img src="{link["icon"]}" alt="{link["site"]}"></a>'
+                streaming_link_count += 1
             streaming_links_html += '</div>'
 
-        html_content += f"""                        <div class="anime-card" data-name="{anime['name']}" data-link="{custom_link}" data-anime-id="{anime['id']}" data-release="{anime.get('release_date', '')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
+        # Add special class if 4+ streaming links
+        many_links_class = " many-streaming-links" if streaming_link_count >= 4 else ""
+
+        html_content += f"""                        <div class="anime-card{many_links_class}" data-name="{anime['name']}" data-link="{custom_link}" data-anime-id="{anime['id']}" data-release="{anime.get('release_date', '')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
                             <div class="card-image-wrapper">
                                 <img class="anime-poster" src="{anime['poster_url']}" alt="{anime['name']} poster">
                                 <div class="card-overlay">

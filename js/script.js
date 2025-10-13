@@ -778,12 +778,13 @@ document.addEventListener('DOMContentLoaded', () => {
             // Prevent click if clicking on button or streaming links
             if (e.target.closest('.favorite-btn') ||
                 e.target.closest('.streaming-links') ||
+                e.target.closest('.streaming-links-overlay') ||
                 e.target.closest('.main-link-btn') ||
                 e.target.closest('.nine-anime-btn') ||
                 e.target.closest('.context-menu')) {
                 return;
             }
-            
+
             const link = card.getAttribute('data-link');
             if (link) window.open(link, '_blank');
         });

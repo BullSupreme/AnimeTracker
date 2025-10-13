@@ -507,6 +507,11 @@ main {
     box-shadow: var(--shadow-lg);
 }
 
+/* Move rank badge higher when card has 4+ streaming links */
+.many-streaming-links .popularity-rank-badge {
+    bottom: 3.5rem;
+}
+
 /* Custom Rank Tooltip */
 .rank-tooltip {
     position: fixed;
