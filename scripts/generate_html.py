@@ -155,7 +155,7 @@ def generate_html():
             if nine_anime_url:
                 nine_anime_button = f"""
                                     <a href="{nine_anime_url}" target="_blank" class="nine-anime-btn">
-                                        9anime.to
+                                        9anime
                                     </a>"""
 
             html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
@@ -232,7 +232,7 @@ def generate_html():
             if nine_anime_url:
                 nine_anime_button = f"""
                                     <a href="{nine_anime_url}" target="_blank" class="nine-anime-btn">
-                                        9anime.to
+                                        9anime
                                     </a>"""
 
             html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
@@ -322,7 +322,7 @@ def generate_html():
         if nine_anime_url:
             nine_anime_button = f"""
                                     <a href="{nine_anime_url}" target="_blank" class="nine-anime-btn">
-                                        9anime.to
+                                        9anime
                                     </a>"""
 
         html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
@@ -392,7 +392,7 @@ def generate_html():
             if nine_anime_url:
                 nine_anime_button = f"""
                                     <a href="{nine_anime_url}" target="_blank" class="nine-anime-btn">
-                                        9anime.to
+                                        9anime
                                     </a>"""
 
             html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
@@ -471,7 +471,7 @@ def generate_html():
             if nine_anime_url:
                 nine_anime_button = f"""
                                     <a href="{nine_anime_url}" target="_blank" class="nine-anime-btn">
-                                        9anime.to
+                                        9anime
                                     </a>"""
 
             html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
