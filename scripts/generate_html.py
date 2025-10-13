@@ -129,6 +129,26 @@ def generate_html():
             custom_link = custom_links.get(anime['name'], anime['site_url'])
             link_domain = custom_link.split('//')[1].split('/')[0] if '//' in custom_link else 'anilist.co'
 
+            # Get manual streaming links if they exist
+            manual_links = manual_streaming_links.get(anime['name'], [])
+            all_streaming_links = anime.get('streaming_links', []) + manual_links
+
+            # Remove duplicates based on site name
+            seen_sites = set()
+            unique_links = []
+            for link in all_streaming_links:
+                if link['site'] not in seen_sites:
+                    seen_sites.add(link['site'])
+                    unique_links.append(link)
+
+            # Build streaming links HTML
+            streaming_links_html = ""
+            if unique_links:
+                streaming_links_html = '<div class="streaming-links-overlay">'
+                for link in unique_links:
+                    streaming_links_html += f'<a href="{link["url"]}" target="_blank" data-tooltip="{link["site"]}" class="streaming-link"><img src="{link["icon"]}" alt="{link["site"]}"></a>'
+                streaming_links_html += '</div>'
+
             html_content += f"""                        <div class="anime-card today-card" data-name="{anime['name']}" data-link="{custom_link}" data-anime-id="{anime['id']}" data-release="{anime.get('release_date', '')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
                             <div class="card-image-wrapper">
                                 <img class="anime-poster" src="{anime['poster_url']}" alt="{anime['name']} poster">
@@ -143,6 +163,7 @@ def generate_html():
                                 <div class="custom-link-badge" style="display: none;">
                                     <span class="custom-favicon"></span>
                                 </div>
+                                {streaming_links_html}
                             </div>
                             <div class="card-info">"""
 
@@ -165,26 +186,6 @@ def generate_html():
                                         {link_domain}
                                     </a>{nine_anime_button}
                                 </div>
-                                <div class="streaming-links">"""
-            
-            # Get manual streaming links if they exist
-            manual_links = manual_streaming_links.get(anime['name'], [])
-            all_streaming_links = anime.get('streaming_links', []) + manual_links
-            
-            # Remove duplicates based on site name
-            seen_sites = set()
-            unique_links = []
-            for link in all_streaming_links:
-                if link['site'] not in seen_sites:
-                    seen_sites.add(link['site'])
-                    unique_links.append(link)
-            
-            for link in unique_links:
-                html_content += f"""                                    <a href="{link['url']}" target="_blank" title="{link['site']}" class="streaming-link">
-                                        <img src="{link['icon']}" alt="{link['site']}">
-                                    </a>"""
-            
-            html_content += """                                </div>
                             </div>
                         </div>"""
     

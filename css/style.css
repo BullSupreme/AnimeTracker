@@ -757,40 +757,78 @@ main {
     color: var(--text-secondary);
 }
 
-/* Streaming Links */
-.streaming-links {
+/* Streaming Links Overlay on Poster */
+.streaming-links-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-    margin-top: 0.5rem;
+    gap: 0.35rem;
+    padding: 0.5rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+    z-index: 2;
 }
 
-.streaming-link {
+.streaming-links-overlay .streaming-link {
     display: block;
     width: 32px;
     height: 32px;
     border-radius: 6px;
     overflow: hidden;
     transition: all var(--transition-fast);
-    border: 1px solid var(--border-color);
-    background: transparent;
-    padding: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.3);
+    padding: 2px;
+    position: relative;
 }
 
-.streaming-link:hover {
-    transform: scale(1.1);
+.streaming-links-overlay .streaming-link:hover {
+    transform: scale(1.15);
     border-color: var(--accent-primary);
+    background: rgba(0, 0, 0, 0.6);
 }
 
-.streaming-link img {
+.streaming-links-overlay .streaming-link::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.95);
+    color: white;
+    padding: 0.35rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity var(--transition-fast);
+    margin-bottom: 0.35rem;
+    z-index: 1000;
+}
+
+.streaming-links-overlay .streaming-link:hover::after {
+    opacity: 1;
+}
+
+.streaming-links-overlay .streaming-link img {
     width: 100%;
     height: 100%;
     object-fit: contain;
     filter: none;
     image-rendering: auto;
     border-radius: 4px;
-    max-width: 32px;
-    max-height: 32px;
+}
+
+/* Old streaming links in card-info (hide these) */
+.streaming-links {
+    display: none;
+}
+
+.streaming-link:not(.streaming-links-overlay .streaming-link) {
+    display: none;
 }
 
 /* List View Controls */
