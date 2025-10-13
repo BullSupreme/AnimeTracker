@@ -744,7 +744,7 @@ main {
 }
 
 .episode-badge {
-    background: var(--accent-primary);
+    background: #10b981;
     color: white;
     padding: 0.2rem 0.6rem;
     border-radius: 20px;
@@ -1179,10 +1179,10 @@ main {
     transform: translateY(-1px);
 }
 
-/* Main Link Button in Cards */
+/* Main Link Button in Cards (AniList) */
 .main-link-btn {
     padding: 0.25rem 0.5rem;
-    background: var(--accent-secondary);
+    background: #3b82f6;
     border: none;
     border-radius: 4px;
     color: white;
@@ -1196,7 +1196,7 @@ main {
 }
 
 .main-link-btn:hover {
-    background: #6d28d9;
+    background: #2563eb;
     transform: translateY(-1px);
     color: white;
 }
@@ -1204,7 +1204,7 @@ main {
 /* 9anime Button */
 .nine-anime-btn {
     padding: 0.25rem 0.5rem;
-    background: #10b981;
+    background: #7c3aed;
     border: none;
     border-radius: 4px;
     color: white;
@@ -1219,7 +1219,7 @@ main {
 }
 
 .nine-anime-btn:hover {
-    background: #059669;
+    background: #6d28d9;
     transform: translateY(-1px);
     color: white;
 }
