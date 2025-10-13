@@ -776,8 +776,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // Card click handler
         card.addEventListener('click', (e) => {
             // Prevent click if clicking on button or streaming links
-            if (e.target.closest('.favorite-btn') || 
-                e.target.closest('.streaming-links') || 
+            if (e.target.closest('.favorite-btn') ||
+                e.target.closest('.streaming-links') ||
+                e.target.closest('.main-link-btn') ||
+                e.target.closest('.nine-anime-btn') ||
                 e.target.closest('.context-menu')) {
                 return;
             }
