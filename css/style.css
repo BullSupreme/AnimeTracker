@@ -429,7 +429,7 @@ main {
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
-    pointer-events: auto;
+    pointer-events: none;
     z-index: 10;
     opacity: 0;
     transition: opacity var(--transition-normal);
@@ -449,6 +449,7 @@ main {
     transition: all var(--transition-normal);
     backdrop-filter: blur(10px);
     margin: 0.5rem;
+    pointer-events: auto;
 }
 
 .favorite-btn:hover {
@@ -496,6 +497,7 @@ main {
     transition: all var(--transition-normal);
     opacity: 0;
     cursor: pointer;
+    pointer-events: auto;
 }
 
 .anime-card:hover .popularity-rank-badge {
@@ -772,7 +774,8 @@ main {
     gap: 0.35rem;
     padding: 0.5rem;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
-    z-index: 2;
+    z-index: 15;
+    pointer-events: auto;
 }
 
 .streaming-links-overlay .streaming-link {
