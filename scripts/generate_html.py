@@ -3,6 +3,57 @@ import json
 from datetime import datetime, timedelta
 import os
 
+def normalize_title(title):
+    """Normalize anime title for fuzzy matching"""
+    if not title:
+        return ""
+    # Remove common variations and normalize
+    title = title.lower()
+    # Remove special characters and extra spaces
+    title = title.replace("'", "").replace(":", "").replace("-", " ")
+    title = " ".join(title.split())  # Normalize whitespace
+    return title
+
+def find_9anime_link(anime_name, english_title, nine_anime_links):
+    """Find 9anime link using fuzzy title matching"""
+    # Try exact match first (original and English titles)
+    for title in [anime_name, english_title]:
+        if title and title in nine_anime_links:
+            return nine_anime_links[title]
+
+    # Normalize titles for fuzzy matching
+    normalized_anime = normalize_title(anime_name)
+    normalized_english = normalize_title(english_title) if english_title else ""
+
+    # Try fuzzy matching on all 9anime link keys
+    for link_title, link_url in nine_anime_links.items():
+        normalized_link = normalize_title(link_title)
+
+        # Check if normalized titles match
+        if normalized_anime == normalized_link or normalized_english == normalized_link:
+            return link_url
+
+        # Check if one title contains the other (for partial matches)
+        # This helps with "Boku no Hero Academia" vs "My Hero Academia"
+        if (normalized_anime and normalized_link and
+            (normalized_anime in normalized_link or normalized_link in normalized_anime)):
+            # Additional check: ensure they share significant words
+            words_anime = set(normalized_anime.split())
+            words_link = set(normalized_link.split())
+            # Remove common filler words
+            filler_words = {'the', 'a', 'an', 'and', 'or', 'of', 'to', 'in', 'is', 'are', 'was', 'were'}
+            words_anime -= filler_words
+            words_link -= filler_words
+
+            # If they share at least 60% of words, consider it a match
+            if words_anime and words_link:
+                intersection = len(words_anime & words_link)
+                union = len(words_anime | words_link)
+                if intersection / union >= 0.6:
+                    return link_url
+
+    return ""
+
 def load_data():
     """Load anime data and metadata"""
     try:
@@ -171,7 +222,7 @@ def generate_html():
                 html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
 
             # Check if 9anime link exists for Today's section
-            nine_anime_url = nine_anime_links.get(anime['name'], '')
+            nine_anime_url = find_9anime_link(anime['name'], anime.get('english_title'), nine_anime_links)
             nine_anime_button = ''
             if nine_anime_url:
                 nine_anime_button = f"""
@@ -252,7 +303,7 @@ def generate_html():
                 html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
 
             # Check if 9anime link exists for Tomorrow's section
-            nine_anime_url = nine_anime_links.get(anime['name'], '')
+            nine_anime_url = find_9anime_link(anime['name'], anime.get('english_title'), nine_anime_links)
             nine_anime_button = ''
             if nine_anime_url:
                 nine_anime_button = f"""
@@ -336,7 +387,7 @@ def generate_html():
             episode_display = f"Episode {anime['episode']}"
 
         # Check if 9anime link exists for Other Anime section
-        nine_anime_url = nine_anime_links.get(anime['name'], '')
+        nine_anime_url = find_9anime_link(anime['name'], anime.get('english_title'), nine_anime_links)
         nine_anime_button = ''
         if nine_anime_url:
             nine_anime_button = f"""
@@ -419,7 +470,7 @@ def generate_html():
                 html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
 
             # Check if 9anime link exists for Recently Finished section
-            nine_anime_url = nine_anime_links.get(anime['name'], '')
+            nine_anime_url = find_9anime_link(anime['name'], anime.get('english_title'), nine_anime_links)
             nine_anime_button = ''
             if nine_anime_url:
                 nine_anime_button = f"""
@@ -478,7 +529,7 @@ def generate_html():
                 html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
 
             # Check if 9anime link exists for Upcoming Anime section
-            nine_anime_url = nine_anime_links.get(anime['name'], '')
+            nine_anime_url = find_9anime_link(anime['name'], anime.get('english_title'), nine_anime_links)
             nine_anime_button = ''
             if nine_anime_url:
                 nine_anime_button = f"""
