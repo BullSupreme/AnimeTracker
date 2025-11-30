@@ -17,7 +17,7 @@
       "Drama",
       "Supernatural"
     ],
-    "popularity": 77426,
+    "popularity": 77689,
     "favourites": 921,
     "anilist_score": null,
     "streaming_links": [],
@@ -41,7 +41,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 75326,
+    "popularity": 75572,
     "favourites": 1041,
     "anilist_score": null,
     "streaming_links": [],
@@ -66,7 +66,7 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 64123,
+    "popularity": 64297,
     "favourites": 632,
     "anilist_score": null,
     "streaming_links": [],
@@ -91,7 +91,7 @@
       "Psychological",
       "Supernatural"
     ],
-    "popularity": 46685,
+    "popularity": 46775,
     "favourites": 543,
     "anilist_score": null,
     "streaming_links": [],
@@ -116,7 +116,7 @@
       "Sci-Fi",
       "Supernatural"
     ],
-    "popularity": 31746,
+    "popularity": 31854,
     "favourites": 305,
     "anilist_score": null,
     "streaming_links": [],
@@ -142,7 +142,7 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 30069,
+    "popularity": 30125,
     "favourites": 375,
     "anilist_score": null,
     "streaming_links": [],
@@ -167,7 +167,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 17226,
+    "popularity": 17346,
     "favourites": 178,
     "anilist_score": null,
     "streaming_links": [],
@@ -194,7 +194,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 16873,
+    "popularity": 16909,
     "favourites": 261,
     "anilist_score": null,
     "streaming_links": [],
@@ -219,7 +219,7 @@
       "Drama",
       "Sci-Fi"
     ],
-    "popularity": 14025,
+    "popularity": 14084,
     "favourites": 117,
     "anilist_score": null,
     "streaming_links": [],
@@ -244,7 +244,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 13669,
+    "popularity": 13723,
     "favourites": 84,
     "anilist_score": null,
     "streaming_links": [],
@@ -268,7 +268,7 @@
       "Adventure",
       "Comedy"
     ],
-    "popularity": 10347,
+    "popularity": 10367,
     "favourites": 64,
     "anilist_score": null,
     "streaming_links": [],
@@ -293,7 +293,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 9854,
+    "popularity": 9917,
     "favourites": 69,
     "anilist_score": null,
     "streaming_links": [],
@@ -317,7 +317,7 @@
       "Psychological",
       "Sports"
     ],
-    "popularity": 7324,
+    "popularity": 7339,
     "favourites": 53,
     "anilist_score": null,
     "streaming_links": [],
@@ -340,7 +340,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 7145,
+    "popularity": 7194,
     "favourites": 51,
     "anilist_score": null,
     "streaming_links": [],
@@ -363,7 +363,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 6873,
+    "popularity": 6932,
     "favourites": 80,
     "anilist_score": null,
     "streaming_links": [],
@@ -386,7 +386,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 6599,
+    "popularity": 6615,
     "favourites": 43,
     "anilist_score": null,
     "streaming_links": [],
@@ -409,7 +409,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 5980,
+    "popularity": 5997,
     "favourites": 44,
     "anilist_score": null,
     "streaming_links": [],
@@ -433,7 +433,7 @@
       "Drama",
       "Mystery"
     ],
-    "popularity": 5292,
+    "popularity": 5353,
     "favourites": 42,
     "anilist_score": null,
     "streaming_links": [],
@@ -456,7 +456,7 @@
       "Drama",
       "Slice of Life"
     ],
-    "popularity": 5170,
+    "popularity": 5198,
     "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
@@ -479,7 +479,7 @@
       "Sci-Fi",
       "Sports"
     ],
-    "popularity": 5148,
+    "popularity": 5168,
     "favourites": 77,
     "anilist_score": null,
     "streaming_links": [],
@@ -502,7 +502,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "popularity": 4736,
+    "popularity": 4777,
     "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
@@ -526,7 +526,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 4682,
+    "popularity": 4713,
     "favourites": 31,
     "anilist_score": null,
     "streaming_links": [],
@@ -552,7 +552,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 4158,
+    "popularity": 4198,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
@@ -576,7 +576,7 @@
       "Music",
       "Sci-Fi"
     ],
-    "popularity": 3725,
+    "popularity": 3775,
     "favourites": 23,
     "anilist_score": null,
     "streaming_links": [],
@@ -600,11 +600,34 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3580,
+    "popularity": 3622,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 25
+  },
+  {
+    "id": 187901,
+    "mal_id": null,
+    "name": "Dead Account",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187901-BJzsBhJPJH7M.png",
+    "site_url": "https://anilist.co/anime/187901",
+    "start_date": "2026-01-01",
+    "season": "Winter",
+    "season_year": 2026,
+    "studios": "SynergySP, Nippon Columbia",
+    "genres": [
+      "Action",
+      "Supernatural"
+    ],
+    "popularity": 3435,
+    "favourites": 19,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 26
   },
   {
     "id": 185993,
@@ -624,31 +647,8 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3395,
+    "popularity": 3432,
     "favourites": 52,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 26
-  },
-  {
-    "id": 187901,
-    "mal_id": null,
-    "name": "Dead Account",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187901-BJzsBhJPJH7M.png",
-    "site_url": "https://anilist.co/anime/187901",
-    "start_date": "2026-01-01",
-    "season": "Winter",
-    "season_year": 2026,
-    "studios": "SynergySP, Nippon Columbia",
-    "genres": [
-      "Action",
-      "Supernatural"
-    ],
-    "popularity": 3395,
-    "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 27
@@ -672,7 +672,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 3366,
+    "popularity": 3383,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
@@ -696,7 +696,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3273,
+    "popularity": 3301,
     "favourites": 32,
     "anilist_score": null,
     "streaming_links": [],
@@ -720,7 +720,7 @@
       "Fantasy",
       "Supernatural"
     ],
-    "popularity": 3208,
+    "popularity": 3231,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
@@ -746,11 +746,34 @@
       "Fantasy",
       "Horror"
     ],
-    "popularity": 3148,
+    "popularity": 3177,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 31
+  },
+  {
+    "id": 195518,
+    "mal_id": 62000,
+    "name": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai Sareru",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195518-XXcYHi6tXM6v.jpg",
+    "site_url": "https://anilist.co/anime/195518",
+    "start_date": "2026-01-01",
+    "season": "Winter",
+    "season_year": 2026,
+    "studios": "KADOKAWA, Studio DEEN",
+    "genres": [
+      "Fantasy",
+      "Romance"
+    ],
+    "popularity": 3003,
+    "favourites": 24,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 32
   },
   {
     "id": 182771,
@@ -770,31 +793,8 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 2977,
+    "popularity": 2998,
     "favourites": 29,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 32
-  },
-  {
-    "id": 195518,
-    "mal_id": 62000,
-    "name": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai Sareru",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195518-XXcYHi6tXM6v.jpg",
-    "site_url": "https://anilist.co/anime/195518",
-    "start_date": "2026-01-01",
-    "season": "Winter",
-    "season_year": 2026,
-    "studios": "KADOKAWA, Studio DEEN",
-    "genres": [
-      "Fantasy",
-      "Romance"
-    ],
-    "popularity": 2965,
-    "favourites": 24,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 33
@@ -820,7 +820,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2878,
+    "popularity": 2923,
     "favourites": 54,
     "anilist_score": null,
     "streaming_links": [],
@@ -845,7 +845,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 2657,
+    "popularity": 2682,
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
@@ -869,7 +869,7 @@
       "Horror",
       "Slice of Life"
     ],
-    "popularity": 2640,
+    "popularity": 2674,
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
@@ -892,7 +892,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 2639,
+    "popularity": 2673,
     "favourites": 23,
     "anilist_score": null,
     "streaming_links": [],
@@ -916,7 +916,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 2586,
+    "popularity": 2608,
     "favourites": 14,
     "anilist_score": null,
     "streaming_links": [],
@@ -940,7 +940,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2520,
+    "popularity": 2568,
     "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
@@ -962,7 +962,7 @@
     "genres": [
       "Supernatural"
     ],
-    "popularity": 2342,
+    "popularity": 2356,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
@@ -985,7 +985,7 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 1855,
+    "popularity": 1860,
     "favourites": 21,
     "anilist_score": null,
     "streaming_links": [],
@@ -1009,7 +1009,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 1745,
+    "popularity": 1775,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
@@ -1031,7 +1031,7 @@
     "genres": [
       "Mystery"
     ],
-    "popularity": 1658,
+    "popularity": 1683,
     "favourites": 11,
     "anilist_score": null,
     "streaming_links": [],
@@ -1053,35 +1053,11 @@
     "genres": [
       "Action"
     ],
-    "popularity": 1574,
+    "popularity": 1594,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 44
-  },
-  {
-    "id": 194742,
-    "mal_id": 61884,
-    "name": "Maou no Musume wa Yasashi Sugiru!!",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194742-T16w5yTFgbgZ.png",
-    "site_url": "https://anilist.co/anime/194742",
-    "start_date": "2026-01-01",
-    "season": "Winter",
-    "season_year": 2026,
-    "studios": "EMT Squared",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Slice of Life"
-    ],
-    "popularity": 1468,
-    "favourites": 10,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 45
   },
   {
     "id": 192261,
@@ -1101,8 +1077,32 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 1464,
+    "popularity": 1485,
     "favourites": 13,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 45
+  },
+  {
+    "id": 194742,
+    "mal_id": 61884,
+    "name": "Maou no Musume wa Yasashi Sugiru!!",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194742-T16w5yTFgbgZ.png",
+    "site_url": "https://anilist.co/anime/194742",
+    "start_date": "2026-01-01",
+    "season": "Winter",
+    "season_year": 2026,
+    "studios": "EMT Squared",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Slice of Life"
+    ],
+    "popularity": 1484,
+    "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 46
@@ -1127,7 +1127,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 1425,
+    "popularity": 1443,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
@@ -1153,7 +1153,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "popularity": 1385,
+    "popularity": 1406,
     "favourites": 6,
     "anilist_score": null,
     "streaming_links": [],
@@ -1175,7 +1175,7 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 1350,
+    "popularity": 1353,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
@@ -1199,33 +1199,11 @@
       "Ecchi",
       "Romance"
     ],
-    "popularity": 1301,
+    "popularity": 1324,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 50
-  },
-  {
-    "id": 197731,
-    "mal_id": 61886,
-    "name": "Goumon Baito-kun no Nichijou",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-01-04",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197731-6E0qjPFaNjC6.jpg",
-    "site_url": "https://anilist.co/anime/197731",
-    "start_date": "2026-01-04",
-    "season": "Winter",
-    "season_year": 2026,
-    "studios": "KADOKAWA",
-    "genres": [
-      "Comedy"
-    ],
-    "popularity": 1138,
-    "favourites": 8,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 51
   },
   {
     "id": 202955,
@@ -1243,8 +1221,30 @@
     "genres": [
       "Romance"
     ],
-    "popularity": 1104,
+    "popularity": 1246,
     "favourites": 6,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 51
+  },
+  {
+    "id": 197731,
+    "mal_id": 61886,
+    "name": "Goumon Baito-kun no Nichijou",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-01-04",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197731-6E0qjPFaNjC6.jpg",
+    "site_url": "https://anilist.co/anime/197731",
+    "start_date": "2026-01-04",
+    "season": "Winter",
+    "season_year": 2026,
+    "studios": "KADOKAWA",
+    "genres": [
+      "Comedy"
+    ],
+    "popularity": 1151,
+    "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 52
