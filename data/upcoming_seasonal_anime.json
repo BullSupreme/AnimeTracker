@@ -17,7 +17,7 @@
       "Drama",
       "Supernatural"
     ],
-    "popularity": 78324,
+    "popularity": 78637,
     "favourites": 930,
     "anilist_score": null,
     "streaming_links": [],
@@ -41,7 +41,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 76136,
+    "popularity": 76417,
     "favourites": 1050,
     "anilist_score": null,
     "streaming_links": [],
@@ -66,7 +66,7 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 64697,
+    "popularity": 64899,
     "favourites": 638,
     "anilist_score": null,
     "streaming_links": [],
@@ -91,7 +91,7 @@
       "Psychological",
       "Supernatural"
     ],
-    "popularity": 47011,
+    "popularity": 47125,
     "favourites": 546,
     "anilist_score": null,
     "streaming_links": [],
@@ -116,7 +116,7 @@
       "Sci-Fi",
       "Supernatural"
     ],
-    "popularity": 32121,
+    "popularity": 32249,
     "favourites": 312,
     "anilist_score": null,
     "streaming_links": [],
@@ -142,7 +142,7 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 30280,
+    "popularity": 30331,
     "favourites": 376,
     "anilist_score": null,
     "streaming_links": [],
@@ -167,7 +167,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 17603,
+    "popularity": 17709,
     "favourites": 179,
     "anilist_score": null,
     "streaming_links": [],
@@ -194,7 +194,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 16998,
+    "popularity": 17038,
     "favourites": 263,
     "anilist_score": null,
     "streaming_links": [],
@@ -219,7 +219,7 @@
       "Drama",
       "Sci-Fi"
     ],
-    "popularity": 14208,
+    "popularity": 14285,
     "favourites": 119,
     "anilist_score": null,
     "streaming_links": [],
@@ -244,7 +244,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 13840,
+    "popularity": 13918,
     "favourites": 85,
     "anilist_score": null,
     "streaming_links": [],
@@ -268,7 +268,7 @@
       "Adventure",
       "Comedy"
     ],
-    "popularity": 10429,
+    "popularity": 10452,
     "favourites": 64,
     "anilist_score": null,
     "streaming_links": [],
@@ -293,7 +293,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 10062,
+    "popularity": 10118,
     "favourites": 70,
     "anilist_score": null,
     "streaming_links": [],
@@ -317,7 +317,7 @@
       "Psychological",
       "Sports"
     ],
-    "popularity": 7406,
+    "popularity": 7428,
     "favourites": 53,
     "anilist_score": null,
     "streaming_links": [],
@@ -340,7 +340,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 7311,
+    "popularity": 7373,
     "favourites": 51,
     "anilist_score": null,
     "streaming_links": [],
@@ -363,7 +363,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 7070,
+    "popularity": 7138,
     "favourites": 81,
     "anilist_score": null,
     "streaming_links": [],
@@ -386,7 +386,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 6688,
+    "popularity": 6728,
     "favourites": 43,
     "anilist_score": null,
     "streaming_links": [],
@@ -409,7 +409,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 6035,
+    "popularity": 6050,
     "favourites": 44,
     "anilist_score": null,
     "streaming_links": [],
@@ -433,7 +433,7 @@
       "Drama",
       "Mystery"
     ],
-    "popularity": 5455,
+    "popularity": 5501,
     "favourites": 42,
     "anilist_score": null,
     "streaming_links": [],
@@ -456,7 +456,7 @@
       "Drama",
       "Slice of Life"
     ],
-    "popularity": 5272,
+    "popularity": 5425,
     "favourites": 20,
     "anilist_score": null,
     "streaming_links": [],
@@ -479,7 +479,7 @@
       "Sci-Fi",
       "Sports"
     ],
-    "popularity": 5209,
+    "popularity": 5222,
     "favourites": 80,
     "anilist_score": null,
     "streaming_links": [],
@@ -502,7 +502,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "popularity": 4862,
+    "popularity": 4892,
     "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
@@ -526,11 +526,35 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 4790,
+    "popularity": 4828,
     "favourites": 32,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 22
+  },
+  {
+    "id": 201903,
+    "mal_id": 62896,
+    "name": "Chou Kaguya-hime!",
+    "english_title": "Cosmic Princess Kaguya!",
+    "episode": 1,
+    "release_date": "2026-01-22",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx201903-v43gxQKw8Tc8.jpg",
+    "site_url": "https://anilist.co/anime/201903",
+    "start_date": "2026-01-22",
+    "season": "Winter",
+    "season_year": 2026,
+    "studios": "Studio Colorido, Studio Chromato",
+    "genres": [
+      "Fantasy",
+      "Music",
+      "Sci-Fi"
+    ],
+    "popularity": 4381,
+    "favourites": 26,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 23
   },
   {
     "id": 183270,
@@ -552,32 +576,8 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 4269,
+    "popularity": 4301,
     "favourites": 29,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 23
-  },
-  {
-    "id": 201903,
-    "mal_id": 62896,
-    "name": "Chou Kaguya-hime!",
-    "english_title": "Cosmic Princess Kaguya!",
-    "episode": 1,
-    "release_date": "2026-01-22",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx201903-v43gxQKw8Tc8.jpg",
-    "site_url": "https://anilist.co/anime/201903",
-    "start_date": "2026-01-22",
-    "season": "Winter",
-    "season_year": 2026,
-    "studios": "Studio Colorido, Studio Chromato",
-    "genres": [
-      "Fantasy",
-      "Music",
-      "Sci-Fi"
-    ],
-    "popularity": 3923,
-    "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 24
@@ -600,7 +600,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3707,
+    "popularity": 3757,
     "favourites": 30,
     "anilist_score": null,
     "streaming_links": [],
@@ -624,7 +624,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3515,
+    "popularity": 3560,
     "favourites": 54,
     "anilist_score": null,
     "streaming_links": [],
@@ -647,7 +647,7 @@
       "Action",
       "Supernatural"
     ],
-    "popularity": 3508,
+    "popularity": 3544,
     "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
@@ -672,35 +672,11 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 3428,
+    "popularity": 3457,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 28
-  },
-  {
-    "id": 185262,
-    "mal_id": 60460,
-    "name": "Hell Mode: Yarikomi Suki no Gamer wa Haisettei no Isekai de Musou Suru",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185262-lRq0EYXeO4c7.png",
-    "site_url": "https://anilist.co/anime/185262",
-    "start_date": "2026-01-01",
-    "season": "Winter",
-    "season_year": 2026,
-    "studios": "Yokohama Animation Lab, Mainichi Broadcasting System",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "popularity": 3351,
-    "favourites": 33,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 29
   },
   {
     "id": 185514,
@@ -720,8 +696,32 @@
       "Fantasy",
       "Supernatural"
     ],
-    "popularity": 3323,
+    "popularity": 3385,
     "favourites": 9,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 29
+  },
+  {
+    "id": 185262,
+    "mal_id": 60460,
+    "name": "Hell Mode: Yarikomi Suki no Gamer wa Haisettei no Isekai de Musou Suru",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185262-lRq0EYXeO4c7.png",
+    "site_url": "https://anilist.co/anime/185262",
+    "start_date": "2026-01-01",
+    "season": "Winter",
+    "season_year": 2026,
+    "studios": "Yokohama Animation Lab, Mainichi Broadcasting System",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "popularity": 3375,
+    "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 30
@@ -746,7 +746,7 @@
       "Fantasy",
       "Horror"
     ],
-    "popularity": 3249,
+    "popularity": 3280,
     "favourites": 30,
     "anilist_score": null,
     "streaming_links": [],
@@ -769,35 +769,11 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3068,
+    "popularity": 3104,
     "favourites": 24,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 32
-  },
-  {
-    "id": 182771,
-    "mal_id": 60071,
-    "name": "Odayaka Kizoku no Kyuuka no Susume.",
-    "english_title": "A Gentle Noble's Vacation Recommendation",
-    "episode": 1,
-    "release_date": "2026-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182771-RFYIAD5uveVd.jpg",
-    "site_url": "https://anilist.co/anime/182771",
-    "start_date": "2026-01-01",
-    "season": "Winter",
-    "season_year": 2026,
-    "studios": "Ascension, SynergySP",
-    "genres": [
-      "Adventure",
-      "Fantasy",
-      "Slice of Life"
-    ],
-    "popularity": 3050,
-    "favourites": 29,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 33
   },
   {
     "id": 195515,
@@ -818,8 +794,32 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3021,
+    "popularity": 3092,
     "favourites": 50,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 33
+  },
+  {
+    "id": 182771,
+    "mal_id": 60071,
+    "name": "Odayaka Kizoku no Kyuuka no Susume.",
+    "english_title": "A Gentle Noble's Vacation Recommendation",
+    "episode": 1,
+    "release_date": "2026-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182771-RFYIAD5uveVd.jpg",
+    "site_url": "https://anilist.co/anime/182771",
+    "start_date": "2026-01-01",
+    "season": "Winter",
+    "season_year": 2026,
+    "studios": "Ascension, SynergySP",
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Slice of Life"
+    ],
+    "popularity": 3071,
+    "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 34
@@ -845,7 +845,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3014,
+    "popularity": 3049,
     "favourites": 54,
     "anilist_score": null,
     "streaming_links": [],
@@ -869,7 +869,7 @@
       "Horror",
       "Slice of Life"
     ],
-    "popularity": 2757,
+    "popularity": 2789,
     "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
@@ -894,7 +894,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 2747,
+    "popularity": 2780,
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
@@ -917,35 +917,11 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 2727,
+    "popularity": 2757,
     "favourites": 23,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 38
-  },
-  {
-    "id": 194028,
-    "mal_id": 61782,
-    "name": "Kirei ni Shitemoraemasu ka.",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194028-10OuLhycYNrb.png",
-    "site_url": "https://anilist.co/anime/194028",
-    "start_date": "2026-01-01",
-    "season": "Winter",
-    "season_year": 2026,
-    "studios": "Happinet, Okuruto Noboru",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Slice of Life"
-    ],
-    "popularity": 2682,
-    "favourites": 15,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 39
   },
   {
     "id": 186333,
@@ -965,8 +941,32 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2661,
+    "popularity": 2716,
     "favourites": 19,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 39
+  },
+  {
+    "id": 194028,
+    "mal_id": 61782,
+    "name": "Kirei ni Shitemoraemasu ka.",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194028-10OuLhycYNrb.png",
+    "site_url": "https://anilist.co/anime/194028",
+    "start_date": "2026-01-01",
+    "season": "Winter",
+    "season_year": 2026,
+    "studios": "Happinet, Okuruto Noboru",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Slice of Life"
+    ],
+    "popularity": 2715,
+    "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 40
@@ -987,7 +987,7 @@
     "genres": [
       "Supernatural"
     ],
-    "popularity": 2396,
+    "popularity": 2414,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
@@ -1010,7 +1010,7 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 1874,
+    "popularity": 1886,
     "favourites": 21,
     "anilist_score": null,
     "streaming_links": [],
@@ -1034,7 +1034,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 1822,
+    "popularity": 1839,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
@@ -1056,7 +1056,7 @@
     "genres": [
       "Mystery"
     ],
-    "popularity": 1727,
+    "popularity": 1750,
     "favourites": 11,
     "anilist_score": null,
     "streaming_links": [],
@@ -1078,7 +1078,7 @@
     "genres": [
       "Action"
     ],
-    "popularity": 1632,
+    "popularity": 1648,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
@@ -1102,7 +1102,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 1521,
+    "popularity": 1545,
     "favourites": 13,
     "anilist_score": null,
     "streaming_links": [],
@@ -1126,11 +1126,33 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 1516,
+    "popularity": 1540,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 47
+  },
+  {
+    "id": 202955,
+    "mal_id": 63019,
+    "name": "Prism Rondo",
+    "english_title": "Love Through A Prism",
+    "episode": 1,
+    "release_date": "2026-01-15",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b202955-TFyTd1zFT1v7.jpg",
+    "site_url": "https://anilist.co/anime/202955",
+    "start_date": "2026-01-15",
+    "season": "Winter",
+    "season_year": 2026,
+    "studios": "Netflix, WIT STUDIO",
+    "genres": [
+      "Romance"
+    ],
+    "popularity": 1525,
+    "favourites": 7,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 48
   },
   {
     "id": 198374,
@@ -1152,30 +1174,8 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 1485,
+    "popularity": 1511,
     "favourites": 10,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 48
-  },
-  {
-    "id": 202955,
-    "mal_id": 63019,
-    "name": "Prism Rondo",
-    "english_title": "Love Through A Prism",
-    "episode": 1,
-    "release_date": "2026-01-15",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b202955-TFyTd1zFT1v7.jpg",
-    "site_url": "https://anilist.co/anime/202955",
-    "start_date": "2026-01-15",
-    "season": "Winter",
-    "season_year": 2026,
-    "studios": "Netflix, WIT STUDIO",
-    "genres": [
-      "Romance"
-    ],
-    "popularity": 1459,
-    "favourites": 7,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 49
@@ -1200,7 +1200,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "popularity": 1454,
+    "popularity": 1476,
     "favourites": 6,
     "anilist_score": null,
     "streaming_links": [],
@@ -1224,7 +1224,7 @@
       "Ecchi",
       "Romance"
     ],
-    "popularity": 1408,
+    "popularity": 1444,
     "favourites": 11,
     "anilist_score": null,
     "streaming_links": [],
@@ -1246,7 +1246,7 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 1364,
+    "popularity": 1373,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
@@ -1268,7 +1268,7 @@
     "genres": [
       "Comedy"
     ],
-    "popularity": 1175,
+    "popularity": 1189,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
