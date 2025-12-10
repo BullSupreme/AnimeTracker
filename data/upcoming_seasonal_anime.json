@@ -17,7 +17,7 @@
       "Drama",
       "Supernatural"
     ],
-    "popularity": 80801,
+    "popularity": 81089,
     "favourites": 974,
     "anilist_score": null,
     "streaming_links": [],
@@ -41,7 +41,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 78250,
+    "popularity": 78506,
     "favourites": 1090,
     "anilist_score": null,
     "streaming_links": [],
@@ -66,7 +66,7 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 66102,
+    "popularity": 66255,
     "favourites": 657,
     "anilist_score": null,
     "streaming_links": [],
@@ -91,7 +91,7 @@
       "Psychological",
       "Supernatural"
     ],
-    "popularity": 47898,
+    "popularity": 47990,
     "favourites": 558,
     "anilist_score": null,
     "streaming_links": [],
@@ -116,7 +116,7 @@
       "Sci-Fi",
       "Supernatural"
     ],
-    "popularity": 33063,
+    "popularity": 33205,
     "favourites": 324,
     "anilist_score": null,
     "streaming_links": [],
@@ -142,7 +142,7 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 30836,
+    "popularity": 30894,
     "favourites": 378,
     "anilist_score": null,
     "streaming_links": [],
@@ -167,7 +167,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 18607,
+    "popularity": 18929,
     "favourites": 186,
     "anilist_score": null,
     "streaming_links": [],
@@ -177,7 +177,7 @@
     "id": 176276,
     "mal_id": 58505,
     "name": "Mato Seihei no Slave 2",
-    "english_title": null,
+    "english_title": "Chained Soldier Season 2",
     "episode": 1,
     "release_date": "2026-01-08",
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176276-rtF8mYd2OWw2.png",
@@ -194,7 +194,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 17389,
+    "popularity": 17429,
     "favourites": 269,
     "anilist_score": null,
     "streaming_links": [],
@@ -219,7 +219,7 @@
       "Drama",
       "Sci-Fi"
     ],
-    "popularity": 14756,
+    "popularity": 14804,
     "favourites": 120,
     "anilist_score": null,
     "streaming_links": [],
@@ -244,7 +244,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 14430,
+    "popularity": 14493,
     "favourites": 88,
     "anilist_score": null,
     "streaming_links": [],
@@ -268,7 +268,7 @@
       "Adventure",
       "Comedy"
     ],
-    "popularity": 10659,
+    "popularity": 10680,
     "favourites": 64,
     "anilist_score": null,
     "streaming_links": [],
@@ -293,7 +293,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 10595,
+    "popularity": 10651,
     "favourites": 74,
     "anilist_score": null,
     "streaming_links": [],
@@ -316,7 +316,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 7915,
+    "popularity": 7983,
     "favourites": 55,
     "anilist_score": null,
     "streaming_links": [],
@@ -340,7 +340,7 @@
       "Psychological",
       "Sports"
     ],
-    "popularity": 7609,
+    "popularity": 7641,
     "favourites": 53,
     "anilist_score": null,
     "streaming_links": [],
@@ -363,7 +363,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 7508,
+    "popularity": 7560,
     "favourites": 84,
     "anilist_score": null,
     "streaming_links": [],
@@ -386,7 +386,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 7083,
+    "popularity": 7157,
     "favourites": 46,
     "anilist_score": null,
     "streaming_links": [],
@@ -409,7 +409,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 6133,
+    "popularity": 6151,
     "favourites": 44,
     "anilist_score": null,
     "streaming_links": [],
@@ -433,7 +433,7 @@
       "Drama",
       "Mystery"
     ],
-    "popularity": 5893,
+    "popularity": 5927,
     "favourites": 44,
     "anilist_score": null,
     "streaming_links": [],
@@ -456,34 +456,11 @@
       "Drama",
       "Slice of Life"
     ],
-    "popularity": 5841,
+    "popularity": 5879,
     "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 19
-  },
-  {
-    "id": 185753,
-    "mal_id": 60602,
-    "name": "MF Ghost 3rd Season",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-01-04",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185753-fKim5yXjaE9I.png",
-    "site_url": "https://anilist.co/anime/185753",
-    "start_date": "2026-01-04",
-    "season": "Winter",
-    "season_year": 2026,
-    "studios": "Kodansha, Felix Film",
-    "genres": [
-      "Sci-Fi",
-      "Sports"
-    ],
-    "popularity": 5333,
-    "favourites": 80,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 20
   },
   {
     "id": 201903,
@@ -503,8 +480,31 @@
       "Music",
       "Sci-Fi"
     ],
-    "popularity": 5269,
+    "popularity": 5360,
     "favourites": 31,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 20
+  },
+  {
+    "id": 185753,
+    "mal_id": 60602,
+    "name": "MF Ghost 3rd Season",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-01-04",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185753-fKim5yXjaE9I.png",
+    "site_url": "https://anilist.co/anime/185753",
+    "start_date": "2026-01-04",
+    "season": "Winter",
+    "season_year": 2026,
+    "studios": "Kodansha, Felix Film",
+    "genres": [
+      "Sci-Fi",
+      "Sports"
+    ],
+    "popularity": 5352,
+    "favourites": 80,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 21
@@ -526,7 +526,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "popularity": 5172,
+    "popularity": 5210,
     "favourites": 31,
     "anilist_score": null,
     "streaming_links": [],
@@ -550,7 +550,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 5073,
+    "popularity": 5101,
     "favourites": 36,
     "anilist_score": null,
     "streaming_links": [],
@@ -576,7 +576,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 4576,
+    "popularity": 4606,
     "favourites": 32,
     "anilist_score": null,
     "streaming_links": [],
@@ -586,10 +586,10 @@
     "id": 187264,
     "mal_id": 61128,
     "name": "Yuusha Party wo Oidasareta Kiyou Binbou",
-    "english_title": null,
+    "english_title": "Jack-of-All-Trades, Party of None",
     "episode": 1,
     "release_date": "2026-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187264-7cqcsLfrtYWP.jpg",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187264-aOUNQvTriPkX.jpg",
     "site_url": "https://anilist.co/anime/187264",
     "start_date": "2026-01-01",
     "season": "Winter",
@@ -600,7 +600,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 4090,
+    "popularity": 4145,
     "favourites": 34,
     "anilist_score": null,
     "streaming_links": [],
@@ -624,7 +624,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3877,
+    "popularity": 3923,
     "favourites": 59,
     "anilist_score": null,
     "streaming_links": [],
@@ -647,7 +647,7 @@
       "Action",
       "Supernatural"
     ],
-    "popularity": 3819,
+    "popularity": 3856,
     "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
@@ -672,11 +672,35 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3644,
+    "popularity": 3734,
     "favourites": 57,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 28
+  },
+  {
+    "id": 185514,
+    "mal_id": 60509,
+    "name": "Champignon no Majo",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185514-AHVhgj4AzMPa.jpg",
+    "site_url": "https://anilist.co/anime/185514",
+    "start_date": "2026-01-01",
+    "season": "Winter",
+    "season_year": 2026,
+    "studios": "Qzil.la, TYPHOON GRAPHICS",
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Supernatural"
+    ],
+    "popularity": 3652,
+    "favourites": 9,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 29
   },
   {
     "id": 177580,
@@ -697,32 +721,8 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 3626,
+    "popularity": 3640,
     "favourites": 27,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 29
-  },
-  {
-    "id": 185514,
-    "mal_id": 60509,
-    "name": "Champignon no Majo",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185514-AHVhgj4AzMPa.jpg",
-    "site_url": "https://anilist.co/anime/185514",
-    "start_date": "2026-01-01",
-    "season": "Winter",
-    "season_year": 2026,
-    "studios": "Qzil.la, TYPHOON GRAPHICS",
-    "genres": [
-      "Drama",
-      "Fantasy",
-      "Supernatural"
-    ],
-    "popularity": 3620,
-    "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 30
@@ -731,12 +731,12 @@
     "id": 185262,
     "mal_id": 60460,
     "name": "Hell Mode: Yarikomi Suki no Gamer wa Haisettei no Isekai de Musou Suru",
-    "english_title": null,
+    "english_title": "HELL MODE: The Hardcore Gamer Dominates in Another World with Garbage Balancing",
     "episode": 1,
-    "release_date": "2026-01-01",
+    "release_date": "2026-01-10",
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185262-lRq0EYXeO4c7.png",
     "site_url": "https://anilist.co/anime/185262",
-    "start_date": "2026-01-01",
+    "start_date": "2026-01-10",
     "season": "Winter",
     "season_year": 2026,
     "studios": "Yokohama Animation Lab, Mainichi Broadcasting System",
@@ -745,7 +745,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3597,
+    "popularity": 3619,
     "favourites": 36,
     "anilist_score": null,
     "streaming_links": [],
@@ -771,7 +771,7 @@
       "Fantasy",
       "Horror"
     ],
-    "popularity": 3509,
+    "popularity": 3548,
     "favourites": 30,
     "anilist_score": null,
     "streaming_links": [],
@@ -794,7 +794,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3378,
+    "popularity": 3407,
     "favourites": 25,
     "anilist_score": null,
     "streaming_links": [],
@@ -821,7 +821,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3331,
+    "popularity": 3363,
     "favourites": 58,
     "anilist_score": null,
     "streaming_links": [],
@@ -845,7 +845,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 3221,
+    "popularity": 3236,
     "favourites": 30,
     "anilist_score": null,
     "streaming_links": [],
@@ -869,7 +869,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3074,
+    "popularity": 3122,
     "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
@@ -893,7 +893,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 3073,
+    "popularity": 3119,
     "favourites": 21,
     "anilist_score": null,
     "streaming_links": [],
@@ -917,7 +917,7 @@
       "Horror",
       "Slice of Life"
     ],
-    "popularity": 3018,
+    "popularity": 3057,
     "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
@@ -942,7 +942,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 2966,
+    "popularity": 2985,
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
@@ -965,7 +965,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 2943,
+    "popularity": 2983,
     "favourites": 24,
     "anilist_score": null,
     "streaming_links": [],
@@ -987,7 +987,7 @@
     "genres": [
       "Supernatural"
     ],
-    "popularity": 2566,
+    "popularity": 2576,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
@@ -997,7 +997,7 @@
     "id": 187941,
     "mal_id": 61207,
     "name": "Tensei Shitara Dragon no Tamago Datta",
-    "english_title": null,
+    "english_title": "Reincarnated as a Dragon Hatchling",
     "episode": 1,
     "release_date": "2026-01-01",
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187941-16Gd2tJccUmT.jpg",
@@ -1011,7 +1011,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 1985,
+    "popularity": 2011,
     "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
@@ -1034,7 +1034,7 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 1954,
+    "popularity": 1964,
     "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
@@ -1056,7 +1056,7 @@
     "genres": [
       "Mystery"
     ],
-    "popularity": 1931,
+    "popularity": 1953,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
@@ -1078,7 +1078,7 @@
     "genres": [
       "Romance"
     ],
-    "popularity": 1896,
+    "popularity": 1950,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
@@ -1100,7 +1100,7 @@
     "genres": [
       "Action"
     ],
-    "popularity": 1777,
+    "popularity": 1797,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
@@ -1126,7 +1126,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "popularity": 1726,
+    "popularity": 1760,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
@@ -1150,35 +1150,11 @@
       "Ecchi",
       "Romance"
     ],
-    "popularity": 1694,
+    "popularity": 1733,
     "favourites": 13,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 48
-  },
-  {
-    "id": 194742,
-    "mal_id": 61884,
-    "name": "Maou no Musume wa Yasashi Sugiru!!",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-01-06",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194742-Cw08T4vIfD3y.jpg",
-    "site_url": "https://anilist.co/anime/194742",
-    "start_date": "2026-01-06",
-    "season": "Winter",
-    "season_year": 2026,
-    "studios": "EMT Squared, DMM pictures",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Slice of Life"
-    ],
-    "popularity": 1691,
-    "favourites": 11,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 49
   },
   {
     "id": 192261,
@@ -1198,8 +1174,32 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 1681,
+    "popularity": 1716,
     "favourites": 14,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 49
+  },
+  {
+    "id": 194742,
+    "mal_id": 61884,
+    "name": "Maou no Musume wa Yasashi Sugiru!!",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-01-06",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194742-Cw08T4vIfD3y.jpg",
+    "site_url": "https://anilist.co/anime/194742",
+    "start_date": "2026-01-06",
+    "season": "Winter",
+    "season_year": 2026,
+    "studios": "EMT Squared, DMM pictures",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Slice of Life"
+    ],
+    "popularity": 1715,
+    "favourites": 11,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 50
@@ -1224,7 +1224,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 1655,
+    "popularity": 1674,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
@@ -1237,7 +1237,7 @@
     "english_title": null,
     "episode": 1,
     "release_date": "2025-12-20",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b189258-K40NjhZeuaBL.png",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189258-qhtrra5ebBm6.jpg",
     "site_url": "https://anilist.co/anime/189258",
     "start_date": "2025-12-20",
     "season": "Winter",
@@ -1246,7 +1246,7 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 1415,
+    "popularity": 1419,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
@@ -1268,7 +1268,7 @@
     "genres": [
       "Comedy"
     ],
-    "popularity": 1274,
+    "popularity": 1288,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
@@ -1293,7 +1293,7 @@
       "Horror",
       "Supernatural"
     ],
-    "popularity": 1027,
+    "popularity": 1033,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
