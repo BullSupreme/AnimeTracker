@@ -39,7 +39,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 647467,
+    "popularity": 647722,
     "anilist_score": 88,
     "recently_finished": false,
     "popularity_rank": 1
@@ -76,7 +76,7 @@
     ],
     "popularity": 154397,
     "anilist_score": 80,
-    "recently_finished": false,
+    "recently_finished": true,
     "popularity_rank": 2
   },
   {
@@ -274,10 +274,10 @@
     "mal_id": 59846,
     "name": "Saigo ni Hitotsu dake Onegai Shite mo Yoroshii Deshou ka",
     "english_title": "May I Ask for One Final Thing?",
-    "episode": 12,
+    "episode": 13,
     "release_date": null,
     "next_airing_date": null,
-    "next_episode_number": 12,
+    "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181447-aCmaQmtdwuU5.jpg",
     "site_url": "https://anilist.co/anime/181447",
     "start_date": "2025-10-04",
@@ -355,7 +355,7 @@
     "name": "Tomodachi no Imouto ga Ore ni dake Uzai",
     "english_title": "My Friend's Little Sister Has It In for Me!",
     "episode": 12,
-    "release_date": "2025-12-20",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129195-9BT4wE1QTLj2.jpg",
@@ -369,9 +369,9 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 35395,
-    "anilist_score": 62,
-    "recently_finished": false,
+    "popularity": 35534,
+    "anilist_score": 63,
+    "recently_finished": true,
     "popularity_rank": 11
   },
   {
@@ -434,8 +434,8 @@
     "mal_id": 60168,
     "name": "Watashi wo Tabetai, Hitodenashi",
     "english_title": "This Monster Wants to Eat Me",
-    "episode": 12,
-    "release_date": "2025-12-18",
+    "episode": 13,
+    "release_date": "2025-12-25",
     "next_airing_date": "2025-12-25",
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183385-f1TgnttLckBT.jpg",
@@ -826,7 +826,7 @@
     ],
     "popularity": 17890,
     "anilist_score": 64,
-    "recently_finished": false,
+    "recently_finished": true,
     "popularity_rank": 27
   },
   {
@@ -925,13 +925,13 @@
     "name": "Uma Musume: Cinderella Gray Part 2",
     "english_title": "Umamusume: Cinderella Gray 2nd Cour",
     "episode": 10,
-    "release_date": "2025-12-21",
-    "next_airing_date": "2025-12-21",
+    "release_date": null,
+    "next_airing_date": null,
     "next_episode_number": 10,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195240-hKcmllV6YHQT.jpg",
     "site_url": "https://anilist.co/anime/195240",
     "start_date": "2025-10-05",
-    "end_date": null,
+    "end_date": "2025-12-21",
     "streaming_links": [
       {
         "site": "YouTube",
@@ -951,7 +951,7 @@
     ],
     "popularity": 15742,
     "anilist_score": 84,
-    "recently_finished": false,
+    "recently_finished": true,
     "popularity_rank": 31
   },
   {
@@ -1101,7 +1101,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179992-tu21efjGADCO.png",
     "site_url": "https://anilist.co/anime/179992",
     "start_date": "2025-10-05",
-    "end_date": null,
+    "end_date": "2025-12-21",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -1116,7 +1116,7 @@
     ],
     "popularity": 13289,
     "anilist_score": 62,
-    "recently_finished": false,
+    "recently_finished": true,
     "popularity_rank": 37
   },
   {
@@ -1125,7 +1125,7 @@
     "name": "Sawaranaide Kotesashi-kun",
     "english_title": "Hands off: Sawaranaide Kotesashi-kun!",
     "episode": 12,
-    "release_date": "2025-12-21",
+    "release_date": "2025-12-22",
     "next_airing_date": "2025-12-21",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187331-ylRHyvJIVPeO.jpg",
@@ -1490,14 +1490,44 @@
     "popularity_rank": 51
   },
   {
+    "id": 190840,
+    "mal_id": 61517,
+    "name": "Kingdom 6th Season",
+    "english_title": "Kingdom Season 6",
+    "episode": 12,
+    "release_date": "2025-12-20",
+    "next_airing_date": "2025-12-27",
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx190840-CvKAz6aWHB21.png",
+    "site_url": "https://anilist.co/anime/190840",
+    "start_date": "2025-10-05",
+    "end_date": "2025-12-28",
+    "streaming_links": [
+      {
+        "site": "YouTube",
+        "url": "https://youtube.com/@kingdom-anime",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GRWE89KMR/kingdom",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 6040,
+    "anilist_score": 84,
+    "recently_finished": false,
+    "popularity_rank": 52
+  },
+  {
     "id": 185857,
     "mal_id": 60560,
     "name": "Xian Wang de Richang Shenghuo 5",
     "english_title": "The Daily Life of the Immortal King Season 5",
     "episode": 3,
     "release_date": "2025-12-21",
-    "next_airing_date": "2025-12-21",
-    "next_episode_number": 3,
+    "next_airing_date": "2025-12-28",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b185857-NIhDZe5olAzV.png",
     "site_url": "https://anilist.co/anime/185857",
     "start_date": "2025-12-14",
@@ -1517,7 +1547,7 @@
     "popularity": 5953,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 52
+    "popularity_rank": 53
   },
   {
     "id": 184718,
@@ -1547,7 +1577,7 @@
     "popularity": 5098,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 53
+    "popularity_rank": 54
   },
   {
     "id": 186914,
@@ -1572,7 +1602,7 @@
     "popularity": 4929,
     "anilist_score": 56,
     "recently_finished": false,
-    "popularity_rank": 54
+    "popularity_rank": 55
   },
   {
     "id": 170018,
@@ -1581,8 +1611,8 @@
     "english_title": "Blue Orchestra Season 2",
     "episode": 12,
     "release_date": "2025-12-21",
-    "next_airing_date": "2025-12-21",
-    "next_episode_number": 12,
+    "next_airing_date": "2025-12-28",
+    "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170018-1PqdLX68YayA.jpg",
     "site_url": "https://anilist.co/anime/170018",
     "start_date": "2025-10-05",
@@ -1597,7 +1627,7 @@
     "popularity": 4895,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 55
+    "popularity_rank": 56
   },
   {
     "id": 198561,
@@ -1622,7 +1652,7 @@
     "popularity": 4766,
     "anilist_score": 53,
     "recently_finished": true,
-    "popularity_rank": 56
+    "popularity_rank": 57
   },
   {
     "id": 184997,
@@ -1647,7 +1677,7 @@
     "popularity": 4398,
     "anilist_score": 56,
     "recently_finished": false,
-    "popularity_rank": 57
+    "popularity_rank": 58
   },
   {
     "id": 170936,
@@ -1661,7 +1691,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170936-NlDYAjV86ljm.png",
     "site_url": "https://anilist.co/anime/170936",
     "start_date": "2025-10-06",
-    "end_date": null,
+    "end_date": "2025-12-22",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -1672,17 +1702,17 @@
     "popularity": 4387,
     "anilist_score": 58,
     "recently_finished": false,
-    "popularity_rank": 58
+    "popularity_rank": 59
   },
   {
     "id": 178052,
     "mal_id": 59078,
     "name": "Princess-Session Orchestra",
     "english_title": null,
-    "episode": 36,
+    "episode": 37,
     "release_date": null,
-    "next_airing_date": "2025-12-21",
-    "next_episode_number": 36,
+    "next_airing_date": "2026-01-11",
+    "next_episode_number": 37,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178052-igWygf0ZG1gl.jpg",
     "site_url": "https://anilist.co/anime/178052",
     "start_date": "2025-04-06",
@@ -1702,7 +1732,7 @@
     "popularity": 4309,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 59
+    "popularity_rank": 60
   },
   {
     "id": 196553,
@@ -1711,12 +1741,12 @@
     "english_title": "SI-VIS: The Sound of Heroes",
     "episode": 12,
     "release_date": "2025-12-21",
-    "next_airing_date": "2025-12-21",
-    "next_episode_number": 12,
+    "next_airing_date": "2025-12-28",
+    "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196553-9whoPCB5gyKB.jpg",
     "site_url": "https://anilist.co/anime/196553",
     "start_date": "2025-10-05",
-    "end_date": null,
+    "end_date": "2026-03-15",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -1732,6 +1762,6 @@
     "popularity": 3484,
     "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 60
+    "popularity_rank": 61
   }
 ]
