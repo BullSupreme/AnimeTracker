@@ -4,8 +4,8 @@
     "mal_id": 21,
     "name": "ONE PIECE",
     "english_title": "ONE PIECE",
-    "episode": 1154,
-    "release_date": "2025-12-21",
+    "episode": 1155,
+    "release_date": "2025-12-28",
     "next_airing_date": "2025-12-28",
     "next_episode_number": 1155,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
@@ -84,8 +84,8 @@
     "mal_id": 52807,
     "name": "One Punch Man 3",
     "english_title": "One-Punch Man Season 3",
-    "episode": 11,
-    "release_date": "2025-12-21",
+    "episode": 12,
+    "release_date": "2025-12-28",
     "next_airing_date": "2025-12-28",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153800-8SpzdHOaZCoU.jpg",
@@ -325,7 +325,7 @@
     "name": "Tondemo Skill de Isekai Hourou Meshi 2",
     "english_title": "Campfire Cooking in Another World with my Absurd Skill Season 2",
     "episode": 12,
-    "release_date": "2025-12-23",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170577-ocYSFAcry7ty.jpg",
@@ -346,7 +346,7 @@
     ],
     "popularity": 36787,
     "anilist_score": 75,
-    "recently_finished": false,
+    "recently_finished": true,
     "popularity_rank": 10
   },
   {
@@ -369,7 +369,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 35870,
+    "popularity": 35977,
     "anilist_score": 64,
     "recently_finished": true,
     "popularity_rank": 11
@@ -485,36 +485,6 @@
     "popularity_rank": 15
   },
   {
-    "id": 169969,
-    "mal_id": 56854,
-    "name": "Mushoku no Eiyuu: Betsu ni Skill nanka Ira Nakattan Daga",
-    "english_title": "Hero Without a Class: Who Even Needs Skills?!",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169969-SqCjoqYT4A6Z.jpg",
-    "site_url": "https://anilist.co/anime/169969",
-    "start_date": "2025-09-24",
-    "end_date": "2025-12-10",
-    "streaming_links": [
-      {
-        "site": "HIDIVE",
-        "url": "https://www.hidive.com/season/32819",
-        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jg4B_E2Pp7_q0KZB1IKF_US",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 27493,
-    "anilist_score": 61,
-    "recently_finished": true,
-    "popularity_rank": 16
-  },
-  {
     "id": 195153,
     "mal_id": 61917,
     "name": "Towa no Yuugure",
@@ -542,7 +512,7 @@
     "popularity": 26311,
     "anilist_score": 63,
     "recently_finished": true,
-    "popularity_rank": 17
+    "popularity_rank": 16
   },
   {
     "id": 180082,
@@ -572,7 +542,7 @@
     "popularity": 23390,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 18
+    "popularity_rank": 17
   },
   {
     "id": 185731,
@@ -597,7 +567,7 @@
     "popularity": 23101,
     "anilist_score": 78,
     "recently_finished": true,
-    "popularity_rank": 19
+    "popularity_rank": 18
   },
   {
     "id": 188487,
@@ -627,7 +597,7 @@
     "popularity": 22692,
     "anilist_score": 61,
     "recently_finished": true,
-    "popularity_rank": 20
+    "popularity_rank": 19
   },
   {
     "id": 169420,
@@ -652,7 +622,7 @@
     "popularity": 22135,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 21
+    "popularity_rank": 20
   },
   {
     "id": 185575,
@@ -677,7 +647,7 @@
     "popularity": 21828,
     "anilist_score": 68,
     "recently_finished": true,
-    "popularity_rank": 22
+    "popularity_rank": 21
   },
   {
     "id": 187663,
@@ -707,7 +677,7 @@
     "popularity": 21121,
     "anilist_score": 59,
     "recently_finished": true,
-    "popularity_rank": 23
+    "popularity_rank": 22
   },
   {
     "id": 185801,
@@ -737,7 +707,7 @@
     "popularity": 20775,
     "anilist_score": 74,
     "recently_finished": true,
-    "popularity_rank": 24
+    "popularity_rank": 23
   },
   {
     "id": 183965,
@@ -762,7 +732,7 @@
     "popularity": 19821,
     "anilist_score": 72,
     "recently_finished": true,
-    "popularity_rank": 25
+    "popularity_rank": 24
   },
   {
     "id": 173692,
@@ -792,7 +762,7 @@
     "popularity": 18410,
     "anilist_score": 65,
     "recently_finished": true,
-    "popularity_rank": 26
+    "popularity_rank": 25
   },
   {
     "id": 140291,
@@ -824,10 +794,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 18193,
+    "popularity": 18222,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 27
+    "popularity_rank": 26
   },
   {
     "id": 183291,
@@ -857,15 +827,15 @@
     "popularity": 17816,
     "anilist_score": 69,
     "recently_finished": true,
-    "popularity_rank": 28
+    "popularity_rank": 27
   },
   {
     "id": 165530,
     "mal_id": 57353,
     "name": "Mofa Gongzhu De Xiao Fannao",
     "english_title": "The Fated Magical Princess: Who Made Me a Princess",
-    "episode": 15,
-    "release_date": "2025-12-21",
+    "episode": 16,
+    "release_date": null,
     "next_airing_date": "2025-12-28",
     "next_episode_number": 16,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx165530-Ku7VZt2NCIgf.jpg",
@@ -887,7 +857,7 @@
     "popularity": 17709,
     "anilist_score": 77,
     "recently_finished": false,
-    "popularity_rank": 29
+    "popularity_rank": 28
   },
   {
     "id": 185965,
@@ -917,7 +887,7 @@
     "popularity": 17360,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 30
+    "popularity_rank": 29
   },
   {
     "id": 195240,
@@ -952,7 +922,7 @@
     "popularity": 16221,
     "anilist_score": 85,
     "recently_finished": true,
-    "popularity_rank": 31
+    "popularity_rank": 30
   },
   {
     "id": 180436,
@@ -982,7 +952,7 @@
     "popularity": 15767,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 32
+    "popularity_rank": 31
   },
   {
     "id": 187464,
@@ -1007,7 +977,7 @@
     "popularity": 15524,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 33
+    "popularity_rank": 32
   },
   {
     "id": 187940,
@@ -1032,7 +1002,7 @@
     "popularity": 14825,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 34
+    "popularity_rank": 33
   },
   {
     "id": 185116,
@@ -1057,7 +1027,7 @@
     "popularity": 13949,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 35
+    "popularity_rank": 34
   },
   {
     "id": 176298,
@@ -1087,7 +1057,7 @@
     "popularity": 13671,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 36
+    "popularity_rank": 35
   },
   {
     "id": 179992,
@@ -1117,32 +1087,7 @@
     "popularity": 13559,
     "anilist_score": 64,
     "recently_finished": true,
-    "popularity_rank": 37
-  },
-  {
-    "id": 187921,
-    "mal_id": 61200,
-    "name": "Shuumatsu no Valkyrie III",
-    "english_title": "Record of Ragnarok III",
-    "episode": 15,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 15,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187921-VhGf8qgbb9z7.png",
-    "site_url": "https://anilist.co/anime/187921",
-    "start_date": "2025-12-10",
-    "end_date": "2025-12-10",
-    "streaming_links": [
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/RecordofRagnarok",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      }
-    ],
-    "popularity": 12915,
-    "anilist_score": 77,
-    "recently_finished": true,
-    "popularity_rank": 38
+    "popularity_rank": 36
   },
   {
     "id": 187331,
@@ -1167,7 +1112,7 @@
     "popularity": 12871,
     "anilist_score": 58,
     "recently_finished": true,
-    "popularity_rank": 39
+    "popularity_rank": 37
   },
   {
     "id": 174914,
@@ -1175,7 +1120,7 @@
     "name": "Tensei Akujo no Kuro Rekishi",
     "english_title": "The Dark History of the Reincarnated Villainess",
     "episode": 12,
-    "release_date": "2025-12-24",
+    "release_date": "2025-12-25",
     "next_airing_date": "2025-12-24",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174914-RfPIqbrapByY.jpg",
@@ -1192,7 +1137,7 @@
     "popularity": 12708,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 40
+    "popularity_rank": 38
   },
   {
     "id": 186621,
@@ -1217,15 +1162,15 @@
     "popularity": 12577,
     "anilist_score": 71,
     "recently_finished": true,
-    "popularity_rank": 41
+    "popularity_rank": 39
   },
   {
     "id": 186524,
     "mal_id": 60933,
     "name": "Chanto Suenai Kyuuketsuki-chan",
     "english_title": "Li'l Miss Vampire Can't Suck Right",
-    "episode": 11,
-    "release_date": "2025-12-21",
+    "episode": 12,
+    "release_date": "2025-12-28",
     "next_airing_date": "2025-12-28",
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186524-JSsyFR3FqTO8.jpg",
@@ -1242,7 +1187,7 @@
     "popularity": 12454,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 42
+    "popularity_rank": 40
   },
   {
     "id": 162890,
@@ -1282,7 +1227,7 @@
     "popularity": 12230,
     "anilist_score": 76,
     "recently_finished": true,
-    "popularity_rank": 43
+    "popularity_rank": 41
   },
   {
     "id": 194447,
@@ -1307,7 +1252,7 @@
     "popularity": 11105,
     "anilist_score": 73,
     "recently_finished": true,
-    "popularity_rank": 44
+    "popularity_rank": 42
   },
   {
     "id": 193968,
@@ -1332,7 +1277,7 @@
     "popularity": 10451,
     "anilist_score": 63,
     "recently_finished": true,
-    "popularity_rank": 45
+    "popularity_rank": 43
   },
   {
     "id": 186161,
@@ -1357,7 +1302,7 @@
     "popularity": 10322,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 46
+    "popularity_rank": 44
   },
   {
     "id": 173523,
@@ -1382,7 +1327,7 @@
     "popularity": 9938,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 47
+    "popularity_rank": 45
   },
   {
     "id": 186190,
@@ -1407,7 +1352,7 @@
     "popularity": 9775,
     "anilist_score": 69,
     "recently_finished": true,
-    "popularity_rank": 48
+    "popularity_rank": 46
   },
   {
     "id": 186920,
@@ -1432,7 +1377,7 @@
     "popularity": 9379,
     "anilist_score": 66,
     "recently_finished": true,
-    "popularity_rank": 49
+    "popularity_rank": 47
   },
   {
     "id": 177271,
@@ -1457,7 +1402,7 @@
     "popularity": 7610,
     "anilist_score": 66,
     "recently_finished": true,
-    "popularity_rank": 50
+    "popularity_rank": 48
   },
   {
     "id": 157692,
@@ -1487,15 +1432,15 @@
     "popularity": 6592,
     "anilist_score": 73,
     "recently_finished": true,
-    "popularity_rank": 51
+    "popularity_rank": 49
   },
   {
     "id": 185857,
     "mal_id": 60560,
     "name": "Xian Wang de Richang Shenghuo 5",
     "english_title": "The Daily Life of the Immortal King Season 5",
-    "episode": 3,
-    "release_date": "2025-12-21",
+    "episode": 4,
+    "release_date": "2025-12-28",
     "next_airing_date": "2025-12-28",
     "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b185857-NIhDZe5olAzV.png",
@@ -1517,7 +1462,7 @@
     "popularity": 6146,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 52
+    "popularity_rank": 50
   },
   {
     "id": 190840,
@@ -1547,7 +1492,7 @@
     "popularity": 6093,
     "anilist_score": 84,
     "recently_finished": false,
-    "popularity_rank": 53
+    "popularity_rank": 51
   },
   {
     "id": 184718,
@@ -1577,7 +1522,7 @@
     "popularity": 5105,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 54
+    "popularity_rank": 52
   },
   {
     "id": 186914,
@@ -1585,7 +1530,7 @@
     "name": "Ninja to Gokudou",
     "english_title": "Ninja Vs. Gokudo",
     "episode": 12,
-    "release_date": "2025-12-23",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186914-8fVK9eu1ZOKa.jpg",
@@ -1601,8 +1546,8 @@
     ],
     "popularity": 4979,
     "anilist_score": 56,
-    "recently_finished": false,
-    "popularity_rank": 55
+    "recently_finished": true,
+    "popularity_rank": 53
   },
   {
     "id": 170018,
@@ -1627,7 +1572,7 @@
     "popularity": 4911,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 56
+    "popularity_rank": 54
   },
   {
     "id": 198561,
@@ -1652,7 +1597,7 @@
     "popularity": 4816,
     "anilist_score": 54,
     "recently_finished": true,
-    "popularity_rank": 57
+    "popularity_rank": 55
   },
   {
     "id": 170936,
@@ -1677,7 +1622,7 @@
     "popularity": 4460,
     "anilist_score": 60,
     "recently_finished": true,
-    "popularity_rank": 58
+    "popularity_rank": 56
   },
   {
     "id": 184997,
@@ -1702,7 +1647,7 @@
     "popularity": 4442,
     "anilist_score": 56,
     "recently_finished": false,
-    "popularity_rank": 59
+    "popularity_rank": 57
   },
   {
     "id": 178052,
@@ -1732,15 +1677,15 @@
     "popularity": 4317,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 60
+    "popularity_rank": 58
   },
   {
     "id": 196553,
     "mal_id": 62126,
     "name": "SI-VIS: The Sound of Heroes",
     "english_title": "SI-VIS: The Sound of Heroes",
-    "episode": 12,
-    "release_date": "2025-12-21",
+    "episode": 13,
+    "release_date": "2025-12-28",
     "next_airing_date": "2025-12-28",
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196553-9whoPCB5gyKB.jpg",
@@ -1762,6 +1707,6 @@
     "popularity": 3520,
     "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 61
+    "popularity_rank": 59
   }
 ]
