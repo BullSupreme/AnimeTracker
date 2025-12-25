@@ -369,7 +369,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 35977,
+    "popularity": 36051,
     "anilist_score": 64,
     "recently_finished": true,
     "popularity_rank": 11
@@ -481,7 +481,7 @@
     ],
     "popularity": 30128,
     "anilist_score": 72,
-    "recently_finished": false,
+    "recently_finished": true,
     "popularity_rank": 15
   },
   {
@@ -794,7 +794,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 18222,
+    "popularity": 18251,
     "anilist_score": 67,
     "recently_finished": true,
     "popularity_rank": 26
@@ -930,13 +930,13 @@
     "name": "WanDance",
     "english_title": "Wandance",
     "episode": 12,
-    "release_date": "2025-12-24",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180436-zR0dJuKGZNOK.jpg",
     "site_url": "https://anilist.co/anime/180436",
     "start_date": "2025-10-08",
-    "end_date": null,
+    "end_date": "2025-12-24",
     "streaming_links": [
       {
         "site": "Disney Plus",
@@ -951,7 +951,7 @@
     ],
     "popularity": 15788,
     "anilist_score": 60,
-    "recently_finished": false,
+    "recently_finished": true,
     "popularity_rank": 31
   },
   {
@@ -1120,7 +1120,7 @@
     "name": "Tensei Akujo no Kuro Rekishi",
     "english_title": "The Dark History of the Reincarnated Villainess",
     "episode": 12,
-    "release_date": "2025-12-24",
+    "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174914-RfPIqbrapByY.jpg",
@@ -1136,7 +1136,7 @@
     ],
     "popularity": 12744,
     "anilist_score": 63,
-    "recently_finished": false,
+    "recently_finished": true,
     "popularity_rank": 38
   },
   {
@@ -1309,8 +1309,8 @@
     "mal_id": 57859,
     "name": "Egao no Taenai Shokuba desu.",
     "english_title": "A Mangaka's Weirdly Wonderful Workplace",
-    "episode": 12,
-    "release_date": "2025-12-22",
+    "episode": 13,
+    "release_date": "2025-12-29",
     "next_airing_date": "2025-12-29",
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx173523-wy1rDK1NaKuc.png",
@@ -1405,36 +1405,6 @@
     "popularity_rank": 48
   },
   {
-    "id": 157692,
-    "mal_id": 59662,
-    "name": "Long Zu 2",
-    "english_title": "Dragon Raja II -The Mourner's Eyes-",
-    "episode": 24,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 24,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx157692-lihmnuJGcbM6.png",
-    "site_url": "https://anilist.co/anime/157692",
-    "start_date": "2025-07-18",
-    "end_date": "2025-12-11",
-    "streaming_links": [
-      {
-        "site": "Tencent Video",
-        "url": "https://v.qq.com/x/cover/mzc002008260hny.html",
-        "icon": "https://www.google.com/s2/favicons?domain=v.qq.com&sz=32"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GDKHZEJN0/dragon-raja--the-blazing-dawn-",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 6606,
-    "anilist_score": 73,
-    "recently_finished": true,
-    "popularity_rank": 49
-  },
-  {
     "id": 185857,
     "mal_id": 60560,
     "name": "Xian Wang de Richang Shenghuo 5",
@@ -1462,7 +1432,7 @@
     "popularity": 6182,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 50
+    "popularity_rank": 49
   },
   {
     "id": 190840,
@@ -1492,7 +1462,7 @@
     "popularity": 6113,
     "anilist_score": 84,
     "recently_finished": false,
-    "popularity_rank": 51
+    "popularity_rank": 50
   },
   {
     "id": 184718,
@@ -1522,7 +1492,7 @@
     "popularity": 5112,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 52
+    "popularity_rank": 51
   },
   {
     "id": 186914,
@@ -1547,7 +1517,7 @@
     "popularity": 5024,
     "anilist_score": 58,
     "recently_finished": true,
-    "popularity_rank": 53
+    "popularity_rank": 52
   },
   {
     "id": 170018,
@@ -1572,7 +1542,7 @@
     "popularity": 4914,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 54
+    "popularity_rank": 53
   },
   {
     "id": 198561,
@@ -1597,7 +1567,7 @@
     "popularity": 4830,
     "anilist_score": 54,
     "recently_finished": true,
-    "popularity_rank": 55
+    "popularity_rank": 54
   },
   {
     "id": 170936,
@@ -1622,7 +1592,7 @@
     "popularity": 4489,
     "anilist_score": 60,
     "recently_finished": true,
-    "popularity_rank": 56
+    "popularity_rank": 55
   },
   {
     "id": 184997,
@@ -1647,7 +1617,7 @@
     "popularity": 4452,
     "anilist_score": 56,
     "recently_finished": false,
-    "popularity_rank": 57
+    "popularity_rank": 56
   },
   {
     "id": 178052,
@@ -1677,7 +1647,7 @@
     "popularity": 4318,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 58
+    "popularity_rank": 57
   },
   {
     "id": 196553,
@@ -1707,6 +1677,6 @@
     "popularity": 3525,
     "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 59
+    "popularity_rank": 58
   }
 ]
