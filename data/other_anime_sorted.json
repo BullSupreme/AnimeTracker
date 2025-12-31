@@ -1,5 +1,35 @@
 [
   {
+    "id": 185857,
+    "mal_id": 60560,
+    "name": "Xian Wang de Richang Shenghuo 5",
+    "english_title": "The Daily Life of the Immortal King Season 5",
+    "episode": 5,
+    "release_date": "2026-01-04",
+    "next_airing_date": "2026-01-04",
+    "next_episode_number": 5,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b185857-NIhDZe5olAzV.png",
+    "site_url": "https://anilist.co/anime/185857",
+    "start_date": "2025-12-14",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GZJH3DJ8E/the-daily-life-of-the-immortal-king",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Bilibili",
+        "url": "https://www.bilibili.com/bangumi/media/md23775603",
+        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
+      }
+    ],
+    "popularity": 6467,
+    "anilist_score": 70,
+    "recently_finished": false,
+    "popularity_rank": 41
+  },
+  {
     "id": 162669,
     "mal_id": 54703,
     "name": "Fumetsu no Anata e Season 3",
@@ -47,7 +77,7 @@
     "popularity": 16102,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 28
+    "popularity_rank": 25
   },
   {
     "id": 185116,
@@ -72,7 +102,7 @@
     "popularity": 14608,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 30
+    "popularity_rank": 27
   },
   {
     "id": 184718,
@@ -102,7 +132,32 @@
     "popularity": 5216,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 46
+    "popularity_rank": 43
+  },
+  {
+    "id": 170018,
+    "mal_id": 56877,
+    "name": "Ao no Orchestra Season 2",
+    "english_title": "Blue Orchestra Season 2",
+    "episode": 13,
+    "release_date": null,
+    "next_airing_date": "2026-01-04",
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170018-1PqdLX68YayA.jpg",
+    "site_url": "https://anilist.co/anime/170018",
+    "start_date": "2025-10-05",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "YouTube",
+        "url": "https://youtube.com/@aooke-anime",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 4969,
+    "anilist_score": 67,
+    "recently_finished": false,
+    "popularity_rank": 45
   },
   {
     "id": 178052,
@@ -132,70 +187,15 @@
     "popularity": 4341,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 52
-  },
-  {
-    "id": 185857,
-    "mal_id": 60560,
-    "name": "Xian Wang de Richang Shenghuo 5",
-    "english_title": "The Daily Life of the Immortal King Season 5",
-    "episode": 4,
-    "release_date": "2025-12-28",
-    "next_airing_date": "2026-01-04",
-    "next_episode_number": 5,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b185857-NIhDZe5olAzV.png",
-    "site_url": "https://anilist.co/anime/185857",
-    "start_date": "2025-12-14",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GZJH3DJ8E/the-daily-life-of-the-immortal-king",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md23775603",
-        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
-      }
-    ],
-    "popularity": 6467,
-    "anilist_score": 70,
-    "recently_finished": false,
-    "popularity_rank": 44
-  },
-  {
-    "id": 170018,
-    "mal_id": 56877,
-    "name": "Ao no Orchestra Season 2",
-    "english_title": "Blue Orchestra Season 2",
-    "episode": 12,
-    "release_date": "2025-12-28",
-    "next_airing_date": "2026-01-04",
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170018-1PqdLX68YayA.jpg",
-    "site_url": "https://anilist.co/anime/170018",
-    "start_date": "2025-10-05",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "YouTube",
-        "url": "https://youtube.com/@aooke-anime",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 4969,
-    "anilist_score": 67,
-    "recently_finished": false,
-    "popularity_rank": 48
+    "popularity_rank": 49
   },
   {
     "id": 196553,
     "mal_id": 62126,
     "name": "SI-VIS: The Sound of Heroes",
     "english_title": "SI-VIS: The Sound of Heroes",
-    "episode": 12,
-    "release_date": "2025-12-28",
+    "episode": 13,
+    "release_date": null,
     "next_airing_date": "2026-01-04",
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196553-9whoPCB5gyKB.jpg",
@@ -217,7 +217,7 @@
     "popularity": 3578,
     "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 53
+    "popularity_rank": 50
   },
   {
     "id": 21,
