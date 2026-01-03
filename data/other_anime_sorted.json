@@ -24,7 +24,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 17240,
+    "popularity": 17471,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 25
@@ -52,7 +52,7 @@
     "popularity": 11900,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 36
+    "popularity_rank": 38
   },
   {
     "id": 194028,
@@ -74,10 +74,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5238,
+    "popularity": 5415,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 64
+    "popularity_rank": 63
   },
   {
     "id": 189565,
@@ -99,10 +99,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4624,
+    "popularity": 4753,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 73
+    "popularity_rank": 72
   },
   {
     "id": 187942,
@@ -124,35 +124,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 10787,
+    "popularity": 11071,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 42
-  },
-  {
-    "id": 177679,
-    "mal_id": 58886,
-    "name": "Darwin Jihen",
-    "english_title": "The Darwin Incident",
-    "episode": 1,
-    "release_date": "2026-01-06",
-    "next_airing_date": "2026-01-06",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177679-BgsgE0fQk3qN.jpg",
-    "site_url": "https://anilist.co/anime/177679",
-    "start_date": "2026-01-07",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Amazon Prime Video",
-        "url": "https://www.amazon.com/gp/video/detail/B0G5647BNF/",
-        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
-      }
-    ],
-    "popularity": 7822,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 48
+    "popularity_rank": 41
   },
   {
     "id": 195515,
@@ -174,7 +149,32 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7760,
+    "popularity": 8114,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 48
+  },
+  {
+    "id": 177679,
+    "mal_id": 58886,
+    "name": "Darwin Jihen",
+    "english_title": "The Darwin Incident",
+    "episode": 1,
+    "release_date": "2026-01-06",
+    "next_airing_date": "2026-01-06",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177679-BgsgE0fQk3qN.jpg",
+    "site_url": "https://anilist.co/anime/177679",
+    "start_date": "2026-01-07",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Amazon Prime Video",
+        "url": "https://www.amazon.com/gp/video/detail/B0G5647BNF/",
+        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+      }
+    ],
+    "popularity": 8067,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 49
@@ -199,7 +199,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4730,
+    "popularity": 4884,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 70
@@ -218,10 +218,35 @@
     "start_date": "2026-01-07",
     "end_date": "2026-03-25",
     "streaming_links": [],
-    "popularity": 3284,
+    "popularity": 3407,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 84
+  },
+  {
+    "id": 194742,
+    "mal_id": 61884,
+    "name": "Maou no Musume wa Yasashi Sugiru!!",
+    "english_title": "The Demon King's Daughter is Too Kind!!",
+    "episode": 1,
+    "release_date": "2026-01-06",
+    "next_airing_date": "2026-01-06",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194742-Cw08T4vIfD3y.jpg",
+    "site_url": "https://anilist.co/anime/194742",
+    "start_date": "2026-01-06",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/discover",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 3091,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 85
   },
   {
     "id": 172463,
@@ -243,7 +268,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 92539,
+    "popularity": 93685,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 4
@@ -268,7 +293,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 38179,
+    "popularity": 38633,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 13
@@ -293,7 +318,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 20101,
+    "popularity": 20352,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 20
@@ -323,10 +348,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 11493,
+    "popularity": 12436,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 38
+    "popularity_rank": 36
   },
   {
     "id": 187264,
@@ -348,10 +373,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 10991,
+    "popularity": 12415,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 40
+    "popularity_rank": 37
   },
   {
     "id": 180746,
@@ -378,10 +403,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 8882,
+    "popularity": 9147,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 46
+    "popularity_rank": 45
   },
   {
     "id": 183270,
@@ -403,7 +428,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7053,
+    "popularity": 7262,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 51
@@ -428,10 +453,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 6886,
+    "popularity": 7029,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 53
+    "popularity_rank": 54
   },
   {
     "id": 191718,
@@ -453,7 +478,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5714,
+    "popularity": 5894,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 60
@@ -478,29 +503,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 5650,
+    "popularity": 5809,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 61
-  },
-  {
-    "id": 185514,
-    "mal_id": 60509,
-    "name": "Champignon no Majo",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-01-08",
-    "next_airing_date": "2026-01-08",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185514-mfJqhtz22l1Z.jpg",
-    "site_url": "https://anilist.co/anime/185514",
-    "start_date": "2026-01-09",
-    "end_date": null,
-    "streaming_links": [],
-    "popularity": 5202,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 66
   },
   {
     "id": 191205,
@@ -522,10 +528,29 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5192,
+    "popularity": 5330,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 67
+    "popularity_rank": 64
+  },
+  {
+    "id": 185514,
+    "mal_id": 60509,
+    "name": "Champignon no Majo",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-01-08",
+    "next_airing_date": "2026-01-08",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185514-mfJqhtz22l1Z.jpg",
+    "site_url": "https://anilist.co/anime/185514",
+    "start_date": "2026-01-09",
+    "end_date": null,
+    "streaming_links": [],
+    "popularity": 5323,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 65
   },
   {
     "id": 182771,
@@ -547,7 +572,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4422,
+    "popularity": 4534,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 75
@@ -572,7 +597,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 3804,
+    "popularity": 3917,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 77
@@ -597,10 +622,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 3530,
+    "popularity": 3683,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 82
+    "popularity_rank": 81
   },
   {
     "id": 170018,
@@ -622,7 +647,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 4999,
+    "popularity": 5008,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 69
@@ -652,7 +677,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 4357,
+    "popularity": 4364,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 76
@@ -682,10 +707,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 3603,
-    "anilist_score": 55,
+    "popularity": 3621,
+    "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 80
+    "popularity_rank": 82
   },
   {
     "id": 185753,
@@ -717,10 +742,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 6409,
-    "anilist_score": 69,
+    "popularity": 6675,
+    "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 58
+    "popularity_rank": 55
   },
   {
     "id": 21,
@@ -762,7 +787,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 650614,
+    "popularity": 651308,
     "anilist_score": 88,
     "recently_finished": false,
     "popularity_rank": 1
@@ -787,7 +812,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 89496,
+    "popularity": 90509,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 6
@@ -842,7 +867,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 53128,
+    "popularity": 53592,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 10
@@ -867,10 +892,40 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 33096,
+    "popularity": 33451,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 16
+  },
+  {
+    "id": 167152,
+    "mal_id": 56009,
+    "name": "Yuusha Kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku",
+    "english_title": "Sentenced to Be a Hero",
+    "episode": 2,
+    "release_date": "2026-01-15",
+    "next_airing_date": "2026-01-15",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx167152-u0cBZkqDowHP.jpg",
+    "site_url": "https://anilist.co/anime/167152",
+    "start_date": "2026-01-03",
+    "end_date": "2026-03-26",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00356809/sentenced-to-be-a-hero",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JhI_LMRY2MHHGdT1QxjvlG6",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 27066,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 18
   },
   {
     "id": 163144,
@@ -895,7 +950,7 @@
     "popularity": 17530,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 23
+    "popularity_rank": 24
   },
   {
     "id": 184951,
@@ -917,7 +972,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 14930,
+    "popularity": 15279,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 28
@@ -942,10 +997,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 11115,
+    "popularity": 11361,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 39
+    "popularity_rank": 40
   },
   {
     "id": 189275,
@@ -961,10 +1016,10 @@
     "start_date": "2026-01-25",
     "end_date": null,
     "streaming_links": [],
-    "popularity": 8895,
+    "popularity": 9010,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 45
+    "popularity_rank": 46
   },
   {
     "id": 201903,
@@ -991,7 +1046,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 7645,
+    "popularity": 7810,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 50
@@ -1016,7 +1071,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7004,
+    "popularity": 7084,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 52
@@ -1041,10 +1096,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 6454,
+    "popularity": 6657,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 57
+    "popularity_rank": 56
   },
   {
     "id": 195518,
@@ -1066,7 +1121,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5507,
+    "popularity": 5686,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 62
@@ -1096,10 +1151,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 5257,
+    "popularity": 5292,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 63
+    "popularity_rank": 66
   },
   {
     "id": 183660,
@@ -1121,7 +1176,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5056,
+    "popularity": 5209,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 68
@@ -1146,7 +1201,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 3772,
+    "popularity": 3912,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 78
@@ -1171,7 +1226,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 3733,
+    "popularity": 3891,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 79
@@ -1196,10 +1251,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 3537,
+    "popularity": 3693,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 81
+    "popularity_rank": 80
   },
   {
     "id": 198374,
@@ -1221,7 +1276,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 3322,
+    "popularity": 3452,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 83
