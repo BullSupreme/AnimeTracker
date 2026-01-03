@@ -18,7 +18,7 @@
       "Fantasy"
     ],
     "popularity": 36209,
-    "favourites": 368,
+    "favourites": 370,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 1
@@ -45,7 +45,7 @@
       "Romance"
     ],
     "popularity": 32067,
-    "favourites": 493,
+    "favourites": 500,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 2
@@ -70,7 +70,7 @@
       "Fantasy"
     ],
     "popularity": 31075,
-    "favourites": 427,
+    "favourites": 432,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 3
@@ -93,7 +93,7 @@
       "Slice of Life"
     ],
     "popularity": 27593,
-    "favourites": 562,
+    "favourites": 563,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 4
@@ -116,7 +116,7 @@
       "Psychological"
     ],
     "popularity": 26445,
-    "favourites": 368,
+    "favourites": 373,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 5
@@ -141,7 +141,7 @@
       "Fantasy"
     ],
     "popularity": 25781,
-    "favourites": 294,
+    "favourites": 296,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 6
@@ -166,7 +166,7 @@
       "Sci-Fi"
     ],
     "popularity": 19045,
-    "favourites": 166,
+    "favourites": 170,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 7
@@ -193,7 +193,7 @@
       "Mystery"
     ],
     "popularity": 13115,
-    "favourites": 129,
+    "favourites": 131,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 8
@@ -241,7 +241,7 @@
       "Fantasy"
     ],
     "popularity": 11591,
-    "favourites": 152,
+    "favourites": 154,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 10
@@ -266,7 +266,7 @@
       "Fantasy"
     ],
     "popularity": 11562,
-    "favourites": 83,
+    "favourites": 84,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 11
@@ -337,7 +337,7 @@
       "Romance"
     ],
     "popularity": 6582,
-    "favourites": 79,
+    "favourites": 81,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 14
@@ -387,7 +387,7 @@
       "Romance"
     ],
     "popularity": 6246,
-    "favourites": 50,
+    "favourites": 51,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 16
@@ -410,7 +410,7 @@
       "Psychological"
     ],
     "popularity": 5825,
-    "favourites": 38,
+    "favourites": 39,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 17
@@ -575,7 +575,7 @@
       "Romance"
     ],
     "popularity": 3205,
-    "favourites": 37,
+    "favourites": 38,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 24
@@ -597,7 +597,7 @@
       "Sports"
     ],
     "popularity": 3152,
-    "favourites": 43,
+    "favourites": 42,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 25
@@ -644,7 +644,7 @@
       "Romance"
     ],
     "popularity": 2630,
-    "favourites": 26,
+    "favourites": 27,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 27
@@ -736,7 +736,7 @@
     "studios": "LIDENFILMS",
     "genres": [],
     "popularity": 2338,
-    "favourites": 16,
+    "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 31
@@ -761,7 +761,7 @@
       "Fantasy"
     ],
     "popularity": 2141,
-    "favourites": 25,
+    "favourites": 27,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 32
@@ -830,7 +830,7 @@
       "Comedy"
     ],
     "popularity": 1452,
-    "favourites": 9,
+    "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 35
@@ -924,7 +924,7 @@
       "Sci-Fi"
     ],
     "popularity": 1208,
-    "favourites": 2,
+    "favourites": 3,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 39
@@ -998,5 +998,27 @@
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 42
+  },
+  {
+    "id": 158036,
+    "mal_id": 53732,
+    "name": "Hidarikiki no Eren",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-04-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx158036-Nk5A95f5p1si.jpg",
+    "site_url": "https://anilist.co/anime/158036",
+    "start_date": "2026-04-01",
+    "season": "Spring",
+    "season_year": 2026,
+    "studios": "Signal.MD, Production I.G",
+    "genres": [
+      "Drama"
+    ],
+    "popularity": 1011,
+    "favourites": 7,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 43
   }
 ]
