@@ -19,7 +19,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 11071,
+    "popularity": 11387,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 36
@@ -44,7 +44,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 8114,
+    "popularity": 8478,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 43
@@ -69,7 +69,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 8067,
+    "popularity": 8363,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 44
@@ -94,10 +94,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4884,
+    "popularity": 5027,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 65
+    "popularity_rank": 64
   },
   {
     "id": 183984,
@@ -113,7 +113,7 @@
     "start_date": "2026-01-07",
     "end_date": "2026-03-25",
     "streaming_links": [],
-    "popularity": 3407,
+    "popularity": 3537,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 79
@@ -138,40 +138,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 3091,
+    "popularity": 3212,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 80
-  },
-  {
-    "id": 178005,
-    "mal_id": 59047,
-    "name": "Tamon-kun Ima Docchi!?",
-    "english_title": "Tamon's B-Side",
-    "episode": 2,
-    "release_date": "2026-01-07",
-    "next_airing_date": "2026-01-07",
-    "next_episode_number": 2,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178005-pCEReATswrup.jpg",
-    "site_url": "https://anilist.co/anime/178005",
-    "start_date": "2026-01-01",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://crunchyroll.com/series/GT00365598/tamons-b-side",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JijRmWuTWXJjTIQNOs-hMfO",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 12436,
-    "anilist_score": 75,
-    "recently_finished": false,
-    "popularity_rank": 31
   },
   {
     "id": 187264,
@@ -193,10 +163,40 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12415,
+    "popularity": 13689,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 32
+    "popularity_rank": 27
+  },
+  {
+    "id": 178005,
+    "mal_id": 59047,
+    "name": "Tamon-kun Ima Docchi!?",
+    "english_title": "Tamon's B-Side",
+    "episode": 2,
+    "release_date": "2026-01-07",
+    "next_airing_date": "2026-01-07",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178005-pCEReATswrup.jpg",
+    "site_url": "https://anilist.co/anime/178005",
+    "start_date": "2026-01-01",
+    "end_date": "2026-03-26",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://crunchyroll.com/series/GT00365598/tamons-b-side",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JijRmWuTWXJjTIQNOs-hMfO",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 13473,
+    "anilist_score": 76,
+    "recently_finished": false,
+    "popularity_rank": 29
   },
   {
     "id": 180746,
@@ -223,7 +223,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 9147,
+    "popularity": 9468,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 40
@@ -248,7 +248,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5330,
+    "popularity": 5464,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 59
@@ -273,10 +273,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4534,
+    "popularity": 4634,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 70
+    "popularity_rank": 69
   },
   {
     "id": 192261,
@@ -298,7 +298,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 3683,
+    "popularity": 3862,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 76
@@ -323,7 +323,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 93685,
+    "popularity": 95083,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 3
@@ -348,10 +348,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 38633,
+    "popularity": 39213,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 12
+    "popularity_rank": 11
   },
   {
     "id": 176276,
@@ -373,7 +373,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 20352,
+    "popularity": 20643,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 18
@@ -423,7 +423,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7262,
+    "popularity": 7472,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 46
@@ -448,10 +448,35 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7029,
+    "popularity": 7196,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 49
+    "popularity_rank": 48
+  },
+  {
+    "id": 187901,
+    "mal_id": 61196,
+    "name": "Dead Account",
+    "english_title": "Dead Account",
+    "episode": 1,
+    "release_date": "2026-01-10",
+    "next_airing_date": "2026-01-10",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187901-T91HmZAaNwOF.jpg",
+    "site_url": "https://anilist.co/anime/187901",
+    "start_date": "2026-01-10",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 6872,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 50
   },
   {
     "id": 185753,
@@ -483,33 +508,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 6675,
-    "anilist_score": 71,
-    "recently_finished": false,
-    "popularity_rank": 50
-  },
-  {
-    "id": 187901,
-    "mal_id": 61196,
-    "name": "Dead Account",
-    "english_title": "Dead Account",
-    "episode": 1,
-    "release_date": "2026-01-10",
-    "next_airing_date": "2026-01-10",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187901-T91HmZAaNwOF.jpg",
-    "site_url": "https://anilist.co/anime/187901",
-    "start_date": "2026-01-10",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 6657,
-    "anilist_score": null,
+    "popularity": 6836,
+    "anilist_score": 72,
     "recently_finished": false,
     "popularity_rank": 51
   },
@@ -533,7 +533,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5894,
+    "popularity": 6066,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 55
@@ -558,7 +558,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 5809,
+    "popularity": 6005,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 56
@@ -577,35 +577,10 @@
     "start_date": "2026-01-09",
     "end_date": null,
     "streaming_links": [],
-    "popularity": 5323,
+    "popularity": 5461,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 60
-  },
-  {
-    "id": 181443,
-    "mal_id": 59853,
-    "name": "DARK MOON: Kuro no Tsuki - Tsuki no Saidan",
-    "english_title": "DARK MOON: THE BLOOD ALTAR Animation with ENHYPEN",
-    "episode": 1,
-    "release_date": "2026-01-09",
-    "next_airing_date": "2026-01-09",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181443-Df41Nlf7xjgI.jpg",
-    "site_url": "https://anilist.co/anime/181443",
-    "start_date": "2026-01-10",
-    "end_date": "2026-03-28",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 3917,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 72
   },
   {
     "id": 187941,
@@ -627,10 +602,35 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 3912,
+    "popularity": 4061,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 73
+  },
+  {
+    "id": 181443,
+    "mal_id": 59853,
+    "name": "DARK MOON: Kuro no Tsuki - Tsuki no Saidan",
+    "english_title": "DARK MOON: THE BLOOD ALTAR Animation with ENHYPEN",
+    "episode": 1,
+    "release_date": "2026-01-09",
+    "next_airing_date": "2026-01-09",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181443-Df41Nlf7xjgI.jpg",
+    "site_url": "https://anilist.co/anime/181443",
+    "start_date": "2026-01-10",
+    "end_date": "2026-03-28",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 4049,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 74
   },
   {
     "id": 187989,
@@ -652,7 +652,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 3693,
+    "popularity": 3899,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 75
@@ -677,7 +677,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 3452,
+    "popularity": 3610,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 78
@@ -707,10 +707,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 5292,
+    "popularity": 5319,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 61
+    "popularity_rank": 62
   },
   {
     "id": 21,
@@ -777,10 +777,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 90509,
+    "popularity": 91787,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 5
+    "popularity_rank": 4
   },
   {
     "id": 166613,
@@ -832,7 +832,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 53592,
+    "popularity": 54180,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 9
@@ -907,7 +907,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 33451,
+    "popularity": 33836,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 14
@@ -962,7 +962,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 16414,
+    "popularity": 16482,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 22
@@ -987,7 +987,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 15279,
+    "popularity": 15681,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 24
@@ -1012,7 +1012,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 14945,
+    "popularity": 15057,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 25
@@ -1037,7 +1037,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 11361,
+    "popularity": 11608,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 35
@@ -1056,10 +1056,10 @@
     "start_date": "2026-01-25",
     "end_date": null,
     "streaming_links": [],
-    "popularity": 9010,
+    "popularity": 9137,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 41
+    "popularity_rank": 42
   },
   {
     "id": 201903,
@@ -1086,7 +1086,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 7810,
+    "popularity": 7985,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 45
@@ -1111,10 +1111,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7084,
+    "popularity": 7162,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 47
+    "popularity_rank": 49
   },
   {
     "id": 195518,
@@ -1136,7 +1136,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5686,
+    "popularity": 5886,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 57
@@ -1161,10 +1161,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5209,
+    "popularity": 5379,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 63
+    "popularity_rank": 61
   },
   {
     "id": 202955,
@@ -1186,9 +1186,9 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 3891,
+    "popularity": 4072,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 74
+    "popularity_rank": 72
   }
 ]

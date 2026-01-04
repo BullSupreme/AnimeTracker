@@ -17,7 +17,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 36613,
+    "popularity": 37016,
     "favourites": 372,
     "anilist_score": null,
     "streaming_links": [],
@@ -44,7 +44,7 @@
       "Psychological",
       "Romance"
     ],
-    "popularity": 32456,
+    "popularity": 32809,
     "favourites": 504,
     "anilist_score": null,
     "streaming_links": [],
@@ -69,7 +69,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 31295,
+    "popularity": 31538,
     "favourites": 434,
     "anilist_score": null,
     "streaming_links": [],
@@ -81,10 +81,10 @@
     "name": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2nd Season",
     "english_title": null,
     "episode": 1,
-    "release_date": "2026-04-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170019-dCc4jFzPBwsF.jpg",
+    "release_date": "2026-04-03",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170019-mykW503vsoNe.jpg",
     "site_url": "https://anilist.co/anime/170019",
-    "start_date": "2026-04-01",
+    "start_date": "2026-04-03",
     "season": "Spring",
     "season_year": 2026,
     "studios": "Toho, project No.9",
@@ -115,7 +115,7 @@
       "Drama",
       "Psychological"
     ],
-    "popularity": 26816,
+    "popularity": 27158,
     "favourites": 376,
     "anilist_score": null,
     "streaming_links": [],
@@ -140,7 +140,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 25936,
+    "popularity": 26120,
     "favourites": 300,
     "anilist_score": null,
     "streaming_links": [],
@@ -165,7 +165,7 @@
       "Comedy",
       "Sci-Fi"
     ],
-    "popularity": 19267,
+    "popularity": 19473,
     "favourites": 172,
     "anilist_score": null,
     "streaming_links": [],
@@ -192,7 +192,7 @@
       "Horror",
       "Mystery"
     ],
-    "popularity": 13219,
+    "popularity": 13331,
     "favourites": 131,
     "anilist_score": null,
     "streaming_links": [],
@@ -216,7 +216,7 @@
       "Fantasy",
       "Supernatural"
     ],
-    "popularity": 12604,
+    "popularity": 12667,
     "favourites": 174,
     "anilist_score": null,
     "streaming_links": [],
@@ -241,7 +241,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 11768,
+    "popularity": 11941,
     "favourites": 84,
     "anilist_score": null,
     "streaming_links": [],
@@ -265,7 +265,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 11701,
+    "popularity": 11793,
     "favourites": 156,
     "anilist_score": null,
     "streaming_links": [],
@@ -289,7 +289,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 8309,
+    "popularity": 8372,
     "favourites": 80,
     "anilist_score": null,
     "streaming_links": [],
@@ -313,7 +313,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 7965,
+    "popularity": 7993,
     "favourites": 105,
     "anilist_score": null,
     "streaming_links": [],
@@ -343,31 +343,6 @@
     "popularity_rank": 14
   },
   {
-    "id": 190704,
-    "mal_id": 61501,
-    "name": "Kanan-sama wa Akumade Choroi",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-04-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx190704-REc4OeZ0OXuA.png",
-    "site_url": "https://anilist.co/anime/190704",
-    "start_date": "2026-04-01",
-    "season": "Spring",
-    "season_year": 2026,
-    "studios": "Studio KAI",
-    "genres": [
-      "Comedy",
-      "Ecchi",
-      "Fantasy",
-      "Romance"
-    ],
-    "popularity": 6392,
-    "favourites": 74,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 15
-  },
-  {
     "id": 199547,
     "mal_id": 62601,
     "name": "MARRIAGETOXIN",
@@ -386,8 +361,33 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 6370,
+    "popularity": 6471,
     "favourites": 51,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 15
+  },
+  {
+    "id": 190704,
+    "mal_id": 61501,
+    "name": "Kanan-sama wa Akumade Choroi",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-04-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx190704-REc4OeZ0OXuA.png",
+    "site_url": "https://anilist.co/anime/190704",
+    "start_date": "2026-04-01",
+    "season": "Spring",
+    "season_year": 2026,
+    "studios": "Studio KAI",
+    "genres": [
+      "Comedy",
+      "Ecchi",
+      "Fantasy",
+      "Romance"
+    ],
+    "popularity": 6459,
+    "favourites": 74,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 16
@@ -409,7 +409,7 @@
       "Drama",
       "Psychological"
     ],
-    "popularity": 5922,
+    "popularity": 6002,
     "favourites": 39,
     "anilist_score": null,
     "streaming_links": [],
@@ -431,7 +431,7 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 5839,
+    "popularity": 5929,
     "favourites": 36,
     "anilist_score": null,
     "streaming_links": [],
@@ -454,7 +454,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 5468,
+    "popularity": 5546,
     "favourites": 65,
     "anilist_score": null,
     "streaming_links": [],
@@ -478,7 +478,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 5111,
+    "popularity": 5150,
     "favourites": 51,
     "anilist_score": null,
     "streaming_links": [],
@@ -503,7 +503,7 @@
       "Psychological",
       "Slice of Life"
     ],
-    "popularity": 5065,
+    "popularity": 5127,
     "favourites": 46,
     "anilist_score": null,
     "streaming_links": [],
@@ -527,7 +527,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 4312,
+    "popularity": 4355,
     "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
@@ -551,7 +551,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 3609,
+    "popularity": 3638,
     "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
@@ -574,7 +574,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 3323,
+    "popularity": 3422,
     "favourites": 40,
     "anilist_score": null,
     "streaming_links": [],
@@ -596,7 +596,7 @@
     "genres": [
       "Sports"
     ],
-    "popularity": 3163,
+    "popularity": 3196,
     "favourites": 42,
     "anilist_score": null,
     "streaming_links": [],
@@ -619,7 +619,7 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 2720,
+    "popularity": 2749,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
@@ -643,7 +643,7 @@
       "Ecchi",
       "Romance"
     ],
-    "popularity": 2668,
+    "popularity": 2703,
     "favourites": 27,
     "anilist_score": null,
     "streaming_links": [],
@@ -667,7 +667,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2485,
+    "popularity": 2507,
     "favourites": 13,
     "anilist_score": null,
     "streaming_links": [],
@@ -691,11 +691,31 @@
       "Music",
       "Romance"
     ],
-    "popularity": 2424,
+    "popularity": 2444,
     "favourites": 3,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 29
+  },
+  {
+    "id": 196974,
+    "mal_id": 62171,
+    "name": "Kuroneko to Majo no Kyoushitsu",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-04-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196974-mZk1uyrx0XNx.png",
+    "site_url": "https://anilist.co/anime/196974",
+    "start_date": "2026-04-01",
+    "season": "Spring",
+    "season_year": 2026,
+    "studios": "LIDENFILMS",
+    "genres": [],
+    "popularity": 2411,
+    "favourites": 17,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 30
   },
   {
     "id": 196012,
@@ -715,27 +735,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 2388,
-    "favourites": 17,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 30
-  },
-  {
-    "id": 196974,
-    "mal_id": 62171,
-    "name": "Kuroneko to Majo no Kyoushitsu",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-04-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196974-mZk1uyrx0XNx.png",
-    "site_url": "https://anilist.co/anime/196974",
-    "start_date": "2026-04-01",
-    "season": "Spring",
-    "season_year": 2026,
-    "studios": "LIDENFILMS",
-    "genres": [],
-    "popularity": 2371,
+    "popularity": 2410,
     "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
@@ -760,7 +760,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 2174,
+    "popularity": 2221,
     "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
@@ -784,7 +784,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 2033,
+    "popularity": 2063,
     "favourites": 14,
     "anilist_score": null,
     "streaming_links": [],
@@ -806,7 +806,7 @@
     "genres": [
       "Slice of Life"
     ],
-    "popularity": 1498,
+    "popularity": 1513,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
@@ -829,7 +829,7 @@
       "Action",
       "Comedy"
     ],
-    "popularity": 1474,
+    "popularity": 1508,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
@@ -853,7 +853,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 1465,
+    "popularity": 1490,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
@@ -876,7 +876,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 1453,
+    "popularity": 1478,
     "favourites": 13,
     "anilist_score": null,
     "streaming_links": [],
@@ -899,7 +899,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 1393,
+    "popularity": 1423,
     "favourites": 14,
     "anilist_score": null,
     "streaming_links": [],
@@ -923,11 +923,35 @@
       "Mecha",
       "Sci-Fi"
     ],
-    "popularity": 1229,
+    "popularity": 1258,
     "favourites": 3,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 39
+  },
+  {
+    "id": 199748,
+    "mal_id": 62617,
+    "name": "Koko wa Ore ni Makasete Saki ni Ike to Ittekara 10-nen ga Tattara Densetsu ni Natteita.",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-04-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199748-PAFk9pGSUmFL.png",
+    "site_url": "https://anilist.co/anime/199748",
+    "start_date": "2026-04-01",
+    "season": "Spring",
+    "season_year": 2026,
+    "studios": "Gekkou, GREE Entertainment",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "popularity": 1203,
+    "favourites": 15,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 40
   },
   {
     "id": 195734,
@@ -947,11 +971,11 @@
       "Ecchi",
       "Slice of Life"
     ],
-    "popularity": 1132,
+    "popularity": 1151,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 40
+    "popularity_rank": 41
   },
   {
     "id": 181284,
@@ -971,11 +995,11 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 1112,
+    "popularity": 1133,
     "favourites": 4,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 41
+    "popularity_rank": 42
   },
   {
     "id": 178749,
@@ -993,11 +1017,11 @@
     "genres": [
       "Mahou Shoujo"
     ],
-    "popularity": 1067,
+    "popularity": 1077,
     "favourites": 2,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 42
+    "popularity_rank": 43
   },
   {
     "id": 158036,
@@ -1019,6 +1043,6 @@
     "favourites": 7,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 43
+    "popularity_rank": 44
   }
 ]
