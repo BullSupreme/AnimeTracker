@@ -199,40 +199,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 76490,
+    "popularity": 77376,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 6
-  },
-  {
-    "id": 186794,
-    "mal_id": 61026,
-    "name": "Ansatsusha de Aru Ore no Status ga Yuusha yori mo Akiraka ni Tsuyoi no da ga",
-    "english_title": "My Status as an Assassin Obviously Exceeds the Hero’s",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186794-Ns8xWNdMdOxq.jpg",
-    "site_url": "https://anilist.co/anime/186794",
-    "start_date": "2025-10-07",
-    "end_date": "2025-12-23",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G0XHWM1JP/my-status-as-an-assassin-obviously-exceeds-the-heros",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0dSCBzzknNWxuXuMJ0xwmk",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 56988,
-    "anilist_score": 67,
-    "recently_finished": true,
-    "popularity_rank": 7
   },
   {
     "id": 177474,
@@ -272,7 +242,7 @@
     "popularity": 55500,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 8
+    "popularity_rank": 7
   },
   {
     "id": 182587,
@@ -302,6 +272,36 @@
     "popularity": 54752,
     "anilist_score": null,
     "recently_finished": false,
+    "popularity_rank": 8
+  },
+  {
+    "id": 167152,
+    "mal_id": 56009,
+    "name": "Yuusha Kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku",
+    "english_title": "Sentenced to Be a Hero",
+    "episode": 2,
+    "release_date": "2026-01-15",
+    "next_airing_date": "2026-01-15",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx167152-u0cBZkqDowHP.jpg",
+    "site_url": "https://anilist.co/anime/167152",
+    "start_date": "2026-01-03",
+    "end_date": "2026-03-26",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00356809/sentenced-to-be-a-hero",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JhI_LMRY2MHHGdT1QxjvlG6",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 44961,
+    "anilist_score": 82,
+    "recently_finished": false,
     "popularity_rank": 9
   },
   {
@@ -309,8 +309,8 @@
     "mal_id": 54703,
     "name": "Fumetsu no Anata e Season 3",
     "english_title": "To Your Eternity Season 3",
-    "episode": 12,
-    "release_date": "2026-01-03",
+    "episode": 13,
+    "release_date": null,
     "next_airing_date": "2026-01-10",
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162669-FLYUTftoXgMh.jpg",
@@ -324,8 +324,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 41692,
-    "anilist_score": 77,
+    "popularity": 41761,
+    "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 10
   },
@@ -379,48 +379,18 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 39174,
+    "popularity": 39344,
     "anilist_score": 77,
     "recently_finished": true,
     "popularity_rank": 12
-  },
-  {
-    "id": 167152,
-    "mal_id": 56009,
-    "name": "Yuusha Kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku",
-    "english_title": "Sentenced to Be a Hero",
-    "episode": 2,
-    "release_date": "2026-01-15",
-    "next_airing_date": "2026-01-15",
-    "next_episode_number": 2,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx167152-u0cBZkqDowHP.jpg",
-    "site_url": "https://anilist.co/anime/167152",
-    "start_date": "2026-01-03",
-    "end_date": "2026-03-26",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00356809/sentenced-to-be-a-hero",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JhI_LMRY2MHHGdT1QxjvlG6",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 38573,
-    "anilist_score": 81,
-    "recently_finished": false,
-    "popularity_rank": 13
   },
   {
     "id": 166617,
     "mal_id": 55830,
     "name": "Fate/strange Fake",
     "english_title": "Fate/strange Fake",
-    "episode": 1,
-    "release_date": "2026-01-03",
+    "episode": 2,
+    "release_date": "2026-01-10",
     "next_airing_date": "2026-01-10",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166617-34fpC9y47tTx.png",
@@ -434,10 +404,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 36442,
+    "popularity": 37262,
     "anilist_score": 80,
     "recently_finished": false,
-    "popularity_rank": 14
+    "popularity_rank": 13
   },
   {
     "id": 190327,
@@ -462,7 +432,7 @@
     "popularity": 34310,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 15
+    "popularity_rank": 14
   },
   {
     "id": 183385,
@@ -492,6 +462,36 @@
     "popularity": 31618,
     "anilist_score": 73,
     "recently_finished": true,
+    "popularity_rank": 15
+  },
+  {
+    "id": 180082,
+    "mal_id": 59517,
+    "name": "Chitose-kun wa Ramune Bin no Naka",
+    "english_title": "Chitose Is in the Ramune Bottle",
+    "episode": 13,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180082-IZAlf06G2VVm.png",
+    "site_url": "https://anilist.co/anime/180082",
+    "start_date": "2025-10-07",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364783/chitose-is-in-the-ramune-bottle",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgz0nvNyM-z3UVzYpGY70Et",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 25802,
+    "anilist_score": 69,
+    "recently_finished": false,
     "popularity_rank": 16
   },
   {
@@ -514,7 +514,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 22870,
+    "popularity": 22915,
     "anilist_score": 62,
     "recently_finished": true,
     "popularity_rank": 17
@@ -569,7 +569,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 18828,
+    "popularity": 18914,
     "anilist_score": 77,
     "recently_finished": true,
     "popularity_rank": 19
@@ -594,7 +594,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 18171,
+    "popularity": 18445,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 20
@@ -634,8 +634,8 @@
     "mal_id": 61159,
     "name": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
     "english_title": "Tojima Wants to Be a Kamen Rider",
-    "episode": 13,
-    "release_date": "2026-01-03",
+    "episode": 14,
+    "release_date": null,
     "next_airing_date": "2026-01-10",
     "next_episode_number": 14,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187464-NJtK3VC54vPm.jpg",
@@ -714,8 +714,8 @@
     "mal_id": 60427,
     "name": "Gnosia",
     "english_title": "GNOSIA",
-    "episode": 12,
-    "release_date": "2026-01-03",
+    "episode": 13,
+    "release_date": null,
     "next_airing_date": "2026-01-10",
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185116-DIFRjiMgz1IS.jpg",
@@ -870,46 +870,6 @@
     "popularity_rank": 30
   },
   {
-    "id": 162890,
-    "mal_id": 54757,
-    "name": "3-nen Z-gumi Ginpachi-sensei",
-    "english_title": "GINTAMA - Mr. Ginpachi's Zany Class",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162890-vDRlo1KuRM6W.jpg",
-    "site_url": "https://anilist.co/anime/162890",
-    "start_date": "2025-10-07",
-    "end_date": "2025-12-23",
-    "streaming_links": [
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/channel/UCFyBWO9SUQfKpuV7uF8Rh5A",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@AniOneAsia/featured",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00365105/gintama-mr-ginpachis-zany-class",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "Hulu",
-        "url": "https://www.hulu.com/series/67757c50-057c-4503-ba0e-6a826590db65",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      }
-    ],
-    "popularity": 12496,
-    "anilist_score": 76,
-    "recently_finished": true,
-    "popularity_rank": 31
-  },
-  {
     "id": 166521,
     "mal_id": 55772,
     "name": "Golden Kamuy: Saishuushou",
@@ -921,7 +881,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166521-PNf7tRAlJJI6.jpg",
     "site_url": "https://anilist.co/anime/166521",
     "start_date": "2026-01-05",
-    "end_date": null,
+    "end_date": "2026-03-30",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -929,10 +889,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12176,
-    "anilist_score": null,
+    "popularity": 12584,
+    "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 32
+    "popularity_rank": 31
   },
   {
     "id": 192507,
@@ -957,7 +917,7 @@
     "popularity": 11912,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 33
+    "popularity_rank": 32
   },
   {
     "id": 187942,
@@ -982,7 +942,7 @@
     "popularity": 11702,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 34
+    "popularity_rank": 33
   },
   {
     "id": 177385,
@@ -1007,7 +967,7 @@
     "popularity": 11303,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 35
+    "popularity_rank": 34
   },
   {
     "id": 186161,
@@ -1032,7 +992,7 @@
     "popularity": 11117,
     "anilist_score": 69,
     "recently_finished": true,
-    "popularity_rank": 36
+    "popularity_rank": 35
   },
   {
     "id": 173523,
@@ -1057,7 +1017,7 @@
     "popularity": 10701,
     "anilist_score": 73,
     "recently_finished": true,
-    "popularity_rank": 37
+    "popularity_rank": 36
   },
   {
     "id": 199112,
@@ -1082,7 +1042,7 @@
     "popularity": 10624,
     "anilist_score": 81,
     "recently_finished": true,
-    "popularity_rank": 38
+    "popularity_rank": 37
   },
   {
     "id": 185993,
@@ -1107,7 +1067,7 @@
     "popularity": 10078,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 39
+    "popularity_rank": 38
   },
   {
     "id": 180746,
@@ -1137,7 +1097,7 @@
     "popularity": 9720,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 40
+    "popularity_rank": 39
   },
   {
     "id": 186333,
@@ -1162,7 +1122,7 @@
     "popularity": 9679,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 41
+    "popularity_rank": 40
   },
   {
     "id": 189275,
@@ -1181,7 +1141,7 @@
     "popularity": 9268,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 42
+    "popularity_rank": 41
   },
   {
     "id": 195515,
@@ -1206,7 +1166,7 @@
     "popularity": 8873,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 43
+    "popularity_rank": 42
   },
   {
     "id": 177679,
@@ -1231,7 +1191,7 @@
     "popularity": 8626,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 44
+    "popularity_rank": 43
   },
   {
     "id": 201903,
@@ -1261,7 +1221,7 @@
     "popularity": 8160,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 45
+    "popularity_rank": 44
   },
   {
     "id": 183270,
@@ -1286,7 +1246,7 @@
     "popularity": 7676,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 46
+    "popularity_rank": 45
   },
   {
     "id": 185039,
@@ -1311,7 +1271,7 @@
     "popularity": 7351,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 47
+    "popularity_rank": 46
   },
   {
     "id": 176370,
@@ -1336,7 +1296,7 @@
     "popularity": 7246,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 48
+    "popularity_rank": 47
   },
   {
     "id": 187901,
@@ -1361,7 +1321,7 @@
     "popularity": 7101,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 49
+    "popularity_rank": 48
   },
   {
     "id": 185753,
@@ -1396,7 +1356,7 @@
     "popularity": 7029,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 50
+    "popularity_rank": 49
   },
   {
     "id": 185857,
@@ -1426,7 +1386,7 @@
     "popularity": 6825,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 51
+    "popularity_rank": 50
   },
   {
     "id": 190840,
@@ -1456,7 +1416,7 @@
     "popularity": 6556,
     "anilist_score": 84,
     "recently_finished": true,
-    "popularity_rank": 52
+    "popularity_rank": 51
   },
   {
     "id": 191718,
@@ -1481,7 +1441,7 @@
     "popularity": 6263,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 53
+    "popularity_rank": 52
   },
   {
     "id": 177580,
@@ -1506,7 +1466,7 @@
     "popularity": 6259,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 54
+    "popularity_rank": 53
   },
   {
     "id": 185262,
@@ -1531,7 +1491,7 @@
     "popularity": 6197,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 55
+    "popularity_rank": 54
   },
   {
     "id": 195518,
@@ -1556,7 +1516,7 @@
     "popularity": 6097,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 56
+    "popularity_rank": 55
   },
   {
     "id": 194028,
@@ -1581,7 +1541,7 @@
     "popularity": 5881,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 57
+    "popularity_rank": 56
   },
   {
     "id": 191205,
@@ -1606,7 +1566,7 @@
     "popularity": 5654,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 58
+    "popularity_rank": 57
   },
   {
     "id": 185514,
@@ -1625,7 +1585,7 @@
     "popularity": 5615,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 59
+    "popularity_rank": 58
   },
   {
     "id": 183660,
@@ -1650,7 +1610,7 @@
     "popularity": 5559,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 60
+    "popularity_rank": 59
   },
   {
     "id": 184718,
@@ -1680,7 +1640,7 @@
     "popularity": 5336,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 61
+    "popularity_rank": 60
   },
   {
     "id": 186914,
@@ -1705,7 +1665,7 @@
     "popularity": 5258,
     "anilist_score": 60,
     "recently_finished": true,
-    "popularity_rank": 62
+    "popularity_rank": 61
   },
   {
     "id": 183661,
@@ -1719,7 +1679,7 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183661-3muPFi4LtHmK.jpg",
     "site_url": "https://anilist.co/anime/183661",
     "start_date": "2026-01-06",
-    "end_date": null,
+    "end_date": "2026-03-24",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -1730,7 +1690,7 @@
     "popularity": 5193,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 63
+    "popularity_rank": 62
   },
   {
     "id": 189565,
@@ -1744,18 +1704,18 @@
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189565-OHhadYSsd0Bg.jpg",
     "site_url": "https://anilist.co/anime/189565",
     "start_date": "2026-01-06",
-    "end_date": null,
+    "end_date": "2026-03-24",
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/",
+        "url": "https://www.crunchyroll.com/series/GT00365622/you-cant-be-in-a-rom-com-with-your-childhood-friends",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
     "popularity": 5082,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 64
+    "popularity_rank": 63
   },
   {
     "id": 170018,
@@ -1777,10 +1737,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 5023,
+    "popularity": 5031,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 65
+    "popularity_rank": 64
   },
   {
     "id": 182771,
@@ -1805,7 +1765,7 @@
     "popularity": 4751,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 66
+    "popularity_rank": 65
   },
   {
     "id": 184997,
@@ -1830,7 +1790,7 @@
     "popularity": 4630,
     "anilist_score": 59,
     "recently_finished": true,
-    "popularity_rank": 67
+    "popularity_rank": 66
   },
   {
     "id": 178052,
@@ -1860,7 +1820,7 @@
     "popularity": 4378,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 68
+    "popularity_rank": 67
   },
   {
     "id": 202955,
@@ -1885,7 +1845,7 @@
     "popularity": 4234,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 69
+    "popularity_rank": 68
   },
   {
     "id": 187941,
@@ -1910,7 +1870,7 @@
     "popularity": 4225,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 70
+    "popularity_rank": 69
   },
   {
     "id": 181443,
@@ -1935,7 +1895,7 @@
     "popularity": 4181,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 71
+    "popularity_rank": 70
   },
   {
     "id": 187989,
@@ -1960,7 +1920,7 @@
     "popularity": 4104,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 72
+    "popularity_rank": 71
   },
   {
     "id": 192261,
@@ -1985,7 +1945,7 @@
     "popularity": 4039,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 73
+    "popularity_rank": 72
   },
   {
     "id": 197731,
@@ -2015,7 +1975,7 @@
     "popularity": 3871,
     "anilist_score": 53,
     "recently_finished": false,
-    "popularity_rank": 74
+    "popularity_rank": 73
   },
   {
     "id": 198374,
@@ -2040,7 +2000,7 @@
     "popularity": 3783,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 75
+    "popularity_rank": 74
   },
   {
     "id": 196553,
@@ -2070,7 +2030,7 @@
     "popularity": 3653,
     "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 76
+    "popularity_rank": 75
   },
   {
     "id": 183984,
@@ -2089,7 +2049,7 @@
     "popularity": 3647,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 77
+    "popularity_rank": 76
   },
   {
     "id": 194742,
@@ -2114,6 +2074,6 @@
     "popularity": 3339,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 78
+    "popularity_rank": 77
   }
 ]
