@@ -39,7 +39,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 653791,
+    "popularity": 654859,
     "anilist_score": 88,
     "recently_finished": false,
     "popularity_rank": 1
@@ -224,8 +224,8 @@
     "mal_id": 54703,
     "name": "Fumetsu no Anata e Season 3",
     "english_title": "To Your Eternity Season 3",
-    "episode": 13,
-    "release_date": "2026-01-10",
+    "episode": 14,
+    "release_date": null,
     "next_airing_date": "2026-01-17",
     "next_episode_number": 14,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162669-FLYUTftoXgMh.jpg",
@@ -249,8 +249,8 @@
     "mal_id": 55830,
     "name": "Fate/strange Fake",
     "english_title": "Fate/strange Fake",
-    "episode": 2,
-    "release_date": "2026-01-10",
+    "episode": 3,
+    "release_date": "2026-01-17",
     "next_airing_date": "2026-01-17",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166617-34fpC9y47tTx.png",
@@ -295,6 +295,36 @@
     "popularity_rank": 10
   },
   {
+    "id": 180082,
+    "mal_id": 59517,
+    "name": "Chitose-kun wa Ramune Bin no Naka",
+    "english_title": "Chitose Is in the Ramune Bottle",
+    "episode": 13,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180082-IZAlf06G2VVm.png",
+    "site_url": "https://anilist.co/anime/180082",
+    "start_date": "2025-10-07",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364783/chitose-is-in-the-ramune-bottle",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgz0nvNyM-z3UVzYpGY70Et",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 26669,
+    "anilist_score": 69,
+    "recently_finished": false,
+    "popularity_rank": 11
+  },
+  {
     "id": 176276,
     "mal_id": 58505,
     "name": "Mato Seihei no Slave 2",
@@ -322,7 +352,7 @@
     "popularity": 24974,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 11
+    "popularity_rank": 12
   },
   {
     "id": 195322,
@@ -352,7 +382,7 @@
     "popularity": 22230,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 12
+    "popularity_rank": 13
   },
   {
     "id": 184951,
@@ -382,7 +412,7 @@
     "popularity": 21719,
     "anilist_score": 77,
     "recently_finished": false,
-    "popularity_rank": 13
+    "popularity_rank": 14
   },
   {
     "id": 180746,
@@ -417,7 +447,7 @@
     "popularity": 20953,
     "anilist_score": 77,
     "recently_finished": false,
-    "popularity_rank": 14
+    "popularity_rank": 15
   },
   {
     "id": 187264,
@@ -442,15 +472,15 @@
     "popularity": 20916,
     "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 15
+    "popularity_rank": 16
   },
   {
     "id": 163144,
     "mal_id": 54863,
     "name": "TRIGUN STARGAZE",
     "english_title": "TRIGUN STARGAZE",
-    "episode": 1,
-    "release_date": "2026-01-10",
+    "episode": 2,
+    "release_date": "2026-01-17",
     "next_airing_date": "2026-01-17",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163144-XdVwFRxPGY6j.jpg",
@@ -472,7 +502,7 @@
     "popularity": 20757,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 16
+    "popularity_rank": 17
   },
   {
     "id": 178005,
@@ -502,7 +532,7 @@
     "popularity": 18528,
     "anilist_score": 77,
     "recently_finished": false,
-    "popularity_rank": 17
+    "popularity_rank": 18
   },
   {
     "id": 187942,
@@ -527,7 +557,7 @@
     "popularity": 17201,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 18
+    "popularity_rank": 19
   },
   {
     "id": 195515,
@@ -557,15 +587,15 @@
     "popularity": 17149,
     "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 19
+    "popularity_rank": 20
   },
   {
     "id": 187464,
     "mal_id": 61159,
     "name": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
     "english_title": "Tojima Wants to Be a Kamen Rider",
-    "episode": 14,
-    "release_date": "2026-01-10",
+    "episode": 15,
+    "release_date": null,
     "next_airing_date": "2026-01-17",
     "next_episode_number": 15,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187464-NJtK3VC54vPm.jpg",
@@ -582,15 +612,15 @@
     "popularity": 17065,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 20
+    "popularity_rank": 21
   },
   {
     "id": 185116,
     "mal_id": 60427,
     "name": "Gnosia",
     "english_title": "GNOSIA",
-    "episode": 13,
-    "release_date": "2026-01-10",
+    "episode": 14,
+    "release_date": null,
     "next_airing_date": "2026-01-17",
     "next_episode_number": 14,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185116-DIFRjiMgz1IS.jpg",
@@ -607,7 +637,7 @@
     "popularity": 15786,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 21
+    "popularity_rank": 22
   },
   {
     "id": 177385,
@@ -632,7 +662,7 @@
     "popularity": 15394,
     "anilist_score": 77,
     "recently_finished": false,
-    "popularity_rank": 22
+    "popularity_rank": 23
   },
   {
     "id": 185993,
@@ -657,7 +687,7 @@
     "popularity": 15236,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 23
+    "popularity_rank": 24
   },
   {
     "id": 192507,
@@ -682,7 +712,7 @@
     "popularity": 14543,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 24
+    "popularity_rank": 25
   },
   {
     "id": 186333,
@@ -707,7 +737,7 @@
     "popularity": 14535,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 25
+    "popularity_rank": 26
   },
   {
     "id": 166521,
@@ -732,7 +762,7 @@
     "popularity": 13635,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 26
+    "popularity_rank": 27
   },
   {
     "id": 177679,
@@ -757,7 +787,7 @@
     "popularity": 12646,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 27
+    "popularity_rank": 28
   },
   {
     "id": 199112,
@@ -782,7 +812,7 @@
     "popularity": 12388,
     "anilist_score": 81,
     "recently_finished": true,
-    "popularity_rank": 28
+    "popularity_rank": 29
   },
   {
     "id": 183270,
@@ -807,31 +837,6 @@
     "popularity": 11447,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 29
-  },
-  {
-    "id": 186161,
-    "mal_id": 60765,
-    "name": "Kimi to Koete Koi ni Naru",
-    "english_title": "With You, Our Love Will Make It Through",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186161-YijWl9vZKmFI.jpg",
-    "site_url": "https://anilist.co/anime/186161",
-    "start_date": "2025-10-14",
-    "end_date": "2025-12-30",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00362308/with-you-our-love-will-make-it-through",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 11409,
-    "anilist_score": 69,
-    "recently_finished": true,
     "popularity_rank": 30
   },
   {
@@ -944,8 +949,8 @@
     "mal_id": 61196,
     "name": "Dead Account",
     "english_title": "Dead Account",
-    "episode": 1,
-    "release_date": "2026-01-10",
+    "episode": 2,
+    "release_date": "2026-01-17",
     "next_airing_date": "2026-01-17",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187901-T91HmZAaNwOF.jpg",
@@ -1285,7 +1290,7 @@
       },
       {
         "site": "YouTube",
-        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JgSFeEiMRb0xXPlMqugXaWT",
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
@@ -1384,8 +1389,8 @@
     "mal_id": 61207,
     "name": "Tensei Shitara Dragon no Tamago Datta",
     "english_title": "Reincarnated as a Dragon Hatchling",
-    "episode": 1,
-    "release_date": "2026-01-10",
+    "episode": 2,
+    "release_date": "2026-01-17",
     "next_airing_date": "2026-01-17",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187941-ykmc8WRedPpw.jpg",
@@ -1409,8 +1414,8 @@
     "mal_id": 61217,
     "name": "Yuusha no Kuzu",
     "english_title": "Scum of the Brave",
-    "episode": 1,
-    "release_date": "2026-01-10",
+    "episode": 2,
+    "release_date": "2026-01-17",
     "next_airing_date": "2026-01-17",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187989-IjVYJxi0bEcr.jpg",
@@ -1494,8 +1499,8 @@
     "mal_id": 62432,
     "name": "Jingai Kyoushitsu no Ningengirai Kyoushi",
     "english_title": "A Misanthrope Teaches a Class for Demi-Humans",
-    "episode": 1,
-    "release_date": "2026-01-10",
+    "episode": 2,
+    "release_date": "2026-01-17",
     "next_airing_date": "2026-01-17",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198374-ROZU3qJGX4uS.jpg",
