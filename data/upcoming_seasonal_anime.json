@@ -17,8 +17,8 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 43222,
-    "favourites": 473,
+    "popularity": 43383,
+    "favourites": 474,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 1
@@ -44,8 +44,8 @@
       "Psychological",
       "Romance"
     ],
-    "popularity": 39585,
-    "favourites": 668,
+    "popularity": 39740,
+    "favourites": 671,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 2
@@ -69,8 +69,8 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 35683,
-    "favourites": 525,
+    "popularity": 35783,
+    "favourites": 531,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 3
@@ -92,8 +92,8 @@
       "Drama",
       "Psychological"
     ],
-    "popularity": 32920,
-    "favourites": 471,
+    "popularity": 33058,
+    "favourites": 473,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 4
@@ -115,8 +115,8 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 30247,
-    "favourites": 626,
+    "popularity": 30304,
+    "favourites": 628,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 5
@@ -140,8 +140,8 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 28942,
-    "favourites": 351,
+    "popularity": 29009,
+    "favourites": 352,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 6
@@ -165,11 +165,36 @@
       "Comedy",
       "Sci-Fi"
     ],
-    "popularity": 23474,
+    "popularity": 23581,
     "favourites": 215,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 7
+  },
+  {
+    "id": 195600,
+    "mal_id": 62001,
+    "name": "Yomi no Tsugai",
+    "english_title": "Daemons of the Shadow Realm",
+    "episode": 1,
+    "release_date": "2026-04-04",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195600-6P34M31UdSNs.jpg",
+    "site_url": "https://anilist.co/anime/195600",
+    "start_date": "2026-04-04",
+    "season": "Spring",
+    "season_year": 2026,
+    "studios": "bones film, Square Enix",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "popularity": 14911,
+    "favourites": 114,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 8
   },
   {
     "id": 173172,
@@ -192,33 +217,8 @@
       "Horror",
       "Mystery"
     ],
-    "popularity": 14837,
+    "popularity": 14876,
     "favourites": 150,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 8
-  },
-  {
-    "id": 195600,
-    "mal_id": 62001,
-    "name": "Yomi no Tsugai",
-    "english_title": "Daemons of the Shadow Realm",
-    "episode": 1,
-    "release_date": "2026-04-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195600-KfuPU2Xhy5kG.png",
-    "site_url": "https://anilist.co/anime/195600",
-    "start_date": "2026-04-01",
-    "season": "Spring",
-    "season_year": 2026,
-    "studios": "bones film, Square Enix",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Comedy",
-      "Fantasy"
-    ],
-    "popularity": 14817,
-    "favourites": 109,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 9
@@ -241,7 +241,7 @@
       "Fantasy",
       "Supernatural"
     ],
-    "popularity": 13724,
+    "popularity": 13756,
     "favourites": 190,
     "anilist_score": null,
     "streaming_links": [],
@@ -265,7 +265,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 13503,
+    "popularity": 13535,
     "favourites": 153,
     "anilist_score": null,
     "streaming_links": [],
@@ -289,8 +289,8 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 13413,
-    "favourites": 176,
+    "popularity": 13457,
+    "favourites": 177,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 12
@@ -309,8 +309,8 @@
     "season_year": 2026,
     "studios": "Zero-G, Pony Canyon",
     "genres": [],
-    "popularity": 9819,
-    "favourites": 180,
+    "popularity": 9887,
+    "favourites": 181,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 13
@@ -333,8 +333,8 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 9629,
-    "favourites": 99,
+    "popularity": 9664,
+    "favourites": 100,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 14
@@ -357,8 +357,8 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 8551,
-    "favourites": 109,
+    "popularity": 8563,
+    "favourites": 110,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 15
@@ -380,8 +380,8 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 8377,
-    "favourites": 102,
+    "popularity": 8420,
+    "favourites": 104,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 16
@@ -405,11 +405,34 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 8364,
-    "favourites": 63,
+    "popularity": 8418,
+    "favourites": 65,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 17
+  },
+  {
+    "id": 197754,
+    "mal_id": 62331,
+    "name": "LIAR GAME",
+    "english_title": "LIAR GAME",
+    "episode": 1,
+    "release_date": "2026-04-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197754-rVnd64535pf4.png",
+    "site_url": "https://anilist.co/anime/197754",
+    "start_date": "2026-04-01",
+    "season": "Spring",
+    "season_year": 2026,
+    "studios": "MADHOUSE, Bit grooove promotion",
+    "genres": [
+      "Drama",
+      "Psychological"
+    ],
+    "popularity": 7768,
+    "favourites": 50,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 18
   },
   {
     "id": 190704,
@@ -430,31 +453,8 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 7722,
-    "favourites": 84,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 18
-  },
-  {
-    "id": 197754,
-    "mal_id": 62331,
-    "name": "LIAR GAME",
-    "english_title": "LIAR GAME",
-    "episode": 1,
-    "release_date": "2026-04-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197754-rVnd64535pf4.png",
-    "site_url": "https://anilist.co/anime/197754",
-    "start_date": "2026-04-01",
-    "season": "Spring",
-    "season_year": 2026,
-    "studios": "MADHOUSE, Bit grooove promotion",
-    "genres": [
-      "Drama",
-      "Psychological"
-    ],
-    "popularity": 7715,
-    "favourites": 50,
+    "popularity": 7745,
+    "favourites": 85,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 19
@@ -475,8 +475,8 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 7489,
-    "favourites": 48,
+    "popularity": 7530,
+    "favourites": 49,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 20
@@ -498,8 +498,8 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 7144,
-    "favourites": 80,
+    "popularity": 7187,
+    "favourites": 81,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 21
@@ -523,8 +523,8 @@
       "Psychological",
       "Slice of Life"
     ],
-    "popularity": 6783,
-    "favourites": 58,
+    "popularity": 6834,
+    "favourites": 59,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 22
@@ -546,8 +546,8 @@
       "Action",
       "Supernatural"
     ],
-    "popularity": 6266,
-    "favourites": 49,
+    "popularity": 6378,
+    "favourites": 50,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 23
@@ -569,7 +569,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 5825,
+    "popularity": 5863,
     "favourites": 67,
     "anilist_score": null,
     "streaming_links": [],
@@ -593,7 +593,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 5808,
+    "popularity": 5822,
     "favourites": 60,
     "anilist_score": null,
     "streaming_links": [],
@@ -617,8 +617,8 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 5407,
-    "favourites": 22,
+    "popularity": 5431,
+    "favourites": 23,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 26
@@ -640,8 +640,8 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 5116,
-    "favourites": 54,
+    "popularity": 5151,
+    "favourites": 55,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 27
@@ -664,7 +664,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 4222,
+    "popularity": 4243,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
@@ -688,7 +688,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 3751,
+    "popularity": 3787,
     "favourites": 24,
     "anilist_score": null,
     "streaming_links": [],
@@ -710,7 +710,7 @@
     "genres": [
       "Sports"
     ],
-    "popularity": 3556,
+    "popularity": 3566,
     "favourites": 52,
     "anilist_score": null,
     "streaming_links": [],
@@ -734,8 +734,8 @@
       "Ecchi",
       "Romance"
     ],
-    "popularity": 3507,
-    "favourites": 40,
+    "popularity": 3533,
+    "favourites": 41,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 31
@@ -757,8 +757,8 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 3328,
-    "favourites": 13,
+    "popularity": 3347,
+    "favourites": 14,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 32
@@ -781,8 +781,8 @@
       "Music",
       "Romance"
     ],
-    "popularity": 3111,
-    "favourites": 7,
+    "popularity": 3128,
+    "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 33
@@ -801,8 +801,8 @@
     "season_year": 2026,
     "studios": "LIDENFILMS",
     "genres": [],
-    "popularity": 2972,
-    "favourites": 22,
+    "popularity": 2994,
+    "favourites": 23,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 34
@@ -826,7 +826,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 2970,
+    "popularity": 2994,
     "favourites": 40,
     "anilist_score": null,
     "streaming_links": [],
@@ -850,8 +850,8 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 2932,
-    "favourites": 25,
+    "popularity": 2947,
+    "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 36
@@ -875,8 +875,8 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 2752,
-    "favourites": 27,
+    "popularity": 2775,
+    "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 37
@@ -899,8 +899,8 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 2591,
-    "favourites": 23,
+    "popularity": 2629,
+    "favourites": 24,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 38
@@ -923,7 +923,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2243,
+    "popularity": 2271,
     "favourites": 31,
     "anilist_score": null,
     "streaming_links": [],
@@ -946,33 +946,11 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2081,
-    "favourites": 17,
+    "popularity": 2104,
+    "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 40
-  },
-  {
-    "id": 197868,
-    "mal_id": 62342,
-    "name": "Maid-san wa Taberu dake",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-04-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197868-AMyVM93B0hGQ.png",
-    "site_url": "https://anilist.co/anime/197868",
-    "start_date": "2026-04-01",
-    "season": "Spring",
-    "season_year": 2026,
-    "studios": "EMT Squared, Magic Bus",
-    "genres": [
-      "Slice of Life"
-    ],
-    "popularity": 1971,
-    "favourites": 17,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 41
   },
   {
     "id": 196029,
@@ -992,8 +970,30 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 1966,
+    "popularity": 1983,
     "favourites": 22,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 41
+  },
+  {
+    "id": 197868,
+    "mal_id": 62342,
+    "name": "Maid-san wa Taberu dake",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-04-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197868-AMyVM93B0hGQ.png",
+    "site_url": "https://anilist.co/anime/197868",
+    "start_date": "2026-04-01",
+    "season": "Spring",
+    "season_year": 2026,
+    "studios": "EMT Squared, Magic Bus",
+    "genres": [
+      "Slice of Life"
+    ],
+    "popularity": 1983,
+    "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 42
@@ -1015,8 +1015,8 @@
       "Action",
       "Comedy"
     ],
-    "popularity": 1958,
-    "favourites": 16,
+    "popularity": 1971,
+    "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 43
@@ -1038,8 +1038,8 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 1957,
-    "favourites": 20,
+    "popularity": 1970,
+    "favourites": 21,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 44
@@ -1062,7 +1062,7 @@
       "Mecha",
       "Sci-Fi"
     ],
-    "popularity": 1563,
+    "popularity": 1571,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
@@ -1086,7 +1086,7 @@
       "Ecchi",
       "Slice of Life"
     ],
-    "popularity": 1549,
+    "popularity": 1564,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
@@ -1110,8 +1110,8 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 1521,
-    "favourites": 11,
+    "popularity": 1533,
+    "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 47
@@ -1132,8 +1132,8 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 1427,
-    "favourites": 10,
+    "popularity": 1439,
+    "favourites": 11,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 48
@@ -1145,7 +1145,7 @@
     "english_title": null,
     "episode": 1,
     "release_date": "2026-04-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178749-23QCQ3NYkThx.jpg",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178749-c0tx9p13PVJy.png",
     "site_url": "https://anilist.co/anime/178749",
     "start_date": "2026-04-01",
     "season": "Spring",
@@ -1154,7 +1154,7 @@
     "genres": [
       "Mahou Shoujo"
     ],
-    "popularity": 1312,
+    "popularity": 1321,
     "favourites": 2,
     "anilist_score": null,
     "streaming_links": [],
@@ -1178,8 +1178,8 @@
       "Drama",
       "Sci-Fi"
     ],
-    "popularity": 1283,
-    "favourites": 6,
+    "popularity": 1315,
+    "favourites": 7,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 50
@@ -1202,7 +1202,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 1217,
+    "popularity": 1228,
     "favourites": 1,
     "anilist_score": null,
     "streaming_links": [],
@@ -1226,8 +1226,8 @@
       "Psychological",
       "Supernatural"
     ],
-    "popularity": 1066,
-    "favourites": 13,
+    "popularity": 1070,
+    "favourites": 14,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 52
