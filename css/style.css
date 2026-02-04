@@ -226,11 +226,11 @@ main {
 
 /* Today's Release Section - Blue Gradient Separator */
 .time-section:first-of-type {
-    background: linear-gradient(135deg, rgba(59, 130, 246, 0.08), rgba(99, 102, 241, 0.05));
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.15), rgba(99, 102, 241, 0.1));
     border-radius: 8px;
-    padding: 1.5rem;
-    border: 1px solid rgba(59, 130, 246, 0.12);
-    border-top: 3px solid rgba(59, 130, 246, 0.25);
+    padding: 2rem 1.5rem;
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    border-top: 4px solid rgba(59, 130, 246, 0.4);
     margin-bottom: 3rem;
 }
 
@@ -1275,6 +1275,15 @@ main {
     background: #6d28d9;
     transform: translateY(-1px);
     color: white;
+}
+
+/* Smaller buttons for Tomorrow and Other sections */
+.tomorrow-card .main-link-btn,
+.other-anime-card .main-link-btn,
+.tomorrow-card .nine-anime-btn,
+.other-anime-card .nine-anime-btn {
+    padding: 0.15rem 0.35rem;
+    font-size: 0.6rem;
 }
 
 /* Day Anime List (for modal) */
