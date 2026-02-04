@@ -224,15 +224,6 @@ main {
     margin-bottom: 3rem;
 }
 
-/* Today's Release Section - Blue Gradient Separator */
-.time-section:first-of-type {
-    background: linear-gradient(135deg, rgba(59, 130, 246, 0.15), rgba(99, 102, 241, 0.1));
-    border-radius: 8px;
-    padding: 2rem 1.5rem;
-    border: 1px solid rgba(59, 130, 246, 0.2);
-    border-top: 4px solid rgba(59, 130, 246, 0.4);
-    margin-bottom: 3rem;
-}
 
 .recently-finished-section {
     background: rgba(34, 197, 94, 0.03);
@@ -336,6 +327,11 @@ main {
     justify-content: center;
     gap: 0.2rem;
     margin-top: 0.5rem;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.25), rgba(99, 102, 241, 0.15));
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    border-top: 5px solid rgba(59, 130, 246, 0.5);
 }
 
 .tomorrow-grid {
