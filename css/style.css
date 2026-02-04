@@ -1286,6 +1286,13 @@ main {
     font-size: 0.6rem;
 }
 
+/* Keep buttons on one line for Tomorrow and Other cards */
+.tomorrow-card .episode-info,
+.other-anime-card .episode-info {
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
 /* Day Anime List (for modal) */
 .day-anime-list {
     display: flex;
