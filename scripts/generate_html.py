@@ -14,8 +14,20 @@ def normalize_title(title):
     title = " ".join(title.split())  # Normalize whitespace
     return title
 
+def create_9anime_search_url(english_title):
+    """Create a 9animetv.to search URL from the English title"""
+    if not english_title:
+        return ""
+
+    # URL encode the title
+    from urllib.parse import quote
+    encoded_title = quote(english_title, safe='')
+
+    # Create the search URL
+    return f"https://9animetv.to/search?keyword={encoded_title}"
+
 def find_9anime_link(anime_name, english_title, nine_anime_links):
-    """Find 9anime link using fuzzy title matching"""
+    """Find 9anime link using fuzzy title matching, fallback to search URL"""
     # Try exact match first (original and English titles)
     for title in [anime_name, english_title]:
         if title and title in nine_anime_links:
@@ -51,6 +63,10 @@ def find_9anime_link(anime_name, english_title, nine_anime_links):
                 union = len(words_anime | words_link)
                 if intersection / union >= 0.6:
                     return link_url
+
+    # Fallback: Create a 9anime search URL from the English title
+    if english_title:
+        return create_9anime_search_url(english_title)
 
     return ""
 
