@@ -17,7 +17,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 43988,
+    "popularity": 44130,
     "favourites": 485,
     "anilist_score": null,
     "streaming_links": [],
@@ -44,7 +44,7 @@
       "Psychological",
       "Romance"
     ],
-    "popularity": 40454,
+    "popularity": 40595,
     "favourites": 695,
     "anilist_score": null,
     "streaming_links": [],
@@ -69,7 +69,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 36224,
+    "popularity": 36314,
     "favourites": 549,
     "anilist_score": null,
     "streaming_links": [],
@@ -92,7 +92,7 @@
       "Drama",
       "Psychological"
     ],
-    "popularity": 33635,
+    "popularity": 33759,
     "favourites": 484,
     "anilist_score": null,
     "streaming_links": [],
@@ -115,7 +115,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 30579,
+    "popularity": 30642,
     "favourites": 640,
     "anilist_score": null,
     "streaming_links": [],
@@ -140,7 +140,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 29354,
+    "popularity": 29427,
     "favourites": 356,
     "anilist_score": null,
     "streaming_links": [],
@@ -165,7 +165,7 @@
       "Comedy",
       "Sci-Fi"
     ],
-    "popularity": 24002,
+    "popularity": 24100,
     "favourites": 223,
     "anilist_score": null,
     "streaming_links": [],
@@ -190,7 +190,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 16026,
+    "popularity": 16166,
     "favourites": 123,
     "anilist_score": null,
     "streaming_links": [],
@@ -199,13 +199,13 @@
   {
     "id": 173172,
     "mal_id": 57779,
-    "name": "Dorohedoro (Shin Season)",
+    "name": "Dorohedoro Season 2",
     "english_title": null,
     "episode": 1,
-    "release_date": "2026-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx173172-v54IhUTNZd34.jpg",
+    "release_date": "2026-04-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx173172-DMT5U4WjKMwu.jpg",
     "site_url": "https://anilist.co/anime/173172",
-    "start_date": "2026-01-01",
+    "start_date": "2026-04-01",
     "season": "Spring",
     "season_year": 2026,
     "studios": "MAPPA, Toho",
@@ -217,7 +217,7 @@
       "Horror",
       "Mystery"
     ],
-    "popularity": 15044,
+    "popularity": 15085,
     "favourites": 151,
     "anilist_score": null,
     "streaming_links": [],
@@ -241,7 +241,7 @@
       "Fantasy",
       "Supernatural"
     ],
-    "popularity": 13907,
+    "popularity": 13946,
     "favourites": 194,
     "anilist_score": null,
     "streaming_links": [],
@@ -265,7 +265,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 13688,
+    "popularity": 13717,
     "favourites": 155,
     "anilist_score": null,
     "streaming_links": [],
@@ -289,7 +289,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 13667,
+    "popularity": 13712,
     "favourites": 182,
     "anilist_score": null,
     "streaming_links": [],
@@ -309,7 +309,7 @@
     "season_year": 2026,
     "studios": "Zero-G, Pony Canyon",
     "genres": [],
-    "popularity": 10130,
+    "popularity": 10177,
     "favourites": 187,
     "anilist_score": null,
     "streaming_links": [],
@@ -333,35 +333,11 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 9817,
+    "popularity": 9854,
     "favourites": 105,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 14
-  },
-  {
-    "id": 182578,
-    "mal_id": 60055,
-    "name": "Yozakura-san Chi no Daisakusen 2nd Season",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-04-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182578-4yrbtKhWopFc.jpg",
-    "site_url": "https://anilist.co/anime/182578",
-    "start_date": "2026-04-01",
-    "season": "Spring",
-    "season_year": 2026,
-    "studios": "NBCUniversal Entertainment Japan, SILVER LINK.",
-    "genres": [
-      "Action",
-      "Comedy",
-      "Romance"
-    ],
-    "popularity": 8634,
-    "favourites": 110,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 15
   },
   {
     "id": 199547,
@@ -382,8 +358,32 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 8629,
+    "popularity": 8668,
     "favourites": 67,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 15
+  },
+  {
+    "id": 182578,
+    "mal_id": 60055,
+    "name": "Yozakura-san Chi no Daisakusen 2nd Season",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-04-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182578-4yrbtKhWopFc.jpg",
+    "site_url": "https://anilist.co/anime/182578",
+    "start_date": "2026-04-01",
+    "season": "Spring",
+    "season_year": 2026,
+    "studios": "NBCUniversal Entertainment Japan, SILVER LINK.",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Romance"
+    ],
+    "popularity": 8655,
+    "favourites": 110,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 16
@@ -405,7 +405,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 8607,
+    "popularity": 8650,
     "favourites": 105,
     "anilist_score": null,
     "streaming_links": [],
@@ -428,7 +428,7 @@
       "Drama",
       "Psychological"
     ],
-    "popularity": 7975,
+    "popularity": 8023,
     "favourites": 50,
     "anilist_score": null,
     "streaming_links": [],
@@ -453,7 +453,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 7859,
+    "popularity": 7885,
     "favourites": 89,
     "anilist_score": null,
     "streaming_links": [],
@@ -475,7 +475,7 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 7732,
+    "popularity": 7785,
     "favourites": 50,
     "anilist_score": null,
     "streaming_links": [],
@@ -498,7 +498,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 7365,
+    "popularity": 7403,
     "favourites": 81,
     "anilist_score": null,
     "streaming_links": [],
@@ -523,7 +523,7 @@
       "Psychological",
       "Slice of Life"
     ],
-    "popularity": 7008,
+    "popularity": 7032,
     "favourites": 64,
     "anilist_score": null,
     "streaming_links": [],
@@ -546,7 +546,7 @@
       "Action",
       "Supernatural"
     ],
-    "popularity": 6687,
+    "popularity": 6726,
     "favourites": 53,
     "anilist_score": null,
     "streaming_links": [],
@@ -569,7 +569,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 6025,
+    "popularity": 6060,
     "favourites": 70,
     "anilist_score": null,
     "streaming_links": [],
@@ -593,7 +593,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 5902,
+    "popularity": 5922,
     "favourites": 63,
     "anilist_score": null,
     "streaming_links": [],
@@ -617,7 +617,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 5530,
+    "popularity": 5548,
     "favourites": 23,
     "anilist_score": null,
     "streaming_links": [],
@@ -640,7 +640,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 5353,
+    "popularity": 5388,
     "favourites": 56,
     "anilist_score": null,
     "streaming_links": [],
@@ -664,7 +664,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 4311,
+    "popularity": 4324,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
@@ -688,7 +688,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 3942,
+    "popularity": 3975,
     "favourites": 27,
     "anilist_score": null,
     "streaming_links": [],
@@ -712,7 +712,7 @@
       "Ecchi",
       "Romance"
     ],
-    "popularity": 3632,
+    "popularity": 3650,
     "favourites": 42,
     "anilist_score": null,
     "streaming_links": [],
@@ -734,7 +734,7 @@
     "genres": [
       "Sports"
     ],
-    "popularity": 3605,
+    "popularity": 3613,
     "favourites": 51,
     "anilist_score": null,
     "streaming_links": [],
@@ -758,7 +758,7 @@
       "Music",
       "Romance"
     ],
-    "popularity": 3201,
+    "popularity": 3220,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
@@ -783,7 +783,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 3104,
+    "popularity": 3122,
     "favourites": 41,
     "anilist_score": null,
     "streaming_links": [],
@@ -803,7 +803,7 @@
     "season_year": 2026,
     "studios": "LIDENFILMS",
     "genres": [],
-    "popularity": 3072,
+    "popularity": 3086,
     "favourites": 24,
     "anilist_score": null,
     "streaming_links": [],
@@ -827,7 +827,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 3020,
+    "popularity": 3033,
     "favourites": 25,
     "anilist_score": null,
     "streaming_links": [],
@@ -852,7 +852,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 2920,
+    "popularity": 2950,
     "favourites": 31,
     "anilist_score": null,
     "streaming_links": [],
@@ -876,7 +876,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 2801,
+    "popularity": 2830,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
@@ -900,7 +900,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2385,
+    "popularity": 2409,
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
@@ -923,7 +923,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2199,
+    "popularity": 2216,
     "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
@@ -946,7 +946,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 2090,
+    "popularity": 2117,
     "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
@@ -968,7 +968,7 @@
     "genres": [
       "Slice of Life"
     ],
-    "popularity": 2049,
+    "popularity": 2061,
     "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
@@ -991,7 +991,7 @@
       "Action",
       "Comedy"
     ],
-    "popularity": 2044,
+    "popularity": 2056,
     "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
@@ -1015,7 +1015,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 2030,
+    "popularity": 2043,
     "favourites": 24,
     "anilist_score": null,
     "streaming_links": [],
@@ -1039,7 +1039,7 @@
       "Ecchi",
       "Slice of Life"
     ],
-    "popularity": 1622,
+    "popularity": 1629,
     "favourites": 13,
     "anilist_score": null,
     "streaming_links": [],
@@ -1063,7 +1063,7 @@
       "Mecha",
       "Sci-Fi"
     ],
-    "popularity": 1613,
+    "popularity": 1623,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
@@ -1087,7 +1087,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 1589,
+    "popularity": 1595,
     "favourites": 13,
     "anilist_score": null,
     "streaming_links": [],
@@ -1109,33 +1109,11 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 1502,
+    "popularity": 1509,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 47
-  },
-  {
-    "id": 178749,
-    "mal_id": 59176,
-    "name": "Mahou no Shimai Lulutto Lilly",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-04-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178749-c0tx9p13PVJy.png",
-    "site_url": "https://anilist.co/anime/178749",
-    "start_date": "2026-04-01",
-    "season": "Spring",
-    "season_year": 2026,
-    "studios": "Bandai Namco Filmworks, Studio Pierrot",
-    "genres": [
-      "Mahou Shoujo"
-    ],
-    "popularity": 1432,
-    "favourites": 3,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 48
   },
   {
     "id": 206914,
@@ -1155,8 +1133,30 @@
       "Drama",
       "Sci-Fi"
     ],
-    "popularity": 1427,
+    "popularity": 1451,
     "favourites": 8,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 48
+  },
+  {
+    "id": 178749,
+    "mal_id": 59176,
+    "name": "Mahou no Shimai Lulutto Lilly",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-04-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178749-c0tx9p13PVJy.png",
+    "site_url": "https://anilist.co/anime/178749",
+    "start_date": "2026-04-01",
+    "season": "Spring",
+    "season_year": 2026,
+    "studios": "Bandai Namco Filmworks, Studio Pierrot",
+    "genres": [
+      "Mahou Shoujo"
+    ],
+    "popularity": 1439,
+    "favourites": 3,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 49
@@ -1179,7 +1179,7 @@
       "Psychological",
       "Supernatural"
     ],
-    "popularity": 1288,
+    "popularity": 1340,
     "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
@@ -1203,7 +1203,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 1263,
+    "popularity": 1275,
     "favourites": 1,
     "anilist_score": null,
     "streaming_links": [],
