@@ -39,7 +39,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 661822,
+    "popularity": 662006,
     "anilist_score": 88,
     "recently_finished": false,
     "popularity_rank": 1
@@ -49,10 +49,10 @@
     "mal_id": 57658,
     "name": "Jujutsu Kaisen: Shimetsu Kaiyuu - Zenpen",
     "english_title": "JUJUTSU KAISEN Season 3: The Culling Game Part 1",
-    "episode": 7,
-    "release_date": "2026-02-12",
-    "next_airing_date": "2026-02-12",
-    "next_episode_number": 7,
+    "episode": 8,
+    "release_date": "2026-02-26",
+    "next_airing_date": "2026-02-26",
+    "next_episode_number": 8,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx172463-LnXqHzt74SJL.jpg",
     "site_url": "https://anilist.co/anime/172463",
     "start_date": "2026-01-09",
@@ -69,7 +69,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 152593,
+    "popularity": 153150,
     "anilist_score": 84,
     "recently_finished": false,
     "popularity_rank": 2
@@ -99,7 +99,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 135316,
+    "popularity": 135760,
     "anilist_score": 89,
     "recently_finished": false,
     "popularity_rank": 3
@@ -124,7 +124,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 107978,
+    "popularity": 108313,
     "anilist_score": 80,
     "recently_finished": false,
     "popularity_rank": 4
@@ -136,8 +136,8 @@
     "english_title": "Sentenced to Be a Hero",
     "episode": 6,
     "release_date": "2026-02-12",
-    "next_airing_date": "2026-02-12",
-    "next_episode_number": 6,
+    "next_airing_date": "2026-02-19",
+    "next_episode_number": 7,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx167152-u0cBZkqDowHP.jpg",
     "site_url": "https://anilist.co/anime/167152",
     "start_date": "2026-01-03",
@@ -154,7 +154,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 91216,
+    "popularity": 91567,
     "anilist_score": 80,
     "recently_finished": false,
     "popularity_rank": 5
@@ -199,7 +199,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 71487,
+    "popularity": 71772,
     "anilist_score": 83,
     "recently_finished": false,
     "popularity_rank": 6
@@ -229,7 +229,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 55007,
+    "popularity": 55158,
     "anilist_score": 79,
     "recently_finished": false,
     "popularity_rank": 7
@@ -254,35 +254,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 52646,
-    "anilist_score": 82,
+    "popularity": 52827,
+    "anilist_score": 83,
     "recently_finished": false,
     "popularity_rank": 8
-  },
-  {
-    "id": 162669,
-    "mal_id": 54703,
-    "name": "Fumetsu no Anata e Season 3",
-    "english_title": "To Your Eternity Season 3",
-    "episode": 17,
-    "release_date": null,
-    "next_airing_date": "2026-02-28",
-    "next_episode_number": 17,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162669-FLYUTftoXgMh.jpg",
-    "site_url": "https://anilist.co/anime/162669",
-    "start_date": "2025-10-04",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GG5H5XMWV/to-your-eternity",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 43917,
-    "anilist_score": 76,
-    "recently_finished": false,
-    "popularity_rank": 9
   },
   {
     "id": 184951,
@@ -309,8 +284,33 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 43558,
+    "popularity": 43958,
     "anilist_score": 80,
+    "recently_finished": false,
+    "popularity_rank": 9
+  },
+  {
+    "id": 162669,
+    "mal_id": 54703,
+    "name": "Fumetsu no Anata e Season 3",
+    "english_title": "To Your Eternity Season 3",
+    "episode": 17,
+    "release_date": null,
+    "next_airing_date": "2026-02-28",
+    "next_episode_number": 17,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162669-FLYUTftoXgMh.jpg",
+    "site_url": "https://anilist.co/anime/162669",
+    "start_date": "2025-10-04",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GG5H5XMWV/to-your-eternity",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 43946,
+    "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 10
   },
@@ -334,7 +334,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 39905,
+    "popularity": 39985,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 11
@@ -369,7 +369,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 31718,
+    "popularity": 31961,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 12
@@ -394,7 +394,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 31102,
+    "popularity": 31486,
     "anilist_score": 65,
     "recently_finished": false,
     "popularity_rank": 13
@@ -406,8 +406,8 @@
     "english_title": "Chained Soldier Season 2",
     "episode": 6,
     "release_date": "2026-02-12",
-    "next_airing_date": "2026-02-12",
-    "next_episode_number": 6,
+    "next_airing_date": "2026-02-19",
+    "next_episode_number": 7,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176276-rtF8mYd2OWw2.png",
     "site_url": "https://anilist.co/anime/176276",
     "start_date": "2026-01-08",
@@ -424,7 +424,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 30109,
+    "popularity": 30187,
     "anilist_score": 72,
     "recently_finished": false,
     "popularity_rank": 14
@@ -454,7 +454,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 26439,
+    "popularity": 26508,
     "anilist_score": 72,
     "recently_finished": false,
     "popularity_rank": 15
@@ -484,7 +484,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 26131,
+    "popularity": 26293,
     "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 16
@@ -514,7 +514,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 25429,
+    "popularity": 25639,
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 17
@@ -544,7 +544,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 24591,
+    "popularity": 24645,
     "anilist_score": 72,
     "recently_finished": false,
     "popularity_rank": 18
@@ -569,7 +569,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 24406,
+    "popularity": 24617,
     "anilist_score": 84,
     "recently_finished": false,
     "popularity_rank": 19
@@ -594,7 +594,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 24145,
+    "popularity": 24345,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 20
@@ -619,7 +619,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 21490,
+    "popularity": 21569,
     "anilist_score": 72,
     "recently_finished": false,
     "popularity_rank": 21
@@ -644,7 +644,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 21235,
+    "popularity": 21323,
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 22
@@ -669,7 +669,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 19808,
+    "popularity": 19893,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 23
@@ -694,7 +694,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 18533,
+    "popularity": 18553,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 24
@@ -719,7 +719,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 17599,
+    "popularity": 17663,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 25
@@ -744,7 +744,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 17443,
+    "popularity": 17524,
     "anilist_score": 65,
     "recently_finished": false,
     "popularity_rank": 26
@@ -774,7 +774,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 17261,
+    "popularity": 17498,
     "anilist_score": 65,
     "recently_finished": false,
     "popularity_rank": 27
@@ -799,7 +799,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 17150,
+    "popularity": 17260,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 28
@@ -824,7 +824,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 15429,
+    "popularity": 15451,
     "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 29
@@ -836,8 +836,8 @@
     "english_title": "The Holy Grail of Eris",
     "episode": 6,
     "release_date": "2026-02-12",
-    "next_airing_date": "2026-02-12",
-    "next_episode_number": 6,
+    "next_airing_date": "2026-02-19",
+    "next_episode_number": 7,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183270-CmZikKu34WPd.jpg",
     "site_url": "https://anilist.co/anime/183270",
     "start_date": "2026-01-08",
@@ -849,7 +849,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 15222,
+    "popularity": 15259,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 30
@@ -861,8 +861,8 @@
     "english_title": "ROLL OVER AND DIE: I Will Fight for an Ordinary Life with My Love and Cursed Sword!",
     "episode": 6,
     "release_date": "2026-02-12",
-    "next_airing_date": "2026-02-12",
-    "next_episode_number": 6,
+    "next_airing_date": "2026-02-19",
+    "next_episode_number": 7,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx191718-FeR6bnlkqF0J.png",
     "site_url": "https://anilist.co/anime/191718",
     "start_date": "2026-01-09",
@@ -874,8 +874,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 14847,
-    "anilist_score": 64,
+    "popularity": 14917,
+    "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 31
   },
@@ -886,8 +886,8 @@
     "english_title": "The Invisible Man and His Soon-to-Be Wife",
     "episode": 6,
     "release_date": "2026-02-12",
-    "next_airing_date": "2026-02-12",
-    "next_episode_number": 6,
+    "next_airing_date": "2026-02-19",
+    "next_episode_number": 7,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185039-rVofxrbEyaL9.jpg",
     "site_url": "https://anilist.co/anime/185039",
     "start_date": "2026-01-08",
@@ -899,7 +899,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 14828,
+    "popularity": 14884,
     "anilist_score": 72,
     "recently_finished": false,
     "popularity_rank": 32
@@ -929,7 +929,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 14252,
+    "popularity": 14303,
     "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 33
@@ -954,7 +954,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 13836,
+    "popularity": 13930,
     "anilist_score": 66,
     "recently_finished": false,
     "popularity_rank": 34
@@ -979,7 +979,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 13583,
+    "popularity": 13666,
     "anilist_score": 65,
     "recently_finished": false,
     "popularity_rank": 35
@@ -1004,7 +1004,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 13250,
+    "popularity": 13323,
     "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 36
@@ -1029,7 +1029,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12995,
+    "popularity": 13040,
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 37
@@ -1054,7 +1054,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12675,
+    "popularity": 12761,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 38
@@ -1084,7 +1084,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
       }
     ],
-    "popularity": 12488,
+    "popularity": 12529,
     "anilist_score": 79,
     "recently_finished": false,
     "popularity_rank": 39
@@ -1096,8 +1096,8 @@
     "english_title": "Champignon Witch",
     "episode": 7,
     "release_date": "2026-02-12",
-    "next_airing_date": "2026-02-12",
-    "next_episode_number": 7,
+    "next_airing_date": "2026-02-19",
+    "next_episode_number": 8,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185514-mfJqhtz22l1Z.jpg",
     "site_url": "https://anilist.co/anime/185514",
     "start_date": "2026-01-09",
@@ -1109,7 +1109,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12318,
+    "popularity": 12366,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 40
@@ -1139,7 +1139,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 12091,
+    "popularity": 12156,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 41
@@ -1164,7 +1164,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 11655,
+    "popularity": 11704,
     "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 42
@@ -1189,7 +1189,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 11340,
+    "popularity": 11457,
     "anilist_score": 58,
     "recently_finished": false,
     "popularity_rank": 43
@@ -1200,8 +1200,8 @@
     "name": "BEASTARS FINAL SEASON Part 2",
     "english_title": "BEASTARS Final Season Part 2",
     "episode": 1,
-    "release_date": "2026-03-06",
-    "next_airing_date": "2026-03-06",
+    "release_date": "2026-03-07",
+    "next_airing_date": "2026-03-07",
     "next_episode_number": 1,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187267-39FEmVe4zkZC.png",
     "site_url": "https://anilist.co/anime/187267",
@@ -1214,7 +1214,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 11156,
+    "popularity": 11180,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 44
@@ -1239,7 +1239,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 10937,
+    "popularity": 10992,
     "anilist_score": 66,
     "recently_finished": false,
     "popularity_rank": 45
@@ -1264,7 +1264,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 9753,
+    "popularity": 9790,
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 46
@@ -1294,7 +1294,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 9669,
+    "popularity": 9690,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 47
@@ -1329,7 +1329,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 9649,
+    "popularity": 9680,
     "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 48
@@ -1354,7 +1354,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 9402,
+    "popularity": 9474,
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 49
@@ -1366,8 +1366,8 @@
     "english_title": "MF GHOST Season 3",
     "episode": 7,
     "release_date": "2026-02-12",
-    "next_airing_date": "2026-02-12",
-    "next_episode_number": 7,
+    "next_airing_date": "2026-02-19",
+    "next_episode_number": 8,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185753-fKim5yXjaE9I.png",
     "site_url": "https://anilist.co/anime/185753",
     "start_date": "2026-01-01",
@@ -1389,7 +1389,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 9050,
+    "popularity": 9061,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 50
@@ -1414,7 +1414,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 8457,
+    "popularity": 8483,
     "anilist_score": 59,
     "recently_finished": false,
     "popularity_rank": 51
@@ -1444,7 +1444,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
       }
     ],
-    "popularity": 8388,
+    "popularity": 8421,
     "anilist_score": 72,
     "recently_finished": false,
     "popularity_rank": 52
@@ -1469,7 +1469,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7714,
+    "popularity": 7751,
     "anilist_score": 59,
     "recently_finished": false,
     "popularity_rank": 53
@@ -1499,8 +1499,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 6873,
-    "anilist_score": 54,
+    "popularity": 6898,
+    "anilist_score": 55,
     "recently_finished": false,
     "popularity_rank": 54
   },
@@ -1529,7 +1529,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 5736,
+    "popularity": 5740,
     "anilist_score": 63,
     "recently_finished": true,
     "popularity_rank": 55
@@ -1540,8 +1540,8 @@
     "name": "BAKI-DOU",
     "english_title": "BAKI-DOU: The Invincible Samurai",
     "episode": 1,
-    "release_date": "2026-02-25",
-    "next_airing_date": "2026-02-25",
+    "release_date": "2026-02-26",
+    "next_airing_date": "2026-02-26",
     "next_episode_number": 1,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176509-GRUa4fzyAM9u.jpg",
     "site_url": "https://anilist.co/anime/176509",
@@ -1554,7 +1554,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 5498,
+    "popularity": 5516,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 56
@@ -1579,7 +1579,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 5318,
+    "popularity": 5322,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 57
@@ -1621,8 +1621,8 @@
     "english_title": "Anyway, I'm Falling in Love with You. Season 2",
     "episode": 6,
     "release_date": "2026-02-12",
-    "next_airing_date": "2026-02-12",
-    "next_episode_number": 6,
+    "next_airing_date": "2026-02-19",
+    "next_episode_number": 7,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189137-cCXaEiX0bJb4.jpg",
     "site_url": "https://anilist.co/anime/189137",
     "start_date": "2026-01-09",
@@ -1639,7 +1639,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 4104,
+    "popularity": 4117,
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 59
@@ -1669,7 +1669,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 3986,
+    "popularity": 3990,
     "anilist_score": 55,
     "recently_finished": false,
     "popularity_rank": 60
@@ -1699,7 +1699,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 3548,
+    "popularity": 3551,
     "anilist_score": 42,
     "recently_finished": false,
     "popularity_rank": 61
