@@ -4,6 +4,7 @@ import requests
 from datetime import datetime, timedelta
 import os
 import time
+from zoneinfo import ZoneInfo
 
 # Configuration
 ANILIST_API_URL = "https://graphql.anilist.co"
@@ -527,9 +528,10 @@ def process_anime_data(api_data):
             original_next_episode = next_episode_number
             original_next_date = next_airing_date_from_ts
 
-            # Get today and tomorrow for date checks
-            today_str = datetime.now().strftime('%Y-%m-%d')
-            tomorrow_str = (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d')
+            # Get today and tomorrow for date checks (using Eastern Time)
+            eastern = ZoneInfo("America/New_York")
+            today_str = datetime.now(eastern).strftime('%Y-%m-%d')
+            tomorrow_str = (datetime.now(eastern) + timedelta(days=1)).strftime('%Y-%m-%d')
             
             # *** NEW LOGIC START ***
             # Handles the edge case at the start of a season where an anime's official start date
@@ -909,9 +911,10 @@ def main():
     processed_data = process_anime_data(api_data)
     print(f"Processed {len(processed_data)} anime")
     
-    # Get today's and tomorrow's dates
-    today = datetime.now().strftime('%Y-%m-%d')
-    tomorrow = (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d')
+    # Get today's and tomorrow's dates (using Eastern Time)
+    eastern = ZoneInfo("America/New_York")
+    today = datetime.now(eastern).strftime('%Y-%m-%d')
+    tomorrow = (datetime.now(eastern) + timedelta(days=1)).strftime('%Y-%m-%d')
     
     # Sort other anime with custom logic
     other_anime_sorted, recently_finished_sorted = sort_other_anime(processed_data, today, tomorrow)
@@ -946,7 +949,7 @@ def main():
     
     # Save metadata
     metadata = {
-        'last_updated': datetime.now().isoformat(),
+        'last_updated': datetime.now(eastern).isoformat(),
         'total_anime': len(processed_data),
         'total_upcoming_anime': len(upcoming_anime),
         'current_season': get_current_season(),
