@@ -561,21 +561,30 @@ def process_anime_data(api_data):
                 days_until_next = (airing_date.date() - today_date).days
                 
                 calculated_release_date = False
-                if 0 < days_until_next <= 7:
+                if 0 < days_until_next <= 14:
                     today_weekday = today_date.weekday()
                     next_episode_weekday = airing_date.weekday()
-                    
+
                     if today_weekday == next_episode_weekday:
                         episode_number = episode_number - 1
                         release_date = today_date.strftime('%Y-%m-%d')
                         calculated_release_date = True
                     else:
+                        # Try 1-week gap first
                         previous_ep_date = airing_date.date() - timedelta(days=7)
                         days_since_prev = (today_date - previous_ep_date).days
                         if 0 < days_since_prev <= 2:
                             episode_number = episode_number - 1
                             release_date = previous_ep_date.strftime('%Y-%m-%d')
                             calculated_release_date = True
+                        # Try 2-week gap if 1-week didn't work
+                        elif not calculated_release_date:
+                            previous_ep_date_2w = airing_date.date() - timedelta(days=14)
+                            days_since_prev_2w = (today_date - previous_ep_date_2w).days
+                            if 0 < days_since_prev_2w <= 2:
+                                episode_number = episode_number - 1
+                                release_date = previous_ep_date_2w.strftime('%Y-%m-%d')
+                                calculated_release_date = True
                 
                 # If we couldn't determine a weekly release, check if it's a long-running show
                 if not calculated_release_date:
