@@ -17,7 +17,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 45035,
+    "popularity": 45198,
     "favourites": 499,
     "anilist_score": null,
     "streaming_links": [],
@@ -44,7 +44,7 @@
       "Psychological",
       "Romance"
     ],
-    "popularity": 41612,
+    "popularity": 41757,
     "favourites": 734,
     "anilist_score": null,
     "streaming_links": [],
@@ -69,7 +69,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 36979,
+    "popularity": 37074,
     "favourites": 562,
     "anilist_score": null,
     "streaming_links": [],
@@ -92,7 +92,7 @@
       "Drama",
       "Psychological"
     ],
-    "popularity": 34578,
+    "popularity": 34704,
     "favourites": 513,
     "anilist_score": null,
     "streaming_links": [],
@@ -115,7 +115,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 31077,
+    "popularity": 31138,
     "favourites": 654,
     "anilist_score": null,
     "streaming_links": [],
@@ -140,7 +140,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 29917,
+    "popularity": 29977,
     "favourites": 365,
     "anilist_score": null,
     "streaming_links": [],
@@ -165,7 +165,7 @@
       "Comedy",
       "Sci-Fi"
     ],
-    "popularity": 24650,
+    "popularity": 24737,
     "favourites": 230,
     "anilist_score": null,
     "streaming_links": [],
@@ -190,7 +190,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 16768,
+    "popularity": 16853,
     "favourites": 133,
     "anilist_score": null,
     "streaming_links": [],
@@ -217,7 +217,7 @@
       "Horror",
       "Mystery"
     ],
-    "popularity": 15537,
+    "popularity": 15575,
     "favourites": 160,
     "anilist_score": null,
     "streaming_links": [],
@@ -241,7 +241,7 @@
       "Fantasy",
       "Supernatural"
     ],
-    "popularity": 14149,
+    "popularity": 14180,
     "favourites": 198,
     "anilist_score": null,
     "streaming_links": [],
@@ -265,7 +265,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 14020,
+    "popularity": 14054,
     "favourites": 194,
     "anilist_score": null,
     "streaming_links": [],
@@ -289,7 +289,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 13936,
+    "popularity": 13975,
     "favourites": 161,
     "anilist_score": null,
     "streaming_links": [],
@@ -309,7 +309,7 @@
     "season_year": 2026,
     "studios": "Zero-G, Pony Canyon",
     "genres": [],
-    "popularity": 10504,
+    "popularity": 10560,
     "favourites": 197,
     "anilist_score": null,
     "streaming_links": [],
@@ -333,7 +333,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 10069,
+    "popularity": 10094,
     "favourites": 110,
     "anilist_score": null,
     "streaming_links": [],
@@ -358,7 +358,7 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 9084,
+    "popularity": 9124,
     "favourites": 69,
     "anilist_score": null,
     "streaming_links": [],
@@ -381,7 +381,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 8947,
+    "popularity": 8996,
     "favourites": 109,
     "anilist_score": null,
     "streaming_links": [],
@@ -405,7 +405,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 8760,
+    "popularity": 8780,
     "favourites": 116,
     "anilist_score": null,
     "streaming_links": [],
@@ -428,7 +428,7 @@
       "Drama",
       "Psychological"
     ],
-    "popularity": 8321,
+    "popularity": 8360,
     "favourites": 52,
     "anilist_score": null,
     "streaming_links": [],
@@ -450,7 +450,7 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 8079,
+    "popularity": 8121,
     "favourites": 53,
     "anilist_score": null,
     "streaming_links": [],
@@ -475,34 +475,11 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 8050,
+    "popularity": 8088,
     "favourites": 90,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 20
-  },
-  {
-    "id": 194393,
-    "mal_id": 61839,
-    "name": "Aishiteru Game wo Owarasetai",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-04-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194393-2y61EmWsIo7G.png",
-    "site_url": "https://anilist.co/anime/194393",
-    "start_date": "2026-04-01",
-    "season": "Spring",
-    "season_year": 2026,
-    "studios": "Felix Film, Nikkatsu",
-    "genres": [
-      "Comedy",
-      "Romance"
-    ],
-    "popularity": 7729,
-    "favourites": 86,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 21
   },
   {
     "id": 202102,
@@ -523,8 +500,31 @@
       "Psychological",
       "Slice of Life"
     ],
-    "popularity": 7718,
+    "popularity": 7790,
     "favourites": 70,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 21
+  },
+  {
+    "id": 194393,
+    "mal_id": 61839,
+    "name": "Aishiteru Game wo Owarasetai",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-04-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194393-2y61EmWsIo7G.png",
+    "site_url": "https://anilist.co/anime/194393",
+    "start_date": "2026-04-01",
+    "season": "Spring",
+    "season_year": 2026,
+    "studios": "Felix Film, Nikkatsu",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "popularity": 7777,
+    "favourites": 86,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 22
@@ -546,7 +546,7 @@
       "Action",
       "Supernatural"
     ],
-    "popularity": 6959,
+    "popularity": 6996,
     "favourites": 55,
     "anilist_score": null,
     "streaming_links": [],
@@ -569,7 +569,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 6313,
+    "popularity": 6343,
     "favourites": 69,
     "anilist_score": null,
     "streaming_links": [],
@@ -593,7 +593,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 6045,
+    "popularity": 6064,
     "favourites": 65,
     "anilist_score": null,
     "streaming_links": [],
@@ -616,7 +616,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 5942,
+    "popularity": 6049,
     "favourites": 63,
     "anilist_score": null,
     "streaming_links": [],
@@ -640,7 +640,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 5747,
+    "popularity": 5771,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
@@ -664,7 +664,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 4433,
+    "popularity": 4452,
     "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
@@ -688,7 +688,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 4268,
+    "popularity": 4302,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
@@ -712,7 +712,7 @@
       "Ecchi",
       "Romance"
     ],
-    "popularity": 3797,
+    "popularity": 3812,
     "favourites": 45,
     "anilist_score": null,
     "streaming_links": [],
@@ -734,7 +734,7 @@
     "genres": [
       "Sports"
     ],
-    "popularity": 3683,
+    "popularity": 3689,
     "favourites": 53,
     "anilist_score": null,
     "streaming_links": [],
@@ -758,7 +758,7 @@
       "Music",
       "Romance"
     ],
-    "popularity": 3322,
+    "popularity": 3334,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
@@ -783,7 +783,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 3262,
+    "popularity": 3292,
     "favourites": 44,
     "anilist_score": null,
     "streaming_links": [],
@@ -805,7 +805,7 @@
     "genres": [
       "Fantasy"
     ],
-    "popularity": 3223,
+    "popularity": 3245,
     "favourites": 24,
     "anilist_score": null,
     "streaming_links": [],
@@ -830,7 +830,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 3169,
+    "popularity": 3193,
     "favourites": 35,
     "anilist_score": null,
     "streaming_links": [],
@@ -854,7 +854,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 3148,
+    "popularity": 3166,
     "favourites": 27,
     "anilist_score": null,
     "streaming_links": [],
@@ -878,7 +878,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 3094,
+    "popularity": 3123,
     "favourites": 27,
     "anilist_score": null,
     "streaming_links": [],
@@ -902,7 +902,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2592,
+    "popularity": 2628,
     "favourites": 38,
     "anilist_score": null,
     "streaming_links": [],
@@ -925,7 +925,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2337,
+    "popularity": 2355,
     "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
@@ -948,33 +948,11 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 2261,
+    "popularity": 2294,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 40
-  },
-  {
-    "id": 197868,
-    "mal_id": 62342,
-    "name": "Maid-san wa Taberu dake",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-04-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197868-AMyVM93B0hGQ.png",
-    "site_url": "https://anilist.co/anime/197868",
-    "start_date": "2026-04-01",
-    "season": "Spring",
-    "season_year": 2026,
-    "studios": "EMT Squared, Magic Bus",
-    "genres": [
-      "Slice of Life"
-    ],
-    "popularity": 2142,
-    "favourites": 19,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 41
   },
   {
     "id": 198113,
@@ -993,8 +971,30 @@
       "Action",
       "Comedy"
     ],
-    "popularity": 2137,
+    "popularity": 2155,
     "favourites": 17,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 41
+  },
+  {
+    "id": 197868,
+    "mal_id": 62342,
+    "name": "Maid-san wa Taberu dake",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-04-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197868-AMyVM93B0hGQ.png",
+    "site_url": "https://anilist.co/anime/197868",
+    "start_date": "2026-04-01",
+    "season": "Spring",
+    "season_year": 2026,
+    "studios": "EMT Squared, Magic Bus",
+    "genres": [
+      "Slice of Life"
+    ],
+    "popularity": 2153,
+    "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 42
@@ -1017,7 +1017,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 2123,
+    "popularity": 2143,
     "favourites": 25,
     "anilist_score": null,
     "streaming_links": [],
@@ -1041,7 +1041,7 @@
       "Ecchi",
       "Slice of Life"
     ],
-    "popularity": 1749,
+    "popularity": 1763,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
@@ -1065,7 +1065,7 @@
       "Mecha",
       "Sci-Fi"
     ],
-    "popularity": 1683,
+    "popularity": 1695,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
@@ -1089,7 +1089,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 1673,
+    "popularity": 1686,
     "favourites": 14,
     "anilist_score": null,
     "streaming_links": [],
@@ -1111,7 +1111,7 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 1600,
+    "popularity": 1606,
     "favourites": 14,
     "anilist_score": null,
     "streaming_links": [],
@@ -1135,7 +1135,7 @@
       "Drama",
       "Sci-Fi"
     ],
-    "popularity": 1582,
+    "popularity": 1591,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
@@ -1159,7 +1159,7 @@
       "Psychological",
       "Supernatural"
     ],
-    "popularity": 1544,
+    "popularity": 1570,
     "favourites": 21,
     "anilist_score": null,
     "streaming_links": [],
@@ -1181,7 +1181,7 @@
     "genres": [
       "Mahou Shoujo"
     ],
-    "popularity": 1493,
+    "popularity": 1504,
     "favourites": 3,
     "anilist_score": null,
     "streaming_links": [],
@@ -1205,7 +1205,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 1331,
+    "popularity": 1337,
     "favourites": 1,
     "anilist_score": null,
     "streaming_links": [],
