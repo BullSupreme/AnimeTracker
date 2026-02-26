@@ -161,6 +161,7 @@ def generate_html():
         <nav class="nav-tabs">
             <button class="nav-tab active" data-tab="list">📋 List View</button>
             <button class="nav-tab" data-tab="calendar">📅 Calendar</button>
+            <a href="all-anime.html" class="nav-tab">🎬 All Anime</a>
         </nav>
         <main>
             <!-- List View Section -->

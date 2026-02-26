@@ -1,0 +1,41 @@
+name: Update All Anime Catalog
+
+on:
+  schedule:
+    # Run on the 1st of every month at 6 AM UTC
+    - cron: '0 6 1 * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-catalog:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Fetch previous and current month anime (incremental)
+      run: python3 scripts/fetch_all_anime.py
+
+    - name: Generate All Anime HTML
+      run: python3 scripts/generate_all_anime_html.py
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/all_anime_catalog.json all-anime.html
+        git diff --staged --quiet || git commit -m "🤖 Update all anime catalog - $(date '+%Y-%m %B')"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -29,12 +29,19 @@ jobs:
       
     - name: Generate HTML
       run: python3 scripts/generate_html.py
-      
+
+    - name: Generate All Anime HTML (if catalog exists)
+      run: |
+        if [ -f data/all_anime_catalog.json ]; then
+          python3 scripts/generate_all_anime_html.py
+        fi
+
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add data/anime_data.json data/other_anime_sorted.json data/metadata.json data/upcoming_seasonal_anime.json index.html
+        if [ -f all-anime.html ]; then git add all-anime.html; fi
         git diff --staged --quiet || git commit -m "🤖 Auto-update anime data - $(date '+%Y-%m-%d %H:%M UTC')"
         git push
       env:

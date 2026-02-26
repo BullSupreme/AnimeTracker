@@ -754,6 +754,7 @@ def process_anime_data(api_data):
             'streaming_links': streaming_links,
             'popularity': anime.get('popularity', 0),
             'anilist_score': anime.get('averageScore'),
+            'genres': anime.get('genres', []),
             'recently_finished': is_recently_finished
         })
     
