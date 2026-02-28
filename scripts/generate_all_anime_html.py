@@ -359,9 +359,9 @@ def generate_html(catalog):
             .all-anime-grid {{ grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); }}
         }}
 
-        /* Make nine-anime-btn match existing style */
+        /* Override nine-anime-btn to purple for All Anime page */
         .nine-anime-btn {{
-            background: #10b981;
+            background: #8b5cf6;
             color: white;
             border: none;
             border-radius: 20px;
@@ -374,7 +374,7 @@ def generate_html(catalog):
         }}
 
         .nine-anime-btn:hover {{
-            background: #059669;
+            background: #7c3aed;
         }}
     </style>
 </head>

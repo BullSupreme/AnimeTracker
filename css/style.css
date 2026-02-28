@@ -1862,7 +1862,7 @@ a.nav-tab:hover {
 }
 
 /* All Anime page tooltip support (reuse existing data-tooltip pattern) */
-[data-tooltip] {
+[data-tooltip]:not(.popularity-rank-badge) {
     position: relative;
 }
 
