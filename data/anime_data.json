@@ -285,8 +285,8 @@
     "mal_id": 55830,
     "name": "Fate/strange Fake",
     "english_title": "Fate/strange Fake",
-    "episode": 9,
-    "release_date": "2026-02-28",
+    "episode": 10,
+    "release_date": "2026-03-07",
     "next_airing_date": "2026-03-07",
     "next_episode_number": 10,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166617-34fpC9y47tTx.png",
@@ -353,8 +353,8 @@
     "mal_id": 54703,
     "name": "Fumetsu no Anata e Season 3",
     "english_title": "To Your Eternity Season 3",
-    "episode": 17,
-    "release_date": "2026-02-28",
+    "episode": 18,
+    "release_date": null,
     "next_airing_date": "2026-03-07",
     "next_episode_number": 18,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162669-FLYUTftoXgMh.jpg",
@@ -522,6 +522,40 @@
     "popularity_rank": 14
   },
   {
+    "id": 180082,
+    "mal_id": 59517,
+    "name": "Chitose-kun wa Ramune Bin no Naka",
+    "english_title": "Chitose Is in the Ramune Bottle",
+    "episode": 13,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180082-IZAlf06G2VVm.png",
+    "site_url": "https://anilist.co/anime/180082",
+    "start_date": "2025-10-07",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00364783/chitose-is-in-the-ramune-bottle",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgz0nvNyM-z3UVzYpGY70Et",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 29624,
+    "anilist_score": 70,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "recently_finished": false,
+    "popularity_rank": 15
+  },
+  {
     "id": 177385,
     "mal_id": 58788,
     "name": "Ikoku Nikki",
@@ -548,7 +582,7 @@
       "Slice of Life"
     ],
     "recently_finished": false,
-    "popularity_rank": 15
+    "popularity_rank": 16
   },
   {
     "id": 178005,
@@ -582,7 +616,7 @@
       "Romance"
     ],
     "recently_finished": false,
-    "popularity_rank": 16
+    "popularity_rank": 17
   },
   {
     "id": 195322,
@@ -618,7 +652,7 @@
       "Fantasy"
     ],
     "recently_finished": false,
-    "popularity_rank": 17
+    "popularity_rank": 18
   },
   {
     "id": 195515,
@@ -654,7 +688,7 @@
       "Romance"
     ],
     "recently_finished": false,
-    "popularity_rank": 18
+    "popularity_rank": 19
   },
   {
     "id": 187942,
@@ -683,15 +717,15 @@
       "Romance"
     ],
     "recently_finished": false,
-    "popularity_rank": 19
+    "popularity_rank": 20
   },
   {
     "id": 163144,
     "mal_id": 54863,
     "name": "TRIGUN STARGAZE",
     "english_title": "TRIGUN STARGAZE",
-    "episode": 8,
-    "release_date": "2026-02-28",
+    "episode": 9,
+    "release_date": "2026-03-07",
     "next_airing_date": "2026-03-07",
     "next_episode_number": 9,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163144-XdVwFRxPGY6j.jpg",
@@ -719,7 +753,7 @@
       "Sci-Fi"
     ],
     "recently_finished": false,
-    "popularity_rank": 20
+    "popularity_rank": 21
   },
   {
     "id": 192507,
@@ -748,7 +782,7 @@
       "Slice of Life"
     ],
     "recently_finished": false,
-    "popularity_rank": 21
+    "popularity_rank": 22
   },
   {
     "id": 185993,
@@ -778,7 +812,7 @@
       "Fantasy"
     ],
     "recently_finished": false,
-    "popularity_rank": 22
+    "popularity_rank": 23
   },
   {
     "id": 186333,
@@ -808,7 +842,7 @@
       "Fantasy"
     ],
     "recently_finished": false,
-    "popularity_rank": 23
+    "popularity_rank": 24
   },
   {
     "id": 185262,
@@ -838,7 +872,7 @@
       "Fantasy"
     ],
     "recently_finished": false,
-    "popularity_rank": 24
+    "popularity_rank": 25
   },
   {
     "id": 191205,
@@ -872,15 +906,15 @@
       "Fantasy"
     ],
     "recently_finished": false,
-    "popularity_rank": 25
+    "popularity_rank": 26
   },
   {
     "id": 187464,
     "mal_id": 61159,
     "name": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
     "english_title": "Tojima Wants to Be a Kamen Rider",
-    "episode": 21,
-    "release_date": "2026-02-28",
+    "episode": 22,
+    "release_date": null,
     "next_airing_date": "2026-03-07",
     "next_episode_number": 22,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187464-NJtK3VC54vPm.jpg",
@@ -901,15 +935,15 @@
       "Comedy"
     ],
     "recently_finished": false,
-    "popularity_rank": 26
+    "popularity_rank": 27
   },
   {
     "id": 185116,
     "mal_id": 60427,
     "name": "Gnosia",
     "english_title": "GNOSIA",
-    "episode": 19,
-    "release_date": "2026-02-28",
+    "episode": 20,
+    "release_date": null,
     "next_airing_date": "2026-03-07",
     "next_episode_number": 20,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185116-DIFRjiMgz1IS.jpg",
@@ -932,7 +966,7 @@
       "Thriller"
     ],
     "recently_finished": false,
-    "popularity_rank": 27
+    "popularity_rank": 28
   },
   {
     "id": 177679,
@@ -961,7 +995,7 @@
       "Thriller"
     ],
     "recently_finished": false,
-    "popularity_rank": 28
+    "popularity_rank": 29
   },
   {
     "id": 191718,
@@ -993,7 +1027,7 @@
       "Horror"
     ],
     "recently_finished": false,
-    "popularity_rank": 29
+    "popularity_rank": 30
   },
   {
     "id": 183270,
@@ -1025,7 +1059,7 @@
       "Supernatural"
     ],
     "recently_finished": false,
-    "popularity_rank": 30
+    "popularity_rank": 31
   },
   {
     "id": 185039,
@@ -1055,7 +1089,7 @@
       "Supernatural"
     ],
     "recently_finished": false,
-    "popularity_rank": 31
+    "popularity_rank": 32
   },
   {
     "id": 166521,
@@ -1085,15 +1119,15 @@
       "Comedy"
     ],
     "recently_finished": false,
-    "popularity_rank": 32
+    "popularity_rank": 33
   },
   {
     "id": 187901,
     "mal_id": 61196,
     "name": "Dead Account",
     "english_title": "Dead Account",
-    "episode": 8,
-    "release_date": "2026-02-28",
+    "episode": 9,
+    "release_date": "2026-03-07",
     "next_airing_date": "2026-03-07",
     "next_episode_number": 9,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187901-T91HmZAaNwOF.jpg",
@@ -1119,7 +1153,7 @@
       "Supernatural"
     ],
     "recently_finished": false,
-    "popularity_rank": 33
+    "popularity_rank": 34
   },
   {
     "id": 183661,
@@ -1150,7 +1184,7 @@
       "Slice of Life"
     ],
     "recently_finished": false,
-    "popularity_rank": 34
+    "popularity_rank": 35
   },
   {
     "id": 194028,
@@ -1180,7 +1214,7 @@
       "Slice of Life"
     ],
     "recently_finished": false,
-    "popularity_rank": 35
+    "popularity_rank": 36
   },
   {
     "id": 189565,
@@ -1209,7 +1243,7 @@
       "Romance"
     ],
     "recently_finished": false,
-    "popularity_rank": 36
+    "popularity_rank": 37
   },
   {
     "id": 195518,
@@ -1238,7 +1272,7 @@
       "Romance"
     ],
     "recently_finished": false,
-    "popularity_rank": 37
+    "popularity_rank": 38
   },
   {
     "id": 194742,
@@ -1268,15 +1302,15 @@
       "Slice of Life"
     ],
     "recently_finished": false,
-    "popularity_rank": 38
+    "popularity_rank": 39
   },
   {
     "id": 189275,
     "mal_id": 61335,
     "name": "Medalist 2nd Season",
     "english_title": "Medalist Season 2",
-    "episode": 6,
-    "release_date": "2026-02-28",
+    "episode": 7,
+    "release_date": "2026-03-07",
     "next_airing_date": "2026-03-07",
     "next_episode_number": 7,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189275-eHsK0lNnFfXH.jpg",
@@ -1303,7 +1337,7 @@
       "Sports"
     ],
     "recently_finished": false,
-    "popularity_rank": 39
+    "popularity_rank": 40
   },
   {
     "id": 183660,
@@ -1338,15 +1372,15 @@
       "Slice of Life"
     ],
     "recently_finished": false,
-    "popularity_rank": 40
+    "popularity_rank": 41
   },
   {
     "id": 187941,
     "mal_id": 61207,
     "name": "Tensei Shitara Dragon no Tamago Datta",
     "english_title": "Reincarnated as a Dragon Hatchling",
-    "episode": 8,
-    "release_date": "2026-02-28",
+    "episode": 9,
+    "release_date": "2026-03-07",
     "next_airing_date": "2026-03-07",
     "next_episode_number": 9,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187941-ykmc8WRedPpw.jpg",
@@ -1368,7 +1402,7 @@
       "Fantasy"
     ],
     "recently_finished": false,
-    "popularity_rank": 41
+    "popularity_rank": 42
   },
   {
     "id": 185514,
@@ -1398,7 +1432,7 @@
       "Supernatural"
     ],
     "recently_finished": false,
-    "popularity_rank": 42
+    "popularity_rank": 43
   },
   {
     "id": 192261,
@@ -1428,7 +1462,7 @@
       "Slice of Life"
     ],
     "recently_finished": false,
-    "popularity_rank": 43
+    "popularity_rank": 44
   },
   {
     "id": 177580,
@@ -1459,7 +1493,7 @@
       "Slice of Life"
     ],
     "recently_finished": false,
-    "popularity_rank": 44
+    "popularity_rank": 45
   },
   {
     "id": 187267,
@@ -1490,7 +1524,7 @@
       "Slice of Life"
     ],
     "recently_finished": false,
-    "popularity_rank": 45
+    "popularity_rank": 46
   },
   {
     "id": 181443,
@@ -1518,15 +1552,15 @@
       "Supernatural"
     ],
     "recently_finished": false,
-    "popularity_rank": 46
+    "popularity_rank": 47
   },
   {
     "id": 187989,
     "mal_id": 61217,
     "name": "Yuusha no Kuzu",
     "english_title": "Scum of the Brave",
-    "episode": 8,
-    "release_date": "2026-02-28",
+    "episode": 9,
+    "release_date": "2026-03-07",
     "next_airing_date": "2026-03-07",
     "next_episode_number": 9,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187989-IjVYJxi0bEcr.jpg",
@@ -1560,7 +1594,7 @@
       "Sci-Fi"
     ],
     "recently_finished": false,
-    "popularity_rank": 47
+    "popularity_rank": 48
   },
   {
     "id": 182771,
@@ -1590,7 +1624,7 @@
       "Slice of Life"
     ],
     "recently_finished": false,
-    "popularity_rank": 48
+    "popularity_rank": 49
   },
   {
     "id": 176370,
@@ -1624,7 +1658,7 @@
       "Fantasy"
     ],
     "recently_finished": false,
-    "popularity_rank": 49
+    "popularity_rank": 50
   },
   {
     "id": 185753,
@@ -1662,15 +1696,15 @@
       "Sports"
     ],
     "recently_finished": false,
-    "popularity_rank": 50
+    "popularity_rank": 51
   },
   {
     "id": 198374,
     "mal_id": 62432,
     "name": "Jingai Kyoushitsu no Ningengirai Kyoushi",
     "english_title": "A Misanthrope Teaches a Class for Demi-Humans",
-    "episode": 8,
-    "release_date": "2026-02-28",
+    "episode": 9,
+    "release_date": "2026-03-07",
     "next_airing_date": "2026-03-07",
     "next_episode_number": 9,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198374-ROZU3qJGX4uS.jpg",
@@ -1694,7 +1728,7 @@
       "Slice of Life"
     ],
     "recently_finished": false,
-    "popularity_rank": 51
+    "popularity_rank": 52
   },
   {
     "id": 185857,
@@ -1729,7 +1763,7 @@
       "Fantasy"
     ],
     "recently_finished": true,
-    "popularity_rank": 52
+    "popularity_rank": 53
   },
   {
     "id": 183984,
@@ -1757,7 +1791,7 @@
       "Mystery"
     ],
     "recently_finished": false,
-    "popularity_rank": 53
+    "popularity_rank": 54
   },
   {
     "id": 197731,
@@ -1790,7 +1824,7 @@
       "Comedy"
     ],
     "recently_finished": false,
-    "popularity_rank": 54
+    "popularity_rank": 55
   },
   {
     "id": 176509,
@@ -1819,7 +1853,7 @@
       "Sports"
     ],
     "recently_finished": true,
-    "popularity_rank": 55
+    "popularity_rank": 56
   },
   {
     "id": 170018,
@@ -1848,7 +1882,7 @@
       "Music"
     ],
     "recently_finished": true,
-    "popularity_rank": 56
+    "popularity_rank": 57
   },
   {
     "id": 178052,
@@ -1883,7 +1917,7 @@
       "Music"
     ],
     "recently_finished": false,
-    "popularity_rank": 57
+    "popularity_rank": 58
   },
   {
     "id": 189137,
@@ -1917,7 +1951,7 @@
       "Romance"
     ],
     "recently_finished": false,
-    "popularity_rank": 58
+    "popularity_rank": 59
   },
   {
     "id": 196553,
@@ -1952,7 +1986,7 @@
       "Sci-Fi"
     ],
     "recently_finished": false,
-    "popularity_rank": 59
+    "popularity_rank": 60
   },
   {
     "id": 187062,
@@ -1986,7 +2020,7 @@
       "Drama"
     ],
     "recently_finished": false,
-    "popularity_rank": 60
+    "popularity_rank": 61
   },
   {
     "id": 194318,
@@ -2016,6 +2050,6 @@
       "Sci-Fi"
     ],
     "recently_finished": false,
-    "popularity_rank": 61
+    "popularity_rank": 62
   }
 ]
