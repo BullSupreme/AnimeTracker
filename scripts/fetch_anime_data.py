@@ -418,9 +418,11 @@ def process_anime_data(api_data):
         if is_kids_anime:
             continue  # Skip kids anime
             
-        # Skip low popularity anime (less than 5000 popularity)
+        # Skip low popularity anime (ONA threshold is lower since Chinese web anime have smaller global counts)
         popularity = anime.get('popularity', 0)
-        if popularity < 3000:
+        anime_format = anime.get('format', '')
+        pop_threshold = 2000 if anime_format == 'ONA' else 3000
+        if popularity < pop_threshold:
             continue  # Skip unpopular anime
             
         # Skip short anime (less than 10 minutes per episode)
@@ -754,7 +756,6 @@ def process_anime_data(api_data):
             'streaming_links': streaming_links,
             'popularity': anime.get('popularity', 0),
             'anilist_score': anime.get('averageScore'),
-            'genres': anime.get('genres', []),
             'recently_finished': is_recently_finished
         })
     
@@ -929,6 +930,17 @@ def main():
     # Sort other anime with custom logic
     other_anime_sorted, recently_finished_sorted = sort_other_anime(processed_data, today, tomorrow)
     
+    # Merge manual_anime.json entries (anime too obscure to be auto-fetched)
+    manual_path = 'data/manual_anime.json'
+    if os.path.exists(manual_path):
+        with open(manual_path, 'r', encoding='utf-8') as f:
+            manual_entries = json.load(f)
+        existing_ids = {a.get('id') for a in processed_data}
+        added = sum(1 for e in manual_entries if e.get('id') not in existing_ids)
+        processed_data.extend(e for e in manual_entries if e.get('id') not in existing_ids)
+        if added:
+            print(f"Merged {added} manual anime entries")
+
     # Save processed data
     with open('data/anime_data.json', 'w', encoding='utf-8') as f:
         json.dump(processed_data, f, ensure_ascii=False, indent=2)
