@@ -18,7 +18,7 @@
       "Fantasy"
     ],
     "popularity": 58849,
-    "favourites": 730,
+    "favourites": 746,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 1
@@ -45,7 +45,7 @@
       "Romance"
     ],
     "popularity": 51720,
-    "favourites": 1004,
+    "favourites": 1017,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 2
@@ -70,7 +70,7 @@
       "Fantasy"
     ],
     "popularity": 45686,
-    "favourites": 786,
+    "favourites": 796,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 3
@@ -93,7 +93,7 @@
       "Psychological"
     ],
     "popularity": 44052,
-    "favourites": 690,
+    "favourites": 699,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 4
@@ -116,7 +116,7 @@
       "Slice of Life"
     ],
     "popularity": 36094,
-    "favourites": 768,
+    "favourites": 775,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 5
@@ -141,7 +141,7 @@
       "Fantasy"
     ],
     "popularity": 36066,
-    "favourites": 479,
+    "favourites": 483,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 6
@@ -166,7 +166,7 @@
       "Sci-Fi"
     ],
     "popularity": 30982,
-    "favourites": 317,
+    "favourites": 322,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 7
@@ -191,7 +191,7 @@
       "Fantasy"
     ],
     "popularity": 25439,
-    "favourites": 212,
+    "favourites": 216,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 8
@@ -218,7 +218,7 @@
       "Mystery"
     ],
     "popularity": 19649,
-    "favourites": 212,
+    "favourites": 217,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 9
@@ -242,7 +242,7 @@
       "Fantasy"
     ],
     "popularity": 17532,
-    "favourites": 271,
+    "favourites": 270,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 10
@@ -266,7 +266,7 @@
       "Supernatural"
     ],
     "popularity": 16805,
-    "favourites": 242,
+    "favourites": 243,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 11
@@ -290,7 +290,7 @@
       "Slice of Life"
     ],
     "popularity": 16689,
-    "favourites": 205,
+    "favourites": 209,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 12
@@ -315,7 +315,7 @@
       "Romance"
     ],
     "popularity": 14623,
-    "favourites": 106,
+    "favourites": 107,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 13
@@ -358,7 +358,7 @@
       "Romance"
     ],
     "popularity": 14348,
-    "favourites": 170,
+    "favourites": 181,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 15
@@ -411,28 +411,6 @@
     "popularity_rank": 17
   },
   {
-    "id": 196935,
-    "mal_id": 62164,
-    "name": "Akane-banashi",
-    "english_title": "Akane-banashi",
-    "episode": 1,
-    "release_date": "2026-04-04",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196935-RnLWBsEvNp8M.jpg",
-    "site_url": "https://anilist.co/anime/196935",
-    "start_date": "2026-04-04",
-    "season": "Spring",
-    "season_year": 2026,
-    "studios": "ZEXCS, TV Asahi",
-    "genres": [
-      "Drama"
-    ],
-    "popularity": 12662,
-    "favourites": 74,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 18
-  },
-  {
     "id": 202102,
     "mal_id": 62913,
     "name": "NEEDY GIRL OVERDOSE",
@@ -451,8 +429,30 @@
       "Psychological",
       "Slice of Life"
     ],
-    "popularity": 12470,
+    "popularity": 12907,
     "favourites": 111,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 18
+  },
+  {
+    "id": 196935,
+    "mal_id": 62164,
+    "name": "Akane-banashi",
+    "english_title": "Akane-banashi",
+    "episode": 1,
+    "release_date": "2026-04-04",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196935-RnLWBsEvNp8M.jpg",
+    "site_url": "https://anilist.co/anime/196935",
+    "start_date": "2026-04-04",
+    "season": "Spring",
+    "season_year": 2026,
+    "studios": "ZEXCS, TV Asahi",
+    "genres": [
+      "Drama"
+    ],
+    "popularity": 12662,
+    "favourites": 74,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 19
@@ -475,7 +475,7 @@
       "Romance"
     ],
     "popularity": 12389,
-    "favourites": 131,
+    "favourites": 133,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 20
@@ -500,7 +500,7 @@
       "Romance"
     ],
     "popularity": 11685,
-    "favourites": 124,
+    "favourites": 125,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 21
@@ -523,7 +523,7 @@
       "Supernatural"
     ],
     "popularity": 11104,
-    "favourites": 95,
+    "favourites": 98,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 22
@@ -546,7 +546,7 @@
       "Romance"
     ],
     "popularity": 10964,
-    "favourites": 101,
+    "favourites": 105,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 23
@@ -570,7 +570,7 @@
       "Slice of Life"
     ],
     "popularity": 10845,
-    "favourites": 101,
+    "favourites": 102,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 24
@@ -618,7 +618,7 @@
       "Slice of Life"
     ],
     "popularity": 8659,
-    "favourites": 57,
+    "favourites": 59,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 26
@@ -641,7 +641,7 @@
       "Romance"
     ],
     "popularity": 8500,
-    "favourites": 105,
+    "favourites": 108,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 27
@@ -689,7 +689,7 @@
       "Slice of Life"
     ],
     "popularity": 7444,
-    "favourites": 40,
+    "favourites": 42,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 29
@@ -737,7 +737,7 @@
       "Slice of Life"
     ],
     "popularity": 5913,
-    "favourites": 42,
+    "favourites": 43,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 31
@@ -762,10 +762,35 @@
       "Supernatural"
     ],
     "popularity": 5820,
-    "favourites": 45,
+    "favourites": 49,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 32
+  },
+  {
+    "id": 200769,
+    "mal_id": 62825,
+    "name": "Saikyou no Shokugyou wa Yuusha demo Kenja demo Naku Kanteishi (Kari) Rashii desu yo?",
+    "english_title": "The strongest job is apparently not a hero or a sage, but an appraiser (provisional)!",
+    "episode": 1,
+    "release_date": "2026-04-02",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx200769-8WkFkoFxc2fw.jpg",
+    "site_url": "https://anilist.co/anime/200769",
+    "start_date": "2026-04-02",
+    "season": "Spring",
+    "season_year": 2026,
+    "studios": "Studio Flad, NBCUniversal Entertainment Japan",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "popularity": 5744,
+    "favourites": 75,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 33
   },
   {
     "id": 192808,
@@ -788,31 +813,6 @@
     ],
     "popularity": 5652,
     "favourites": 51,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 33
-  },
-  {
-    "id": 200769,
-    "mal_id": 62825,
-    "name": "Saikyou no Shokugyou wa Yuusha demo Kenja demo Naku Kanteishi (Kari) Rashii desu yo?",
-    "english_title": "The strongest job is apparently not a hero or a sage, but an appraiser (provisional)!",
-    "episode": 1,
-    "release_date": "2026-04-02",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx200769-8WkFkoFxc2fw.jpg",
-    "site_url": "https://anilist.co/anime/200769",
-    "start_date": "2026-04-02",
-    "season": "Spring",
-    "season_year": 2026,
-    "studios": "Studio Flad, NBCUniversal Entertainment Japan",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Comedy",
-      "Fantasy"
-    ],
-    "popularity": 5538,
-    "favourites": 71,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 34
@@ -858,7 +858,7 @@
       "Fantasy"
     ],
     "popularity": 5300,
-    "favourites": 37,
+    "favourites": 38,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 36
@@ -882,7 +882,7 @@
       "Fantasy"
     ],
     "popularity": 4595,
-    "favourites": 54,
+    "favourites": 55,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 37
@@ -905,7 +905,7 @@
       "Slice of Life"
     ],
     "popularity": 4472,
-    "favourites": 53,
+    "favourites": 54,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 38
@@ -933,6 +933,29 @@
     "popularity_rank": 39
   },
   {
+    "id": 201817,
+    "mal_id": 62893,
+    "name": "Nigashita Sakana wa Ookikatta ga Tsuriageta Sakana ga Ookisugita Ken",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-04-02",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx201817-pyfL9F8muPeq.jpg",
+    "site_url": "https://anilist.co/anime/201817",
+    "start_date": "2026-04-02",
+    "season": "Spring",
+    "season_year": 2026,
+    "studios": "TROYCA, TMS Entertainment",
+    "genres": [
+      "Fantasy",
+      "Romance"
+    ],
+    "popularity": 4399,
+    "favourites": 38,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 40
+  },
+  {
     "id": 186744,
     "mal_id": 61013,
     "name": "Replica Datte, Koi wo Suru.",
@@ -952,29 +975,6 @@
     ],
     "popularity": 4349,
     "favourites": 38,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 40
-  },
-  {
-    "id": 201817,
-    "mal_id": 62893,
-    "name": "Nigashita Sakana wa Ookikatta ga Tsuriageta Sakana ga Ookisugita Ken",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-04-02",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx201817-pyfL9F8muPeq.jpg",
-    "site_url": "https://anilist.co/anime/201817",
-    "start_date": "2026-04-02",
-    "season": "Spring",
-    "season_year": 2026,
-    "studios": "TROYCA, TMS Entertainment",
-    "genres": [
-      "Fantasy",
-      "Romance"
-    ],
-    "popularity": 4235,
-    "favourites": 36,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 41
@@ -997,34 +997,11 @@
       "Psychological",
       "Supernatural"
     ],
-    "popularity": 4084,
-    "favourites": 47,
+    "popularity": 4244,
+    "favourites": 48,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 42
-  },
-  {
-    "id": 198113,
-    "mal_id": 62391,
-    "name": "Kill Ao",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-04-11",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198113-hn6ymUrUPhbf.png",
-    "site_url": "https://anilist.co/anime/198113",
-    "start_date": "2026-04-11",
-    "season": "Spring",
-    "season_year": 2026,
-    "studios": "Shueisha, CUE",
-    "genres": [
-      "Action",
-      "Comedy"
-    ],
-    "popularity": 3945,
-    "favourites": 35,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 43
   },
   {
     "id": 206914,
@@ -1044,8 +1021,31 @@
       "Drama",
       "Sci-Fi"
     ],
-    "popularity": 3902,
-    "favourites": 25,
+    "popularity": 4063,
+    "favourites": 26,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 43
+  },
+  {
+    "id": 198113,
+    "mal_id": 62391,
+    "name": "Kill Ao",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-04-11",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198113-NRa47idWSlnx.jpg",
+    "site_url": "https://anilist.co/anime/198113",
+    "start_date": "2026-04-11",
+    "season": "Spring",
+    "season_year": 2026,
+    "studios": "Shueisha, CUE",
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "popularity": 3945,
+    "favourites": 37,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 44
@@ -1067,7 +1067,7 @@
       "Slice of Life"
     ],
     "popularity": 3702,
-    "favourites": 29,
+    "favourites": 30,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 45
@@ -1091,7 +1091,7 @@
       "Slice of Life"
     ],
     "popularity": 3429,
-    "favourites": 33,
+    "favourites": 34,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 46
@@ -1115,7 +1115,7 @@
       "Sci-Fi"
     ],
     "popularity": 3298,
-    "favourites": 31,
+    "favourites": 30,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 47
@@ -1163,7 +1163,7 @@
       "Slice of Life"
     ],
     "popularity": 3154,
-    "favourites": 23,
+    "favourites": 25,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 49
@@ -1231,33 +1231,11 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 2547,
-    "favourites": 21,
+    "popularity": 2665,
+    "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 52
-  },
-  {
-    "id": 178749,
-    "mal_id": 59176,
-    "name": "Mahou no Shimai Lulutto Lilly",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-04-05",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178749-c0tx9p13PVJy.png",
-    "site_url": "https://anilist.co/anime/178749",
-    "start_date": "2026-04-05",
-    "season": "Spring",
-    "season_year": 2026,
-    "studios": "Bandai Namco Filmworks, Studio Pierrot",
-    "genres": [
-      "Mahou Shoujo"
-    ],
-    "popularity": 2365,
-    "favourites": 6,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 53
   },
   {
     "id": 208352,
@@ -1277,11 +1255,11 @@
       "Comedy",
       "Supernatural"
     ],
-    "popularity": 2275,
+    "popularity": 2471,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 54
+    "popularity_rank": 53
   },
   {
     "id": 206951,
@@ -1300,8 +1278,30 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 2269,
-    "favourites": 24,
+    "popularity": 2405,
+    "favourites": 26,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 54
+  },
+  {
+    "id": 178749,
+    "mal_id": 59176,
+    "name": "Mahou no Shimai Lulutto Lilly",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-04-05",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178749-c0tx9p13PVJy.png",
+    "site_url": "https://anilist.co/anime/178749",
+    "start_date": "2026-04-05",
+    "season": "Spring",
+    "season_year": 2026,
+    "studios": "Bandai Namco Filmworks, Studio Pierrot",
+    "genres": [
+      "Mahou Shoujo"
+    ],
+    "popularity": 2365,
+    "favourites": 6,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 55
@@ -1348,7 +1348,7 @@
       "Mystery",
       "Slice of Life"
     ],
-    "popularity": 1652,
+    "popularity": 1708,
     "favourites": 4,
     "anilist_score": null,
     "streaming_links": [],
@@ -1372,7 +1372,7 @@
       "Music",
       "Supernatural"
     ],
-    "popularity": 1247,
+    "popularity": 1312,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
