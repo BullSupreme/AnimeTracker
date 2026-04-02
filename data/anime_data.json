@@ -320,6 +320,31 @@
     "popularity_rank": 10
   },
   {
+    "id": 190327,
+    "mal_id": 61469,
+    "name": "JoJo no Kimyou na Bouken: Steel Ball Run",
+    "english_title": "STEEL BALL RUN JoJo's Bizarre Adventure",
+    "episode": 1,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx190327-vYP09GgkBrKx.png",
+    "site_url": "https://anilist.co/anime/190327",
+    "start_date": "2026-03-19",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/82116553",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 57170,
+    "anilist_score": 91,
+    "recently_finished": false,
+    "popularity_rank": 11
+  },
+  {
     "id": 189046,
     "mal_id": 61316,
     "name": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
@@ -342,7 +367,7 @@
     "popularity": 53689,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 11
+    "popularity_rank": 12
   },
   {
     "id": 182205,
@@ -367,7 +392,7 @@
     "popularity": 47384,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 12
+    "popularity_rank": 13
   },
   {
     "id": 162669,
@@ -397,7 +422,7 @@
     "popularity": 46609,
     "anilist_score": 75,
     "recently_finished": true,
-    "popularity_rank": 13
+    "popularity_rank": 14
   },
   {
     "id": 180745,
@@ -427,31 +452,6 @@
     "popularity": 45965,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 14
-  },
-  {
-    "id": 187264,
-    "mal_id": 61128,
-    "name": "Yuusha Party wo Oidasareta Kiyou Binbou",
-    "english_title": "Jack-of-All-Trades, Party of None",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187264-aOUNQvTriPkX.jpg",
-    "site_url": "https://anilist.co/anime/187264",
-    "start_date": "2026-01-01",
-    "end_date": "2026-03-19",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00366764/jack-of-all-trades-party-of-none",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 45846,
-    "anilist_score": 67,
-    "recently_finished": true,
     "popularity_rank": 15
   },
   {
@@ -2178,8 +2178,8 @@
     "mal_id": 62825,
     "name": "Saikyou no Shokugyou wa Yuusha demo Kenja demo Naku Kanteishi (Kari) Rashii desu yo?",
     "english_title": "The strongest job is apparently not a hero or a sage, but an appraiser (provisional)!",
-    "episode": 1,
-    "release_date": "2026-04-01",
+    "episode": 2,
+    "release_date": "2026-04-04",
     "next_airing_date": "2026-04-04",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx200769-8WkFkoFxc2fw.jpg",
@@ -2341,8 +2341,8 @@
     "mal_id": 62927,
     "name": "Fangkai Nage Nüwu",
     "english_title": "Release that Witch",
-    "episode": 5,
-    "release_date": "2026-03-30",
+    "episode": 6,
+    "release_date": "2026-04-06",
     "next_airing_date": "2026-04-06",
     "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137662-iZigHTc71wi7.png",
@@ -2879,30 +2879,5 @@
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 108
-  },
-  {
-    "id": 186837,
-    "mal_id": 60988,
-    "name": "Tian Guan Ci Fu Short Film",
-    "english_title": null,
-    "episode": 1,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b186837-vurPn7q9fJqG.png",
-    "site_url": "https://anilist.co/anime/186837",
-    "start_date": "2025-02-12",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/play/ep424765?from_spmid=666.19.0.0",
-        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
-      }
-    ],
-    "popularity": 2230,
-    "anilist_score": 81,
-    "recently_finished": false,
-    "popularity_rank": 109
   }
 ]
