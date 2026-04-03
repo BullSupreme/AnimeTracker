@@ -363,37 +363,39 @@ def generate_html():
                     <div class="anime-grid other-grid">
 """
     
-    # Add other anime (sorted), grouped by release date for visual banding
-    current_group_date = None
-    group_index = 0
+    # Pre-group anime by date so each date gets exactly one banner
+    from collections import OrderedDict
+    groups_by_date = OrderedDict()
     for anime in other_anime_sorted:
-        custom_link = custom_links.get(anime['name'], anime['site_url'])
-        link_domain = custom_link.split('//')[1].split('/')[0] if '//' in custom_link else 'anilist.co'
-
-        # Build streaming links HTML
-        streaming_links_html = ""
-        streaming_link_count = 0
-        if anime.get('streaming_links'):
-            streaming_links_html = '<div class="streaming-links-overlay">'
-            for link in anime.get('streaming_links', []):
-                streaming_links_html += f'<a href="{link["url"]}" target="_blank" data-tooltip="{link["site"]}" class="streaming-link"><img src="{link["icon"]}" alt="{link["site"]}"></a>'
-                streaming_link_count += 1
-            streaming_links_html += '</div>'
-
-        # Add special class if 4+ streaming links
-        many_links_class = " many-streaming-links" if streaming_link_count >= 4 else ""
-
-        # Day grouping: wrap cards with the same next-airing date in a group div
         card_date = anime.get('next_airing_date') or anime.get('release_date') or ''
-        if card_date != current_group_date:
-            if current_group_date is not None:
-                html_content += '                        </div>'  # close previous group
-            current_group_date = card_date
-            group_index += 1
-            group_label = card_date if card_date else ''
-            html_content += f'                        <div class="day-group day-group-{group_index % 2}" data-date="{group_label}">'
+        if card_date not in groups_by_date:
+            groups_by_date[card_date] = []
+        groups_by_date[card_date].append(anime)
 
-        html_content += f"""                        <div class="anime-card{many_links_class}" data-name="{anime['name']}" data-link="{custom_link}" data-anime-id="{anime['id']}" data-release="{anime.get('release_date', '')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
+    # Add other anime (sorted), grouped by release date for visual banding
+    group_index = 0
+    for card_date, anime_group in groups_by_date.items():
+        group_label = card_date if card_date else ''
+        html_content += f'                        <div class="day-group day-group-{group_index % 2}" data-date="{group_label}">'
+        group_index += 1
+        for anime in anime_group:
+            custom_link = custom_links.get(anime['name'], anime['site_url'])
+            link_domain = custom_link.split('//')[1].split('/')[0] if '//' in custom_link else 'anilist.co'
+
+            # Build streaming links HTML
+            streaming_links_html = ""
+            streaming_link_count = 0
+            if anime.get('streaming_links'):
+                streaming_links_html = '<div class="streaming-links-overlay">'
+                for link in anime.get('streaming_links', []):
+                    streaming_links_html += f'<a href="{link["url"]}" target="_blank" data-tooltip="{link["site"]}" class="streaming-link"><img src="{link["icon"]}" alt="{link["site"]}"></a>'
+                    streaming_link_count += 1
+                streaming_links_html += '</div>'
+
+            # Add special class if 4+ streaming links
+            many_links_class = " many-streaming-links" if streaming_link_count >= 4 else ""
+
+            html_content += f"""                        <div class="anime-card{many_links_class}" data-name="{anime['name']}" data-link="{custom_link}" data-anime-id="{anime['id']}" data-release="{anime.get('release_date', '')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
                             <div class="card-image-wrapper">
                                 <img class="anime-poster" src="{anime['poster_url']}" alt="{anime['name']} poster">
                                 <div class="card-overlay">
@@ -411,29 +413,29 @@ def generate_html():
                             </div>
                             <div class="card-info">"""
 
-        if anime.get('english_title'):
-            html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
+            if anime.get('english_title'):
+                html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
 
-        # Use next airing date if available, otherwise use release date
-        next_airing = anime.get('next_airing_date')
-        next_episode_num = anime.get('next_episode_number', anime['episode'])
-        if next_airing:
-            release_date_display = f"Next: {next_airing}"
-            episode_display = f"Episode {next_episode_num}"
-        else:
-            release_date_display = anime.get('release_date', 'Ongoing')
-            episode_display = f"Episode {anime['episode']}"
+            # Use next airing date if available, otherwise use release date
+            next_airing = anime.get('next_airing_date')
+            next_episode_num = anime.get('next_episode_number', anime['episode'])
+            if next_airing:
+                release_date_display = f"Next: {next_airing}"
+                episode_display = f"Episode {next_episode_num}"
+            else:
+                release_date_display = anime.get('release_date', 'Ongoing')
+                episode_display = f"Episode {anime['episode']}"
 
-        # Check if 9anime link exists for Other Anime section
-        nine_anime_url = find_9anime_link(anime['name'], anime.get('english_title'), nine_anime_links)
-        nine_anime_button = ''
-        if nine_anime_url:
-            nine_anime_button = f"""
+            # Check if 9anime link exists for Other Anime section
+            nine_anime_url = find_9anime_link(anime['name'], anime.get('english_title'), nine_anime_links)
+            nine_anime_button = ''
+            if nine_anime_url:
+                nine_anime_button = f"""
                                     <a href="{nine_anime_url}" target="_blank" class="nine-anime-btn">
                                         9anime
                                     </a>"""
 
-        html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
+            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
                                 <div class="episode-info">
                                     <span class="episode-badge">{episode_display}</span>
                                     <a href="{custom_link}" target="_blank" class="main-link-btn">
@@ -443,9 +445,8 @@ def generate_html():
                                 </div>
                             </div>
                         </div>"""
+        html_content += '                        </div>'  # close day group
     
-    if current_group_date is not None:
-        html_content += '                        </div>'  # close last day group
     html_content += """                    </div>
                 </div>"""
 
