@@ -245,7 +245,7 @@
     "name": "Enen no Shouboutai: San no Shou Part 2",
     "english_title": "Fire Force Season 3 Part 2",
     "episode": 13,
-    "release_date": null,
+    "release_date": "2026-04-04",
     "next_airing_date": "2026-04-03",
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179062-pbzYE1miZq61.png",
@@ -303,7 +303,7 @@
     "release_date": "2026-04-06",
     "next_airing_date": "2026-04-06",
     "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx147105-QrKDkM4yqp7f.jpg",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx147105-rwOX8qyUy8gV.jpg",
     "site_url": "https://anilist.co/anime/147105",
     "start_date": "2026-04-06",
     "end_date": null,
@@ -318,31 +318,6 @@
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 10
-  },
-  {
-    "id": 190327,
-    "mal_id": 61469,
-    "name": "JoJo no Kimyou na Bouken: Steel Ball Run",
-    "english_title": "STEEL BALL RUN JoJo's Bizarre Adventure",
-    "episode": 1,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx190327-riJNCFL7w9y4.jpg",
-    "site_url": "https://anilist.co/anime/190327",
-    "start_date": "2026-03-19",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/82116553",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      }
-    ],
-    "popularity": 57495,
-    "anilist_score": 91,
-    "recently_finished": false,
-    "popularity_rank": 11
   },
   {
     "id": 189046,
@@ -367,7 +342,7 @@
     "popularity": 54408,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 12
+    "popularity_rank": 11
   },
   {
     "id": 180745,
@@ -397,7 +372,7 @@
     "popularity": 49712,
     "anilist_score": 79,
     "recently_finished": false,
-    "popularity_rank": 13
+    "popularity_rank": 12
   },
   {
     "id": 182205,
@@ -417,12 +392,17 @@
         "site": "Crunchyroll",
         "url": "https://www.crunchyroll.com/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
     "popularity": 48094,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 14
+    "popularity_rank": 13
   },
   {
     "id": 162669,
@@ -452,7 +432,7 @@
     "popularity": 46683,
     "anilist_score": 75,
     "recently_finished": true,
-    "popularity_rank": 15
+    "popularity_rank": 14
   },
   {
     "id": 182300,
@@ -477,7 +457,7 @@
     "popularity": 37991,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 16
+    "popularity_rank": 15
   },
   {
     "id": 170019,
@@ -488,21 +468,26 @@
     "release_date": "2026-04-03",
     "next_airing_date": "2026-04-03",
     "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170019-bAzV59Mh9piA.jpg",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170019-djbN0b934MhE.jpg",
     "site_url": "https://anilist.co/anime/170019",
     "start_date": "2026-04-03",
     "end_date": null,
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/",
+        "url": "https://www.crunchyroll.com/series/G9VHN91DJ/the-angel-next-door-spoils-me-rotten",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
     "popularity": 37686,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 17
+    "popularity_rank": 16
   },
   {
     "id": 176276,
@@ -532,7 +517,7 @@
     "popularity": 36225,
     "anilist_score": 73,
     "recently_finished": true,
-    "popularity_rank": 18
+    "popularity_rank": 17
   },
   {
     "id": 177385,
@@ -557,7 +542,7 @@
     "popularity": 35271,
     "anilist_score": 87,
     "recently_finished": true,
-    "popularity_rank": 19
+    "popularity_rank": 18
   },
   {
     "id": 178005,
@@ -587,7 +572,7 @@
     "popularity": 33008,
     "anilist_score": 79,
     "recently_finished": true,
-    "popularity_rank": 20
+    "popularity_rank": 19
   },
   {
     "id": 195515,
@@ -617,7 +602,7 @@
     "popularity": 32853,
     "anilist_score": 62,
     "recently_finished": true,
-    "popularity_rank": 21
+    "popularity_rank": 20
   },
   {
     "id": 199221,
@@ -637,12 +622,17 @@
         "site": "Crunchyroll",
         "url": "https://www.crunchyroll.com/series/GYEXQKJG6/dr-stone",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj4AHW3_HqDp39-puRHVfNA",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
     "popularity": 32682,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 22
+    "popularity_rank": 21
   },
   {
     "id": 180082,
@@ -672,7 +662,7 @@
     "popularity": 32136,
     "anilist_score": 71,
     "recently_finished": true,
-    "popularity_rank": 23
+    "popularity_rank": 22
   },
   {
     "id": 187942,
@@ -697,7 +687,7 @@
     "popularity": 31637,
     "anilist_score": 71,
     "recently_finished": true,
-    "popularity_rank": 24
+    "popularity_rank": 23
   },
   {
     "id": 195322,
@@ -727,7 +717,7 @@
     "popularity": 30489,
     "anilist_score": 73,
     "recently_finished": true,
-    "popularity_rank": 25
+    "popularity_rank": 24
   },
   {
     "id": 185993,
@@ -752,7 +742,7 @@
     "popularity": 29042,
     "anilist_score": 66,
     "recently_finished": true,
-    "popularity_rank": 26
+    "popularity_rank": 25
   },
   {
     "id": 195600,
@@ -777,7 +767,7 @@
     "popularity": 28125,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 27
+    "popularity_rank": 26
   },
   {
     "id": 163144,
@@ -807,7 +797,7 @@
     "popularity": 27401,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 28
+    "popularity_rank": 27
   },
   {
     "id": 192507,
@@ -832,7 +822,7 @@
     "popularity": 27393,
     "anilist_score": 73,
     "recently_finished": true,
-    "popularity_rank": 29
+    "popularity_rank": 28
   },
   {
     "id": 185262,
@@ -857,7 +847,7 @@
     "popularity": 26863,
     "anilist_score": 71,
     "recently_finished": true,
-    "popularity_rank": 30
+    "popularity_rank": 29
   },
   {
     "id": 186333,
@@ -882,7 +872,7 @@
     "popularity": 26213,
     "anilist_score": 65,
     "recently_finished": true,
-    "popularity_rank": 31
+    "popularity_rank": 30
   },
   {
     "id": 191205,
@@ -912,7 +902,7 @@
     "popularity": 25482,
     "anilist_score": 68,
     "recently_finished": true,
-    "popularity_rank": 32
+    "popularity_rank": 31
   },
   {
     "id": 173172,
@@ -942,7 +932,7 @@
     "popularity": 21805,
     "anilist_score": 77,
     "recently_finished": false,
-    "popularity_rank": 33
+    "popularity_rank": 32
   },
   {
     "id": 187464,
@@ -967,7 +957,7 @@
     "popularity": 20942,
     "anilist_score": 75,
     "recently_finished": true,
-    "popularity_rank": 34
+    "popularity_rank": 33
   },
   {
     "id": 177679,
@@ -992,7 +982,7 @@
     "popularity": 20517,
     "anilist_score": 68,
     "recently_finished": true,
-    "popularity_rank": 35
+    "popularity_rank": 34
   },
   {
     "id": 194317,
@@ -1003,7 +993,7 @@
     "release_date": "2026-04-01",
     "next_airing_date": "2026-04-08",
     "next_episode_number": 2,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194317-FxQ1HysOYsLF.jpg",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194317-M7t2ymBDHqyW.jpg",
     "site_url": "https://anilist.co/anime/194317",
     "start_date": "2026-04-01",
     "end_date": null,
@@ -1017,7 +1007,7 @@
     "popularity": 20023,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 36
+    "popularity_rank": 35
   },
   {
     "id": 191718,
@@ -1042,7 +1032,7 @@
     "popularity": 19520,
     "anilist_score": 61,
     "recently_finished": true,
-    "popularity_rank": 37
+    "popularity_rank": 36
   },
   {
     "id": 185039,
@@ -1067,7 +1057,7 @@
     "popularity": 19160,
     "anilist_score": 75,
     "recently_finished": true,
-    "popularity_rank": 38
+    "popularity_rank": 37
   },
   {
     "id": 187901,
@@ -1097,7 +1087,7 @@
     "popularity": 18509,
     "anilist_score": 64,
     "recently_finished": true,
-    "popularity_rank": 39
+    "popularity_rank": 38
   },
   {
     "id": 183270,
@@ -1122,7 +1112,7 @@
     "popularity": 18350,
     "anilist_score": 68,
     "recently_finished": true,
-    "popularity_rank": 40
+    "popularity_rank": 39
   },
   {
     "id": 171110,
@@ -1147,7 +1137,7 @@
     "popularity": 17683,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 41
+    "popularity_rank": 40
   },
   {
     "id": 184492,
@@ -1177,7 +1167,7 @@
     "popularity": 17525,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 42
+    "popularity_rank": 41
   },
   {
     "id": 189565,
@@ -1202,7 +1192,7 @@
     "popularity": 17406,
     "anilist_score": 62,
     "recently_finished": true,
-    "popularity_rank": 43
+    "popularity_rank": 42
   },
   {
     "id": 166521,
@@ -1227,7 +1217,7 @@
     "popularity": 17276,
     "anilist_score": 82,
     "recently_finished": true,
-    "popularity_rank": 44
+    "popularity_rank": 43
   },
   {
     "id": 183661,
@@ -1252,7 +1242,7 @@
     "popularity": 17206,
     "anilist_score": 68,
     "recently_finished": true,
-    "popularity_rank": 45
+    "popularity_rank": 44
   },
   {
     "id": 194028,
@@ -1277,7 +1267,7 @@
     "popularity": 17171,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 46
+    "popularity_rank": 45
   },
   {
     "id": 187941,
@@ -1302,7 +1292,7 @@
     "popularity": 16715,
     "anilist_score": 63,
     "recently_finished": true,
-    "popularity_rank": 47
+    "popularity_rank": 46
   },
   {
     "id": 199547,
@@ -1327,7 +1317,7 @@
     "popularity": 16438,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 48
+    "popularity_rank": 47
   },
   {
     "id": 195518,
@@ -1352,7 +1342,7 @@
     "popularity": 16402,
     "anilist_score": 58,
     "recently_finished": true,
-    "popularity_rank": 49
+    "popularity_rank": 48
   },
   {
     "id": 183660,
@@ -1382,7 +1372,7 @@
     "popularity": 16013,
     "anilist_score": 71,
     "recently_finished": true,
-    "popularity_rank": 50
+    "popularity_rank": 49
   },
   {
     "id": 169580,
@@ -1407,7 +1397,7 @@
     "popularity": 16000,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 51
+    "popularity_rank": 50
   },
   {
     "id": 197754,
@@ -1432,7 +1422,7 @@
     "popularity": 15733,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 52
+    "popularity_rank": 51
   },
   {
     "id": 197824,
@@ -1443,21 +1433,21 @@
     "release_date": "2026-04-06",
     "next_airing_date": "2026-04-06",
     "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197824-Fclt06L5Ht2r.jpg",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197824-k9Uyef8g49hB.png",
     "site_url": "https://anilist.co/anime/197824",
     "start_date": "2026-04-06",
     "end_date": null,
     "streaming_links": [
       {
         "site": "HIDIVE",
-        "url": "https://www.hidive.com/tv/farming-life-in-another-world",
+        "url": "https://www.hidive.com/season/35229",
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
     "popularity": 15448,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 53
+    "popularity_rank": 52
   },
   {
     "id": 189275,
@@ -1487,7 +1477,7 @@
     "popularity": 15219,
     "anilist_score": 83,
     "recently_finished": true,
-    "popularity_rank": 54
+    "popularity_rank": 53
   },
   {
     "id": 190143,
@@ -1512,7 +1502,7 @@
     "popularity": 15144,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 55
+    "popularity_rank": 54
   },
   {
     "id": 192261,
@@ -1537,7 +1527,7 @@
     "popularity": 15044,
     "anilist_score": 62,
     "recently_finished": true,
-    "popularity_rank": 56
+    "popularity_rank": 55
   },
   {
     "id": 182483,
@@ -1562,32 +1552,7 @@
     "popularity": 14419,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 57
-  },
-  {
-    "id": 185514,
-    "mal_id": 60509,
-    "name": "Champignon no Majo",
-    "english_title": "Champignon Witch",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185514-mfJqhtz22l1Z.jpg",
-    "site_url": "https://anilist.co/anime/185514",
-    "start_date": "2026-01-09",
-    "end_date": "2026-03-20",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://crunchyroll.com/series/GT00365553/champignon-witch",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 14351,
-    "anilist_score": 66,
-    "recently_finished": true,
-    "popularity_rank": 58
+    "popularity_rank": 56
   },
   {
     "id": 196935,
@@ -1617,7 +1582,7 @@
     "popularity": 14101,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 59
+    "popularity_rank": 57
   },
   {
     "id": 194393,
@@ -1642,7 +1607,7 @@
     "popularity": 13835,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 60
+    "popularity_rank": 58
   },
   {
     "id": 202102,
@@ -1667,7 +1632,7 @@
     "popularity": 13821,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 61
+    "popularity_rank": 59
   },
   {
     "id": 190704,
@@ -1692,7 +1657,7 @@
     "popularity": 12652,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 62
+    "popularity_rank": 60
   },
   {
     "id": 179813,
@@ -1732,7 +1697,7 @@
     "popularity": 12619,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 63
+    "popularity_rank": 61
   },
   {
     "id": 181443,
@@ -1757,7 +1722,7 @@
     "popularity": 12424,
     "anilist_score": 62,
     "recently_finished": true,
-    "popularity_rank": 64
+    "popularity_rank": 62
   },
   {
     "id": 179950,
@@ -1777,12 +1742,17 @@
         "site": "HIDIVE",
         "url": "https://www.hidive.com/season/35228",
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JgAgNZonRZtMMkb823NExcD",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
     "popularity": 12363,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 65
+    "popularity_rank": 63
   },
   {
     "id": 180228,
@@ -1812,7 +1782,7 @@
     "popularity": 12326,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 66
+    "popularity_rank": 64
   },
   {
     "id": 199588,
@@ -1842,7 +1812,7 @@
     "popularity": 12253,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 67
+    "popularity_rank": 65
   },
   {
     "id": 187989,
@@ -1882,7 +1852,7 @@
     "popularity": 11822,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 68
+    "popularity_rank": 66
   },
   {
     "id": 182771,
@@ -1907,7 +1877,7 @@
     "popularity": 11734,
     "anilist_score": 66,
     "recently_finished": true,
-    "popularity_rank": 69
+    "popularity_rank": 67
   },
   {
     "id": 186497,
@@ -1932,7 +1902,7 @@
     "popularity": 10970,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 70
+    "popularity_rank": 68
   },
   {
     "id": 198374,
@@ -1957,7 +1927,7 @@
     "popularity": 10912,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 71
+    "popularity_rank": 69
   },
   {
     "id": 182578,
@@ -1976,7 +1946,7 @@
     "popularity": 10900,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 72
+    "popularity_rank": 70
   },
   {
     "id": 176370,
@@ -2006,7 +1976,7 @@
     "popularity": 10728,
     "anilist_score": 76,
     "recently_finished": true,
-    "popularity_rank": 73
+    "popularity_rank": 71
   },
   {
     "id": 185753,
@@ -2041,7 +2011,7 @@
     "popularity": 10513,
     "anilist_score": 76,
     "recently_finished": true,
-    "popularity_rank": 74
+    "popularity_rank": 72
   },
   {
     "id": 200769,
@@ -2066,7 +2036,7 @@
     "popularity": 9272,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 75
+    "popularity_rank": 73
   },
   {
     "id": 199029,
@@ -2091,7 +2061,7 @@
     "popularity": 9085,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 76
+    "popularity_rank": 74
   },
   {
     "id": 183984,
@@ -2116,7 +2086,7 @@
     "popularity": 8900,
     "anilist_score": 59,
     "recently_finished": true,
-    "popularity_rank": 77
+    "popularity_rank": 75
   },
   {
     "id": 197731,
@@ -2146,7 +2116,7 @@
     "popularity": 8379,
     "anilist_score": 61,
     "recently_finished": true,
-    "popularity_rank": 78
+    "popularity_rank": 76
   },
   {
     "id": 195268,
@@ -2164,14 +2134,14 @@
     "streaming_links": [
       {
         "site": "HIDIVE",
-        "url": "https://www.hidive.com/tv/the-most-heretical-last-boss-queen-from-villainess-to-savior",
+        "url": "https://www.hidive.com/season/35231",
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
     "popularity": 8307,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 79
+    "popularity_rank": 77
   },
   {
     "id": 187869,
@@ -2196,7 +2166,7 @@
     "popularity": 8158,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 80
+    "popularity_rank": 78
   },
   {
     "id": 185211,
@@ -2214,14 +2184,14 @@
     "streaming_links": [
       {
         "site": "HIDIVE",
-        "url": "https://www.hidive.com/tv/",
+        "url": "https://www.hidive.com/season/35232",
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
     "popularity": 7225,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 81
+    "popularity_rank": 79
   },
   {
     "id": 189987,
@@ -2246,7 +2216,7 @@
     "popularity": 6661,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 82
+    "popularity_rank": 80
   },
   {
     "id": 196012,
@@ -2265,7 +2235,7 @@
     "popularity": 6516,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 83
+    "popularity_rank": 81
   },
   {
     "id": 192808,
@@ -2290,7 +2260,7 @@
     "popularity": 6437,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 84
+    "popularity_rank": 82
   },
   {
     "id": 177501,
@@ -2315,7 +2285,7 @@
     "popularity": 6148,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 85
+    "popularity_rank": 83
   },
   {
     "id": 196974,
@@ -2334,7 +2304,7 @@
     "popularity": 5928,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 86
+    "popularity_rank": 84
   },
   {
     "id": 198939,
@@ -2359,7 +2329,7 @@
     "popularity": 5733,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 87
+    "popularity_rank": 85
   },
   {
     "id": 137662,
@@ -2389,7 +2359,7 @@
     "popularity": 5691,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 88
+    "popularity_rank": 86
   },
   {
     "id": 201817,
@@ -2407,7 +2377,7 @@
     "streaming_links": [
       {
         "site": "YouTube",
-        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3n62kkjOOBxuuhfXiDUu4g",
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       },
       {
@@ -2419,7 +2389,32 @@
     "popularity": 5636,
     "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 89
+    "popularity_rank": 87
+  },
+  {
+    "id": 195333,
+    "mal_id": 61943,
+    "name": "Haibara-kun no Tsuyokute Seishun New Game",
+    "english_title": "Haibara's Teenage New Game+",
+    "episode": 1,
+    "release_date": "2026-04-02",
+    "next_airing_date": "2026-04-09",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195333-KUIF1eqOdVdd.png",
+    "site_url": "https://anilist.co/anime/195333",
+    "start_date": "2026-04-03",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371668/haibaras-teenage-new-game",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 5172,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 88
   },
   {
     "id": 197868,
@@ -2444,7 +2439,7 @@
     "popularity": 5137,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 90
+    "popularity_rank": 89
   },
   {
     "id": 189137,
@@ -2474,7 +2469,7 @@
     "popularity": 4987,
     "anilist_score": 61,
     "recently_finished": true,
-    "popularity_rank": 91
+    "popularity_rank": 90
   },
   {
     "id": 186744,
@@ -2499,7 +2494,7 @@
     "popularity": 4959,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 92
+    "popularity_rank": 91
   },
   {
     "id": 206914,
@@ -2524,7 +2519,7 @@
     "popularity": 4812,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 93
+    "popularity_rank": 92
   },
   {
     "id": 178052,
@@ -2554,7 +2549,7 @@
     "popularity": 4765,
     "anilist_score": 65,
     "recently_finished": true,
-    "popularity_rank": 94
+    "popularity_rank": 93
   },
   {
     "id": 202381,
@@ -2579,7 +2574,7 @@
     "popularity": 4757,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 95
+    "popularity_rank": 94
   },
   {
     "id": 177634,
@@ -2598,7 +2593,7 @@
     "popularity": 4617,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 96
+    "popularity_rank": 95
   },
   {
     "id": 198113,
@@ -2617,7 +2612,7 @@
     "popularity": 4454,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 97
+    "popularity_rank": 96
   },
   {
     "id": 196553,
@@ -2647,7 +2642,7 @@
     "popularity": 4334,
     "anilist_score": 58,
     "recently_finished": true,
-    "popularity_rank": 98
+    "popularity_rank": 97
   },
   {
     "id": 187062,
@@ -2677,13 +2672,13 @@
     "popularity": 3917,
     "anilist_score": 42,
     "recently_finished": false,
-    "popularity_rank": 99
+    "popularity_rank": 98
   },
   {
     "id": 181284,
     "mal_id": 59835,
     "name": "Kirio Fanclub",
-    "english_title": null,
+    "english_title": "Kirio Fan Club",
     "episode": 1,
     "release_date": "2026-04-02",
     "next_airing_date": "2026-04-09",
@@ -2697,12 +2692,17 @@
         "site": "HIDIVE",
         "url": "https://www.hidive.com/season/35227",
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JgMGXyhUEr1I_5ryXN436vi",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
     "popularity": 3653,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 100
+    "popularity_rank": 99
   },
   {
     "id": 195734,
@@ -2721,7 +2721,7 @@
     "popularity": 3650,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 101
+    "popularity_rank": 100
   },
   {
     "id": 158036,
@@ -2746,7 +2746,7 @@
     "popularity": 3525,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 102
+    "popularity_rank": 101
   },
   {
     "id": 169228,
@@ -2771,7 +2771,7 @@
     "popularity": 3507,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 103
+    "popularity_rank": 102
   },
   {
     "id": 194318,
@@ -2796,7 +2796,7 @@
     "popularity": 3392,
     "anilist_score": 56,
     "recently_finished": true,
-    "popularity_rank": 104
+    "popularity_rank": 103
   },
   {
     "id": 196144,
@@ -2821,7 +2821,7 @@
     "popularity": 3370,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 105
+    "popularity_rank": 104
   },
   {
     "id": 191967,
@@ -2846,7 +2846,7 @@
     "popularity": 3088,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 106
+    "popularity_rank": 105
   },
   {
     "id": 208352,
@@ -2871,6 +2871,6 @@
     "popularity": 2819,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 107
+    "popularity_rank": 106
   }
 ]
