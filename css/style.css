@@ -340,8 +340,43 @@ main {
 }
 
 .other-grid {
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    grid-template-columns: 1fr;
     justify-content: center;
+}
+
+/* Day groups: full-width rows inside other-grid, alternating subtle backgrounds */
+.day-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-md, 1rem);
+    padding: 0.6rem 0.75rem;
+    border-radius: 12px;
+    position: relative;
+}
+
+.day-group::before {
+    content: attr(data-date);
+    position: absolute;
+    top: -0.6rem;
+    left: 0.75rem;
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    background: var(--bg-primary);
+    padding: 0 0.4rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.7;
+}
+
+.day-group-0 {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.day-group-1 {
+    background: rgba(99, 102, 241, 0.06);
+    border: 1px solid rgba(99, 102, 241, 0.1);
 }
 
 .upcoming-grid {
@@ -799,12 +834,9 @@ main {
     background: rgba(0, 0, 0, 0.6);
 }
 
-.streaming-links-overlay .streaming-link::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
+/* Tooltip now handled by JS body-level element to escape overflow:hidden containers */
+#streaming-tooltip {
+    position: fixed;
     background: rgba(0, 0, 0, 0.95);
     color: white;
     padding: 0.35rem 0.6rem;
@@ -812,15 +844,10 @@ main {
     font-size: 0.75rem;
     font-weight: 500;
     white-space: nowrap;
-    opacity: 0;
     pointer-events: none;
-    transition: opacity var(--transition-fast);
-    margin-bottom: 0.35rem;
-    z-index: 1000;
-}
-
-.streaming-links-overlay .streaming-link:hover::after {
-    opacity: 1;
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.15s;
 }
 
 .streaming-links-overlay .streaming-link img {
@@ -1847,44 +1874,4 @@ main {
         width: 95%;
         max-height: 95vh;
     }
-}
-
-/* All Anime nav link - style anchor tags as nav tabs */
-a.nav-tab {
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-}
-
-a.nav-tab:hover {
-    color: var(--text-primary);
-    transform: translateY(-2px);
-}
-
-/* All Anime page tooltip support (reuse existing data-tooltip pattern) */
-[data-tooltip]:not(.popularity-rank-badge) {
-    position: relative;
-}
-
-[data-tooltip]::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    bottom: calc(100% + 6px);
-    left: 50%;
-    transform: translateX(-50%);
-    background: var(--bg-card);
-    color: var(--text-primary);
-    padding: 0.3rem 0.6rem;
-    border-radius: 6px;
-    font-size: 0.75rem;
-    white-space: nowrap;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity var(--transition-fast);
-    border: 1px solid var(--border-color);
-    z-index: 200;
-}
-
-[data-tooltip]:hover::after {
-    opacity: 1;
 }

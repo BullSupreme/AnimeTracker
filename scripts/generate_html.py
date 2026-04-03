@@ -64,9 +64,10 @@ def find_9anime_link(anime_name, english_title, nine_anime_links):
                 if intersection / union >= 0.6:
                     return link_url
 
-    # Fallback: Create a 9anime search URL from the English title
-    if english_title:
-        return create_9anime_search_url(english_title)
+    # Fallback: Create a 9anime search URL — prefer English title, fall back to Japanese
+    search_title = english_title or anime_name
+    if search_title:
+        return create_9anime_search_url(search_title)
 
     return ""
 
@@ -134,7 +135,16 @@ def generate_html():
     if not anime_data:
         print("No anime data found")
         return
-    
+
+    # Build a map of anime_id -> 9anime URL for use in JS modal
+    nine_anime_by_id = {}
+    for anime in anime_data + other_anime_sorted + recently_finished_anime:
+        aid = anime.get('id')
+        if aid:
+            url = find_9anime_link(anime.get('name', ''), anime.get('english_title', ''), nine_anime_links)
+            if url:
+                nine_anime_by_id[str(aid)] = url
+
     today_date = metadata.get('today_date', datetime.now().strftime('%Y-%m-%d'))
     tomorrow_date = metadata.get('tomorrow_date', (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d'))
     last_updated = metadata.get('last_updated', datetime.now().isoformat())
@@ -161,7 +171,6 @@ def generate_html():
         <nav class="nav-tabs">
             <button class="nav-tab active" data-tab="list">📋 List View</button>
             <button class="nav-tab" data-tab="calendar">📅 Calendar</button>
-            <a href="all-anime.html" class="nav-tab">🎬 All Anime</a>
         </nav>
         <main>
             <!-- List View Section -->
@@ -354,7 +363,9 @@ def generate_html():
                     <div class="anime-grid other-grid">
 """
     
-    # Add other anime (sorted)
+    # Add other anime (sorted), grouped by release date for visual banding
+    current_group_date = None
+    group_index = 0
     for anime in other_anime_sorted:
         custom_link = custom_links.get(anime['name'], anime['site_url'])
         link_domain = custom_link.split('//')[1].split('/')[0] if '//' in custom_link else 'anilist.co'
@@ -371,6 +382,16 @@ def generate_html():
 
         # Add special class if 4+ streaming links
         many_links_class = " many-streaming-links" if streaming_link_count >= 4 else ""
+
+        # Day grouping: wrap cards with the same next-airing date in a group div
+        card_date = anime.get('next_airing_date') or anime.get('release_date') or ''
+        if card_date != current_group_date:
+            if current_group_date is not None:
+                html_content += '                        </div>'  # close previous group
+            current_group_date = card_date
+            group_index += 1
+            group_label = card_date if card_date else ''
+            html_content += f'                        <div class="day-group day-group-{group_index % 2}" data-date="{group_label}">'
 
         html_content += f"""                        <div class="anime-card{many_links_class}" data-name="{anime['name']}" data-link="{custom_link}" data-anime-id="{anime['id']}" data-release="{anime.get('release_date', '')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
                             <div class="card-image-wrapper">
@@ -423,9 +444,11 @@ def generate_html():
                             </div>
                         </div>"""
     
+    if current_group_date is not None:
+        html_content += '                        </div>'  # close last day group
     html_content += """                    </div>
                 </div>"""
-    
+
     # Add recently finished anime section if we have data
     if recently_finished_anime:
         html_content += """                <div class="time-section recently-finished-section">
@@ -633,6 +656,9 @@ def generate_html():
         <script>
             window.animeData = """ + json.dumps(anime_data) + """;
             window.upcomingAnime = """ + json.dumps(upcoming_anime) + """;
+            window.otherAnime = """ + json.dumps(other_anime_sorted) + """;
+            window.recentlyFinished = """ + json.dumps(recently_finished_anime) + """;
+            window.nineAnimeUrls = """ + json.dumps(nine_anime_by_id) + """;
             window.customLinks = """ + json.dumps(custom_links) + """;
             window.todayDate = \"""" + today_date + """\";
             window.tomorrowDate = \"""" + tomorrow_date + """\";

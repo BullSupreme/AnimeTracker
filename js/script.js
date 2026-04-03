@@ -329,14 +329,20 @@ document.addEventListener('DOMContentLoaded', () => {
         // Group anime by date
         const animeByDate = {};
         
-        // Combine current and upcoming anime for calendar view
+        // Combine all anime sources for calendar view (current, upcoming, other season, recently finished)
         const allAnime = [];
-        if (window.animeData && Array.isArray(window.animeData)) {
-            allAnime.push(...window.animeData);
-        }
-        if (window.upcomingAnime && Array.isArray(window.upcomingAnime)) {
-            allAnime.push(...window.upcomingAnime);
-        }
+        const seenCalendarIds = new Set();
+        const addUnique = (list) => {
+            if (!Array.isArray(list)) return;
+            list.forEach(a => {
+                const key = a.id || a.name;
+                if (!seenCalendarIds.has(key)) { seenCalendarIds.add(key); allAnime.push(a); }
+            });
+        };
+        addUnique(window.animeData);
+        addUnique(window.upcomingAnime);
+        addUnique(window.otherAnime);
+        addUnique(window.recentlyFinished);
         
         allAnime.forEach(anime => {
             if (favoritesOnly && !favorites.includes(anime.id.toString())) {
@@ -609,9 +615,10 @@ document.addEventListener('DOMContentLoaded', () => {
     function showAnimeModal(anime) {
         const customLink = window.customLinks[anime.name] || anime.site_url;
         const isFavorite = favorites.includes(anime.id.toString());
-        
+        const nineAnimeUrl = window.nineAnimeUrls && window.nineAnimeUrls[anime.id.toString()];
+
         const linkDomain = new URL(customLink).hostname;
-        
+
         modalBody.innerHTML = `
             <div class="modal-anime-content">
                 <div class="modal-poster-section">
@@ -634,9 +641,10 @@ document.addEventListener('DOMContentLoaded', () => {
                             <button class="modal-main-link" onclick="window.open('${customLink}', '_blank')">
                                 ${linkDomain}
                             </button>
+                            ${nineAnimeUrl ? `<a href="${nineAnimeUrl}" target="_blank" class="nine-anime-btn modal-nine-anime-btn">9anime</a>` : ''}
                         </div>
                         <div class="modal-streaming-links">
-                            ${anime.streaming_links.map(link => `
+                            ${(anime.streaming_links || []).map(link => `
                                 <a href="${link.url}" target="_blank" class="modal-streaming-link">
                                     <img src="${link.icon}" alt="${link.site}">
                                     <span>${link.site}</span>
@@ -868,6 +876,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.addEventListener('scroll', hideContextMenu);
     document.addEventListener('resize', hideContextMenu);
+
+    // Body-level streaming link tooltip (escapes overflow:hidden card containers)
+    const streamingTooltip = document.createElement('div');
+    streamingTooltip.id = 'streaming-tooltip';
+    document.body.appendChild(streamingTooltip);
+
+    document.addEventListener('mouseover', (e) => {
+        const link = e.target.closest('.streaming-links-overlay .streaming-link');
+        if (link && link.dataset.tooltip) {
+            streamingTooltip.textContent = link.dataset.tooltip;
+            streamingTooltip.style.opacity = '1';
+        }
+    });
+    document.addEventListener('mouseout', (e) => {
+        if (e.target.closest('.streaming-links-overlay .streaming-link')) {
+            streamingTooltip.style.opacity = '0';
+        }
+    });
+    document.addEventListener('mousemove', (e) => {
+        if (streamingTooltip.style.opacity === '1') {
+            streamingTooltip.style.left = (e.clientX - streamingTooltip.offsetWidth / 2) + 'px';
+            streamingTooltip.style.top = (e.clientY - streamingTooltip.offsetHeight - 8) + 'px';
+        }
+    });
 
     editLinkItem.addEventListener('click', () => {
         if (currentCard) {
@@ -1333,52 +1365,54 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialize rank tooltips
     initRankTooltips();
-
     // Show More functionality for upcoming anime
-    function initShowMoreButtons() {
-        const showMoreBtn = document.getElementById('show-more-upcoming');
-
-        if (showMoreBtn) {
-            // Get all upcoming anime cards in the grid
-            const upcomingGrid = document.querySelector('.upcoming-grid');
-            if (!upcomingGrid) return;
-
-            const allUpcomingCards = upcomingGrid.querySelectorAll('.anime-card');
-            // Cards after the first 20 are the ones to show/hide
-            const extraCards = Array.from(allUpcomingCards).slice(20);
-
-            showMoreBtn.addEventListener('click', () => {
-                const showMoreText = showMoreBtn.querySelector('.show-more-text');
-                const showLessText = showMoreBtn.querySelector('.show-less-text');
-                const isExpanded = showMoreBtn.classList.contains('expanded');
-
-                if (isExpanded) {
-                    // Hide extra anime
-                    extraCards.forEach(anime => {
-                        anime.classList.add('hidden-upcoming');
-                    });
-                    showMoreText.style.display = 'inline';
-                    showLessText.style.display = 'none';
-                    showMoreBtn.classList.remove('expanded');
-                } else {
-                    // Show extra anime
-                    extraCards.forEach(anime => {
-                        anime.classList.remove('hidden-upcoming');
-                    });
-                    showMoreText.style.display = 'none';
-                    showLessText.style.display = 'inline';
-                    showMoreBtn.classList.add('expanded');
-                }
-
-                // Re-initialize calendar to include newly shown anime
-                if (document.getElementById('calendar-view').classList.contains('active')) {
-                    initializeCalendar();
-                }
-            });
-        }
+function initShowMoreButtons() {
+    const showMoreBtn = document.getElementById('show-more-upcoming');
+    
+    if (showMoreBtn) {
+        // Get all upcoming anime cards in the grid
+        const upcomingGrid = document.querySelector('.upcoming-grid');
+        if (!upcomingGrid) return;
+        
+        const allUpcomingCards = upcomingGrid.querySelectorAll('.anime-card');
+        // Cards after the first 20 are the ones to show/hide
+        const extraCards = Array.from(allUpcomingCards).slice(20);
+        
+        showMoreBtn.addEventListener('click', () => {
+            const showMoreText = showMoreBtn.querySelector('.show-more-text');
+            const showLessText = showMoreBtn.querySelector('.show-less-text');
+            const isExpanded = showMoreBtn.classList.contains('expanded');
+            
+            if (isExpanded) {
+                // Hide extra anime
+                extraCards.forEach(anime => {
+                    anime.classList.add('hidden-upcoming');
+                });
+                showMoreText.style.display = 'inline';
+                showLessText.style.display = 'none';
+                showMoreBtn.classList.remove('expanded');
+            } else {
+                // Show extra anime
+                extraCards.forEach(anime => {
+                    anime.classList.remove('hidden-upcoming');
+                });
+                showMoreText.style.display = 'none';
+                showLessText.style.display = 'inline';
+                showMoreBtn.classList.add('expanded');
+            }
+            
+            // Re-initialize calendar to include newly shown anime
+            if (document.getElementById('calendar-view').classList.contains('active')) {
+                initializeCalendar();
+            }
+        });
     }
+}
 
-    // Initialize show more buttons
+// Initialize show more buttons
+initShowMoreButtons();
+    
+// Initialize show more buttons
     initShowMoreButtons();
 
     // --- New Code for Copying Titles ---
