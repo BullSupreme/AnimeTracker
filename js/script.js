@@ -328,10 +328,9 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Group anime by date
         const animeByDate = {};
-        
+
         // Combine all anime sources for calendar view
         const seenCalendarIds = new Set();
-        const today = new Date();
         today.setHours(0, 0, 0, 0);
 
         const addToCalendar = (list, nextAiringOnly = false) => {
