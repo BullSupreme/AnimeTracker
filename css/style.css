@@ -344,21 +344,26 @@ main {
     justify-content: center;
 }
 
-/* Day groups: full-width rows inside other-grid, alternating subtle backgrounds */
+/* Day groups: full-width rows, cards keep their natural minmax(160px) size */
 .day-group {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--spacing-md, 1rem);
-    padding: 0.6rem 0.75rem;
+    gap: 1rem;
+    padding: 0.75rem;
     border-radius: 12px;
     position: relative;
+}
+
+.day-group > .anime-card {
+    width: 160px;
+    flex: 0 0 160px;
 }
 
 .day-group::before {
     content: attr(data-date);
     position: absolute;
-    top: -0.6rem;
-    left: 0.75rem;
+    top: -0.55rem;
+    left: 1rem;
     font-size: 0.65rem;
     font-weight: 600;
     color: var(--text-secondary);

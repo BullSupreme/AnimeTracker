@@ -329,42 +329,39 @@ document.addEventListener('DOMContentLoaded', () => {
         // Group anime by date
         const animeByDate = {};
         
-        // Combine all anime sources for calendar view (current, upcoming, other season, recently finished)
-        const allAnime = [];
+        // Combine all anime sources for calendar view
         const seenCalendarIds = new Set();
-        const addUnique = (list) => {
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+
+        const addToCalendar = (list, nextAiringOnly = false) => {
             if (!Array.isArray(list)) return;
-            list.forEach(a => {
-                const key = a.id || a.name;
-                if (!seenCalendarIds.has(key)) { seenCalendarIds.add(key); allAnime.push(a); }
+            list.forEach(anime => {
+                if (favoritesOnly && !favorites.includes(anime.id.toString())) return;
+                const key = anime.id || anime.name;
+                if (seenCalendarIds.has(key)) return;
+                seenCalendarIds.add(key);
+
+                const dates = [];
+                // For otherAnime: only use next_airing_date (release_date is past episode, would clutter old months)
+                if (!nextAiringOnly && anime.release_date && anime.release_date !== 'TBD') {
+                    dates.push(anime.release_date);
+                }
+                if (anime.next_airing_date && anime.next_airing_date !== anime.release_date) {
+                    dates.push(anime.next_airing_date);
+                }
+
+                dates.forEach(date => {
+                    if (!animeByDate[date]) animeByDate[date] = [];
+                    animeByDate[date].push(anime);
+                });
             });
         };
-        addUnique(window.animeData);
-        addUnique(window.upcomingAnime);
-        addUnique(window.otherAnime);
-        addUnique(window.recentlyFinished);
-        
-        allAnime.forEach(anime => {
-            if (favoritesOnly && !favorites.includes(anime.id.toString())) {
-                return;
-            }
-            
-            // Add anime to both release_date and next_airing_date if they're different
-            const dates = [];
-            if (anime.release_date && anime.release_date !== 'TBD') {
-                dates.push(anime.release_date);
-            }
-            if (anime.next_airing_date && anime.next_airing_date !== anime.release_date) {
-                dates.push(anime.next_airing_date);
-            }
-            
-            dates.forEach(date => {
-                if (!animeByDate[date]) {
-                    animeByDate[date] = [];
-                }
-                animeByDate[date].push(anime);
-            });
-        });
+
+        addToCalendar(window.animeData);
+        addToCalendar(window.upcomingAnime);
+        addToCalendar(window.otherAnime, true);   // next_airing_date only — skip old release_dates
+        addToCalendar(window.recentlyFinished);
         
         // Add empty cells for days before month starts
         for (let i = 0; i < firstDayOfWeek; i++) {
