@@ -19,7 +19,7 @@
       "Fantasy"
     ],
     "popularity": 58112,
-    "favourites": 939,
+    "favourites": 946,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 1
@@ -42,7 +42,7 @@
       "Fantasy"
     ],
     "popularity": 49138,
-    "favourites": 572,
+    "favourites": 575,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 2
@@ -66,7 +66,7 @@
       "Supernatural"
     ],
     "popularity": 32696,
-    "favourites": 643,
+    "favourites": 650,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 3
@@ -90,7 +90,7 @@
       "Romance"
     ],
     "popularity": 19279,
-    "favourites": 227,
+    "favourites": 226,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 4
@@ -113,7 +113,7 @@
       "Romance"
     ],
     "popularity": 17789,
-    "favourites": 115,
+    "favourites": 117,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 5
@@ -137,7 +137,7 @@
       "Slice of Life"
     ],
     "popularity": 15190,
-    "favourites": 174,
+    "favourites": 176,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 6
@@ -186,7 +186,7 @@
       "Fantasy"
     ],
     "popularity": 13829,
-    "favourites": 199,
+    "favourites": 201,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 8
@@ -210,7 +210,7 @@
       "Fantasy"
     ],
     "popularity": 12861,
-    "favourites": 121,
+    "favourites": 124,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 9
@@ -282,7 +282,7 @@
       "Fantasy"
     ],
     "popularity": 11625,
-    "favourites": 134,
+    "favourites": 135,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 12
@@ -306,7 +306,7 @@
       "Romance"
     ],
     "popularity": 11512,
-    "favourites": 170,
+    "favourites": 171,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 13
@@ -330,8 +330,8 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 10567,
-    "favourites": 72,
+    "popularity": 10881,
+    "favourites": 74,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 14
@@ -357,7 +357,7 @@
       "Supernatural"
     ],
     "popularity": 8713,
-    "favourites": 102,
+    "favourites": 103,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 15
@@ -402,7 +402,7 @@
       "Fantasy"
     ],
     "popularity": 7581,
-    "favourites": 126,
+    "favourites": 127,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 17
@@ -469,7 +469,7 @@
       "Romance"
     ],
     "popularity": 5124,
-    "favourites": 31,
+    "favourites": 32,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 20
@@ -491,33 +491,11 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 4999,
-    "favourites": 37,
+    "popularity": 5101,
+    "favourites": 38,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 21
-  },
-  {
-    "id": 206521,
-    "mal_id": 63347,
-    "name": "World Is Dancing",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-07-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206521-ecJuDgjth84C.png",
-    "site_url": "https://anilist.co/anime/206521",
-    "start_date": "2026-07-01",
-    "season": "Summer",
-    "season_year": 2026,
-    "studios": "CygamesPictures, Shouchiku",
-    "genres": [
-      "Drama"
-    ],
-    "popularity": 4434,
-    "favourites": 20,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 22
   },
   {
     "id": 209983,
@@ -537,8 +515,30 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 4422,
-    "favourites": 52,
+    "popularity": 4553,
+    "favourites": 56,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 22
+  },
+  {
+    "id": 206521,
+    "mal_id": 63347,
+    "name": "World Is Dancing",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-07-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206521-ecJuDgjth84C.png",
+    "site_url": "https://anilist.co/anime/206521",
+    "start_date": "2026-07-01",
+    "season": "Summer",
+    "season_year": 2026,
+    "studios": "CygamesPictures, Shouchiku",
+    "genres": [
+      "Drama"
+    ],
+    "popularity": 4480,
+    "favourites": 21,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 23
@@ -562,7 +562,7 @@
       "Fantasy"
     ],
     "popularity": 4027,
-    "favourites": 53,
+    "favourites": 54,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 24
@@ -587,7 +587,7 @@
       "Fantasy"
     ],
     "popularity": 3596,
-    "favourites": 57,
+    "favourites": 59,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 25
@@ -734,6 +734,30 @@
     "popularity_rank": 31
   },
   {
+    "id": 208044,
+    "mal_id": 63508,
+    "name": "Rakudai Kenja no Gakuin Musou: Nidome no Tensei, S-Rank Cheat Majutsushi Boukenroku",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-07-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx208044-jweYvjbGKnCo.png",
+    "site_url": "https://anilist.co/anime/208044",
+    "start_date": "2026-07-01",
+    "season": "Summer",
+    "season_year": 2026,
+    "studios": "EMT Squared",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "popularity": 2722,
+    "favourites": 44,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 32
+  },
+  {
     "id": 185875,
     "mal_id": 60637,
     "name": "Magical Girl Lyrical Nanoha EXCEEDS Gun Blaze Vengeance",
@@ -754,31 +778,7 @@
       "Mahou Shoujo"
     ],
     "popularity": 2716,
-    "favourites": 31,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 32
-  },
-  {
-    "id": 208044,
-    "mal_id": 63508,
-    "name": "Rakudai Kenja no Gakuin Musou: Nidome no Tensei, S-Rank Cheat Majutsushi Boukenroku",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-07-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx208044-jweYvjbGKnCo.png",
-    "site_url": "https://anilist.co/anime/208044",
-    "start_date": "2026-07-01",
-    "season": "Summer",
-    "season_year": 2026,
-    "studios": "EMT Squared",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "popularity": 2628,
-    "favourites": 37,
+    "favourites": 32,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 33
@@ -803,8 +803,8 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2257,
-    "favourites": 17,
+    "popularity": 2287,
+    "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 34
@@ -827,7 +827,7 @@
       "Fantasy"
     ],
     "popularity": 2076,
-    "favourites": 19,
+    "favourites": 20,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 35
@@ -903,7 +903,7 @@
       "Romance"
     ],
     "popularity": 1835,
-    "favourites": 15,
+    "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 38
@@ -1089,7 +1089,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 1214,
+    "popularity": 1231,
     "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
