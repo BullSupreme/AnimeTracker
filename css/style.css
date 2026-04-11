@@ -410,12 +410,13 @@ main {
 
 .today-card {
     border-color: var(--accent-primary);
-    background: linear-gradient(135deg, var(--bg-card), rgba(59, 130, 246, 0.1));
+    background: #1a1a1a;
     transform: scale(0.90);
     transform-origin: center;
 }
 
 .today-card:hover {
+    background: #000000;
     transform: translateY(-4px) scale(0.92);
 }
 
