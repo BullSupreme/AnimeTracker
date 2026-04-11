@@ -10,13 +10,15 @@
         <header>
             <div class="header-left">
                 <h1>Current Anime Tracker</h1>
-                <div class="anime-count">(79 anime)</div>
             </div>
             <nav class="nav-tabs">
-            <button class="nav-tab active" data-tab="list">📋 List View</button>
-            <button class="nav-tab" data-tab="calendar">📅 Calendar</button>
-            <button class="nav-tab" onclick="window.location.href='all-anime.html'">🎬 All Anime</button>
-        </nav>
+                <button class="nav-tab active" data-tab="list">📋 List View</button>
+                <button class="nav-tab" data-tab="calendar">📅 Calendar</button>
+                <button class="nav-tab" onclick="window.location.href='all-anime.html'">🎬 All Anime</button>
+            </nav>
+            <div class="header-right">
+                <div class="anime-count">(106 anime)</div>
+            </div>
         </header>
         <main>
             <!-- List View Section -->
@@ -38,9 +40,24 @@
                 </div>
                 <div class="time-section">
                     <h2 class="section-title">
-                        <span class="section-icon">🌟</span>
-                        Today's Releases
-                    <span class="date-label">2026-04-11</span>
+                        <div class="filter-controls">
+                            <button class="list-tab active" data-list-tab="all">All Anime</button>
+                            <button class="list-tab" data-list-tab="favorites">Favorites Only</button>
+                        </div>
+                        <div class="section-title-left">
+                            <span class="section-icon">🌟</span>
+                            Today's Releases
+                            <span class="date-label">2026-04-03</span>
+                        </div>
+                        <div class="layout-controls">
+                            <label for="layout-selector">Layout:</label>
+                            <select id="layout-selector" class="layout-selector">
+                                <option value="grid">Grid View</option>
+                                <option value="compact">Compact List</option>
+                                <option value="table">Table View</option>
+                                <option value="poster">Poster Wall</option>
+                            </select>
+                        </div>
                     </h2>
                     <div class="anime-grid today-grid">
                         <div class="anime-card today-card" data-name="Yomi no Tsugai" data-link="https://anilist.co/anime/195600" data-anime-id="195600" data-release="2026-04-11" data-site-url="https://anilist.co/anime/195600" data-poster="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195600-moI0UFArtOme.jpg">

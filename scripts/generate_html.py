@@ -167,38 +167,38 @@ def generate_html():
         <header>
             <div class="header-left">
                 <h1>Current Anime Tracker</h1>
-                <div class="anime-count">({len(anime_data)} anime)</div>
             </div>
             <nav class="nav-tabs">
                 <button class="nav-tab active" data-tab="list">📋 List View</button>
                 <button class="nav-tab" data-tab="calendar">📅 Calendar</button>
                 <button class="nav-tab" onclick="window.location.href='all-anime.html'">🎬 All Anime</button>
             </nav>
+            <div class="header-right">
+                <div class="anime-count">({len(anime_data)} anime)</div>
+            </div>
         </header>
         <main>
             <!-- List View Section -->
             <div id="list-view" class="tab-content active">
                 <div class="time-section">
                     <h2 class="section-title">
+                        <div class="filter-controls">
+                            <button class="list-tab active" data-list-tab="all">All Anime</button>
+                            <button class="list-tab" data-list-tab="favorites">Favorites Only</button>
+                        </div>
                         <div class="section-title-left">
                             <span class="section-icon">🌟</span>
                             Today's Releases
                             <span class="date-label">{today_date}</span>
                         </div>
-                        <div class="section-title-controls">
-                            <div class="filter-controls">
-                                <button class="list-tab active" data-list-tab="all">All Anime</button>
-                                <button class="list-tab" data-list-tab="favorites">Favorites Only</button>
-                            </div>
-                            <div class="layout-controls">
-                                <label for="layout-selector">Layout:</label>
-                                <select id="layout-selector" class="layout-selector">
-                                    <option value="grid">Grid View</option>
-                                    <option value="compact">Compact List</option>
-                                    <option value="table">Table View</option>
-                                    <option value="poster">Poster Wall</option>
-                                </select>
-                            </div>
+                        <div class="layout-controls">
+                            <label for="layout-selector">Layout:</label>
+                            <select id="layout-selector" class="layout-selector">
+                                <option value="grid">Grid View</option>
+                                <option value="compact">Compact List</option>
+                                <option value="table">Table View</option>
+                                <option value="poster">Poster Wall</option>
+                            </select>
                         </div>
                     </h2>
                     <div class="anime-grid today-grid">
