@@ -18,7 +18,7 @@
       "Ecchi",
       "Fantasy"
     ],
-    "popularity": 60197,
+    "popularity": 60463,
     "favourites": 983,
     "anilist_score": null,
     "streaming_links": [],
@@ -41,7 +41,7 @@
       "Action",
       "Fantasy"
     ],
-    "popularity": 50298,
+    "popularity": 50444,
     "favourites": 596,
     "anilist_score": null,
     "streaming_links": [],
@@ -65,7 +65,7 @@
       "Adventure",
       "Supernatural"
     ],
-    "popularity": 33719,
+    "popularity": 33856,
     "favourites": 675,
     "anilist_score": null,
     "streaming_links": [],
@@ -89,7 +89,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 19969,
+    "popularity": 20065,
     "favourites": 235,
     "anilist_score": null,
     "streaming_links": [],
@@ -112,7 +112,7 @@
       "Adventure",
       "Romance"
     ],
-    "popularity": 18333,
+    "popularity": 18406,
     "favourites": 121,
     "anilist_score": null,
     "streaming_links": [],
@@ -136,7 +136,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 16338,
+    "popularity": 16486,
     "favourites": 186,
     "anilist_score": null,
     "streaming_links": [],
@@ -160,7 +160,7 @@
       "Slice of Life",
       "Sports"
     ],
-    "popularity": 15537,
+    "popularity": 15635,
     "favourites": 169,
     "anilist_score": null,
     "streaming_links": [],
@@ -185,7 +185,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 14167,
+    "popularity": 14209,
     "favourites": 204,
     "anilist_score": null,
     "streaming_links": [],
@@ -209,7 +209,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 13340,
+    "popularity": 13416,
     "favourites": 126,
     "anilist_score": null,
     "streaming_links": [],
@@ -233,59 +233,11 @@
       "Psychological",
       "Sci-Fi"
     ],
-    "popularity": 12502,
+    "popularity": 12563,
     "favourites": 91,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 10
-  },
-  {
-    "id": 182616,
-    "mal_id": 60059,
-    "name": "Nige Jouzu no Wakagimi 2nd Season",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-07-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182616-ZOCgArw9cgqI.jpg",
-    "site_url": "https://anilist.co/anime/182616",
-    "start_date": "2026-07-01",
-    "season": "Summer",
-    "season_year": 2026,
-    "studios": "Aniplex, CloverWorks",
-    "genres": [
-      "Action",
-      "Adventure"
-    ],
-    "popularity": 12067,
-    "favourites": 76,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 11
-  },
-  {
-    "id": 194829,
-    "mal_id": 61897,
-    "name": "Katainaka no Ossan, Kensei ni Naru II",
-    "english_title": "From Old Country Bumpkin to Master Swordsman Season 2",
-    "episode": 1,
-    "release_date": "2026-07-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194829-aBGjk68756e4.jpg",
-    "site_url": "https://anilist.co/anime/194829",
-    "start_date": "2026-07-01",
-    "season": "Summer",
-    "season_year": 2026,
-    "studios": "Hayabusa Film, Passione",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Comedy",
-      "Fantasy"
-    ],
-    "popularity": 12030,
-    "favourites": 139,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 12
   },
   {
     "id": 210031,
@@ -306,8 +258,56 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 11959,
+    "popularity": 12150,
     "favourites": 77,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 11
+  },
+  {
+    "id": 182616,
+    "mal_id": 60059,
+    "name": "Nige Jouzu no Wakagimi 2nd Season",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-07-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182616-ZOCgArw9cgqI.jpg",
+    "site_url": "https://anilist.co/anime/182616",
+    "start_date": "2026-07-01",
+    "season": "Summer",
+    "season_year": 2026,
+    "studios": "Aniplex, CloverWorks",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "popularity": 12091,
+    "favourites": 76,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 12
+  },
+  {
+    "id": 194829,
+    "mal_id": 61897,
+    "name": "Katainaka no Ossan, Kensei ni Naru II",
+    "english_title": "From Old Country Bumpkin to Master Swordsman Season 2",
+    "episode": 1,
+    "release_date": "2026-07-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194829-aBGjk68756e4.jpg",
+    "site_url": "https://anilist.co/anime/194829",
+    "start_date": "2026-07-01",
+    "season": "Summer",
+    "season_year": 2026,
+    "studios": "Hayabusa Film, Passione",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "popularity": 12078,
+    "favourites": 139,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 13
@@ -330,7 +330,7 @@
       "Ecchi",
       "Romance"
     ],
-    "popularity": 11909,
+    "popularity": 11956,
     "favourites": 174,
     "anilist_score": null,
     "streaming_links": [],
@@ -356,7 +356,7 @@
       "Sci-Fi",
       "Supernatural"
     ],
-    "popularity": 9053,
+    "popularity": 9094,
     "favourites": 106,
     "anilist_score": null,
     "streaming_links": [],
@@ -378,7 +378,7 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 8551,
+    "popularity": 8607,
     "favourites": 50,
     "anilist_score": null,
     "streaming_links": [],
@@ -401,7 +401,7 @@
       "Action",
       "Fantasy"
     ],
-    "popularity": 7839,
+    "popularity": 7875,
     "favourites": 130,
     "anilist_score": null,
     "streaming_links": [],
@@ -423,7 +423,7 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 6858,
+    "popularity": 6886,
     "favourites": 49,
     "anilist_score": null,
     "streaming_links": [],
@@ -445,7 +445,7 @@
     "genres": [
       "Supernatural"
     ],
-    "popularity": 6074,
+    "popularity": 6088,
     "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
@@ -468,7 +468,7 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 5415,
+    "popularity": 5469,
     "favourites": 41,
     "anilist_score": null,
     "streaming_links": [],
@@ -491,7 +491,7 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 5335,
+    "popularity": 5355,
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
@@ -515,7 +515,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 4998,
+    "popularity": 5083,
     "favourites": 66,
     "anilist_score": null,
     "streaming_links": [],
@@ -537,7 +537,7 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 4669,
+    "popularity": 4717,
     "favourites": 21,
     "anilist_score": null,
     "streaming_links": [],
@@ -561,7 +561,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 4175,
+    "popularity": 4194,
     "favourites": 57,
     "anilist_score": null,
     "streaming_links": [],
@@ -584,7 +584,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 3865,
+    "popularity": 3904,
     "favourites": 48,
     "anilist_score": null,
     "streaming_links": [],
@@ -609,7 +609,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 3795,
+    "popularity": 3825,
     "favourites": 61,
     "anilist_score": null,
     "streaming_links": [],
@@ -632,7 +632,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 3761,
+    "popularity": 3796,
     "favourites": 49,
     "anilist_score": null,
     "streaming_links": [],
@@ -656,7 +656,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 3569,
+    "popularity": 3581,
     "favourites": 36,
     "anilist_score": null,
     "streaming_links": [],
@@ -681,7 +681,7 @@
       "Fantasy",
       "Mahou Shoujo"
     ],
-    "popularity": 3307,
+    "popularity": 3313,
     "favourites": 24,
     "anilist_score": null,
     "streaming_links": [],
@@ -705,7 +705,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3019,
+    "popularity": 3066,
     "favourites": 51,
     "anilist_score": null,
     "streaming_links": [],
@@ -728,7 +728,7 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 2926,
+    "popularity": 2941,
     "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
@@ -751,7 +751,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2899,
+    "popularity": 2918,
     "favourites": 30,
     "anilist_score": null,
     "streaming_links": [],
@@ -777,7 +777,7 @@
       "Fantasy",
       "Mahou Shoujo"
     ],
-    "popularity": 2785,
+    "popularity": 2791,
     "favourites": 32,
     "anilist_score": null,
     "streaming_links": [],
@@ -803,7 +803,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2387,
+    "popularity": 2408,
     "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
@@ -827,7 +827,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2203,
+    "popularity": 2221,
     "favourites": 31,
     "anilist_score": null,
     "streaming_links": [],
@@ -850,7 +850,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 2188,
+    "popularity": 2207,
     "favourites": 20,
     "anilist_score": null,
     "streaming_links": [],
@@ -877,7 +877,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 2017,
+    "popularity": 2037,
     "favourites": 24,
     "anilist_score": null,
     "streaming_links": [],
@@ -902,7 +902,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 1961,
+    "popularity": 1980,
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
@@ -925,7 +925,7 @@
       "Ecchi",
       "Slice of Life"
     ],
-    "popularity": 1832,
+    "popularity": 1837,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
@@ -948,7 +948,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 1811,
+    "popularity": 1833,
     "favourites": 21,
     "anilist_score": null,
     "streaming_links": [],
@@ -972,7 +972,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 1571,
+    "popularity": 1592,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
@@ -996,33 +996,11 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 1490,
+    "popularity": 1503,
     "favourites": 13,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 42
-  },
-  {
-    "id": 198376,
-    "mal_id": 62430,
-    "name": "BanG Dream! Yume∞Mita",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-07-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198376-hFnAdwIcedY5.png",
-    "site_url": "https://anilist.co/anime/198376",
-    "start_date": "2026-07-01",
-    "season": "Summer",
-    "season_year": 2026,
-    "studios": "NICHICALINE",
-    "genres": [
-      "Music"
-    ],
-    "popularity": 1437,
-    "favourites": 9,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 43
   },
   {
     "id": 203880,
@@ -1042,8 +1020,30 @@
       "Horror",
       "Supernatural"
     ],
-    "popularity": 1430,
+    "popularity": 1448,
     "favourites": 10,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 43
+  },
+  {
+    "id": 198376,
+    "mal_id": 62430,
+    "name": "BanG Dream! Yume∞Mita",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-07-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198376-hFnAdwIcedY5.png",
+    "site_url": "https://anilist.co/anime/198376",
+    "start_date": "2026-07-01",
+    "season": "Summer",
+    "season_year": 2026,
+    "studios": "NICHICALINE",
+    "genres": [
+      "Music"
+    ],
+    "popularity": 1444,
+    "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 44
@@ -1066,7 +1066,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 1419,
+    "popularity": 1431,
     "favourites": 14,
     "anilist_score": null,
     "streaming_links": [],
@@ -1089,7 +1089,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 1309,
+    "popularity": 1322,
     "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
@@ -1112,7 +1112,7 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 1243,
+    "popularity": 1246,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
@@ -1132,7 +1132,7 @@
     "season_year": 2026,
     "studios": "A-1 Pictures, Psyde Kick Studio",
     "genres": [],
-    "popularity": 1101,
+    "popularity": 1107,
     "favourites": 6,
     "anilist_score": null,
     "streaming_links": [],
@@ -1155,7 +1155,7 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 1067,
+    "popularity": 1085,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
@@ -1179,7 +1179,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 1036,
+    "popularity": 1044,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
