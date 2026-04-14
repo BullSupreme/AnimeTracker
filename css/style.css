@@ -313,12 +313,20 @@ main {
 .section-title {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
+    justify-content: center;
+    gap: 0.75rem;
     margin-bottom: 0.5rem;
     font-size: 1rem;
     font-weight: 600;
     color: var(--text-primary);
+    text-align: center;
+}
+
+.section-title.section-title-controls {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 1rem;
+    text-align: left;
 }
 
 .section-title-left {
@@ -328,11 +336,23 @@ main {
     font-size: 1.8rem;
 }
 
+.section-title.section-title-controls .section-title-left {
+    justify-content: center;
+}
+
 .section-title .filter-controls,
 .section-title .layout-controls {
     font-size: 0.875rem;
     font-weight: 500;
     flex-shrink: 0;
+}
+
+.section-title.section-title-controls .filter-controls {
+    justify-self: start;
+}
+
+.section-title.section-title-controls .layout-controls {
+    justify-self: end;
 }
 
 .section-icon {

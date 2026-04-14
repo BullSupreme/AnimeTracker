@@ -181,7 +181,7 @@ def generate_html():
             <!-- List View Section -->
             <div id="list-view" class="tab-content active">
                 <div class="time-section">
-                    <h2 class="section-title">
+                    <h2 class="section-title section-title-controls">
                         <div class="filter-controls">
                             <button class="list-tab active" data-list-tab="all">All Anime</button>
                             <button class="list-tab" data-list-tab="favorites">Favorites Only</button>
