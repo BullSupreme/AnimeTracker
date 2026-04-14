@@ -8,6 +8,8 @@ from zoneinfo import ZoneInfo
 
 # Configuration
 ANILIST_API_URL = "https://graphql.anilist.co"
+CALENDAR_HISTORY_FILE = "data/calendar_history.json"
+CALENDAR_HISTORY_DAYS = 30
 
 def make_anilist_request(query, variables, retry_count=3):
     """Makes a request to the AniList API with retries for transient errors."""
@@ -906,6 +908,107 @@ def sort_other_anime(anime_list, today_date, tomorrow_date):
     
     return other_anime, recently_finished_anime
 
+def load_calendar_history():
+    """Load persisted calendar history if available."""
+    if not os.path.exists(CALENDAR_HISTORY_FILE):
+        return []
+
+    try:
+        with open(CALENDAR_HISTORY_FILE, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            return data if isinstance(data, list) else []
+    except (json.JSONDecodeError, OSError) as e:
+        print(f"Warning: Failed to load calendar history: {e}")
+        return []
+
+def update_calendar_history(anime_list, today_date, history_days=CALENDAR_HISTORY_DAYS):
+    """Persist a rolling window of calendar entries for past release dates."""
+    today = datetime.strptime(today_date, '%Y-%m-%d').date()
+    window_start = today - timedelta(days=history_days)
+    history_by_key = {}
+
+    def parse_date(date_str):
+        try:
+            return datetime.strptime(date_str, '%Y-%m-%d').date()
+        except (TypeError, ValueError):
+            return None
+
+    def snapshot_from_anime(anime, release_date, episode_override=None):
+        snapshot = {
+            'id': anime.get('id'),
+            'mal_id': anime.get('mal_id'),
+            'name': anime.get('name'),
+            'english_title': anime.get('english_title'),
+            'episode': episode_override if episode_override is not None else anime.get('episode'),
+            'release_date': release_date,
+            'next_airing_date': anime.get('next_airing_date'),
+            'next_episode_number': anime.get('next_episode_number'),
+            'poster_url': anime.get('poster_url'),
+            'site_url': anime.get('site_url'),
+            'start_date': anime.get('start_date'),
+            'end_date': anime.get('end_date'),
+            'streaming_links': anime.get('streaming_links', []),
+            'popularity': anime.get('popularity', 0),
+            'anilist_score': anime.get('anilist_score'),
+            'recently_finished': anime.get('recently_finished', False),
+            'popularity_rank': anime.get('popularity_rank')
+        }
+        return snapshot
+
+    def add_history_entry(anime, release_date, episode_override=None):
+        parsed_date = parse_date(release_date)
+        if not parsed_date or parsed_date < window_start or parsed_date > today:
+            return
+
+        anime_key = anime.get('id') or anime.get('name')
+        if anime_key is None:
+            return
+
+        history_by_key[f"{anime_key}|{release_date}"] = snapshot_from_anime(
+            anime,
+            release_date,
+            episode_override=episode_override
+        )
+
+    for entry in load_calendar_history():
+        release_date = entry.get('release_date')
+        parsed_date = parse_date(release_date)
+        anime_key = entry.get('id') or entry.get('name')
+        if parsed_date and anime_key is not None and window_start <= parsed_date <= today:
+            history_by_key[f"{anime_key}|{release_date}"] = entry
+
+    for anime in anime_list:
+        release_date = anime.get('release_date')
+        if release_date:
+            add_history_entry(anime, release_date)
+
+        reference_date = parse_date(release_date)
+        reference_episode = anime.get('episode')
+
+        if not reference_date or reference_date > today or not isinstance(reference_episode, int):
+            next_airing_date = parse_date(anime.get('next_airing_date'))
+            next_episode_number = anime.get('next_episode_number')
+            if next_airing_date and next_airing_date > today and isinstance(next_episode_number, int) and next_episode_number > 1:
+                reference_date = next_airing_date - timedelta(days=7)
+                reference_episode = next_episode_number - 1
+
+        while reference_date and reference_episode and reference_episode > 0 and reference_date >= window_start:
+            if reference_date <= today:
+                add_history_entry(anime, reference_date.strftime('%Y-%m-%d'), episode_override=reference_episode)
+            reference_date -= timedelta(days=7)
+            reference_episode -= 1
+
+    calendar_history = sorted(
+        history_by_key.values(),
+        key=lambda entry: (entry.get('release_date', ''), entry.get('name', ''))
+    )
+
+    with open(CALENDAR_HISTORY_FILE, 'w', encoding='utf-8') as f:
+        json.dump(calendar_history, f, ensure_ascii=False, indent=2)
+
+    print(f"Saved {len(calendar_history)} calendar history entries")
+    return calendar_history
+
 def main():
     """Main function to fetch and process anime data"""
     print("Fetching anime data from AniList API...")
@@ -940,6 +1043,8 @@ def main():
         processed_data.extend(e for e in manual_entries if e.get('id') not in existing_ids)
         if added:
             print(f"Merged {added} manual anime entries")
+
+    update_calendar_history(processed_data, today)
 
     # Save processed data
     with open('data/anime_data.json', 'w', encoding='utf-8') as f:

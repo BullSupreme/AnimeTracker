@@ -330,19 +330,15 @@ document.addEventListener('DOMContentLoaded', () => {
         const animeByDate = {};
 
         // Combine all anime sources for calendar view
-        const seenCalendarIds = new Set();
+        const seenCalendarEntries = new Set();
         today.setHours(0, 0, 0, 0);
 
         const addToCalendar = (list, nextAiringOnly = false) => {
             if (!Array.isArray(list)) return;
             list.forEach(anime => {
                 if (favoritesOnly && !favorites.includes(anime.id.toString())) return;
-                const key = anime.id || anime.name;
-                if (seenCalendarIds.has(key)) return;
-                seenCalendarIds.add(key);
-
                 const dates = [];
-                // For otherAnime: only use next_airing_date (release_date is past episode, would clutter old months)
+                // For otherAnime: only use next_airing_date in live data. Historical release dates come from calendarHistory.
                 if (!nextAiringOnly && anime.release_date && anime.release_date !== 'TBD') {
                     dates.push(anime.release_date);
                 }
@@ -351,15 +347,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
 
                 dates.forEach(date => {
+                    const entryKey = `${anime.id || anime.name}|${date}`;
+                    if (seenCalendarEntries.has(entryKey)) return;
+                    seenCalendarEntries.add(entryKey);
                     if (!animeByDate[date]) animeByDate[date] = [];
                     animeByDate[date].push(anime);
                 });
             });
         };
 
+        addToCalendar(window.calendarHistory);
         addToCalendar(window.animeData);
         addToCalendar(window.upcomingAnime);
-        addToCalendar(window.otherAnime, true);   // next_airing_date only — skip old release_dates
+        addToCalendar(window.otherAnime, true);   // next_airing_date only - skip old release_dates
         addToCalendar(window.recentlyFinished);
         
         // Add empty cells for days before month starts

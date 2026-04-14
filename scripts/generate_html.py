@@ -104,6 +104,13 @@ def load_data():
             with open(recently_finished_path, 'r', encoding='utf-8') as f:
                 recently_finished_anime = json.load(f)
 
+        # Load calendar history
+        calendar_history = []
+        calendar_history_path = 'data/calendar_history.json'
+        if os.path.exists(calendar_history_path):
+            with open(calendar_history_path, 'r', encoding='utf-8') as f:
+                calendar_history = json.load(f)
+
         # Load 9anime links
         nine_anime_links = {}
         nine_anime_path = 'data/9anime_links.json'
@@ -111,10 +118,10 @@ def load_data():
             with open(nine_anime_path, 'r', encoding='utf-8') as f:
                 nine_anime_links = json.load(f)
 
-        return anime_data, other_anime_sorted, metadata, upcoming_anime, manual_streaming_links, recently_finished_anime, nine_anime_links
+        return anime_data, other_anime_sorted, metadata, upcoming_anime, manual_streaming_links, recently_finished_anime, calendar_history, nine_anime_links
     except FileNotFoundError as e:
         print(f"Data file not found: {e}")
-        return [], [], {}, [], {}, [], {}
+        return [], [], {}, [], {}, [], [], {}
 
 def get_season_emoji(season):
     """Get emoji for a given season"""
@@ -129,7 +136,7 @@ def get_season_emoji(season):
 
 def generate_html():
     """Generate static HTML file"""
-    anime_data, other_anime_sorted, metadata, upcoming_anime, manual_streaming_links, recently_finished_anime, nine_anime_links = load_data()
+    anime_data, other_anime_sorted, metadata, upcoming_anime, manual_streaming_links, recently_finished_anime, calendar_history, nine_anime_links = load_data()
     
     
     if not anime_data:
@@ -664,6 +671,7 @@ def generate_html():
             window.upcomingAnime = """ + json.dumps(upcoming_anime) + """;
             window.otherAnime = """ + json.dumps(other_anime_sorted) + """;
             window.recentlyFinished = """ + json.dumps(recently_finished_anime) + """;
+            window.calendarHistory = """ + json.dumps(calendar_history) + """;
             window.nineAnimeUrls = """ + json.dumps(nine_anime_by_id) + """;
             window.customLinks = """ + json.dumps(custom_links) + """;
             window.todayDate = \"""" + today_date + """\";
