@@ -134,6 +134,31 @@ def get_season_emoji(season):
     }
     return season_emojis.get(season.upper(), '🎭')
 
+def filter_recently_finished(anime_list, today_date, days=14):
+    """Keep only anime that finished within the recent window."""
+    try:
+        today = datetime.strptime(today_date, '%Y-%m-%d').date()
+    except (TypeError, ValueError):
+        return anime_list
+
+    filtered = []
+    for anime in anime_list:
+        end_date = anime.get('end_date')
+        if not end_date:
+            continue
+
+        try:
+            end_date_obj = datetime.strptime(end_date, '%Y-%m-%d').date()
+        except (TypeError, ValueError):
+            continue
+
+        days_since_end = (today - end_date_obj).days
+        if 0 <= days_since_end <= days:
+            filtered.append(anime)
+
+    filtered.sort(key=lambda x: x.get('end_date', ''), reverse=True)
+    return filtered
+
 def generate_html():
     """Generate static HTML file"""
     anime_data, other_anime_sorted, metadata, upcoming_anime, manual_streaming_links, recently_finished_anime, calendar_history, nine_anime_links = load_data()
@@ -155,6 +180,7 @@ def generate_html():
     today_date = metadata.get('today_date', datetime.now().strftime('%Y-%m-%d'))
     tomorrow_date = metadata.get('tomorrow_date', (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d'))
     last_updated = metadata.get('last_updated', datetime.now().isoformat())
+    recently_finished_anime = filter_recently_finished(recently_finished_anime, today_date)
     
     # Load custom links if they exist
     custom_links = {}
