@@ -24,7 +24,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 62727,
+    "popularity": 63231,
     "anilist_score": 80,
     "recently_finished": false,
     "popularity_rank": 6
@@ -54,8 +54,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 47227,
-    "anilist_score": 81,
+    "popularity": 47502,
+    "anilist_score": 80,
     "recently_finished": false,
     "popularity_rank": 9
   },
@@ -79,7 +79,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 13986,
+    "popularity": 14353,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 32
@@ -104,7 +104,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 11676,
+    "popularity": 11816,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 38
@@ -159,7 +159,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 4244,
+    "popularity": 4278,
     "anilist_score": 54,
     "recently_finished": false,
     "popularity_rank": 60
@@ -220,6 +220,31 @@
     "popularity_rank": 7
   },
   {
+    "id": 190143,
+    "mal_id": 61443,
+    "name": "Shunkashuutou Daikousha: Haru no Mai",
+    "english_title": "Agents of the Four Seasons: Dance of Spring",
+    "episode": 4,
+    "release_date": "2026-04-18",
+    "next_airing_date": "2026-04-18",
+    "next_episode_number": 4,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx190143-IqqbkMAF0GOo.jpg",
+    "site_url": "https://anilist.co/anime/190143",
+    "start_date": "2026-03-29",
+    "end_date": "2026-06-28",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371636/agents-of-the-four-seasons-dance-of-spring",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 23880,
+    "anilist_score": 76,
+    "recently_finished": false,
+    "popularity_rank": 16
+  },
+  {
     "id": 196935,
     "mal_id": 62164,
     "name": "Akane-banashi",
@@ -266,31 +291,6 @@
     ],
     "popularity": 23668,
     "anilist_score": 77,
-    "recently_finished": false,
-    "popularity_rank": 16
-  },
-  {
-    "id": 190143,
-    "mal_id": 61443,
-    "name": "Shunkashuutou Daikousha: Haru no Mai",
-    "english_title": "Agents of the Four Seasons: Dance of Spring",
-    "episode": 4,
-    "release_date": "2026-04-18",
-    "next_airing_date": "2026-04-18",
-    "next_episode_number": 4,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx190143-IqqbkMAF0GOo.jpg",
-    "site_url": "https://anilist.co/anime/190143",
-    "start_date": "2026-03-29",
-    "end_date": "2026-06-28",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371636/agents-of-the-four-seasons-dance-of-spring",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 23567,
-    "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 17
   },
@@ -339,7 +339,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 22657,
+    "popularity": 22798,
     "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 21
@@ -369,10 +369,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 22191,
+    "popularity": 22329,
     "anilist_score": 78,
     "recently_finished": false,
-    "popularity_rank": 23
+    "popularity_rank": 22
   },
   {
     "id": 190704,
@@ -399,7 +399,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 21126,
+    "popularity": 21382,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 25
@@ -428,6 +428,36 @@
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 30
+  },
+  {
+    "id": 185211,
+    "mal_id": 60444,
+    "name": "Yowa Yowa Sensei",
+    "english_title": "Yowayowa Sensei",
+    "episode": 2,
+    "release_date": "2026-04-18",
+    "next_airing_date": "2026-04-18",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185211-ewfgT5Cn99k0.jpg",
+    "site_url": "https://anilist.co/anime/185211",
+    "start_date": "2026-04-11",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "HIDIVE",
+        "url": "https://www.hidive.com/season/35232",
+        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JgXUB10c8pdjrn7SUPo4IdI",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 11069,
+    "anilist_score": 61,
+    "recently_finished": false,
+    "popularity_rank": 40
   },
   {
     "id": 196012,
@@ -462,37 +492,7 @@
     "popularity": 10905,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 40
-  },
-  {
-    "id": 185211,
-    "mal_id": 60444,
-    "name": "Yowa Yowa Sensei",
-    "english_title": "Yowayowa Sensei",
-    "episode": 2,
-    "release_date": "2026-04-18",
-    "next_airing_date": "2026-04-18",
-    "next_episode_number": 2,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185211-ewfgT5Cn99k0.jpg",
-    "site_url": "https://anilist.co/anime/185211",
-    "start_date": "2026-04-11",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "HIDIVE",
-        "url": "https://www.hidive.com/season/35232",
-        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JgXUB10c8pdjrn7SUPo4IdI",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 10789,
-    "anilist_score": 61,
-    "recently_finished": false,
-    "popularity_rank": 42
+    "popularity_rank": 41
   },
   {
     "id": 198113,
@@ -608,7 +608,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 680847,
+    "popularity": 681154,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -638,7 +638,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 47532,
+    "popularity": 48440,
     "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 8
@@ -703,7 +703,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 14969,
+    "popularity": 15074,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 31
@@ -733,8 +733,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 12889,
-    "anilist_score": 73,
+    "popularity": 13049,
+    "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 34
   },
@@ -813,7 +813,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5900,
+    "popularity": 5940,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 55
@@ -832,8 +832,8 @@
     "start_date": "2026-04-05",
     "end_date": null,
     "streaming_links": [],
-    "popularity": 3367,
-    "anilist_score": 59,
+    "popularity": 3409,
+    "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 63
   },
@@ -872,7 +872,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 12499,
+    "popularity": 12538,
     "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 35
@@ -897,7 +897,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
       }
     ],
-    "popularity": 2287,
+    "popularity": 2291,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 66
@@ -927,7 +927,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 91809,
+    "popularity": 93725,
     "anilist_score": 86,
     "recently_finished": false,
     "popularity_rank": 2
@@ -1002,7 +1002,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 13279,
+    "popularity": 13649,
     "anilist_score": 72,
     "recently_finished": false,
     "popularity_rank": 33
@@ -1032,7 +1032,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7517,
+    "popularity": 7703,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 51
@@ -1087,10 +1087,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 27166,
+    "popularity": 28120,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 13
+    "popularity_rank": 12
   },
   {
     "id": 194393,
@@ -1167,7 +1167,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7792,
+    "popularity": 7976,
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 50
@@ -1222,7 +1222,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5721,
+    "popularity": 5844,
     "anilist_score": 57,
     "recently_finished": false,
     "popularity_rank": 57
