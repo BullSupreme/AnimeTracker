@@ -1123,6 +1123,9 @@ main {
 
 .calendar-day.today .calendar-day-number {
     color: var(--accent-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .today-label {
@@ -1130,8 +1133,9 @@ main {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: var(--accent-primary);
-    vertical-align: middle;
+    color: #f59e0b;
+    -webkit-text-stroke: 0.5px #b45309;
+    text-shadow: 0 0 6px rgba(245, 158, 11, 0.4);
 }
 
 /* Calendar Anime Container */
