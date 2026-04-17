@@ -1125,6 +1125,15 @@ main {
     color: var(--accent-primary);
 }
 
+.today-label {
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--accent-primary);
+    vertical-align: middle;
+}
+
 /* Calendar Anime Container */
 .calendar-day-anime {
     display: flex;

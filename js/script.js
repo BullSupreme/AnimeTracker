@@ -395,7 +395,11 @@ document.addEventListener('DOMContentLoaded', () => {
             // Add day number (clickable)
             const dayNumber = document.createElement('div');
             dayNumber.className = 'calendar-day-number';
-            dayNumber.textContent = day;
+            if (isToday) {
+                dayNumber.innerHTML = `${day} <span class="today-label">Today</span>`;
+            } else {
+                dayNumber.textContent = day;
+            }
             
             // Make day number clickable if there are anime for this day
             const dayAnime = animeByDate[dateStr] || [];
