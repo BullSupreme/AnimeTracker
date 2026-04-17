@@ -209,7 +209,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 55559,
+    "popularity": 56222,
     "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 7
@@ -299,7 +299,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 42587,
+    "popularity": 42962,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 10
@@ -309,8 +309,8 @@
     "mal_id": 62601,
     "name": "MARRIAGETOXIN",
     "english_title": "MARRIAGETOXIN",
-    "episode": 2,
-    "release_date": "2026-04-14",
+    "episode": 3,
+    "release_date": "2026-04-21",
     "next_airing_date": "2026-04-21",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199547-LAaG3cmKCGhr.jpg",
@@ -329,7 +329,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 31829,
+    "popularity": 32583,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 11
@@ -339,8 +339,8 @@
     "mal_id": 56734,
     "name": "Class de 2-banme ni Kawaii Onnanoko to Tomodachi ni Natta",
     "english_title": "I Made Friends with the Second Prettiest Girl in My Class",
-    "episode": 2,
-    "release_date": "2026-04-14",
+    "episode": 3,
+    "release_date": "2026-04-21",
     "next_airing_date": "2026-04-21",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169580-nXxpmqu6UVux.jpg",
@@ -514,85 +514,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 23870,
+    "popularity": 24058,
     "anilist_score": 77,
     "recently_finished": false,
     "popularity_rank": 17
-  },
-  {
-    "id": 202102,
-    "mal_id": 62913,
-    "name": "NEEDY GIRL OVERDOSE",
-    "english_title": "NEEDY GIRL OVERDOSE",
-    "episode": 3,
-    "release_date": "2026-04-18",
-    "next_airing_date": "2026-04-18",
-    "next_episode_number": 3,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202102-7qDmTI7eT5xF.png",
-    "site_url": "https://anilist.co/anime/202102",
-    "start_date": "2026-04-05",
-    "end_date": "2026-06-28",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371863/needy-girl-overdose",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 23511,
-    "anilist_score": 68,
-    "recently_finished": false,
-    "popularity_rank": 18
-  },
-  {
-    "id": 197754,
-    "mal_id": 62331,
-    "name": "LIAR GAME",
-    "english_title": "LIAR GAME",
-    "episode": 3,
-    "release_date": "2026-04-20",
-    "next_airing_date": "2026-04-20",
-    "next_episode_number": 3,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197754-Q5KqcUhIdypp.png",
-    "site_url": "https://anilist.co/anime/197754",
-    "start_date": "2026-04-07",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371851/liar-game",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 23142,
-    "anilist_score": 63,
-    "recently_finished": false,
-    "popularity_rank": 19
-  },
-  {
-    "id": 197824,
-    "mal_id": 62146,
-    "name": "Isekai Nonbiri Nouka 2",
-    "english_title": "Farming Life in Another World 2",
-    "episode": 3,
-    "release_date": "2026-04-20",
-    "next_airing_date": "2026-04-20",
-    "next_episode_number": 3,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197824-k9Uyef8g49hB.png",
-    "site_url": "https://anilist.co/anime/197824",
-    "start_date": "2026-04-06",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "HIDIVE",
-        "url": "https://www.hidive.com/season/35229",
-        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
-      }
-    ],
-    "popularity": 23123,
-    "anilist_score": 74,
-    "recently_finished": false,
-    "popularity_rank": 20
   },
   {
     "id": 199588,
@@ -619,8 +544,83 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 23011,
-    "anilist_score": 72,
+    "popularity": 23717,
+    "anilist_score": 73,
+    "recently_finished": false,
+    "popularity_rank": 18
+  },
+  {
+    "id": 202102,
+    "mal_id": 62913,
+    "name": "NEEDY GIRL OVERDOSE",
+    "english_title": "NEEDY GIRL OVERDOSE",
+    "episode": 3,
+    "release_date": "2026-04-18",
+    "next_airing_date": "2026-04-18",
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202102-7qDmTI7eT5xF.png",
+    "site_url": "https://anilist.co/anime/202102",
+    "start_date": "2026-04-05",
+    "end_date": "2026-06-28",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371863/needy-girl-overdose",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 23713,
+    "anilist_score": 68,
+    "recently_finished": false,
+    "popularity_rank": 19
+  },
+  {
+    "id": 197824,
+    "mal_id": 62146,
+    "name": "Isekai Nonbiri Nouka 2",
+    "english_title": "Farming Life in Another World 2",
+    "episode": 3,
+    "release_date": "2026-04-20",
+    "next_airing_date": "2026-04-20",
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197824-k9Uyef8g49hB.png",
+    "site_url": "https://anilist.co/anime/197824",
+    "start_date": "2026-04-06",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "HIDIVE",
+        "url": "https://www.hidive.com/season/35229",
+        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
+      }
+    ],
+    "popularity": 23302,
+    "anilist_score": 74,
+    "recently_finished": false,
+    "popularity_rank": 20
+  },
+  {
+    "id": 197754,
+    "mal_id": 62331,
+    "name": "LIAR GAME",
+    "english_title": "LIAR GAME",
+    "episode": 3,
+    "release_date": "2026-04-20",
+    "next_airing_date": "2026-04-20",
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197754-Q5KqcUhIdypp.png",
+    "site_url": "https://anilist.co/anime/197754",
+    "start_date": "2026-04-07",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371851/liar-game",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 23276,
+    "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 21
   },
@@ -739,8 +739,8 @@
     "mal_id": 61839,
     "name": "Aishiteru Game wo Owarasetai",
     "english_title": "I Want to End this Love Game",
-    "episode": 1,
-    "release_date": "2026-04-14",
+    "episode": 2,
+    "release_date": "2026-04-21",
     "next_airing_date": "2026-04-21",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194393-0H9yYABu6y0i.jpg",
@@ -809,8 +809,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 18125,
-    "anilist_score": 79,
+    "popularity": 18603,
+    "anilist_score": 80,
     "recently_finished": false,
     "popularity_rank": 28
   },
@@ -864,7 +864,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 16431,
+    "popularity": 16587,
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 30
@@ -1049,7 +1049,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12024,
+    "popularity": 12156,
     "anilist_score": 57,
     "recently_finished": false,
     "popularity_rank": 36
@@ -1099,7 +1099,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 11868,
+    "popularity": 11888,
     "anilist_score": 63,
     "recently_finished": true,
     "popularity_rank": 38
@@ -1109,8 +1109,8 @@
     "mal_id": 61931,
     "name": "Higeki no Genkyou to Naru Saikyou Gedou Last Boss Joou wa Tami no Tame ni Tsukushimasu.  Season 2",
     "english_title": "The Most Heretical Last Boss Queen: From Villainess to Savior Season 2",
-    "episode": 2,
-    "release_date": "2026-04-14",
+    "episode": 3,
+    "release_date": "2026-04-21",
     "next_airing_date": "2026-04-21",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195268-HkEv0z9iTCJK.jpg",
@@ -1165,31 +1165,6 @@
     "popularity_rank": 40
   },
   {
-    "id": 195333,
-    "mal_id": 61943,
-    "name": "Haibara-kun no Tsuyokute Seishun New Game",
-    "english_title": "Haibara's Teenage New Game+",
-    "episode": 3,
-    "release_date": "2026-04-16",
-    "next_airing_date": "2026-04-23",
-    "next_episode_number": 4,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195333-KUIF1eqOdVdd.png",
-    "site_url": "https://anilist.co/anime/195333",
-    "start_date": "2026-04-03",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371668/haibaras-teenage-new-game",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 10994,
-    "anilist_score": 64,
-    "recently_finished": false,
-    "popularity_rank": 41
-  },
-  {
     "id": 196012,
     "mal_id": 62048,
     "name": "MAO",
@@ -1219,8 +1194,33 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 10989,
+    "popularity": 11068,
     "anilist_score": 66,
+    "recently_finished": false,
+    "popularity_rank": 41
+  },
+  {
+    "id": 195333,
+    "mal_id": 61943,
+    "name": "Haibara-kun no Tsuyokute Seishun New Game",
+    "english_title": "Haibara's Teenage New Game+",
+    "episode": 3,
+    "release_date": "2026-04-16",
+    "next_airing_date": "2026-04-23",
+    "next_episode_number": 4,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195333-KUIF1eqOdVdd.png",
+    "site_url": "https://anilist.co/anime/195333",
+    "start_date": "2026-04-03",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371668/haibaras-teenage-new-game",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 10994,
+    "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 42
   },
@@ -1249,7 +1249,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 10011,
+    "popularity": 10168,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 43
@@ -1279,7 +1279,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 9889,
+    "popularity": 10048,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 44
@@ -1304,7 +1304,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 9586,
+    "popularity": 9943,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 45
@@ -1329,8 +1329,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 9458,
-    "anilist_score": 59,
+    "popularity": 9578,
+    "anilist_score": 58,
     "recently_finished": false,
     "popularity_rank": 46
   },
@@ -1384,7 +1384,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 8398,
+    "popularity": 8496,
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 48
@@ -1414,7 +1414,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 8207,
+    "popularity": 8298,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 49
@@ -1424,8 +1424,8 @@
     "mal_id": 61013,
     "name": "Replica Datte, Koi wo Suru.",
     "english_title": "Even a Replica Can Fall in Love",
-    "episode": 2,
-    "release_date": "2026-04-14",
+    "episode": 3,
+    "release_date": "2026-04-21",
     "next_airing_date": "2026-04-21",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186744-nFH4y2slUrO4.jpg",
@@ -1479,8 +1479,8 @@
     "mal_id": 63376,
     "name": "Megami \"Isekai Tensei Nani ni Naritai Desu ka\" Ore \"Yuusha no Rokkotsu de\"",
     "english_title": "My Ribdiculous Reincarnation",
-    "episode": 2,
-    "release_date": "2026-04-14",
+    "episode": 3,
+    "release_date": "2026-04-21",
     "next_airing_date": "2026-04-21",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206951-qiHcrw7pwzuq.jpg",
@@ -1499,8 +1499,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7568,
-    "anilist_score": 58,
+    "popularity": 7741,
+    "anilist_score": 59,
     "recently_finished": false,
     "popularity_rank": 52
   },
@@ -1524,7 +1524,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7414,
+    "popularity": 7480,
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 53
@@ -1554,7 +1554,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
       }
     ],
-    "popularity": 6555,
+    "popularity": 6617,
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 54
@@ -1619,8 +1619,8 @@
     "mal_id": 53732,
     "name": "Hidarikiki no Eren",
     "english_title": "Eren the Southpaw",
-    "episode": 2,
-    "release_date": "2026-04-14",
+    "episode": 3,
+    "release_date": "2026-04-21",
     "next_airing_date": "2026-04-21",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx158036-KfXv0BFBUsWl.jpg",
@@ -1644,8 +1644,8 @@
     "mal_id": 63014,
     "name": "Tadaima, Ojamasaremasu!",
     "english_title": "Pardon the Intrusion, I'm Home!",
-    "episode": 2,
-    "release_date": "2026-04-14",
+    "episode": 3,
+    "release_date": "2026-04-21",
     "next_airing_date": "2026-04-21",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202985-lyp5TYpTnqSg.jpg",
@@ -1659,7 +1659,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5530,
+    "popularity": 5589,
     "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 58
@@ -1678,10 +1678,35 @@
     "start_date": "2026-04-12",
     "end_date": null,
     "streaming_links": [],
-    "popularity": 5403,
+    "popularity": 5477,
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 59
+  },
+  {
+    "id": 208352,
+    "mal_id": 63572,
+    "name": "Dandelion",
+    "english_title": "Dandelion",
+    "episode": 7,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 7,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b208352-KUuXI4sVbtYV.jpg",
+    "site_url": "https://anilist.co/anime/208352",
+    "start_date": "2026-04-16",
+    "end_date": "2026-04-16",
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://netflix.com/title/81579317",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 4335,
+    "anilist_score": 65,
+    "recently_finished": true,
+    "popularity_rank": 60
   },
   {
     "id": 169228,
@@ -1706,7 +1731,7 @@
     "popularity": 4298,
     "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 60
+    "popularity_rank": 61
   },
   {
     "id": 187062,
@@ -1735,31 +1760,6 @@
     ],
     "popularity": 4065,
     "anilist_score": 44,
-    "recently_finished": true,
-    "popularity_rank": 61
-  },
-  {
-    "id": 208352,
-    "mal_id": 63572,
-    "name": "Dandelion",
-    "english_title": "Dandelion",
-    "episode": 7,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 7,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b208352-KUuXI4sVbtYV.jpg",
-    "site_url": "https://anilist.co/anime/208352",
-    "start_date": "2026-04-16",
-    "end_date": "2026-04-16",
-    "streaming_links": [
-      {
-        "site": "Netflix",
-        "url": "https://netflix.com/title/81579317",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      }
-    ],
-    "popularity": 3973,
-    "anilist_score": null,
     "recently_finished": true,
     "popularity_rank": 62
   },
@@ -1837,7 +1837,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 3082,
+    "popularity": 3106,
     "anilist_score": 54,
     "recently_finished": false,
     "popularity_rank": 65
