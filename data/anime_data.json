@@ -39,7 +39,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 682334,
+    "popularity": 682645,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -51,8 +51,8 @@
     "english_title": "Witch Hat Atelier",
     "episode": 4,
     "release_date": "2026-04-20",
-    "next_airing_date": "2026-04-20",
-    "next_episode_number": 4,
+    "next_airing_date": "2026-04-27",
+    "next_episode_number": 5,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx147105-rwOX8qyUy8gV.jpg",
     "site_url": "https://anilist.co/anime/147105",
     "start_date": "2026-04-06",
@@ -69,7 +69,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 98586,
+    "popularity": 99805,
     "anilist_score": 86,
     "recently_finished": false,
     "popularity_rank": 2
@@ -576,8 +576,8 @@
     "english_title": "Farming Life in Another World 2",
     "episode": 3,
     "release_date": "2026-04-20",
-    "next_airing_date": "2026-04-20",
-    "next_episode_number": 3,
+    "next_airing_date": "2026-04-27",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197824-k9Uyef8g49hB.png",
     "site_url": "https://anilist.co/anime/197824",
     "start_date": "2026-04-06",
@@ -601,8 +601,8 @@
     "english_title": "LIAR GAME",
     "episode": 3,
     "release_date": "2026-04-20",
-    "next_airing_date": "2026-04-20",
-    "next_episode_number": 3,
+    "next_airing_date": "2026-04-27",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197754-Q5KqcUhIdypp.png",
     "site_url": "https://anilist.co/anime/197754",
     "start_date": "2026-04-07",
@@ -911,8 +911,8 @@
     "english_title": "The Klutzy Class Monitor and the Girl with the Short Skirt",
     "episode": 3,
     "release_date": "2026-04-20",
-    "next_airing_date": "2026-04-20",
-    "next_episode_number": 3,
+    "next_airing_date": "2026-04-27",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189987-CkTDPfD7vu2Y.jpg",
     "site_url": "https://anilist.co/anime/189987",
     "start_date": "2026-04-06",
@@ -1390,36 +1390,6 @@
     "popularity_rank": 48
   },
   {
-    "id": 137662,
-    "mal_id": 62927,
-    "name": "Fangkai Nage Nüwu",
-    "english_title": "Release that Witch",
-    "episode": 8,
-    "release_date": "2026-04-20",
-    "next_airing_date": "2026-04-20",
-    "next_episode_number": 8,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137662-iZigHTc71wi7.png",
-    "site_url": "https://anilist.co/anime/137662",
-    "start_date": "2026-03-03",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Tencent Video",
-        "url": "https://v.qq.com/detail/t/mzc0020064ku1qb.html",
-        "icon": "https://www.google.com/s2/favicons?domain=v.qq.com&sz=32"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00365589/release-that-witch",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 8267,
-    "anilist_score": 76,
-    "recently_finished": false,
-    "popularity_rank": 49
-  },
-  {
     "id": 206951,
     "mal_id": 63376,
     "name": "Megami \"Isekai Tensei Nani ni Naritai Desu ka\" Ore \"Yuusha no Rokkotsu de\"",
@@ -1447,7 +1417,7 @@
     "popularity": 8265,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 50
+    "popularity_rank": 49
   },
   {
     "id": 197868,
@@ -1472,7 +1442,7 @@
     "popularity": 7679,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 51
+    "popularity_rank": 50
   },
   {
     "id": 196144,
@@ -1502,7 +1472,7 @@
     "popularity": 7087,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 52
+    "popularity_rank": 51
   },
   {
     "id": 181284,
@@ -1532,7 +1502,7 @@
     "popularity": 6258,
     "anilist_score": 58,
     "recently_finished": false,
-    "popularity_rank": 53
+    "popularity_rank": 52
   },
   {
     "id": 158036,
@@ -1557,7 +1527,7 @@
     "popularity": 6146,
     "anilist_score": 58,
     "recently_finished": false,
-    "popularity_rank": 54
+    "popularity_rank": 53
   },
   {
     "id": 177634,
@@ -1582,7 +1552,7 @@
     "popularity": 6093,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 55
+    "popularity_rank": 54
   },
   {
     "id": 202985,
@@ -1607,7 +1577,7 @@
     "popularity": 5903,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 56
+    "popularity_rank": 55
   },
   {
     "id": 195734,
@@ -1626,7 +1596,7 @@
     "popularity": 5777,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 57
+    "popularity_rank": 56
   },
   {
     "id": 208352,
@@ -1651,7 +1621,7 @@
     "popularity": 5037,
     "anilist_score": 70,
     "recently_finished": true,
-    "popularity_rank": 58
+    "popularity_rank": 57
   },
   {
     "id": 169228,
@@ -1676,7 +1646,7 @@
     "popularity": 4442,
     "anilist_score": 56,
     "recently_finished": false,
-    "popularity_rank": 59
+    "popularity_rank": 58
   },
   {
     "id": 178749,
@@ -1701,7 +1671,7 @@
     "popularity": 3595,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 60
+    "popularity_rank": 59
   },
   {
     "id": 196840,
@@ -1720,7 +1690,7 @@
     "popularity": 3490,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 61
+    "popularity_rank": 60
   },
   {
     "id": 177508,
@@ -1750,7 +1720,7 @@
     "popularity": 3341,
     "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 62
+    "popularity_rank": 61
   },
   {
     "id": 202508,
@@ -1780,6 +1750,29 @@
     "popularity": 3233,
     "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 63
+    "popularity_rank": 62
+  },
+  {
+    "id": 137662,
+    "mal_id": 62927,
+    "name": "Fangkai Nage Nüwu",
+    "english_title": "Release that Witch",
+    "episode": 1,
+    "release_date": "2026-03-03",
+    "next_airing_date": "2026-03-09",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137662-iZigHTc71wi7.png",
+    "site_url": "https://anilist.co/anime/137662",
+    "start_date": "2026-03-03",
+    "end_date": null,
+    "streaming_links": {},
+    "popularity": 2110,
+    "anilist_score": 62,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Romance"
+    ]
   }
 ]
