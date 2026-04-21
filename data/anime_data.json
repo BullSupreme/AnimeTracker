@@ -94,7 +94,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 71341,
+    "popularity": 71822,
     "anilist_score": 86,
     "recently_finished": false,
     "popularity_rank": 3
@@ -164,8 +164,8 @@
     "mal_id": 62001,
     "name": "Yomi no Tsugai",
     "english_title": "Daemons of the Shadow Realm",
-    "episode": 3,
-    "release_date": "2026-04-18",
+    "episode": 4,
+    "release_date": "2026-04-25",
     "next_airing_date": "2026-04-25",
     "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195600-moI0UFArtOme.jpg",
@@ -179,7 +179,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 59339,
+    "popularity": 60380,
     "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 6
@@ -269,7 +269,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 43886,
+    "popularity": 44145,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 9
@@ -299,7 +299,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 34707,
+    "popularity": 35282,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 10
@@ -409,7 +409,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 26246,
+    "popularity": 26346,
     "anilist_score": 55,
     "recently_finished": false,
     "popularity_rank": 14
@@ -439,7 +439,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 25642,
+    "popularity": 26120,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 15
@@ -449,8 +449,8 @@
     "mal_id": 61443,
     "name": "Shunkashuutou Daikousha: Haru no Mai",
     "english_title": "Agents of the Four Seasons: Dance of Spring",
-    "episode": 4,
-    "release_date": "2026-04-18",
+    "episode": 5,
+    "release_date": "2026-04-25",
     "next_airing_date": "2026-04-25",
     "next_episode_number": 5,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx190143-IqqbkMAF0GOo.jpg",
@@ -464,7 +464,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 25308,
+    "popularity": 25556,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 16
@@ -474,8 +474,8 @@
     "mal_id": 62164,
     "name": "Akane-banashi",
     "english_title": "Akane-banashi",
-    "episode": 3,
-    "release_date": "2026-04-18",
+    "episode": 4,
+    "release_date": "2026-04-25",
     "next_airing_date": "2026-04-25",
     "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196935-RnLWBsEvNp8M.jpg",
@@ -514,10 +514,35 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 25015,
+    "popularity": 25299,
     "anilist_score": 77,
     "recently_finished": false,
     "popularity_rank": 17
+  },
+  {
+    "id": 202102,
+    "mal_id": 62913,
+    "name": "NEEDY GIRL OVERDOSE",
+    "english_title": "NEEDY GIRL OVERDOSE",
+    "episode": 4,
+    "release_date": "2026-04-25",
+    "next_airing_date": "2026-04-25",
+    "next_episode_number": 4,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202102-7qDmTI7eT5xF.png",
+    "site_url": "https://anilist.co/anime/202102",
+    "start_date": "2026-04-05",
+    "end_date": "2026-06-28",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371863/needy-girl-overdose",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 24746,
+    "anilist_score": 68,
+    "recently_finished": false,
+    "popularity_rank": 18
   },
   {
     "id": 182483,
@@ -542,31 +567,6 @@
     "popularity": 24535,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 18
-  },
-  {
-    "id": 202102,
-    "mal_id": 62913,
-    "name": "NEEDY GIRL OVERDOSE",
-    "english_title": "NEEDY GIRL OVERDOSE",
-    "episode": 3,
-    "release_date": "2026-04-18",
-    "next_airing_date": "2026-04-25",
-    "next_episode_number": 4,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202102-7qDmTI7eT5xF.png",
-    "site_url": "https://anilist.co/anime/202102",
-    "start_date": "2026-04-05",
-    "end_date": "2026-06-28",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371863/needy-girl-overdose",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 24527,
-    "anilist_score": 68,
-    "recently_finished": false,
     "popularity_rank": 19
   },
   {
@@ -589,7 +589,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 23880,
+    "popularity": 24278,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 20
@@ -614,8 +614,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23751,
-    "anilist_score": 63,
+    "popularity": 24139,
+    "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 21
   },
@@ -624,8 +624,8 @@
     "mal_id": 57466,
     "name": "Honzuki no Gekokujou: Ryoushu no Youjo",
     "english_title": "Ascendance of a Bookworm: Adopted Daughter of an Archduke",
-    "episode": 3,
-    "release_date": "2026-04-18",
+    "episode": 4,
+    "release_date": "2026-04-25",
     "next_airing_date": "2026-04-25",
     "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171110-7zOdInS6DQNL.jpg",
@@ -645,12 +645,42 @@
     "popularity_rank": 22
   },
   {
+    "id": 190704,
+    "mal_id": 61501,
+    "name": "Kanan-sama wa Akumade Choroi",
+    "english_title": "Mistress Kanan is Devilishly Easy",
+    "episode": 4,
+    "release_date": "2026-04-25",
+    "next_airing_date": "2026-04-25",
+    "next_episode_number": 4,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx190704-Ts1VvkrNdnCZ.jpg",
+    "site_url": "https://anilist.co/anime/190704",
+    "start_date": "2026-04-05",
+    "end_date": "2026-06-21",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://crunchyroll.com/series/GT00371860/mistress-kanan-is-devilishly-easy",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JhVy3KHGqdAMw_lVe9Vq5UN",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 23219,
+    "anilist_score": 68,
+    "recently_finished": false,
+    "popularity_rank": 23
+  },
+  {
     "id": 184492,
     "mal_id": 60310,
     "name": "Mairimashita! Iruma-kun 4",
     "english_title": "Welcome to Demon School! Iruma-kun Season 4",
-    "episode": 3,
-    "release_date": "2026-04-18",
+    "episode": 4,
+    "release_date": "2026-04-25",
     "next_airing_date": "2026-04-25",
     "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184492-KUVFGieuMaOx.jpg",
@@ -671,36 +701,6 @@
     ],
     "popularity": 22992,
     "anilist_score": 78,
-    "recently_finished": false,
-    "popularity_rank": 23
-  },
-  {
-    "id": 190704,
-    "mal_id": 61501,
-    "name": "Kanan-sama wa Akumade Choroi",
-    "english_title": "Mistress Kanan is Devilishly Easy",
-    "episode": 3,
-    "release_date": "2026-04-18",
-    "next_airing_date": "2026-04-25",
-    "next_episode_number": 4,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx190704-Ts1VvkrNdnCZ.jpg",
-    "site_url": "https://anilist.co/anime/190704",
-    "start_date": "2026-04-05",
-    "end_date": "2026-06-21",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://crunchyroll.com/series/GT00371860/mistress-kanan-is-devilishly-easy",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JhVy3KHGqdAMw_lVe9Vq5UN",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 22891,
-    "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 24
   },
@@ -724,7 +724,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 21403,
+    "popularity": 21666,
     "anilist_score": 70,
     "recently_finished": false,
     "popularity_rank": 25
@@ -749,7 +749,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 20582,
+    "popularity": 21341,
     "anilist_score": 80,
     "recently_finished": false,
     "popularity_rank": 26
@@ -819,8 +819,8 @@
     "mal_id": 62825,
     "name": "Saikyou no Shokugyou wa Yuusha demo Kenja demo Naku Kanteishi (Kari) Rashii desu yo?",
     "english_title": "The strongest job is apparently not a hero or a sage, but an appraiser (provisional)!",
-    "episode": 4,
-    "release_date": "2026-04-18",
+    "episode": 5,
+    "release_date": "2026-04-25",
     "next_airing_date": "2026-04-25",
     "next_episode_number": 5,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx200769-8WkFkoFxc2fw.jpg",
@@ -834,8 +834,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 17304,
-    "anilist_score": 60,
+    "popularity": 17462,
+    "anilist_score": 59,
     "recently_finished": false,
     "popularity_rank": 29
   },
@@ -859,7 +859,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 16183,
+    "popularity": 16429,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 30
@@ -924,7 +924,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 14491,
+    "popularity": 14977,
     "anilist_score": 72,
     "recently_finished": false,
     "popularity_rank": 32
@@ -979,7 +979,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12922,
+    "popularity": 13065,
     "anilist_score": 70,
     "recently_finished": false,
     "popularity_rank": 34
@@ -989,8 +989,8 @@
     "mal_id": 61217,
     "name": "Yuusha no Kuzu",
     "english_title": "Scum of the Brave",
-    "episode": 14,
-    "release_date": "2026-04-18",
+    "episode": 15,
+    "release_date": null,
     "next_airing_date": "2026-04-25",
     "next_episode_number": 15,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187989-IjVYJxi0bEcr.jpg",
@@ -1019,7 +1019,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 12768,
+    "popularity": 12810,
     "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 35
@@ -1044,38 +1044,33 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12462,
+    "popularity": 12532,
     "anilist_score": 57,
     "recently_finished": false,
     "popularity_rank": 36
   },
   {
-    "id": 185211,
-    "mal_id": 60444,
-    "name": "Yowa Yowa Sensei",
-    "english_title": "Yowayowa Sensei",
-    "episode": 2,
-    "release_date": "2026-04-18",
+    "id": 198113,
+    "mal_id": 62391,
+    "name": "Kill Ao",
+    "english_title": "KILL BLUE",
+    "episode": 3,
+    "release_date": "2026-04-25",
     "next_airing_date": "2026-04-25",
     "next_episode_number": 3,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185211-ewfgT5Cn99k0.jpg",
-    "site_url": "https://anilist.co/anime/185211",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198113-NRa47idWSlnx.jpg",
+    "site_url": "https://anilist.co/anime/198113",
     "start_date": "2026-04-11",
     "end_date": null,
     "streaming_links": [
       {
-        "site": "HIDIVE",
-        "url": "https://www.hidive.com/season/35232",
-        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JgXUB10c8pdjrn7SUPo4IdI",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371896/kill-blue",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 11991,
-    "anilist_score": 61,
+    "popularity": 12316,
+    "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 37
   },
@@ -1104,33 +1099,38 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 11938,
+    "popularity": 11998,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 38
   },
   {
-    "id": 198113,
-    "mal_id": 62391,
-    "name": "Kill Ao",
-    "english_title": "KILL BLUE",
-    "episode": 2,
-    "release_date": "2026-04-18",
+    "id": 185211,
+    "mal_id": 60444,
+    "name": "Yowa Yowa Sensei",
+    "english_title": "Yowayowa Sensei",
+    "episode": 3,
+    "release_date": "2026-04-25",
     "next_airing_date": "2026-04-25",
     "next_episode_number": 3,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198113-NRa47idWSlnx.jpg",
-    "site_url": "https://anilist.co/anime/198113",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185211-ewfgT5Cn99k0.jpg",
+    "site_url": "https://anilist.co/anime/185211",
     "start_date": "2026-04-11",
     "end_date": null,
     "streaming_links": [
       {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371896/kill-blue",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+        "site": "HIDIVE",
+        "url": "https://www.hidive.com/season/35232",
+        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JgXUB10c8pdjrn7SUPo4IdI",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 11671,
-    "anilist_score": 71,
+    "popularity": 11991,
+    "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 39
   },
@@ -1154,7 +1154,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 11606,
+    "popularity": 11717,
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 40
@@ -1164,8 +1164,8 @@
     "mal_id": 62048,
     "name": "MAO",
     "english_title": "MAO",
-    "episode": 3,
-    "release_date": "2026-04-18",
+    "episode": 4,
+    "release_date": "2026-04-25",
     "next_airing_date": "2026-04-25",
     "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196012-R3YNjunufpYh.jpg",
@@ -1189,7 +1189,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 11492,
+    "popularity": 11588,
     "anilist_score": 66,
     "recently_finished": false,
     "popularity_rank": 41
@@ -1219,7 +1219,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 10813,
+    "popularity": 11127,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 42
@@ -1249,7 +1249,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 10701,
+    "popularity": 10791,
     "anilist_score": 70,
     "recently_finished": false,
     "popularity_rank": 43
@@ -1274,7 +1274,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 9900,
+    "popularity": 9954,
     "anilist_score": 58,
     "recently_finished": false,
     "popularity_rank": 44
@@ -1314,8 +1314,8 @@
     "mal_id": 62050,
     "name": "Kami no Niwatsuki Kusunoki-tei ",
     "english_title": "Kusunoki's Garden of Gods",
-    "episode": 3,
-    "release_date": "2026-04-18",
+    "episode": 4,
+    "release_date": "2026-04-25",
     "next_airing_date": "2026-04-25",
     "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196029-4ML0UHngkZhn.jpg",
@@ -1334,7 +1334,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 8801,
+    "popularity": 8908,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 46
@@ -1359,7 +1359,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 8727,
+    "popularity": 8760,
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 47
@@ -1390,6 +1390,36 @@
     "popularity_rank": 48
   },
   {
+    "id": 137662,
+    "mal_id": 62927,
+    "name": "Fangkai Nage Nüwu",
+    "english_title": "Release that Witch",
+    "episode": 8,
+    "release_date": "2026-04-21",
+    "next_airing_date": null,
+    "next_episode_number": 8,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137662-iZigHTc71wi7.png",
+    "site_url": "https://anilist.co/anime/137662",
+    "start_date": "2026-03-03",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Tencent Video",
+        "url": "https://v.qq.com/detail/t/mzc0020064ku1qb.html",
+        "icon": "https://www.google.com/s2/favicons?domain=v.qq.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00365589/release-that-witch",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 8394,
+    "anilist_score": 76,
+    "recently_finished": false,
+    "popularity_rank": 49
+  },
+  {
     "id": 206951,
     "mal_id": 63376,
     "name": "Megami \"Isekai Tensei Nani ni Naritai Desu ka\" Ore \"Yuusha no Rokkotsu de\"",
@@ -1414,10 +1444,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 8265,
+    "popularity": 8384,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 49
+    "popularity_rank": 50
   },
   {
     "id": 197868,
@@ -1439,10 +1469,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7679,
+    "popularity": 7743,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 50
+    "popularity_rank": 51
   },
   {
     "id": 196144,
@@ -1469,10 +1499,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
       }
     ],
-    "popularity": 7087,
-    "anilist_score": 61,
+    "popularity": 7171,
+    "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 51
+    "popularity_rank": 52
   },
   {
     "id": 181284,
@@ -1502,7 +1532,7 @@
     "popularity": 6258,
     "anilist_score": 58,
     "recently_finished": false,
-    "popularity_rank": 52
+    "popularity_rank": 53
   },
   {
     "id": 158036,
@@ -1527,7 +1557,7 @@
     "popularity": 6146,
     "anilist_score": 58,
     "recently_finished": false,
-    "popularity_rank": 53
+    "popularity_rank": 54
   },
   {
     "id": 177634,
@@ -1552,7 +1582,7 @@
     "popularity": 6093,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 54
+    "popularity_rank": 55
   },
   {
     "id": 202985,
@@ -1574,18 +1604,18 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5903,
+    "popularity": 5969,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 55
+    "popularity_rank": 56
   },
   {
     "id": 195734,
     "mal_id": 62018,
     "name": "Ichijouma Mankitsu-gurashi!",
     "english_title": "Ichijyoma Mankitsu Gurashi!",
-    "episode": 2,
-    "release_date": "2026-04-18",
+    "episode": 3,
+    "release_date": "2026-04-25",
     "next_airing_date": "2026-04-25",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195734-submxAA36thQ.jpg",
@@ -1593,10 +1623,10 @@
     "start_date": "2026-04-12",
     "end_date": null,
     "streaming_links": [],
-    "popularity": 5777,
+    "popularity": 5844,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 56
+    "popularity_rank": 57
   },
   {
     "id": 208352,
@@ -1618,10 +1648,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 5037,
-    "anilist_score": 70,
+    "popularity": 5186,
+    "anilist_score": 71,
     "recently_finished": true,
-    "popularity_rank": 57
+    "popularity_rank": 58
   },
   {
     "id": 169228,
@@ -1646,7 +1676,7 @@
     "popularity": 4442,
     "anilist_score": 56,
     "recently_finished": false,
-    "popularity_rank": 58
+    "popularity_rank": 59
   },
   {
     "id": 178749,
@@ -1671,7 +1701,7 @@
     "popularity": 3595,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 59
+    "popularity_rank": 60
   },
   {
     "id": 196840,
@@ -1687,10 +1717,10 @@
     "start_date": "2026-04-30",
     "end_date": null,
     "streaming_links": [],
-    "popularity": 3490,
+    "popularity": 3509,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 60
+    "popularity_rank": 61
   },
   {
     "id": 177508,
@@ -1720,7 +1750,7 @@
     "popularity": 3341,
     "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 61
+    "popularity_rank": 62
   },
   {
     "id": 202508,
@@ -1747,32 +1777,9 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 3233,
+    "popularity": 3264,
     "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 62
-  },
-  {
-    "id": 137662,
-    "mal_id": 62927,
-    "name": "Fangkai Nage Nüwu",
-    "english_title": "Release that Witch",
-    "episode": 1,
-    "release_date": "2026-03-03",
-    "next_airing_date": "2026-03-09",
-    "next_episode_number": 2,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137662-iZigHTc71wi7.png",
-    "site_url": "https://anilist.co/anime/137662",
-    "start_date": "2026-03-03",
-    "end_date": null,
-    "streaming_links": {},
-    "popularity": 2110,
-    "anilist_score": 62,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy",
-      "Romance"
-    ]
+    "popularity_rank": 63
   }
 ]
