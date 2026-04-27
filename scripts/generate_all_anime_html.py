@@ -558,8 +558,8 @@ def generate_html(catalog):
         const genres = anime.genres || [];
         const episodes = anime.episodes;
         const popularity = anime.popularity || 0;
-        const searchTitle = encodeURIComponent(eng || name);
-        const nineAnimeUrl = `https://9animetv.to/search?keyword=${{searchTitle}}`;
+        const nineAnimeQuery = new URLSearchParams({{ s: eng || name }}).toString();
+        const nineAnimeUrl = `https://9anime.me.uk/?${{nineAnimeQuery}}`;
         const isFav = isFavorite(id);
 
         const scoreBadge = score ? `<span class="score-badge">⭐ ${{score}}/100</span>` : '';
@@ -688,7 +688,8 @@ def generate_html(catalog):
     document.getElementById('ctx-9anime').addEventListener('click', () => {{
         if (contextTarget) {{
             const eng = contextTarget.dataset.english || contextTarget.dataset.name;
-            window.open(`https://9animetv.to/search?keyword=${{encodeURIComponent(eng)}}`, '_blank');
+            const nineAnimeQuery = new URLSearchParams({{ s: eng }}).toString();
+            window.open(`https://9anime.me.uk/?${{nineAnimeQuery}}`, '_blank');
         }}
         document.getElementById('context-menu').style.display = 'none';
     }});

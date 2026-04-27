@@ -3,6 +3,8 @@ import json
 from datetime import datetime, timedelta
 import os
 
+NINE_ANIME_SEARCH_BASE = "https://9anime.me.uk/"
+
 def normalize_title(title):
     """Normalize anime title for fuzzy matching"""
     if not title:
@@ -15,23 +17,28 @@ def normalize_title(title):
     return title
 
 def create_9anime_search_url(english_title):
-    """Create a 9animetv.to search URL from the English title"""
+    """Create a 9anime.me.uk search URL from the title."""
     if not english_title:
         return ""
 
-    # URL encode the title
-    from urllib.parse import quote
-    encoded_title = quote(english_title, safe='')
+    from urllib.parse import urlencode
+    return f"{NINE_ANIME_SEARCH_BASE}?{urlencode({'s': english_title})}"
 
-    # Create the search URL
-    return f"https://9animetv.to/search?keyword={encoded_title}"
+def normalize_9anime_url(url):
+    """Map legacy 9anime domains to the current base domain."""
+    if not url:
+        return ""
+    for legacy_base in ("https://9animetv.to/", "https://9anime.to/"):
+        if url.startswith(legacy_base):
+            return url.replace(legacy_base, NINE_ANIME_SEARCH_BASE, 1)
+    return url
 
 def find_9anime_link(anime_name, english_title, nine_anime_links):
     """Find 9anime link using fuzzy title matching, fallback to search URL"""
     # Try exact match first (original and English titles)
     for title in [anime_name, english_title]:
         if title and title in nine_anime_links:
-            return nine_anime_links[title]
+            return normalize_9anime_url(nine_anime_links[title])
 
     # Normalize titles for fuzzy matching
     normalized_anime = normalize_title(anime_name)
@@ -43,7 +50,7 @@ def find_9anime_link(anime_name, english_title, nine_anime_links):
 
         # Check if normalized titles match
         if normalized_anime == normalized_link or normalized_english == normalized_link:
-            return link_url
+            return normalize_9anime_url(link_url)
 
         # Check if one title contains the other (for partial matches)
         # This helps with "Boku no Hero Academia" vs "My Hero Academia"
@@ -62,7 +69,7 @@ def find_9anime_link(anime_name, english_title, nine_anime_links):
                 intersection = len(words_anime & words_link)
                 union = len(words_anime | words_link)
                 if intersection / union >= 0.6:
-                    return link_url
+                    return normalize_9anime_url(link_url)
 
     # Fallback: Create a 9anime search URL — prefer English title, fall back to Japanese
     search_title = english_title or anime_name
