@@ -11,6 +11,41 @@ ANILIST_API_URL = "https://graphql.anilist.co"
 CALENDAR_HISTORY_FILE = "data/calendar_history.json"
 CALENDAR_HISTORY_DAYS = 30
 
+
+def load_json_file(path, default):
+    """Load a JSON file if it exists, otherwise return the provided default."""
+    if not os.path.exists(path):
+        return default
+
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except (OSError, json.JSONDecodeError) as e:
+        print(f"Warning: Failed to load {path}: {e}")
+        return default
+
+
+def normalize_streaming_links(value):
+    """Ensure streaming links always use the list shape expected by the site."""
+    if isinstance(value, list):
+        return [link for link in value if isinstance(link, dict)]
+    return []
+
+
+def normalize_anime_entry(anime):
+    """Normalize persisted/manual anime objects to the current schema."""
+    normalized = dict(anime)
+    normalized['streaming_links'] = normalize_streaming_links(anime.get('streaming_links'))
+    return normalized
+
+
+def rerank_anime(anime_list):
+    """Sort anime by popularity and refresh popularity ranks after merges."""
+    anime_list.sort(key=lambda x: x.get('popularity', 0), reverse=True)
+    for rank, anime in enumerate(anime_list, 1):
+        anime['popularity_rank'] = rank
+    return anime_list
+
 def make_anilist_request(query, variables, retry_count=3):
     """Makes a request to the AniList API with retries for transient errors."""
     for attempt in range(retry_count):
@@ -19,9 +54,21 @@ def make_anilist_request(query, variables, retry_count=3):
             response.raise_for_status()
             return response.json()
         except requests.exceptions.HTTPError as e:
+            response = e.response
+            if response is not None and response.status_code == 403:
+                try:
+                    error_payload = response.json()
+                except ValueError:
+                    error_payload = {'errors': [{'message': response.text}]}
+
+                errors = error_payload.get('errors') or []
+                if any('temporarily disabled' in (err.get('message') or '').lower() for err in errors):
+                    print("AniList API is temporarily unavailable. Preserving the existing dataset.")
+                    return {'service_unavailable': True, 'errors': errors}
+
             # Retry on 500-level errors or rate limiting
-            if e.response.status_code >= 500 or e.response.status_code == 429:
-                print(f"API Error ({e.response.status_code}). Retrying in {2**attempt}s...")
+            if response.status_code >= 500 or response.status_code == 429:
+                print(f"API Error ({response.status_code}). Retrying in {2**attempt}s...")
                 time.sleep(2**attempt)
             else:
                 print(f"HTTP Error: {e}")
@@ -180,6 +227,7 @@ def fetch_current_anime():
     '''
     
     all_anime = []
+    any_successful_request = False
     
     try:
         # 1. Fetch all RELEASING anime
@@ -190,7 +238,10 @@ def fetch_current_anime():
         while True:
             variables = {'page': page, 'perPage': per_page}
             data = make_anilist_request(query_releasing, variables)
+            if data and data.get('service_unavailable'):
+                return None
             if not data or 'data' not in data: break
+            any_successful_request = True
             page_data = data['data']['Page']
             all_anime.extend(page_data['media'])
             if not page_data['pageInfo']['hasNextPage']: break
@@ -208,7 +259,10 @@ def fetch_current_anime():
         while True:
             variables = {'page': page, 'perPage': per_page, 'startDate': start_fuzzy, 'endDate': end_fuzzy}
             data = make_anilist_request(query_finished, variables)
+            if data and data.get('service_unavailable'):
+                return None
             if not data or 'data' not in data: break
+            any_successful_request = True
             page_data = data['data']['Page']
             finished_anime = page_data['media']
             all_anime.extend(finished_anime)
@@ -227,7 +281,10 @@ def fetch_current_anime():
         while True:
             variables = {'page': page, 'perPage': per_page, 'startDate': yesterday_fuzzy, 'endDate': future_end_fuzzy}
             data = make_anilist_request(query_finished, variables)
+            if data and data.get('service_unavailable'):
+                return None
             if not data or 'data' not in data: break
+            any_successful_request = True
             page_data = data['data']['Page']
             future_finished_anime = page_data['media']
             all_anime.extend(future_finished_anime)
@@ -244,13 +301,20 @@ def fetch_current_anime():
         while True:
             variables = {'page': page, 'perPage': per_page, 'season': current_season, 'seasonYear': current_year}
             data = make_anilist_request(query_upcoming_current_season, variables)
+            if data and data.get('service_unavailable'):
+                return None
             if not data or 'data' not in data: break
+            any_successful_request = True
             page_data = data['data']['Page']
             upcoming_current_anime = page_data['media']
             all_anime.extend(upcoming_current_anime)
             if not page_data['pageInfo']['hasNextPage']: break
             page += 1
             print(f"Fetched page {page-1} of upcoming current-season anime, added {len(upcoming_current_anime)} anime")
+
+        if not any_successful_request:
+            print("No AniList requests succeeded. Preserving the existing dataset.")
+            return None
 
         print(f"Total anime fetched (airing, finished, upcoming): {len(all_anime)}")
         
@@ -310,6 +374,7 @@ def fetch_upcoming_seasonal_anime():
     '''
     
     all_anime = []
+    any_successful_request = False
     page = 1
     per_page = 50
     
@@ -323,10 +388,13 @@ def fetch_upcoming_seasonal_anime():
             }
             
             data = make_anilist_request(query, variables)
+            if data and data.get('service_unavailable'):
+                return None
             
             if not data or 'data' not in data:
                 break
                 
+            any_successful_request = True
             page_data = data['data']['Page']
             all_anime.extend(page_data['media'])
             
@@ -337,6 +405,9 @@ def fetch_upcoming_seasonal_anime():
             page += 1
             print(f"Fetched upcoming page {page-1}, total anime so far: {len(all_anime)}")
         
+        if not any_successful_request:
+            return None
+
         return {'data': {'Page': {'media': all_anime}}}
         
     except Exception as e:
@@ -1019,10 +1090,15 @@ def main():
     # Fetch data from API
     api_data = fetch_current_anime()
     if not api_data:
-        raise ConnectionError("Failed to fetch data from AniList API.")
+        print("Skipped updating anime data because AniList live data is unavailable.")
+        return
     
     # Process the data
     processed_data = process_anime_data(api_data)
+    if not processed_data:
+        print("Processed dataset is empty. Preserving the existing anime data files.")
+        return
+
     print(f"Processed {len(processed_data)} anime")
     
     # Get today's and tomorrow's dates (using Eastern Time)
@@ -1030,19 +1106,25 @@ def main():
     today = datetime.now(eastern).strftime('%Y-%m-%d')
     tomorrow = (datetime.now(eastern) + timedelta(days=1)).strftime('%Y-%m-%d')
     
-    # Sort other anime with custom logic
-    other_anime_sorted, recently_finished_sorted = sort_other_anime(processed_data, today, tomorrow)
-    
     # Merge manual_anime.json entries (anime too obscure to be auto-fetched)
     manual_path = 'data/manual_anime.json'
     if os.path.exists(manual_path):
-        with open(manual_path, 'r', encoding='utf-8') as f:
-            manual_entries = json.load(f)
+        manual_entries = load_json_file(manual_path, [])
         existing_ids = {a.get('id') for a in processed_data}
-        added = sum(1 for e in manual_entries if e.get('id') not in existing_ids)
-        processed_data.extend(e for e in manual_entries if e.get('id') not in existing_ids)
+        added_entries = [
+            normalize_anime_entry(entry)
+            for entry in manual_entries
+            if entry.get('id') not in existing_ids
+        ]
+        added = len(added_entries)
+        processed_data.extend(added_entries)
         if added:
             print(f"Merged {added} manual anime entries")
+
+    rerank_anime(processed_data)
+
+    # Sort other anime with custom logic after manual entries have been merged
+    other_anime_sorted, recently_finished_sorted = sort_other_anime(processed_data, today, tomorrow)
 
     update_calendar_history(processed_data, today)
 
@@ -1063,7 +1145,7 @@ def main():
     print(f"Fetching upcoming {next_season.lower()} {next_year} anime...")
     
     upcoming_api_data = fetch_upcoming_seasonal_anime()
-    upcoming_anime = []
+    upcoming_anime = load_json_file('data/upcoming_seasonal_anime.json', [])
     if upcoming_api_data:
         upcoming_anime = process_upcoming_anime_data(upcoming_api_data)
         print(f"Processed {len(upcoming_anime)} upcoming anime")
@@ -1072,7 +1154,7 @@ def main():
         with open('data/upcoming_seasonal_anime.json', 'w', encoding='utf-8') as f:
             json.dump(upcoming_anime, f, ensure_ascii=False, indent=2)
     else:
-        print("Failed to fetch upcoming seasonal anime data")
+        print("Upcoming seasonal anime fetch failed. Preserving the existing upcoming dataset.")
     
     # Save metadata
     metadata = {

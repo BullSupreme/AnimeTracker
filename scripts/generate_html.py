@@ -5,6 +5,23 @@ import os
 
 NINE_ANIME_SEARCH_BASE = "https://9anime.me.uk/"
 
+
+def normalize_streaming_links(value):
+    """Ensure streaming links always use the list shape expected by the UI."""
+    if isinstance(value, list):
+        return [link for link in value if isinstance(link, dict)]
+    return []
+
+
+def normalize_anime_list(anime_list):
+    """Normalize anime objects loaded from disk."""
+    normalized = []
+    for anime in anime_list or []:
+        anime_copy = dict(anime)
+        anime_copy['streaming_links'] = normalize_streaming_links(anime.get('streaming_links'))
+        normalized.append(anime_copy)
+    return normalized
+
 def normalize_title(title):
     """Normalize anime title for fuzzy matching"""
     if not title:
@@ -82,10 +99,10 @@ def load_data():
     """Load anime data and metadata"""
     try:
         with open('data/anime_data.json', 'r', encoding='utf-8') as f:
-            anime_data = json.load(f)
+            anime_data = normalize_anime_list(json.load(f))
         
         with open('data/other_anime_sorted.json', 'r', encoding='utf-8') as f:
-            other_anime_sorted = json.load(f)
+            other_anime_sorted = normalize_anime_list(json.load(f))
         
         with open('data/metadata.json', 'r', encoding='utf-8') as f:
             metadata = json.load(f)
@@ -95,7 +112,7 @@ def load_data():
         upcoming_path = 'data/upcoming_seasonal_anime.json'
         if os.path.exists(upcoming_path):
             with open(upcoming_path, 'r', encoding='utf-8') as f:
-                upcoming_anime = json.load(f)
+                upcoming_anime = normalize_anime_list(json.load(f))
         
         # Load manual streaming links
         manual_streaming_links = {}
@@ -109,14 +126,14 @@ def load_data():
         recently_finished_path = 'data/recently_finished_anime.json'
         if os.path.exists(recently_finished_path):
             with open(recently_finished_path, 'r', encoding='utf-8') as f:
-                recently_finished_anime = json.load(f)
+                recently_finished_anime = normalize_anime_list(json.load(f))
 
         # Load calendar history
         calendar_history = []
         calendar_history_path = 'data/calendar_history.json'
         if os.path.exists(calendar_history_path):
             with open(calendar_history_path, 'r', encoding='utf-8') as f:
-                calendar_history = json.load(f)
+                calendar_history = normalize_anime_list(json.load(f))
 
         # Load 9anime links
         nine_anime_links = {}

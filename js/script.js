@@ -16,6 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
         document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/`;
     }
 
+    function getStreamingLinks(anime) {
+        return Array.isArray(anime?.streaming_links) ? anime.streaming_links : [];
+    }
+
     function sanitizeLink(link) {
         if (!link.startsWith('https://')) {
             return 'https://www.google.com';
@@ -426,6 +430,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const animeDiv = document.createElement('div');
                 animeDiv.className = 'calendar-anime-item';
                 animeDiv.setAttribute('data-anime-id', anime.id);
+                const streamingLinks = getStreamingLinks(anime);
                 
                 // Add favorite class if anime is favorited
                 if (favorites.includes(anime.id.toString())) {
@@ -458,12 +463,12 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${linkDomain}
                         </button>
                     </div>
-                    <div class="tooltip-info">
-                        <h4>${anime.name}</h4>
-                        ${anime.english_title ? `<p class="tooltip-english">${anime.english_title}</p>` : ''}
-                        <p class="tooltip-episode">Episode ${anime.episode}</p>
-                        <div class="tooltip-streaming">
-                            ${anime.streaming_links.map(link => `
+                        <div class="tooltip-info">
+                            <h4>${anime.name}</h4>
+                            ${anime.english_title ? `<p class="tooltip-english">${anime.english_title}</p>` : ''}
+                            <p class="tooltip-episode">Episode ${anime.episode}</p>
+                            <div class="tooltip-streaming">
+                            ${streamingLinks.map(link => `
                                 <a href="${link.url}" target="_blank" class="tooltip-streaming-link">
                                     <img src="${link.icon}" alt="${link.site}">
                                     <span>${link.site}</span>
@@ -566,6 +571,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     ${animeList.map(anime => {
                         const customLink = window.customLinks[anime.name] || anime.site_url;
                         const isFavorite = favorites.includes(anime.id.toString());
+                        const streamingLinks = getStreamingLinks(anime);
                         
                         return `
                             <div class="expanded-anime-card ${isFavorite ? 'favorite' : ''}" data-anime-id="${anime.id}" onclick="showAnimeModal(${JSON.stringify(anime).replace(/"/g, '&quot;')})">
@@ -589,12 +595,12 @@ document.addEventListener('DOMContentLoaded', () => {
                                             `<span class="expanded-next-episode">Next: ${anime.next_episode_number || anime.episode + 1}</span>` : ''}
                                     </div>
                                     <div class="expanded-streaming-links">
-                                        ${anime.streaming_links.slice(0, 3).map(link => `
+                                        ${streamingLinks.slice(0, 3).map(link => `
                                             <a href="${link.url}" target="_blank" class="expanded-streaming-link" title="${link.site}" onclick="event.stopPropagation()">
                                                 <img src="${link.icon}" alt="${link.site}">
                                             </a>
                                         `).join('')}
-                                        ${anime.streaming_links.length > 3 ? `<span class="more-links">+${anime.streaming_links.length - 3}</span>` : ''}
+                                        ${streamingLinks.length > 3 ? `<span class="more-links">+${streamingLinks.length - 3}</span>` : ''}
                                     </div>
                                 </div>
                             </div>
@@ -616,6 +622,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const customLink = window.customLinks[anime.name] || anime.site_url;
         const isFavorite = favorites.includes(anime.id.toString());
         const nineAnimeUrl = window.nineAnimeUrls && window.nineAnimeUrls[anime.id.toString()];
+        const streamingLinks = getStreamingLinks(anime);
 
         const linkDomain = new URL(customLink).hostname;
 
@@ -644,7 +651,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${nineAnimeUrl ? `<a href="${nineAnimeUrl}" target="_blank" class="nine-anime-btn modal-nine-anime-btn">9anime</a>` : ''}
                         </div>
                         <div class="modal-streaming-links">
-                            ${(anime.streaming_links || []).map(link => `
+                            ${streamingLinks.map(link => `
                                 <a href="${link.url}" target="_blank" class="modal-streaming-link">
                                     <img src="${link.icon}" alt="${link.site}">
                                     <span>${link.site}</span>

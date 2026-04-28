@@ -6,16 +6,19 @@ on:
     - cron: '0 8,20 * * *'
   workflow_dispatch: # Allow manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   update-data:
     runs-on: ubuntu-latest
     
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v6
       with:
         python-version: '3.11'
         
@@ -40,7 +43,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add data/anime_data.json data/other_anime_sorted.json data/metadata.json data/upcoming_seasonal_anime.json index.html
+        git add data/anime_data.json data/other_anime_sorted.json data/recently_finished_anime.json data/calendar_history.json data/metadata.json data/upcoming_seasonal_anime.json index.html
         if [ -f all-anime.html ]; then git add all-anime.html; fi
         git diff --staged --quiet || git commit -m "🤖 Auto-update anime data - $(date '+%Y-%m-%d %H:%M UTC')"
         git push
