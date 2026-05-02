@@ -18,7 +18,7 @@
       "Ecchi",
       "Fantasy"
     ],
-    "popularity": 64889,
+    "popularity": 65123,
     "favourites": 1117,
     "anilist_score": null,
     "streaming_links": [],
@@ -41,7 +41,7 @@
       "Action",
       "Fantasy"
     ],
-    "popularity": 52772,
+    "popularity": 52896,
     "favourites": 632,
     "anilist_score": null,
     "streaming_links": [],
@@ -65,7 +65,7 @@
       "Adventure",
       "Supernatural"
     ],
-    "popularity": 36134,
+    "popularity": 36257,
     "favourites": 766,
     "anilist_score": null,
     "streaming_links": [],
@@ -89,7 +89,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 21586,
+    "popularity": 21661,
     "favourites": 259,
     "anilist_score": null,
     "streaming_links": [],
@@ -114,34 +114,11 @@
       "Mecha",
       "Romance"
     ],
-    "popularity": 19784,
+    "popularity": 19847,
     "favourites": 320,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 5
-  },
-  {
-    "id": 103303,
-    "mal_id": 62856,
-    "name": "Nijuuseiki Denki Mokuroku: Eureka・Evrika",
-    "english_title": "Sparks of Tomorrow",
-    "episode": 1,
-    "release_date": "2026-07-05",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103303-qWzNx2EaWT78.jpg",
-    "site_url": "https://anilist.co/anime/103303",
-    "start_date": "2026-07-05",
-    "season": "Summer",
-    "season_year": 2026,
-    "studios": "Kyoto Animation, Heart Company",
-    "genres": [
-      "Adventure",
-      "Romance"
-    ],
-    "popularity": 19418,
-    "favourites": 129,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 6
   },
   {
     "id": 196187,
@@ -161,8 +138,31 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 19324,
+    "popularity": 19462,
     "favourites": 210,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 6
+  },
+  {
+    "id": 103303,
+    "mal_id": 62856,
+    "name": "Nijuuseiki Denki Mokuroku: Eureka・Evrika",
+    "english_title": "Sparks of Tomorrow",
+    "episode": 1,
+    "release_date": "2026-07-05",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103303-qWzNx2EaWT78.jpg",
+    "site_url": "https://anilist.co/anime/103303",
+    "start_date": "2026-07-05",
+    "season": "Summer",
+    "season_year": 2026,
+    "studios": "Kyoto Animation, Heart Company",
+    "genres": [
+      "Adventure",
+      "Romance"
+    ],
+    "popularity": 19450,
+    "favourites": 129,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 7
@@ -185,7 +185,7 @@
       "Slice of Life",
       "Sports"
     ],
-    "popularity": 16730,
+    "popularity": 16792,
     "favourites": 179,
     "anilist_score": null,
     "streaming_links": [],
@@ -210,7 +210,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 15133,
+    "popularity": 15194,
     "favourites": 219,
     "anilist_score": null,
     "streaming_links": [],
@@ -259,7 +259,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 14467,
+    "popularity": 14546,
     "favourites": 137,
     "anilist_score": null,
     "streaming_links": [],
@@ -283,7 +283,7 @@
       "Psychological",
       "Sci-Fi"
     ],
-    "popularity": 13520,
+    "popularity": 13574,
     "favourites": 108,
     "anilist_score": null,
     "streaming_links": [],
@@ -308,7 +308,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 12960,
+    "popularity": 13014,
     "favourites": 146,
     "anilist_score": null,
     "streaming_links": [],
@@ -332,7 +332,7 @@
       "Ecchi",
       "Romance"
     ],
-    "popularity": 12795,
+    "popularity": 12848,
     "favourites": 196,
     "anilist_score": null,
     "streaming_links": [],
@@ -355,7 +355,7 @@
       "Action",
       "Adventure"
     ],
-    "popularity": 12467,
+    "popularity": 12492,
     "favourites": 80,
     "anilist_score": null,
     "streaming_links": [],
@@ -381,7 +381,7 @@
       "Sci-Fi",
       "Supernatural"
     ],
-    "popularity": 9865,
+    "popularity": 9911,
     "favourites": 115,
     "anilist_score": null,
     "streaming_links": [],
@@ -403,7 +403,7 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 9266,
+    "popularity": 9285,
     "favourites": 51,
     "anilist_score": null,
     "streaming_links": [],
@@ -426,7 +426,7 @@
       "Action",
       "Fantasy"
     ],
-    "popularity": 8452,
+    "popularity": 8483,
     "favourites": 138,
     "anilist_score": null,
     "streaming_links": [],
@@ -448,7 +448,7 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 7511,
+    "popularity": 7628,
     "favourites": 50,
     "anilist_score": null,
     "streaming_links": [],
@@ -470,7 +470,7 @@
     "genres": [
       "Supernatural"
     ],
-    "popularity": 6458,
+    "popularity": 6474,
     "favourites": 21,
     "anilist_score": null,
     "streaming_links": [],
@@ -517,7 +517,7 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 6163,
+    "popularity": 6189,
     "favourites": 41,
     "anilist_score": null,
     "streaming_links": [],
@@ -540,7 +540,7 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 6000,
+    "popularity": 6027,
     "favourites": 36,
     "anilist_score": null,
     "streaming_links": [],
@@ -562,7 +562,7 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 5234,
+    "popularity": 5258,
     "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
@@ -585,7 +585,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 4639,
+    "popularity": 4686,
     "favourites": 57,
     "anilist_score": null,
     "streaming_links": [],
@@ -609,7 +609,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 4615,
+    "popularity": 4626,
     "favourites": 62,
     "anilist_score": null,
     "streaming_links": [],
@@ -632,7 +632,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 4421,
+    "popularity": 4450,
     "favourites": 57,
     "anilist_score": null,
     "streaming_links": [],
@@ -657,7 +657,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 4276,
+    "popularity": 4302,
     "favourites": 68,
     "anilist_score": null,
     "streaming_links": [],
@@ -681,7 +681,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 3945,
+    "popularity": 3958,
     "favourites": 40,
     "anilist_score": null,
     "streaming_links": [],
@@ -704,7 +704,7 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 3744,
+    "popularity": 3794,
     "favourites": 24,
     "anilist_score": null,
     "streaming_links": [],
@@ -728,7 +728,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3691,
+    "popularity": 3724,
     "favourites": 56,
     "anilist_score": null,
     "streaming_links": [],
@@ -753,7 +753,7 @@
       "Fantasy",
       "Mahou Shoujo"
     ],
-    "popularity": 3406,
+    "popularity": 3408,
     "favourites": 25,
     "anilist_score": null,
     "streaming_links": [],
@@ -776,7 +776,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3128,
+    "popularity": 3140,
     "favourites": 32,
     "anilist_score": null,
     "streaming_links": [],
@@ -802,7 +802,7 @@
       "Fantasy",
       "Mahou Shoujo"
     ],
-    "popularity": 2920,
+    "popularity": 2922,
     "favourites": 32,
     "anilist_score": null,
     "streaming_links": [],
@@ -828,11 +828,34 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2693,
+    "popularity": 2706,
     "favourites": 23,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 35
+  },
+  {
+    "id": 199408,
+    "mal_id": 62289,
+    "name": "Buchigire Reijou wa Houfuku wo Chikaimashita.: Madousho no Chikara de Sokoku wo Tataki Tsubushimasu",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-07-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199408-sz4goepjt5C8.jpg",
+    "site_url": "https://anilist.co/anime/199408",
+    "start_date": "2026-07-01",
+    "season": "Summer",
+    "season_year": 2026,
+    "studios": "Studio Comet, Hobby Japan",
+    "genres": [
+      "Drama",
+      "Fantasy"
+    ],
+    "popularity": 2520,
+    "favourites": 21,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 36
   },
   {
     "id": 198409,
@@ -852,31 +875,8 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2494,
+    "popularity": 2504,
     "favourites": 34,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 36
-  },
-  {
-    "id": 199408,
-    "mal_id": 62289,
-    "name": "Buchigire Reijou wa Houfuku wo Chikaimashita.: Madousho no Chikara de Sokoku wo Tataki Tsubushimasu",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-07-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199408-sz4goepjt5C8.jpg",
-    "site_url": "https://anilist.co/anime/199408",
-    "start_date": "2026-07-01",
-    "season": "Summer",
-    "season_year": 2026,
-    "studios": "Studio Comet, Hobby Japan",
-    "genres": [
-      "Drama",
-      "Fantasy"
-    ],
-    "popularity": 2487,
-    "favourites": 21,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 37
@@ -902,7 +902,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 2405,
+    "popularity": 2418,
     "favourites": 27,
     "anilist_score": null,
     "streaming_links": [],
@@ -927,7 +927,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2242,
+    "popularity": 2254,
     "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
@@ -950,7 +950,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 2154,
+    "popularity": 2163,
     "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
@@ -974,7 +974,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 2083,
+    "popularity": 2106,
     "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
@@ -997,7 +997,7 @@
       "Ecchi",
       "Slice of Life"
     ],
-    "popularity": 1909,
+    "popularity": 1911,
     "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
@@ -1021,7 +1021,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 1848,
+    "popularity": 1854,
     "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
@@ -1045,7 +1045,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 1684,
+    "popularity": 1695,
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
@@ -1069,7 +1069,7 @@
       "Horror",
       "Supernatural"
     ],
-    "popularity": 1606,
+    "popularity": 1609,
     "favourites": 13,
     "anilist_score": null,
     "streaming_links": [],
@@ -1091,7 +1091,7 @@
     "genres": [
       "Music"
     ],
-    "popularity": 1554,
+    "popularity": 1562,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
@@ -1114,34 +1114,11 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 1537,
+    "popularity": 1546,
     "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 47
-  },
-  {
-    "id": 188525,
-    "mal_id": 61280,
-    "name": "Kore Kaite Shine",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-07-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188525-TBVfJaCZrcfg.jpg",
-    "site_url": "https://anilist.co/anime/188525",
-    "start_date": "2026-07-01",
-    "season": "Summer",
-    "season_year": 2026,
-    "studios": "Shin-Ei Animation, Nippon Television Network",
-    "genres": [
-      "Comedy",
-      "Slice of Life"
-    ],
-    "popularity": 1343,
-    "favourites": 9,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 48
   },
   {
     "id": 196356,
@@ -1160,8 +1137,31 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 1331,
+    "popularity": 1373,
     "favourites": 12,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 48
+  },
+  {
+    "id": 188525,
+    "mal_id": 61280,
+    "name": "Kore Kaite Shine",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-07-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188525-TBVfJaCZrcfg.jpg",
+    "site_url": "https://anilist.co/anime/188525",
+    "start_date": "2026-07-01",
+    "season": "Summer",
+    "season_year": 2026,
+    "studios": "Shin-Ei Animation, Nippon Television Network",
+    "genres": [
+      "Comedy",
+      "Slice of Life"
+    ],
+    "popularity": 1346,
+    "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 49
@@ -1180,7 +1180,7 @@
     "season_year": 2026,
     "studios": "A-1 Pictures, Psyde Kick Studio",
     "genres": [],
-    "popularity": 1245,
+    "popularity": 1252,
     "favourites": 6,
     "anilist_score": null,
     "streaming_links": [],
@@ -1204,7 +1204,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 1198,
+    "popularity": 1207,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
@@ -1229,7 +1229,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 1055,
+    "popularity": 1073,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
