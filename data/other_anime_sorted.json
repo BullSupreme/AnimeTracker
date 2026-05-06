@@ -512,6 +512,11 @@
         "site": "YouTube",
         "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jh6jFqpP-B97p7eUzipzZzv",
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "Amazon Prime Video",
+        "url": "https://www.amazon.co.jp/gp/video/detail/amzn1.dv.gti.216799c0-8263-4bc4-b95a-d91f002591c8",
+        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
     "popularity": 12745,
@@ -614,7 +619,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 689349,
+    "popularity": 689723,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
