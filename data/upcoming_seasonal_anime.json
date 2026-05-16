@@ -19,7 +19,7 @@
       "Fantasy"
     ],
     "popularity": 70365,
-    "favourites": 1258,
+    "favourites": 1264,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 1
@@ -42,7 +42,7 @@
       "Fantasy"
     ],
     "popularity": 55380,
-    "favourites": 692,
+    "favourites": 699,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 2
@@ -66,7 +66,7 @@
       "Supernatural"
     ],
     "popularity": 38786,
-    "favourites": 862,
+    "favourites": 866,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 3
@@ -89,8 +89,8 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 22779,
-    "favourites": 282,
+    "popularity": 22851,
+    "favourites": 279,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 4
@@ -113,8 +113,8 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 21942,
-    "favourites": 245,
+    "popularity": 22138,
+    "favourites": 246,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 5
@@ -139,7 +139,7 @@
       "Romance"
     ],
     "popularity": 21001,
-    "favourites": 353,
+    "favourites": 354,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 6
@@ -162,7 +162,7 @@
       "Romance"
     ],
     "popularity": 20298,
-    "favourites": 130,
+    "favourites": 131,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 7
@@ -185,11 +185,36 @@
       "Slice of Life",
       "Sports"
     ],
-    "popularity": 17637,
+    "popularity": 17694,
     "favourites": 192,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 8
+  },
+  {
+    "id": 210031,
+    "mal_id": 63832,
+    "name": "Seihantai na Kimi to Boku 2nd Season",
+    "english_title": "You and I Are Polar Opposites Season 2",
+    "episode": 1,
+    "release_date": "2026-07-05",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx210031-KX5ojmxY7XtY.png",
+    "site_url": "https://anilist.co/anime/210031",
+    "start_date": "2026-07-05",
+    "season": "Summer",
+    "season_year": 2026,
+    "studios": "Lapin Track, Shouchiku",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance",
+      "Slice of Life"
+    ],
+    "popularity": 16315,
+    "favourites": 111,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 9
   },
   {
     "id": 185542,
@@ -214,31 +239,6 @@
     "favourites": 237,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 9
-  },
-  {
-    "id": 210031,
-    "mal_id": 63832,
-    "name": "Seihantai na Kimi to Boku 2nd Season",
-    "english_title": "You and I Are Polar Opposites Season 2",
-    "episode": 1,
-    "release_date": "2026-07-05",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx210031-KX5ojmxY7XtY.png",
-    "site_url": "https://anilist.co/anime/210031",
-    "start_date": "2026-07-05",
-    "season": "Summer",
-    "season_year": 2026,
-    "studios": "Lapin Track, Shouchiku",
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Romance",
-      "Slice of Life"
-    ],
-    "popularity": 16220,
-    "favourites": 111,
-    "anilist_score": null,
-    "streaming_links": [],
     "popularity_rank": 10
   },
   {
@@ -259,8 +259,8 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 15465,
-    "favourites": 149,
+    "popularity": 15511,
+    "favourites": 150,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 11
@@ -284,7 +284,7 @@
       "Sci-Fi"
     ],
     "popularity": 15147,
-    "favourites": 125,
+    "favourites": 126,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 12
@@ -308,7 +308,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 14316,
+    "popularity": 14391,
     "favourites": 164,
     "anilist_score": null,
     "streaming_links": [],
@@ -332,8 +332,8 @@
       "Ecchi",
       "Romance"
     ],
-    "popularity": 14021,
-    "favourites": 214,
+    "popularity": 14085,
+    "favourites": 215,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 14
@@ -381,8 +381,8 @@
       "Sci-Fi",
       "Supernatural"
     ],
-    "popularity": 10766,
-    "favourites": 124,
+    "popularity": 10830,
+    "favourites": 125,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 16
@@ -403,7 +403,7 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 9785,
+    "popularity": 9812,
     "favourites": 56,
     "anilist_score": null,
     "streaming_links": [],
@@ -427,7 +427,7 @@
       "Fantasy"
     ],
     "popularity": 9476,
-    "favourites": 148,
+    "favourites": 149,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 18
@@ -472,8 +472,8 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 7357,
-    "favourites": 106,
+    "popularity": 7435,
+    "favourites": 107,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 20
@@ -495,7 +495,7 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 6744,
+    "popularity": 6779,
     "favourites": 41,
     "anilist_score": null,
     "streaming_links": [],
@@ -540,7 +540,7 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 6527,
+    "popularity": 6562,
     "favourites": 40,
     "anilist_score": null,
     "streaming_links": [],
@@ -562,7 +562,7 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 5770,
+    "popularity": 5808,
     "favourites": 27,
     "anilist_score": null,
     "streaming_links": [],
@@ -585,7 +585,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 5409,
+    "popularity": 5482,
     "favourites": 71,
     "anilist_score": null,
     "streaming_links": [],
@@ -610,8 +610,8 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 5110,
-    "favourites": 77,
+    "popularity": 5163,
+    "favourites": 78,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 26
@@ -634,7 +634,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 5026,
+    "popularity": 5061,
     "favourites": 69,
     "anilist_score": null,
     "streaming_links": [],
@@ -681,11 +681,34 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 4406,
+    "popularity": 4478,
     "favourites": 75,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 29
+  },
+  {
+    "id": 202269,
+    "mal_id": 62936,
+    "name": "Toumei na Yoru ni Kakeru Kimi to, Me ni Mienai Koi wo Shita.",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-07-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202269-YLPqiMg2nsTr.jpg",
+    "site_url": "https://anilist.co/anime/202269",
+    "start_date": "2026-07-01",
+    "season": "Summer",
+    "season_year": 2026,
+    "studios": "Shouchiku, Makaria",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "popularity": 4356,
+    "favourites": 29,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 30
   },
   {
     "id": 204466,
@@ -705,31 +728,8 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 4320,
+    "popularity": 4348,
     "favourites": 44,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 30
-  },
-  {
-    "id": 202269,
-    "mal_id": 62936,
-    "name": "Toumei na Yoru ni Kakeru Kimi to, Me ni Mienai Koi wo Shita.",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-07-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202269-YLPqiMg2nsTr.jpg",
-    "site_url": "https://anilist.co/anime/202269",
-    "start_date": "2026-07-01",
-    "season": "Summer",
-    "season_year": 2026,
-    "studios": "Shouchiku, Makaria",
-    "genres": [
-      "Drama",
-      "Romance"
-    ],
-    "popularity": 4258,
-    "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 31
@@ -799,7 +799,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3432,
+    "popularity": 3463,
     "favourites": 35,
     "anilist_score": null,
     "streaming_links": [],
@@ -851,7 +851,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2909,
+    "popularity": 2930,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
@@ -875,7 +875,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2813,
+    "popularity": 2845,
     "favourites": 44,
     "anilist_score": null,
     "streaming_links": [],
@@ -898,7 +898,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 2793,
+    "popularity": 2827,
     "favourites": 24,
     "anilist_score": null,
     "streaming_links": [],
@@ -925,7 +925,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 2688,
+    "popularity": 2717,
     "favourites": 32,
     "anilist_score": null,
     "streaming_links": [],
@@ -976,7 +976,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2457,
+    "popularity": 2481,
     "favourites": 20,
     "anilist_score": null,
     "streaming_links": [],
@@ -1000,7 +1000,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 2438,
+    "popularity": 2478,
     "favourites": 21,
     "anilist_score": null,
     "streaming_links": [],
@@ -1023,7 +1023,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 2431,
+    "popularity": 2455,
     "favourites": 25,
     "anilist_score": null,
     "streaming_links": [],
@@ -1047,7 +1047,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2107,
+    "popularity": 2130,
     "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
@@ -1094,7 +1094,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 1932,
+    "popularity": 1969,
     "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
@@ -1118,7 +1118,7 @@
       "Horror",
       "Supernatural"
     ],
-    "popularity": 1760,
+    "popularity": 1771,
     "favourites": 13,
     "anilist_score": null,
     "streaming_links": [],
@@ -1141,7 +1141,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 1728,
+    "popularity": 1748,
     "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
@@ -1163,7 +1163,7 @@
     "genres": [
       "Music"
     ],
-    "popularity": 1676,
+    "popularity": 1679,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
@@ -1186,7 +1186,7 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 1620,
+    "popularity": 1648,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
@@ -1209,7 +1209,7 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 1518,
+    "popularity": 1521,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
@@ -1229,7 +1229,7 @@
     "season_year": 2026,
     "studios": "A-1 Pictures, Psyde Kick Studio",
     "genres": [],
-    "popularity": 1378,
+    "popularity": 1392,
     "favourites": 7,
     "anilist_score": null,
     "streaming_links": [],
@@ -1254,7 +1254,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 1354,
+    "popularity": 1391,
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
@@ -1278,7 +1278,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 1309,
+    "popularity": 1323,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
