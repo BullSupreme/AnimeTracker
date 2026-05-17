@@ -41,7 +41,7 @@
       "Action",
       "Fantasy"
     ],
-    "popularity": 55542,
+    "popularity": 55695,
     "favourites": 703,
     "anilist_score": null,
     "streaming_links": [],
@@ -138,7 +138,7 @@
       "Mecha",
       "Romance"
     ],
-    "popularity": 21098,
+    "popularity": 21171,
     "favourites": 354,
     "anilist_score": null,
     "streaming_links": [],
@@ -161,7 +161,7 @@
       "Adventure",
       "Romance"
     ],
-    "popularity": 20378,
+    "popularity": 20442,
     "favourites": 132,
     "anilist_score": null,
     "streaming_links": [],
@@ -448,7 +448,7 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 8230,
+    "popularity": 8272,
     "favourites": 56,
     "anilist_score": null,
     "streaming_links": [],
@@ -657,7 +657,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 5059,
+    "popularity": 5089,
     "favourites": 64,
     "anilist_score": null,
     "streaming_links": [],
@@ -760,6 +760,29 @@
     "popularity_rank": 32
   },
   {
+    "id": 108992,
+    "mal_id": 63802,
+    "name": "Mobius Dust",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-07-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108992-aKpjh4JVayhd.png",
+    "site_url": "https://anilist.co/anime/108992",
+    "start_date": "2026-07-01",
+    "season": "Summer",
+    "season_year": 2026,
+    "studios": "Doga Kobo",
+    "genres": [
+      "Action",
+      "Supernatural"
+    ],
+    "popularity": 3511,
+    "favourites": 24,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 33
+  },
+  {
     "id": 186863,
     "mal_id": 61048,
     "name": "Neko to Ryuu",
@@ -778,29 +801,6 @@
     ],
     "popularity": 3486,
     "favourites": 36,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 33
-  },
-  {
-    "id": 108992,
-    "mal_id": 63802,
-    "name": "Mobius Dust",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-07-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108992-aKpjh4JVayhd.png",
-    "site_url": "https://anilist.co/anime/108992",
-    "start_date": "2026-07-01",
-    "season": "Summer",
-    "season_year": 2026,
-    "studios": "Doga Kobo",
-    "genres": [
-      "Action",
-      "Supernatural"
-    ],
-    "popularity": 3483,
-    "favourites": 24,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 34
@@ -951,7 +951,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2661,
+    "popularity": 2705,
     "favourites": 35,
     "anilist_score": null,
     "streaming_links": [],
@@ -1070,7 +1070,7 @@
       "Ecchi",
       "Slice of Life"
     ],
-    "popularity": 2008,
+    "popularity": 2009,
     "favourites": 20,
     "anilist_score": null,
     "streaming_links": [],
