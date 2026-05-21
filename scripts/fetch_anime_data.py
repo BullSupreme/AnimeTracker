@@ -46,6 +46,140 @@ def rerank_anime(anime_list):
         anime['popularity_rank'] = rank
     return anime_list
 
+
+def parse_date(date_str):
+    """Parse a YYYY-MM-DD date string."""
+    try:
+        return datetime.strptime(date_str, '%Y-%m-%d').date()
+    except (TypeError, ValueError):
+        return None
+
+
+def format_fuzzy_date(fuzzy_date):
+    """Convert an AniList fuzzy date object to YYYY-MM-DD when possible."""
+    if not fuzzy_date or not fuzzy_date.get('year'):
+        return None
+
+    month = fuzzy_date.get('month') or 1
+    day = fuzzy_date.get('day') or 1
+    return f"{fuzzy_date['year']}-{month:02d}-{day:02d}"
+
+
+def manual_entry_is_expired(entry, today_date, recent_days=14):
+    """Return True when a manual entry is too old to keep on the home page."""
+    today = parse_date(today_date)
+    if not today:
+        return False
+
+    end_date = parse_date(entry.get('end_date'))
+    if end_date:
+        return (today - end_date).days > recent_days
+
+    dated_fields = [
+        parse_date(entry.get('next_airing_date')),
+        parse_date(entry.get('release_date')),
+    ]
+    dated_fields = [date for date in dated_fields if date]
+    if not dated_fields:
+        return False
+
+    return max(dated_fields) < today - timedelta(days=recent_days)
+
+
+def fetch_manual_anime_data(manual_entries):
+    """Fetch current AniList records for manual entries so stale overrides age out."""
+    ids = sorted({
+        entry.get('id')
+        for entry in manual_entries
+        if isinstance(entry.get('id'), int)
+    })
+    if not ids:
+        return None
+
+    query = '''
+    query ($ids: [Int]) {
+        Page(page: 1, perPage: 50) {
+            media(id_in: $ids, type: ANIME) {
+                id
+                idMal
+                title { romaji english }
+                averageScore
+                episodes
+                nextAiringEpisode { episode airingAt }
+                coverImage { extraLarge large medium }
+                siteUrl
+                startDate { year month day }
+                endDate { year month day }
+                externalLinks { site url icon }
+                genres
+                isAdult
+                duration
+                format
+                popularity
+                status
+            }
+        }
+    }
+    '''
+
+    data = make_anilist_request(query, {'ids': ids})
+    if data and data.get('service_unavailable'):
+        return None
+    if not data or 'data' not in data:
+        return None
+
+    return {'data': {'Page': {'media': data['data']['Page']['media']}}}
+
+
+def refreshed_manual_entries(manual_entries, existing_ids, today_date):
+    """Refresh manual entries from AniList and return only entries still relevant."""
+    pending_entries = [
+        normalize_anime_entry(entry)
+        for entry in manual_entries
+        if entry.get('id') not in existing_ids
+    ]
+    if not pending_entries:
+        return []
+
+    live_data = fetch_manual_anime_data(pending_entries)
+    if not live_data:
+        return [
+            entry for entry in pending_entries
+            if not manual_entry_is_expired(entry, today_date)
+        ]
+
+    live_by_id = {
+        anime.get('id'): anime
+        for anime in live_data['data']['Page']['media']
+    }
+    processed_by_id = {
+        anime.get('id'): anime
+        for anime in process_anime_data(live_data)
+    }
+
+    refreshed_entries = []
+    for entry in pending_entries:
+        live_entry = live_by_id.get(entry.get('id'))
+        if live_entry:
+            live_end_date = format_fuzzy_date(live_entry.get('endDate'))
+            live_status = live_entry.get('status')
+            if live_status in {'FINISHED', 'CANCELLED'} and live_end_date:
+                updated_entry = dict(entry)
+                updated_entry['end_date'] = live_end_date
+                if manual_entry_is_expired(updated_entry, today_date):
+                    print(f"Skipped expired manual anime: {entry.get('name')} (ended {live_end_date})")
+                    continue
+
+        refreshed_entry = processed_by_id.get(entry.get('id'))
+        if refreshed_entry:
+            refreshed_entries.append(refreshed_entry)
+        elif not manual_entry_is_expired(entry, today_date):
+            refreshed_entries.append(entry)
+        else:
+            print(f"Skipped stale manual anime: {entry.get('name')}")
+
+    return refreshed_entries
+
 def make_anilist_request(query, variables, retry_count=3):
     """Makes a request to the AniList API with retries for transient errors."""
     for attempt in range(retry_count):
@@ -1111,11 +1245,7 @@ def main():
     if os.path.exists(manual_path):
         manual_entries = load_json_file(manual_path, [])
         existing_ids = {a.get('id') for a in processed_data}
-        added_entries = [
-            normalize_anime_entry(entry)
-            for entry in manual_entries
-            if entry.get('id') not in existing_ids
-        ]
+        added_entries = refreshed_manual_entries(manual_entries, existing_ids, today)
         added = len(added_entries)
         processed_data.extend(added_entries)
         if added:
