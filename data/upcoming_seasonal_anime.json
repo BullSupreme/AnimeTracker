@@ -41,7 +41,7 @@
       "Action",
       "Fantasy"
     ],
-    "popularity": 56448,
+    "popularity": 56594,
     "favourites": 720,
     "anilist_score": null,
     "streaming_links": [],
@@ -138,7 +138,7 @@
       "Mecha",
       "Romance"
     ],
-    "popularity": 21536,
+    "popularity": 21613,
     "favourites": 363,
     "anilist_score": null,
     "streaming_links": [],
@@ -161,7 +161,7 @@
       "Adventure",
       "Romance"
     ],
-    "popularity": 20720,
+    "popularity": 20777,
     "favourites": 136,
     "anilist_score": null,
     "streaming_links": [],
@@ -448,7 +448,7 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 8406,
+    "popularity": 8428,
     "favourites": 56,
     "anilist_score": null,
     "streaming_links": [],
@@ -751,7 +751,7 @@
       "Action",
       "Supernatural"
     ],
-    "popularity": 3601,
+    "popularity": 3622,
     "favourites": 25,
     "anilist_score": null,
     "streaming_links": [],
@@ -1148,6 +1148,31 @@
     "popularity_rank": 48
   },
   {
+    "id": 209669,
+    "mal_id": 63780,
+    "name": "Hanazakari no Kimitachi e 2nd Season",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-07-02",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b209669-bEc1RhQelnWT.jpg",
+    "site_url": "https://anilist.co/anime/209669",
+    "start_date": "2026-07-02",
+    "season": "Summer",
+    "season_year": 2026,
+    "studios": "TBD",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance",
+      "Slice of Life"
+    ],
+    "popularity": 1775,
+    "favourites": 14,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 49
+  },
+  {
     "id": 196356,
     "mal_id": 62102,
     "name": "Ibitte Konai Gibo to Gishi",
@@ -1168,7 +1193,7 @@
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 49
+    "popularity_rank": 50
   },
   {
     "id": 198376,
@@ -1190,7 +1215,7 @@
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 50
+    "popularity_rank": 51
   },
   {
     "id": 188525,
@@ -1213,7 +1238,7 @@
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 51
+    "popularity_rank": 52
   },
   {
     "id": 209504,
@@ -1238,7 +1263,7 @@
     "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 52
+    "popularity_rank": 53
   },
   {
     "id": 196017,
@@ -1258,7 +1283,7 @@
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 53
+    "popularity_rank": 54
   },
   {
     "id": 203490,
@@ -1282,7 +1307,7 @@
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 54
+    "popularity_rank": 55
   },
   {
     "id": 200230,
@@ -1306,6 +1331,6 @@
     "favourites": 7,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 55
+    "popularity_rank": 56
   }
 ]
