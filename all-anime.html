@@ -615,6 +615,40 @@
     }
 
     // ============================================================
+    // 9ANIME SEARCH CLEANUP
+    // ============================================================
+    function sanitize9AnimeSearchTitle(title) {
+        if (!title) return '';
+
+        let searchTitle = String(title).trim().replace(/\s+/g, ' ');
+        const trailingSymbols = "!\"#$%&'*+,./:;<=>?@^_`{|}~-";
+        const stripTrailingSymbols = value => {
+            let result = value.trim();
+            while (result) {
+                const last = result[result.length - 1];
+                if (last.trim() && !trailingSymbols.includes(last)) break;
+                result = result.slice(0, -1).trimEnd();
+            }
+            return result.trim();
+        };
+
+        searchTitle = stripTrailingSymbols(searchTitle);
+        searchTitle = searchTitle.replace(/\s*-\s*(?:kun|chan|san|sama|senpai|sensei|dono)$/i, '').trim();
+        searchTitle = stripTrailingSymbols(searchTitle);
+        searchTitle = searchTitle.replace(/(?:^|\s)(?:s|season|series|part|cour)\d+(?:st|nd|rd|th)?$/i, '').trim();
+        searchTitle = searchTitle.replace(/(?<=[a-z])\d+(?:st|nd|rd|th)?$/i, '').trim();
+
+        return stripTrailingSymbols(searchTitle);
+    }
+
+    function create9AnimeSearchUrl(title) {
+        const searchTitle = sanitize9AnimeSearchTitle(title);
+        if (!searchTitle) return 'https://9anime.me.uk/';
+        const nineAnimeQuery = new URLSearchParams({ s: searchTitle }).toString();
+        return `https://9anime.me.uk/?${nineAnimeQuery}`;
+    }
+
+    // ============================================================
     // RENDER
     // ============================================================
     function buildCard(anime, rank) {
@@ -629,8 +663,7 @@
         const genres = anime.genres || [];
         const episodes = anime.episodes;
         const popularity = anime.popularity || 0;
-        const nineAnimeQuery = new URLSearchParams({ s: eng || name }).toString();
-        const nineAnimeUrl = `https://9anime.me.uk/?${nineAnimeQuery}`;
+        const nineAnimeUrl = create9AnimeSearchUrl(eng || name);
         const isFav = isFavorite(id);
 
         const scoreBadge = score ? `<span class="score-badge">⭐ ${score}/100</span>` : '';
@@ -759,8 +792,7 @@
     document.getElementById('ctx-9anime').addEventListener('click', () => {
         if (contextTarget) {
             const eng = contextTarget.dataset.english || contextTarget.dataset.name;
-            const nineAnimeQuery = new URLSearchParams({ s: eng }).toString();
-            window.open(`https://9anime.me.uk/?${nineAnimeQuery}`, '_blank');
+            window.open(create9AnimeSearchUrl(eng), '_blank');
         }
         document.getElementById('context-menu').style.display = 'none';
     });

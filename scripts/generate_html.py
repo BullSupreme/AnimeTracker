@@ -2,6 +2,7 @@
 import json
 from datetime import datetime, timedelta
 import os
+import re
 
 NINE_ANIME_SEARCH_BASE = "https://9anime.me.uk/"
 
@@ -33,13 +34,50 @@ def normalize_title(title):
     title = " ".join(title.split())  # Normalize whitespace
     return title
 
+def sanitize_9anime_search_title(title):
+    """Clean AniList titles that produce poor 9anime search results."""
+    if not title:
+        return ""
+
+    search_title = " ".join(str(title).split())
+
+    def strip_trailing_symbols(value):
+        return re.sub(r"""[\s!"#$%&'*+,./:;<=>?@^_`{|}~\\-]+$""", "", value).strip()
+
+    search_title = strip_trailing_symbols(search_title)
+
+    # Remove dashed Japanese honorifics only when they are the final title suffix.
+    search_title = re.sub(
+        r"(?i)\s*-\s*(?:kun|chan|san|sama|senpai|sensei|dono)$",
+        "",
+        search_title,
+    ).strip()
+
+    search_title = strip_trailing_symbols(search_title)
+
+    # Remove glued final season markers like "Season2", "S2", "Part2", or "Cour2".
+    search_title = re.sub(
+        r"(?i)(?:^|\s)(?:s|season|series|part|cour)\d+(?:st|nd|rd|th)?$",
+        "",
+        search_title,
+    ).strip()
+
+    # For odd AniList titles like "Rotten2", keep the word and remove the glued number.
+    search_title = re.sub(r"(?i)(?<=[a-z])\d+(?:st|nd|rd|th)?$", "", search_title).strip()
+
+    return strip_trailing_symbols(search_title)
+
 def create_9anime_search_url(english_title):
     """Create a 9anime.me.uk search URL from the title."""
     if not english_title:
         return ""
 
+    search_title = sanitize_9anime_search_title(english_title)
+    if not search_title:
+        return ""
+
     from urllib.parse import urlencode
-    return f"{NINE_ANIME_SEARCH_BASE}?{urlencode({'s': english_title})}"
+    return f"{NINE_ANIME_SEARCH_BASE}?{urlencode({'s': search_title})}"
 
 def normalize_9anime_url(url):
     """Map legacy 9anime domains to the current base domain."""

@@ -5,7 +5,30 @@ Test script to verify 9anime link matching
 import json
 import sys
 sys.path.insert(0, 'scripts')
-from generate_html import find_9anime_link
+from generate_html import create_9anime_search_url, find_9anime_link, sanitize_9anime_search_title
+
+
+search_cleanup_cases = {
+    "The Angel Next Door Spoils Me Rotten2": "The Angel Next Door Spoils Me Rotten",
+    "The Angel Next Door Spoils Me Rotten Season2": "The Angel Next Door Spoils Me Rotten",
+    "The Angel Next Door Spoils Me Rotten S2": "The Angel Next Door Spoils Me Rotten",
+    "The Angel Next Door Spoils Me Rotten Season 2": "The Angel Next Door Spoils Me Rotten Season 2",
+    "Go For It, Nakamura-kun!!": "Go For It, Nakamura",
+    "Go For It, Nakamura - kun!!": "Go For It, Nakamura",
+    "Go For It, Nakamura kun": "Go For It, Nakamura kun",
+    "The strongest job is an appraiser (provisional)!": "The strongest job is an appraiser (provisional)",
+}
+
+for raw_title, expected_title in search_cleanup_cases.items():
+    actual_title = sanitize_9anime_search_title(raw_title)
+    assert actual_title == expected_title, f"{raw_title!r}: expected {expected_title!r}, got {actual_title!r}"
+
+assert create_9anime_search_url("The Angel Next Door Spoils Me Rotten2").endswith(
+    "?s=The+Angel+Next+Door+Spoils+Me+Rotten"
+)
+assert create_9anime_search_url("Go For It, Nakamura-kun!!").endswith(
+    "?s=Go+For+It%2C+Nakamura"
+)
 
 # Load data
 with open('data/anime_data.json', 'r', encoding='utf-8') as f:
