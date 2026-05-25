@@ -6,6 +6,7 @@ import os
 import re
 
 NINE_ANIME_SEARCH_BASE = "https://9anime.me.uk/"
+ICON_BASE = "assets/icons"
 
 
 def normalize_streaming_links(value):
@@ -71,6 +72,15 @@ def build_trailer_overlay(anime):
                                 <button class="trailer-play-btn" type="button" aria-label="Play trailer for {escape_attr(title)}">
                                     <span class="trailer-play-icon"></span>
                                 </button>"""
+
+
+def icon_img(name, label="", extra_class=""):
+    classes = "ui-icon"
+    if extra_class:
+        classes += f" {extra_class}"
+    alt = escape_attr(label)
+    return f'<img class="{classes}" src="{ICON_BASE}/{escape_attr(name)}.png" alt="{alt}" loading="lazy">'
+
 
 def normalize_title(title):
     """Normalize anime title for fuzzy matching"""
@@ -234,16 +244,16 @@ def load_data():
         print(f"Data file not found: {e}")
         return [], [], {}, [], {}, [], [], {}
 
-def get_season_emoji(season):
-    """Get emoji for a given season"""
-    season_emojis = {
-        'SPRING': '🌸',
-        'SUMMER': '☀️', 
-        'FALL': '🍂',
-        'AUTUMN': '🍂',
-        'WINTER': '❄️'
+def get_season_icon(season):
+    """Get icon asset name for a given season."""
+    season_icons = {
+        'SPRING': 'spring',
+        'SUMMER': 'summer',
+        'FALL': 'fall',
+        'AUTUMN': 'fall',
+        'WINTER': 'winter'
     }
-    return season_emojis.get(season.upper(), '🎭')
+    return season_icons.get(season.upper(), 'theater')
 
 def filter_recently_finished(anime_list, today_date, days=14):
     """Keep only anime that finished within the recent window."""
@@ -313,9 +323,9 @@ def generate_html():
                 <h1>Current Anime Tracker</h1>
             </div>
             <nav class="nav-tabs">
-                <button class="nav-tab active" data-tab="list">📋 List View</button>
-                <button class="nav-tab" data-tab="calendar">📅 Calendar</button>
-                <button class="nav-tab" onclick="window.location.href='all-anime.html'">🎬 All Anime</button>
+                <button class="nav-tab active" data-tab="list">{icon_img('list', 'List')} List View</button>
+                <button class="nav-tab" data-tab="calendar">{icon_img('calendar', 'Calendar')} Calendar</button>
+                <button class="nav-tab" onclick="window.location.href='all-anime.html'">{icon_img('clapper', 'All anime')} All Anime</button>
             </nav>
             <div class="header-right">
                 <div class="anime-count">({len(anime_data)} anime)</div>
@@ -331,7 +341,7 @@ def generate_html():
                             <button class="list-tab" data-list-tab="favorites">Favorites Only</button>
                         </div>
                         <div class="section-title-left">
-                            <span class="section-icon">🌟</span>
+                            <span class="section-icon">{icon_img('sparkle', 'Today')}</span>
                             Today's Releases
                             <span class="date-label">{today_date}</span>
                         </div>
@@ -381,9 +391,9 @@ def generate_html():
                                 {build_trailer_overlay(anime)}
                                 <div class="card-overlay">
                                     <button class="favorite-btn" data-anime-id="{anime['id']}">
-                                        <span class="favorite-icon">♡</span>
+                                        <span class="favorite-icon" aria-hidden="true"></span>
                                     </button>
-                                    <div class="popularity-rank-badge" data-tooltip="🔥 #{anime['popularity_rank']} most popular • {anime['popularity']:,} users tracking">
+                                    <div class="popularity-rank-badge" data-tooltip="Popularity rank #{anime['popularity_rank']} • {anime['popularity']:,} users tracking">
                                         #{anime['popularity_rank']}
                                     </div>
                                 </div>
@@ -420,7 +430,7 @@ def generate_html():
                 </div>
                 <div class="time-section">
                     <h2 class="section-title">
-                        <span class="section-icon">📅</span>
+                        <span class="section-icon">{icon_img('calendar', 'Tomorrow')}</span>
                         Tomorrow's Releases
                     <span class="date-label">{tomorrow_date}</span>
                     </h2>
@@ -463,9 +473,9 @@ def generate_html():
                                 {build_trailer_overlay(anime)}
                                 <div class="card-overlay">
                                     <button class="favorite-btn" data-anime-id="{anime['id']}">
-                                        <span class="favorite-icon">♡</span>
+                                        <span class="favorite-icon" aria-hidden="true"></span>
                                     </button>
-                                    <div class="popularity-rank-badge" data-tooltip="🔥 #{anime['popularity_rank']} most popular • {anime['popularity']:,} users tracking">
+                                    <div class="popularity-rank-badge" data-tooltip="Popularity rank #{anime['popularity_rank']} • {anime['popularity']:,} users tracking">
                                         #{anime['popularity_rank']}
                                     </div>
                                 </div>
@@ -501,13 +511,13 @@ def generate_html():
     html_content += """                    </div>
                 </div>"""
     
-    # Add other seasonal anime section with current season emoji
+    # Add other seasonal anime section with current season icon
     current_season = metadata.get('current_season', 'Spring').title()
-    current_season_emoji = get_season_emoji(current_season)
+    current_season_icon = get_season_icon(current_season)
     
     html_content += f"""                <div class="time-section">
                     <h2 class="section-title">
-                        <span class="section-icon">{current_season_emoji}</span>
+                        <span class="section-icon">{icon_img(current_season_icon, current_season)}</span>
                         {current_season} 2025 Anime
                 
                     </h2>
@@ -552,9 +562,9 @@ def generate_html():
                                 {build_trailer_overlay(anime)}
                                 <div class="card-overlay">
                                     <button class="favorite-btn" data-anime-id="{anime['id']}">
-                                        <span class="favorite-icon">♡</span>
+                                        <span class="favorite-icon" aria-hidden="true"></span>
                                     </button>
-                                    <div class="popularity-rank-badge" data-tooltip="🔥 #{anime['popularity_rank']} most popular • {anime['popularity']:,} users tracking">
+                                    <div class="popularity-rank-badge" data-tooltip="Popularity rank #{anime['popularity_rank']} • {anime['popularity']:,} users tracking">
                                         #{anime['popularity_rank']}
                                     </div>
                                 </div>
@@ -606,7 +616,7 @@ def generate_html():
     if recently_finished_anime:
         html_content += """                <div class="time-section recently-finished-section">
                     <h2 class="section-title">
-                        <span class="section-icon">✅</span>
+                        <span class="section-icon">{icon_img('check', 'Finished')}</span>
                         Recently Finished (Last 2 Weeks)
                     </h2>
                     <div class="anime-grid recently-finished-grid">
@@ -647,9 +657,9 @@ def generate_html():
                                 {build_trailer_overlay(anime)}
                                 <div class="card-overlay">
                                     <button class="favorite-btn" data-anime-id="{anime['id']}">
-                                        <span class="favorite-icon">♡</span>
+                                        <span class="favorite-icon" aria-hidden="true"></span>
                                     </button>
-                                    <div class="popularity-rank-badge" data-tooltip="🔥 #{anime['popularity_rank']} most popular • {anime['popularity']:,} users tracking">
+                                    <div class="popularity-rank-badge" data-tooltip="Popularity rank #{anime['popularity_rank']} • {anime['popularity']:,} users tracking">
                                         #{anime['popularity_rank']}
                                     </div>
                                 </div>
@@ -690,11 +700,11 @@ def generate_html():
     if upcoming_anime:
         next_season = metadata.get('next_season', 'Summer').title()
         next_season_year = metadata.get('next_season_year', 2025)
-        season_emoji = get_season_emoji(next_season)
+        season_icon = get_season_icon(next_season)
         
         html_content += f"""                <div class="time-section next-seasonal-section">
                     <h2 class="section-title">
-                        <span class="section-icon">{season_emoji}</span>
+                        <span class="section-icon">{icon_img(season_icon, next_season)}</span>
                         Next Seasonal Anime ({next_season} {next_season_year})
                     </h2>
                     <div class="anime-grid upcoming-grid">
@@ -711,9 +721,9 @@ def generate_html():
                                 {build_trailer_overlay(anime)}
                                 <div class="card-overlay">
                                     <button class="favorite-btn" data-anime-id="{anime['id']}">
-                                        <span class="favorite-icon">♡</span>
+                                        <span class="favorite-icon" aria-hidden="true"></span>
                                     </button>
-                                    <div class="popularity-rank-badge" data-tooltip="🔥 #{anime['popularity_rank']} most popular upcoming • {anime['popularity']:,} users tracking">
+                                    <div class="popularity-rank-badge" data-tooltip="Upcoming popularity rank #{anime['popularity_rank']} • {anime['popularity']:,} users tracking">
                                         #{anime['popularity_rank']}
                                     </div>
                                 </div>
@@ -753,7 +763,7 @@ def generate_html():
                         <button class="show-more-btn" id="show-more-upcoming" data-target="upcoming">
                             <span class="show-more-text">Show More ({len(upcoming_anime) - 20} more)</span>
                             <span class="show-less-text" style="display: none;">Show Less</span>
-                            <span class="show-more-icon">▼</span>
+                            <span class="show-more-icon" aria-hidden="true"></span>
                         </button>
                     </div>
                 </div>"""
@@ -790,16 +800,16 @@ def generate_html():
         <!-- Context Menu -->
         <div id="context-menu" class="context-menu">
             <div class="context-item" id="edit-link">
-                <span class="context-icon">🔗</span>
+                <span class="context-icon">{icon_img('play', 'Link')}</span>
                 Edit Link            
             </div>
             <div class="context-separator"></div>
             <div class="context-item" id="copy-main-title">
-                <span class="context-icon">📄</span>
+                <span class="context-icon">{icon_img('list', 'Main title')}</span>
                 Copy: Main Title
             </div>
             <div class="context-item" id="copy-english-title">
-                <span class="context-icon">📋</span>
+                <span class="context-icon">{icon_img('calendar', 'English title')}</span>
                 Copy: English Title
             </div>
         </div>

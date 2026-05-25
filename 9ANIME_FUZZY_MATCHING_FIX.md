@@ -70,11 +70,11 @@ All test cases passed successfully:
 
 | Anime Title (Data) | English Title | 9anime Link Found | ID |
 |-------------------|---------------|-------------------|-----|
-| Boku no Hero Academia FINAL SEASON | My Hero Academia FINAL SEASON | ✅ | 19940 |
-| SPY×FAMILY Season 3 | SPY x FAMILY Season 3 | ✅ | 19939 |
-| Fumetsu no Anata e Season 3 | To Your Eternity Season 3 | ✅ | 19941 |
-| ONE PIECE | ONE PIECE | ✅ | 100 |
-| Ranma 1/2 (2024) 2nd Season | Ranma1/2 (2024) Season 2 | ✅ | 19945 |
+| Boku no Hero Academia FINAL SEASON | My Hero Academia FINAL SEASON | Yes | 19940 |
+| SPY×FAMILY Season 3 | SPY x FAMILY Season 3 | Yes | 19939 |
+| Fumetsu no Anata e Season 3 | To Your Eternity Season 3 | Yes | 19941 |
+| ONE PIECE | ONE PIECE | Yes | 100 |
+| Ranma 1/2 (2024) 2nd Season | Ranma1/2 (2024) Season 2 | Yes | 19945 |
 
 ### Verification Script
 Run `test_9anime_matching.py` to verify fuzzy matching:
@@ -100,4 +100,4 @@ If needed, consider:
 2025-10-14
 
 ## Status
-✅ **Complete** - Deployed to both main and AnimeTracker-Clean directories
+**Complete** - Deployed to both main and AnimeTracker-Clean directories

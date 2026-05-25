@@ -578,8 +578,8 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <div class="expanded-anime-poster">
                                     <img src="${anime.poster_url}" alt="${anime.name}">
                                     <div class="expanded-anime-overlay">
-                                        <button class="expanded-favorite-btn" onclick="event.stopPropagation(); toggleFavorite('${anime.id}')">
-                                            ${isFavorite ? '♥' : '♡'}
+                                        <button class="expanded-favorite-btn ${isFavorite ? 'active' : ''}" onclick="event.stopPropagation(); toggleFavorite('${anime.id}')">
+                                            <span class="favorite-icon" aria-hidden="true"></span>
                                         </button>
                                     </div>
                                 </div>
@@ -631,7 +631,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="modal-poster-section">
                     <img class="modal-poster" src="${anime.poster_url}" alt="${anime.name}">
                     <button class="modal-favorite-btn ${isFavorite ? 'active' : ''}" data-anime-id="${anime.id}">
-                        <span class="favorite-icon">${isFavorite ? '♥' : '♡'}</span>
+                        <span class="favorite-icon" aria-hidden="true"></span>
                         <span class="favorite-text">${isFavorite ? 'Favorited' : 'Add to Favorites'}</span>
                     </button>
                 </div>
@@ -672,7 +672,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Update modal button state
             const isFav = favorites.includes(animeId);
             modalFavoriteBtn.classList.toggle('active', isFav);
-            modalFavoriteBtn.querySelector('.favorite-icon').textContent = isFav ? '♥' : '♡';
+            modalFavoriteBtn.querySelector('.favorite-icon').textContent = '';
             modalFavoriteBtn.querySelector('.favorite-text').textContent = isFav ? 'Favorited' : 'Add to Favorites';
         });
         
@@ -710,7 +710,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             card.classList.toggle('favorite', isFavorite);
             if (favoriteIcon) {
-                favoriteIcon.textContent = isFavorite ? '♥' : '♡';
+                favoriteIcon.textContent = '';
             }
         });
         
@@ -797,7 +797,7 @@ document.addEventListener('DOMContentLoaded', () => {
         closeButton.type = 'button';
         closeButton.className = 'trailer-close-btn';
         closeButton.setAttribute('aria-label', 'Close trailer');
-        closeButton.textContent = '×';
+        closeButton.textContent = 'x';
 
         wrapper.classList.add('trailer-active');
         wrapper.appendChild(iframe);
@@ -853,7 +853,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const favoriteIcon = card.querySelector('.favorite-icon');
         if (favorites.includes(animeId)) {
             card.classList.add('favorite');
-            favoriteIcon.textContent = '♥';
+            favoriteIcon.textContent = '';
         }
 
         // Card click handler

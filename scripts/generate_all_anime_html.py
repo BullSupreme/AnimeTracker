@@ -12,6 +12,7 @@ from urllib.parse import quote
 
 CATALOG_FILE = "data/all_anime_catalog.json"
 OUTPUT_FILE = "all-anime.html"
+ICON_BASE = "assets/icons"
 
 
 def get_current_season():
@@ -53,9 +54,16 @@ def build_season_options(catalog):
     return seasons
 
 
-def season_emoji(season):
-    emojis = {"SPRING": "🌸", "SUMMER": "☀️", "FALL": "🍂", "WINTER": "❄️"}
-    return emojis.get(season, "🎭")
+def icon_img(name, label="", extra_class=""):
+    classes = "ui-icon"
+    if extra_class:
+        classes += f" {extra_class}"
+    return f'<img class="{classes}" src="{ICON_BASE}/{name}.png" alt="{label}" loading="lazy">'
+
+
+def season_icon(season):
+    icons = {"SPRING": "spring", "SUMMER": "summer", "FALL": "fall", "WINTER": "winter"}
+    return icons.get(season, "theater")
 
 
 def generate_html(catalog):
@@ -66,8 +74,7 @@ def generate_html(catalog):
     # Build season options HTML
     season_opts_html = '<option value="">All Seasons</option>\n'
     for s in season_options:
-        emoji = season_emoji(s["season"])
-        label = f'{emoji} {s["season"].capitalize()} {s["year"]}'
+        label = f'{s["season"].capitalize()} {s["year"]}'
         value = f'{s["season"]}_{s["year"]}'
         selected = 'selected' if s["season"] == current_season and s["year"] == current_year else ''
         season_opts_html += f'                        <option value="{value}" {selected}>{label}</option>\n'
@@ -380,23 +387,23 @@ def generate_html(catalog):
 </head>
 <body>
     <div class="all-anime-header">
-        <a href="index.html" class="back-btn">← Tracker</a>
-        <h1>🎬 All Anime</h1>
+        <a href="index.html" class="back-btn">{icon_img('list', 'Tracker')} Tracker</a>
+        <h1>{icon_img('clapper', 'All anime')} All Anime</h1>
         <div class="catalog-stats" id="catalog-stats">Loading catalog...</div>
     </div>
 
     <div class="all-anime-controls">
         <div class="search-wrapper">
-            <span class="search-icon">🔍</span>
+            <span class="search-icon">{icon_img('search', 'Search')}</span>
             <input type="text" id="search-input" class="search-input" placeholder="Search anime...">
         </div>
 
         <select id="sort-select" class="control-select" title="Sort by">
-            <option value="season_popular">⭐ Popular This Season</option>
-            <option value="popular_all">🔥 Most Popular All Time</option>
-            <option value="score">⭐ Highest Score</option>
-            <option value="newest">🆕 Newest First</option>
-            <option value="oldest">📅 Oldest First</option>
+            <option value="season_popular">Popular This Season</option>
+            <option value="popular_all">Most Popular All Time</option>
+            <option value="score">Highest Score</option>
+            <option value="newest">Newest First</option>
+            <option value="oldest">Oldest First</option>
         </select>
 
         <select id="season-select" class="control-select" title="Filter by season">
@@ -423,14 +430,14 @@ def generate_html(catalog):
     <!-- Context Menu (reuse existing pattern) -->
     <div class="context-menu" id="context-menu">
         <div class="context-item" id="ctx-anilist">
-            <span class="context-icon">📋</span> Open on AniList
+            <span class="context-icon">{icon_img('list', 'AniList')}</span> Open on AniList
         </div>
         <div class="context-item" id="ctx-9anime">
-            <span class="context-icon">▶️</span> Search on 9anime
+            <span class="context-icon">{icon_img('play', '9anime')}</span> Search on 9anime
         </div>
         <div class="context-separator"></div>
         <div class="context-item" id="ctx-favorite">
-            <span class="context-icon">♡</span> Toggle Favorite
+            <span class="context-icon">{icon_img('favorite', 'Favorite')}</span> Toggle Favorite
         </div>
     </div>
 
@@ -490,7 +497,7 @@ def generate_html(catalog):
         saveFavorites();
         // Update all cards with this id
         document.querySelectorAll(`[data-anime-id="${{sid}}"] .favorite-icon`).forEach(icon => {{
-            icon.textContent = isFavorite(sid) ? '♥' : '♡';
+            icon.textContent = '';
             icon.closest('.favorite-btn').classList.toggle('active', isFavorite(sid));
         }});
     }}
@@ -627,7 +634,7 @@ def generate_html(catalog):
         closeButton.type = 'button';
         closeButton.className = 'trailer-close-btn';
         closeButton.setAttribute('aria-label', 'Close trailer');
-        closeButton.textContent = '×';
+        closeButton.textContent = 'x';
 
         wrapper.classList.add('trailer-active');
         wrapper.appendChild(iframe);
@@ -676,13 +683,13 @@ def generate_html(catalog):
             : '';
         const isFav = isFavorite(id);
 
-        const scoreBadge = score ? `<span class="score-badge">⭐ ${{score}}/100</span>` : '';
+        const scoreBadge = score ? `<span class="score-badge"><img class="ui-icon badge-icon" src="assets/icons/star.png" alt=""> ${{score}}/100</span>` : '';
         const seasonLabel = season && seasonYear
             ? `<span class="season-badge">${{season.charAt(0) + season.slice(1).toLowerCase()}} ${{seasonYear}}</span>`
             : '';
         const episodeLabel = episodes ? `${{episodes}} ep` : 'Ongoing';
         const engTitle = eng ? `<div class="anime-english-title">${{escapeHtml(eng)}}</div>` : '';
-        const popularityTooltip = `🔥 #${{rank}} most popular • ${{popularity.toLocaleString()}} users tracking`;
+        const popularityTooltip = `Popularity rank #${{rank}} • ${{popularity.toLocaleString()}} users tracking`;
 
         const genreTagsHtml = genres.slice(0, 3).map(g =>
             `<span class="genre-tag">${{escapeHtml(g)}}</span>`
@@ -706,7 +713,7 @@ def generate_html(catalog):
                 ${{trailerOverlay}}
                 <div class="card-overlay">
                     <button class="favorite-btn${{isFav ? ' active' : ''}}" data-anime-id="${{id}}" onclick="event.stopPropagation(); toggleFavorite(${{id}})">
-                        <span class="favorite-icon">${{isFav ? '♥' : '♡'}}</span>
+                        <span class="favorite-icon" aria-hidden="true"></span>
                     </button>
                     <div class="popularity-rank-badge" data-tooltip="${{escapeAttr(popularityTooltip)}}">#${{rank}}</div>
                 </div>
@@ -737,7 +744,7 @@ def generate_html(catalog):
 
         if (data.length === 0) {{
             grid.innerHTML = `<div class="no-results">
-                <div class="no-results-icon">🔍</div>
+                <div class="no-results-icon"><img class="ui-icon empty-state-icon" src="assets/icons/search.png" alt="Search"></div>
                 <div>No anime found matching your filters.</div>
             </div>`;
             return;
@@ -772,7 +779,7 @@ def generate_html(catalog):
             const active = isFavorite(id);
             btn.classList.toggle('active', active);
             const icon = btn.querySelector('.favorite-icon');
-            if (icon) icon.textContent = active ? '♥' : '♡';
+            if (icon) icon.textContent = '';
         }});
     }}
 
