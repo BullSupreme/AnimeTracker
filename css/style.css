@@ -1099,6 +1099,10 @@ main {
 }
 
 .list-tab {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
     padding: 0.5rem 1.5rem;
     background: var(--bg-card);
     border: 1px solid var(--border-color);
@@ -1117,6 +1121,18 @@ main {
     background: var(--accent-primary);
     color: white;
     border-color: var(--accent-primary);
+}
+
+.list-tab .ui-icon,
+.list-tab .favorite-icon {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+.favorite-icon.favorite-icon-gold {
+    background-color: var(--accent-gold);
+    filter: drop-shadow(0 0 8px rgba(251, 191, 36, 0.45));
+    opacity: 1;
 }
 
 /* Calendar View */

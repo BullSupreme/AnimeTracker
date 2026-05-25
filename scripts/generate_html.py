@@ -337,8 +337,8 @@ def generate_html():
                 <div class="time-section">
                     <h2 class="section-title section-title-controls">
                         <div class="filter-controls">
-                            <button class="list-tab active" data-list-tab="all">All Anime</button>
-                            <button class="list-tab" data-list-tab="favorites">Favorites Only</button>
+                            <button class="list-tab active" data-list-tab="all">{icon_img('clapper', 'All')} Anime</button>
+                            <button class="list-tab" data-list-tab="favorites"><span class="favorite-icon favorite-icon-gold" aria-hidden="true"></span> Only</button>
                         </div>
                         <div class="section-title-left">
                             <span class="section-icon">{icon_img('sparkle', 'Today')}</span>
