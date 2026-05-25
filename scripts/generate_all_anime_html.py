@@ -399,8 +399,7 @@ def generate_html(catalog):
         </div>
 
         <select id="sort-select" class="control-select" title="Sort by">
-            <option value="season_popular">Popular This Season</option>
-            <option value="popular_all">Most Popular All Time</option>
+            <option value="popular">Most Popular</option>
             <option value="score">Highest Score</option>
             <option value="newest">Newest First</option>
             <option value="oldest">Oldest First</option>
@@ -450,8 +449,6 @@ def generate_html(catalog):
     // ============================================================
     // STATE
     // ============================================================
-    const CURRENT_SEASON = "{current_season}";
-    const CURRENT_YEAR = {current_year};
     const CATALOG_TOTAL = ALL_ANIME_DATA.length;
 
     let favorites = [];
@@ -516,9 +513,6 @@ def generate_html(catalog):
         if (seasonVal) {{
             const [filterSeason, filterYear] = seasonVal.split('_');
             data = data.filter(a => a.season === filterSeason && String(a.season_year) === filterYear);
-        }} else if (sortVal === 'season_popular') {{
-            // Default: current season only
-            data = data.filter(a => a.season === CURRENT_SEASON && a.season_year === CURRENT_YEAR);
         }}
 
         // Search filter
@@ -532,8 +526,7 @@ def generate_html(catalog):
 
         // Sort
         switch (sortVal) {{
-            case 'season_popular':
-            case 'popular_all':
+            case 'popular':
                 data.sort((a, b) => (b.popularity || 0) - (a.popularity || 0));
                 break;
             case 'score':
@@ -847,14 +840,7 @@ def generate_html(catalog):
     }});
 
     document.getElementById('sort-select').addEventListener('change', renderAnime);
-    document.getElementById('season-select').addEventListener('change', () => {{
-        // When user picks a season manually, disable the "current season default" filter in sort
-        const sortEl = document.getElementById('sort-select');
-        if (sortEl.value === 'season_popular' && document.getElementById('season-select').value) {{
-            // Season is now explicitly filtered, keep sort as popular
-        }}
-        renderAnime();
-    }});
+    document.getElementById('season-select').addEventListener('change', renderAnime);
 
     document.getElementById('poster-toggle').addEventListener('change', e => {{
         document.getElementById('anime-grid').classList.toggle('poster-mode', e.target.checked);
