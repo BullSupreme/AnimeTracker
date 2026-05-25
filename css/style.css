@@ -679,9 +679,10 @@ main {
     width: 1.55rem;
     height: 1.55rem;
     display: block;
-    background: url('../assets/icons/favorite.png') center / contain no-repeat;
-    filter: grayscale(1) brightness(1.45);
-    opacity: 0.78;
+    background-color: rgba(255, 255, 255, 0.82);
+    mask: url('../assets/icons/favorite.png') center / contain no-repeat;
+    -webkit-mask: url('../assets/icons/favorite.png') center / contain no-repeat;
+    opacity: 0.72;
     transition: all var(--transition-normal);
 }
 
@@ -689,6 +690,7 @@ main {
 .favorite-btn.active .favorite-icon,
 .modal-favorite-btn.active .favorite-icon,
 .expanded-favorite-btn.active .favorite-icon {
+    background-color: var(--accent-gold);
     filter: drop-shadow(0 0 10px rgba(251, 191, 36, 0.55));
     opacity: 1;
 }
