@@ -1443,15 +1443,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialize rank tooltips
     initRankTooltips();
+
     // Show More functionality for upcoming anime
-function initShowMoreButtons() {
-    const showMoreBtn = document.getElementById('show-more-upcoming');
-    
-    if (showMoreBtn) {
+    function initShowMoreButtons() {
+        const showMoreBtn = document.getElementById('show-more-upcoming');
+        if (!showMoreBtn || showMoreBtn.dataset.initialized) return;
+
         // Get all upcoming anime cards in the grid
         const upcomingGrid = document.querySelector('.upcoming-grid');
         if (!upcomingGrid) return;
-        
+
+        showMoreBtn.dataset.initialized = 'true';
+
         const allUpcomingCards = upcomingGrid.querySelectorAll('.anime-card');
         // Cards after the first 20 are the ones to show/hide
         const extraCards = Array.from(allUpcomingCards).slice(20);
@@ -1485,12 +1488,8 @@ function initShowMoreButtons() {
             }
         });
     }
-}
 
-// Initialize show more buttons
-initShowMoreButtons();
-    
-// Initialize show more buttons
+    // Initialize show more buttons
     initShowMoreButtons();
 
     // --- New Code for Copying Titles ---

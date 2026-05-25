@@ -536,7 +536,7 @@ main {
     transition: opacity var(--transition-normal), transform var(--transition-normal), background var(--transition-fast);
 }
 
-.anime-card:hover .trailer-play-btn,
+.card-image-wrapper:hover .trailer-play-btn,
 .card-image-wrapper:focus-within .trailer-play-btn {
     opacity: 1;
     pointer-events: auto;
