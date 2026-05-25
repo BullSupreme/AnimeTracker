@@ -36,6 +36,7 @@ query ($page: Int, $perPage: Int, $startDate: FuzzyDateInt, $endDate: FuzzyDateI
             averageScore popularity genres episodes format status
             season seasonYear
             coverImage { large }
+            trailer { id site thumbnail }
             siteUrl
             startDate { year month day }
         }
@@ -87,6 +88,23 @@ def fuzzy_date(year, month, day=1):
     return int(f"{year}{month:02d}{day:02d}")
 
 
+def normalize_trailer(value):
+    """Keep supported AniList trailer metadata in a predictable shape."""
+    if not isinstance(value, dict):
+        return None
+
+    trailer_id = value.get('id')
+    site = value.get('site')
+    if not trailer_id or not site:
+        return None
+
+    return {
+        'id': str(trailer_id),
+        'site': str(site).lower(),
+        'thumbnail': value.get('thumbnail')
+    }
+
+
 def process_anime(raw):
     """Extract relevant fields from raw AniList media object."""
     start = raw.get('startDate', {})
@@ -108,6 +126,7 @@ def process_anime(raw):
         'name': raw['title']['romaji'],
         'english_title': raw['title'].get('english'),
         'poster_url': poster_url,
+        'trailer': normalize_trailer(raw.get('trailer')),
         'site_url': raw.get('siteUrl', f"https://anilist.co/anime/{raw['id']}"),
         'anilist_score': raw.get('averageScore'),
         'popularity': raw.get('popularity', 0),

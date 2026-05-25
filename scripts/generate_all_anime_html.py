@@ -578,6 +578,80 @@ def generate_html(catalog):
     }}
 
     // ============================================================
+    // POSTER TRAILERS
+    // ============================================================
+    function getSupportedTrailer(trailer) {{
+        if (!trailer || !trailer.id || !trailer.site) return null;
+        const site = String(trailer.site).toLowerCase();
+        if (!['youtube', 'dailymotion'].includes(site)) return null;
+        return {{ id: String(trailer.id), site }};
+    }}
+
+    function getTrailerEmbedUrl(site, id) {{
+        if (!site || !id) return '';
+        const safeId = encodeURIComponent(id);
+        if (site === 'youtube') return `https://www.youtube.com/embed/${{safeId}}?autoplay=1&rel=0`;
+        if (site === 'dailymotion') return `https://www.dailymotion.com/embed/video/${{safeId}}?autoplay=1`;
+        return '';
+    }}
+
+    function stopTrailer(wrapper) {{
+        if (!wrapper) return;
+        wrapper.classList.remove('trailer-active');
+        wrapper.querySelector('.trailer-frame')?.remove();
+        wrapper.querySelector('.trailer-close-btn')?.remove();
+    }}
+
+    function stopAllTrailers(exceptWrapper = null) {{
+        document.querySelectorAll('.card-image-wrapper.trailer-active').forEach(wrapper => {{
+            if (wrapper !== exceptWrapper) stopTrailer(wrapper);
+        }});
+    }}
+
+    function playPosterTrailer(card) {{
+        const wrapper = card?.querySelector('.card-image-wrapper');
+        const src = getTrailerEmbedUrl(card?.dataset.trailerSite, card?.dataset.trailerId);
+        if (!wrapper || !src) return;
+
+        stopAllTrailers(wrapper);
+        stopTrailer(wrapper);
+
+        const iframe = document.createElement('iframe');
+        iframe.className = 'trailer-frame';
+        iframe.src = src;
+        iframe.title = `${{card.dataset.name || 'Anime'}} trailer`;
+        iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+        iframe.allowFullscreen = true;
+
+        const closeButton = document.createElement('button');
+        closeButton.type = 'button';
+        closeButton.className = 'trailer-close-btn';
+        closeButton.setAttribute('aria-label', 'Close trailer');
+        closeButton.textContent = '×';
+
+        wrapper.classList.add('trailer-active');
+        wrapper.appendChild(iframe);
+        wrapper.appendChild(closeButton);
+    }}
+
+    document.addEventListener('click', e => {{
+        const playButton = e.target.closest('.trailer-play-btn');
+        if (playButton) {{
+            e.preventDefault();
+            e.stopPropagation();
+            playPosterTrailer(playButton.closest('.anime-card'));
+            return;
+        }}
+
+        const closeButton = e.target.closest('.trailer-close-btn');
+        if (closeButton) {{
+            e.preventDefault();
+            e.stopPropagation();
+            stopTrailer(closeButton.closest('.card-image-wrapper'));
+        }}
+    }});
+
+    // ============================================================
     // RENDER
     // ============================================================
     function buildCard(anime, rank) {{
@@ -593,6 +667,13 @@ def generate_html(catalog):
         const episodes = anime.episodes;
         const popularity = anime.popularity || 0;
         const nineAnimeUrl = create9AnimeSearchUrl(eng || name);
+        const trailer = getSupportedTrailer(anime.trailer);
+        const trailerAttrs = trailer
+            ? ` data-trailer-site="${{escapeAttr(trailer.site)}}" data-trailer-id="${{escapeAttr(trailer.id)}}"`
+            : '';
+        const trailerOverlay = trailer
+            ? `<button class="trailer-play-btn" type="button" aria-label="Play trailer for ${{escapeAttr(eng || name)}}"><span class="trailer-play-icon"></span></button>`
+            : '';
         const isFav = isFavorite(id);
 
         const scoreBadge = score ? `<span class="score-badge">⭐ ${{score}}/100</span>` : '';
@@ -618,10 +699,11 @@ def generate_html(catalog):
                      data-english="${{escapeAttr(eng)}}"
                      data-link="${{escapeAttr(siteUrl)}}"
                      data-site-url="${{escapeAttr(siteUrl)}}"
-                     data-poster="${{escapeAttr(poster)}}">
+                     data-poster="${{escapeAttr(poster)}}"${{trailerAttrs}}>
             <div class="card-image-wrapper">
                 <img class="anime-poster" src="${{escapeAttr(poster)}}" loading="lazy" alt="${{escapeAttr(name)}} poster"
                      onerror="this.src='data:image/svg+xml,<svg xmlns=\\'http://www.w3.org/2000/svg\\'><rect width=\\'100%\\' height=\\'100%\\' fill=\\'%231e2433\\'/></svg>'">
+                ${{trailerOverlay}}
                 <div class="card-overlay">
                     <button class="favorite-btn${{isFav ? ' active' : ''}}" data-anime-id="${{id}}" onclick="event.stopPropagation(); toggleFavorite(${{id}})">
                         <span class="favorite-icon">${{isFav ? '♥' : '♡'}}</span>

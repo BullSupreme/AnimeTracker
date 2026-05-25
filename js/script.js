@@ -753,6 +753,74 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    function getTrailerEmbedUrl(site, id) {
+        if (!site || !id) return '';
+        const safeId = encodeURIComponent(id);
+        if (site === 'youtube') {
+            return `https://www.youtube.com/embed/${safeId}?autoplay=1&rel=0`;
+        }
+        if (site === 'dailymotion') {
+            return `https://www.dailymotion.com/embed/video/${safeId}?autoplay=1`;
+        }
+        return '';
+    }
+
+    function stopTrailer(wrapper) {
+        if (!wrapper) return;
+        wrapper.classList.remove('trailer-active');
+        wrapper.querySelector('.trailer-frame')?.remove();
+        wrapper.querySelector('.trailer-close-btn')?.remove();
+    }
+
+    function stopAllTrailers(exceptWrapper = null) {
+        document.querySelectorAll('.card-image-wrapper.trailer-active').forEach(wrapper => {
+            if (wrapper !== exceptWrapper) stopTrailer(wrapper);
+        });
+    }
+
+    function playPosterTrailer(card) {
+        const wrapper = card?.querySelector('.card-image-wrapper');
+        const src = getTrailerEmbedUrl(card?.dataset.trailerSite, card?.dataset.trailerId);
+        if (!wrapper || !src) return;
+
+        stopAllTrailers(wrapper);
+        stopTrailer(wrapper);
+
+        const iframe = document.createElement('iframe');
+        iframe.className = 'trailer-frame';
+        iframe.src = src;
+        iframe.title = `${card.dataset.name || 'Anime'} trailer`;
+        iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+        iframe.allowFullscreen = true;
+
+        const closeButton = document.createElement('button');
+        closeButton.type = 'button';
+        closeButton.className = 'trailer-close-btn';
+        closeButton.setAttribute('aria-label', 'Close trailer');
+        closeButton.textContent = '×';
+
+        wrapper.classList.add('trailer-active');
+        wrapper.appendChild(iframe);
+        wrapper.appendChild(closeButton);
+    }
+
+    document.addEventListener('click', (e) => {
+        const playButton = e.target.closest('.trailer-play-btn');
+        if (playButton) {
+            e.preventDefault();
+            e.stopPropagation();
+            playPosterTrailer(playButton.closest('.anime-card'));
+            return;
+        }
+
+        const closeButton = e.target.closest('.trailer-close-btn');
+        if (closeButton) {
+            e.preventDefault();
+            e.stopPropagation();
+            stopTrailer(closeButton.closest('.card-image-wrapper'));
+        }
+    });
+
     // Initialize anime cards
     const animeCards = document.querySelectorAll('.anime-card');
     let currentCard = null;
@@ -796,6 +864,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 e.target.closest('.streaming-links-overlay') ||
                 e.target.closest('.main-link-btn') ||
                 e.target.closest('.nine-anime-btn') ||
+                e.target.closest('.trailer-play-btn') ||
+                e.target.closest('.trailer-close-btn') ||
+                e.target.closest('.trailer-frame') ||
                 e.target.closest('.context-menu')) {
                 return;
             }

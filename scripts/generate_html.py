@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import html as html_lib
 import json
 from datetime import datetime, timedelta
 import os
@@ -14,14 +15,62 @@ def normalize_streaming_links(value):
     return []
 
 
+def normalize_media_trailer(value):
+    """Ensure trailer data is usable before rendering a poster player."""
+    if not isinstance(value, dict):
+        return None
+
+    trailer_id = value.get('id')
+    site = value.get('site')
+    if not trailer_id or not site:
+        return None
+
+    site = str(site).lower()
+    if site not in {'youtube', 'dailymotion'}:
+        return None
+
+    return {
+        'id': str(trailer_id),
+        'site': site,
+        'thumbnail': value.get('thumbnail')
+    }
+
+
 def normalize_anime_list(anime_list):
     """Normalize anime objects loaded from disk."""
     normalized = []
     for anime in anime_list or []:
         anime_copy = dict(anime)
         anime_copy['streaming_links'] = normalize_streaming_links(anime.get('streaming_links'))
+        anime_copy['trailer'] = normalize_media_trailer(anime.get('trailer'))
         normalized.append(anime_copy)
     return normalized
+
+
+def escape_attr(value):
+    return html_lib.escape("" if value is None else str(value), quote=True)
+
+
+def trailer_data_attrs(anime):
+    trailer = normalize_media_trailer(anime.get('trailer'))
+    if not trailer:
+        return ""
+    return (
+        f' data-trailer-site="{escape_attr(trailer["site"])}"'
+        f' data-trailer-id="{escape_attr(trailer["id"])}"'
+    )
+
+
+def build_trailer_overlay(anime):
+    trailer = normalize_media_trailer(anime.get('trailer'))
+    if not trailer:
+        return ""
+
+    title = anime.get('english_title') or anime.get('name') or 'anime'
+    return f"""
+                                <button class="trailer-play-btn" type="button" aria-label="Play trailer for {escape_attr(title)}">
+                                    <span class="trailer-play-icon"></span>
+                                </button>"""
 
 def normalize_title(title):
     """Normalize anime title for fuzzy matching"""
@@ -326,9 +375,10 @@ def generate_html():
                     streaming_links_html += f'<a href="{link["url"]}" target="_blank" data-tooltip="{link["site"]}" class="streaming-link"><img src="{link["icon"]}" alt="{link["site"]}"></a>'
                 streaming_links_html += '</div>'
 
-            html_content += f"""                        <div class="anime-card today-card" data-name="{anime['name']}" data-link="{custom_link}" data-anime-id="{anime['id']}" data-release="{anime.get('release_date', '')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
+            html_content += f"""                        <div class="anime-card today-card" data-name="{escape_attr(anime['name'])}" data-link="{escape_attr(custom_link)}" data-anime-id="{anime['id']}" data-release="{escape_attr(anime.get('release_date', ''))}" data-site-url="{escape_attr(anime['site_url'])}" data-poster="{escape_attr(anime['poster_url'])}"{trailer_data_attrs(anime)}>
                             <div class="card-image-wrapper">
-                                <img class="anime-poster" src="{anime['poster_url']}" alt="{anime['name']} poster">
+                                <img class="anime-poster" src="{escape_attr(anime['poster_url'])}" alt="{escape_attr(anime['name'])} poster">
+                                {build_trailer_overlay(anime)}
                                 <div class="card-overlay">
                                     <button class="favorite-btn" data-anime-id="{anime['id']}">
                                         <span class="favorite-icon">♡</span>
@@ -407,9 +457,10 @@ def generate_html():
             # Add special class if 4+ streaming links
             many_links_class = " many-streaming-links" if len(unique_links) >= 4 else ""
 
-            html_content += f"""                        <div class="anime-card tomorrow-card{many_links_class}" data-name="{anime['name']}" data-link="{custom_link}" data-anime-id="{anime['id']}" data-release="{anime.get('release_date', '')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
+            html_content += f"""                        <div class="anime-card tomorrow-card{many_links_class}" data-name="{escape_attr(anime['name'])}" data-link="{escape_attr(custom_link)}" data-anime-id="{anime['id']}" data-release="{escape_attr(anime.get('release_date', ''))}" data-site-url="{escape_attr(anime['site_url'])}" data-poster="{escape_attr(anime['poster_url'])}"{trailer_data_attrs(anime)}>
                             <div class="card-image-wrapper">
-                                <img class="anime-poster" src="{anime['poster_url']}" alt="{anime['name']} poster">
+                                <img class="anime-poster" src="{escape_attr(anime['poster_url'])}" alt="{escape_attr(anime['name'])} poster">
+                                {build_trailer_overlay(anime)}
                                 <div class="card-overlay">
                                     <button class="favorite-btn" data-anime-id="{anime['id']}">
                                         <span class="favorite-icon">♡</span>
@@ -495,9 +546,10 @@ def generate_html():
             # Add special class if 4+ streaming links
             many_links_class = " many-streaming-links" if streaming_link_count >= 4 else ""
 
-            html_content += f"""                        <div class="anime-card{many_links_class}" data-name="{anime['name']}" data-link="{custom_link}" data-anime-id="{anime['id']}" data-release="{anime.get('release_date', '')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
+            html_content += f"""                        <div class="anime-card{many_links_class}" data-name="{escape_attr(anime['name'])}" data-link="{escape_attr(custom_link)}" data-anime-id="{anime['id']}" data-release="{escape_attr(anime.get('release_date', ''))}" data-site-url="{escape_attr(anime['site_url'])}" data-poster="{escape_attr(anime['poster_url'])}"{trailer_data_attrs(anime)}>
                             <div class="card-image-wrapper">
-                                <img class="anime-poster" src="{anime['poster_url']}" alt="{anime['name']} poster">
+                                <img class="anime-poster" src="{escape_attr(anime['poster_url'])}" alt="{escape_attr(anime['name'])} poster">
+                                {build_trailer_overlay(anime)}
                                 <div class="card-overlay">
                                     <button class="favorite-btn" data-anime-id="{anime['id']}">
                                         <span class="favorite-icon">♡</span>
@@ -589,9 +641,10 @@ def generate_html():
                     streaming_links_html += f'<a href="{link["url"]}" target="_blank" data-tooltip="{link["site"]}" class="streaming-link"><img src="{link["icon"]}" alt="{link["site"]}"></a>'
                 streaming_links_html += '</div>'
 
-            html_content += f"""                        <div class="anime-card recently-finished-card" data-name="{anime['name']}" data-link="{custom_link}" data-anime-id="{anime['id']}" data-release="{anime.get('end_date', '')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
+            html_content += f"""                        <div class="anime-card recently-finished-card" data-name="{escape_attr(anime['name'])}" data-link="{escape_attr(custom_link)}" data-anime-id="{anime['id']}" data-release="{escape_attr(anime.get('end_date', ''))}" data-site-url="{escape_attr(anime['site_url'])}" data-poster="{escape_attr(anime['poster_url'])}"{trailer_data_attrs(anime)}>
                             <div class="card-image-wrapper">
-                                <img class="anime-poster" src="{anime['poster_url']}" alt="{anime['name']} poster">
+                                <img class="anime-poster" src="{escape_attr(anime['poster_url'])}" alt="{escape_attr(anime['name'])} poster">
+                                {build_trailer_overlay(anime)}
                                 <div class="card-overlay">
                                     <button class="favorite-btn" data-anime-id="{anime['id']}">
                                         <span class="favorite-icon">♡</span>
@@ -652,9 +705,10 @@ def generate_html():
             # Add visibility class for items beyond the first 20
             visibility_class = "" if i < 20 else " hidden-upcoming"
             
-            html_content += f"""                        <div class="anime-card upcoming-card{visibility_class}" data-name="{anime['name']}" data-link="{anime['site_url']}" data-anime-id="{anime['id']}" data-release="{anime.get('release_date', 'TBD')}" data-site-url="{anime['site_url']}" data-poster="{anime['poster_url']}">
+            html_content += f"""                        <div class="anime-card upcoming-card{visibility_class}" data-name="{escape_attr(anime['name'])}" data-link="{escape_attr(anime['site_url'])}" data-anime-id="{anime['id']}" data-release="{escape_attr(anime.get('release_date', 'TBD'))}" data-site-url="{escape_attr(anime['site_url'])}" data-poster="{escape_attr(anime['poster_url'])}"{trailer_data_attrs(anime)}>
                             <div class="card-image-wrapper">
-                                <img class="anime-poster" src="{anime['poster_url']}" alt="{anime['name']} poster">
+                                <img class="anime-poster" src="{escape_attr(anime['poster_url'])}" alt="{escape_attr(anime['name'])} poster">
+                                {build_trailer_overlay(anime)}
                                 <div class="card-overlay">
                                     <button class="favorite-btn" data-anime-id="{anime['id']}">
                                         <span class="favorite-icon">♡</span>

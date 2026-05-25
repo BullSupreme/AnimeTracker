@@ -516,6 +516,82 @@ main {
     filter: brightness(1.05);
 }
 
+/* Trailer Player on Posters */
+.trailer-play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 58px;
+    height: 58px;
+    transform: translate(-50%, -50%) scale(0.92);
+    border: 1px solid rgba(255, 255, 255, 0.78);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.62);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(8px);
+    cursor: pointer;
+    opacity: 0;
+    z-index: 18;
+    pointer-events: none;
+    transition: opacity var(--transition-normal), transform var(--transition-normal), background var(--transition-fast);
+}
+
+.anime-card:hover .trailer-play-btn,
+.card-image-wrapper:focus-within .trailer-play-btn {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.trailer-play-btn:hover {
+    background: rgba(255, 255, 255, 0.82);
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.trailer-play-icon {
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left: 22px;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    border-left: 19px solid rgba(10, 15, 25, 0.9);
+}
+
+.trailer-frame {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background: #000;
+    z-index: 40;
+}
+
+.trailer-close-btn {
+    position: absolute;
+    top: 0.45rem;
+    left: 0.45rem;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.72);
+    color: white;
+    font-size: 1.15rem;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 45;
+}
+
+.card-image-wrapper.trailer-active .anime-poster,
+.card-image-wrapper.trailer-active .trailer-play-btn,
+.card-image-wrapper.trailer-active .card-overlay,
+.card-image-wrapper.trailer-active .streaming-links-overlay,
+.card-image-wrapper.trailer-active .custom-link-badge {
+    opacity: 0;
+    pointer-events: none;
+}
+
 /* Card Overlay */
 .card-overlay {
     position: absolute;

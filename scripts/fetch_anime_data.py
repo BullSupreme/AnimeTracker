@@ -32,10 +32,28 @@ def normalize_streaming_links(value):
     return []
 
 
+def normalize_media_trailer(value):
+    """Keep supported AniList trailer metadata in a predictable shape."""
+    if not isinstance(value, dict):
+        return None
+
+    trailer_id = value.get('id')
+    site = value.get('site')
+    if not trailer_id or not site:
+        return None
+
+    return {
+        'id': str(trailer_id),
+        'site': str(site).lower(),
+        'thumbnail': value.get('thumbnail')
+    }
+
+
 def normalize_anime_entry(anime):
     """Normalize persisted/manual anime objects to the current schema."""
     normalized = dict(anime)
     normalized['streaming_links'] = normalize_streaming_links(anime.get('streaming_links'))
+    normalized['trailer'] = normalize_media_trailer(anime.get('trailer'))
     return normalized
 
 
@@ -107,6 +125,7 @@ def fetch_manual_anime_data(manual_entries):
                 episodes
                 nextAiringEpisode { episode airingAt }
                 coverImage { extraLarge large medium }
+                trailer { id site thumbnail }
                 siteUrl
                 startDate { year month day }
                 endDate { year month day }
@@ -289,6 +308,7 @@ def fetch_current_anime():
                 episodes
                 nextAiringEpisode { episode airingAt }
                 coverImage { extraLarge large medium }
+                trailer { id site thumbnail }
                 siteUrl
                 startDate { year month day }
                 endDate { year month day }
@@ -317,6 +337,7 @@ def fetch_current_anime():
                 episodes
                 nextAiringEpisode { episode airingAt }
                 coverImage { extraLarge large medium }
+                trailer { id site thumbnail }
                 siteUrl
                 startDate { year month day }
                 endDate { year month day }
@@ -345,6 +366,7 @@ def fetch_current_anime():
                 episodes
                 nextAiringEpisode { episode airingAt }
                 coverImage { extraLarge large medium }
+                trailer { id site thumbnail }
                 siteUrl
                 startDate { year month day }
                 endDate { year month day }
@@ -482,6 +504,11 @@ def fetch_upcoming_seasonal_anime():
                     extraLarge
                     large
                     medium
+                }
+                trailer {
+                    id
+                    site
+                    thumbnail
                 }
                 siteUrl
                 startDate {
@@ -957,6 +984,7 @@ def process_anime_data(api_data):
             'next_airing_date': final_next_airing_date,
             'next_episode_number': final_next_episode,
             'poster_url': anime['coverImage'].get('extraLarge') or anime['coverImage'].get('large') or anime['coverImage']['medium'],
+            'trailer': normalize_media_trailer(anime.get('trailer')),
             'site_url': anime['siteUrl'],
             'start_date': start_date,
             'end_date': end_date,
@@ -1042,6 +1070,7 @@ def process_upcoming_anime_data(api_data):
             'episode': 1,  # First episode for upcoming anime
             'release_date': start_date_display,
             'poster_url': anime['coverImage'].get('extraLarge') or anime['coverImage'].get('large') or anime['coverImage']['medium'],
+            'trailer': normalize_media_trailer(anime.get('trailer')),
             'site_url': anime['siteUrl'],
             'start_date': start_date,
             'season': anime.get('season', '').title(),
@@ -1149,6 +1178,7 @@ def update_calendar_history(anime_list, today_date, history_days=CALENDAR_HISTOR
             'next_airing_date': anime.get('next_airing_date'),
             'next_episode_number': anime.get('next_episode_number'),
             'poster_url': anime.get('poster_url'),
+            'trailer': normalize_media_trailer(anime.get('trailer')),
             'site_url': anime.get('site_url'),
             'start_date': anime.get('start_date'),
             'end_date': anime.get('end_date'),
