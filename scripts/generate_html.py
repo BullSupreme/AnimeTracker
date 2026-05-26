@@ -6,14 +6,56 @@ import os
 import re
 
 NINE_ANIME_SEARCH_BASE = "https://9anime.me.uk/"
+PRIME_VIDEO_SEARCH_BASE = "https://www.primevideo.com/region/na/search/ref=atv_nb_sug"
+PRIME_VIDEO_ICON = "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
 ICON_BASE = "assets/icons"
 
 
-def normalize_streaming_links(value):
+def is_prime_streaming_link(link):
+    site = str(link.get('site') or '').lower()
+    url = str(link.get('url') or '').lower()
+    return 'prime' in site or 'amazon' in site or 'primevideo' in url or 'amazon.' in url
+
+
+def choose_streaming_search_title(anime_name, english_title):
+    title = english_title or anime_name
+    if anime_name and english_title:
+        english_lower = str(english_title).lower()
+        name_lower = str(anime_name).lower()
+        if english_lower.startswith(f"{name_lower}:"):
+            title = anime_name
+    return title or ""
+
+
+def create_prime_video_search_url(anime_name, english_title):
+    search_title = sanitize_9anime_search_title(choose_streaming_search_title(anime_name, english_title))
+    if not search_title:
+        return ""
+
+    from urllib.parse import urlencode
+    return f"{PRIME_VIDEO_SEARCH_BASE}?{urlencode({'ie': 'UTF8', 'phrase': search_title})}"
+
+
+def normalize_streaming_links(value, anime_name="", english_title=""):
     """Ensure streaming links always use the list shape expected by the UI."""
-    if isinstance(value, list):
-        return [link for link in value if isinstance(link, dict)]
-    return []
+    if not isinstance(value, list):
+        return []
+
+    normalized = []
+    for link in value:
+        if not isinstance(link, dict):
+            continue
+
+        link_copy = dict(link)
+        if is_prime_streaming_link(link_copy):
+            prime_url = create_prime_video_search_url(anime_name, english_title)
+            if prime_url:
+                link_copy['site'] = 'Prime Video'
+                link_copy['url'] = prime_url
+                link_copy['icon'] = PRIME_VIDEO_ICON
+
+        normalized.append(link_copy)
+    return normalized
 
 
 def normalize_media_trailer(value):
@@ -42,7 +84,11 @@ def normalize_anime_list(anime_list):
     normalized = []
     for anime in anime_list or []:
         anime_copy = dict(anime)
-        anime_copy['streaming_links'] = normalize_streaming_links(anime.get('streaming_links'))
+        anime_copy['streaming_links'] = normalize_streaming_links(
+            anime.get('streaming_links'),
+            anime.get('name', ''),
+            anime.get('english_title', ''),
+        )
         anime_copy['trailer'] = normalize_media_trailer(anime.get('trailer'))
         normalized.append(anime_copy)
     return normalized
@@ -366,7 +412,11 @@ def generate_html():
             link_domain = custom_link.split('//')[1].split('/')[0] if '//' in custom_link else 'anilist.co'
 
             # Get manual streaming links if they exist
-            manual_links = manual_streaming_links.get(anime['name'], [])
+            manual_links = normalize_streaming_links(
+                manual_streaming_links.get(anime['name'], []),
+                anime.get('name', ''),
+                anime.get('english_title', ''),
+            )
             all_streaming_links = anime.get('streaming_links', []) + manual_links
 
             # Remove duplicates based on site name
@@ -445,7 +495,11 @@ def generate_html():
             link_domain = custom_link.split('//')[1].split('/')[0] if '//' in custom_link else 'anilist.co'
 
             # Get manual streaming links if they exist
-            manual_links = manual_streaming_links.get(anime['name'], [])
+            manual_links = normalize_streaming_links(
+                manual_streaming_links.get(anime['name'], []),
+                anime.get('name', ''),
+                anime.get('english_title', ''),
+            )
             all_streaming_links = anime.get('streaming_links', []) + manual_links
 
             # Remove duplicates based on site name
@@ -632,7 +686,11 @@ def generate_html():
             end_date_display = f"Finished: {anime.get('end_date', 'Unknown')}"
 
             # Get manual streaming links if they exist
-            manual_links = manual_streaming_links.get(anime['name'], [])
+            manual_links = normalize_streaming_links(
+                manual_streaming_links.get(anime['name'], []),
+                anime.get('name', ''),
+                anime.get('english_title', ''),
+            )
             all_streaming_links = anime.get('streaming_links', []) + manual_links
 
             # Remove duplicates based on site name
@@ -800,16 +858,16 @@ def generate_html():
         <!-- Context Menu -->
         <div id="context-menu" class="context-menu">
             <div class="context-item" id="edit-link">
-                <span class="context-icon">{icon_img('play', 'Link')}</span>
+                <span class="context-icon">""" + icon_img('play', 'Link') + """</span>
                 Edit Link            
             </div>
             <div class="context-separator"></div>
             <div class="context-item" id="copy-main-title">
-                <span class="context-icon">{icon_img('list', 'Main title')}</span>
+                <span class="context-icon">""" + icon_img('list', 'Main title') + """</span>
                 Copy: Main Title
             </div>
             <div class="context-item" id="copy-english-title">
-                <span class="context-icon">{icon_img('calendar', 'English title')}</span>
+                <span class="context-icon">""" + icon_img('calendar', 'English title') + """</span>
                 Copy: English Title
             </div>
         </div>

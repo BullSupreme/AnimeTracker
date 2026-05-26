@@ -879,8 +879,16 @@ document.addEventListener('DOMContentLoaded', () => {
         card.addEventListener('contextmenu', (e) => {
             e.preventDefault();
             currentCard = card;
-            // Find the full anime data object when the menu is opened
-            currentAnimeData = window.animeData.find(a => a.id.toString() === card.dataset.animeId);
+            const animeLists = [
+                window.animeData,
+                window.upcomingAnime,
+                window.otherAnime,
+                window.recentlyFinished,
+                window.calendarHistory
+            ].filter(Array.isArray);
+            currentAnimeData = animeLists
+                .flat()
+                .find(a => a.id?.toString() === card.dataset.animeId) || null;
             showContextMenu(e.pageX, e.pageY);
         });
 
