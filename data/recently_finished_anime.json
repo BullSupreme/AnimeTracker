@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": 173172,
+    "mal_id": 57779,
+    "name": "Dorohedoro Season 2",
+    "english_title": "Dorohedoro Season 2",
+    "episode": 9,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 9,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx173172-404XnuOS0DhR.jpg",
+    "trailer": {
+      "id": "GHjCjHAKo9c",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/GHjCjHAKo9c/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/173172",
+    "start_date": "2026-04-01",
+    "end_date": "2026-05-27",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371893/dorohedoro",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/80991903",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JijIk0-cv_OB8lVOHKzve3r",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 35850,
+    "anilist_score": 82,
+    "recently_finished": true,
+    "popularity_rank": 20
+  }
+]
