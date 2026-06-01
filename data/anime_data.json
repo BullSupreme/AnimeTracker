@@ -40,7 +40,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 708195,
+    "popularity": 708838,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -52,8 +52,8 @@
     "english_title": "Witch Hat Atelier",
     "episode": 10,
     "release_date": "2026-06-01",
-    "next_airing_date": "2026-06-01",
-    "next_episode_number": 10,
+    "next_airing_date": "2026-06-08",
+    "next_episode_number": 11,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx147105-rwOX8qyUy8gV.jpg",
     "trailer": {
       "id": "rc26AwBXlUE",
@@ -291,7 +291,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 76609,
+    "popularity": 76649,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 8
@@ -758,8 +758,8 @@
     "english_title": "LIAR GAME",
     "episode": 9,
     "release_date": "2026-06-01",
-    "next_airing_date": "2026-06-01",
-    "next_episode_number": 9,
+    "next_airing_date": "2026-06-08",
+    "next_episode_number": 10,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197754-Q5KqcUhIdypp.png",
     "trailer": {
       "id": "FIPOXj00ysQ",
@@ -1038,8 +1038,8 @@
     "english_title": "The Klutzy Class Monitor and the Girl with the Short Skirt",
     "episode": 9,
     "release_date": "2026-06-01",
-    "next_airing_date": "2026-06-01",
-    "next_episode_number": 9,
+    "next_airing_date": "2026-06-08",
+    "next_episode_number": 10,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189987-CkTDPfD7vu2Y.jpg",
     "trailer": {
       "id": "jrWzZGBwWBQ",
@@ -1192,6 +1192,51 @@
     "popularity_rank": 35
   },
   {
+    "id": 179813,
+    "mal_id": 59393,
+    "name": "Niwatori Fighter",
+    "english_title": "Rooster Fighter",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179813-cLHpUPV1IiEm.jpg",
+    "trailer": {
+      "id": "5hRrvJ08ZSs",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/5hRrvJ08ZSs/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/179813",
+    "start_date": "2026-03-14",
+    "end_date": "2026-05-31",
+    "streaming_links": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jij171Q_EAc8xRn0RLyYmbJ",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "Disney Plus",
+        "url": "https://www.disneyplus.com/browse/entity-75f4baad-151d-489d-8a9e-bec4ab49ed23",
+        "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
+      },
+      {
+        "site": "Hulu",
+        "url": "https://www.hulu.com/series/75f4baad-151d-489d-8a9e-bec4ab49ed23",
+        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00365727/rooster-fighter",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 19605,
+    "anilist_score": 66,
+    "recently_finished": true,
+    "popularity_rank": 36
+  },
+  {
     "id": 185211,
     "mal_id": 60444,
     "name": "Yowa Yowa Sensei",
@@ -1224,7 +1269,7 @@
     "popularity": 18846,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 36
+    "popularity_rank": 37
   },
   {
     "id": 195333,
@@ -1254,7 +1299,7 @@
     "popularity": 18549,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 37
+    "popularity_rank": 38
   },
   {
     "id": 195268,
@@ -1289,7 +1334,7 @@
     "popularity": 17372,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 38
+    "popularity_rank": 39
   },
   {
     "id": 196974,
@@ -1324,7 +1369,7 @@
     "popularity": 17364,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 39
+    "popularity_rank": 40
   },
   {
     "id": 199029,
@@ -1354,7 +1399,7 @@
     "popularity": 17188,
     "anilist_score": 57,
     "recently_finished": false,
-    "popularity_rank": 40
+    "popularity_rank": 41
   },
   {
     "id": 201817,
@@ -1389,7 +1434,7 @@
     "popularity": 16469,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 41
+    "popularity_rank": 42
   },
   {
     "id": 187989,
@@ -1434,7 +1479,7 @@
     "popularity": 16281,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 42
+    "popularity_rank": 43
   },
   {
     "id": 196012,
@@ -1479,7 +1524,7 @@
     "popularity": 15221,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 43
+    "popularity_rank": 44
   },
   {
     "id": 206951,
@@ -1514,7 +1559,7 @@
     "popularity": 14926,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 44
+    "popularity_rank": 45
   },
   {
     "id": 202381,
@@ -1544,7 +1589,7 @@
     "popularity": 14834,
     "anilist_score": 58,
     "recently_finished": false,
-    "popularity_rank": 45
+    "popularity_rank": 46
   },
   {
     "id": 196029,
@@ -1579,7 +1624,7 @@
     "popularity": 14353,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 46
+    "popularity_rank": 47
   },
   {
     "id": 186744,
@@ -1609,7 +1654,7 @@
     "popularity": 12955,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 47
+    "popularity_rank": 48
   },
   {
     "id": 198939,
@@ -1639,7 +1684,7 @@
     "popularity": 12395,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 48
+    "popularity_rank": 49
   },
   {
     "id": 177501,
@@ -1674,7 +1719,7 @@
     "popularity": 11049,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 49
+    "popularity_rank": 50
   },
   {
     "id": 196144,
@@ -1709,7 +1754,7 @@
     "popularity": 10836,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 50
+    "popularity_rank": 51
   },
   {
     "id": 197868,
@@ -1739,7 +1784,7 @@
     "popularity": 9916,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 51
+    "popularity_rank": 52
   },
   {
     "id": 202985,
@@ -1769,7 +1814,7 @@
     "popularity": 8549,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 52
+    "popularity_rank": 53
   },
   {
     "id": 181284,
@@ -1804,7 +1849,7 @@
     "popularity": 8115,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 53
+    "popularity_rank": 54
   },
   {
     "id": 158036,
@@ -1834,7 +1879,7 @@
     "popularity": 7900,
     "anilist_score": 55,
     "recently_finished": false,
-    "popularity_rank": 54
+    "popularity_rank": 55
   },
   {
     "id": 195734,
@@ -1864,7 +1909,7 @@
     "popularity": 7785,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 55
+    "popularity_rank": 56
   },
   {
     "id": 177634,
@@ -1894,7 +1939,7 @@
     "popularity": 7662,
     "anilist_score": 77,
     "recently_finished": false,
-    "popularity_rank": 56
+    "popularity_rank": 57
   },
   {
     "id": 169228,
@@ -1924,7 +1969,7 @@
     "popularity": 5259,
     "anilist_score": 57,
     "recently_finished": false,
-    "popularity_rank": 57
+    "popularity_rank": 58
   },
   {
     "id": 178749,
@@ -1954,7 +1999,7 @@
     "popularity": 4536,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 58
+    "popularity_rank": 59
   },
   {
     "id": 202508,
@@ -1989,7 +2034,7 @@
     "popularity": 4349,
     "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 59
+    "popularity_rank": 60
   },
   {
     "id": 177508,
@@ -2024,7 +2069,7 @@
     "popularity": 4032,
     "anilist_score": 56,
     "recently_finished": false,
-    "popularity_rank": 60
+    "popularity_rank": 61
   },
   {
     "id": 201090,
@@ -2059,7 +2104,7 @@
     "popularity": 3623,
     "anilist_score": 49,
     "recently_finished": false,
-    "popularity_rank": 61
+    "popularity_rank": 62
   },
   {
     "id": 210032,
@@ -2089,6 +2134,6 @@
     "popularity": 2567,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 62
+    "popularity_rank": 63
   }
 ]
