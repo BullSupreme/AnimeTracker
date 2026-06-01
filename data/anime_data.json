@@ -40,7 +40,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 707569,
+    "popularity": 708195,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -73,9 +73,14 @@
         "site": "Netflix",
         "url": "https://www.netflix.com/title/82741721",
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@tongari_anime",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 162888,
+    "popularity": 164036,
     "anilist_score": 86,
     "recently_finished": false,
     "popularity_rank": 2
@@ -105,7 +110,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 99612,
+    "popularity": 100218,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 3
@@ -135,7 +140,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 96003,
+    "popularity": 96867,
     "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 4
@@ -145,8 +150,8 @@
     "mal_id": 59970,
     "name": "Tensei Shitara Slime Datta Ken 4th Season",
     "english_title": "That Time I Got Reincarnated as a Slime Season 4",
-    "episode": 8,
-    "release_date": "2026-05-29",
+    "episode": 9,
+    "release_date": "2026-06-05",
     "next_airing_date": "2026-06-05",
     "next_episode_number": 9,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182205-q2AeO1owuQbO.jpg",
@@ -170,7 +175,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 94236,
+    "popularity": 94811,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 5
@@ -205,7 +210,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 91856,
+    "popularity": 92325,
     "anilist_score": 79,
     "recently_finished": false,
     "popularity_rank": 6
@@ -238,9 +243,14 @@
         "site": "YouTube",
         "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl37QJE0NTvUiONsuDJH6IMD",
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81900358",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 83998,
+    "popularity": 85013,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 7
@@ -281,45 +291,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 76545,
+    "popularity": 76609,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 8
-  },
-  {
-    "id": 170019,
-    "mal_id": 56876,
-    "name": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2nd Season",
-    "english_title": "The Angel Next Door Spoils Me Rotten2",
-    "episode": 9,
-    "release_date": "2026-05-29",
-    "next_airing_date": "2026-06-05",
-    "next_episode_number": 10,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170019-djbN0b934MhE.jpg",
-    "trailer": {
-      "id": "8Gtb1uhjPKs",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/8Gtb1uhjPKs/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/170019",
-    "start_date": "2026-04-03",
-    "end_date": "2026-06-19",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G9VHN91DJ/the-angel-next-door-spoils-me-rotten",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JjhVqkAt1bFMDpgrRsby7Z_",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 63808,
-    "anilist_score": 76,
-    "recently_finished": false,
-    "popularity_rank": 9
   },
   {
     "id": 169580,
@@ -346,8 +321,43 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 63637,
+    "popularity": 64151,
     "anilist_score": 79,
+    "recently_finished": false,
+    "popularity_rank": 9
+  },
+  {
+    "id": 170019,
+    "mal_id": 56876,
+    "name": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2nd Season",
+    "english_title": "The Angel Next Door Spoils Me Rotten2",
+    "episode": 10,
+    "release_date": "2026-06-05",
+    "next_airing_date": "2026-06-05",
+    "next_episode_number": 10,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170019-djbN0b934MhE.jpg",
+    "trailer": {
+      "id": "8Gtb1uhjPKs",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/8Gtb1uhjPKs/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/170019",
+    "start_date": "2026-04-03",
+    "end_date": "2026-06-19",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G9VHN91DJ/the-angel-next-door-spoils-me-rotten",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JjhVqkAt1bFMDpgrRsby7Z_",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 64061,
+    "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 10
   },
@@ -381,7 +391,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 60948,
+    "popularity": 61432,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 11
@@ -416,7 +426,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 60301,
+    "popularity": 60577,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 12
@@ -451,8 +461,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 48648,
-    "anilist_score": 75,
+    "popularity": 48984,
+    "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 13
   },
@@ -481,7 +491,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 45707,
+    "popularity": 46054,
     "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 14
@@ -511,40 +521,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 40060,
+    "popularity": 40275,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 15
-  },
-  {
-    "id": 197824,
-    "mal_id": 62146,
-    "name": "Isekai Nonbiri Nouka 2",
-    "english_title": "Farming Life in Another World 2",
-    "episode": 9,
-    "release_date": "2026-06-01",
-    "next_airing_date": "2026-06-01",
-    "next_episode_number": 9,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197824-k9Uyef8g49hB.png",
-    "trailer": {
-      "id": "8LPyvgi9hOM",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/8LPyvgi9hOM/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/197824",
-    "start_date": "2026-04-06",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "HIDIVE",
-        "url": "https://www.hidive.com/season/35229",
-        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
-      }
-    ],
-    "popularity": 38711,
-    "anilist_score": 74,
-    "recently_finished": false,
-    "popularity_rank": 16
   },
   {
     "id": 206914,
@@ -571,8 +551,38 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 38532,
+    "popularity": 39104,
     "anilist_score": 81,
+    "recently_finished": false,
+    "popularity_rank": 16
+  },
+  {
+    "id": 197824,
+    "mal_id": 62146,
+    "name": "Isekai Nonbiri Nouka 2",
+    "english_title": "Farming Life in Another World 2",
+    "episode": 9,
+    "release_date": "2026-06-01",
+    "next_airing_date": "2026-06-08",
+    "next_episode_number": 10,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197824-k9Uyef8g49hB.png",
+    "trailer": {
+      "id": "8LPyvgi9hOM",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/8LPyvgi9hOM/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/197824",
+    "start_date": "2026-04-06",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "HIDIVE",
+        "url": "https://www.hidive.com/season/35229",
+        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
+      }
+    ],
+    "popularity": 38885,
+    "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 17
   },
@@ -601,7 +611,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 38084,
+    "popularity": 38383,
     "anilist_score": 72,
     "recently_finished": false,
     "popularity_rank": 18
@@ -631,8 +641,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 37126,
-    "anilist_score": 57,
+    "popularity": 37253,
+    "anilist_score": 56,
     "recently_finished": false,
     "popularity_rank": 19
   },
@@ -671,7 +681,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 36667,
+    "popularity": 36863,
     "anilist_score": 83,
     "recently_finished": true,
     "popularity_rank": 20
@@ -706,7 +716,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 36356,
+    "popularity": 36639,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 21
@@ -736,7 +746,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 35487,
+    "popularity": 35700,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 22
@@ -766,7 +776,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 32617,
+    "popularity": 32698,
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 23
@@ -821,7 +831,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 32250,
+    "popularity": 32397,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 24
@@ -851,7 +861,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 32192,
+    "popularity": 32354,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 25
@@ -886,7 +896,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 31207,
+    "popularity": 31391,
     "anilist_score": 80,
     "recently_finished": false,
     "popularity_rank": 26
@@ -916,7 +926,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 30333,
+    "popularity": 30448,
     "anilist_score": 77,
     "recently_finished": false,
     "popularity_rank": 27
@@ -951,7 +961,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 29418,
+    "popularity": 29792,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 28
@@ -981,8 +991,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 27969,
-    "anilist_score": 58,
+    "popularity": 28131,
+    "anilist_score": 57,
     "recently_finished": false,
     "popularity_rank": 29
   },
@@ -1016,7 +1026,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 27555,
+    "popularity": 27664,
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 30
@@ -1046,7 +1056,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 25897,
+    "popularity": 26073,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 31
@@ -1056,8 +1066,8 @@
     "mal_id": 61186,
     "name": "Kamiina Botan, Yoeru Sugata wa Yuri no Hana",
     "english_title": "Botan Kamiina Fully Blossoms When Drunk",
-    "episode": 8,
-    "release_date": "2026-05-29",
+    "episode": 9,
+    "release_date": "2026-06-05",
     "next_airing_date": "2026-06-05",
     "next_episode_number": 9,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187869-LUn3dyTzuKUq.jpg",
@@ -1076,7 +1086,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 25331,
+    "popularity": 25529,
     "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 32
@@ -1111,7 +1121,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 24188,
+    "popularity": 24324,
     "anilist_score": 77,
     "recently_finished": false,
     "popularity_rank": 33
@@ -1121,8 +1131,8 @@
     "mal_id": 61687,
     "name": "Jishou Akuyaku Reijou na Konyakusha no Kansatsu Kiroku.",
     "english_title": "An Observation Log of My Fiancée Who Calls Herself a Villainess",
-    "episode": 9,
-    "release_date": "2026-05-29",
+    "episode": 10,
+    "release_date": "2026-06-05",
     "next_airing_date": "2026-06-05",
     "next_episode_number": 10,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx192808-tfrX4Gn2Y1Ye.jpg",
@@ -1141,7 +1151,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 21391,
+    "popularity": 21561,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 34
@@ -1176,7 +1186,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 19752,
+    "popularity": 19969,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 35
@@ -1211,7 +1221,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 18715,
+    "popularity": 18846,
     "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 36
@@ -1241,7 +1251,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 18423,
+    "popularity": 18549,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 37
@@ -1276,7 +1286,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 17320,
+    "popularity": 17372,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 38
@@ -1311,7 +1321,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 17194,
+    "popularity": 17364,
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 39
@@ -1341,7 +1351,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 17126,
+    "popularity": 17188,
     "anilist_score": 57,
     "recently_finished": false,
     "popularity_rank": 40
@@ -1376,7 +1386,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 16391,
+    "popularity": 16469,
     "anilist_score": 70,
     "recently_finished": false,
     "popularity_rank": 41
@@ -1421,7 +1431,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 16208,
+    "popularity": 16281,
     "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 42
@@ -1466,7 +1476,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 15172,
+    "popularity": 15221,
     "anilist_score": 66,
     "recently_finished": false,
     "popularity_rank": 43
@@ -1501,7 +1511,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 14850,
+    "popularity": 14926,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 44
@@ -1531,7 +1541,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 14786,
+    "popularity": 14834,
     "anilist_score": 58,
     "recently_finished": false,
     "popularity_rank": 45
@@ -1566,7 +1576,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 14211,
+    "popularity": 14353,
     "anilist_score": 70,
     "recently_finished": false,
     "popularity_rank": 46
@@ -1596,7 +1606,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12902,
+    "popularity": 12955,
     "anilist_score": 66,
     "recently_finished": false,
     "popularity_rank": 47
@@ -1626,7 +1636,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12342,
+    "popularity": 12395,
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 48
@@ -1661,7 +1671,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 11020,
+    "popularity": 11049,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 49
@@ -1671,8 +1681,8 @@
     "mal_id": 62068,
     "name": "Snowball Earth",
     "english_title": "SNOWBALL EARTH",
-    "episode": 9,
-    "release_date": "2026-05-29",
+    "episode": 10,
+    "release_date": "2026-06-05",
     "next_airing_date": "2026-06-05",
     "next_episode_number": 10,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196144-UqVOcMjThkqa.jpg",
@@ -1696,7 +1706,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
       }
     ],
-    "popularity": 10742,
+    "popularity": 10836,
     "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 50
@@ -1726,7 +1736,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 9846,
+    "popularity": 9916,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 51
@@ -1756,7 +1766,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 8502,
+    "popularity": 8549,
     "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 52
@@ -1791,7 +1801,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 8092,
+    "popularity": 8115,
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 53
@@ -1821,7 +1831,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7877,
+    "popularity": 7900,
     "anilist_score": 55,
     "recently_finished": false,
     "popularity_rank": 54
@@ -1851,7 +1861,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 7732,
+    "popularity": 7785,
     "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 55
@@ -1881,7 +1891,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7613,
+    "popularity": 7662,
     "anilist_score": 77,
     "recently_finished": false,
     "popularity_rank": 56
@@ -1891,8 +1901,8 @@
     "mal_id": 56646,
     "name": "Hokuto no Ken: FIST OF THE NORTH STAR",
     "english_title": "FIST OF THE NORTH STAR: HOKUTO NO KEN",
-    "episode": 10,
-    "release_date": "2026-05-29",
+    "episode": 11,
+    "release_date": "2026-06-05",
     "next_airing_date": "2026-06-05",
     "next_episode_number": 11,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169228-y79xDpZ29Vv4.jpg",
@@ -1911,7 +1921,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 5249,
+    "popularity": 5259,
     "anilist_score": 57,
     "recently_finished": false,
     "popularity_rank": 57
@@ -1941,7 +1951,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 4510,
+    "popularity": 4536,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 58
@@ -1951,8 +1961,8 @@
     "mal_id": 62981,
     "name": "Kami no Shizuku",
     "english_title": "The Drops of God",
-    "episode": 8,
-    "release_date": "2026-05-29",
+    "episode": 9,
+    "release_date": "2026-06-05",
     "next_airing_date": "2026-06-05",
     "next_episode_number": 9,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202508-dk6LEyevJYUY.jpg",
@@ -1976,7 +1986,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4330,
+    "popularity": 4349,
     "anilist_score": 54,
     "recently_finished": false,
     "popularity_rank": 59
@@ -2011,7 +2021,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 4025,
+    "popularity": 4032,
     "anilist_score": 56,
     "recently_finished": false,
     "popularity_rank": 60
@@ -2046,8 +2056,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 3591,
-    "anilist_score": 50,
+    "popularity": 3623,
+    "anilist_score": 49,
     "recently_finished": false,
     "popularity_rank": 61
   },
@@ -2076,7 +2086,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 2544,
+    "popularity": 2567,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 62
