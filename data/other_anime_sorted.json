@@ -1,316 +1,5 @@
 [
   {
-    "id": 21,
-    "mal_id": 21,
-    "name": "ONE PIECE",
-    "english_title": "ONE PIECE",
-    "episode": 1165,
-    "release_date": "2026-06-07",
-    "next_airing_date": "2026-06-07",
-    "next_episode_number": 1165,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
-    "trailer": null,
-    "site_url": "https://anilist.co/anime/21",
-    "start_date": "1999-10-20",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "http://www.crunchyroll.com/one-piece",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "Hulu",
-        "url": "http://www.hulu.com/one-piece",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      },
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/80107103",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@onepieceofficial",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@OnePieceOfficialENG",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 710896,
-    "anilist_score": 87,
-    "recently_finished": false,
-    "popularity_rank": 1
-  },
-  {
-    "id": 182300,
-    "mal_id": 59983,
-    "name": "Tsue to Tsurugi no Wistoria Season 2",
-    "english_title": "Wistoria: Wand and Sword Season 2",
-    "episode": 9,
-    "release_date": "2026-06-07",
-    "next_airing_date": "2026-06-07",
-    "next_episode_number": 9,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182300-IYkq5KrkQq1V.jpg",
-    "trailer": {
-      "id": "57OL0uTIBVg",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/57OL0uTIBVg/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/182300",
-    "start_date": "2026-04-12",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GW4HM7WK9/wistoria-wand-and-sword",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl37QJE0NTvUiONsuDJH6IMD",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/81900358",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      }
-    ],
-    "popularity": 87010,
-    "anilist_score": 82,
-    "recently_finished": false,
-    "popularity_rank": 7
-  },
-  {
-    "id": 206914,
-    "mal_id": 63375,
-    "name": "Nippon Sangoku",
-    "english_title": "NIPPON SANGOKU: The Three Nations of the Crimson Sun",
-    "episode": 10,
-    "release_date": "2026-06-07",
-    "next_airing_date": "2026-06-07",
-    "next_episode_number": 10,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206914-SHKX08LarRzB.jpg",
-    "trailer": {
-      "id": "PvjwzkcaT2Y",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/PvjwzkcaT2Y/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/206914",
-    "start_date": "2026-04-05",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Amazon Prime Video",
-        "url": "https://www.amazon.com/dp/B0GKZDKSJW",
-        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
-      }
-    ],
-    "popularity": 40211,
-    "anilist_score": 81,
-    "recently_finished": false,
-    "popularity_rank": 16
-  },
-  {
-    "id": 182578,
-    "mal_id": 60055,
-    "name": "Yozakura-san Chi no Daisakusen 2nd Season",
-    "english_title": "Mission: Yozakura Family Season 2",
-    "episode": 9,
-    "release_date": "2026-06-07",
-    "next_airing_date": "2026-06-07",
-    "next_episode_number": 9,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182578-Te8W0EwesgrS.jpg",
-    "trailer": {
-      "id": "dirydQCBa6o",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/dirydQCBa6o/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/182578",
-    "start_date": "2026-04-12",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Disney Plus",
-        "url": "https://www.disneyplus.com/browse/entity-ac689bea-f955-4d95-8693-7b87b5a309cb",
-        "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
-      },
-      {
-        "site": "Hulu",
-        "url": "https://www.hulu.com/series/mission-yozakura-family-ac689bea-f955-4d95-8693-7b87b5a309cb",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      }
-    ],
-    "popularity": 20300,
-    "anilist_score": 75,
-    "recently_finished": false,
-    "popularity_rank": 35
-  },
-  {
-    "id": 196974,
-    "mal_id": 62171,
-    "name": "Kuroneko to Majo no Kyoushitsu",
-    "english_title": "The Classroom of the Black Cat and a Witch",
-    "episode": 9,
-    "release_date": "2026-06-07",
-    "next_airing_date": "2026-06-07",
-    "next_episode_number": 9,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196974-mZk1uyrx0XNx.png",
-    "trailer": {
-      "id": "uJhshLlQs60",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/uJhshLlQs60/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/196974",
-    "start_date": "2026-04-12",
-    "end_date": "2026-01-01",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00374357/the-classroom-of-a-black-cat-and-a-witch",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jh2Aq9dnBrcdmlUPfq5VQtL",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 17715,
-    "anilist_score": 63,
-    "recently_finished": false,
-    "popularity_rank": 40
-  },
-  {
-    "id": 197868,
-    "mal_id": 62342,
-    "name": "Maid-san wa Taberu dake",
-    "english_title": "The Food Diary of Miss Maid",
-    "episode": 11,
-    "release_date": "2026-06-07",
-    "next_airing_date": "2026-06-07",
-    "next_episode_number": 11,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197868-sm5jcjPKWhNL.png",
-    "trailer": {
-      "id": "lPLmZANPhrM",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/lPLmZANPhrM/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/197868",
-    "start_date": "2026-04-01",
-    "end_date": "2026-06-14",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00375170/the-food-diary-of-miss-maid",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 10039,
-    "anilist_score": 64,
-    "recently_finished": false,
-    "popularity_rank": 52
-  },
-  {
-    "id": 177634,
-    "mal_id": 58877,
-    "name": "Diamond no Ace act II: Second Season",
-    "english_title": "Ace of the Diamond act II -Second Season-",
-    "episode": 10,
-    "release_date": "2026-06-07",
-    "next_airing_date": "2026-06-07",
-    "next_episode_number": 10,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177634-jYdKdbPOwWhR.png",
-    "trailer": {
-      "id": "dPWuN1uP09g",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/dPWuN1uP09g/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/177634",
-    "start_date": "2026-04-05",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GYX0MZ58R/ace-of-the-diamond",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 7754,
-    "anilist_score": 77,
-    "recently_finished": false,
-    "popularity_rank": 57
-  },
-  {
-    "id": 178749,
-    "mal_id": 59176,
-    "name": "Mahou no Shimai LuluttoLilly",
-    "english_title": "Magical Sisters LuluttoLilly",
-    "episode": 10,
-    "release_date": "2026-06-07",
-    "next_airing_date": "2026-06-07",
-    "next_episode_number": 10,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178749-c0tx9p13PVJy.png",
-    "trailer": {
-      "id": "7oNuxIfJqiI",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/7oNuxIfJqiI/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/178749",
-    "start_date": "2026-04-05",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/watch?v=lCfLdCGV2yA",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 4591,
-    "anilist_score": 64,
-    "recently_finished": false,
-    "popularity_rank": 59
-  },
-  {
-    "id": 201090,
-    "mal_id": 62852,
-    "name": "Ghost Concert: missing Songs",
-    "english_title": "GHOST CONCERT : missing Songs",
-    "episode": 10,
-    "release_date": "2026-06-07",
-    "next_airing_date": "2026-06-07",
-    "next_episode_number": 10,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx201090-HzQKUjjvde32.jpg",
-    "trailer": {
-      "id": "4_CsA45Rsnk",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/4_CsA45Rsnk/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/201090",
-    "start_date": "2026-04-06",
-    "end_date": "2026-06-29",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00374796/ghost-concert--missing-songs",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JgpcAwuayL8qIjFf0EVbNw0",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 3678,
-    "anilist_score": 49,
-    "recently_finished": false,
-    "popularity_rank": 62
-  },
-  {
     "id": 147105,
     "mal_id": 51553,
     "name": "Tongari Boushi no Atelier",
@@ -375,8 +64,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 39963,
-    "anilist_score": 74,
+    "popularity": 40111,
+    "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 17
   },
@@ -405,7 +94,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 33395,
+    "popularity": 33483,
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 23
@@ -435,7 +124,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 27328,
+    "popularity": 27463,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 31
@@ -465,7 +154,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 67019,
+    "popularity": 67524,
     "anilist_score": 80,
     "recently_finished": false,
     "popularity_rank": 9
@@ -500,7 +189,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 63542,
+    "popularity": 63895,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 11
@@ -530,7 +219,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 39886,
+    "popularity": 40101,
     "anilist_score": 72,
     "recently_finished": false,
     "popularity_rank": 18
@@ -565,7 +254,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 17759,
+    "popularity": 17830,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 39
@@ -600,10 +289,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 15398,
+    "popularity": 15465,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 45
+    "popularity_rank": 44
   },
   {
     "id": 186744,
@@ -630,7 +319,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 13311,
+    "popularity": 13348,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 48
@@ -660,7 +349,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 8762,
+    "popularity": 8803,
     "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 53
@@ -696,6 +385,256 @@
     "popularity_rank": 55
   },
   {
+    "id": 189046,
+    "mal_id": 61316,
+    "name": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
+    "english_title": "Re:ZERO -Starting Life in Another World- Season 4",
+    "episode": 10,
+    "release_date": "2026-06-10",
+    "next_airing_date": "2026-06-10",
+    "next_episode_number": 10,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189046-yaHWtS5FII46.jpg",
+    "trailer": {
+      "id": "i8EjBP85cCc",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/i8EjBP85cCc/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/189046",
+    "start_date": "2026-04-08",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GRGG9798R",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 103498,
+    "anilist_score": 88,
+    "recently_finished": false,
+    "popularity_rank": 3
+  },
+  {
+    "id": 180745,
+    "mal_id": 59708,
+    "name": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 4th Season 2-nensei-hen Ichi Gakki",
+    "english_title": "Classroom of the Elite 4th Season: Second Year, First Semester",
+    "episode": 14,
+    "release_date": "2026-06-10",
+    "next_airing_date": "2026-06-10",
+    "next_episode_number": 14,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180745-OEZaBeEdWozn.png",
+    "trailer": {
+      "id": "kAncxuwCPZg",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/kAncxuwCPZg/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/180745",
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-25",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GRVN8MNQY/classroom-of-the-elite",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3d2XXHoyqobEAMz2g0nBc0",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 94478,
+    "anilist_score": 79,
+    "recently_finished": false,
+    "popularity_rank": 6
+  },
+  {
+    "id": 199588,
+    "mal_id": 62604,
+    "name": "Otaku ni Yasashii Gal wa Inai!?",
+    "english_title": "Gals Can't Be Kind to Otaku!?",
+    "episode": 10,
+    "release_date": "2026-06-10",
+    "next_airing_date": "2026-06-10",
+    "next_episode_number": 10,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199588-M2vtWicvqNbU.jpg",
+    "trailer": {
+      "id": "pdWQUnshA4M",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/pdWQUnshA4M/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/199588",
+    "start_date": "2026-04-08",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371662/gals-cant-be-kind-to-otaku",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/channel/UCoqLO21EpMJdhABGFJOPn0g",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 50907,
+    "anilist_score": 76,
+    "recently_finished": false,
+    "popularity_rank": 13
+  },
+  {
+    "id": 194317,
+    "mal_id": 61831,
+    "name": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru? 2nd Season",
+    "english_title": "The Beginning After the End Season 2",
+    "episode": 11,
+    "release_date": "2026-06-10",
+    "next_airing_date": "2026-06-10",
+    "next_episode_number": 11,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194317-M7t2ymBDHqyW.jpg",
+    "trailer": {
+      "id": "embD4ae1ufk",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/embD4ae1ufk/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/194317",
+    "start_date": "2026-04-01",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G24H1NWKE/the-beginning-after-the-end",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 38165,
+    "anilist_score": 57,
+    "recently_finished": false,
+    "popularity_rank": 19
+  },
+  {
+    "id": 180228,
+    "mal_id": 59551,
+    "name": "Ganbare! Nakamura-kun!!",
+    "english_title": "Go For It, Nakamura-kun!!",
+    "episode": 12,
+    "release_date": "2026-06-10",
+    "next_airing_date": "2026-06-10",
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180228-MuZ7adbGiYVj.jpg",
+    "trailer": {
+      "id": "QivWH79PkcE",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/QivWH79PkcE/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/180228",
+    "start_date": "2026-04-02",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00337506/go-for-it-nakamura-kun",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 25027,
+    "anilist_score": 77,
+    "recently_finished": false,
+    "popularity_rank": 33
+  },
+  {
+    "id": 199029,
+    "mal_id": 62485,
+    "name": "Kanojo, Okarishimasu 5th Season",
+    "english_title": "Rent-a-Girlfriend Season 5",
+    "episode": 10,
+    "release_date": "2026-06-10",
+    "next_airing_date": "2026-06-10",
+    "next_episode_number": 10,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199029-8eMkhHlD62Ik.png",
+    "trailer": {
+      "id": "_yVyIweMYto",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/_yVyIweMYto/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/199029",
+    "start_date": "2026-04-08",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G6QWV3976/rent-a-girlfriend",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 17613,
+    "anilist_score": 57,
+    "recently_finished": false,
+    "popularity_rank": 41
+  },
+  {
+    "id": 201817,
+    "mal_id": 62893,
+    "name": "Nigashita Sakana wa Ookikatta ga Tsuriageta Sakana ga Ookisugita Ken",
+    "english_title": "Always a Catch!",
+    "episode": 11,
+    "release_date": "2026-06-10",
+    "next_airing_date": "2026-06-10",
+    "next_episode_number": 11,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx201817-pyfL9F8muPeq.jpg",
+    "trailer": {
+      "id": "d0LkNAqMrZw",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/d0LkNAqMrZw/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/201817",
+    "start_date": "2026-04-02",
+    "end_date": "2026-06-18",
+    "streaming_links": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3n62kkjOOBxuuhfXiDUu4g",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371642/always-a-catch",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 16971,
+    "anilist_score": 70,
+    "recently_finished": false,
+    "popularity_rank": 42
+  },
+  {
+    "id": 163793,
+    "mal_id": 63964,
+    "name": "Cheongchun Blossom: Uriui Bom",
+    "english_title": null,
+    "episode": 9,
+    "release_date": "2026-06-10",
+    "next_airing_date": "2026-06-10",
+    "next_episode_number": 9,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163793-dOI9QEcIrgBS.jpg",
+    "trailer": null,
+    "site_url": "https://anilist.co/anime/163793",
+    "start_date": "2026-04-15",
+    "end_date": null,
+    "streaming_links": [],
+    "popularity": 3003,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 63
+  },
+  {
     "id": 190143,
     "mal_id": 61443,
     "name": "Shunkashuutou Daikousha: Haru no Mai",
@@ -720,7 +659,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 36246,
+    "popularity": 36346,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 22
@@ -765,290 +704,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 16431,
+    "popularity": 16457,
     "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 43
-  },
-  {
-    "id": 189046,
-    "mal_id": 61316,
-    "name": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
-    "english_title": "Re:ZERO -Starting Life in Another World- Season 4",
-    "episode": 9,
-    "release_date": "2026-06-03",
-    "next_airing_date": "2026-06-10",
-    "next_episode_number": 10,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189046-yaHWtS5FII46.jpg",
-    "trailer": {
-      "id": "i8EjBP85cCc",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/i8EjBP85cCc/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/189046",
-    "start_date": "2026-04-08",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GRGG9798R",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 102991,
-    "anilist_score": 88,
-    "recently_finished": false,
-    "popularity_rank": 3
-  },
-  {
-    "id": 180745,
-    "mal_id": 59708,
-    "name": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 4th Season 2-nensei-hen Ichi Gakki",
-    "english_title": "Classroom of the Elite 4th Season: Second Year, First Semester",
-    "episode": 13,
-    "release_date": "2026-06-03",
-    "next_airing_date": "2026-06-10",
-    "next_episode_number": 14,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180745-OEZaBeEdWozn.png",
-    "trailer": {
-      "id": "kAncxuwCPZg",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/kAncxuwCPZg/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/180745",
-    "start_date": "2026-04-01",
-    "end_date": "2026-06-25",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GRVN8MNQY/classroom-of-the-elite",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3d2XXHoyqobEAMz2g0nBc0",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 94086,
-    "anilist_score": 79,
-    "recently_finished": false,
-    "popularity_rank": 6
-  },
-  {
-    "id": 199588,
-    "mal_id": 62604,
-    "name": "Otaku ni Yasashii Gal wa Inai!?",
-    "english_title": "Gals Can't Be Kind to Otaku!?",
-    "episode": 9,
-    "release_date": "2026-06-03",
-    "next_airing_date": "2026-06-10",
-    "next_episode_number": 10,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199588-M2vtWicvqNbU.jpg",
-    "trailer": {
-      "id": "pdWQUnshA4M",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/pdWQUnshA4M/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/199588",
-    "start_date": "2026-04-08",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371662/gals-cant-be-kind-to-otaku",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/channel/UCoqLO21EpMJdhABGFJOPn0g",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 50628,
-    "anilist_score": 76,
-    "recently_finished": false,
-    "popularity_rank": 13
-  },
-  {
-    "id": 194317,
-    "mal_id": 61831,
-    "name": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru? 2nd Season",
-    "english_title": "The Beginning After the End Season 2",
-    "episode": 10,
-    "release_date": "2026-06-03",
-    "next_airing_date": "2026-06-10",
-    "next_episode_number": 11,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194317-M7t2ymBDHqyW.jpg",
-    "trailer": {
-      "id": "embD4ae1ufk",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/embD4ae1ufk/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/194317",
-    "start_date": "2026-04-01",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G24H1NWKE/the-beginning-after-the-end",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 37984,
-    "anilist_score": 57,
-    "recently_finished": false,
-    "popularity_rank": 19
-  },
-  {
-    "id": 180228,
-    "mal_id": 59551,
-    "name": "Ganbare! Nakamura-kun!!",
-    "english_title": "Go For It, Nakamura-kun!!",
-    "episode": 11,
-    "release_date": "2026-06-03",
-    "next_airing_date": "2026-06-10",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180228-MuZ7adbGiYVj.jpg",
-    "trailer": {
-      "id": "QivWH79PkcE",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/QivWH79PkcE/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/180228",
-    "start_date": "2026-04-02",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00337506/go-for-it-nakamura-kun",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 24882,
-    "anilist_score": 77,
-    "recently_finished": false,
-    "popularity_rank": 33
-  },
-  {
-    "id": 199029,
-    "mal_id": 62485,
-    "name": "Kanojo, Okarishimasu 5th Season",
-    "english_title": "Rent-a-Girlfriend Season 5",
-    "episode": 9,
-    "release_date": "2026-06-03",
-    "next_airing_date": "2026-06-10",
-    "next_episode_number": 10,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199029-8eMkhHlD62Ik.png",
-    "trailer": {
-      "id": "_yVyIweMYto",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/_yVyIweMYto/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/199029",
-    "start_date": "2026-04-08",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G6QWV3976/rent-a-girlfriend",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 17540,
-    "anilist_score": 57,
-    "recently_finished": false,
-    "popularity_rank": 41
-  },
-  {
-    "id": 201817,
-    "mal_id": 62893,
-    "name": "Nigashita Sakana wa Ookikatta ga Tsuriageta Sakana ga Ookisugita Ken",
-    "english_title": "Always a Catch!",
-    "episode": 10,
-    "release_date": "2026-06-03",
-    "next_airing_date": "2026-06-10",
-    "next_episode_number": 11,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx201817-pyfL9F8muPeq.jpg",
-    "trailer": {
-      "id": "d0LkNAqMrZw",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/d0LkNAqMrZw/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/201817",
-    "start_date": "2026-04-02",
-    "end_date": "2026-06-18",
-    "streaming_links": [
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3n62kkjOOBxuuhfXiDUu4g",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371642/always-a-catch",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 16902,
-    "anilist_score": 70,
-    "recently_finished": false,
-    "popularity_rank": 42
-  },
-  {
-    "id": 198939,
-    "mal_id": 62512,
-    "name": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou 3rd Season",
-    "english_title": "Reborn as a Vending Machine, I Now Wander the Dungeon Season 3",
-    "episode": 10,
-    "release_date": "2026-06-03",
-    "next_airing_date": "2026-06-17",
-    "next_episode_number": 11,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198939-95aqzBr0Lzcv.jpg",
-    "trailer": {
-      "id": "pxeYbPg5JIA",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/pxeYbPg5JIA/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/198939",
-    "start_date": "2026-04-01",
-    "end_date": "2026-06-24",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GVDHX8504/reborn-as-a-vending-machine-i-now-wander-the-dungeon",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 12624,
-    "anilist_score": 64,
-    "recently_finished": false,
-    "popularity_rank": 49
-  },
-  {
-    "id": 163793,
-    "mal_id": 63964,
-    "name": "Cheongchun Blossom: Uriui Bom",
-    "english_title": null,
-    "episode": 8,
-    "release_date": "2026-06-03",
-    "next_airing_date": "2026-06-10",
-    "next_episode_number": 9,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163793-dOI9QEcIrgBS.jpg",
-    "trailer": null,
-    "site_url": "https://anilist.co/anime/163793",
-    "start_date": "2026-04-15",
-    "end_date": null,
-    "streaming_links": [],
-    "popularity": 3003,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 63
   },
   {
     "id": 199221,
@@ -1080,7 +739,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 61660,
+    "popularity": 61938,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 12
@@ -1110,7 +769,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 47362,
+    "popularity": 47768,
     "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 14
@@ -1140,7 +799,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 41241,
+    "popularity": 41547,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 15
@@ -1175,7 +834,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 28045,
+    "popularity": 28179,
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 30
@@ -1205,7 +864,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 18973,
+    "popularity": 19080,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 38
@@ -1235,7 +894,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 15095,
+    "popularity": 15198,
     "anilist_score": 57,
     "recently_finished": false,
     "popularity_rank": 46
@@ -1270,7 +929,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 11137,
+    "popularity": 11167,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 50
@@ -1305,7 +964,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 8221,
+    "popularity": 8256,
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 54
@@ -1340,10 +999,270 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 4083,
+    "popularity": 4099,
     "anilist_score": 56,
     "recently_finished": false,
     "popularity_rank": 61
+  },
+  {
+    "id": 182205,
+    "mal_id": 59970,
+    "name": "Tensei Shitara Slime Datta Ken 4th Season",
+    "english_title": "That Time I Got Reincarnated as a Slime Season 4",
+    "episode": 9,
+    "release_date": "2026-06-05",
+    "next_airing_date": "2026-06-12",
+    "next_episode_number": 10,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182205-q2AeO1owuQbO.jpg",
+    "trailer": {
+      "id": "ikxIrDr72iA",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/ikxIrDr72iA/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/182205",
+    "start_date": "2026-04-03",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 97097,
+    "anilist_score": 81,
+    "recently_finished": false,
+    "popularity_rank": 5
+  },
+  {
+    "id": 170019,
+    "mal_id": 56876,
+    "name": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2nd Season",
+    "english_title": "The Angel Next Door Spoils Me Rotten2",
+    "episode": 10,
+    "release_date": "2026-06-05",
+    "next_airing_date": "2026-06-12",
+    "next_episode_number": 11,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170019-djbN0b934MhE.jpg",
+    "trailer": {
+      "id": "8Gtb1uhjPKs",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/8Gtb1uhjPKs/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/170019",
+    "start_date": "2026-04-03",
+    "end_date": "2026-06-19",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G9VHN91DJ/the-angel-next-door-spoils-me-rotten",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JjhVqkAt1bFMDpgrRsby7Z_",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 65173,
+    "anilist_score": 76,
+    "recently_finished": false,
+    "popularity_rank": 10
+  },
+  {
+    "id": 187869,
+    "mal_id": 61186,
+    "name": "Kamiina Botan, Yoeru Sugata wa Yuri no Hana",
+    "english_title": "Botan Kamiina Fully Blossoms When Drunk",
+    "episode": 9,
+    "release_date": "2026-06-05",
+    "next_airing_date": "2026-06-12",
+    "next_episode_number": 10,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187869-LUn3dyTzuKUq.jpg",
+    "trailer": {
+      "id": "XX90FklAWsc",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/XX90FklAWsc/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/187869",
+    "start_date": "2026-04-11",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371890/botan-kamiina-fully-blossoms-when-drunk",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 26220,
+    "anilist_score": 78,
+    "recently_finished": false,
+    "popularity_rank": 32
+  },
+  {
+    "id": 192808,
+    "mal_id": 61687,
+    "name": "Jishou Akuyaku Reijou na Konyakusha no Kansatsu Kiroku.",
+    "english_title": "An Observation Log of My Fiancée Who Calls Herself a Villainess",
+    "episode": 10,
+    "release_date": "2026-06-05",
+    "next_airing_date": "2026-06-12",
+    "next_episode_number": 11,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx192808-tfrX4Gn2Y1Ye.jpg",
+    "trailer": {
+      "id": "r6RkeRy4B4c",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/r6RkeRy4B4c/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/192808",
+    "start_date": "2026-04-03",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371887/an-observation-log-of-my-fiance-who-calls-herself-a-villainess",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 22326,
+    "anilist_score": 74,
+    "recently_finished": false,
+    "popularity_rank": 34
+  },
+  {
+    "id": 198939,
+    "mal_id": 62512,
+    "name": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou 3rd Season",
+    "english_title": "Reborn as a Vending Machine, I Now Wander the Dungeon Season 3",
+    "episode": 11,
+    "release_date": "2026-06-17",
+    "next_airing_date": "2026-06-17",
+    "next_episode_number": 11,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198939-95aqzBr0Lzcv.jpg",
+    "trailer": {
+      "id": "pxeYbPg5JIA",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/pxeYbPg5JIA/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/198939",
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-24",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GVDHX8504/reborn-as-a-vending-machine-i-now-wander-the-dungeon",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 12666,
+    "anilist_score": 64,
+    "recently_finished": false,
+    "popularity_rank": 49
+  },
+  {
+    "id": 196144,
+    "mal_id": 62068,
+    "name": "Snowball Earth",
+    "english_title": "SNOWBALL EARTH",
+    "episode": 10,
+    "release_date": "2026-06-05",
+    "next_airing_date": "2026-06-12",
+    "next_episode_number": 11,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196144-UqVOcMjThkqa.jpg",
+    "trailer": {
+      "id": "0vTK8SWTgws",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/0vTK8SWTgws/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/196144",
+    "start_date": "2026-04-03",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371869/snowball-earth",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Disney Plus",
+        "url": "https://www.disneyplus.com/browse/entity-5ecc8b00-79fd-4c1a-81ed-f44260ef38d4",
+        "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
+      }
+    ],
+    "popularity": 11132,
+    "anilist_score": 62,
+    "recently_finished": false,
+    "popularity_rank": 51
+  },
+  {
+    "id": 169228,
+    "mal_id": 56646,
+    "name": "Hokuto no Ken: FIST OF THE NORTH STAR",
+    "english_title": "FIST OF THE NORTH STAR: HOKUTO NO KEN",
+    "episode": 11,
+    "release_date": "2026-06-05",
+    "next_airing_date": "2026-06-12",
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169228-y79xDpZ29Vv4.jpg",
+    "trailer": {
+      "id": "Gux_dYHDMK4",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/Gux_dYHDMK4/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/169228",
+    "start_date": "2026-04-11",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Amazon Prime Video",
+        "url": "https://www.amazon.co.jp/dp/B0G4BLNYJJ",
+        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+      }
+    ],
+    "popularity": 5328,
+    "anilist_score": 57,
+    "recently_finished": false,
+    "popularity_rank": 58
+  },
+  {
+    "id": 202508,
+    "mal_id": 62981,
+    "name": "Kami no Shizuku",
+    "english_title": "The Drops of God",
+    "episode": 9,
+    "release_date": "2026-06-05",
+    "next_airing_date": "2026-06-12",
+    "next_episode_number": 10,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202508-dk6LEyevJYUY.jpg",
+    "trailer": {
+      "id": "Oz5EkYVJbBc",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/Oz5EkYVJbBc/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/202508",
+    "start_date": "2026-04-10",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@dropsofgodanime",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 4453,
+    "anilist_score": 54,
+    "recently_finished": false,
+    "popularity_rank": 60
   },
   {
     "id": 210032,
@@ -1370,7 +1289,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 2671,
+    "popularity": 2691,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 64
