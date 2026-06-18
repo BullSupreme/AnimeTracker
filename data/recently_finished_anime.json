@@ -1,5 +1,75 @@
 [
   {
+    "id": 180228,
+    "mal_id": 59551,
+    "name": "Ganbare! Nakamura-kun!!",
+    "english_title": "Go For It, Nakamura-kun!!",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180228-MuZ7adbGiYVj.jpg",
+    "trailer": {
+      "id": "QivWH79PkcE",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/QivWH79PkcE/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/180228",
+    "start_date": "2026-04-02",
+    "end_date": "2026-06-18",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00337506/go-for-it-nakamura-kun",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 26964,
+    "anilist_score": 80,
+    "recently_finished": true,
+    "popularity_rank": 32
+  },
+  {
+    "id": 201817,
+    "mal_id": 62893,
+    "name": "Nigashita Sakana wa Ookikatta ga Tsuriageta Sakana ga Ookisugita Ken",
+    "english_title": "Always a Catch!",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx201817-pyfL9F8muPeq.jpg",
+    "trailer": {
+      "id": "d0LkNAqMrZw",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/d0LkNAqMrZw/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/201817",
+    "start_date": "2026-04-02",
+    "end_date": "2026-06-18",
+    "streaming_links": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3n62kkjOOBxuuhfXiDUu4g",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371642/always-a-catch",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 18001,
+    "anilist_score": 71,
+    "recently_finished": true,
+    "popularity_rank": 40
+  },
+  {
     "id": 197868,
     "mal_id": 62342,
     "name": "Maid-san wa Taberu dake",
@@ -24,7 +94,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 10502,
+    "popularity": 10524,
     "anilist_score": 67,
     "recently_finished": true,
     "popularity_rank": 50
@@ -54,7 +124,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 30221,
+    "popularity": 30337,
     "anilist_score": 57,
     "recently_finished": true,
     "popularity_rank": 28
