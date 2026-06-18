@@ -70,6 +70,36 @@
     "popularity_rank": 40
   },
   {
+    "id": 210032,
+    "mal_id": 63833,
+    "name": "BAKI-DOU Part 2",
+    "english_title": "BAKI-DOU: The Invincible Samurai Part 2",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx210032-6Oht6oWrgeMS.jpg",
+    "trailer": {
+      "id": "8esxGouUDpM",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/8esxGouUDpM/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/210032",
+    "start_date": "2026-06-18",
+    "end_date": "2026-06-18",
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81922765",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 2999,
+    "anilist_score": null,
+    "recently_finished": true,
+    "popularity_rank": 62
+  },
+  {
     "id": 197868,
     "mal_id": 62342,
     "name": "Maid-san wa Taberu dake",
