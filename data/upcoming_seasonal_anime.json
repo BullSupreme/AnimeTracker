@@ -196,7 +196,7 @@
       "Adventure",
       "Romance"
     ],
-    "popularity": 23753,
+    "popularity": 23942,
     "favourites": 155,
     "anilist_score": null,
     "streaming_links": [],
@@ -954,6 +954,34 @@
     "popularity_rank": 33
   },
   {
+    "id": 108992,
+    "mal_id": 63802,
+    "name": "Mebius Dust",
+    "english_title": "MEBIUS DUST",
+    "episode": 1,
+    "release_date": "2026-07-09",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108992-12A18HaisXXA.png",
+    "trailer": {
+      "id": "ByOF3FLlAws",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/ByOF3FLlAws/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/108992",
+    "start_date": "2026-07-09",
+    "season": "Summer",
+    "season_year": 2026,
+    "studios": "Doga Kobo, Asmik Ace",
+    "genres": [
+      "Action",
+      "Supernatural"
+    ],
+    "popularity": 4498,
+    "favourites": 30,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 34
+  },
+  {
     "id": 186863,
     "mal_id": 61048,
     "name": "Neko to Ryuu",
@@ -977,34 +1005,6 @@
     ],
     "popularity": 4454,
     "favourites": 40,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 34
-  },
-  {
-    "id": 108992,
-    "mal_id": 63802,
-    "name": "Mebius Dust",
-    "english_title": "MEBIUS DUST",
-    "episode": 1,
-    "release_date": "2026-07-09",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108992-12A18HaisXXA.png",
-    "trailer": {
-      "id": "ByOF3FLlAws",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/ByOF3FLlAws/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/108992",
-    "start_date": "2026-07-09",
-    "season": "Summer",
-    "season_year": 2026,
-    "studios": "Doga Kobo, Asmik Ace",
-    "genres": [
-      "Action",
-      "Supernatural"
-    ],
-    "popularity": 4449,
-    "favourites": 30,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 35
@@ -1223,9 +1223,9 @@
     "release_date": "2026-07-05",
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185875-yg3rQV7Wf4kY.jpg",
     "trailer": {
-      "id": "0kgUsF8R7JM",
+      "id": "4IcEbMCW-FU",
       "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/0kgUsF8R7JM/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/4IcEbMCW-FU/hqdefault.jpg"
     },
     "site_url": "https://anilist.co/anime/185875",
     "start_date": "2026-07-05",
@@ -1565,11 +1565,11 @@
     "english_title": null,
     "episode": 1,
     "release_date": "2026-07-02",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198376-hFnAdwIcedY5.png",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198376-sc5qcFv0RSH9.jpg",
     "trailer": {
-      "id": "7fdSXo-be7o",
+      "id": "sMcHl3g6aS4",
       "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/7fdSXo-be7o/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/sMcHl3g6aS4/hqdefault.jpg"
     },
     "site_url": "https://anilist.co/anime/198376",
     "start_date": "2026-07-02",
