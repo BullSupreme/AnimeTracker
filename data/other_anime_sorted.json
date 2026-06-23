@@ -162,7 +162,7 @@
     "popularity": 11577,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 49
+    "popularity_rank": 48
   },
   {
     "id": 177508,
@@ -297,7 +297,7 @@
     "popularity": 12219,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 48
+    "popularity_rank": 47
   },
   {
     "id": 169228,
@@ -405,7 +405,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 77371,
+    "popularity": 77401,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 8
@@ -623,7 +623,7 @@
     "popularity": 16211,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 45
+    "popularity_rank": 44
   },
   {
     "id": 199448,
@@ -776,7 +776,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 718528,
+    "popularity": 719003,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -919,7 +919,7 @@
     "popularity": 8196,
     "anilist_score": 78,
     "recently_finished": false,
-    "popularity_rank": 55
+    "popularity_rank": 54
   },
   {
     "id": 189046,
@@ -948,6 +948,11 @@
       {
         "site": "YouTube",
         "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3RN7t6wesJqlUkSUN6FHKF",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@Rezero_official",
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],

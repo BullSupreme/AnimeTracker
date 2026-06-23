@@ -196,7 +196,7 @@
       "Adventure",
       "Romance"
     ],
-    "popularity": 24164,
+    "popularity": 24364,
     "favourites": 155,
     "anilist_score": null,
     "streaming_links": [],
@@ -571,7 +571,7 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 11076,
+    "popularity": 11224,
     "favourites": 64,
     "anilist_score": null,
     "streaming_links": [],
@@ -983,6 +983,34 @@
     "popularity_rank": 34
   },
   {
+    "id": 108992,
+    "mal_id": 63802,
+    "name": "Mebius Dust",
+    "english_title": "MEBIUS DUST",
+    "episode": 1,
+    "release_date": "2026-07-09",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108992-12A18HaisXXA.png",
+    "trailer": {
+      "id": "ByOF3FLlAws",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/ByOF3FLlAws/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/108992",
+    "start_date": "2026-07-09",
+    "season": "Summer",
+    "season_year": 2026,
+    "studios": "Doga Kobo, Asmik Ace",
+    "genres": [
+      "Action",
+      "Supernatural"
+    ],
+    "popularity": 4582,
+    "favourites": 30,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 35
+  },
+  {
     "id": 186863,
     "mal_id": 61048,
     "name": "Neko to Ryuu",
@@ -1008,7 +1036,7 @@
     "favourites": 40,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 35
+    "popularity_rank": 36
   },
   {
     "id": 199066,
@@ -1037,7 +1065,7 @@
     "favourites": 32,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 36
+    "popularity_rank": 37
   },
   {
     "id": 199408,
@@ -1063,34 +1091,6 @@
     ],
     "popularity": 4544,
     "favourites": 35,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 37
-  },
-  {
-    "id": 108992,
-    "mal_id": 63802,
-    "name": "Mebius Dust",
-    "english_title": "MEBIUS DUST",
-    "episode": 1,
-    "release_date": "2026-07-09",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108992-12A18HaisXXA.png",
-    "trailer": {
-      "id": "ByOF3FLlAws",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/ByOF3FLlAws/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/108992",
-    "start_date": "2026-07-09",
-    "season": "Summer",
-    "season_year": 2026,
-    "studios": "Doga Kobo, Asmik Ace",
-    "genres": [
-      "Action",
-      "Supernatural"
-    ],
-    "popularity": 4540,
-    "favourites": 30,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 38

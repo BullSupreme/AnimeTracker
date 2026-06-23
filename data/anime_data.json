@@ -40,7 +40,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 718528,
+    "popularity": 719003,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -112,6 +112,11 @@
       {
         "site": "YouTube",
         "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3RN7t6wesJqlUkSUN6FHKF",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@Rezero_official",
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
@@ -296,7 +301,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 77371,
+    "popularity": 77401,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 8
@@ -307,8 +312,8 @@
     "name": "Class de 2-banme ni Kawaii Onnanoko to Tomodachi ni Natta",
     "english_title": "I Made Friends with the Second Prettiest Girl in My Class",
     "episode": 12,
-    "release_date": "2026-06-23",
-    "next_airing_date": "2026-06-23",
+    "release_date": null,
+    "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169580-nXxpmqu6UVux.jpg",
     "trailer": {
@@ -338,8 +343,8 @@
     "english_title": "MARRIAGETOXIN",
     "episode": 12,
     "release_date": "2026-06-23",
-    "next_airing_date": "2026-06-23",
-    "next_episode_number": 12,
+    "next_airing_date": "2026-06-30",
+    "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199547-LAaG3cmKCGhr.jpg",
     "trailer": {
       "id": "t0Ruh2QBpqg",
@@ -568,8 +573,8 @@
     "english_title": "I Want to End this Love Game",
     "episode": 11,
     "release_date": "2026-06-23",
-    "next_airing_date": "2026-06-23",
-    "next_episode_number": 11,
+    "next_airing_date": "2026-06-30",
+    "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194393-0H9yYABu6y0i.jpg",
     "trailer": {
       "id": "oGJrnyjDbsA",
@@ -1233,7 +1238,7 @@
     "english_title": "The Most Heretical Last Boss Queen: From Villainess to Savior Season 2",
     "episode": 12,
     "release_date": "2026-06-23",
-    "next_airing_date": "2026-06-23",
+    "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195268-HkEv0z9iTCJK.jpg",
     "trailer": {
@@ -1407,46 +1412,6 @@
     "popularity_rank": 41
   },
   {
-    "id": 206951,
-    "mal_id": 63376,
-    "name": "Megami \"Isekai Tensei Nani ni Naritai Desu ka\" Ore \"Yuusha no Rokkotsu de\"",
-    "english_title": "My Ribdiculous Reincarnation",
-    "episode": 12,
-    "release_date": "2026-06-23",
-    "next_airing_date": "2026-06-23",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206951-qiHcrw7pwzuq.jpg",
-    "trailer": {
-      "id": "suKjfBsH3UM",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/suKjfBsH3UM/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/206951",
-    "start_date": "2026-04-08",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@rokkotsu-anime",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371665/my-ribdiculous-reincarnation",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLbuF5Onrcu9dUMAJzfuVj9GRGHY2vp2pz",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 16863,
-    "anilist_score": 65,
-    "recently_finished": false,
-    "popularity_rank": 42
-  },
-  {
     "id": 196029,
     "mal_id": 62050,
     "name": "Kami no Niwatsuki Kusunoki-tei ",
@@ -1479,7 +1444,7 @@
     "popularity": 16305,
     "anilist_score": 71,
     "recently_finished": true,
-    "popularity_rank": 43
+    "popularity_rank": 42
   },
   {
     "id": 202381,
@@ -1509,7 +1474,7 @@
     "popularity": 16296,
     "anilist_score": 59,
     "recently_finished": true,
-    "popularity_rank": 44
+    "popularity_rank": 43
   },
   {
     "id": 196012,
@@ -1554,7 +1519,7 @@
     "popularity": 16211,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 45
+    "popularity_rank": 44
   },
   {
     "id": 186744,
@@ -1563,8 +1528,8 @@
     "english_title": "Even a Replica Can Fall in Love",
     "episode": 12,
     "release_date": "2026-06-23",
-    "next_airing_date": "2026-06-23",
-    "next_episode_number": 12,
+    "next_airing_date": "2026-06-30",
+    "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186744-nFH4y2slUrO4.jpg",
     "trailer": {
       "id": "WsT7OO91jXo",
@@ -1584,7 +1549,7 @@
     "popularity": 14268,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 46
+    "popularity_rank": 45
   },
   {
     "id": 198939,
@@ -1614,7 +1579,7 @@
     "popularity": 13370,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 47
+    "popularity_rank": 46
   },
   {
     "id": 196144,
@@ -1649,7 +1614,7 @@
     "popularity": 12219,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 48
+    "popularity_rank": 47
   },
   {
     "id": 177501,
@@ -1684,7 +1649,7 @@
     "popularity": 11577,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 49
+    "popularity_rank": 48
   },
   {
     "id": 197868,
@@ -1714,7 +1679,7 @@
     "popularity": 10661,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 50
+    "popularity_rank": 49
   },
   {
     "id": 202985,
@@ -1722,8 +1687,8 @@
     "name": "Tadaima, Ojamasaremasu!",
     "english_title": "Pardon the Intrusion, I'm Home!",
     "episode": 12,
-    "release_date": "2026-06-24",
-    "next_airing_date": "2026-06-23",
+    "release_date": "2026-06-23",
+    "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202985-lyp5TYpTnqSg.jpg",
     "trailer": {
@@ -1744,7 +1709,7 @@
     "popularity": 9468,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 51
+    "popularity_rank": 50
   },
   {
     "id": 181284,
@@ -1779,7 +1744,7 @@
     "popularity": 8871,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 52
+    "popularity_rank": 51
   },
   {
     "id": 195734,
@@ -1809,7 +1774,7 @@
     "popularity": 8536,
     "anilist_score": 64,
     "recently_finished": true,
-    "popularity_rank": 53
+    "popularity_rank": 52
   },
   {
     "id": 158036,
@@ -1818,8 +1783,8 @@
     "english_title": "Eren the Southpaw",
     "episode": 12,
     "release_date": "2026-06-23",
-    "next_airing_date": "2026-06-23",
-    "next_episode_number": 12,
+    "next_airing_date": "2026-06-30",
+    "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx158036-KfXv0BFBUsWl.jpg",
     "trailer": {
       "id": "EsQudPqDOQQ",
@@ -1839,7 +1804,7 @@
     "popularity": 8376,
     "anilist_score": 55,
     "recently_finished": false,
-    "popularity_rank": 54
+    "popularity_rank": 53
   },
   {
     "id": 177634,
@@ -1869,6 +1834,36 @@
     "popularity": 8196,
     "anilist_score": 78,
     "recently_finished": false,
+    "popularity_rank": 54
+  },
+  {
+    "id": 210234,
+    "mal_id": 63304,
+    "name": "Mamonogurai no Boukensha: Ore Dake Mamono wo Kuratte Tsuyoku Naru",
+    "english_title": "Monster Eater",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx210234-MZaMjdbBzEHz.jpg",
+    "trailer": {
+      "id": "tXZbVN3xc7U",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/tXZbVN3xc7U/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/210234",
+    "start_date": "2026-04-03",
+    "end_date": "2026-06-19",
+    "streaming_links": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JghnDOX7F9BXqUL8PRP1Q56",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 8065,
+    "anilist_score": 44,
+    "recently_finished": true,
     "popularity_rank": 55
   },
   {

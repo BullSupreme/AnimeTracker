@@ -1,5 +1,35 @@
 [
   {
+    "id": 169580,
+    "mal_id": 56734,
+    "name": "Class de 2-banme ni Kawaii Onnanoko to Tomodachi ni Natta",
+    "english_title": "I Made Friends with the Second Prettiest Girl in My Class",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169580-nXxpmqu6UVux.jpg",
+    "trailer": {
+      "id": "3mTUxCIyJhA",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/3mTUxCIyJhA/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/169580",
+    "start_date": "2026-04-07",
+    "end_date": "2026-06-23",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371673",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 76328,
+    "anilist_score": 80,
+    "recently_finished": true,
+    "popularity_rank": 9
+  },
+  {
     "id": 147105,
     "mal_id": 51553,
     "name": "Tongari Boushi no Atelier",
@@ -197,7 +227,7 @@
     "popularity": 16305,
     "anilist_score": 71,
     "recently_finished": true,
-    "popularity_rank": 43
+    "popularity_rank": 42
   },
   {
     "id": 195734,
@@ -227,7 +257,7 @@
     "popularity": 8536,
     "anilist_score": 64,
     "recently_finished": true,
-    "popularity_rank": 53
+    "popularity_rank": 52
   },
   {
     "id": 178749,
@@ -472,7 +502,7 @@
     "popularity": 16296,
     "anilist_score": 59,
     "recently_finished": true,
-    "popularity_rank": 44
+    "popularity_rank": 43
   },
   {
     "id": 181284,
@@ -507,7 +537,37 @@
     "popularity": 8871,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 52
+    "popularity_rank": 51
+  },
+  {
+    "id": 210234,
+    "mal_id": 63304,
+    "name": "Mamonogurai no Boukensha: Ore Dake Mamono wo Kuratte Tsuyoku Naru",
+    "english_title": "Monster Eater",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx210234-MZaMjdbBzEHz.jpg",
+    "trailer": {
+      "id": "tXZbVN3xc7U",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/tXZbVN3xc7U/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/210234",
+    "start_date": "2026-04-03",
+    "end_date": "2026-06-19",
+    "streaming_links": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JghnDOX7F9BXqUL8PRP1Q56",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 8065,
+    "anilist_score": 44,
+    "recently_finished": true,
+    "popularity_rank": 55
   },
   {
     "id": 180228,
@@ -637,7 +697,7 @@
     "popularity": 10661,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 50
+    "popularity_rank": 49
   },
   {
     "id": 200769,
