@@ -1,5 +1,40 @@
 [
   {
+    "id": 196144,
+    "mal_id": 62068,
+    "name": "Snowball Earth",
+    "english_title": "SNOWBALL EARTH",
+    "episode": 13,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196144-UqVOcMjThkqa.jpg",
+    "trailer": {
+      "id": "0vTK8SWTgws",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/0vTK8SWTgws/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/196144",
+    "start_date": "2026-04-03",
+    "end_date": "2026-06-26",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371869/snowball-earth",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Disney Plus",
+        "url": "https://www.disneyplus.com/browse/entity-5ecc8b00-79fd-4c1a-81ed-f44260ef38d4",
+        "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
+      }
+    ],
+    "popularity": 12324,
+    "anilist_score": 63,
+    "recently_finished": true,
+    "popularity_rank": 48
+  },
+  {
     "id": 199221,
     "mal_id": 62568,
     "name": "Dr. STONE: SCIENCE FUTURE Part 3",
