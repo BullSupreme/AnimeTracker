@@ -1,5 +1,40 @@
 [
   {
+    "id": 198113,
+    "mal_id": 62391,
+    "name": "Kill Ao",
+    "english_title": "KILL BLUE",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198113-NRa47idWSlnx.jpg",
+    "trailer": {
+      "id": "9sEiONbweqI",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/9sEiONbweqI/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/198113",
+    "start_date": "2026-04-11",
+    "end_date": "2026-06-27",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371896/kill-blue",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/82757009",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 36410,
+    "anilist_score": 73,
+    "recently_finished": true,
+    "popularity_rank": 22
+  },
+  {
     "id": 187869,
     "mal_id": 61186,
     "name": "Kamiina Botan, Yoeru Sugata wa Yuri no Hana",
@@ -28,6 +63,41 @@
     "anilist_score": 81,
     "recently_finished": true,
     "popularity_rank": 30
+  },
+  {
+    "id": 185211,
+    "mal_id": 60444,
+    "name": "Yowa Yowa Sensei",
+    "english_title": "Yowayowa Sensei",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185211-ewfgT5Cn99k0.jpg",
+    "trailer": {
+      "id": "UfkutRs8RHM",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/UfkutRs8RHM/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/185211",
+    "start_date": "2026-04-11",
+    "end_date": "2026-06-27",
+    "streaming_links": [
+      {
+        "site": "HIDIVE",
+        "url": "https://www.hidive.com/season/35232",
+        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JgXUB10c8pdjrn7SUPo4IdI",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 21164,
+    "anilist_score": 62,
+    "recently_finished": true,
+    "popularity_rank": 34
   },
   {
     "id": 169228,
@@ -262,7 +332,7 @@
     "popularity": 4366,
     "anilist_score": 61,
     "recently_finished": true,
-    "popularity_rank": 63
+    "popularity_rank": 64
   },
   {
     "id": 180745,
@@ -594,7 +664,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 188304,
+    "popularity": 189212,
     "anilist_score": 86,
     "recently_finished": true,
     "popularity_rank": 2
@@ -817,7 +887,7 @@
     "popularity": 4912,
     "anilist_score": 66,
     "recently_finished": true,
-    "popularity_rank": 60
+    "popularity_rank": 61
   },
   {
     "id": 201090,
@@ -852,7 +922,7 @@
     "popularity": 3964,
     "anilist_score": 51,
     "recently_finished": true,
-    "popularity_rank": 64
+    "popularity_rank": 65
   },
   {
     "id": 196935,
@@ -1197,7 +1267,7 @@
     "popularity": 4772,
     "anilist_score": 73,
     "recently_finished": true,
-    "popularity_rank": 62
+    "popularity_rank": 63
   },
   {
     "id": 197868,
