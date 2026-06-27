@@ -1,191 +1,5 @@
 [
   {
-    "id": 21,
-    "mal_id": 21,
-    "name": "ONE PIECE",
-    "english_title": "ONE PIECE",
-    "episode": 1168,
-    "release_date": "2026-06-28",
-    "next_airing_date": "2026-06-28",
-    "next_episode_number": 1168,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
-    "trailer": null,
-    "site_url": "https://anilist.co/anime/21",
-    "start_date": "1999-10-20",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "http://www.crunchyroll.com/one-piece",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "Hulu",
-        "url": "http://www.hulu.com/one-piece",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      },
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/80107103",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@onepieceofficial",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@OnePieceOfficialENG",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 720253,
-    "anilist_score": 87,
-    "recently_finished": false,
-    "popularity_rank": 1
-  },
-  {
-    "id": 182300,
-    "mal_id": 59983,
-    "name": "Tsue to Tsurugi no Wistoria Season 2",
-    "english_title": "Wistoria: Wand and Sword Season 2",
-    "episode": 12,
-    "release_date": "2026-06-28",
-    "next_airing_date": "2026-06-28",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182300-IYkq5KrkQq1V.jpg",
-    "trailer": {
-      "id": "57OL0uTIBVg",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/57OL0uTIBVg/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/182300",
-    "start_date": "2026-04-12",
-    "end_date": "2026-06-28",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GW4HM7WK9/wistoria-wand-and-sword",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl37QJE0NTvUiONsuDJH6IMD",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/81900358",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      }
-    ],
-    "popularity": 97805,
-    "anilist_score": 82,
-    "recently_finished": false,
-    "popularity_rank": 7
-  },
-  {
-    "id": 182578,
-    "mal_id": 60055,
-    "name": "Yozakura-san Chi no Daisakusen 2nd Season",
-    "english_title": "Mission: Yozakura Family Season 2",
-    "episode": 12,
-    "release_date": "2026-06-28",
-    "next_airing_date": "2026-06-28",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182578-Te8W0EwesgrS.jpg",
-    "trailer": {
-      "id": "dirydQCBa6o",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/dirydQCBa6o/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/182578",
-    "start_date": "2026-04-12",
-    "end_date": "2026-06-28",
-    "streaming_links": [
-      {
-        "site": "Disney Plus",
-        "url": "https://www.disneyplus.com/browse/entity-ac689bea-f955-4d95-8693-7b87b5a309cb",
-        "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
-      },
-      {
-        "site": "Hulu",
-        "url": "https://www.hulu.com/series/mission-yozakura-family-ac689bea-f955-4d95-8693-7b87b5a309cb",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      }
-    ],
-    "popularity": 22168,
-    "anilist_score": 75,
-    "recently_finished": false,
-    "popularity_rank": 34
-  },
-  {
-    "id": 196974,
-    "mal_id": 62171,
-    "name": "Kuroneko to Majo no Kyoushitsu",
-    "english_title": "The Classroom of the Black Cat and a Witch",
-    "episode": 12,
-    "release_date": "2026-06-28",
-    "next_airing_date": "2026-06-28",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196974-mZk1uyrx0XNx.png",
-    "trailer": {
-      "id": "uJhshLlQs60",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/uJhshLlQs60/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/196974",
-    "start_date": "2026-04-12",
-    "end_date": "2026-01-01",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00374357/the-classroom-of-a-black-cat-and-a-witch",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jh2Aq9dnBrcdmlUPfq5VQtL",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 19247,
-    "anilist_score": 63,
-    "recently_finished": false,
-    "popularity_rank": 38
-  },
-  {
-    "id": 177634,
-    "mal_id": 58877,
-    "name": "Diamond no Ace act II: Second Season",
-    "english_title": "Ace of the Diamond act II -Second Season-",
-    "episode": 13,
-    "release_date": "2026-06-28",
-    "next_airing_date": "2026-06-28",
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177634-jYdKdbPOwWhR.png",
-    "trailer": {
-      "id": "dPWuN1uP09g",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/dPWuN1uP09g/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/177634",
-    "start_date": "2026-04-05",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GYX0MZ58R/ace-of-the-diamond",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 8262,
-    "anilist_score": 78,
-    "recently_finished": false,
-    "popularity_rank": 56
-  },
-  {
     "id": 197754,
     "mal_id": 62331,
     "name": "LIAR GAME",
@@ -210,7 +24,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 35942,
+    "popularity": 36022,
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 23
@@ -245,7 +59,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 71902,
+    "popularity": 72296,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 10
@@ -275,7 +89,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 46055,
+    "popularity": 46379,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 17
@@ -305,10 +119,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 14555,
+    "popularity": 14613,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 46
+    "popularity_rank": 45
   },
   {
     "id": 158036,
@@ -338,90 +152,15 @@
     "popularity": 8507,
     "anilist_score": 56,
     "recently_finished": false,
-    "popularity_rank": 55
-  },
-  {
-    "id": 190143,
-    "mal_id": 61443,
-    "name": "Shunkashuutou Daikousha: Haru no Mai",
-    "english_title": "Agents of the Four Seasons: Dance of Spring",
-    "episode": 14,
-    "release_date": null,
-    "next_airing_date": "2026-06-27",
-    "next_episode_number": 14,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx190143-IqqbkMAF0GOo.jpg",
-    "trailer": {
-      "id": "3NdlPDtfZU4",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/3NdlPDtfZU4/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/190143",
-    "start_date": "2026-03-29",
-    "end_date": "2026-06-28",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371636/agents-of-the-four-seasons-dance-of-spring",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 39433,
-    "anilist_score": 75,
-    "recently_finished": false,
-    "popularity_rank": 21
-  },
-  {
-    "id": 187989,
-    "mal_id": 61217,
-    "name": "Yuusha no Kuzu",
-    "english_title": "Scum of the Brave",
-    "episode": 24,
-    "release_date": null,
-    "next_airing_date": "2026-06-27",
-    "next_episode_number": 24,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187989-IjVYJxi0bEcr.jpg",
-    "trailer": {
-      "id": "Lh-0y-O7GIg",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/Lh-0y-O7GIg/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/187989",
-    "start_date": "2026-01-11",
-    "end_date": "2026-06-28",
-    "streaming_links": [
-      {
-        "site": "YouTube",
-        "url": "https://youtube.com/channel/UCFYchaoT5V6WmLTPAj3l0_Q",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00365730/scum-of-the-brave",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2jocaAW0S6IpbSv01XLHkV",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLPanbgyToztZkryJy8UUrvrpwGRH4bXVJ",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 17484,
-    "anilist_score": 63,
-    "recently_finished": false,
-    "popularity_rank": 42
+    "popularity_rank": 54
   },
   {
     "id": 192800,
     "mal_id": 61686,
     "name": "Heroine? Seijo? Iie, All Works Maid desu (Ko)!",
     "english_title": "Heroine? Saint? No, I’m an All-Works Maid (And Proud of It)!",
-    "episode": 1,
-    "release_date": "2026-06-24",
+    "episode": 2,
+    "release_date": "2026-07-01",
     "next_airing_date": "2026-07-01",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx192800-r8zlO0VY0jJP.jpg",
@@ -440,30 +179,70 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 6804,
-    "anilist_score": 64,
+    "popularity": 7384,
+    "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 59
+    "popularity_rank": 58
   },
   {
-    "id": 163793,
-    "mal_id": 63964,
-    "name": "Cheongchun Blossom: Uriui Bom",
-    "english_title": null,
-    "episode": 8,
-    "release_date": "2026-06-24",
-    "next_airing_date": "2026-07-08",
-    "next_episode_number": 9,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163793-dOI9QEcIrgBS.jpg",
-    "trailer": null,
-    "site_url": "https://anilist.co/anime/163793",
-    "start_date": "2026-04-15",
-    "end_date": null,
-    "streaming_links": [],
-    "popularity": 3298,
-    "anilist_score": null,
+    "id": 186497,
+    "mal_id": 60852,
+    "name": "Koori no Jouheki",
+    "english_title": "The Ramparts of Ice",
+    "episode": 13,
+    "release_date": "2026-06-25",
+    "next_airing_date": "2026-07-02",
+    "next_episode_number": 14,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186497-uwPrNPphXvjP.jpg",
+    "trailer": {
+      "id": "a7ah5by0Ffw",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/a7ah5by0Ffw/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/186497",
+    "start_date": "2026-04-02",
+    "end_date": "2026-07-02",
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/82031882",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 55337,
+    "anilist_score": 80,
     "recently_finished": false,
-    "popularity_rank": 66
+    "popularity_rank": 14
+  },
+  {
+    "id": 208044,
+    "mal_id": 63508,
+    "name": "Rakudai Kenja no Gakuin Musou: Nidome no Tensei, S-Rank Cheat Majutsushi Boukenroku",
+    "english_title": "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage",
+    "episode": 1,
+    "release_date": "2026-06-25",
+    "next_airing_date": "2026-07-02",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx208044-Pm2UhvApQFUh.jpg",
+    "trailer": {
+      "id": "QOeItd-RrVs",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/QOeItd-RrVs/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/208044",
+    "start_date": "2026-06-26",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00378115",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 13154,
+    "anilist_score": 63,
+    "recently_finished": false,
+    "popularity_rank": 47
   },
   {
     "id": 189046,
@@ -500,99 +279,104 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 113899,
+    "popularity": 114271,
     "anilist_score": 89,
     "recently_finished": false,
     "popularity_rank": 3
   },
   {
-    "id": 195600,
-    "mal_id": 62001,
-    "name": "Yomi no Tsugai",
-    "english_title": "Daemons of the Shadow Realm",
-    "episode": 13,
-    "release_date": "2026-07-04",
-    "next_airing_date": "2026-07-04",
+    "id": 182205,
+    "mal_id": 59970,
+    "name": "Tensei Shitara Slime Datta Ken 4th Season",
+    "english_title": "That Time I Got Reincarnated as a Slime Season 4",
+    "episode": 12,
+    "release_date": "2026-06-26",
+    "next_airing_date": "2026-07-03",
     "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195600-moI0UFArtOme.jpg",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182205-q2AeO1owuQbO.jpg",
     "trailer": {
-      "id": "XCyj9KKKjUI",
+      "id": "ikxIrDr72iA",
       "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/XCyj9KKKjUI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/ikxIrDr72iA/hqdefault.jpg"
     },
-    "site_url": "https://anilist.co/anime/195600",
-    "start_date": "2026-04-04",
+    "site_url": "https://anilist.co/anime/182205",
+    "start_date": "2026-04-03",
     "end_date": null,
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://crunchyroll.com/series/GT00371630/daemons-of-the-shadow-realm",
+        "url": "https://www.crunchyroll.com/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 108653,
-    "anilist_score": 78,
-    "recently_finished": false,
-    "popularity_rank": 4
-  },
-  {
-    "id": 186497,
-    "mal_id": 60852,
-    "name": "Koori no Jouheki",
-    "english_title": "The Ramparts of Ice",
-    "episode": 13,
-    "release_date": "2026-06-25",
-    "next_airing_date": "2026-07-02",
-    "next_episode_number": 14,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186497-uwPrNPphXvjP.jpg",
-    "trailer": {
-      "id": "a7ah5by0Ffw",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/a7ah5by0Ffw/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/186497",
-    "start_date": "2026-04-02",
-    "end_date": "2026-07-02",
-    "streaming_links": [
+      },
       {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/82031882",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+        "site": "YouTube",
+        "url": "https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 54759,
-    "anilist_score": 80,
+    "popularity": 106215,
+    "anilist_score": 81,
     "recently_finished": false,
-    "popularity_rank": 14
+    "popularity_rank": 5
   },
   {
-    "id": 208044,
-    "mal_id": 63508,
-    "name": "Rakudai Kenja no Gakuin Musou: Nidome no Tensei, S-Rank Cheat Majutsushi Boukenroku",
-    "english_title": "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage",
-    "episode": 1,
-    "release_date": "2026-06-25",
-    "next_airing_date": "2026-07-02",
-    "next_episode_number": 2,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx208044-Pm2UhvApQFUh.jpg",
+    "id": 202508,
+    "mal_id": 62981,
+    "name": "Kami no Shizuku",
+    "english_title": "The Drops of God",
+    "episode": 12,
+    "release_date": "2026-06-26",
+    "next_airing_date": "2026-07-03",
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202508-dk6LEyevJYUY.jpg",
     "trailer": {
-      "id": "QOeItd-RrVs",
+      "id": "Oz5EkYVJbBc",
       "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/QOeItd-RrVs/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Oz5EkYVJbBc/hqdefault.jpg"
     },
-    "site_url": "https://anilist.co/anime/208044",
-    "start_date": "2026-06-26",
+    "site_url": "https://anilist.co/anime/202508",
+    "start_date": "2026-04-10",
     "end_date": null,
     "streaming_links": [
       {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@dropsofgodanime",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00378115",
+        "url": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLbuF5Onrcu9fuunA9-WbxAZpiwmHUS0w9",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 11116,
-    "anilist_score": 62,
+    "popularity": 4829,
+    "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 50
+    "popularity_rank": 61
+  },
+  {
+    "id": 163793,
+    "mal_id": 63964,
+    "name": "Cheongchun Blossom: Uriui Bom",
+    "english_title": null,
+    "episode": 9,
+    "release_date": "2026-07-08",
+    "next_airing_date": "2026-07-08",
+    "next_episode_number": 9,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163793-dOI9QEcIrgBS.jpg",
+    "trailer": null,
+    "site_url": "https://anilist.co/anime/163793",
+    "start_date": "2026-04-15",
+    "end_date": null,
+    "streaming_links": [],
+    "popularity": 3302,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 65
   }
 ]
