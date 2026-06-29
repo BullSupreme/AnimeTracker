@@ -763,8 +763,8 @@
     "english_title": "LIAR GAME",
     "episode": 13,
     "release_date": "2026-06-29",
-    "next_airing_date": "2026-06-29",
-    "next_episode_number": 13,
+    "next_airing_date": "2026-07-06",
+    "next_episode_number": 14,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197754-Q5KqcUhIdypp.png",
     "trailer": {
       "id": "FIPOXj00ysQ",
@@ -1762,6 +1762,41 @@
     "popularity_rank": 51
   },
   {
+    "id": 206521,
+    "mal_id": 63347,
+    "name": "World Is Dancing",
+    "english_title": "The World Is Dancing",
+    "episode": 1,
+    "release_date": "2026-06-29",
+    "next_airing_date": "2026-07-06",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206521-ecJuDgjth84C.png",
+    "trailer": {
+      "id": "h2zytdkjAU8",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/h2zytdkjAU8/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/206521",
+    "start_date": "2026-06-29",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "HIDIVE",
+        "url": "https://www.hidive.com/season/36240",
+        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
+      },
+      {
+        "site": "Amazon Prime Video",
+        "url": "https://www.amazon.co.jp/-/en/dp/B0H46Z36CY",
+        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+      }
+    ],
+    "popularity": 8920,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 52
+  },
+  {
     "id": 199448,
     "mal_id": 62276,
     "name": "Guimi Zhi Zhu Specials",
@@ -1794,7 +1829,7 @@
     "popularity": 8796,
     "anilist_score": 84,
     "recently_finished": true,
-    "popularity_rank": 52
+    "popularity_rank": 53
   },
   {
     "id": 195734,
@@ -1824,7 +1859,7 @@
     "popularity": 8670,
     "anilist_score": 64,
     "recently_finished": true,
-    "popularity_rank": 53
+    "popularity_rank": 54
   },
   {
     "id": 158036,
@@ -1854,7 +1889,7 @@
     "popularity": 8558,
     "anilist_score": 56,
     "recently_finished": false,
-    "popularity_rank": 54
+    "popularity_rank": 55
   },
   {
     "id": 177634,
@@ -1884,7 +1919,7 @@
     "popularity": 8376,
     "anilist_score": 79,
     "recently_finished": true,
-    "popularity_rank": 55
+    "popularity_rank": 56
   },
   {
     "id": 192800,
@@ -1914,7 +1949,7 @@
     "popularity": 8283,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 56
+    "popularity_rank": 57
   },
   {
     "id": 210234,
@@ -1944,7 +1979,7 @@
     "popularity": 8202,
     "anilist_score": 46,
     "recently_finished": true,
-    "popularity_rank": 57
+    "popularity_rank": 58
   },
   {
     "id": 186863,
@@ -1974,7 +2009,7 @@
     "popularity": 7489,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 58
+    "popularity_rank": 59
   },
   {
     "id": 169228,
@@ -2004,7 +2039,7 @@
     "popularity": 5618,
     "anilist_score": 61,
     "recently_finished": true,
-    "popularity_rank": 59
+    "popularity_rank": 60
   },
   {
     "id": 210032,
@@ -2034,7 +2069,7 @@
     "popularity": 4993,
     "anilist_score": 73,
     "recently_finished": true,
-    "popularity_rank": 60
+    "popularity_rank": 61
   },
   {
     "id": 178749,
@@ -2064,7 +2099,7 @@
     "popularity": 4943,
     "anilist_score": 66,
     "recently_finished": true,
-    "popularity_rank": 61
+    "popularity_rank": 62
   },
   {
     "id": 202508,
@@ -2104,7 +2139,7 @@
     "popularity": 4878,
     "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 62
+    "popularity_rank": 63
   },
   {
     "id": 177508,
@@ -2139,7 +2174,7 @@
     "popularity": 4393,
     "anilist_score": 62,
     "recently_finished": true,
-    "popularity_rank": 63
+    "popularity_rank": 64
   },
   {
     "id": 201090,
@@ -2174,7 +2209,7 @@
     "popularity": 3976,
     "anilist_score": 51,
     "recently_finished": true,
-    "popularity_rank": 64
+    "popularity_rank": 65
   },
   {
     "id": 163793,
@@ -2194,6 +2229,6 @@
     "popularity": 3307,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 65
+    "popularity_rank": 66
   }
 ]
