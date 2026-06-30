@@ -342,8 +342,8 @@
     "name": "MARRIAGETOXIN",
     "english_title": "MARRIAGETOXIN",
     "episode": 13,
-    "release_date": "2026-06-30",
-    "next_airing_date": "2026-06-30",
+    "release_date": null,
+    "next_airing_date": null,
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199547-LAaG3cmKCGhr.jpg",
     "trailer": {
@@ -572,8 +572,8 @@
     "name": "Aishiteru Game wo Owarasetai",
     "english_title": "I Want to End this Love Game",
     "episode": 12,
-    "release_date": "2026-06-30",
-    "next_airing_date": "2026-06-30",
+    "release_date": null,
+    "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194393-0H9yYABu6y0i.jpg",
     "trailer": {
@@ -1567,8 +1567,8 @@
     "name": "Replica Datte, Koi wo Suru.",
     "english_title": "Even a Replica Can Fall in Love",
     "episode": 13,
-    "release_date": "2026-06-30",
-    "next_airing_date": "2026-06-30",
+    "release_date": null,
+    "next_airing_date": null,
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186744-nFH4y2slUrO4.jpg",
     "trailer": {
@@ -1892,36 +1892,6 @@
     "popularity_rank": 55
   },
   {
-    "id": 158036,
-    "mal_id": 53732,
-    "name": "Hidarikiki no Eren",
-    "english_title": "Eren the Southpaw",
-    "episode": 13,
-    "release_date": null,
-    "next_airing_date": "2026-06-30",
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx158036-KfXv0BFBUsWl.jpg",
-    "trailer": {
-      "id": "EsQudPqDOQQ",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/EsQudPqDOQQ/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/158036",
-    "start_date": "2026-04-08",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371659/eren-the-southpaw",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 8577,
-    "anilist_score": 56,
-    "recently_finished": false,
-    "popularity_rank": 56
-  },
-  {
     "id": 177634,
     "mal_id": 58877,
     "name": "Diamond no Ace act II: Second Season",
@@ -1949,7 +1919,7 @@
     "popularity": 8416,
     "anilist_score": 79,
     "recently_finished": true,
-    "popularity_rank": 57
+    "popularity_rank": 56
   },
   {
     "id": 210234,
@@ -1979,7 +1949,7 @@
     "popularity": 8222,
     "anilist_score": 47,
     "recently_finished": true,
-    "popularity_rank": 58
+    "popularity_rank": 57
   },
   {
     "id": 186863,
@@ -2009,7 +1979,7 @@
     "popularity": 8182,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 59
+    "popularity_rank": 58
   },
   {
     "id": 169228,
@@ -2039,7 +2009,7 @@
     "popularity": 5632,
     "anilist_score": 61,
     "recently_finished": true,
-    "popularity_rank": 60
+    "popularity_rank": 59
   },
   {
     "id": 210032,
@@ -2069,7 +2039,7 @@
     "popularity": 5098,
     "anilist_score": 73,
     "recently_finished": true,
-    "popularity_rank": 61
+    "popularity_rank": 60
   },
   {
     "id": 178749,
@@ -2099,7 +2069,7 @@
     "popularity": 4955,
     "anilist_score": 66,
     "recently_finished": true,
-    "popularity_rank": 62
+    "popularity_rank": 61
   },
   {
     "id": 202508,
@@ -2138,6 +2108,36 @@
     ],
     "popularity": 4889,
     "anilist_score": 54,
+    "recently_finished": false,
+    "popularity_rank": 62
+  },
+  {
+    "id": 196219,
+    "mal_id": 62080,
+    "name": "Mujikaku Seijo wa Kyou mo Muishiki ni Chikara wo Tare Nagasu",
+    "english_title": "The Oblivious Saint Can't Contain Her Power",
+    "episode": 1,
+    "release_date": "2026-06-30",
+    "next_airing_date": "2026-07-07",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196219-WofGyq2depPi.jpg",
+    "trailer": {
+      "id": "R82wqxOXPIM",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/R82wqxOXPIM/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/196219",
+    "start_date": "2026-06-30",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00378125/",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 4693,
+    "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 63
   },

@@ -1718,7 +1718,7 @@
     "popularity": 4889,
     "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 63
+    "popularity_rank": 62
   },
   {
     "id": 187869,
@@ -4280,7 +4280,7 @@
     "popularity": 4889,
     "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 63
+    "popularity_rank": 62
   },
   {
     "id": 187869,
@@ -6812,7 +6812,7 @@
     "popularity": 4889,
     "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 63
+    "popularity_rank": 62
   },
   {
     "id": 187869,
@@ -8889,7 +8889,7 @@
     "popularity": 4889,
     "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 63
+    "popularity_rank": 62
   },
   {
     "id": 187869,
@@ -9275,7 +9275,7 @@
     "popularity": 8182,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 59
+    "popularity_rank": 58
   },
   {
     "id": 190143,
@@ -9627,6 +9627,36 @@
     "anilist_score": 75,
     "recently_finished": true,
     "popularity_rank": 10
+  },
+  {
+    "id": 196219,
+    "mal_id": 62080,
+    "name": "Mujikaku Seijo wa Kyou mo Muishiki ni Chikara wo Tare Nagasu",
+    "english_title": "The Oblivious Saint Can't Contain Her Power",
+    "episode": 1,
+    "release_date": "2026-06-30",
+    "next_airing_date": "2026-07-07",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196219-WofGyq2depPi.jpg",
+    "trailer": {
+      "id": "R82wqxOXPIM",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/R82wqxOXPIM/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/196219",
+    "start_date": "2026-06-30",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00378125/",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 4693,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 63
   },
   {
     "id": 186744,
