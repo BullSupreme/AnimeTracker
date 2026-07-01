@@ -40,7 +40,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 722218,
+    "popularity": 722637,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -361,7 +361,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 77665,
+    "popularity": 77686,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 10
@@ -512,9 +512,9 @@
     "next_episode_number": 1,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135865-T7XIPMAbqcxN.png",
     "trailer": {
-      "id": "3-Cj3dXwQWI",
+      "id": "kUvhvkPDvm0",
       "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/3-Cj3dXwQWI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/kUvhvkPDvm0/hqdefault.jpg"
     },
     "site_url": "https://anilist.co/anime/135865",
     "start_date": "2026-07-08",
@@ -1252,6 +1252,36 @@
     "popularity_rank": 37
   },
   {
+    "id": 103303,
+    "mal_id": 62856,
+    "name": "Nijusseiki Denki Mokuroku: Eureka・Evrika",
+    "english_title": "Sparks of Tomorrow",
+    "episode": 1,
+    "release_date": "2026-07-05",
+    "next_airing_date": "2026-07-05",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103303-ORmCjr9wDgbM.jpg",
+    "trailer": {
+      "id": "-W2vs2etG9o",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/-W2vs2etG9o/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/103303",
+    "start_date": "2026-07-05",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81698957",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 26698,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 38
+  },
+  {
     "id": 192808,
     "mal_id": 61687,
     "name": "Jishou Akuyaku Reijou na Konyakusha no Kansatsu Kiroku.",
@@ -1279,36 +1309,6 @@
     "popularity": 26510,
     "anilist_score": 77,
     "recently_finished": true,
-    "popularity_rank": 38
-  },
-  {
-    "id": 103303,
-    "mal_id": 62856,
-    "name": "Nijusseiki Denki Mokuroku: Eureka・Evrika",
-    "english_title": "Sparks of Tomorrow",
-    "episode": 1,
-    "release_date": "2026-07-05",
-    "next_airing_date": "2026-07-05",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103303-ORmCjr9wDgbM.jpg",
-    "trailer": {
-      "id": "-W2vs2etG9o",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/-W2vs2etG9o/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/103303",
-    "start_date": "2026-07-05",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/81698957",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      }
-    ],
-    "popularity": 26391,
-    "anilist_score": null,
-    "recently_finished": false,
     "popularity_rank": 39
   },
   {
@@ -2526,10 +2526,10 @@
     "mal_id": 62322,
     "name": "LV999 no Murabito",
     "english_title": "The Villager of Level 999",
-    "episode": 1,
+    "episode": 2,
     "release_date": "2026-07-01",
-    "next_airing_date": "2026-07-01",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-08",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197715-KLFLxU24U1uL.png",
     "trailer": {
       "id": "YfWJLXcN7hI",
@@ -2688,8 +2688,8 @@
     "english_title": "Heroine? Saint? No, I’m an All-Works Maid (And Proud of It)!",
     "episode": 2,
     "release_date": "2026-07-01",
-    "next_airing_date": "2026-07-01",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-07-08",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx192800-r8zlO0VY0jJP.jpg",
     "trailer": {
       "id": "I9V_HpMr3_8",
@@ -2698,7 +2698,7 @@
     },
     "site_url": "https://anilist.co/anime/192800",
     "start_date": "2026-06-24",
-    "end_date": null,
+    "end_date": "2026-09-09",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -3161,7 +3161,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4986,
+    "popularity": 5042,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 97
