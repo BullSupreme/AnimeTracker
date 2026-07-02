@@ -40,7 +40,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 722637,
+    "popularity": 723244,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -271,8 +271,8 @@
     "name": "Mushoku Tensei III: Isekai Ittara Honki Dasu",
     "english_title": "Mushoku Tensei: Jobless Reincarnation Season 3",
     "episode": 1,
-    "release_date": "2026-07-05",
-    "next_airing_date": "2026-07-05",
+    "release_date": "2026-07-04",
+    "next_airing_date": "2026-07-04",
     "next_episode_number": 1,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178789-hNXjKFzUq7mk.jpg",
     "trailer": {
@@ -281,7 +281,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ODxfIvSgWuo/hqdefault.jpg"
     },
     "site_url": "https://anilist.co/anime/178789",
-    "start_date": "2026-07-06",
+    "start_date": "2026-07-04",
     "end_date": null,
     "streaming_links": [
       {
@@ -361,7 +361,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 77686,
+    "popularity": 77720,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 10
@@ -526,7 +526,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 65480,
+    "popularity": 65939,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 15
@@ -572,8 +572,8 @@
     "name": "Koori no Jouheki",
     "english_title": "The Ramparts of Ice",
     "episode": 14,
-    "release_date": "2026-07-02",
-    "next_airing_date": "2026-07-02",
+    "release_date": null,
+    "next_airing_date": null,
     "next_episode_number": 14,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186497-uwPrNPphXvjP.jpg",
     "trailer": {
@@ -1241,7 +1241,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 26698,
+    "popularity": 27067,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 37
@@ -1610,7 +1610,7 @@
     "release_date": "2026-07-08",
     "next_airing_date": "2026-07-08",
     "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194829-aBGjk68756e4.jpg",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194829-bZKwhfo60EuF.jpg",
     "trailer": {
       "id": "N_0FPI1a9Nw",
       "site": "youtube",
@@ -1813,8 +1813,8 @@
     "english_title": "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage",
     "episode": 2,
     "release_date": "2026-07-02",
-    "next_airing_date": "2026-07-02",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-07-09",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx208044-Pm2UhvApQFUh.jpg",
     "trailer": {
       "id": "QOeItd-RrVs",
@@ -1953,8 +1953,8 @@
     "english_title": "The Exiled Heavy Knight Knows How to Game the System",
     "episode": 1,
     "release_date": "2026-07-02",
-    "next_airing_date": "2026-07-02",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-09",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180136-gtMTCRlOD4OE.jpg",
     "trailer": {
       "id": "uC13b3_8riU",
@@ -2013,8 +2013,8 @@
     "english_title": "Chainsmoker Cat",
     "episode": 1,
     "release_date": "2026-07-02",
-    "next_airing_date": "2026-07-02",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-09",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207141-h5q5KJPd6vaX.jpg",
     "trailer": {
       "id": "KYGgyQtSAdI",
@@ -2034,6 +2034,11 @@
         "site": "Netflix",
         "url": "https://www.netflix.com/title/82760630",
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://youtube.com/playlist?list=PLeab-nOhLGOw&si=BpJWffksrl6gmKCi",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
     "popularity": 16040,
@@ -2202,6 +2207,36 @@
     "popularity_rank": 66
   },
   {
+    "id": 128757,
+    "mal_id": 46488,
+    "name": "Tai-Ari deshita.: Ojou-sama wa Kakutou Game nante Shinai",
+    "english_title": "Young Ladies Don't Play Fighting Games",
+    "episode": 1,
+    "release_date": "2026-07-07",
+    "next_airing_date": "2026-07-07",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128757-Iqc6hTjEYIz4.png",
+    "trailer": {
+      "id": "5PAsOIcot7I",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/5PAsOIcot7I/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/128757",
+    "start_date": "2026-07-07",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00362362/young-ladies-dont-play-fighting-games",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 12879,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 67
+  },
+  {
     "id": 209983,
     "mal_id": 63817,
     "name": "Hell Mode: Yarikomi-zuki no Gamer wa Haisettei no Isekai de Musou Suru 2nd Season",
@@ -2227,36 +2262,6 @@
       }
     ],
     "popularity": 12800,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 67
-  },
-  {
-    "id": 128757,
-    "mal_id": 46488,
-    "name": "Tai-Ari deshita.: Ojou-sama wa Kakutou Game nante Shinai",
-    "english_title": "Young Ladies Don't Play Fighting Games",
-    "episode": 1,
-    "release_date": "2026-07-07",
-    "next_airing_date": "2026-07-07",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128757-Iqc6hTjEYIz4.png",
-    "trailer": {
-      "id": "5PAsOIcot7I",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/5PAsOIcot7I/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/128757",
-    "start_date": "2026-07-07",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00362362/young-ladies-dont-play-fighting-games",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 12698,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 68
@@ -2518,8 +2523,8 @@
     "english_title": "KAIJU GIRL CARAMELISE",
     "episode": 1,
     "release_date": "2026-07-02",
-    "next_airing_date": "2026-07-02",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-09",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204466-vXMvIs4VOoQd.png",
     "trailer": {
       "id": "ECtHlHde3EQ",
@@ -2534,6 +2539,11 @@
         "site": "Crunchyroll",
         "url": "https://www.crunchyroll.com/series/GT00378081/kaiju-girl-caramelise",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl38hoyHQ6-C5HAQ9lJ5jkdG",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
     "popularity": 9836,
@@ -3061,7 +3071,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5042,
+    "popularity": 5134,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 94
@@ -3286,30 +3296,6 @@
     "popularity_rank": 101
   },
   {
-    "id": 207674,
-    "mal_id": 63468,
-    "name": "Ushiro no Shoumen Kamui-san",
-    "english_title": "KAMUI ---He's behind you",
-    "episode": 1,
-    "release_date": "2026-07-03",
-    "next_airing_date": "2026-07-03",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207674-BT8lFAwH1WrL.jpg",
-    "trailer": {
-      "id": "sHlZd-0gI0k",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/sHlZd-0gI0k/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/207674",
-    "start_date": "2026-07-04",
-    "end_date": null,
-    "streaming_links": [],
-    "popularity": 4421,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 102
-  },
-  {
     "id": 185875,
     "mal_id": 60637,
     "name": "Mahou Shoujo Lyrical Nanoha EXCEEDS Gun Blaze Vengeance",
@@ -3337,7 +3323,7 @@
     "popularity": 4375,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 103
+    "popularity_rank": 102
   },
   {
     "id": 201090,
@@ -3372,7 +3358,7 @@
     "popularity": 4005,
     "anilist_score": 51,
     "recently_finished": true,
-    "popularity_rank": 104
+    "popularity_rank": 103
   },
   {
     "id": 208225,
@@ -3402,7 +3388,7 @@
     "popularity": 3916,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 105
+    "popularity_rank": 104
   },
   {
     "id": 203880,
@@ -3411,8 +3397,8 @@
     "english_title": "Dara-san of the Reiwa Era",
     "episode": 1,
     "release_date": "2026-07-02",
-    "next_airing_date": "2026-07-02",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-09",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx203880-lnruKftb27Nr.png",
     "trailer": {
       "id": "AZKlUSu5tQ0",
@@ -3432,7 +3418,7 @@
     "popularity": 3897,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 106
+    "popularity_rank": 105
   },
   {
     "id": 209504,
@@ -3462,7 +3448,7 @@
     "popularity": 3702,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 107
+    "popularity_rank": 106
   },
   {
     "id": 196356,
@@ -3486,17 +3472,17 @@
     "popularity": 3501,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 108
+    "popularity_rank": 107
   },
   {
     "id": 209669,
     "mal_id": 63780,
     "name": "Hanazakari no Kimitachi e 2nd Season",
     "english_title": "Hana-Kimi Season 2",
-    "episode": 1,
+    "episode": 2,
     "release_date": "2026-07-01",
     "next_airing_date": "2026-07-08",
-    "next_episode_number": 2,
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209669-7GlPe2ra5f1i.jpg",
     "trailer": {
       "id": "dN7LV-oVFBg",
@@ -3505,7 +3491,7 @@
     },
     "site_url": "https://anilist.co/anime/209669",
     "start_date": "2026-07-02",
-    "end_date": null,
+    "end_date": "2026-09-17",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -3516,7 +3502,7 @@
     "popularity": 3428,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 109
+    "popularity_rank": 108
   },
   {
     "id": 163793,
@@ -3536,7 +3522,7 @@
     "popularity": 3318,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 110
+    "popularity_rank": 109
   },
   {
     "id": 188525,
@@ -3566,6 +3552,6 @@
     "popularity": 3128,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 111
+    "popularity_rank": 110
   }
 ]

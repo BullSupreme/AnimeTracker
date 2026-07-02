@@ -277,7 +277,7 @@
     "popularity": 3318,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 110
+    "popularity_rank": 109
   },
   {
     "id": 180228,
@@ -1710,7 +1710,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 77686,
+    "popularity": 77720,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 10
@@ -2276,7 +2276,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 722637,
+    "popularity": 723244,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -2839,7 +2839,7 @@
     "popularity": 3318,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 110
+    "popularity_rank": 109
   },
   {
     "id": 180228,
@@ -4272,7 +4272,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 77686,
+    "popularity": 77720,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 10
@@ -4873,7 +4873,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 722637,
+    "popularity": 723244,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -5436,7 +5436,7 @@
     "popularity": 3318,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 110
+    "popularity_rank": 109
   },
   {
     "id": 180228,
@@ -6774,7 +6774,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 77686,
+    "popularity": 77720,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 10
@@ -7215,7 +7215,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 722637,
+    "popularity": 723244,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -7748,7 +7748,37 @@
     "popularity": 3318,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 110
+    "popularity_rank": 109
+  },
+  {
+    "id": 209669,
+    "mal_id": 63780,
+    "name": "Hanazakari no Kimitachi e 2nd Season",
+    "english_title": "Hana-Kimi Season 2",
+    "episode": 1,
+    "release_date": "2026-06-24",
+    "next_airing_date": "2026-07-08",
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209669-7GlPe2ra5f1i.jpg",
+    "trailer": {
+      "id": "dN7LV-oVFBg",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/dN7LV-oVFBg/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/209669",
+    "start_date": "2026-07-02",
+    "end_date": "2026-09-17",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00365568/hana-kimi",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 3428,
+    "anilist_score": 61,
+    "recently_finished": false,
+    "popularity_rank": 108
   },
   {
     "id": 192800,
@@ -8147,8 +8177,8 @@
     "english_title": "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage",
     "episode": 1,
     "release_date": "2026-06-25",
-    "next_airing_date": "2026-07-02",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-07-09",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx208044-Pm2UhvApQFUh.jpg",
     "trailer": {
       "id": "QOeItd-RrVs",
@@ -8596,7 +8626,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 77686,
+    "popularity": 77720,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 10
@@ -8882,7 +8912,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 722637,
+    "popularity": 723244,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -9095,17 +9125,17 @@
     "popularity": 3318,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 110
+    "popularity_rank": 109
   },
   {
     "id": 209669,
     "mal_id": 63780,
     "name": "Hanazakari no Kimitachi e 2nd Season",
     "english_title": "Hana-Kimi Season 2",
-    "episode": 1,
+    "episode": 2,
     "release_date": "2026-07-01",
     "next_airing_date": "2026-07-08",
-    "next_episode_number": 2,
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209669-7GlPe2ra5f1i.jpg",
     "trailer": {
       "id": "dN7LV-oVFBg",
@@ -9114,7 +9144,7 @@
     },
     "site_url": "https://anilist.co/anime/209669",
     "start_date": "2026-07-02",
-    "end_date": null,
+    "end_date": "2026-09-17",
     "streaming_links": [
       {
         "site": "Crunchyroll",
@@ -9125,7 +9155,7 @@
     "popularity": 3428,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 109
+    "popularity_rank": 108
   },
   {
     "id": 192800,
@@ -9264,8 +9294,8 @@
     "english_title": "KAIJU GIRL CARAMELISE",
     "episode": 1,
     "release_date": "2026-07-02",
-    "next_airing_date": "2026-07-02",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-09",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204466-vXMvIs4VOoQd.png",
     "trailer": {
       "id": "ECtHlHde3EQ",
@@ -9280,6 +9310,11 @@
         "site": "Crunchyroll",
         "url": "https://www.crunchyroll.com/series/GT00378081/kaiju-girl-caramelise",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl38hoyHQ6-C5HAQ9lJ5jkdG",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
     "popularity": 9836,
@@ -9294,8 +9329,8 @@
     "english_title": "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage",
     "episode": 2,
     "release_date": "2026-07-02",
-    "next_airing_date": "2026-07-02",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-07-09",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx208044-Pm2UhvApQFUh.jpg",
     "trailer": {
       "id": "QOeItd-RrVs",
@@ -9324,8 +9359,8 @@
     "english_title": "Dara-san of the Reiwa Era",
     "episode": 1,
     "release_date": "2026-07-02",
-    "next_airing_date": "2026-07-02",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-09",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx203880-lnruKftb27Nr.png",
     "trailer": {
       "id": "AZKlUSu5tQ0",
@@ -9345,7 +9380,7 @@
     "popularity": 3897,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 106
+    "popularity_rank": 105
   },
   {
     "id": 180136,
@@ -9354,8 +9389,8 @@
     "english_title": "The Exiled Heavy Knight Knows How to Game the System",
     "episode": 1,
     "release_date": "2026-07-02",
-    "next_airing_date": "2026-07-02",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-09",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180136-gtMTCRlOD4OE.jpg",
     "trailer": {
       "id": "uC13b3_8riU",
@@ -9384,8 +9419,8 @@
     "english_title": "Chainsmoker Cat",
     "episode": 1,
     "release_date": "2026-07-02",
-    "next_airing_date": "2026-07-02",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-09",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207141-h5q5KJPd6vaX.jpg",
     "trailer": {
       "id": "KYGgyQtSAdI",
@@ -9405,6 +9440,11 @@
         "site": "Netflix",
         "url": "https://www.netflix.com/title/82760630",
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://youtube.com/playlist?list=PLeab-nOhLGOw&si=BpJWffksrl6gmKCi",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
     "popularity": 16040,

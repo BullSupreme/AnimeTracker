@@ -1,5 +1,35 @@
 [
   {
+    "id": 186497,
+    "mal_id": 60852,
+    "name": "Koori no Jouheki",
+    "english_title": "The Ramparts of Ice",
+    "episode": 14,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 14,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186497-uwPrNPphXvjP.jpg",
+    "trailer": {
+      "id": "a7ah5by0Ffw",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/a7ah5by0Ffw/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/186497",
+    "start_date": "2026-04-02",
+    "end_date": "2026-07-02",
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/82031882",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 57375,
+    "anilist_score": 80,
+    "recently_finished": true,
+    "popularity_rank": 17
+  },
+  {
     "id": 158036,
     "mal_id": 53732,
     "name": "Hidarikiki no Eren",
@@ -1297,7 +1327,7 @@
     "popularity": 4005,
     "anilist_score": 51,
     "recently_finished": true,
-    "popularity_rank": 104
+    "popularity_rank": 103
   },
   {
     "id": 196935,
