@@ -21,8 +21,8 @@
       "Drama",
       "Mystery"
     ],
-    "popularity": 46485,
-    "favourites": 571,
+    "popularity": 47105,
+    "favourites": 584,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 1
@@ -51,8 +51,8 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 41093,
-    "favourites": 861,
+    "popularity": 41551,
+    "favourites": 877,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 2
@@ -80,8 +80,8 @@
       "Drama",
       "Sci-Fi"
     ],
-    "popularity": 33892,
-    "favourites": 303,
+    "popularity": 34810,
+    "favourites": 316,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 3
@@ -109,8 +109,8 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 31765,
-    "favourites": 457,
+    "popularity": 31887,
+    "favourites": 459,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 4
@@ -138,8 +138,8 @@
       "Slice of Life",
       "Sports"
     ],
-    "popularity": 25997,
-    "favourites": 345,
+    "popularity": 26203,
+    "favourites": 349,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 5
@@ -168,8 +168,8 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 18627,
-    "favourites": 205,
+    "popularity": 18744,
+    "favourites": 206,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 6
@@ -199,7 +199,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 16965,
+    "popularity": 17037,
     "favourites": 220,
     "anilist_score": null,
     "streaming_links": [],
@@ -230,8 +230,8 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 16790,
-    "favourites": 193,
+    "popularity": 16924,
+    "favourites": 194,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 8
@@ -259,7 +259,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 15564,
+    "popularity": 15657,
     "favourites": 200,
     "anilist_score": null,
     "streaming_links": [],
@@ -286,7 +286,7 @@
     "genres": [
       "Sports"
     ],
-    "popularity": 11862,
+    "popularity": 11936,
     "favourites": 118,
     "anilist_score": null,
     "streaming_links": [],
@@ -314,7 +314,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 10710,
+    "popularity": 10788,
     "favourites": 108,
     "anilist_score": null,
     "streaming_links": [],
@@ -342,8 +342,8 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 10154,
-    "favourites": 130,
+    "popularity": 10279,
+    "favourites": 131,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 12
@@ -371,40 +371,11 @@
       "Fantasy",
       "Mahou Shoujo"
     ],
-    "popularity": 7453,
+    "popularity": 7487,
     "favourites": 71,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 13
-  },
-  {
-    "id": 209872,
-    "mal_id": 63801,
-    "name": "Ranma 1/2 (2024) 3rd Season",
-    "english_title": "Ranma1/2 (2024) Season 3",
-    "episode": 1,
-    "release_date": "2026-10-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209872-IXkyoz271bPv.jpg",
-    "trailer": {
-      "id": "dbe8esPSfYI",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/dbe8esPSfYI/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/209872",
-    "start_date": "2026-10-01",
-    "season": "Fall",
-    "season_year": 2026,
-    "studios": "MAPPA, Shogakukan-Shueisha Productions",
-    "genres": [
-      "Action",
-      "Comedy",
-      "Romance"
-    ],
-    "popularity": 7229,
-    "favourites": 45,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 14
   },
   {
     "id": 204650,
@@ -429,8 +400,37 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 7227,
+    "popularity": 7298,
     "favourites": 79,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 14
+  },
+  {
+    "id": 209872,
+    "mal_id": 63801,
+    "name": "Ranma 1/2 (2024) 3rd Season",
+    "english_title": "Ranma1/2 (2024) Season 3",
+    "episode": 1,
+    "release_date": "2026-10-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209872-IXkyoz271bPv.jpg",
+    "trailer": {
+      "id": "dbe8esPSfYI",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/dbe8esPSfYI/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/209872",
+    "start_date": "2026-10-01",
+    "season": "Fall",
+    "season_year": 2026,
+    "studios": "MAPPA, Shogakukan-Shueisha Productions",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Romance"
+    ],
+    "popularity": 7284,
+    "favourites": 47,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 15
@@ -457,11 +457,37 @@
       "Action",
       "Adventure"
     ],
-    "popularity": 6460,
-    "favourites": 119,
+    "popularity": 6528,
+    "favourites": 120,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 16
+  },
+  {
+    "id": 213805,
+    "mal_id": 64534,
+    "name": "Koori no Jouheki 2nd Season",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-10-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213805-kQXiLbsLBkX4.png",
+    "trailer": null,
+    "site_url": "https://anilist.co/anime/213805",
+    "start_date": "2026-10-01",
+    "season": "Fall",
+    "season_year": 2026,
+    "studios": "Studio KAI, TBS",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance",
+      "Slice of Life"
+    ],
+    "popularity": 5818,
+    "favourites": 30,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 17
   },
   {
     "id": 212503,
@@ -482,11 +508,11 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 5205,
+    "popularity": 5262,
     "favourites": 52,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 17
+    "popularity_rank": 18
   },
   {
     "id": 178868,
@@ -512,11 +538,11 @@
       "Mahou Shoujo",
       "Mecha"
     ],
-    "popularity": 4833,
+    "popularity": 4852,
     "favourites": 34,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 18
+    "popularity_rank": 19
   },
   {
     "id": 187402,
@@ -541,11 +567,11 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 4679,
-    "favourites": 32,
+    "popularity": 4710,
+    "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 19
+    "popularity_rank": 20
   },
   {
     "id": 204011,
@@ -570,11 +596,11 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "popularity": 4363,
+    "popularity": 4408,
     "favourites": 50,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 20
+    "popularity_rank": 21
   },
   {
     "id": 186541,
@@ -602,11 +628,11 @@
       "Romance",
       "Sci-Fi"
     ],
-    "popularity": 3847,
+    "popularity": 3885,
     "favourites": 65,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 21
+    "popularity_rank": 22
   },
   {
     "id": 160803,
@@ -632,11 +658,11 @@
       "Mahou Shoujo",
       "Thriller"
     ],
-    "popularity": 3648,
+    "popularity": 3674,
     "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 22
+    "popularity_rank": 23
   },
   {
     "id": 212888,
@@ -662,11 +688,11 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 3547,
-    "favourites": 42,
+    "popularity": 3624,
+    "favourites": 43,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 23
+    "popularity_rank": 24
   },
   {
     "id": 186742,
@@ -690,11 +716,11 @@
       "Action",
       "Sci-Fi"
     ],
-    "popularity": 3470,
+    "popularity": 3491,
     "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 24
+    "popularity_rank": 25
   },
   {
     "id": 206949,
@@ -717,11 +743,11 @@
     "genres": [
       "Fantasy"
     ],
-    "popularity": 3267,
+    "popularity": 3309,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 25
+    "popularity_rank": 26
   },
   {
     "id": 209502,
@@ -745,11 +771,11 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 3065,
+    "popularity": 3120,
     "favourites": 32,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 26
+    "popularity_rank": 27
   },
   {
     "id": 169581,
@@ -775,11 +801,11 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3006,
+    "popularity": 3022,
     "favourites": 40,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 27
+    "popularity_rank": 28
   },
   {
     "id": 207191,
@@ -803,11 +829,11 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2670,
-    "favourites": 27,
+    "popularity": 2729,
+    "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 28
+    "popularity_rank": 29
   },
   {
     "id": 213657,
@@ -832,11 +858,11 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 2430,
-    "favourites": 12,
+    "popularity": 2542,
+    "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 29
+    "popularity_rank": 30
   },
   {
     "id": 211877,
@@ -857,11 +883,11 @@
       "Ecchi",
       "Romance"
     ],
-    "popularity": 1817,
-    "favourites": 28,
+    "popularity": 1862,
+    "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 30
+    "popularity_rank": 31
   },
   {
     "id": 207329,
@@ -887,11 +913,11 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 1694,
+    "popularity": 1737,
     "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 31
+    "popularity_rank": 32
   },
   {
     "id": 211778,
@@ -916,11 +942,11 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 1679,
+    "popularity": 1722,
     "favourites": 13,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 32
+    "popularity_rank": 33
   },
   {
     "id": 199007,
@@ -947,11 +973,11 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 1633,
+    "popularity": 1652,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 33
+    "popularity_rank": 34
   },
   {
     "id": 200455,
@@ -976,11 +1002,11 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 1618,
-    "favourites": 16,
+    "popularity": 1646,
+    "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 34
+    "popularity_rank": 35
   },
   {
     "id": 199426,
@@ -1000,11 +1026,11 @@
       "Action",
       "Drama"
     ],
-    "popularity": 1519,
+    "popularity": 1524,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 35
+    "popularity_rank": 36
   },
   {
     "id": 209499,
@@ -1028,11 +1054,11 @@
       "Action",
       "Sci-Fi"
     ],
-    "popularity": 1457,
+    "popularity": 1473,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 36
+    "popularity_rank": 37
   },
   {
     "id": 203473,
@@ -1053,11 +1079,11 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 1435,
+    "popularity": 1451,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 37
+    "popularity_rank": 38
   },
   {
     "id": 187316,
@@ -1082,11 +1108,11 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 1396,
+    "popularity": 1410,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 38
+    "popularity_rank": 39
   },
   {
     "id": 202250,
@@ -1111,11 +1137,11 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 1349,
+    "popularity": 1387,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 39
+    "popularity_rank": 40
   },
   {
     "id": 209219,
@@ -1143,11 +1169,11 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 1228,
+    "popularity": 1241,
     "favourites": 11,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 40
+    "popularity_rank": 41
   },
   {
     "id": 213658,
@@ -1166,11 +1192,11 @@
     "genres": [
       "Sports"
     ],
-    "popularity": 1129,
+    "popularity": 1188,
     "favourites": 7,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 41
+    "popularity_rank": 42
   },
   {
     "id": 200294,
@@ -1194,11 +1220,11 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 1122,
+    "popularity": 1135,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 42
+    "popularity_rank": 43
   },
   {
     "id": 209562,
@@ -1221,10 +1247,10 @@
     "genres": [
       "Mecha"
     ],
-    "popularity": 1072,
+    "popularity": 1076,
     "favourites": 6,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 43
+    "popularity_rank": 44
   }
 ]
