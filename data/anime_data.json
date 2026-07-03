@@ -80,7 +80,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 193791,
+    "popularity": 194604,
     "anilist_score": 86,
     "recently_finished": true,
     "popularity_rank": 2
@@ -161,9 +161,9 @@
     "name": "Tensei Shitara Slime Datta Ken 4th Season",
     "english_title": "That Time I Got Reincarnated as a Slime Season 4",
     "episode": 13,
-    "release_date": null,
-    "next_airing_date": "2026-07-03",
-    "next_episode_number": 13,
+    "release_date": "2026-07-03",
+    "next_airing_date": "2026-07-10",
+    "next_episode_number": 14,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182205-q2AeO1owuQbO.jpg",
     "trailer": {
       "id": "ikxIrDr72iA",
@@ -361,7 +361,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 77720,
+    "popularity": 77763,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 10
@@ -491,7 +491,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 65939,
+    "popularity": 66417,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 14
@@ -1206,7 +1206,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 27067,
+    "popularity": 27407,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 36
@@ -1932,17 +1932,17 @@
     "name": "Nige Jouzu no Wakagimi 2nd Season",
     "english_title": "The Elusive Samurai Season 2",
     "episode": 1,
-    "release_date": "2026-07-10",
-    "next_airing_date": "2026-07-10",
+    "release_date": "2026-07-17",
+    "next_airing_date": "2026-07-17",
     "next_episode_number": 1,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182616-ZOCgArw9cgqI.jpg",
     "trailer": {
-      "id": "ZKY5R3r5a3M",
+      "id": "5xV6uMwR-Xo",
       "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/ZKY5R3r5a3M/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/5xV6uMwR-Xo/hqdefault.jpg"
     },
     "site_url": "https://anilist.co/anime/182616",
-    "start_date": "2026-07-10",
+    "start_date": "2026-07-17",
     "end_date": null,
     "streaming_links": [
       {
@@ -2050,11 +2050,11 @@
     "id": 209983,
     "mal_id": 63817,
     "name": "Hell Mode: Yarikomi-zuki no Gamer wa Haisettei no Isekai de Musou Suru 2nd Season",
-    "english_title": null,
+    "english_title": "HELL MODE: The Hardcore Gamer Dominates in Another World with Garbage Balancing Season 2",
     "episode": 1,
     "release_date": "2026-07-03",
-    "next_airing_date": "2026-07-03",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-10",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209983-sFOcKyqMufxb.jpg",
     "trailer": {
       "id": "hr_7R76pUC8",
@@ -2075,6 +2075,36 @@
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 62
+  },
+  {
+    "id": 128757,
+    "mal_id": 46488,
+    "name": "Tai-Ari deshita.: Ojou-sama wa Kakutou Game nante Shinai",
+    "english_title": "Young Ladies Don't Play Fighting Games",
+    "episode": 1,
+    "release_date": "2026-07-07",
+    "next_airing_date": "2026-07-07",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128757-Iqc6hTjEYIz4.png",
+    "trailer": {
+      "id": "5PAsOIcot7I",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/5PAsOIcot7I/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/128757",
+    "start_date": "2026-07-07",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00362362/young-ladies-dont-play-fighting-games",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 13084,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 63
   },
   {
     "id": 196144,
@@ -2114,36 +2144,6 @@
     "popularity": 12934,
     "anilist_score": 66,
     "recently_finished": true,
-    "popularity_rank": 63
-  },
-  {
-    "id": 128757,
-    "mal_id": 46488,
-    "name": "Tai-Ari deshita.: Ojou-sama wa Kakutou Game nante Shinai",
-    "english_title": "Young Ladies Don't Play Fighting Games",
-    "episode": 1,
-    "release_date": "2026-07-07",
-    "next_airing_date": "2026-07-07",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128757-Iqc6hTjEYIz4.png",
-    "trailer": {
-      "id": "5PAsOIcot7I",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/5PAsOIcot7I/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/128757",
-    "start_date": "2026-07-07",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00362362/young-ladies-dont-play-fighting-games",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 12879,
-    "anilist_score": null,
-    "recently_finished": false,
     "popularity_rank": 64
   },
   {
@@ -2174,6 +2174,11 @@
         "site": "Amazon Prime Video",
         "url": "https://www.amazon.co.jp/-/en/dp/B0H46Z36CY",
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0a5R_sTDWnpN19_TCZuW-E",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
     "popularity": 12866,
@@ -2438,8 +2443,8 @@
     "english_title": "I Became a Legend After My 10 Year-Long Last Stand",
     "episode": 1,
     "release_date": "2026-07-03",
-    "next_airing_date": "2026-07-03",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-10",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199748-PAFk9pGSUmFL.png",
     "trailer": {
       "id": "_9FRdFYJOdg",
@@ -2452,7 +2457,7 @@
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/",
+        "url": "https://www.crunchyroll.com/series/GT00371671",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
@@ -2718,8 +2723,8 @@
     "english_title": "The Frontier Lord Begins with Zero Subjects",
     "episode": 1,
     "release_date": "2026-07-03",
-    "next_airing_date": "2026-07-03",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-10",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196218-UsdTTCrwpDIN.jpg",
     "trailer": {
       "id": "5JpTU6wj_-g",
@@ -2916,7 +2921,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5134,
+    "popularity": 5215,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 89
@@ -3017,9 +3022,9 @@
     "name": "Kami no Shizuku",
     "english_title": "The Drops of God",
     "episode": 13,
-    "release_date": null,
-    "next_airing_date": "2026-07-03",
-    "next_episode_number": 13,
+    "release_date": "2026-07-03",
+    "next_airing_date": "2026-07-10",
+    "next_episode_number": 14,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202508-dk6LEyevJYUY.jpg",
     "trailer": {
       "id": "Oz5EkYVJbBc",
@@ -3082,6 +3087,30 @@
     "popularity_rank": 94
   },
   {
+    "id": 207674,
+    "mal_id": 63468,
+    "name": "Ushiro no Shoumen Kamui-san",
+    "english_title": "KAMUI ---He's behind you",
+    "episode": 1,
+    "release_date": "2026-07-03",
+    "next_airing_date": "2026-07-10",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207674-BT8lFAwH1WrL.jpg",
+    "trailer": {
+      "id": "sHlZd-0gI0k",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/sHlZd-0gI0k/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/207674",
+    "start_date": "2026-07-04",
+    "end_date": "2026-09-19",
+    "streaming_links": [],
+    "popularity": 4648,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 95
+  },
+  {
     "id": 185692,
     "mal_id": 60552,
     "name": "Kabushiki Gaisha Magi Lumiere 2nd Season",
@@ -3103,7 +3132,7 @@
     "popularity": 4559,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 95
+    "popularity_rank": 96
   },
   {
     "id": 177508,
@@ -3138,7 +3167,7 @@
     "popularity": 4441,
     "anilist_score": 62,
     "recently_finished": true,
-    "popularity_rank": 96
+    "popularity_rank": 97
   },
   {
     "id": 185875,
@@ -3168,7 +3197,7 @@
     "popularity": 4439,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 97
+    "popularity_rank": 98
   },
   {
     "id": 208225,
@@ -3198,7 +3227,7 @@
     "popularity": 4056,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 98
+    "popularity_rank": 99
   },
   {
     "id": 201090,
@@ -3233,7 +3262,7 @@
     "popularity": 4006,
     "anilist_score": 51,
     "recently_finished": true,
-    "popularity_rank": 99
+    "popularity_rank": 100
   },
   {
     "id": 209504,
@@ -3263,7 +3292,7 @@
     "popularity": 3836,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 100
+    "popularity_rank": 101
   },
   {
     "id": 209669,
@@ -3293,7 +3322,7 @@
     "popularity": 3749,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 101
+    "popularity_rank": 102
   },
   {
     "id": 198376,
@@ -3321,7 +3350,7 @@
       },
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/",
+        "url": "https://www.crunchyroll.com/series/GT00379424/",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       },
       {
@@ -3333,7 +3362,7 @@
     "popularity": 3617,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 102
+    "popularity_rank": 103
   },
   {
     "id": 196356,
@@ -3357,7 +3386,7 @@
     "popularity": 3578,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 103
+    "popularity_rank": 104
   },
   {
     "id": 163793,
@@ -3377,7 +3406,7 @@
     "popularity": 3323,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 104
+    "popularity_rank": 105
   },
   {
     "id": 188525,
@@ -3386,8 +3415,8 @@
     "english_title": "Draw This, Then Die!",
     "episode": 1,
     "release_date": "2026-07-03",
-    "next_airing_date": "2026-07-03",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-10",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188525-TBVfJaCZrcfg.jpg",
     "trailer": {
       "id": "jI61NtGuxV4",
@@ -3400,14 +3429,19 @@
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/",
+        "url": "https://www.crunchyroll.com/series/GT00371656/draw-this-then-die",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81787975",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
     "popularity": 3255,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 105
+    "popularity_rank": 106
   },
   {
     "id": 196017,
@@ -3437,6 +3471,6 @@
     "popularity": 3034,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 106
+    "popularity_rank": 107
   }
 ]
