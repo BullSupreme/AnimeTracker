@@ -80,7 +80,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 194604,
+    "popularity": 195369,
     "anilist_score": 86,
     "recently_finished": true,
     "popularity_rank": 2
@@ -131,9 +131,9 @@
     "name": "Yomi no Tsugai",
     "english_title": "Daemons of the Shadow Realm",
     "episode": 13,
-    "release_date": null,
-    "next_airing_date": "2026-07-04",
-    "next_episode_number": 13,
+    "release_date": "2026-07-04",
+    "next_airing_date": "2026-07-11",
+    "next_episode_number": 14,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195600-moI0UFArtOme.jpg",
     "trailer": {
       "id": "XCyj9KKKjUI",
@@ -270,10 +270,10 @@
     "mal_id": 59193,
     "name": "Mushoku Tensei III: Isekai Ittara Honki Dasu",
     "english_title": "Mushoku Tensei: Jobless Reincarnation Season 3",
-    "episode": 1,
-    "release_date": "2026-07-04",
-    "next_airing_date": "2026-07-04",
-    "next_episode_number": 1,
+    "episode": 3,
+    "release_date": "2026-07-12",
+    "next_airing_date": "2026-07-12",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178789-hNXjKFzUq7mk.jpg",
     "trailer": {
       "id": "ODxfIvSgWuo",
@@ -288,6 +288,16 @@
         "site": "Crunchyroll",
         "url": "https://www.crunchyroll.com/series/G24H1N3MP/mushoku-tensei-jobless-reincarnation",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1LMA6zhohDzfoV-XXFxS9Z",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/80987039",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
     "popularity": 91366,
@@ -491,7 +501,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 66417,
+    "popularity": 66908,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 14
@@ -1121,7 +1131,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 28162,
+    "popularity": 28552,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 34
@@ -1151,7 +1161,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 27407,
+    "popularity": 27797,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 35
@@ -1226,10 +1236,10 @@
     "mal_id": 60522,
     "name": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu II",
     "english_title": "Skeleton Knight in Another World Season 2",
-    "episode": 1,
-    "release_date": "2026-07-04",
-    "next_airing_date": "2026-07-04",
-    "next_episode_number": 1,
+    "episode": 2,
+    "release_date": "2026-07-13",
+    "next_airing_date": "2026-07-13",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185542-6a9LCWlLHa0T.jpg",
     "trailer": {
       "id": "Enu3fyOdkoM",
@@ -1244,6 +1254,11 @@
         "site": "Crunchyroll",
         "url": "https://www.crunchyroll.com/series/G8DHV7WJP/skeleton-knight-in-another-world",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl10pbg4dlS9ZUOYMzXWFK-W",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
     "popularity": 24483,
@@ -1523,8 +1538,8 @@
     "english_title": "BLACK TORCH",
     "episode": 1,
     "release_date": "2026-07-04",
-    "next_airing_date": "2026-07-04",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-11",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187538-fXVXKYUA3VV6.jpg",
     "trailer": {
       "id": "2clp09dITKY",
@@ -1539,6 +1554,11 @@
         "site": "Crunchyroll",
         "url": "https://www.crunchyroll.com/series/GT00377907/black-torch",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3mx2NrmJSwHk-VtvhmGnZz",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
     "popularity": 20400,
@@ -1832,9 +1852,9 @@
     "name": "MAO",
     "english_title": "MAO",
     "episode": 14,
-    "release_date": null,
-    "next_airing_date": "2026-07-04",
-    "next_episode_number": 14,
+    "release_date": "2026-07-04",
+    "next_airing_date": "2026-07-11",
+    "next_episode_number": 15,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196012-R3YNjunufpYh.jpg",
     "trailer": {
       "id": "eVfpoS0rjw0",
@@ -1936,10 +1956,10 @@
     "mal_id": 61483,
     "name": "Tenmaku no Jaadugar",
     "english_title": "Jaadugar: A Witch in Mongolia",
-    "episode": 1,
+    "episode": 2,
     "release_date": "2026-07-04",
-    "next_airing_date": "2026-07-04",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-11",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx190569-KnCQLI3Z8hPX.jpg",
     "trailer": {
       "id": "G-Szfn5Tkn4",
@@ -2151,7 +2171,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 13084,
+    "popularity": 13259,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 65
@@ -2233,8 +2253,8 @@
     "english_title": "Rich Girl Caretaker: I'm Secretly the Caregiver of the Most Popular Girl in This Rich Kid School",
     "episode": 1,
     "release_date": "2026-07-04",
-    "next_airing_date": "2026-07-04",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-11",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx201514-BHAeWhSbcBrT.png",
     "trailer": {
       "id": "JoRr4dfpXIU",
@@ -2478,8 +2498,8 @@
     "english_title": "The Cat and the Dragon",
     "episode": 2,
     "release_date": "2026-07-04",
-    "next_airing_date": "2026-07-04",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-07-11",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186863-AO4efoB8HuzA.png",
     "trailer": {
       "id": "xi4rGcyeYr8",
@@ -2572,6 +2592,36 @@
     "popularity_rank": 78
   },
   {
+    "id": 158036,
+    "mal_id": 53732,
+    "name": "Hidarikiki no Eren",
+    "english_title": "Eren the Southpaw",
+    "episode": 13,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx158036-KfXv0BFBUsWl.jpg",
+    "trailer": {
+      "id": "EsQudPqDOQQ",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/EsQudPqDOQQ/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/158036",
+    "start_date": "2026-04-08",
+    "end_date": "2026-07-01",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371659/eren-the-southpaw",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 8826,
+    "anilist_score": 58,
+    "recently_finished": true,
+    "popularity_rank": 79
+  },
+  {
     "id": 195734,
     "mal_id": 62018,
     "name": "Ichijouma Mankitsu-gurashi!",
@@ -2598,36 +2648,6 @@
     ],
     "popularity": 8791,
     "anilist_score": 64,
-    "recently_finished": true,
-    "popularity_rank": 79
-  },
-  {
-    "id": 158036,
-    "mal_id": 53732,
-    "name": "Hidarikiki no Eren",
-    "english_title": "Eren the Southpaw",
-    "episode": 13,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx158036-KfXv0BFBUsWl.jpg",
-    "trailer": {
-      "id": "EsQudPqDOQQ",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/EsQudPqDOQQ/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/158036",
-    "start_date": "2026-04-08",
-    "end_date": "2026-07-01",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371659/eren-the-southpaw",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 8789,
-    "anilist_score": 58,
     "recently_finished": true,
     "popularity_rank": 80
   },
@@ -2866,6 +2886,36 @@
     "popularity_rank": 88
   },
   {
+    "id": 108992,
+    "mal_id": 63802,
+    "name": "Mebius Dust",
+    "english_title": "MEBIUS DUST",
+    "episode": 1,
+    "release_date": "2026-07-09",
+    "next_airing_date": "2026-07-09",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108992-skuOsfmLmMd2.jpg",
+    "trailer": {
+      "id": "ByOF3FLlAws",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/ByOF3FLlAws/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/108992",
+    "start_date": "2026-07-09",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 5289,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 89
+  },
+  {
     "id": 198709,
     "mal_id": 62476,
     "name": "Tefuda ga Oome no Victoria",
@@ -2893,36 +2943,6 @@
     "popularity": 5228,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 89
-  },
-  {
-    "id": 108992,
-    "mal_id": 63802,
-    "name": "Mebius Dust",
-    "english_title": "MEBIUS DUST",
-    "episode": 1,
-    "release_date": "2026-07-09",
-    "next_airing_date": "2026-07-09",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108992-skuOsfmLmMd2.jpg",
-    "trailer": {
-      "id": "ByOF3FLlAws",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/ByOF3FLlAws/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/108992",
-    "start_date": "2026-07-09",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 5215,
-    "anilist_score": null,
-    "recently_finished": false,
     "popularity_rank": 90
   },
   {
@@ -2932,8 +2952,8 @@
     "english_title": "The Ogre's Bride",
     "episode": 1,
     "release_date": "2026-07-04",
-    "next_airing_date": "2026-07-04",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-11",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194219-qf7L0SfVi6nc.jpg",
     "trailer": {
       "id": "1hYWc5MCIPk",
@@ -2946,7 +2966,7 @@
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/",
+        "url": "https://www.crunchyroll.com/series/GT00378121/the-ogres-bride",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
@@ -3059,12 +3079,12 @@
     "id": 185692,
     "mal_id": 60552,
     "name": "Kabushiki Gaisha Magi Lumiere 2nd Season",
-    "english_title": null,
+    "english_title": "Magilumiere Magical Girls Inc. Season 2",
     "episode": 1,
     "release_date": "2026-07-04",
-    "next_airing_date": "2026-07-04",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185692-gmDNAsJnbbEU.jpg",
+    "next_airing_date": "2026-07-11",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185692-1a8huwOIx7gw.jpg",
     "trailer": {
       "id": "3w7_piPtkNY",
       "site": "youtube",
@@ -3086,8 +3106,8 @@
     "english_title": "Magical Girl Lyrical Nanoha EXCEEDS Gun Blaze Vengeance",
     "episode": 1,
     "release_date": "2026-07-04",
-    "next_airing_date": "2026-07-04",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-11",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185875-XMvDVlIUZODx.jpg",
     "trailer": {
       "id": "4IcEbMCW-FU",
@@ -3100,7 +3120,7 @@
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com",
+        "url": "https://www.crunchyroll.com/series/GT00378090/magical-girl-lyrical-nanoha-exceeds-gun-blaze-vengeance",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
@@ -3191,8 +3211,8 @@
     "english_title": "The Duke’s Son Claims He Won’t Love Me Yet Showers Me with Adoration",
     "episode": 1,
     "release_date": "2026-07-04",
-    "next_airing_date": "2026-07-04",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-11",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx208225-HJbCC0Z4xRp3.jpg",
     "trailer": {
       "id": "MNzf8UswtzI",
@@ -3205,7 +3225,7 @@
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/",
+        "url": "https://www.crunchyroll.com/series/GT00378118/the-dukes-son-claims-he-wont-love-me-but-showers-me-with-adoration",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
@@ -3462,11 +3482,11 @@
     "id": 196017,
     "mal_id": 62051,
     "name": "Grow Up Show: Himawari no Circus-dan",
-    "english_title": "GROW UP SHOW -Sunflower Circus-",
+    "english_title": "Grow Up Show",
     "episode": 1,
     "release_date": "2026-07-04",
-    "next_airing_date": "2026-07-04",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-11",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196017-GynDNdbDzqzk.jpg",
     "trailer": {
       "id": "PAneuhZLHzU",
@@ -3479,7 +3499,7 @@
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com",
+        "url": "https://www.crunchyroll.com/series/GT00378063/grow-up-show",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
