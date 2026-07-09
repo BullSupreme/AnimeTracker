@@ -179,7 +179,7 @@
     "release_date": "2026-07-11",
     "next_airing_date": "2026-07-11",
     "next_episode_number": 2,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194219-qf7L0SfVi6nc.jpg",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b194219-56EhyK775lga.jpg",
     "trailer": {
       "id": "1hYWc5MCIPk",
       "site": "youtube",
@@ -1258,7 +1258,7 @@
     "popularity": 17240,
     "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 49
+    "popularity_rank": 50
   },
   {
     "id": 202508,
@@ -1390,10 +1390,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 16212,
+    "popularity": 17286,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 50
+    "popularity_rank": 49
   },
   {
     "id": 196219,
@@ -1520,8 +1520,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 69156,
-    "anilist_score": null,
+    "popularity": 72080,
+    "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 10
   },
@@ -1763,6 +1763,11 @@
         "site": "Crunchyroll",
         "url": "https://www.crunchyroll.com/series/GT00378123/",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLRwxYv2koIzY",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
     "popularity": 11379,
@@ -1793,6 +1798,11 @@
         "site": "Amazon Prime Video",
         "url": "https://www.amazon.com/My-Stepmother-Stepsisters-Arent-Wicked/dp/B0GYPBM8WL",
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLKx8CEsRVJts",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
     "popularity": 5378,
