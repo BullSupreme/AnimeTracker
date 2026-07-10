@@ -140,10 +140,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 34417,
-    "anilist_score": 74,
+    "popularity": 36268,
+    "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 24
+    "popularity_rank": 23
   },
   {
     "id": 200637,
@@ -690,8 +690,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 17286,
-    "anilist_score": 71,
+    "popularity": 17875,
+    "anilist_score": 72,
     "recently_finished": false,
     "popularity_rank": 48
   },
@@ -859,41 +859,6 @@
     "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 3
-  },
-  {
-    "id": 182205,
-    "mal_id": 59970,
-    "name": "Tensei Shitara Slime Datta Ken 4th Season",
-    "english_title": "That Time I Got Reincarnated as a Slime Season 4",
-    "episode": 14,
-    "release_date": null,
-    "next_airing_date": "2026-07-10",
-    "next_episode_number": 14,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182205-q2AeO1owuQbO.jpg",
-    "trailer": {
-      "id": "ikxIrDr72iA",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/ikxIrDr72iA/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/182205",
-    "start_date": "2026-04-03",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3_YNRvXA7O89pNPsj1WIkb",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 112596,
-    "anilist_score": 82,
-    "recently_finished": false,
-    "popularity_rank": 5
   },
   {
     "id": 197754,
@@ -1076,46 +1041,6 @@
     "popularity_rank": 49
   },
   {
-    "id": 202508,
-    "mal_id": 62981,
-    "name": "Kami no Shizuku",
-    "english_title": "The Drops of God",
-    "episode": 14,
-    "release_date": null,
-    "next_airing_date": "2026-07-10",
-    "next_episode_number": 14,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202508-dk6LEyevJYUY.jpg",
-    "trailer": {
-      "id": "Oz5EkYVJbBc",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/Oz5EkYVJbBc/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/202508",
-    "start_date": "2026-04-10",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@dropsofgodanime",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLbuF5Onrcu9fuunA9-WbxAZpiwmHUS0w9",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 5127,
-    "anilist_score": 54,
-    "recently_finished": false,
-    "popularity_rank": 82
-  },
-  {
     "id": 135865,
     "mal_id": 49233,
     "name": "Youjo Senki II",
@@ -1145,7 +1070,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 72080,
+    "popularity": 73496,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 10
@@ -1178,7 +1103,7 @@
     "popularity": 35307,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 23
+    "popularity_rank": 24
   },
   {
     "id": 198946,
@@ -1373,7 +1298,7 @@
     "popularity": 6244,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 74
+    "popularity_rank": 75
   },
   {
     "id": 209669,
@@ -1448,6 +1373,11 @@
         "site": "Crunchyroll",
         "url": "https://www.crunchyroll.com/series/GT00378116/smoking-behind-the-supermarket-with-you",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/82757039",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
     "popularity": 79626,
@@ -1710,10 +1640,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5564,
-    "anilist_score": null,
+    "popularity": 6326,
+    "anilist_score": 53,
     "recently_finished": false,
-    "popularity_rank": 77
+    "popularity_rank": 74
   },
   {
     "id": 198376,

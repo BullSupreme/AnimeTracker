@@ -161,9 +161,9 @@
     "name": "Tensei Shitara Slime Datta Ken 4th Season",
     "english_title": "That Time I Got Reincarnated as a Slime Season 4",
     "episode": 14,
-    "release_date": null,
-    "next_airing_date": "2026-07-10",
-    "next_episode_number": 14,
+    "release_date": "2026-07-10",
+    "next_airing_date": "2026-07-17",
+    "next_episode_number": 15,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182205-q2AeO1owuQbO.jpg",
     "trailer": {
       "id": "ikxIrDr72iA",
@@ -253,6 +253,11 @@
         "site": "Crunchyroll",
         "url": "https://www.crunchyroll.com/series/GT00378116/smoking-behind-the-supermarket-with-you",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/82757039",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
     "popularity": 79626,
@@ -366,7 +371,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 72080,
+    "popularity": 73496,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 10
@@ -762,6 +767,36 @@
     "popularity_rank": 22
   },
   {
+    "id": 103303,
+    "mal_id": 62856,
+    "name": "Nijusseiki Denki Mokuroku: Eureka・Evrika",
+    "english_title": "Sparks of Tomorrow",
+    "episode": 2,
+    "release_date": "2026-07-12",
+    "next_airing_date": "2026-07-12",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103303-IF43hFJPPv2Y.png",
+    "trailer": {
+      "id": "-W2vs2etG9o",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/-W2vs2etG9o/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/103303",
+    "start_date": "2026-07-05",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81698957",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 36268,
+    "anilist_score": 75,
+    "recently_finished": false,
+    "popularity_rank": 23
+  },
+  {
     "id": 159309,
     "mal_id": 54000,
     "name": "Otomege Sekai wa Mob ni Kibishii Sekai desu 2",
@@ -788,36 +823,6 @@
     ],
     "popularity": 35307,
     "anilist_score": 69,
-    "recently_finished": false,
-    "popularity_rank": 23
-  },
-  {
-    "id": 103303,
-    "mal_id": 62856,
-    "name": "Nijusseiki Denki Mokuroku: Eureka・Evrika",
-    "english_title": "Sparks of Tomorrow",
-    "episode": 2,
-    "release_date": "2026-07-12",
-    "next_airing_date": "2026-07-12",
-    "next_episode_number": 2,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103303-IF43hFJPPv2Y.png",
-    "trailer": {
-      "id": "-W2vs2etG9o",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/-W2vs2etG9o/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/103303",
-    "start_date": "2026-07-05",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/81698957",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      }
-    ],
-    "popularity": 34417,
-    "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 24
   },
@@ -1283,8 +1288,8 @@
     "english_title": "I Became a Legend After My 10 Year-Long Last Stand",
     "episode": 2,
     "release_date": "2026-07-10",
-    "next_airing_date": "2026-07-10",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-07-17",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199748-PAFk9pGSUmFL.png",
     "trailer": {
       "id": "_9FRdFYJOdg",
@@ -1378,8 +1383,8 @@
     "english_title": "HELL MODE: The Hardcore Gamer Dominates in Another World with Garbage Balancing Season 2",
     "episode": 2,
     "release_date": "2026-07-10",
-    "next_airing_date": "2026-07-10",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-07-17",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209983-sFOcKyqMufxb.jpg",
     "trailer": {
       "id": "hr_7R76pUC8",
@@ -1601,8 +1606,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 17286,
-    "anilist_score": 71,
+    "popularity": 17875,
+    "anilist_score": 72,
     "recently_finished": false,
     "popularity_rank": 48
   },
@@ -1658,8 +1663,8 @@
     "english_title": "The Frontier Lord Begins with Zero Subjects",
     "episode": 2,
     "release_date": "2026-07-10",
-    "next_airing_date": "2026-07-10",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-07-17",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196218-UsdTTCrwpDIN.jpg",
     "trailer": {
       "id": "5JpTU6wj_-g",
@@ -2108,8 +2113,8 @@
     "english_title": "KAMUI ---He's behind you",
     "episode": 2,
     "release_date": "2026-07-10",
-    "next_airing_date": "2026-07-10",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-07-17",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207674-BT8lFAwH1WrL.jpg",
     "trailer": {
       "id": "sHlZd-0gI0k",
@@ -2406,6 +2411,36 @@
     "popularity_rank": 73
   },
   {
+    "id": 108992,
+    "mal_id": 63802,
+    "name": "Mebius Dust",
+    "english_title": "Mebius Dust",
+    "episode": 1,
+    "release_date": "2026-07-09",
+    "next_airing_date": "2026-07-16",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108992-skuOsfmLmMd2.jpg",
+    "trailer": {
+      "id": "ByOF3FLlAws",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/ByOF3FLlAws/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/108992",
+    "start_date": "2026-07-09",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00379439/mebius-dust",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 6326,
+    "anilist_score": 53,
+    "recently_finished": false,
+    "popularity_rank": 74
+  },
+  {
     "id": 196356,
     "mal_id": 62102,
     "name": "Ibitte Konai Gibo to Gishi",
@@ -2438,7 +2473,7 @@
     "popularity": 6244,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 74
+    "popularity_rank": 75
   },
   {
     "id": 188525,
@@ -2447,8 +2482,8 @@
     "english_title": "Draw This, Then Die!",
     "episode": 2,
     "release_date": "2026-07-10",
-    "next_airing_date": "2026-07-10",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-07-17",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188525-uWhw4rQcqOyF.jpg",
     "trailer": {
       "id": "jI61NtGuxV4",
@@ -2478,7 +2513,7 @@
     "popularity": 5889,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 75
+    "popularity_rank": 76
   },
   {
     "id": 169228,
@@ -2508,36 +2543,6 @@
     "popularity": 5746,
     "anilist_score": 62,
     "recently_finished": true,
-    "popularity_rank": 76
-  },
-  {
-    "id": 108992,
-    "mal_id": 63802,
-    "name": "Mebius Dust",
-    "english_title": "Mebius Dust",
-    "episode": 1,
-    "release_date": "2026-07-09",
-    "next_airing_date": "2026-07-16",
-    "next_episode_number": 2,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108992-skuOsfmLmMd2.jpg",
-    "trailer": {
-      "id": "ByOF3FLlAws",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/ByOF3FLlAws/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/108992",
-    "start_date": "2026-07-09",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00379439/mebius-dust",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 5564,
-    "anilist_score": null,
-    "recently_finished": false,
     "popularity_rank": 77
   },
   {
@@ -2631,8 +2636,8 @@
     "english_title": "Please Excuse My Younger Brothers",
     "episode": 2,
     "release_date": "2026-07-10",
-    "next_airing_date": "2026-07-10",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-07-17",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx203490-YQXiymUiDQNA.jpg",
     "trailer": {
       "id": "P927_ZvgUUg",
@@ -2660,9 +2665,9 @@
     "name": "Kami no Shizuku",
     "english_title": "The Drops of God",
     "episode": 14,
-    "release_date": null,
-    "next_airing_date": "2026-07-10",
-    "next_episode_number": 14,
+    "release_date": "2026-07-10",
+    "next_airing_date": "2026-07-17",
+    "next_episode_number": 15,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202508-dk6LEyevJYUY.jpg",
     "trailer": {
       "id": "Oz5EkYVJbBc",
