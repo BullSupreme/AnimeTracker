@@ -109,7 +109,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 32704,
+    "popularity": 32785,
     "favourites": 487,
     "anilist_score": null,
     "streaming_links": [],
@@ -168,7 +168,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 19442,
+    "popularity": 19494,
     "favourites": 208,
     "anilist_score": null,
     "streaming_links": [],
@@ -230,7 +230,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 17481,
+    "popularity": 17517,
     "favourites": 226,
     "anilist_score": null,
     "streaming_links": [],
@@ -259,7 +259,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 16288,
+    "popularity": 16338,
     "favourites": 211,
     "anilist_score": null,
     "streaming_links": [],
@@ -408,6 +408,35 @@
     "popularity_rank": 14
   },
   {
+    "id": 176314,
+    "mal_id": 58518,
+    "name": "Sasaki to Pii-chan Season 2",
+    "english_title": "Sasaki and Peeps Season 2",
+    "episode": 1,
+    "release_date": "2026-10-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176314-dvPRzlyafTTZ.jpg",
+    "trailer": {
+      "id": "oR4Luug1NRc",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/oR4Luug1NRc/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/176314",
+    "start_date": "2026-10-01",
+    "season": "Fall",
+    "season_year": 2026,
+    "studios": "KADOKAWA, SILVER LINK.",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Mahou Shoujo"
+    ],
+    "popularity": 7720,
+    "favourites": 72,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 15
+  },
+  {
     "id": 209872,
     "mal_id": 63801,
     "name": "Ranma 1/2 (2024) 3rd Season",
@@ -432,35 +461,6 @@
     ],
     "popularity": 7710,
     "favourites": 54,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 15
-  },
-  {
-    "id": 176314,
-    "mal_id": 58518,
-    "name": "Sasaki to Pii-chan Season 2",
-    "english_title": "Sasaki and Peeps Season 2",
-    "episode": 1,
-    "release_date": "2026-10-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176314-dvPRzlyafTTZ.jpg",
-    "trailer": {
-      "id": "oR4Luug1NRc",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/oR4Luug1NRc/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/176314",
-    "start_date": "2026-10-01",
-    "season": "Fall",
-    "season_year": 2026,
-    "studios": "KADOKAWA, SILVER LINK.",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Mahou Shoujo"
-    ],
-    "popularity": 7702,
-    "favourites": 72,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 16
@@ -628,7 +628,7 @@
       "Mahou Shoujo",
       "Mecha"
     ],
-    "popularity": 5045,
+    "popularity": 5060,
     "favourites": 34,
     "anilist_score": null,
     "streaming_links": [],
@@ -667,7 +667,7 @@
     "id": 204011,
     "mal_id": 63098,
     "name": "PSYЯEN",
-    "english_title": null,
+    "english_title": "PSYREN",
     "episode": 1,
     "release_date": "2026-10-01",
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204011-BV7R1PKHAY3M.png",
@@ -748,7 +748,7 @@
       "Mahou Shoujo",
       "Thriller"
     ],
-    "popularity": 3807,
+    "popularity": 3817,
     "favourites": 30,
     "anilist_score": null,
     "streaming_links": [],
@@ -838,34 +838,6 @@
     "popularity_rank": 29
   },
   {
-    "id": 207191,
-    "mal_id": 63409,
-    "name": "Doumo, Suki na Hito ni Horegusuri wo Irai Sareta Majo desu.",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-10-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207191-JVPvPlAJED4S.jpg",
-    "trailer": {
-      "id": "XplGl4tL_8w",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/XplGl4tL_8w/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/207191",
-    "start_date": "2026-10-01",
-    "season": "Fall",
-    "season_year": 2026,
-    "studios": "diomedéa",
-    "genres": [
-      "Fantasy",
-      "Romance"
-    ],
-    "popularity": 3181,
-    "favourites": 35,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 30
-  },
-  {
     "id": 169581,
     "mal_id": 56733,
     "name": "Magical★Explorer: Eroge no Yuujin Chara ni Tensei Shitakedo, Game Chishiki Tsukatte Jiyuu ni Ikiru",
@@ -889,8 +861,36 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3176,
+    "popularity": 3193,
     "favourites": 40,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 30
+  },
+  {
+    "id": 207191,
+    "mal_id": 63409,
+    "name": "Doumo, Suki na Hito ni Horegusuri wo Irai Sareta Majo desu.",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-10-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207191-JVPvPlAJED4S.jpg",
+    "trailer": {
+      "id": "XplGl4tL_8w",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/XplGl4tL_8w/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/207191",
+    "start_date": "2026-10-01",
+    "season": "Fall",
+    "season_year": 2026,
+    "studios": "diomedéa",
+    "genres": [
+      "Fantasy",
+      "Romance"
+    ],
+    "popularity": 3181,
+    "favourites": 35,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 31
