@@ -21,8 +21,8 @@
       "Drama",
       "Mystery"
     ],
-    "popularity": 53344,
-    "favourites": 748,
+    "popularity": 53641,
+    "favourites": 752,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 1
@@ -51,8 +51,8 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 47697,
-    "favourites": 1073,
+    "popularity": 47999,
+    "favourites": 1078,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 2
@@ -80,8 +80,8 @@
       "Drama",
       "Sci-Fi"
     ],
-    "popularity": 43467,
-    "favourites": 448,
+    "popularity": 43827,
+    "favourites": 451,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 3
@@ -110,7 +110,7 @@
       "Fantasy"
     ],
     "popularity": 33112,
-    "favourites": 495,
+    "favourites": 497,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 4
@@ -138,8 +138,8 @@
       "Slice of Life",
       "Sports"
     ],
-    "popularity": 28038,
-    "favourites": 376,
+    "popularity": 28118,
+    "favourites": 377,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 5
@@ -168,7 +168,7 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 19753,
+    "popularity": 19796,
     "favourites": 210,
     "anilist_score": null,
     "streaming_links": [],
@@ -199,8 +199,8 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 18758,
-    "favourites": 224,
+    "popularity": 18863,
+    "favourites": 225,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 7
@@ -231,7 +231,7 @@
       "Supernatural"
     ],
     "popularity": 17669,
-    "favourites": 229,
+    "favourites": 230,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 8
@@ -259,7 +259,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 16572,
+    "popularity": 16615,
     "favourites": 214,
     "anilist_score": null,
     "streaming_links": [],
@@ -286,8 +286,8 @@
     "genres": [
       "Sports"
     ],
-    "popularity": 12788,
-    "favourites": 126,
+    "popularity": 12837,
+    "favourites": 127,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 10
@@ -316,39 +316,11 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 11917,
+    "popularity": 12065,
     "favourites": 108,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 11
-  },
-  {
-    "id": 185756,
-    "mal_id": 60601,
-    "name": "Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185756-6xlOTE0zL2nV.jpg",
-    "trailer": {
-      "id": "v6984NzFOis",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/v6984NzFOis/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/185756",
-    "start_date": "2026-01-01",
-    "season": "Fall",
-    "season_year": 2026,
-    "studios": "studio MOTHER",
-    "genres": [
-      "Adventure",
-      "Fantasy"
-    ],
-    "popularity": 11449,
-    "favourites": 115,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 12
   },
   {
     "id": 205909,
@@ -372,8 +344,36 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 11427,
-    "favourites": 140,
+    "popularity": 11475,
+    "favourites": 141,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 12
+  },
+  {
+    "id": 185756,
+    "mal_id": 60601,
+    "name": "Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185756-6xlOTE0zL2nV.jpg",
+    "trailer": {
+      "id": "v6984NzFOis",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/v6984NzFOis/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/185756",
+    "start_date": "2026-01-01",
+    "season": "Fall",
+    "season_year": 2026,
+    "studios": "studio MOTHER",
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "popularity": 11471,
+    "favourites": 116,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 13
@@ -401,7 +401,7 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 7962,
+    "popularity": 7995,
     "favourites": 94,
     "anilist_score": null,
     "streaming_links": [],
@@ -430,7 +430,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 7843,
+    "popularity": 7861,
     "favourites": 53,
     "anilist_score": null,
     "streaming_links": [],
@@ -459,8 +459,8 @@
       "Fantasy",
       "Mahou Shoujo"
     ],
-    "popularity": 7783,
-    "favourites": 72,
+    "popularity": 7797,
+    "favourites": 73,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 16
@@ -487,7 +487,7 @@
       "Action",
       "Adventure"
     ],
-    "popularity": 7313,
+    "popularity": 7343,
     "favourites": 132,
     "anilist_score": null,
     "streaming_links": [],
@@ -515,7 +515,7 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 6706,
+    "popularity": 6748,
     "favourites": 54,
     "anilist_score": null,
     "streaming_links": [],
@@ -543,7 +543,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 6504,
+    "popularity": 6551,
     "favourites": 76,
     "anilist_score": null,
     "streaming_links": [],
@@ -568,8 +568,8 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 5808,
-    "favourites": 59,
+    "popularity": 5838,
+    "favourites": 60,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 20
@@ -598,7 +598,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 5341,
+    "popularity": 5377,
     "favourites": 64,
     "anilist_score": null,
     "streaming_links": [],
@@ -628,7 +628,7 @@
       "Mahou Shoujo",
       "Mecha"
     ],
-    "popularity": 5111,
+    "popularity": 5128,
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
@@ -657,7 +657,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 5018,
+    "popularity": 5029,
     "favourites": 39,
     "anilist_score": null,
     "streaming_links": [],
@@ -686,8 +686,8 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "popularity": 4943,
-    "favourites": 54,
+    "popularity": 4964,
+    "favourites": 55,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 24
@@ -718,7 +718,7 @@
       "Romance",
       "Sci-Fi"
     ],
-    "popularity": 4488,
+    "popularity": 4520,
     "favourites": 72,
     "anilist_score": null,
     "streaming_links": [],
@@ -776,7 +776,7 @@
       "Action",
       "Sci-Fi"
     ],
-    "popularity": 3823,
+    "popularity": 3833,
     "favourites": 32,
     "anilist_score": null,
     "streaming_links": [],
@@ -803,7 +803,7 @@
     "genres": [
       "Fantasy"
     ],
-    "popularity": 3641,
+    "popularity": 3657,
     "favourites": 31,
     "anilist_score": null,
     "streaming_links": [],
@@ -831,8 +831,8 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 3581,
-    "favourites": 35,
+    "popularity": 3609,
+    "favourites": 36,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 29
@@ -859,7 +859,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3335,
+    "popularity": 3358,
     "favourites": 36,
     "anilist_score": null,
     "streaming_links": [],
@@ -889,7 +889,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3264,
+    "popularity": 3281,
     "favourites": 41,
     "anilist_score": null,
     "streaming_links": [],
@@ -918,7 +918,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 3227,
+    "popularity": 3254,
     "favourites": 23,
     "anilist_score": null,
     "streaming_links": [],
@@ -947,7 +947,7 @@
       "Ecchi",
       "Romance"
     ],
-    "popularity": 2741,
+    "popularity": 2762,
     "favourites": 41,
     "anilist_score": null,
     "streaming_links": [],
@@ -977,7 +977,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 2108,
+    "popularity": 2129,
     "favourites": 25,
     "anilist_score": null,
     "streaming_links": [],
@@ -1006,8 +1006,8 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 2073,
-    "favourites": 15,
+    "popularity": 2093,
+    "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 35
@@ -1035,7 +1035,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 1927,
+    "popularity": 1949,
     "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
@@ -1066,7 +1066,7 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 1825,
+    "popularity": 1836,
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
@@ -1095,8 +1095,8 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 1746,
-    "favourites": 14,
+    "popularity": 1777,
+    "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 38
@@ -1123,7 +1123,7 @@
       "Action",
       "Sci-Fi"
     ],
-    "popularity": 1674,
+    "popularity": 1683,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
@@ -1152,7 +1152,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 1635,
+    "popularity": 1650,
     "favourites": 11,
     "anilist_score": null,
     "streaming_links": [],
@@ -1176,7 +1176,7 @@
       "Action",
       "Drama"
     ],
-    "popularity": 1626,
+    "popularity": 1634,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
@@ -1201,8 +1201,8 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 1593,
-    "favourites": 14,
+    "popularity": 1599,
+    "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 42
@@ -1230,8 +1230,8 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 1586,
-    "favourites": 17,
+    "popularity": 1597,
+    "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 43
@@ -1253,7 +1253,7 @@
     "genres": [
       "Sports"
     ],
-    "popularity": 1562,
+    "popularity": 1573,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
@@ -1285,7 +1285,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 1387,
+    "popularity": 1394,
     "favourites": 13,
     "anilist_score": null,
     "streaming_links": [],
@@ -1313,35 +1313,11 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 1251,
+    "popularity": 1253,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 46
-  },
-  {
-    "id": 205896,
-    "mal_id": 63292,
-    "name": "Shinja Zero no Megami-sama to Hajimeru Isekai Kouryaku",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-10-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205896-BW1GwqXSUyir.jpg",
-    "trailer": null,
-    "site_url": "https://anilist.co/anime/205896",
-    "start_date": "2026-10-01",
-    "season": "Fall",
-    "season_year": 2026,
-    "studios": "HORNETS",
-    "genres": [
-      "Adventure",
-      "Fantasy"
-    ],
-    "popularity": 1234,
-    "favourites": 20,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 47
   },
   {
     "id": 209463,
@@ -1366,8 +1342,32 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 1224,
+    "popularity": 1250,
     "favourites": 4,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 47
+  },
+  {
+    "id": 205896,
+    "mal_id": 63292,
+    "name": "Shinja Zero no Megami-sama to Hajimeru Isekai Kouryaku",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-10-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205896-BW1GwqXSUyir.jpg",
+    "trailer": null,
+    "site_url": "https://anilist.co/anime/205896",
+    "start_date": "2026-10-01",
+    "season": "Fall",
+    "season_year": 2026,
+    "studios": "HORNETS",
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "popularity": 1249,
+    "favourites": 21,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 48
@@ -1393,7 +1393,7 @@
     "genres": [
       "Mecha"
     ],
-    "popularity": 1146,
+    "popularity": 1147,
     "favourites": 6,
     "anilist_score": null,
     "streaming_links": [],
@@ -1418,7 +1418,7 @@
       "Psychological",
       "Thriller"
     ],
-    "popularity": 1047,
+    "popularity": 1053,
     "favourites": 5,
     "anilist_score": null,
     "streaming_links": [],
