@@ -40,7 +40,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 729937,
+    "popularity": 730391,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -161,9 +161,9 @@
     "name": "Tensei Shitara Slime Datta Ken 4th Season",
     "english_title": "That Time I Got Reincarnated as a Slime Season 4",
     "episode": 15,
-    "release_date": null,
-    "next_airing_date": "2026-07-17",
-    "next_episode_number": 15,
+    "release_date": "2026-07-17",
+    "next_airing_date": "2026-07-24",
+    "next_episode_number": 16,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182205-q2AeO1owuQbO.jpg",
     "trailer": {
       "id": "ikxIrDr72iA",
@@ -226,6 +226,41 @@
     "popularity_rank": 6
   },
   {
+    "id": 135865,
+    "mal_id": 49233,
+    "name": "Youjo Senki II",
+    "english_title": "Saga of Tanya the Evil Season 2",
+    "episode": 2,
+    "release_date": "2026-07-15",
+    "next_airing_date": "2026-07-22",
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135865-T7XIPMAbqcxN.png",
+    "trailer": {
+      "id": "kUvhvkPDvm0",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/kUvhvkPDvm0/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/135865",
+    "start_date": "2026-07-08",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GR9P57W96/saga-of-tanya-the-evil",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLcWpc-sy22u4",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 78283,
+    "anilist_score": 82,
+    "recently_finished": false,
+    "popularity_rank": 7
+  },
+  {
     "id": 235,
     "mal_id": 235,
     "name": "Meitantei Conan",
@@ -261,43 +296,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 78221,
+    "popularity": 78258,
     "anilist_score": 81,
-    "recently_finished": false,
-    "popularity_rank": 7
-  },
-  {
-    "id": 135865,
-    "mal_id": 49233,
-    "name": "Youjo Senki II",
-    "english_title": "Saga of Tanya the Evil Season 2",
-    "episode": 2,
-    "release_date": "2026-07-15",
-    "next_airing_date": "2026-07-22",
-    "next_episode_number": 3,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135865-T7XIPMAbqcxN.png",
-    "trailer": {
-      "id": "kUvhvkPDvm0",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/kUvhvkPDvm0/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/135865",
-    "start_date": "2026-07-08",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GR9P57W96/saga-of-tanya-the-evil",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLcWpc-sy22u4",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 77581,
-    "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 8
   },
@@ -491,7 +491,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 40582,
+    "popularity": 40957,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 14
@@ -556,7 +556,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 38943,
+    "popularity": 39560,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 16
@@ -988,8 +988,8 @@
     "english_title": "I Became a Legend After My 10 Year-Long Last Stand",
     "episode": 3,
     "release_date": "2026-07-17",
-    "next_airing_date": "2026-07-17",
-    "next_episode_number": 3,
+    "next_airing_date": "2026-07-24",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199748-PAFk9pGSUmFL.png",
     "trailer": {
       "id": "_9FRdFYJOdg",
@@ -1088,8 +1088,8 @@
     "english_title": "HELL MODE: The Hardcore Gamer Dominates in Another World with Garbage Balancing Season 2",
     "episode": 3,
     "release_date": "2026-07-17",
-    "next_airing_date": "2026-07-17",
-    "next_episode_number": 3,
+    "next_airing_date": "2026-07-24",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209983-sFOcKyqMufxb.jpg",
     "trailer": {
       "id": "hr_7R76pUC8",
@@ -1183,8 +1183,8 @@
     "english_title": "The Frontier Lord Begins with Zero Subjects",
     "episode": 3,
     "release_date": "2026-07-17",
-    "next_airing_date": "2026-07-17",
-    "next_episode_number": 3,
+    "next_airing_date": "2026-07-24",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196218-UsdTTCrwpDIN.jpg",
     "trailer": {
       "id": "5JpTU6wj_-g",
@@ -1231,7 +1231,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 20097,
+    "popularity": 20383,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 37
@@ -1378,8 +1378,8 @@
     "english_title": "The Elusive Samurai Season 2",
     "episode": 1,
     "release_date": "2026-07-17",
-    "next_airing_date": "2026-07-17",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-07-24",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182616-ZOCgArw9cgqI.jpg",
     "trailer": {
       "id": "5xV6uMwR-Xo",
@@ -1708,8 +1708,8 @@
     "english_title": "KAMUI ---He's behind you",
     "episode": 3,
     "release_date": "2026-07-17",
-    "next_airing_date": "2026-07-17",
-    "next_episode_number": 3,
+    "next_airing_date": "2026-07-24",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207674-BT8lFAwH1WrL.jpg",
     "trailer": {
       "id": "sHlZd-0gI0k",
@@ -1957,8 +1957,8 @@
     "english_title": "Draw This, Then Die!",
     "episode": 3,
     "release_date": "2026-07-17",
-    "next_airing_date": "2026-07-17",
-    "next_episode_number": 3,
+    "next_airing_date": "2026-07-24",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188525-uWhw4rQcqOyF.jpg",
     "trailer": {
       "id": "jI61NtGuxV4",
@@ -1991,6 +1991,36 @@
     "popularity_rank": 60
   },
   {
+    "id": 108992,
+    "mal_id": 63802,
+    "name": "Mebius Dust",
+    "english_title": "Mebius Dust",
+    "episode": 2,
+    "release_date": "2026-07-16",
+    "next_airing_date": "2026-07-23",
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108992-skuOsfmLmMd2.jpg",
+    "trailer": {
+      "id": "ByOF3FLlAws",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/ByOF3FLlAws/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/108992",
+    "start_date": "2026-07-09",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00379439/mebius-dust",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 6815,
+    "anilist_score": 52,
+    "recently_finished": false,
+    "popularity_rank": 61
+  },
+  {
     "id": 204060,
     "mal_id": 63100,
     "name": "Tetsunabe no Jan!",
@@ -2018,36 +2048,6 @@
     "popularity": 6717,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 61
-  },
-  {
-    "id": 108992,
-    "mal_id": 63802,
-    "name": "Mebius Dust",
-    "english_title": "Mebius Dust",
-    "episode": 2,
-    "release_date": "2026-07-16",
-    "next_airing_date": "2026-07-23",
-    "next_episode_number": 3,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108992-skuOsfmLmMd2.jpg",
-    "trailer": {
-      "id": "ByOF3FLlAws",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/ByOF3FLlAws/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/108992",
-    "start_date": "2026-07-09",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00379439/mebius-dust",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 6705,
-    "anilist_score": 53,
-    "recently_finished": false,
     "popularity_rank": 62
   },
   {
@@ -2057,8 +2057,8 @@
     "english_title": "Please Excuse My Younger Brothers",
     "episode": 3,
     "release_date": "2026-07-17",
-    "next_airing_date": "2026-07-17",
-    "next_episode_number": 3,
+    "next_airing_date": "2026-07-24",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx203490-YQXiymUiDQNA.jpg",
     "trailer": {
       "id": "P927_ZvgUUg",
@@ -2180,9 +2180,9 @@
     "name": "Kami no Shizuku",
     "english_title": "The Drops of God",
     "episode": 15,
-    "release_date": null,
-    "next_airing_date": "2026-07-17",
-    "next_episode_number": 15,
+    "release_date": "2026-07-17",
+    "next_airing_date": "2026-07-24",
+    "next_episode_number": 16,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202508-dk6LEyevJYUY.jpg",
     "trailer": {
       "id": "Oz5EkYVJbBc",
@@ -2354,7 +2354,7 @@
     "start_date": "2026-04-15",
     "end_date": null,
     "streaming_links": [],
-    "popularity": 3704,
+    "popularity": 3733,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 72
