@@ -6,8 +6,8 @@
     "english_title": "ONE PIECE",
     "episode": 1170,
     "release_date": "2026-07-19",
-    "next_airing_date": "2026-07-19",
-    "next_episode_number": 1170,
+    "next_airing_date": "2026-07-26",
+    "next_episode_number": 1171,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
     "trailer": null,
     "site_url": "https://anilist.co/anime/21",
@@ -40,7 +40,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 730768,
+    "popularity": 731184,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -52,8 +52,8 @@
     "english_title": "Mushoku Tensei: Jobless Reincarnation Season 3",
     "episode": 4,
     "release_date": "2026-07-19",
-    "next_airing_date": "2026-07-19",
-    "next_episode_number": 4,
+    "next_airing_date": "2026-07-26",
+    "next_episode_number": 5,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178789-hNXjKFzUq7mk.jpg",
     "trailer": {
       "id": "ODxfIvSgWuo",
@@ -255,8 +255,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 78775,
-    "anilist_score": 82,
+    "popularity": 79187,
+    "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 7
   },
@@ -296,7 +296,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 78294,
+    "popularity": 78330,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 8
@@ -467,6 +467,36 @@
     "popularity_rank": 13
   },
   {
+    "id": 103303,
+    "mal_id": 62856,
+    "name": "Nijusseiki Denki Mokuroku: Eureka Evrika",
+    "english_title": "Sparks of Tomorrow",
+    "episode": 3,
+    "release_date": "2026-07-19",
+    "next_airing_date": "2026-07-26",
+    "next_episode_number": 4,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103303-IF43hFJPPv2Y.png",
+    "trailer": {
+      "id": "-W2vs2etG9o",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/-W2vs2etG9o/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/103303",
+    "start_date": "2026-07-05",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81698957",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 41807,
+    "anilist_score": 75,
+    "recently_finished": false,
+    "popularity_rank": 14
+  },
+  {
     "id": 180136,
     "mal_id": 59741,
     "name": "Tsuihou Sareta Tensei Juukishi wa Game Chishiki de Musou Suru",
@@ -499,36 +529,6 @@
     "popularity": 41494,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 14
-  },
-  {
-    "id": 103303,
-    "mal_id": 62856,
-    "name": "Nijusseiki Denki Mokuroku: Eureka Evrika",
-    "english_title": "Sparks of Tomorrow",
-    "episode": 3,
-    "release_date": "2026-07-19",
-    "next_airing_date": "2026-07-19",
-    "next_episode_number": 3,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103303-IF43hFJPPv2Y.png",
-    "trailer": {
-      "id": "-W2vs2etG9o",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/-W2vs2etG9o/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/103303",
-    "start_date": "2026-07-05",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/81698957",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      }
-    ],
-    "popularity": 41438,
-    "anilist_score": 75,
-    "recently_finished": false,
     "popularity_rank": 15
   },
   {
@@ -556,7 +556,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 39937,
+    "popularity": 40225,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 16
@@ -726,7 +726,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 35169,
+    "popularity": 35378,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 21
@@ -863,8 +863,8 @@
     "english_title": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 3",
     "episode": 3,
     "release_date": "2026-07-19",
-    "next_airing_date": "2026-07-19",
-    "next_episode_number": 3,
+    "next_airing_date": "2026-07-26",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx200637-QLR5uv9SbQ69.jpg",
     "trailer": {
       "id": "kvbOPdDfPio",
@@ -1136,7 +1136,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 24162,
+    "popularity": 24495,
     "anilist_score": 70,
     "recently_finished": false,
     "popularity_rank": 34
@@ -1177,9 +1177,9 @@
     "name": "Kuroneko to Majo no Kyoushitsu",
     "english_title": "The Classroom of the Black Cat and a Witch",
     "episode": 15,
-    "release_date": null,
-    "next_airing_date": "2026-07-19",
-    "next_episode_number": 15,
+    "release_date": "2026-07-19",
+    "next_airing_date": "2026-07-26",
+    "next_episode_number": 16,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196974-mZk1uyrx0XNx.png",
     "trailer": {
       "id": "uJhshLlQs60",
@@ -1231,7 +1231,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 20696,
+    "popularity": 20916,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 37
@@ -1243,8 +1243,8 @@
     "english_title": "Goodbye, Lara",
     "episode": 3,
     "release_date": "2026-07-19",
-    "next_airing_date": "2026-07-19",
-    "next_episode_number": 3,
+    "next_airing_date": "2026-07-26",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177637-8onaQWqKW1C3.jpg",
     "trailer": {
       "id": "gjq7xyVdv5I",
@@ -1273,8 +1273,8 @@
     "english_title": "Though I Am an Inept Villainess",
     "episode": 2,
     "release_date": "2026-07-19",
-    "next_airing_date": "2026-07-19",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-07-26",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188139-1qIJfWxym8FX.jpg",
     "trailer": {
       "id": "nR_vqhD2rGM",
@@ -1373,8 +1373,8 @@
     "english_title": "The World's Strongest Rearguard",
     "episode": 3,
     "release_date": "2026-07-19",
-    "next_airing_date": "2026-07-19",
-    "next_episode_number": 3,
+    "next_airing_date": "2026-07-26",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198409-EiWJXfYnvfu4.png",
     "trailer": {
       "id": "vdJo_3uZ92s",
@@ -1546,7 +1546,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 16623,
+    "popularity": 16774,
     "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 46
@@ -2045,8 +2045,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 6873,
-    "anilist_score": 51,
+    "popularity": 6899,
+    "anilist_score": 52,
     "recently_finished": false,
     "popularity_rank": 62
   },
@@ -2354,7 +2354,7 @@
     "start_date": "2026-04-15",
     "end_date": null,
     "streaming_links": [],
-    "popularity": 3749,
+    "popularity": 3758,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 72
