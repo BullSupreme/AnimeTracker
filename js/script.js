@@ -134,6 +134,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     function applyLayout(layout) {
+        // Trailers are exclusive to Grid View. Close any active player before
+        // switching to a layout where the poster is used for links/details.
+        if (layout !== 'grid') {
+            stopAllTrailers();
+        }
+
         // Remove all layout classes
         listView.classList.remove('layout-grid', 'layout-compact', 'layout-table', 'layout-poster');
         

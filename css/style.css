@@ -1826,6 +1826,13 @@ main {
     display: none !important;
 }
 
+/* Keep poster space reserved for links and details outside Grid View. */
+.layout-compact .trailer-play-btn,
+.layout-table .trailer-play-btn,
+.layout-poster .trailer-play-btn {
+    display: none !important;
+}
+
 /* Table Layout */
 .layout-table .anime-grid {
     display: table !important;
