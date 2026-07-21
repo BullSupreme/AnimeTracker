@@ -87,6 +87,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 header::before {
@@ -1948,7 +1949,7 @@ main {
     }
     
     .other-grid {
-        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
         justify-content: center;
     }
     
@@ -1958,9 +1959,55 @@ main {
     }
 }
 
+/* Keep the header and release controls usable in a narrow desktop window,
+   including common 125% browser zoom. */
+@media (max-width: 1050px) {
+    header {
+        flex-wrap: wrap;
+        gap: 0.5rem 1rem;
+    }
+
+    .header-left,
+    .header-right {
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+
+    .nav-tabs {
+        position: static;
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        transform: none;
+        flex-wrap: wrap;
+    }
+
+    .section-title.section-title-controls {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 0.75rem;
+    }
+
+    .section-title.section-title-controls .section-title-left {
+        grid-column: 1 / -1;
+        grid-row: 1;
+    }
+
+    .section-title.section-title-controls .filter-controls {
+        justify-self: start;
+    }
+
+    .section-title.section-title-controls .layout-controls {
+        justify-self: end;
+    }
+}
+
 @media (max-width: 768px) {
+    header {
+        padding: 0.75rem 1rem;
+    }
+
     header h1 {
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
     
     .nav-tabs {
@@ -1988,7 +2035,7 @@ main {
     }
     
     .other-grid {
-        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
         justify-content: center;
     }
     
@@ -2085,5 +2132,223 @@ main {
     .modal-content {
         width: 95%;
         max-height: 95vh;
+    }
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 0.75rem;
+    }
+
+    .nav-tabs {
+        justify-content: center;
+        flex-wrap: wrap;
+        overflow: visible;
+        padding: 0.25rem 0 0.5rem;
+    }
+
+    .nav-tab {
+        flex: 0 0 auto;
+        padding: 0.4rem 0.6rem;
+        font-size: 0.75rem;
+    }
+
+    .anime-count {
+        margin-top: 0;
+        font-size: 0.8rem;
+    }
+
+    .time-section {
+        margin-bottom: 1.75rem;
+    }
+
+    .section-title.section-title-controls {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.65rem;
+        text-align: center;
+    }
+
+    .section-title-left {
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 1.35rem;
+        gap: 0.4rem;
+    }
+
+    .section-title.section-title-controls .filter-controls,
+    .section-title.section-title-controls .layout-controls {
+        justify-self: auto;
+    }
+
+    .filter-controls,
+    .calendar-controls {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .list-tab,
+    .calendar-tab {
+        padding: 0.45rem 0.85rem;
+    }
+
+    .layout-controls {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .layout-selector {
+        flex: 1 1 150px;
+        max-width: 220px;
+    }
+
+    .today-grid {
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr));
+        padding: 0.75rem;
+    }
+
+    .tomorrow-card .episode-info,
+    .other-anime-card .episode-info {
+        flex-wrap: wrap;
+        white-space: normal;
+    }
+
+    .nine-anime-btn {
+        margin-left: 0;
+    }
+
+    .tomorrow-grid,
+    .recently-finished-grid,
+    .upcoming-grid {
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 140px), 1fr));
+        gap: 0.75rem;
+    }
+
+    .other-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .day-group {
+        justify-content: center;
+        padding: 0.75rem 0.25rem;
+    }
+
+    .day-group > .anime-card {
+        width: min(100%, 200px);
+        flex-basis: min(100%, 200px);
+    }
+
+    .calendar-controls {
+        margin-bottom: 1rem;
+    }
+
+    .calendar-container {
+        padding: 0.75rem;
+        overflow-x: auto;
+    }
+
+    .calendar-month-header {
+        gap: 0.75rem;
+        margin-bottom: 1rem;
+    }
+
+    .calendar-month-header h3 {
+        min-width: 0;
+        font-size: 1.1rem;
+    }
+
+    .calendar-grid {
+        min-width: 580px;
+        gap: 0.3rem;
+    }
+
+    .calendar-day {
+        min-height: 72px;
+    }
+
+    .layout-table .anime-grid {
+        display: block !important;
+    }
+
+    .layout-table .table-header {
+        display: none !important;
+    }
+
+    .layout-table .anime-card {
+        display: grid !important;
+        grid-template-columns: 48px minmax(0, 1fr) auto;
+        align-items: center;
+        gap: 0.25rem 0.5rem;
+        padding: 0.5rem !important;
+    }
+
+    .layout-table .day-group > .anime-card {
+        width: 100%;
+        flex-basis: 100%;
+    }
+
+    .layout-table .table-cell-poster,
+    .layout-table .table-cell-title,
+    .layout-table .table-cell-episode,
+    .layout-table .table-cell-streaming {
+        display: block !important;
+        width: auto !important;
+        min-width: 0 !important;
+        max-width: none !important;
+        padding: 0 !important;
+    }
+
+    .layout-table .table-cell-poster {
+        grid-row: 1 / span 2;
+    }
+
+    .layout-table .table-cell-title {
+        grid-column: 2;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .layout-table .table-cell-episode {
+        grid-column: 2;
+        font-size: 0.7rem !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .layout-table .table-cell-streaming {
+        grid-column: 3;
+        grid-row: 1 / span 2;
+    }
+
+    .layout-table .table-cell-poster img {
+        width: 40px !important;
+        height: 56px !important;
+    }
+}
+
+@media (max-width: 380px) {
+    header h1 {
+        font-size: 1.1rem;
+    }
+
+    .header-right {
+        flex-basis: auto;
+    }
+
+    .section-title-left {
+        font-size: 1.15rem;
+    }
+
+    .section-icon .ui-icon {
+        width: 1.35rem;
+        height: 1.35rem;
+    }
+
+    .date-label {
+        width: 100%;
+        font-size: 0.85rem;
     }
 }
