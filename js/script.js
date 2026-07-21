@@ -194,7 +194,17 @@ document.addEventListener('DOMContentLoaded', () => {
             const cardInfo = card.querySelector('.card-info');
             const title = cardInfo?.querySelector('.anime-title');
             const episodeInfo = cardInfo?.querySelector('.episode-info');
-            const streamingLinks = cardInfo?.querySelector('.streaming-links');
+            const episodeBadge = episodeInfo?.querySelector('.episode-badge');
+            const directLinks = [
+                episodeInfo?.querySelector('.main-link-btn'),
+                episodeInfo?.querySelector('.nine-anime-btn')
+            ].filter(Boolean);
+            const providerLinks = Array.from(
+                card.querySelectorAll('.streaming-links-overlay .streaming-link')
+            );
+            const tableLinks = [...directLinks, ...providerLinks]
+                .map(link => link.outerHTML)
+                .join('');
             
             // Store original structure
             card.setAttribute('data-original-structure', card.innerHTML);
@@ -208,10 +218,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     ${title ? title.textContent : 'Unknown Title'}
                 </div>
                 <div class="table-cell-episode">
-                    ${episodeInfo ? episodeInfo.textContent : 'N/A'}
+                    ${episodeBadge ? episodeBadge.textContent : 'N/A'}
                 </div>
                 <div class="table-cell-streaming">
-                    ${streamingLinks ? streamingLinks.innerHTML : ''}
+                    ${tableLinks}
                 </div>
             `;
         });
@@ -829,6 +839,19 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentCard = null;
     let currentAnimeData = null;
 
+    function findAnimeForCard(card) {
+        const animeId = card?.dataset.animeId;
+        const animeLists = [
+            window.animeData,
+            window.upcomingAnime,
+            window.otherAnime,
+            window.recentlyFinished,
+            window.calendarHistory
+        ].filter(Array.isArray);
+
+        return animeLists.flat().find(anime => anime.id?.toString() === animeId) || null;
+    }
+
     animeCards.forEach(card => {
         const animeName = card.getAttribute('data-name');
         const encodedName = encodeURIComponent(animeName);
@@ -874,6 +897,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
 
+            if (listView.classList.contains('layout-poster')) {
+                const anime = findAnimeForCard(card);
+                if (anime) {
+                    showAnimeModal(anime);
+                    return;
+                }
+            }
+
             const link = card.getAttribute('data-link');
             if (link) window.open(link, '_blank');
         });
@@ -882,16 +913,7 @@ document.addEventListener('DOMContentLoaded', () => {
         card.addEventListener('contextmenu', (e) => {
             e.preventDefault();
             currentCard = card;
-            const animeLists = [
-                window.animeData,
-                window.upcomingAnime,
-                window.otherAnime,
-                window.recentlyFinished,
-                window.calendarHistory
-            ].filter(Array.isArray);
-            currentAnimeData = animeLists
-                .flat()
-                .find(a => a.id?.toString() === card.dataset.animeId) || null;
+            currentAnimeData = findAnimeForCard(card);
             showContextMenu(e.pageX, e.pageY);
         });
 
