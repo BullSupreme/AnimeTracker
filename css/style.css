@@ -436,7 +436,8 @@ main {
 
 .other-grid {
     grid-template-columns: 1fr;
-    justify-content: center;
+    align-items: start;
+    grid-auto-rows: min-content;
 }
 
 /* Day groups: full-width rows, cards keep their natural minmax(160px) size */
@@ -447,6 +448,7 @@ main {
     padding: 0.75rem;
     border-radius: 12px;
     position: relative;
+    align-content: flex-start;
 }
 
 .day-group > .anime-card {
@@ -1831,6 +1833,22 @@ main {
     border-collapse: collapse !important;
 }
 
+/* Future releases are grouped by date. A table cannot contain those wrapper
+   elements directly, so render each grouped card as its own full-width table. */
+.layout-table .other-grid {
+    display: block !important;
+}
+
+.layout-table .other-grid .day-group {
+    display: block;
+}
+
+.layout-table .other-grid .day-group > .anime-card {
+    display: table !important;
+    width: 100% !important;
+    flex-basis: 100%;
+}
+
 .layout-table .anime-card {
     display: table-row !important;
     background: transparent !important;
@@ -1949,8 +1967,7 @@ main {
     }
     
     .other-grid {
-        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-        justify-content: center;
+        grid-template-columns: 1fr;
     }
     
     .upcoming-grid {
@@ -2035,8 +2052,7 @@ main {
     }
     
     .other-grid {
-        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-        justify-content: center;
+        grid-template-columns: 1fr;
     }
     
     .upcoming-grid {
