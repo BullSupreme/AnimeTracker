@@ -1961,7 +1961,7 @@ main {
 
 /* Keep the header and release controls usable in a narrow desktop window,
    including common 125% browser zoom. */
-@media (max-width: 1050px) {
+@media (max-width: 1280px) {
     header {
         flex-wrap: wrap;
         gap: 0.5rem 1rem;
