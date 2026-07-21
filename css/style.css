@@ -481,6 +481,12 @@ main {
     border: 1px solid rgba(99, 102, 241, 0.1);
 }
 
+/* This selector must win over each layout's display rules. */
+#list-view .anime-card.is-filtered-out,
+#list-view .day-group.is-filtered-out {
+    display: none !important;
+}
+
 .upcoming-grid {
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
     justify-content: center;
@@ -1947,6 +1953,22 @@ main {
     display: grid !important;
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)) !important;
     gap: 0.5rem !important;
+}
+
+/* Date wrappers are useful in Grid View but break the Poster Wall into
+   competing mini-layouts. Flatten them into the wall's single card grid. */
+.layout-poster .other-grid .day-group {
+    display: contents !important;
+}
+
+.layout-poster .other-grid .day-group::before {
+    display: none;
+}
+
+.layout-poster .other-grid .day-group > .anime-card {
+    width: auto !important;
+    min-width: 0;
+    flex: initial !important;
 }
 
 .layout-poster .anime-card {

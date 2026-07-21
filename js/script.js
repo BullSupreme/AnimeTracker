@@ -157,6 +157,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 restructureForCompact();
             }
         }
+
+        const favoritesOnly = document.querySelector('.list-tab.active')
+            ?.getAttribute('data-list-tab') === 'favorites';
+        filterListView(favoritesOnly);
     }
     
     function addTableHeaders() {
@@ -741,16 +745,27 @@ document.addEventListener('DOMContentLoaded', () => {
     function filterListView(favoritesOnly = false) {
         const animeCards = document.querySelectorAll('#list-view .anime-card');
         const timeSections = document.querySelectorAll('#list-view .time-section');
+        const dayGroups = document.querySelectorAll('#list-view .day-group');
         
         animeCards.forEach(card => {
+            if (card.classList.contains('table-header')) {
+                return;
+            }
+
             const animeId = card.getAttribute('data-anime-id');
             const isFavorite = favorites.includes(animeId);
-            
-            if (favoritesOnly) {
-                card.style.display = isFavorite ? 'flex' : 'none';
-            } else {
-                card.style.display = 'flex';
-            }
+
+            card.classList.toggle('is-filtered-out', favoritesOnly && !isFavorite);
+            card.style.removeProperty('display');
+        });
+
+        // Hide date wrappers that contain no favorites; otherwise they leave
+        // empty gaps in Compact, Table, and Poster layouts.
+        dayGroups.forEach(group => {
+            const hasVisibleCards = Boolean(
+                group.querySelector('.anime-card:not(.table-header):not(.is-filtered-out)')
+            );
+            group.classList.toggle('is-filtered-out', favoritesOnly && !hasVisibleCards);
         });
         
         // Hide/show time sections if they have no visible cards
@@ -758,11 +773,9 @@ document.addEventListener('DOMContentLoaded', () => {
             // The first section also owns the list filters. Never hide it, or
             // the user would have no way to switch back to the full list.
             const hasListControls = Boolean(section.querySelector('.filter-controls'));
-            const visibleCards = section.querySelectorAll('.anime-card[style="display: flex"], .anime-card:not([style*="display: none"])');
-            const hasVisibleCards = Array.from(visibleCards).some(card => {
-                const computedStyle = window.getComputedStyle(card);
-                return computedStyle.display !== 'none';
-            });
+            const hasVisibleCards = Boolean(
+                section.querySelector('.anime-card:not(.table-header):not(.is-filtered-out)')
+            );
             
             if (favoritesOnly) {
                 section.style.display = hasListControls || hasVisibleCards ? 'block' : 'none';
