@@ -739,6 +739,9 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Hide/show time sections if they have no visible cards
         timeSections.forEach(section => {
+            // The first section also owns the list filters. Never hide it, or
+            // the user would have no way to switch back to the full list.
+            const hasListControls = Boolean(section.querySelector('.filter-controls'));
             const visibleCards = section.querySelectorAll('.anime-card[style="display: flex"], .anime-card:not([style*="display: none"])');
             const hasVisibleCards = Array.from(visibleCards).some(card => {
                 const computedStyle = window.getComputedStyle(card);
@@ -746,7 +749,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
             
             if (favoritesOnly) {
-                section.style.display = hasVisibleCards ? 'block' : 'none';
+                section.style.display = hasListControls || hasVisibleCards ? 'block' : 'none';
             } else {
                 section.style.display = 'block';
             }

@@ -668,7 +668,7 @@ def generate_html():
 
     # Add recently finished anime section if we have data
     if recently_finished_anime:
-        html_content += """                <div class="time-section recently-finished-section">
+        html_content += f"""                <div class="time-section recently-finished-section">
                     <h2 class="section-title">
                         <span class="section-icon">{icon_img('check', 'Finished')}</span>
                         Recently Finished (Last 2 Weeks)
