@@ -40,7 +40,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 732523,
+    "popularity": 732880,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -197,8 +197,8 @@
     "english_title": "Smoking Behind the Supermarket with You",
     "episode": 3,
     "release_date": "2026-07-23",
-    "next_airing_date": "2026-07-23",
-    "next_episode_number": 3,
+    "next_airing_date": "2026-07-30",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196187-0dgFi2CPp3xn.jpg",
     "trailer": {
       "id": "aOOwNK6Ul6E",
@@ -255,7 +255,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 80194,
+    "popularity": 80837,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 7
@@ -296,7 +296,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 78438,
+    "popularity": 78470,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 8
@@ -338,8 +338,8 @@
     "english_title": "Chainsmoker Cat",
     "episode": 4,
     "release_date": "2026-07-23",
-    "next_airing_date": "2026-07-23",
-    "next_episode_number": 4,
+    "next_airing_date": "2026-07-30",
+    "next_episode_number": 5,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207141-h5q5KJPd6vaX.jpg",
     "trailer": {
       "id": "KYGgyQtSAdI",
@@ -491,7 +491,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 43286,
+    "popularity": 43592,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 14
@@ -503,8 +503,8 @@
     "english_title": "The Exiled Heavy Knight Knows How to Game the System",
     "episode": 4,
     "release_date": "2026-07-23",
-    "next_airing_date": "2026-07-23",
-    "next_episode_number": 4,
+    "next_airing_date": "2026-07-30",
+    "next_episode_number": 5,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180136-gtMTCRlOD4OE.jpg",
     "trailer": {
       "id": "uC13b3_8riU",
@@ -773,8 +773,8 @@
     "english_title": "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage",
     "episode": 5,
     "release_date": "2026-07-23",
-    "next_airing_date": "2026-07-23",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-07-30",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx208044-Pm2UhvApQFUh.jpg",
     "trailer": {
       "id": "QOeItd-RrVs",
@@ -1053,8 +1053,8 @@
     "english_title": "KAIJU GIRL CARAMELISE",
     "episode": 4,
     "release_date": "2026-07-23",
-    "next_airing_date": "2026-07-23",
-    "next_episode_number": 4,
+    "next_airing_date": "2026-07-30",
+    "next_episode_number": 5,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204466-vXMvIs4VOoQd.png",
     "trailer": {
       "id": "ECtHlHde3EQ",
@@ -1237,6 +1237,36 @@
     "popularity_rank": 37
   },
   {
+    "id": 128757,
+    "mal_id": 46488,
+    "name": "Tai-Ari deshita.: Ojou-sama wa Kakutou Game nante Shinai",
+    "english_title": "Young Ladies Don't Play Fighting Games",
+    "episode": 3,
+    "release_date": "2026-07-21",
+    "next_airing_date": "2026-07-28",
+    "next_episode_number": 4,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128757-Iqc6hTjEYIz4.png",
+    "trailer": {
+      "id": "5PAsOIcot7I",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/5PAsOIcot7I/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/128757",
+    "start_date": "2026-07-07",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00362362/young-ladies-dont-play-fighting-games",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 21964,
+    "anilist_score": 73,
+    "recently_finished": false,
+    "popularity_rank": 38
+  },
+  {
     "id": 196974,
     "mal_id": 62171,
     "name": "Kuroneko to Majo no Kyoushitsu",
@@ -1268,36 +1298,6 @@
     ],
     "popularity": 21731,
     "anilist_score": 62,
-    "recently_finished": false,
-    "popularity_rank": 38
-  },
-  {
-    "id": 128757,
-    "mal_id": 46488,
-    "name": "Tai-Ari deshita.: Ojou-sama wa Kakutou Game nante Shinai",
-    "english_title": "Young Ladies Don't Play Fighting Games",
-    "episode": 3,
-    "release_date": "2026-07-21",
-    "next_airing_date": "2026-07-28",
-    "next_episode_number": 4,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128757-Iqc6hTjEYIz4.png",
-    "trailer": {
-      "id": "5PAsOIcot7I",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/5PAsOIcot7I/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/128757",
-    "start_date": "2026-07-07",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00362362/young-ladies-dont-play-fighting-games",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 21714,
-    "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 39
   },
@@ -1802,8 +1802,8 @@
     "english_title": "Dara-san of the Reiwa Era",
     "episode": 4,
     "release_date": "2026-07-23",
-    "next_airing_date": "2026-07-23",
-    "next_episode_number": 4,
+    "next_airing_date": "2026-07-30",
+    "next_episode_number": 5,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx203880-lnruKftb27Nr.png",
     "trailer": {
       "id": "AZKlUSu5tQ0",
@@ -2087,8 +2087,8 @@
     "english_title": "Mebius Dust",
     "episode": 3,
     "release_date": "2026-07-23",
-    "next_airing_date": "2026-07-23",
-    "next_episode_number": 3,
+    "next_airing_date": "2026-07-30",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108992-skuOsfmLmMd2.jpg",
     "trailer": {
       "id": "ByOF3FLlAws",
@@ -2105,7 +2105,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 6952,
+    "popularity": 6974,
     "anilist_score": 51,
     "recently_finished": false,
     "popularity_rank": 64
@@ -2141,8 +2141,8 @@
     "english_title": "BanG Dream! YUME∞MITA",
     "episode": 6,
     "release_date": "2026-07-23",
-    "next_airing_date": "2026-07-23",
-    "next_episode_number": 6,
+    "next_airing_date": "2026-07-30",
+    "next_episode_number": 7,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198376-sc5qcFv0RSH9.jpg",
     "trailer": {
       "id": "sMcHl3g6aS4",
@@ -2311,8 +2311,8 @@
     "english_title": "Bungo Stray Dogs WAN! 2",
     "episode": 4,
     "release_date": "2026-07-23",
-    "next_airing_date": "2026-07-23",
-    "next_episode_number": 4,
+    "next_airing_date": "2026-07-30",
+    "next_episode_number": 5,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx201667-oqaW97DQ7HUj.jpg",
     "trailer": {
       "id": "xrGcSD7-miY",
