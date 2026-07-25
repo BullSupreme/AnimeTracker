@@ -124,7 +124,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 27091,
+    "popularity": 27322,
     "anilist_score": 70,
     "recently_finished": false,
     "popularity_rank": 34
@@ -194,10 +194,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 18163,
+    "popularity": 18255,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 45
+    "popularity_rank": 44
   },
   {
     "id": 199408,
@@ -324,7 +324,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 41713,
+    "popularity": 42016,
     "anilist_score": 77,
     "recently_finished": false,
     "popularity_rank": 17
@@ -354,7 +354,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 22136,
+    "popularity": 22249,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 39
@@ -519,7 +519,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 81298,
+    "popularity": 81637,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 7
@@ -549,7 +549,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 42241,
+    "popularity": 42598,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 16
@@ -820,36 +820,6 @@
     "popularity_rank": 3
   },
   {
-    "id": 195600,
-    "mal_id": 62001,
-    "name": "Yomi no Tsugai",
-    "english_title": "Daemons of the Shadow Realm",
-    "episode": 16,
-    "release_date": null,
-    "next_airing_date": "2026-07-25",
-    "next_episode_number": 16,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195600-moI0UFArtOme.jpg",
-    "trailer": {
-      "id": "XCyj9KKKjUI",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/XCyj9KKKjUI/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/195600",
-    "start_date": "2026-04-04",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://crunchyroll.com/series/GT00371630/daemons-of-the-shadow-realm",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 121779,
-    "anilist_score": 78,
-    "recently_finished": false,
-    "popularity_rank": 4
-  },
-  {
     "id": 197754,
     "mal_id": 62331,
     "name": "LIAR GAME",
@@ -915,51 +885,6 @@
     "popularity_rank": 41
   },
   {
-    "id": 196012,
-    "mal_id": 62048,
-    "name": "MAO",
-    "english_title": "MAO",
-    "episode": 17,
-    "release_date": null,
-    "next_airing_date": "2026-07-25",
-    "next_episode_number": 17,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196012-R3YNjunufpYh.jpg",
-    "trailer": {
-      "id": "eVfpoS0rjw0",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/eVfpoS0rjw0/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/196012",
-    "start_date": "2026-04-04",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Hulu",
-        "url": "https://www.hulu.com/series/mao-7c9b966e-4234-4994-b1ef-37242b834d72",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      },
-      {
-        "site": "Disney Plus",
-        "url": "https://www.disneyplus.com/pt-br/browse/entity-6b6116ca-6f0b-4748-bb8d-b0fbb8eb5119",
-        "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jh6jFqpP-B97p7eUzipzZzv",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "Amazon Prime Video",
-        "url": "https://www.amazon.co.jp/gp/video/detail/amzn1.dv.gti.216799c0-8263-4bc4-b95a-d91f002591c8",
-        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
-      }
-    ],
-    "popularity": 17765,
-    "anilist_score": 65,
-    "recently_finished": false,
-    "popularity_rank": 46
-  },
-  {
     "id": 163793,
     "mal_id": 63964,
     "name": "Cheongchun Blossom: Uriui Bom",
@@ -974,7 +899,7 @@
     "start_date": "2026-04-15",
     "end_date": null,
     "streaming_links": [],
-    "popularity": 3853,
+    "popularity": 3862,
     "anilist_score": null,
     "recently_finished": false,
     "popularity_rank": 72
@@ -1209,7 +1134,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7033,
+    "popularity": 7066,
     "anilist_score": 50,
     "recently_finished": false,
     "popularity_rank": 64
