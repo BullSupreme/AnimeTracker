@@ -913,7 +913,8 @@ def process_anime_data(api_data):
         # Process streaming links
         streaming_links = []
         streaming_sites = {
-            'Crunchyroll', 'Funimation', 'Netflix', 'Hulu', 'Amazon Prime Video', 
+            'Crunchyroll', 'Funimation', 'Netflix', 'Hulu', 'Amazon Prime Video',
+            'Prime Video', 'Amazon Video',
             'Disney Plus', 'HBO Max', 'VRV', 'Hidive', 'HIDIVE', 'AnimeLab', 'Wakanim',
             'Bilibili', 'iQiyi', 'Tencent Video', 'YouTube', 'Niconico',
             'AbemaTV', 'dAnime Store', 'U-NEXT', 'Muse Asia', 'Oceanveil', 'Crave',
@@ -922,7 +923,8 @@ def process_anime_data(api_data):
         
         site_domains = {
             'Crunchyroll': 'crunchyroll.com', 'Netflix': 'netflix.com', 'Hulu': 'hulu.com',
-            'Amazon Prime Video': 'primevideo.com', 'Disney Plus': 'disneyplus.com',
+            'Amazon Prime Video': 'primevideo.com', 'Prime Video': 'primevideo.com',
+            'Amazon Video': 'primevideo.com', 'Disney Plus': 'disneyplus.com',
             'HBO Max': 'hbomax.com', 'YouTube': 'youtube.com', 'Funimation': 'funimation.com',
             'VRV': 'vrv.co', 'Hidive': 'www.hidive.com', 'HIDIVE': 'www.hidive.com',
             'Bilibili': 'bilibili.com', 'AnimeLab': 'animelab.com', 'Wakanim': 'wakanim.tv',

@@ -790,7 +790,13 @@
     "site_url": "https://anilist.co/anime/163793",
     "start_date": "2026-04-15",
     "end_date": null,
-    "streaming_links": [],
+      "streaming_links": [
+        {
+          "site": "Prime Video",
+          "url": "https://www.primevideo.com/region/na/search/ref=atv_nb_sug?ie=UTF8&phrase=Magilumiere+Magical+Girls+Inc.+Season+2",
+          "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+        }
+      ],
     "popularity": 3883,
     "anilist_score": null,
     "recently_finished": false,
@@ -1454,7 +1460,13 @@
     "site_url": "https://anilist.co/anime/207674",
     "start_date": "2026-07-04",
     "end_date": "2026-09-19",
-    "streaming_links": [],
+      "streaming_links": [
+        {
+          "site": "Prime Video",
+          "url": "https://www.primevideo.com/region/na/search/ref=atv_nb_sug?ie=UTF8&phrase=Magilumiere+Magical+Girls+Inc.+Season+2",
+          "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+        }
+      ],
     "popularity": 14533,
     "anilist_score": 57,
     "recently_finished": false,
@@ -1663,7 +1675,13 @@
     "site_url": "https://anilist.co/anime/185692",
     "start_date": "2026-07-05",
     "end_date": null,
-    "streaming_links": [],
+      "streaming_links": [
+        {
+          "site": "Prime Video",
+          "url": "https://www.primevideo.com/region/na/search/ref=atv_nb_sug?ie=UTF8&phrase=Magilumiere+Magical+Girls+Inc.+Season+2",
+          "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+        }
+      ],
     "popularity": 6292,
     "anilist_score": 66,
     "recently_finished": false,
@@ -2885,7 +2903,13 @@
     "site_url": "https://anilist.co/anime/163793",
     "start_date": "2026-04-15",
     "end_date": null,
-    "streaming_links": [],
+      "streaming_links": [
+        {
+          "site": "Prime Video",
+          "url": "https://www.primevideo.com/region/na/search/ref=atv_nb_sug?ie=UTF8&phrase=Magilumiere+Magical+Girls+Inc.+Season+2",
+          "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+        }
+      ],
     "popularity": 3883,
     "anilist_score": null,
     "recently_finished": false,
