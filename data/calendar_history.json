@@ -1,126 +1,5 @@
 [
   {
-    "id": 196974,
-    "mal_id": 62171,
-    "name": "Kuroneko to Majo no Kyoushitsu",
-    "english_title": "The Classroom of the Black Cat and a Witch",
-    "episode": 12,
-    "release_date": "2026-06-28",
-    "next_airing_date": "2026-08-02",
-    "next_episode_number": 17,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196974-mZk1uyrx0XNx.png",
-    "trailer": {
-      "id": "uJhshLlQs60",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/uJhshLlQs60/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/196974",
-    "start_date": "2026-04-12",
-    "end_date": "2026-01-01",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00374357/the-classroom-of-a-black-cat-and-a-witch",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jh2Aq9dnBrcdmlUPfq5VQtL",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 21968,
-    "anilist_score": 63,
-    "recently_finished": false,
-    "popularity_rank": 41
-  },
-  {
-    "id": 178789,
-    "mal_id": 59193,
-    "name": "Mushoku Tensei III: Isekai Ittara Honki Dasu",
-    "english_title": "Mushoku Tensei: Jobless Reincarnation Season 3",
-    "episode": 1,
-    "release_date": "2026-06-28",
-    "next_airing_date": "2026-08-02",
-    "next_episode_number": 6,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178789-hNXjKFzUq7mk.jpg",
-    "trailer": {
-      "id": "ODxfIvSgWuo",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/ODxfIvSgWuo/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/178789",
-    "start_date": "2026-07-04",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G24H1N3MP/mushoku-tensei-jobless-reincarnation",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1LMA6zhohDzfoV-XXFxS9Z",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/80987039",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      }
-    ],
-    "popularity": 132887,
-    "anilist_score": 85,
-    "recently_finished": false,
-    "popularity_rank": 2
-  },
-  {
-    "id": 21,
-    "mal_id": 21,
-    "name": "ONE PIECE",
-    "english_title": "ONE PIECE",
-    "episode": 1167,
-    "release_date": "2026-06-28",
-    "next_airing_date": "2026-08-02",
-    "next_episode_number": 1172,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
-    "trailer": null,
-    "site_url": "https://anilist.co/anime/21",
-    "start_date": "1999-10-20",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "http://www.crunchyroll.com/one-piece",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "Hulu",
-        "url": "http://www.hulu.com/one-piece",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      },
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/80107103",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@onepieceofficial",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@OnePieceOfficialENG",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 734977,
-    "anilist_score": 87,
-    "recently_finished": false,
-    "popularity_rank": 1
-  },
-  {
     "id": 197754,
     "mal_id": 62331,
     "name": "LIAR GAME",
@@ -145,7 +24,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 39512,
+    "popularity": 39641,
     "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 19
@@ -185,10 +64,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 18978,
+    "popularity": 19081,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 43
+    "popularity_rank": 44
   },
   {
     "id": 194393,
@@ -315,7 +194,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 16000,
+    "popularity": 16332,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 50
@@ -395,7 +274,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5664,
+    "popularity": 5699,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 67
@@ -425,10 +304,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 17412,
+    "popularity": 17487,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 47
+    "popularity_rank": 48
   },
   {
     "id": 197715,
@@ -455,7 +334,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 30244,
+    "popularity": 30382,
     "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 31
@@ -465,7 +344,7 @@
     "mal_id": 61316,
     "name": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
     "english_title": "Re:ZERO -Starting Life in Another World- Season 4",
-    "episode": 6,
+    "episode": 7,
     "release_date": "2026-07-01",
     "next_airing_date": "2026-08-12",
     "next_episode_number": 12,
@@ -495,7 +374,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 124607,
+    "popularity": 124839,
     "anilist_score": 90,
     "recently_finished": false,
     "popularity_rank": 3
@@ -535,7 +414,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 6018,
+    "popularity": 6037,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 66
@@ -570,8 +449,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 4147,
-    "anilist_score": 72,
+    "popularity": 4155,
+    "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 71
   },
@@ -608,7 +487,7 @@
   {
     "id": 204466,
     "mal_id": 63150,
-    "name": "Otome Kaijuu Caramelise",
+    "name": "Otome Kaijuu Caraméliser",
     "english_title": "KAIJU GIRL CARAMELISE",
     "episode": 1,
     "release_date": "2026-07-02",
@@ -635,7 +514,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 30102,
+    "popularity": 30296,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 32
@@ -665,7 +544,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 37498,
+    "popularity": 37759,
     "anilist_score": 65,
     "recently_finished": false,
     "popularity_rank": 21
@@ -695,7 +574,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 10154,
+    "popularity": 10203,
     "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 55
@@ -730,7 +609,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 45861,
+    "popularity": 46131,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 13
@@ -770,7 +649,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 55734,
+    "popularity": 56219,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 10
@@ -805,10 +684,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 2138,
+    "popularity": 2180,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 74
+    "popularity_rank": 75
   },
   {
     "id": 209983,
@@ -835,10 +714,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 28918,
+    "popularity": 29098,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 33
+    "popularity_rank": 34
   },
   {
     "id": 202508,
@@ -875,7 +754,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 5409,
+    "popularity": 5420,
     "anilist_score": 54,
     "recently_finished": false,
     "popularity_rank": 69
@@ -905,10 +784,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 30836,
+    "popularity": 31032,
     "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 29
+    "popularity_rank": 30
   },
   {
     "id": 188525,
@@ -945,7 +824,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 8258,
+    "popularity": 8319,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 59
@@ -975,7 +854,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 24273,
+    "popularity": 24416,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 36
@@ -1010,7 +889,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 120778,
+    "popularity": 121075,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 5
@@ -1040,7 +919,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7499,
+    "popularity": 7541,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 63
@@ -1064,7 +943,7 @@
     "start_date": "2026-07-04",
     "end_date": "2026-09-19",
     "streaming_links": [],
-    "popularity": 14684,
+    "popularity": 14794,
     "anilist_score": 56,
     "recently_finished": false,
     "popularity_rank": 52
@@ -1094,7 +973,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 9552,
+    "popularity": 9609,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 56
@@ -1129,7 +1008,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 52608,
+    "popularity": 53074,
     "anilist_score": 72,
     "recently_finished": false,
     "popularity_rank": 11
@@ -1189,7 +1068,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7642,
+    "popularity": 7699,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 62
@@ -1219,10 +1098,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 36067,
+    "popularity": 36125,
     "anilist_score": 76,
     "recently_finished": false,
-    "popularity_rank": 22
+    "popularity_rank": 23
   },
   {
     "id": 206249,
@@ -1249,7 +1128,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5445,
+    "popularity": 5474,
     "anilist_score": 53,
     "recently_finished": false,
     "popularity_rank": 68
@@ -1279,7 +1158,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 6314,
+    "popularity": 6340,
     "anilist_score": 66,
     "recently_finished": false,
     "popularity_rank": 65
@@ -1324,7 +1203,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 17909,
+    "popularity": 17935,
     "anilist_score": 66,
     "recently_finished": false,
     "popularity_rank": 46
@@ -1354,7 +1233,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 8013,
+    "popularity": 8054,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 61
@@ -1394,7 +1273,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 38263,
+    "popularity": 38327,
     "anilist_score": 80,
     "recently_finished": false,
     "popularity_rank": 20
@@ -1500,7 +1379,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 18839,
+    "popularity": 18927,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 45
@@ -1530,7 +1409,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 15597,
+    "popularity": 15756,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 51
@@ -1560,7 +1439,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 32035,
+    "popularity": 32266,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 28
@@ -1590,7 +1469,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 32965,
+    "popularity": 33176,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 26
@@ -1620,7 +1499,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 122936,
+    "popularity": 123262,
     "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 4
@@ -1655,7 +1534,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 32753,
+    "popularity": 32967,
     "anilist_score": 80,
     "recently_finished": false,
     "popularity_rank": 27
@@ -1690,7 +1569,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 21968,
+    "popularity": 22007,
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 41
@@ -1720,7 +1599,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4789,
+    "popularity": 4804,
     "anilist_score": 55,
     "recently_finished": false,
     "popularity_rank": 70
@@ -1760,7 +1639,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 132887,
+    "popularity": 133551,
     "anilist_score": 85,
     "recently_finished": false,
     "popularity_rank": 2
@@ -1866,7 +1745,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23883,
+    "popularity": 24125,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 37
@@ -1896,7 +1775,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 46594,
+    "popularity": 46887,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 12
@@ -1931,7 +1810,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 21566,
+    "popularity": 21748,
     "anilist_score": 57,
     "recently_finished": false,
     "popularity_rank": 42
@@ -1961,7 +1840,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 8058,
+    "popularity": 8140,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 60
@@ -1991,7 +1870,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 16701,
+    "popularity": 16998,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 49
@@ -2026,7 +1905,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 40352,
+    "popularity": 40750,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 18
@@ -2056,7 +1935,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 34427,
+    "popularity": 34682,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 25
@@ -2086,7 +1965,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 39512,
+    "popularity": 39641,
     "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 19
@@ -2116,10 +1995,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 18920,
-    "anilist_score": 61,
+    "popularity": 19187,
+    "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 44
+    "popularity_rank": 43
   },
   {
     "id": 209504,
@@ -2151,7 +2030,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 10865,
+    "popularity": 11025,
     "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 54
@@ -2181,10 +2060,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 28522,
+    "popularity": 29340,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 34
+    "popularity_rank": 33
   },
   {
     "id": 202269,
@@ -2216,10 +2095,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 30442,
-    "anilist_score": 77,
+    "popularity": 31097,
+    "anilist_score": 78,
     "recently_finished": false,
-    "popularity_rank": 30
+    "popularity_rank": 29
   },
   {
     "id": 206521,
@@ -2256,10 +2135,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 18978,
+    "popularity": 19081,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 43
+    "popularity_rank": 44
   },
   {
     "id": 213484,
@@ -2321,7 +2200,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 45350,
+    "popularity": 45821,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 14
@@ -2356,7 +2235,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 42852,
+    "popularity": 43440,
     "anilist_score": 77,
     "recently_finished": false,
     "popularity_rank": 17
@@ -2386,7 +2265,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 16000,
+    "popularity": 16332,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 50
@@ -2416,8 +2295,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 8854,
-    "anilist_score": 60,
+    "popularity": 8950,
+    "anilist_score": 59,
     "recently_finished": false,
     "popularity_rank": 58
   },
@@ -2481,7 +2360,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 11573,
+    "popularity": 11865,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 53
@@ -2536,10 +2415,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 36050,
+    "popularity": 36205,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 23
+    "popularity_rank": 22
   },
   {
     "id": 184356,
@@ -2571,7 +2450,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 23489,
+    "popularity": 23657,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 38
@@ -2601,7 +2480,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5664,
+    "popularity": 5699,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 67
@@ -2631,10 +2510,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 17412,
+    "popularity": 17487,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 47
+    "popularity_rank": 48
   },
   {
     "id": 196356,
@@ -2671,8 +2550,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 9383,
-    "anilist_score": 64,
+    "popularity": 9438,
+    "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 57
   },
@@ -2701,7 +2580,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 35393,
+    "popularity": 35540,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 24
@@ -2731,7 +2610,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 30244,
+    "popularity": 30382,
     "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 31
@@ -2761,7 +2640,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 43278,
+    "popularity": 43460,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 16
@@ -2771,7 +2650,7 @@
     "mal_id": 61316,
     "name": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
     "english_title": "Re:ZERO -Starting Life in Another World- Season 4",
-    "episode": 7,
+    "episode": 8,
     "release_date": "2026-07-08",
     "next_airing_date": "2026-08-12",
     "next_episode_number": 12,
@@ -2801,7 +2680,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 124607,
+    "popularity": 124839,
     "anilist_score": 90,
     "recently_finished": false,
     "popularity_rank": 3
@@ -2876,7 +2755,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 6018,
+    "popularity": 6037,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 66
@@ -2911,8 +2790,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 4147,
-    "anilist_score": 72,
+    "popularity": 4155,
+    "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 71
   },
@@ -2949,7 +2828,7 @@
   {
     "id": 204466,
     "mal_id": 63150,
-    "name": "Otome Kaijuu Caramelise",
+    "name": "Otome Kaijuu Caraméliser",
     "english_title": "KAIJU GIRL CARAMELISE",
     "episode": 2,
     "release_date": "2026-07-09",
@@ -2976,7 +2855,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 30102,
+    "popularity": 30296,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 32
@@ -3006,7 +2885,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 37498,
+    "popularity": 37759,
     "anilist_score": 65,
     "recently_finished": false,
     "popularity_rank": 21
@@ -3036,7 +2915,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 10154,
+    "popularity": 10203,
     "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 55
@@ -3071,7 +2950,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 96970,
+    "popularity": 97440,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 6
@@ -3106,7 +2985,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 45861,
+    "popularity": 46131,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 13
@@ -3146,7 +3025,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 55734,
+    "popularity": 56219,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 10
@@ -3181,10 +3060,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 2138,
+    "popularity": 2180,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 74
+    "popularity_rank": 75
   },
   {
     "id": 209983,
@@ -3211,10 +3090,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 28918,
+    "popularity": 29098,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 33
+    "popularity_rank": 34
   },
   {
     "id": 202508,
@@ -3251,7 +3130,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 5409,
+    "popularity": 5420,
     "anilist_score": 54,
     "recently_finished": false,
     "popularity_rank": 69
@@ -3281,10 +3160,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 30836,
+    "popularity": 31032,
     "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 29
+    "popularity_rank": 30
   },
   {
     "id": 188525,
@@ -3321,7 +3200,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 8258,
+    "popularity": 8319,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 59
@@ -3351,7 +3230,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 24273,
+    "popularity": 24416,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 36
@@ -3386,7 +3265,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 120778,
+    "popularity": 121075,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 5
@@ -3416,7 +3295,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7499,
+    "popularity": 7541,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 63
@@ -3440,7 +3319,7 @@
     "start_date": "2026-07-04",
     "end_date": "2026-09-19",
     "streaming_links": [],
-    "popularity": 14684,
+    "popularity": 14794,
     "anilist_score": 56,
     "recently_finished": false,
     "popularity_rank": 52
@@ -3470,7 +3349,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 9552,
+    "popularity": 9609,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 56
@@ -3505,7 +3384,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 52608,
+    "popularity": 53074,
     "anilist_score": 72,
     "recently_finished": false,
     "popularity_rank": 11
@@ -3535,7 +3414,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7642,
+    "popularity": 7699,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 62
@@ -3565,10 +3444,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 17340,
+    "popularity": 17491,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 48
+    "popularity_rank": 47
   },
   {
     "id": 171110,
@@ -3595,10 +3474,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 36067,
+    "popularity": 36125,
     "anilist_score": 76,
     "recently_finished": false,
-    "popularity_rank": 22
+    "popularity_rank": 23
   },
   {
     "id": 206249,
@@ -3625,7 +3504,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5445,
+    "popularity": 5474,
     "anilist_score": 53,
     "recently_finished": false,
     "popularity_rank": 68
@@ -3655,7 +3534,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 6314,
+    "popularity": 6340,
     "anilist_score": 66,
     "recently_finished": false,
     "popularity_rank": 65
@@ -3700,7 +3579,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 17909,
+    "popularity": 17935,
     "anilist_score": 66,
     "recently_finished": false,
     "popularity_rank": 46
@@ -3730,7 +3609,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 8013,
+    "popularity": 8054,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 61
@@ -3770,7 +3649,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 38263,
+    "popularity": 38327,
     "anilist_score": 80,
     "recently_finished": false,
     "popularity_rank": 20
@@ -3846,7 +3725,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 18839,
+    "popularity": 18927,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 45
@@ -3876,7 +3755,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 15597,
+    "popularity": 15756,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 51
@@ -3906,7 +3785,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 32035,
+    "popularity": 32266,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 28
@@ -3936,7 +3815,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 32965,
+    "popularity": 33176,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 26
@@ -3966,7 +3845,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 122936,
+    "popularity": 123262,
     "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 4
@@ -4006,7 +3885,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 25438,
+    "popularity": 25857,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 35
@@ -4041,7 +3920,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 32753,
+    "popularity": 32967,
     "anilist_score": 80,
     "recently_finished": false,
     "popularity_rank": 27
@@ -4076,7 +3955,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 21968,
+    "popularity": 22007,
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 41
@@ -4106,7 +3985,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4789,
+    "popularity": 4804,
     "anilist_score": 55,
     "recently_finished": false,
     "popularity_rank": 70
@@ -4146,7 +4025,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 132887,
+    "popularity": 133551,
     "anilist_score": 85,
     "recently_finished": false,
     "popularity_rank": 2
@@ -4252,7 +4131,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23883,
+    "popularity": 24125,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 37
@@ -4282,7 +4161,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 46594,
+    "popularity": 46887,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 12
@@ -4317,7 +4196,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 21566,
+    "popularity": 21748,
     "anilist_score": 57,
     "recently_finished": false,
     "popularity_rank": 42
@@ -4347,7 +4226,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 8058,
+    "popularity": 8140,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 60
@@ -4377,7 +4256,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 16701,
+    "popularity": 16998,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 49
@@ -4412,7 +4291,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 40352,
+    "popularity": 40750,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 18
@@ -4442,7 +4321,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 34427,
+    "popularity": 34682,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 25
@@ -4472,7 +4351,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 39512,
+    "popularity": 39641,
     "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 19
@@ -4502,10 +4381,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 18920,
-    "anilist_score": 61,
+    "popularity": 19187,
+    "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 44
+    "popularity_rank": 43
   },
   {
     "id": 209504,
@@ -4537,7 +4416,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 10865,
+    "popularity": 11025,
     "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 54
@@ -4567,10 +4446,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 28522,
+    "popularity": 29340,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 34
+    "popularity_rank": 33
   },
   {
     "id": 202269,
@@ -4602,10 +4481,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 30442,
-    "anilist_score": 77,
+    "popularity": 31097,
+    "anilist_score": 78,
     "recently_finished": false,
-    "popularity_rank": 30
+    "popularity_rank": 29
   },
   {
     "id": 206521,
@@ -4642,10 +4521,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 18978,
+    "popularity": 19081,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 43
+    "popularity_rank": 44
   },
   {
     "id": 213484,
@@ -4707,7 +4586,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 45350,
+    "popularity": 45821,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 14
@@ -4742,7 +4621,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 42852,
+    "popularity": 43440,
     "anilist_score": 77,
     "recently_finished": false,
     "popularity_rank": 17
@@ -4772,7 +4651,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 16000,
+    "popularity": 16332,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 50
@@ -4802,8 +4681,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 8854,
-    "anilist_score": 60,
+    "popularity": 8950,
+    "anilist_score": 59,
     "recently_finished": false,
     "popularity_rank": 58
   },
@@ -4867,7 +4746,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 11573,
+    "popularity": 11865,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 53
@@ -4922,10 +4801,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 36050,
+    "popularity": 36205,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 23
+    "popularity_rank": 22
   },
   {
     "id": 184356,
@@ -4957,7 +4836,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 23489,
+    "popularity": 23657,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 38
@@ -4987,7 +4866,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5664,
+    "popularity": 5699,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 67
@@ -5017,10 +4896,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 17412,
+    "popularity": 17487,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 47
+    "popularity_rank": 48
   },
   {
     "id": 196356,
@@ -5057,8 +4936,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 9383,
-    "anilist_score": 64,
+    "popularity": 9438,
+    "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 57
   },
@@ -5087,7 +4966,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 35393,
+    "popularity": 35540,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 24
@@ -5117,7 +4996,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 30244,
+    "popularity": 30382,
     "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 31
@@ -5147,7 +5026,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 43278,
+    "popularity": 43460,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 16
@@ -5157,7 +5036,7 @@
     "mal_id": 61316,
     "name": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
     "english_title": "Re:ZERO -Starting Life in Another World- Season 4",
-    "episode": 8,
+    "episode": 9,
     "release_date": "2026-07-15",
     "next_airing_date": "2026-08-12",
     "next_episode_number": 12,
@@ -5187,7 +5066,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 124607,
+    "popularity": 124839,
     "anilist_score": 90,
     "recently_finished": false,
     "popularity_rank": 3
@@ -5262,7 +5141,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 6018,
+    "popularity": 6037,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 66
@@ -5297,8 +5176,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 4147,
-    "anilist_score": 72,
+    "popularity": 4155,
+    "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 71
   },
@@ -5335,7 +5214,7 @@
   {
     "id": 204466,
     "mal_id": 63150,
-    "name": "Otome Kaijuu Caramelise",
+    "name": "Otome Kaijuu Caraméliser",
     "english_title": "KAIJU GIRL CARAMELISE",
     "episode": 3,
     "release_date": "2026-07-16",
@@ -5362,7 +5241,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 30102,
+    "popularity": 30296,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 32
@@ -5392,7 +5271,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 37498,
+    "popularity": 37759,
     "anilist_score": 65,
     "recently_finished": false,
     "popularity_rank": 21
@@ -5422,7 +5301,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 10154,
+    "popularity": 10203,
     "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 55
@@ -5457,7 +5336,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 96970,
+    "popularity": 97440,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 6
@@ -5492,7 +5371,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 45861,
+    "popularity": 46131,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 13
@@ -5532,7 +5411,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 55734,
+    "popularity": 56219,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 10
@@ -5567,10 +5446,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 2138,
+    "popularity": 2180,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 74
+    "popularity_rank": 75
   },
   {
     "id": 209983,
@@ -5597,10 +5476,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 28918,
+    "popularity": 29098,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 33
+    "popularity_rank": 34
   },
   {
     "id": 202508,
@@ -5637,7 +5516,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 5409,
+    "popularity": 5420,
     "anilist_score": 54,
     "recently_finished": false,
     "popularity_rank": 69
@@ -5667,10 +5546,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 30836,
+    "popularity": 31032,
     "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 29
+    "popularity_rank": 30
   },
   {
     "id": 188525,
@@ -5707,7 +5586,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 8258,
+    "popularity": 8319,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 59
@@ -5737,7 +5616,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 22360,
+    "popularity": 22475,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 40
@@ -5767,7 +5646,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 24273,
+    "popularity": 24416,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 36
@@ -5802,7 +5681,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 120778,
+    "popularity": 121075,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 5
@@ -5832,7 +5711,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7499,
+    "popularity": 7541,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 63
@@ -5856,7 +5735,7 @@
     "start_date": "2026-07-04",
     "end_date": "2026-09-19",
     "streaming_links": [],
-    "popularity": 14684,
+    "popularity": 14794,
     "anilist_score": 56,
     "recently_finished": false,
     "popularity_rank": 52
@@ -5886,7 +5765,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 9552,
+    "popularity": 9609,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 56
@@ -5921,7 +5800,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 52608,
+    "popularity": 53074,
     "anilist_score": 72,
     "recently_finished": false,
     "popularity_rank": 11
@@ -5951,7 +5830,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7642,
+    "popularity": 7699,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 62
@@ -5981,10 +5860,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 17340,
+    "popularity": 17491,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 48
+    "popularity_rank": 47
   },
   {
     "id": 171110,
@@ -6011,10 +5890,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 36067,
+    "popularity": 36125,
     "anilist_score": 76,
     "recently_finished": false,
-    "popularity_rank": 22
+    "popularity_rank": 23
   },
   {
     "id": 206249,
@@ -6041,7 +5920,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5445,
+    "popularity": 5474,
     "anilist_score": 53,
     "recently_finished": false,
     "popularity_rank": 68
@@ -6071,7 +5950,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 6314,
+    "popularity": 6340,
     "anilist_score": 66,
     "recently_finished": false,
     "popularity_rank": 65
@@ -6116,7 +5995,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 17909,
+    "popularity": 17935,
     "anilist_score": 66,
     "recently_finished": false,
     "popularity_rank": 46
@@ -6146,7 +6025,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 8013,
+    "popularity": 8054,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 61
@@ -6186,7 +6065,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 38263,
+    "popularity": 38327,
     "anilist_score": 80,
     "recently_finished": false,
     "popularity_rank": 20
@@ -6262,7 +6141,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 18839,
+    "popularity": 18927,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 45
@@ -6292,7 +6171,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 15597,
+    "popularity": 15756,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 51
@@ -6322,7 +6201,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 32035,
+    "popularity": 32266,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 28
@@ -6352,7 +6231,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 32965,
+    "popularity": 33176,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 26
@@ -6382,7 +6261,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 122936,
+    "popularity": 123262,
     "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 4
@@ -6422,7 +6301,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 25438,
+    "popularity": 25857,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 35
@@ -6457,7 +6336,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 32753,
+    "popularity": 32967,
     "anilist_score": 80,
     "recently_finished": false,
     "popularity_rank": 27
@@ -6492,7 +6371,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 21968,
+    "popularity": 22007,
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 41
@@ -6522,7 +6401,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4789,
+    "popularity": 4804,
     "anilist_score": 55,
     "recently_finished": false,
     "popularity_rank": 70
@@ -6562,7 +6441,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 132887,
+    "popularity": 133551,
     "anilist_score": 85,
     "recently_finished": false,
     "popularity_rank": 2
@@ -6668,7 +6547,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23883,
+    "popularity": 24125,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 37
@@ -6698,7 +6577,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 46594,
+    "popularity": 46887,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 12
@@ -6733,7 +6612,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 21566,
+    "popularity": 21748,
     "anilist_score": 57,
     "recently_finished": false,
     "popularity_rank": 42
@@ -6763,7 +6642,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 8058,
+    "popularity": 8140,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 60
@@ -6793,7 +6672,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 16701,
+    "popularity": 16998,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 49
@@ -6828,7 +6707,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 40352,
+    "popularity": 40750,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 18
@@ -6858,7 +6737,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 34427,
+    "popularity": 34682,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 25
@@ -6888,7 +6767,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 39512,
+    "popularity": 39641,
     "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 19
@@ -6918,10 +6797,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 18920,
-    "anilist_score": 61,
+    "popularity": 19187,
+    "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 44
+    "popularity_rank": 43
   },
   {
     "id": 209504,
@@ -6953,7 +6832,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 10865,
+    "popularity": 11025,
     "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 54
@@ -6983,10 +6862,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 28522,
+    "popularity": 29340,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 34
+    "popularity_rank": 33
   },
   {
     "id": 202269,
@@ -7018,10 +6897,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 30442,
-    "anilist_score": 77,
+    "popularity": 31097,
+    "anilist_score": 78,
     "recently_finished": false,
-    "popularity_rank": 30
+    "popularity_rank": 29
   },
   {
     "id": 206521,
@@ -7058,10 +6937,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 18978,
+    "popularity": 19081,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 43
+    "popularity_rank": 44
   },
   {
     "id": 213484,
@@ -7123,7 +7002,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 45350,
+    "popularity": 45821,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 14
@@ -7158,7 +7037,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 42852,
+    "popularity": 43440,
     "anilist_score": 77,
     "recently_finished": false,
     "popularity_rank": 17
@@ -7188,7 +7067,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 16000,
+    "popularity": 16332,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 50
@@ -7218,8 +7097,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 8854,
-    "anilist_score": 60,
+    "popularity": 8950,
+    "anilist_score": 59,
     "recently_finished": false,
     "popularity_rank": 58
   },
@@ -7283,7 +7162,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 11573,
+    "popularity": 11865,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 53
@@ -7338,10 +7217,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 36050,
+    "popularity": 36205,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 23
+    "popularity_rank": 22
   },
   {
     "id": 184356,
@@ -7373,7 +7252,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 23489,
+    "popularity": 23657,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 38
@@ -7403,7 +7282,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5664,
+    "popularity": 5699,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 67
@@ -7433,10 +7312,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 17412,
+    "popularity": 17487,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 47
+    "popularity_rank": 48
   },
   {
     "id": 196356,
@@ -7473,8 +7352,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 9383,
-    "anilist_score": 64,
+    "popularity": 9438,
+    "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 57
   },
@@ -7503,7 +7382,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 35393,
+    "popularity": 35540,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 24
@@ -7533,7 +7412,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 30244,
+    "popularity": 30382,
     "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 31
@@ -7563,7 +7442,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 43278,
+    "popularity": 43460,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 16
@@ -7573,7 +7452,7 @@
     "mal_id": 61316,
     "name": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
     "english_title": "Re:ZERO -Starting Life in Another World- Season 4",
-    "episode": 9,
+    "episode": 10,
     "release_date": "2026-07-22",
     "next_airing_date": "2026-08-12",
     "next_episode_number": 12,
@@ -7603,7 +7482,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 124607,
+    "popularity": 124839,
     "anilist_score": 90,
     "recently_finished": false,
     "popularity_rank": 3
@@ -7678,7 +7557,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 6018,
+    "popularity": 6037,
     "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 66
@@ -7713,8 +7592,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 4147,
-    "anilist_score": 72,
+    "popularity": 4155,
+    "anilist_score": 73,
     "recently_finished": false,
     "popularity_rank": 71
   },
@@ -7751,7 +7630,7 @@
   {
     "id": 204466,
     "mal_id": 63150,
-    "name": "Otome Kaijuu Caramelise",
+    "name": "Otome Kaijuu Caraméliser",
     "english_title": "KAIJU GIRL CARAMELISE",
     "episode": 4,
     "release_date": "2026-07-23",
@@ -7778,7 +7657,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 30102,
+    "popularity": 30296,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 32
@@ -7808,7 +7687,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 37498,
+    "popularity": 37759,
     "anilist_score": 65,
     "recently_finished": false,
     "popularity_rank": 21
@@ -7838,7 +7717,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 10154,
+    "popularity": 10203,
     "anilist_score": 62,
     "recently_finished": false,
     "popularity_rank": 55
@@ -7873,7 +7752,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 96970,
+    "popularity": 97440,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 6
@@ -7908,7 +7787,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 45861,
+    "popularity": 46131,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 13
@@ -7948,7 +7827,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 55734,
+    "popularity": 56219,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 10
@@ -7983,10 +7862,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 2138,
+    "popularity": 2180,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 74
+    "popularity_rank": 75
   },
   {
     "id": 209983,
@@ -8013,10 +7892,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 28918,
+    "popularity": 29098,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 33
+    "popularity_rank": 34
   },
   {
     "id": 202508,
@@ -8053,7 +7932,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 5409,
+    "popularity": 5420,
     "anilist_score": 54,
     "recently_finished": false,
     "popularity_rank": 69
@@ -8083,10 +7962,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 30836,
+    "popularity": 31032,
     "anilist_score": 65,
     "recently_finished": false,
-    "popularity_rank": 29
+    "popularity_rank": 30
   },
   {
     "id": 188525,
@@ -8123,7 +8002,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 8258,
+    "popularity": 8319,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 59
@@ -8153,7 +8032,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 22360,
+    "popularity": 22475,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 40
@@ -8183,7 +8062,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 24273,
+    "popularity": 24416,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 36
@@ -8218,7 +8097,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 120778,
+    "popularity": 121075,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 5
@@ -8248,7 +8127,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7499,
+    "popularity": 7541,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 63
@@ -8272,7 +8151,7 @@
     "start_date": "2026-07-04",
     "end_date": "2026-09-19",
     "streaming_links": [],
-    "popularity": 14684,
+    "popularity": 14794,
     "anilist_score": 56,
     "recently_finished": false,
     "popularity_rank": 52
@@ -8302,7 +8181,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 9552,
+    "popularity": 9609,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 56
@@ -8337,7 +8216,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 52608,
+    "popularity": 53074,
     "anilist_score": 72,
     "recently_finished": false,
     "popularity_rank": 11
@@ -8377,7 +8256,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
       }
     ],
-    "popularity": 63386,
+    "popularity": 64096,
     "anilist_score": 88,
     "recently_finished": false,
     "popularity_rank": 9
@@ -8407,7 +8286,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7642,
+    "popularity": 7699,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 62
@@ -8437,10 +8316,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 17340,
+    "popularity": 17491,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 48
+    "popularity_rank": 47
   },
   {
     "id": 171110,
@@ -8467,10 +8346,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 36067,
+    "popularity": 36125,
     "anilist_score": 76,
     "recently_finished": false,
-    "popularity_rank": 22
+    "popularity_rank": 23
   },
   {
     "id": 206249,
@@ -8497,7 +8376,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5445,
+    "popularity": 5474,
     "anilist_score": 53,
     "recently_finished": false,
     "popularity_rank": 68
@@ -8527,7 +8406,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 6314,
+    "popularity": 6340,
     "anilist_score": 66,
     "recently_finished": false,
     "popularity_rank": 65
@@ -8572,7 +8451,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 17909,
+    "popularity": 17935,
     "anilist_score": 66,
     "recently_finished": false,
     "popularity_rank": 46
@@ -8602,7 +8481,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 8013,
+    "popularity": 8054,
     "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 61
@@ -8642,7 +8521,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 38263,
+    "popularity": 38327,
     "anilist_score": 80,
     "recently_finished": false,
     "popularity_rank": 20
@@ -8718,7 +8597,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 18839,
+    "popularity": 18927,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 45
@@ -8748,7 +8627,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 15597,
+    "popularity": 15756,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 51
@@ -8778,7 +8657,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 32035,
+    "popularity": 32266,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 28
@@ -8808,7 +8687,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 32965,
+    "popularity": 33176,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 26
@@ -8838,7 +8717,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 122936,
+    "popularity": 123262,
     "anilist_score": 78,
     "recently_finished": false,
     "popularity_rank": 4
@@ -8878,7 +8757,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 25438,
+    "popularity": 25857,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 35
@@ -8913,7 +8792,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 32753,
+    "popularity": 32967,
     "anilist_score": 80,
     "recently_finished": false,
     "popularity_rank": 27
@@ -8948,7 +8827,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 21968,
+    "popularity": 22007,
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 41
@@ -8978,7 +8857,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4789,
+    "popularity": 4804,
     "anilist_score": 55,
     "recently_finished": false,
     "popularity_rank": 70
@@ -9018,7 +8897,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 132887,
+    "popularity": 133551,
     "anilist_score": 85,
     "recently_finished": false,
     "popularity_rank": 2
@@ -9124,7 +9003,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23883,
+    "popularity": 24125,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 37
@@ -9154,7 +9033,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 46594,
+    "popularity": 46887,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 12
@@ -9189,7 +9068,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 21566,
+    "popularity": 21748,
     "anilist_score": 57,
     "recently_finished": false,
     "popularity_rank": 42
@@ -9219,7 +9098,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 8058,
+    "popularity": 8140,
     "anilist_score": 69,
     "recently_finished": false,
     "popularity_rank": 60
@@ -9249,7 +9128,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 16701,
+    "popularity": 16998,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 49
@@ -9284,7 +9163,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 40352,
+    "popularity": 40750,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 18
@@ -9314,7 +9193,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 34427,
+    "popularity": 34682,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 25
@@ -9344,7 +9223,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 39512,
+    "popularity": 39641,
     "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 19
@@ -9374,10 +9253,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 18920,
-    "anilist_score": 61,
+    "popularity": 19187,
+    "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 44
+    "popularity_rank": 43
   },
   {
     "id": 209504,
@@ -9409,7 +9288,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 10865,
+    "popularity": 11025,
     "anilist_score": 61,
     "recently_finished": false,
     "popularity_rank": 54
@@ -9439,10 +9318,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 28522,
+    "popularity": 29340,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 34
+    "popularity_rank": 33
   },
   {
     "id": 202269,
@@ -9474,10 +9353,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 30442,
-    "anilist_score": 77,
+    "popularity": 31097,
+    "anilist_score": 78,
     "recently_finished": false,
-    "popularity_rank": 30
+    "popularity_rank": 29
   },
   {
     "id": 206521,
@@ -9514,10 +9393,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 18978,
+    "popularity": 19081,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 43
+    "popularity_rank": 44
   },
   {
     "id": 187260,
@@ -9544,7 +9423,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 45350,
+    "popularity": 45821,
     "anilist_score": 75,
     "recently_finished": false,
     "popularity_rank": 14
@@ -9579,7 +9458,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 42852,
+    "popularity": 43440,
     "anilist_score": 77,
     "recently_finished": false,
     "popularity_rank": 17
@@ -9609,7 +9488,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 16000,
+    "popularity": 16332,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 50
@@ -9639,8 +9518,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 8854,
-    "anilist_score": 60,
+    "popularity": 8950,
+    "anilist_score": 59,
     "recently_finished": false,
     "popularity_rank": 58
   },
@@ -9704,9 +9583,344 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 11573,
+    "popularity": 11865,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 53
+  },
+  {
+    "id": 198946,
+    "mal_id": 62513,
+    "name": "Clevatess II: Majuu no Ou to Itsuwari no Yuusha Denshou",
+    "english_title": "Clevatess Season 2",
+    "episode": 4,
+    "release_date": "2026-07-29",
+    "next_airing_date": "2026-07-29",
+    "next_episode_number": 4,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198946-IGXmbqBEYRYD.jpg",
+    "trailer": {
+      "id": "0N1-8XY_3Rs",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/0N1-8XY_3Rs/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/198946",
+    "start_date": "2026-07-08",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G8DHV78ZM/clevatess",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLDvQscScOUXg",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 36205,
+    "anilist_score": 75,
+    "recently_finished": false,
+    "popularity_rank": 22
+  },
+  {
+    "id": 184356,
+    "mal_id": 63316,
+    "name": "Dogul Wang",
+    "english_title": "Tomb Raider King",
+    "episode": 4,
+    "release_date": "2026-07-29",
+    "next_airing_date": "2026-07-29",
+    "next_episode_number": 4,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184356-SlFIstXUXJYP.png",
+    "trailer": {
+      "id": "6f702O_nnq8",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/6f702O_nnq8/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/184356",
+    "start_date": "2026-07-09",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00378123/",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLRwxYv2koIzY",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 23657,
+    "anilist_score": 67,
+    "recently_finished": false,
+    "popularity_rank": 38
+  },
+  {
+    "id": 209669,
+    "mal_id": 63780,
+    "name": "Hanazakari no Kimitachi e 2nd Season",
+    "english_title": "Hana-Kimi Season 2",
+    "episode": 6,
+    "release_date": "2026-07-29",
+    "next_airing_date": "2026-07-29",
+    "next_episode_number": 6,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209669-7GlPe2ra5f1i.jpg",
+    "trailer": {
+      "id": "dN7LV-oVFBg",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/dN7LV-oVFBg/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/209669",
+    "start_date": "2026-07-02",
+    "end_date": "2026-09-17",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00365568/hana-kimi",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 5699,
+    "anilist_score": 67,
+    "recently_finished": false,
+    "popularity_rank": 67
+  },
+  {
+    "id": 192800,
+    "mal_id": 61686,
+    "name": "Heroine? Seijo? Iie, All Works Maid desu (Ko)!",
+    "english_title": "Heroine? Saint? No, I’m an All-Works Maid (And Proud of It)!",
+    "episode": 6,
+    "release_date": "2026-07-29",
+    "next_airing_date": "2026-07-29",
+    "next_episode_number": 6,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx192800-r8zlO0VY0jJP.jpg",
+    "trailer": {
+      "id": "I9V_HpMr3_8",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/I9V_HpMr3_8/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/192800",
+    "start_date": "2026-06-24",
+    "end_date": "2026-09-09",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00378069/",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 17487,
+    "anilist_score": 69,
+    "recently_finished": false,
+    "popularity_rank": 48
+  },
+  {
+    "id": 196356,
+    "mal_id": 62102,
+    "name": "Ibitte Konai Gibo to Gishi",
+    "english_title": "My Stepmother and Stepsisters Aren’t Wicked",
+    "episode": 4,
+    "release_date": "2026-07-29",
+    "next_airing_date": "2026-07-29",
+    "next_episode_number": 4,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196356-2TNt2b9tu0jm.jpg",
+    "trailer": {
+      "id": "2UBOHZNG1fM",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/2UBOHZNG1fM/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/196356",
+    "start_date": "2026-07-08",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Amazon Prime Video",
+        "url": "https://www.amazon.com/My-Stepmother-Stepsisters-Arent-Wicked/dp/B0GYPBM8WL",
+        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLKx8CEsRVJts",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLCTv3-IP7ow8",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 9438,
+    "anilist_score": 63,
+    "recently_finished": false,
+    "popularity_rank": 57
+  },
+  {
+    "id": 194829,
+    "mal_id": 61897,
+    "name": "Katainaka no Ossan, Kensei ni Naru II",
+    "english_title": "From Old Country Bumpkin to Master Swordsman II",
+    "episode": 4,
+    "release_date": "2026-07-29",
+    "next_airing_date": "2026-07-29",
+    "next_episode_number": 4,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194829-bZKwhfo60EuF.jpg",
+    "trailer": {
+      "id": "N_0FPI1a9Nw",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/N_0FPI1a9Nw/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/194829",
+    "start_date": "2026-07-08",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Amazon Prime Video",
+        "url": "https://www.amazon.com/dp/B0H1QXXRG1",
+        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+      }
+    ],
+    "popularity": 35540,
+    "anilist_score": 71,
+    "recently_finished": false,
+    "popularity_rank": 24
+  },
+  {
+    "id": 197715,
+    "mal_id": 62322,
+    "name": "LV999 no Murabito",
+    "english_title": "The Villager of Level 999",
+    "episode": 6,
+    "release_date": "2026-07-29",
+    "next_airing_date": "2026-07-29",
+    "next_episode_number": 6,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197715-KLFLxU24U1uL.png",
+    "trailer": {
+      "id": "YfWJLXcN7hI",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/YfWJLXcN7hI/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/197715",
+    "start_date": "2026-07-02",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371878/the-villager-of-level-999",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 30382,
+    "anilist_score": 62,
+    "recently_finished": false,
+    "popularity_rank": 31
+  },
+  {
+    "id": 159309,
+    "mal_id": 54000,
+    "name": "Otomege Sekai wa Mob ni Kibishii Sekai desu 2",
+    "english_title": "Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs Season 2",
+    "episode": 4,
+    "release_date": "2026-07-29",
+    "next_airing_date": "2026-07-29",
+    "next_episode_number": 4,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx159309-wRfh9O1odrDJ.jpg",
+    "trailer": {
+      "id": "d3n8-15GCG8",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/d3n8-15GCG8/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/159309",
+    "start_date": "2026-07-08",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G0XHWM0D3/trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 43460,
+    "anilist_score": 67,
+    "recently_finished": false,
+    "popularity_rank": 16
+  },
+  {
+    "id": 189046,
+    "mal_id": 61316,
+    "name": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
+    "english_title": "Re:ZERO -Starting Life in Another World- Season 4",
+    "episode": 11,
+    "release_date": "2026-07-29",
+    "next_airing_date": "2026-08-12",
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189046-yaHWtS5FII46.jpg",
+    "trailer": {
+      "id": "i8EjBP85cCc",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/i8EjBP85cCc/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/189046",
+    "start_date": "2026-04-08",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GRGG9798R",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3RN7t6wesJqlUkSUN6FHKF",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@Rezero_official",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 124839,
+    "anilist_score": 90,
+    "recently_finished": false,
+    "popularity_rank": 3
+  },
+  {
+    "id": 135865,
+    "mal_id": 49233,
+    "name": "Youjo Senki II",
+    "english_title": "Saga of Tanya the Evil Season 2",
+    "episode": 4,
+    "release_date": "2026-07-29",
+    "next_airing_date": "2026-07-29",
+    "next_episode_number": 4,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135865-T7XIPMAbqcxN.png",
+    "trailer": {
+      "id": "kUvhvkPDvm0",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/kUvhvkPDvm0/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/135865",
+    "start_date": "2026-07-08",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GR9P57W96/saga-of-tanya-the-evil",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLcWpc-sy22u4",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 82477,
+    "anilist_score": 81,
+    "recently_finished": false,
+    "popularity_rank": 7
   }
 ]
