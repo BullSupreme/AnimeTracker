@@ -131,9 +131,9 @@
     "name": "Yomi no Tsugai",
     "english_title": "Daemons of the Shadow Realm",
     "episode": 17,
-    "release_date": null,
-    "next_airing_date": "2026-08-01",
-    "next_episode_number": 17,
+    "release_date": "2026-08-01",
+    "next_airing_date": "2026-08-08",
+    "next_episode_number": 18,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195600-moI0UFArtOme.jpg",
     "trailer": {
       "id": "XCyj9KKKjUI",
@@ -260,7 +260,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 83549,
+    "popularity": 83806,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 7
@@ -270,9 +270,9 @@
     "mal_id": 235,
     "name": "Meitantei Conan",
     "english_title": "Detective Conan",
-    "episode": 1209,
-    "release_date": "2026-08-01",
-    "next_airing_date": "2026-08-08",
+    "episode": 1210,
+    "release_date": "2026-08-22",
+    "next_airing_date": "2026-08-22",
     "next_episode_number": 1210,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx235-MyYT7K3chBdO.jpg",
     "trailer": null,
@@ -301,7 +301,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 78694,
+    "popularity": 78721,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 8
@@ -313,8 +313,8 @@
     "english_title": "BLEACH: Thousand-Year Blood War - The Calamity",
     "episode": 2,
     "release_date": "2026-08-01",
-    "next_airing_date": "2026-08-01",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-08-08",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185874-aU3e6tBT6wwA.jpg",
     "trailer": {
       "id": "IJONbpfIlUg",
@@ -393,8 +393,8 @@
     "english_title": "BLACK TORCH",
     "episode": 5,
     "release_date": "2026-08-01",
-    "next_airing_date": "2026-08-01",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-08",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187538-fXVXKYUA3VV6.jpg",
     "trailer": {
       "id": "2clp09dITKY",
@@ -541,10 +541,40 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 46124,
+    "popularity": 46294,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 15
+  },
+  {
+    "id": 159309,
+    "mal_id": 54000,
+    "name": "Otomege Sekai wa Mob ni Kibishii Sekai desu 2",
+    "english_title": "Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs Season 2",
+    "episode": 5,
+    "release_date": "2026-08-05",
+    "next_airing_date": "2026-08-05",
+    "next_episode_number": 5,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx159309-wRfh9O1odrDJ.jpg",
+    "trailer": {
+      "id": "d3n8-15GCG8",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/d3n8-15GCG8/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/159309",
+    "start_date": "2026-07-08",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G0XHWM0D3/trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 44550,
+    "anilist_score": 67,
+    "recently_finished": false,
+    "popularity_rank": 16
   },
   {
     "id": 177699,
@@ -578,36 +608,6 @@
     ],
     "popularity": 44312,
     "anilist_score": 77,
-    "recently_finished": false,
-    "popularity_rank": 16
-  },
-  {
-    "id": 159309,
-    "mal_id": 54000,
-    "name": "Otomege Sekai wa Mob ni Kibishii Sekai desu 2",
-    "english_title": "Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs Season 2",
-    "episode": 5,
-    "release_date": "2026-08-05",
-    "next_airing_date": "2026-08-05",
-    "next_episode_number": 5,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx159309-wRfh9O1odrDJ.jpg",
-    "trailer": {
-      "id": "d3n8-15GCG8",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/d3n8-15GCG8/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/159309",
-    "start_date": "2026-07-08",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G0XHWM0D3/trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 44309,
-    "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 17
   },
@@ -836,7 +836,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 36209,
+    "popularity": 36247,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 24
@@ -878,8 +878,8 @@
     "english_title": "Jaadugar: A Witch in Mongolia",
     "episode": 6,
     "release_date": "2026-08-01",
-    "next_airing_date": "2026-08-01",
-    "next_episode_number": 6,
+    "next_airing_date": "2026-08-08",
+    "next_episode_number": 7,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx190569-KnCQLI3Z8hPX.jpg",
     "trailer": {
       "id": "GBHYXPp1lt8",
@@ -943,8 +943,8 @@
     "english_title": "Rich Girl Caretaker: I'm Secretly the Caregiver of the Most Popular Girl in This Rich Kid School",
     "episode": 5,
     "release_date": "2026-08-01",
-    "next_airing_date": "2026-08-01",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-08",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx201514-BHAeWhSbcBrT.png",
     "trailer": {
       "id": "JoRr4dfpXIU",
@@ -1121,7 +1121,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 30066,
+    "popularity": 30289,
     "anilist_score": 71,
     "recently_finished": false,
     "popularity_rank": 33
@@ -1316,8 +1316,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23304,
-    "anilist_score": 73,
+    "popularity": 23413,
+    "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 39
   },
@@ -1446,7 +1446,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 19447,
+    "popularity": 19538,
     "anilist_score": 60,
     "recently_finished": false,
     "popularity_rank": 43
@@ -1498,8 +1498,8 @@
     "english_title": "The Cat and the Dragon",
     "episode": 6,
     "release_date": "2026-08-01",
-    "next_airing_date": "2026-08-01",
-    "next_episode_number": 6,
+    "next_airing_date": "2026-08-08",
+    "next_episode_number": 7,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186863-AO4efoB8HuzA.png",
     "trailer": {
       "id": "xi4rGcyeYr8",
@@ -1562,9 +1562,9 @@
     "name": "MAO",
     "english_title": "MAO",
     "episode": 18,
-    "release_date": null,
-    "next_airing_date": "2026-08-01",
-    "next_episode_number": 18,
+    "release_date": "2026-08-01",
+    "next_airing_date": "2026-08-08",
+    "next_episode_number": 19,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196012-R3YNjunufpYh.jpg",
     "trailer": {
       "id": "eVfpoS0rjw0",
@@ -1608,8 +1608,8 @@
     "english_title": "Hanaori-san Still Wants to Fight in the Next Life",
     "episode": 4,
     "release_date": "2026-08-01",
-    "next_airing_date": "2026-08-01",
-    "next_episode_number": 4,
+    "next_airing_date": "2026-08-08",
+    "next_episode_number": 5,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199066-YXDVsguvFZMm.jpg",
     "trailer": {
       "id": "xueZbCyZcnI",
@@ -1698,8 +1698,8 @@
     "english_title": "The Ogre's Bride",
     "episode": 5,
     "release_date": "2026-08-01",
-    "next_airing_date": "2026-08-01",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-08",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b194219-56EhyK775lga.jpg",
     "trailer": {
       "id": "1hYWc5MCIPk",
@@ -1892,8 +1892,8 @@
     "english_title": "The Duke’s Son Claims He Won’t Love Me Yet Showers Me with Adoration",
     "episode": 5,
     "release_date": "2026-08-01",
-    "next_airing_date": "2026-08-01",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-08",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx208225-HJbCC0Z4xRp3.jpg",
     "trailer": {
       "id": "MNzf8UswtzI",
@@ -2022,8 +2022,8 @@
     "english_title": "Magical Girl Lyrical Nanoha EXCEEDS Gun Blaze Vengeance",
     "episode": 5,
     "release_date": "2026-08-01",
-    "next_airing_date": "2026-08-01",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-08",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185875-XMvDVlIUZODx.jpg",
     "trailer": {
       "id": "4IcEbMCW-FU",
@@ -2052,8 +2052,8 @@
     "english_title": "Grow Up Show",
     "episode": 5,
     "release_date": "2026-08-01",
-    "next_airing_date": "2026-08-01",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-08",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196017-GynDNdbDzqzk.jpg",
     "trailer": {
       "id": "PAneuhZLHzU",
@@ -2130,7 +2130,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7191,
+    "popularity": 7203,
     "anilist_score": 50,
     "recently_finished": false,
     "popularity_rank": 64
@@ -2142,8 +2142,8 @@
     "english_title": "Magilumiere Magical Girls Inc. Season 2",
     "episode": 5,
     "release_date": "2026-08-01",
-    "next_airing_date": "2026-08-01",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-08",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185692-1a8huwOIx7gw.jpg",
     "trailer": {
       "id": "3w7_piPtkNY",
@@ -2242,8 +2242,8 @@
     "english_title": "Recommendations from Iwamoto-Senpai",
     "episode": 5,
     "release_date": "2026-08-01",
-    "next_airing_date": "2026-08-01",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-08",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206249-1AUSry416wGz.png",
     "trailer": {
       "id": "5Q2OFIvOME0",
