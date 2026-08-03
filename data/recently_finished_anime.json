@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": 168179,
+    "mal_id": 62241,
+    "name": "Biaoren 2",
+    "english_title": null,
+    "episode": 8,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 8,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx168179-wKRVDrZWcT5k.jpg",
+    "trailer": null,
+    "site_url": "https://anilist.co/anime/168179",
+    "start_date": "2026-06-11",
+    "end_date": "2026-07-23",
+    "streaming_links": [
+      {
+        "site": "Tencent Video",
+        "url": "https://v.qq.com/detail/m/mzc00200ab0trmk.html",
+        "icon": "https://www.google.com/s2/favicons?domain=v.qq.com&sz=32"
+      }
+    ],
+    "popularity": 2004,
+    "anilist_score": 64,
+    "recently_finished": true,
+    "popularity_rank": 75
+  }
+]
