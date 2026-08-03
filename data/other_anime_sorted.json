@@ -524,7 +524,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7214,
+    "popularity": 7236,
     "anilist_score": 50,
     "recently_finished": false,
     "popularity_rank": 64
@@ -899,36 +899,6 @@
     "popularity_rank": 5
   },
   {
-    "id": 197754,
-    "mal_id": 62331,
-    "name": "LIAR GAME",
-    "english_title": "LIAR GAME",
-    "episode": 18,
-    "release_date": null,
-    "next_airing_date": "2026-08-03",
-    "next_episode_number": 18,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197754-Q5KqcUhIdypp.png",
-    "trailer": {
-      "id": "FIPOXj00ysQ",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/FIPOXj00ysQ/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/197754",
-    "start_date": "2026-04-07",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371851/liar-game",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 39916,
-    "anilist_score": 61,
-    "recently_finished": false,
-    "popularity_rank": 20
-  },
-  {
     "id": 202508,
     "mal_id": 62981,
     "name": "Kami no Shizuku",
@@ -991,6 +961,11 @@
         "site": "Crunchyroll",
         "url": "https://crunchyroll.com/series/GT00371630/daemons-of-the-shadow-realm",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/82719204",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
     "popularity": 124706,
@@ -1675,10 +1650,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 46877,
+    "popularity": 47557,
     "anilist_score": 76,
     "recently_finished": false,
-    "popularity_rank": 15
+    "popularity_rank": 14
   },
   {
     "id": 200637,
@@ -1888,8 +1863,8 @@
   {
     "id": 141953,
     "mal_id": 60568,
-    "name": "Jiyi Guanli Ju",
-    "english_title": "False Memory",
+    "name": "Jiyi Guanli Ju (2026)",
+    "english_title": "False Memory (2026)",
     "episode": 3,
     "release_date": "2026-08-02",
     "next_airing_date": "2026-08-09",

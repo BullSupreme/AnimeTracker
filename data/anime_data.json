@@ -148,6 +148,11 @@
         "site": "Crunchyroll",
         "url": "https://crunchyroll.com/series/GT00371630/daemons-of-the-shadow-realm",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/82719204",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
     "popularity": 124706,
@@ -487,6 +492,36 @@
     "popularity_rank": 13
   },
   {
+    "id": 103303,
+    "mal_id": 62856,
+    "name": "Nijusseiki Denki Mokuroku: Eureka Evrika",
+    "english_title": "Sparks of Tomorrow",
+    "episode": 5,
+    "release_date": "2026-08-02",
+    "next_airing_date": "2026-08-09",
+    "next_episode_number": 6,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103303-IF43hFJPPv2Y.png",
+    "trailer": {
+      "id": "-W2vs2etG9o",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/-W2vs2etG9o/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/103303",
+    "start_date": "2026-07-05",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81698957",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 47557,
+    "anilist_score": 76,
+    "recently_finished": false,
+    "popularity_rank": 14
+  },
+  {
     "id": 187260,
     "mal_id": 61126,
     "name": "Kimi ga Shinu made Koi wo Shitai",
@@ -513,36 +548,6 @@
     ],
     "popularity": 47046,
     "anilist_score": 75,
-    "recently_finished": false,
-    "popularity_rank": 14
-  },
-  {
-    "id": 103303,
-    "mal_id": 62856,
-    "name": "Nijusseiki Denki Mokuroku: Eureka Evrika",
-    "english_title": "Sparks of Tomorrow",
-    "episode": 5,
-    "release_date": "2026-08-02",
-    "next_airing_date": "2026-08-09",
-    "next_episode_number": 6,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103303-IF43hFJPPv2Y.png",
-    "trailer": {
-      "id": "-W2vs2etG9o",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/-W2vs2etG9o/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/103303",
-    "start_date": "2026-07-05",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/81698957",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      }
-    ],
-    "popularity": 46877,
-    "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 15
   },
@@ -618,8 +623,8 @@
     "english_title": "Skeleton Knight in Another World Season 2",
     "episode": 5,
     "release_date": "2026-08-03",
-    "next_airing_date": "2026-08-03",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-10",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185542-6a9LCWlLHa0T.jpg",
     "trailer": {
       "id": "Enu3fyOdkoM",
@@ -682,9 +687,9 @@
     "name": "LIAR GAME",
     "english_title": "LIAR GAME",
     "episode": 18,
-    "release_date": null,
-    "next_airing_date": "2026-08-03",
-    "next_episode_number": 18,
+    "release_date": "2026-08-03",
+    "next_airing_date": "2026-08-10",
+    "next_episode_number": 19,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197754-Q5KqcUhIdypp.png",
     "trailer": {
       "id": "FIPOXj00ysQ",
@@ -848,8 +853,8 @@
     "english_title": "Grand Blue Dreaming Season 3",
     "episode": 5,
     "release_date": "2026-08-03",
-    "next_airing_date": "2026-08-03",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-10",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199111-gBSuBG61ElcW.jpg",
     "trailer": {
       "id": "KJw6ZZaMOWA",
@@ -973,8 +978,8 @@
     "english_title": "Love Unseen Beneath the Clear Night Sky",
     "episode": 5,
     "release_date": "2026-08-03",
-    "next_airing_date": "2026-08-03",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-10",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202269-7KNj8s2fSsJJ.jpg",
     "trailer": {
       "id": "OPZ7TOGxWqI",
@@ -1103,8 +1108,8 @@
     "english_title": "Oh Boy, Was I Wrong About Her",
     "episode": 5,
     "release_date": "2026-08-03",
-    "next_airing_date": "2026-08-03",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-10",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169583-0ZTdBGrKNIbe.jpg",
     "trailer": {
       "id": "UTsFnJgDJz8",
@@ -1316,7 +1321,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23561,
+    "popularity": 23702,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 39
@@ -1428,8 +1433,8 @@
     "english_title": "The Insipid Prince's Furtive Grab for the Throne",
     "episode": 5,
     "release_date": "2026-08-03",
-    "next_airing_date": "2026-08-03",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-10",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169582-quL8VMg45fcu.png",
     "trailer": {
       "id": "tcaxQBQMTEk",
@@ -1493,8 +1498,8 @@
     "english_title": "The World Is Dancing",
     "episode": 6,
     "release_date": "2026-08-03",
-    "next_airing_date": "2026-08-03",
-    "next_episode_number": 6,
+    "next_airing_date": "2026-08-10",
+    "next_episode_number": 7,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206521-ecJuDgjth84C.png",
     "trailer": {
       "id": "h2zytdkjAU8",
@@ -1638,8 +1643,8 @@
     "english_title": "A Livid Lady’s Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires",
     "episode": 5,
     "release_date": "2026-08-03",
-    "next_airing_date": "2026-08-03",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-10",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199408-ocRWG4pRWl8f.png",
     "trailer": {
       "id": "yC4TghEG8q8",
@@ -1787,8 +1792,8 @@
     "english_title": "The Forsaken Saintess and Her Foodie Roadtrip in Another World",
     "episode": 5,
     "release_date": "2026-08-03",
-    "next_airing_date": "2026-08-03",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-10",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209504-yRxHWxKuNGtg.jpg",
     "trailer": {
       "id": "VS0bW7JnEm0",
@@ -2130,7 +2135,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7214,
+    "popularity": 7236,
     "anilist_score": 50,
     "recently_finished": false,
     "popularity_rank": 64
@@ -2238,8 +2243,8 @@
   {
     "id": 141953,
     "mal_id": 60568,
-    "name": "Jiyi Guanli Ju",
-    "english_title": "False Memory",
+    "name": "Jiyi Guanli Ju (2026)",
+    "english_title": "False Memory (2026)",
     "episode": 3,
     "release_date": "2026-08-02",
     "next_airing_date": "2026-08-09",
@@ -2414,7 +2419,7 @@
     "release_date": "2026-08-04",
     "next_airing_date": "2026-08-04",
     "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213847-emdj0kmGX3vv.jpg",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213847-wnpCDRo5r1eR.jpg",
     "trailer": {
       "id": "6nUStmkGRec",
       "site": "youtube",
