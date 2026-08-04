@@ -164,7 +164,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 47557,
+    "popularity": 47981,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 14
@@ -210,7 +210,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 737309,
+    "popularity": 737725,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -677,8 +677,8 @@
     "english_title": "I Want to Love You Till Your Dying Day",
     "episode": 1,
     "release_date": "2026-07-07",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187260-WW5RBa5NINRP.jpg",
     "trailer": {
       "id": "zJLbfK_9ZmQ",
@@ -707,8 +707,8 @@
     "english_title": "THE GHOST IN THE SHELL",
     "episode": 1,
     "release_date": "2026-07-07",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177699-hnzc1CS5ZSM2.png",
     "trailer": {
       "id": "b_v0-RWLo18",
@@ -742,8 +742,8 @@
     "english_title": "The Oblivious Saint Can't Contain Her Power",
     "episode": 2,
     "release_date": "2026-07-07",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 6,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 7,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196219-imvC0rbk4VzH.jpg",
     "trailer": {
       "id": "R82wqxOXPIM",
@@ -772,8 +772,8 @@
     "english_title": "Red River",
     "episode": 1,
     "release_date": "2026-07-07",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207809-cpS7CAyjN7iP.jpg",
     "trailer": {
       "id": "qpFcQ1Bek08",
@@ -796,14 +796,44 @@
     "popularity_rank": 58
   },
   {
+    "id": 213847,
+    "mal_id": 61546,
+    "name": "Star Wars: Visions - Kyuuninme no Jedi",
+    "english_title": "Star Wars: Visions Presents - The Ninth Jedi",
+    "episode": 4,
+    "release_date": "2026-07-07",
+    "next_airing_date": null,
+    "next_episode_number": 8,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213847-wnpCDRo5r1eR.jpg",
+    "trailer": {
+      "id": "6nUStmkGRec",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/6nUStmkGRec/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/213847",
+    "start_date": "2026-08-05",
+    "end_date": "2026-08-05",
+    "streaming_links": [
+      {
+        "site": "Disney Plus",
+        "url": "https://www.disneyplus.com/browse/entity-921588f0-9a3b-4cd6-80d6-0a7cc9ed388a",
+        "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
+      }
+    ],
+    "popularity": 2580,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 73
+  },
+  {
     "id": 128757,
     "mal_id": 46488,
     "name": "Tai-Ari deshita.: Ojou-sama wa Kakutou Game nante Shinai",
     "english_title": "Young Ladies Don't Play Fighting Games",
     "episode": 1,
     "release_date": "2026-07-07",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128757-Iqc6hTjEYIz4.png",
     "trailer": {
       "id": "5PAsOIcot7I",
@@ -820,7 +850,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23702,
+    "popularity": 23817,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 39
@@ -832,8 +862,8 @@
     "english_title": "Victoria of Many Faces",
     "episode": 1,
     "release_date": "2026-07-07",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198709-3PFLvU6eqPvf.jpg",
     "trailer": {
       "id": "dm8QPSlRYdI",
@@ -978,7 +1008,7 @@
     "popularity": 5930,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 67
+    "popularity_rank": 68
   },
   {
     "id": 192800,
@@ -1240,7 +1270,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 84314,
+    "popularity": 84535,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 7
@@ -1345,7 +1375,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7236,
+    "popularity": 7247,
     "anilist_score": 50,
     "recently_finished": false,
     "popularity_rank": 64
@@ -2220,7 +2250,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 78785,
+    "popularity": 78816,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 8
@@ -2590,7 +2620,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 47557,
+    "popularity": 47981,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 14
@@ -2636,7 +2666,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 737309,
+    "popularity": 737725,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -3103,8 +3133,8 @@
     "english_title": "I Want to Love You Till Your Dying Day",
     "episode": 2,
     "release_date": "2026-07-14",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187260-WW5RBa5NINRP.jpg",
     "trailer": {
       "id": "zJLbfK_9ZmQ",
@@ -3133,8 +3163,8 @@
     "english_title": "THE GHOST IN THE SHELL",
     "episode": 2,
     "release_date": "2026-07-14",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177699-hnzc1CS5ZSM2.png",
     "trailer": {
       "id": "b_v0-RWLo18",
@@ -3168,8 +3198,8 @@
     "english_title": "The Oblivious Saint Can't Contain Her Power",
     "episode": 3,
     "release_date": "2026-07-14",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 6,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 7,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196219-imvC0rbk4VzH.jpg",
     "trailer": {
       "id": "R82wqxOXPIM",
@@ -3198,8 +3228,8 @@
     "english_title": "Red River",
     "episode": 2,
     "release_date": "2026-07-14",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207809-cpS7CAyjN7iP.jpg",
     "trailer": {
       "id": "qpFcQ1Bek08",
@@ -3222,14 +3252,44 @@
     "popularity_rank": 58
   },
   {
+    "id": 213847,
+    "mal_id": 61546,
+    "name": "Star Wars: Visions - Kyuuninme no Jedi",
+    "english_title": "Star Wars: Visions Presents - The Ninth Jedi",
+    "episode": 5,
+    "release_date": "2026-07-14",
+    "next_airing_date": null,
+    "next_episode_number": 8,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213847-wnpCDRo5r1eR.jpg",
+    "trailer": {
+      "id": "6nUStmkGRec",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/6nUStmkGRec/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/213847",
+    "start_date": "2026-08-05",
+    "end_date": "2026-08-05",
+    "streaming_links": [
+      {
+        "site": "Disney Plus",
+        "url": "https://www.disneyplus.com/browse/entity-921588f0-9a3b-4cd6-80d6-0a7cc9ed388a",
+        "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
+      }
+    ],
+    "popularity": 2580,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 73
+  },
+  {
     "id": 128757,
     "mal_id": 46488,
     "name": "Tai-Ari deshita.: Ojou-sama wa Kakutou Game nante Shinai",
     "english_title": "Young Ladies Don't Play Fighting Games",
     "episode": 2,
     "release_date": "2026-07-14",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128757-Iqc6hTjEYIz4.png",
     "trailer": {
       "id": "5PAsOIcot7I",
@@ -3246,7 +3306,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23702,
+    "popularity": 23817,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 39
@@ -3258,8 +3318,8 @@
     "english_title": "Victoria of Many Faces",
     "episode": 2,
     "release_date": "2026-07-14",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198709-3PFLvU6eqPvf.jpg",
     "trailer": {
       "id": "dm8QPSlRYdI",
@@ -3404,7 +3464,7 @@
     "popularity": 5930,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 67
+    "popularity_rank": 68
   },
   {
     "id": 192800,
@@ -3666,7 +3726,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 84314,
+    "popularity": 84535,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 7
@@ -3771,7 +3831,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7236,
+    "popularity": 7247,
     "anilist_score": 50,
     "recently_finished": false,
     "popularity_rank": 64
@@ -4676,7 +4736,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 78785,
+    "popularity": 78816,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 8
@@ -4911,10 +4971,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 5811,
-    "anilist_score": 67,
+    "popularity": 6168,
+    "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 68
+    "popularity_rank": 67
   },
   {
     "id": 200637,
@@ -5081,7 +5141,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 47557,
+    "popularity": 47981,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 14
@@ -5127,7 +5187,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 737309,
+    "popularity": 737725,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -5594,8 +5654,8 @@
     "english_title": "I Want to Love You Till Your Dying Day",
     "episode": 3,
     "release_date": "2026-07-21",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187260-WW5RBa5NINRP.jpg",
     "trailer": {
       "id": "zJLbfK_9ZmQ",
@@ -5624,8 +5684,8 @@
     "english_title": "THE GHOST IN THE SHELL",
     "episode": 3,
     "release_date": "2026-07-21",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177699-hnzc1CS5ZSM2.png",
     "trailer": {
       "id": "b_v0-RWLo18",
@@ -5659,8 +5719,8 @@
     "english_title": "The Oblivious Saint Can't Contain Her Power",
     "episode": 4,
     "release_date": "2026-07-21",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 6,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 7,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196219-imvC0rbk4VzH.jpg",
     "trailer": {
       "id": "R82wqxOXPIM",
@@ -5689,8 +5749,8 @@
     "english_title": "Red River",
     "episode": 3,
     "release_date": "2026-07-21",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207809-cpS7CAyjN7iP.jpg",
     "trailer": {
       "id": "qpFcQ1Bek08",
@@ -5713,14 +5773,44 @@
     "popularity_rank": 58
   },
   {
+    "id": 213847,
+    "mal_id": 61546,
+    "name": "Star Wars: Visions - Kyuuninme no Jedi",
+    "english_title": "Star Wars: Visions Presents - The Ninth Jedi",
+    "episode": 6,
+    "release_date": "2026-07-21",
+    "next_airing_date": null,
+    "next_episode_number": 8,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213847-wnpCDRo5r1eR.jpg",
+    "trailer": {
+      "id": "6nUStmkGRec",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/6nUStmkGRec/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/213847",
+    "start_date": "2026-08-05",
+    "end_date": "2026-08-05",
+    "streaming_links": [
+      {
+        "site": "Disney Plus",
+        "url": "https://www.disneyplus.com/browse/entity-921588f0-9a3b-4cd6-80d6-0a7cc9ed388a",
+        "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
+      }
+    ],
+    "popularity": 2580,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 73
+  },
+  {
     "id": 128757,
     "mal_id": 46488,
     "name": "Tai-Ari deshita.: Ojou-sama wa Kakutou Game nante Shinai",
     "english_title": "Young Ladies Don't Play Fighting Games",
     "episode": 3,
     "release_date": "2026-07-21",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128757-Iqc6hTjEYIz4.png",
     "trailer": {
       "id": "5PAsOIcot7I",
@@ -5737,7 +5827,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23702,
+    "popularity": 23817,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 39
@@ -5749,8 +5839,8 @@
     "english_title": "Victoria of Many Faces",
     "episode": 3,
     "release_date": "2026-07-21",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198709-3PFLvU6eqPvf.jpg",
     "trailer": {
       "id": "dm8QPSlRYdI",
@@ -5895,7 +5985,7 @@
     "popularity": 5930,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 67
+    "popularity_rank": 68
   },
   {
     "id": 192800,
@@ -6157,7 +6247,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 84314,
+    "popularity": 84535,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 7
@@ -6262,7 +6352,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7236,
+    "popularity": 7247,
     "anilist_score": 50,
     "recently_finished": false,
     "popularity_rank": 64
@@ -7207,7 +7297,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 78785,
+    "popularity": 78816,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 8
@@ -7442,10 +7532,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 5811,
-    "anilist_score": 67,
+    "popularity": 6168,
+    "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 68
+    "popularity_rank": 67
   },
   {
     "id": 200637,
@@ -7612,7 +7702,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 47557,
+    "popularity": 47981,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 14
@@ -7658,7 +7748,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 737309,
+    "popularity": 737725,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -8125,8 +8215,8 @@
     "english_title": "I Want to Love You Till Your Dying Day",
     "episode": 4,
     "release_date": "2026-07-28",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187260-WW5RBa5NINRP.jpg",
     "trailer": {
       "id": "zJLbfK_9ZmQ",
@@ -8155,8 +8245,8 @@
     "english_title": "THE GHOST IN THE SHELL",
     "episode": 4,
     "release_date": "2026-07-28",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177699-hnzc1CS5ZSM2.png",
     "trailer": {
       "id": "b_v0-RWLo18",
@@ -8190,8 +8280,8 @@
     "english_title": "The Oblivious Saint Can't Contain Her Power",
     "episode": 5,
     "release_date": "2026-07-28",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 6,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 7,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196219-imvC0rbk4VzH.jpg",
     "trailer": {
       "id": "R82wqxOXPIM",
@@ -8220,8 +8310,8 @@
     "english_title": "Red River",
     "episode": 4,
     "release_date": "2026-07-28",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207809-cpS7CAyjN7iP.jpg",
     "trailer": {
       "id": "qpFcQ1Bek08",
@@ -8244,14 +8334,44 @@
     "popularity_rank": 58
   },
   {
+    "id": 213847,
+    "mal_id": 61546,
+    "name": "Star Wars: Visions - Kyuuninme no Jedi",
+    "english_title": "Star Wars: Visions Presents - The Ninth Jedi",
+    "episode": 7,
+    "release_date": "2026-07-28",
+    "next_airing_date": null,
+    "next_episode_number": 8,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213847-wnpCDRo5r1eR.jpg",
+    "trailer": {
+      "id": "6nUStmkGRec",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/6nUStmkGRec/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/213847",
+    "start_date": "2026-08-05",
+    "end_date": "2026-08-05",
+    "streaming_links": [
+      {
+        "site": "Disney Plus",
+        "url": "https://www.disneyplus.com/browse/entity-921588f0-9a3b-4cd6-80d6-0a7cc9ed388a",
+        "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
+      }
+    ],
+    "popularity": 2580,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 73
+  },
+  {
     "id": 128757,
     "mal_id": 46488,
     "name": "Tai-Ari deshita.: Ojou-sama wa Kakutou Game nante Shinai",
     "english_title": "Young Ladies Don't Play Fighting Games",
     "episode": 4,
     "release_date": "2026-07-28",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128757-Iqc6hTjEYIz4.png",
     "trailer": {
       "id": "5PAsOIcot7I",
@@ -8268,7 +8388,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23702,
+    "popularity": 23817,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 39
@@ -8280,8 +8400,8 @@
     "english_title": "Victoria of Many Faces",
     "episode": 4,
     "release_date": "2026-07-28",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198709-3PFLvU6eqPvf.jpg",
     "trailer": {
       "id": "dm8QPSlRYdI",
@@ -8406,7 +8526,7 @@
     "popularity": 5930,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 67
+    "popularity_rank": 68
   },
   {
     "id": 192800,
@@ -8668,7 +8788,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 84314,
+    "popularity": 84535,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 7
@@ -8773,7 +8893,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7236,
+    "popularity": 7247,
     "anilist_score": 50,
     "recently_finished": false,
     "popularity_rank": 64
@@ -9718,7 +9838,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 78785,
+    "popularity": 78816,
     "anilist_score": 81,
     "recently_finished": false,
     "popularity_rank": 8
@@ -9953,10 +10073,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 5811,
-    "anilist_score": 67,
+    "popularity": 6168,
+    "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 68
+    "popularity_rank": 67
   },
   {
     "id": 200637,
@@ -10123,7 +10243,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 47557,
+    "popularity": 47981,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 14
@@ -10169,7 +10289,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 737309,
+    "popularity": 737725,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -10601,8 +10721,8 @@
     "english_title": "I Want to Love You Till Your Dying Day",
     "episode": 5,
     "release_date": "2026-08-04",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187260-WW5RBa5NINRP.jpg",
     "trailer": {
       "id": "zJLbfK_9ZmQ",
@@ -10631,8 +10751,8 @@
     "english_title": "THE GHOST IN THE SHELL",
     "episode": 5,
     "release_date": "2026-08-04",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177699-hnzc1CS5ZSM2.png",
     "trailer": {
       "id": "b_v0-RWLo18",
@@ -10666,8 +10786,8 @@
     "english_title": "The Oblivious Saint Can't Contain Her Power",
     "episode": 6,
     "release_date": "2026-08-04",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 6,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 7,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196219-imvC0rbk4VzH.jpg",
     "trailer": {
       "id": "R82wqxOXPIM",
@@ -10696,8 +10816,8 @@
     "english_title": "Red River",
     "episode": 5,
     "release_date": "2026-08-04",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207809-cpS7CAyjN7iP.jpg",
     "trailer": {
       "id": "qpFcQ1Bek08",
@@ -10720,14 +10840,44 @@
     "popularity_rank": 58
   },
   {
+    "id": 213847,
+    "mal_id": 61546,
+    "name": "Star Wars: Visions - Kyuuninme no Jedi",
+    "english_title": "Star Wars: Visions Presents - The Ninth Jedi",
+    "episode": 8,
+    "release_date": "2026-08-04",
+    "next_airing_date": null,
+    "next_episode_number": 8,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213847-wnpCDRo5r1eR.jpg",
+    "trailer": {
+      "id": "6nUStmkGRec",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/6nUStmkGRec/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/213847",
+    "start_date": "2026-08-05",
+    "end_date": "2026-08-05",
+    "streaming_links": [
+      {
+        "site": "Disney Plus",
+        "url": "https://www.disneyplus.com/browse/entity-921588f0-9a3b-4cd6-80d6-0a7cc9ed388a",
+        "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
+      }
+    ],
+    "popularity": 2580,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 73
+  },
+  {
     "id": 128757,
     "mal_id": 46488,
     "name": "Tai-Ari deshita.: Ojou-sama wa Kakutou Game nante Shinai",
     "english_title": "Young Ladies Don't Play Fighting Games",
     "episode": 5,
     "release_date": "2026-08-04",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128757-Iqc6hTjEYIz4.png",
     "trailer": {
       "id": "5PAsOIcot7I",
@@ -10744,7 +10894,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23702,
+    "popularity": 23817,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 39
@@ -10756,8 +10906,8 @@
     "english_title": "Victoria of Many Faces",
     "episode": 5,
     "release_date": "2026-08-04",
-    "next_airing_date": "2026-08-04",
-    "next_episode_number": 5,
+    "next_airing_date": "2026-08-11",
+    "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198709-3PFLvU6eqPvf.jpg",
     "trailer": {
       "id": "dm8QPSlRYdI",
