@@ -22,7 +22,7 @@
       "Mystery"
     ],
     "popularity": 60470,
-    "favourites": 1001,
+    "favourites": 1008,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 1
@@ -52,7 +52,7 @@
       "Fantasy"
     ],
     "popularity": 54279,
-    "favourites": 1319,
+    "favourites": 1323,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 2
@@ -81,7 +81,7 @@
       "Sci-Fi"
     ],
     "popularity": 52016,
-    "favourites": 583,
+    "favourites": 585,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 3
@@ -110,7 +110,7 @@
       "Fantasy"
     ],
     "popularity": 34614,
-    "favourites": 538,
+    "favourites": 539,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 4
@@ -139,7 +139,7 @@
       "Sports"
     ],
     "popularity": 29988,
-    "favourites": 424,
+    "favourites": 425,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 5
@@ -200,7 +200,7 @@
       "Supernatural"
     ],
     "popularity": 20650,
-    "favourites": 268,
+    "favourites": 269,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 7
@@ -231,7 +231,7 @@
       "Supernatural"
     ],
     "popularity": 18471,
-    "favourites": 244,
+    "favourites": 245,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 8
@@ -289,8 +289,8 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 15152,
-    "favourites": 155,
+    "popularity": 15246,
+    "favourites": 157,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 10
@@ -345,7 +345,7 @@
       "Romance"
     ],
     "popularity": 13501,
-    "favourites": 177,
+    "favourites": 179,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 12
@@ -488,7 +488,7 @@
       "Mahou Shoujo"
     ],
     "popularity": 8157,
-    "favourites": 77,
+    "favourites": 78,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 17
@@ -601,7 +601,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 6686,
+    "popularity": 6710,
     "favourites": 69,
     "anilist_score": null,
     "streaming_links": [],
@@ -631,7 +631,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 6481,
+    "popularity": 6524,
     "favourites": 79,
     "anilist_score": null,
     "streaming_links": [],
@@ -899,6 +899,35 @@
     "popularity_rank": 31
   },
   {
+    "id": 213657,
+    "mal_id": 64503,
+    "name": "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
+    "english_title": "Mission: Yozakura Family Season 2 Part 2",
+    "episode": 1,
+    "release_date": "2026-10-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213657-810vFC6SN7xd.png",
+    "trailer": {
+      "id": "uiDqC5pd028",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/uiDqC5pd028/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/213657",
+    "start_date": "2026-10-01",
+    "season": "Fall",
+    "season_year": 2026,
+    "studios": "SILVER LINK.",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Romance"
+    ],
+    "popularity": 3972,
+    "favourites": 34,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 32
+  },
+  {
     "id": 169581,
     "mal_id": 56733,
     "name": "Magical★Explorer: Eroge no Yuujin Chara ni Tensei Shitakedo, Game Chishiki Tsukatte Jiyuu ni Ikiru",
@@ -925,35 +954,6 @@
     ],
     "popularity": 3968,
     "favourites": 55,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 32
-  },
-  {
-    "id": 213657,
-    "mal_id": 64503,
-    "name": "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
-    "english_title": "Mission: Yozakura Family Season 2 Part 2",
-    "episode": 1,
-    "release_date": "2026-10-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213657-810vFC6SN7xd.png",
-    "trailer": {
-      "id": "uiDqC5pd028",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/uiDqC5pd028/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/213657",
-    "start_date": "2026-10-01",
-    "season": "Fall",
-    "season_year": 2026,
-    "studios": "SILVER LINK.",
-    "genres": [
-      "Action",
-      "Comedy",
-      "Romance"
-    ],
-    "popularity": 3952,
-    "favourites": 34,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 33
@@ -1040,7 +1040,7 @@
       "Slice of Life"
     ],
     "popularity": 2683,
-    "favourites": 35,
+    "favourites": 36,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 36
@@ -1127,7 +1127,7 @@
       "Fantasy"
     ],
     "popularity": 2334,
-    "favourites": 21,
+    "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 39
@@ -1154,8 +1154,8 @@
       "Ecchi",
       "Supernatural"
     ],
-    "popularity": 2292,
-    "favourites": 44,
+    "popularity": 2323,
+    "favourites": 45,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 40
@@ -1265,7 +1265,7 @@
     "genres": [
       "Sports"
     ],
-    "popularity": 1890,
+    "popularity": 1898,
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
@@ -1567,7 +1567,7 @@
       "Slice of Life"
     ],
     "popularity": 1169,
-    "favourites": 6,
+    "favourites": 7,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 55
@@ -1622,7 +1622,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 1121,
+    "popularity": 1128,
     "favourites": 6,
     "anilist_score": null,
     "streaming_links": [],
