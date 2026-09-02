@@ -1,5 +1,40 @@
 [
   {
+    "id": 198709,
+    "mal_id": 62476,
+    "name": "Tefuda ga Oome no Victoria",
+    "english_title": "Victoria of Many Faces",
+    "episode": 9,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 9,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198709-3PFLvU6eqPvf.jpg",
+    "trailer": {
+      "id": "dm8QPSlRYdI",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/dm8QPSlRYdI/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/198709",
+    "start_date": "2026-07-08",
+    "end_date": "2026-09-02",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00378126/victoria-of-many-faces",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLODXJn5su6ew",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 14783,
+    "anilist_score": 73,
+    "recently_finished": true,
+    "popularity_rank": 54
+  },
+  {
     "id": 141953,
     "mal_id": 60568,
     "name": "Jiyi Guanli Ju (2026)",
@@ -29,7 +64,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 12706,
+    "popularity": 12872,
     "anilist_score": 85,
     "recently_finished": true,
     "popularity_rank": 57
