@@ -4,10 +4,10 @@
     "mal_id": 61483,
     "name": "Tenmaku no Jaadugar",
     "english_title": "Jaadugar: A Witch in Mongolia",
-    "episode": 11,
+    "episode": 12,
     "release_date": null,
     "next_airing_date": null,
-    "next_episode_number": 11,
+    "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx190569-KnCQLI3Z8hPX.jpg",
     "trailer": {
       "id": "GBHYXPp1lt8",
@@ -24,8 +24,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 41843,
-    "anilist_score": 82,
+    "popularity": 42272,
+    "anilist_score": 83,
     "recently_finished": true,
     "popularity_rank": 25
   },
@@ -59,10 +59,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 23604,
+    "popularity": 23869,
     "anilist_score": 78,
     "recently_finished": true,
-    "popularity_rank": 46
+    "popularity_rank": 44
   },
   {
     "id": 208044,
@@ -89,34 +89,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 50828,
+    "popularity": 51128,
     "anilist_score": 62,
     "recently_finished": true,
     "popularity_rank": 18
-  },
-  {
-    "id": 205068,
-    "mal_id": 64683,
-    "name": "Wollum Jogyonim",
-    "english_title": "One-Room TA",
-    "episode": 3,
-    "release_date": "2026-09-27",
-    "next_airing_date": "2026-09-27",
-    "next_episode_number": 3,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205068-KPJVtEp9imju.jpg",
-    "trailer": {
-      "id": "MIGS_dy-teU",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/MIGS_dy-teU/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/205068",
-    "start_date": "2026-08-28",
-    "end_date": "2026-09-11",
-    "streaming_links": [],
-    "popularity": 3596,
-    "anilist_score": 75,
-    "recently_finished": true,
-    "popularity_rank": 74
   },
   {
     "id": 197715,
@@ -143,7 +119,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 37393,
+    "popularity": 37569,
     "anilist_score": 61,
     "recently_finished": true,
     "popularity_rank": 35
@@ -183,10 +159,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 7513,
+    "popularity": 7550,
     "anilist_score": 75,
     "recently_finished": true,
-    "popularity_rank": 67
+    "popularity_rank": 66
   },
   {
     "id": 192800,
@@ -213,7 +189,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 21834,
+    "popularity": 21930,
     "anilist_score": 70,
     "recently_finished": true,
     "popularity_rank": 47
@@ -248,7 +224,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 52796,
+    "popularity": 52968,
     "anilist_score": 77,
     "recently_finished": true,
     "popularity_rank": 16
@@ -283,44 +259,9 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 15454,
-    "anilist_score": 73,
+    "popularity": 15499,
+    "anilist_score": 74,
     "recently_finished": true,
     "popularity_rank": 54
-  },
-  {
-    "id": 141953,
-    "mal_id": 60568,
-    "name": "Jiyi Guanli Ju (2026)",
-    "english_title": "False Memory (2026)",
-    "episode": 7,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 7,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141953-S3RozQSOxzrw.png",
-    "trailer": {
-      "id": "yfz2c9LE6ew",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/yfz2c9LE6ew/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/141953",
-    "start_date": "2026-08-02",
-    "end_date": "2026-08-30",
-    "streaming_links": [
-      {
-        "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md23774118",
-        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@记忆管理局FalseMemory",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 14637,
-    "anilist_score": 86,
-    "recently_finished": true,
-    "popularity_rank": 55
   }
 ]
