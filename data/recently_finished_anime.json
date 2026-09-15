@@ -1,5 +1,70 @@
 [
   {
+    "id": 196219,
+    "mal_id": 62080,
+    "name": "Mujikaku Seijo wa Kyou mo Muishiki ni Chikara wo Tare Nagasu",
+    "english_title": "The Oblivious Saint Can't Contain Her Power",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196219-imvC0rbk4VzH.jpg",
+    "trailer": {
+      "id": "R82wqxOXPIM",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/R82wqxOXPIM/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/196219",
+    "start_date": "2026-06-30",
+    "end_date": "2026-09-15",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00378125/",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 20355,
+    "anilist_score": 62,
+    "recently_finished": true,
+    "popularity_rank": 50
+  },
+  {
+    "id": 213484,
+    "mal_id": 62957,
+    "name": "Bai Ri Cheng Wang",
+    "english_title": "Crowned in a Hundred Days",
+    "episode": 25,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 25,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213484-FIyYH43ASHgB.png",
+    "trailer": {
+      "id": "IYcGvpXYfGE",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/IYcGvpXYfGE/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/213484",
+    "start_date": "2026-07-03",
+    "end_date": "2026-09-15",
+    "streaming_links": [
+      {
+        "site": "Bilibili",
+        "url": "https://www.bilibili.com/bangumi/media/md281710135",
+        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00379214/crowned-in-a-hundred-days",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 3610,
+    "anilist_score": 63,
+    "recently_finished": true,
+    "popularity_rank": 74
+  },
+  {
     "id": 190569,
     "mal_id": 61483,
     "name": "Tenmaku no Jaadugar",
@@ -24,7 +89,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 42624,
+    "popularity": 42814,
     "anilist_score": 84,
     "recently_finished": true,
     "popularity_rank": 24
@@ -59,7 +124,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 24050,
+    "popularity": 24141,
     "anilist_score": 78,
     "recently_finished": true,
     "popularity_rank": 44
@@ -89,7 +154,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 51409,
+    "popularity": 51618,
     "anilist_score": 62,
     "recently_finished": true,
     "popularity_rank": 18
@@ -113,8 +178,8 @@
     "start_date": "2026-08-28",
     "end_date": "2026-09-11",
     "streaming_links": [],
-    "popularity": 3701,
-    "anilist_score": 75,
+    "popularity": 3733,
+    "anilist_score": 76,
     "recently_finished": true,
     "popularity_rank": 73
   },
@@ -143,7 +208,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 37709,
+    "popularity": 37850,
     "anilist_score": 61,
     "recently_finished": true,
     "popularity_rank": 35
@@ -183,8 +248,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 7589,
-    "anilist_score": 75,
+    "popularity": 7621,
+    "anilist_score": 74,
     "recently_finished": true,
     "popularity_rank": 66
   },
@@ -213,7 +278,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 22022,
+    "popularity": 22098,
     "anilist_score": 70,
     "recently_finished": true,
     "popularity_rank": 48
@@ -248,7 +313,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 53135,
+    "popularity": 53259,
     "anilist_score": 77,
     "recently_finished": true,
     "popularity_rank": 16
@@ -283,7 +348,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 15561,
+    "popularity": 15597,
     "anilist_score": 74,
     "recently_finished": true,
     "popularity_rank": 54
