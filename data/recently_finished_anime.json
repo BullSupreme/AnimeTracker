@@ -1,5 +1,35 @@
 [
   {
+    "id": 199748,
+    "mal_id": 62617,
+    "name": "Koko wa Ore ni Makasete Saki ni Ike to Ittekara 10-nen ga Tattara Densetsu ni Natteita.",
+    "english_title": "I Became a Legend After My 10 Year-Long Last Stand",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199748-PAFk9pGSUmFL.png",
+    "trailer": {
+      "id": "_9FRdFYJOdg",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/_9FRdFYJOdg/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/199748",
+    "start_date": "2026-07-03",
+    "end_date": "2026-09-18",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371671",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 39901,
+    "anilist_score": 62,
+    "recently_finished": true,
+    "popularity_rank": 32
+  },
+  {
     "id": 204466,
     "mal_id": 63150,
     "name": "Otome Kaijuu Caraméliser",
@@ -33,6 +63,76 @@
     "anilist_score": 75,
     "recently_finished": true,
     "popularity_rank": 33
+  },
+  {
+    "id": 196218,
+    "mal_id": 62078,
+    "name": "Ryoumin 0-Nin Start no Henkyou Ryoushu-sama",
+    "english_title": "The Frontier Lord Begins with Zero Subjects",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196218-UsdTTCrwpDIN.jpg",
+    "trailer": {
+      "id": "5JpTU6wj_-g",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/5JpTU6wj_-g/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/196218",
+    "start_date": "2026-07-03",
+    "end_date": "2026-09-18",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00378124/the-frontier-lord-begins-with-zero-subjects",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 31974,
+    "anilist_score": 66,
+    "recently_finished": true,
+    "popularity_rank": 38
+  },
+  {
+    "id": 202508,
+    "mal_id": 62981,
+    "name": "Kami no Shizuku",
+    "english_title": "The Drops of God",
+    "episode": 24,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 24,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202508-dk6LEyevJYUY.jpg",
+    "trailer": {
+      "id": "Oz5EkYVJbBc",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/Oz5EkYVJbBc/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/202508",
+    "start_date": "2026-04-10",
+    "end_date": "2026-09-18",
+    "streaming_links": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@dropsofgodanime",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLbuF5Onrcu9fuunA9-WbxAZpiwmHUS0w9",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 5965,
+    "anilist_score": 54,
+    "recently_finished": true,
+    "popularity_rank": 69
   },
   {
     "id": 209669,
