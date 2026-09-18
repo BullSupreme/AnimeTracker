@@ -1,13 +1,48 @@
 [
   {
-    "id": 209669,
-    "mal_id": 63780,
-    "name": "Hanazakari no Kimitachi e 2nd Season",
-    "english_title": "Hana-Kimi Season 2",
+    "id": 204466,
+    "mal_id": 63150,
+    "name": "Otome Kaijuu Caraméliser",
+    "english_title": "KAIJU GIRL CARAMELISE",
     "episode": 12,
     "release_date": null,
     "next_airing_date": null,
     "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204466-vXMvIs4VOoQd.png",
+    "trailer": {
+      "id": "ECtHlHde3EQ",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/ECtHlHde3EQ/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/204466",
+    "start_date": "2026-07-03",
+    "end_date": "2026-09-18",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00378081/kaiju-girl-caramelise",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl38hoyHQ6-C5HAQ9lJ5jkdG",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 39630,
+    "anilist_score": 75,
+    "recently_finished": true,
+    "popularity_rank": 33
+  },
+  {
+    "id": 209669,
+    "mal_id": 63780,
+    "name": "Hanazakari no Kimitachi e 2nd Season",
+    "english_title": "Hana-Kimi Season 2",
+    "episode": 13,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209669-7GlPe2ra5f1i.jpg",
     "trailer": {
       "id": "dN7LV-oVFBg",
@@ -24,7 +59,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7145,
+    "popularity": 7170,
     "anilist_score": 71,
     "recently_finished": true,
     "popularity_rank": 67
@@ -59,8 +94,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 4762,
-    "anilist_score": 74,
+    "popularity": 4783,
+    "anilist_score": 73,
     "recently_finished": true,
     "popularity_rank": 71
   },
@@ -89,8 +124,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 20832,
-    "anilist_score": 63,
+    "popularity": 20920,
+    "anilist_score": 62,
     "recently_finished": true,
     "popularity_rank": 50
   },
@@ -99,10 +134,10 @@
     "mal_id": 62957,
     "name": "Bai Ri Cheng Wang",
     "english_title": "Crowned in a Hundred Days",
-    "episode": 25,
+    "episode": 12,
     "release_date": null,
     "next_airing_date": null,
-    "next_episode_number": 25,
+    "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213484-FIyYH43ASHgB.png",
     "trailer": {
       "id": "IYcGvpXYfGE",
@@ -124,8 +159,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 3678,
-    "anilist_score": 64,
+    "popularity": 3694,
+    "anilist_score": 65,
     "recently_finished": true,
     "popularity_rank": 73
   },
@@ -154,7 +189,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 43130,
+    "popularity": 43252,
     "anilist_score": 84,
     "recently_finished": true,
     "popularity_rank": 23
@@ -189,7 +224,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 24329,
+    "popularity": 24398,
     "anilist_score": 78,
     "recently_finished": true,
     "popularity_rank": 44
@@ -219,7 +254,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 51985,
+    "popularity": 52180,
     "anilist_score": 62,
     "recently_finished": true,
     "popularity_rank": 18
@@ -229,10 +264,10 @@
     "mal_id": 64683,
     "name": "Wollum Jogyonim",
     "english_title": "One-Room TA",
-    "episode": 7,
+    "episode": 4,
     "release_date": null,
     "next_airing_date": null,
-    "next_episode_number": 7,
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205068-KPJVtEp9imju.jpg",
     "trailer": {
       "id": "MIGS_dy-teU",
@@ -243,7 +278,7 @@
     "start_date": "2026-08-28",
     "end_date": "2026-09-11",
     "streaming_links": [],
-    "popularity": 3774,
+    "popularity": 3805,
     "anilist_score": 76,
     "recently_finished": true,
     "popularity_rank": 72
@@ -273,7 +308,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 38065,
+    "popularity": 38169,
     "anilist_score": 61,
     "recently_finished": true,
     "popularity_rank": 35
@@ -283,10 +318,10 @@
     "mal_id": 62430,
     "name": "BanG Dream! Yume∞Mita",
     "english_title": "BanG Dream! YUME∞MITA",
-    "episode": 12,
+    "episode": 13,
     "release_date": null,
     "next_airing_date": null,
-    "next_episode_number": 12,
+    "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198376-sc5qcFv0RSH9.jpg",
     "trailer": {
       "id": "sMcHl3g6aS4",
@@ -313,7 +348,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 7657,
+    "popularity": 7674,
     "anilist_score": 75,
     "recently_finished": true,
     "popularity_rank": 65
@@ -343,7 +378,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 22220,
+    "popularity": 22272,
     "anilist_score": 70,
     "recently_finished": true,
     "popularity_rank": 48
@@ -378,9 +413,9 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 53493,
+    "popularity": 53584,
     "anilist_score": 77,
     "recently_finished": true,
-    "popularity_rank": 16
+    "popularity_rank": 17
   }
 ]
