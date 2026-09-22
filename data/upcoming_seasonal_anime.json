@@ -21,8 +21,8 @@
       "Drama",
       "Mystery"
     ],
-    "popularity": 71212,
-    "favourites": 1334,
+    "popularity": 71713,
+    "favourites": 1343,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 1
@@ -50,8 +50,8 @@
       "Drama",
       "Sci-Fi"
     ],
-    "popularity": 64236,
-    "favourites": 747,
+    "popularity": 64728,
+    "favourites": 748,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 2
@@ -80,8 +80,8 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 62884,
-    "favourites": 1570,
+    "popularity": 63236,
+    "favourites": 1578,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 3
@@ -109,8 +109,8 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 37755,
-    "favourites": 593,
+    "popularity": 37942,
+    "favourites": 594,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 4
@@ -138,7 +138,7 @@
       "Slice of Life",
       "Sports"
     ],
-    "popularity": 33843,
+    "popularity": 34066,
     "favourites": 484,
     "anilist_score": null,
     "streaming_links": [],
@@ -169,8 +169,8 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 24286,
-    "favourites": 336,
+    "popularity": 24484,
+    "favourites": 342,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 6
@@ -199,11 +199,41 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 23522,
-    "favourites": 282,
+    "popularity": 23640,
+    "favourites": 284,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 7
+  },
+  {
+    "id": 213805,
+    "mal_id": 64534,
+    "name": "Koori no Jouheki 2nd Season",
+    "english_title": "The Ramparts of Ice Season 2",
+    "episode": 1,
+    "release_date": "2026-10-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213805-Nokui3uWlIlw.png",
+    "trailer": {
+      "id": "VvzeL7UMCE8",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/VvzeL7UMCE8/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/213805",
+    "start_date": "2026-10-01",
+    "season": "Fall",
+    "season_year": 2026,
+    "studios": "Studio KAI, TBS",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance",
+      "Slice of Life"
+    ],
+    "popularity": 20301,
+    "favourites": 212,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 8
   },
   {
     "id": 152677,
@@ -230,38 +260,8 @@
       "Romance",
       "Supernatural"
     ],
-    "popularity": 20117,
-    "favourites": 260,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 8
-  },
-  {
-    "id": 213805,
-    "mal_id": 64534,
-    "name": "Koori no Jouheki 2nd Season",
-    "english_title": "The Ramparts of Ice Season 2",
-    "episode": 1,
-    "release_date": "2026-10-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213805-Nokui3uWlIlw.png",
-    "trailer": {
-      "id": "VvzeL7UMCE8",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/VvzeL7UMCE8/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/213805",
-    "start_date": "2026-10-01",
-    "season": "Fall",
-    "season_year": 2026,
-    "studios": "Studio KAI, TBS",
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Romance",
-      "Slice of Life"
-    ],
-    "popularity": 20085,
-    "favourites": 209,
+    "popularity": 20237,
+    "favourites": 261,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 9
@@ -289,8 +289,8 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 19926,
-    "favourites": 257,
+    "popularity": 20063,
+    "favourites": 259,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 10
@@ -317,8 +317,8 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 18142,
-    "favourites": 221,
+    "popularity": 18412,
+    "favourites": 222,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 11
@@ -347,8 +347,8 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "popularity": 15827,
-    "favourites": 96,
+    "popularity": 16172,
+    "favourites": 98,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 12
@@ -374,8 +374,8 @@
     "genres": [
       "Sports"
     ],
-    "popularity": 15793,
-    "favourites": 174,
+    "popularity": 15921,
+    "favourites": 175,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 13
@@ -402,7 +402,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 14026,
+    "popularity": 14189,
     "favourites": 144,
     "anilist_score": null,
     "streaming_links": [],
@@ -430,8 +430,8 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 12620,
-    "favourites": 95,
+    "popularity": 12916,
+    "favourites": 96,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 15
@@ -458,8 +458,8 @@
       "Action",
       "Adventure"
     ],
-    "popularity": 10517,
-    "favourites": 176,
+    "popularity": 10666,
+    "favourites": 179,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 16
@@ -487,8 +487,8 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 10398,
-    "favourites": 127,
+    "popularity": 10505,
+    "favourites": 128,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 17
@@ -516,8 +516,8 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 10315,
-    "favourites": 76,
+    "popularity": 10411,
+    "favourites": 78,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 18
@@ -546,7 +546,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 9867,
+    "popularity": 10039,
     "favourites": 119,
     "anilist_score": null,
     "streaming_links": [],
@@ -575,7 +575,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 9858,
+    "popularity": 10025,
     "favourites": 103,
     "anilist_score": null,
     "streaming_links": [],
@@ -604,7 +604,7 @@
       "Fantasy",
       "Mahou Shoujo"
     ],
-    "popularity": 9265,
+    "popularity": 9324,
     "favourites": 87,
     "anilist_score": null,
     "streaming_links": [],
@@ -632,8 +632,8 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 9096,
-    "favourites": 104,
+    "popularity": 9204,
+    "favourites": 103,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 22
@@ -661,11 +661,39 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 8921,
-    "favourites": 101,
+    "popularity": 9047,
+    "favourites": 102,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 23
+  },
+  {
+    "id": 207191,
+    "mal_id": 63409,
+    "name": "Doumo, Suki na Hito ni Horegusuri wo Irai Sareta Majo desu.",
+    "english_title": "Hello, I am a Witch and my Crush Wants me to Make a Love Potion!",
+    "episode": 1,
+    "release_date": "2026-10-05",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b207191-MV0uJNxN7LNY.jpg",
+    "trailer": {
+      "id": "hGRtocAh3iw",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/hGRtocAh3iw/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/207191",
+    "start_date": "2026-10-05",
+    "season": "Fall",
+    "season_year": 2026,
+    "studios": "diomedéa",
+    "genres": [
+      "Fantasy",
+      "Romance"
+    ],
+    "popularity": 7709,
+    "favourites": 60,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 24
   },
   {
     "id": 204011,
@@ -690,36 +718,8 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "popularity": 7537,
-    "favourites": 78,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 24
-  },
-  {
-    "id": 207191,
-    "mal_id": 63409,
-    "name": "Doumo, Suki na Hito ni Horegusuri wo Irai Sareta Majo desu.",
-    "english_title": "Hello, I am a Witch and my Crush Wants me to Make a Love Potion!",
-    "episode": 1,
-    "release_date": "2026-10-05",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b207191-MV0uJNxN7LNY.jpg",
-    "trailer": {
-      "id": "hGRtocAh3iw",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/hGRtocAh3iw/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/207191",
-    "start_date": "2026-10-05",
-    "season": "Fall",
-    "season_year": 2026,
-    "studios": "diomedéa",
-    "genres": [
-      "Fantasy",
-      "Romance"
-    ],
-    "popularity": 7496,
-    "favourites": 57,
+    "popularity": 7685,
+    "favourites": 77,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 25
@@ -750,7 +750,7 @@
       "Romance",
       "Sci-Fi"
     ],
-    "popularity": 7323,
+    "popularity": 7468,
     "favourites": 99,
     "anilist_score": null,
     "streaming_links": [],
@@ -777,8 +777,8 @@
     "genres": [
       "Fantasy"
     ],
-    "popularity": 6939,
-    "favourites": 54,
+    "popularity": 7063,
+    "favourites": 55,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 27
@@ -806,8 +806,8 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 6919,
-    "favourites": 51,
+    "popularity": 7022,
+    "favourites": 50,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 28
@@ -836,7 +836,7 @@
       "Mahou Shoujo",
       "Mecha"
     ],
-    "popularity": 6532,
+    "popularity": 6609,
     "favourites": 37,
     "anilist_score": null,
     "streaming_links": [],
@@ -864,8 +864,8 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 6344,
-    "favourites": 63,
+    "popularity": 6544,
+    "favourites": 64,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 30
@@ -895,7 +895,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 5937,
+    "popularity": 6062,
     "favourites": 86,
     "anilist_score": null,
     "streaming_links": [],
@@ -923,7 +923,7 @@
       "Action",
       "Sci-Fi"
     ],
-    "popularity": 5782,
+    "popularity": 5888,
     "favourites": 37,
     "anilist_score": null,
     "streaming_links": [],
@@ -952,7 +952,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 5192,
+    "popularity": 5273,
     "favourites": 45,
     "anilist_score": null,
     "streaming_links": [],
@@ -982,11 +982,40 @@
       "Mahou Shoujo",
       "Thriller"
     ],
-    "popularity": 5017,
+    "popularity": 5071,
     "favourites": 41,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 34
+  },
+  {
+    "id": 195571,
+    "mal_id": 61999,
+    "name": "Shuiro no Kamen",
+    "english_title": "The Vermilion Mask",
+    "episode": 1,
+    "release_date": "2026-10-10",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195571-fvj7u5GI7BRT.jpg",
+    "trailer": {
+      "id": "iX4N-Z5Hbxw",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/iX4N-Z5Hbxw/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/195571",
+    "start_date": "2026-10-10",
+    "season": "Fall",
+    "season_year": 2026,
+    "studios": "Yomiuri TV, 100studio",
+    "genres": [
+      "Action",
+      "Drama",
+      "Supernatural"
+    ],
+    "popularity": 4955,
+    "favourites": 34,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 35
   },
   {
     "id": 207329,
@@ -1012,11 +1041,11 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 4832,
-    "favourites": 60,
+    "popularity": 4943,
+    "favourites": 61,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 35
+    "popularity_rank": 36
   },
   {
     "id": 206401,
@@ -1040,37 +1069,8 @@
       "Drama",
       "Slice of Life"
     ],
-    "popularity": 4805,
+    "popularity": 4930,
     "favourites": 32,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 36
-  },
-  {
-    "id": 195571,
-    "mal_id": 61999,
-    "name": "Shuiro no Kamen",
-    "english_title": "The Vermilion Mask",
-    "episode": 1,
-    "release_date": "2026-10-10",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195571-fvj7u5GI7BRT.jpg",
-    "trailer": {
-      "id": "iX4N-Z5Hbxw",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/iX4N-Z5Hbxw/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/195571",
-    "start_date": "2026-10-10",
-    "season": "Fall",
-    "season_year": 2026,
-    "studios": "Yomiuri TV, 100studio",
-    "genres": [
-      "Action",
-      "Drama",
-      "Supernatural"
-    ],
-    "popularity": 4804,
-    "favourites": 35,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 37
@@ -1098,7 +1098,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 4123,
+    "popularity": 4232,
     "favourites": 30,
     "anilist_score": null,
     "streaming_links": [],
@@ -1127,7 +1127,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3931,
+    "popularity": 4028,
     "favourites": 38,
     "anilist_score": null,
     "streaming_links": [],
@@ -1155,8 +1155,8 @@
       "Hentai",
       "Supernatural"
     ],
-    "popularity": 3803,
-    "favourites": 74,
+    "popularity": 3819,
+    "favourites": 75,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 40
@@ -1184,8 +1184,8 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 3658,
-    "favourites": 27,
+    "popularity": 3752,
+    "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 41
@@ -1215,7 +1215,7 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 3544,
+    "popularity": 3643,
     "favourites": 21,
     "anilist_score": null,
     "streaming_links": [],
@@ -1244,7 +1244,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3312,
+    "popularity": 3402,
     "favourites": 21,
     "anilist_score": null,
     "streaming_links": [],
@@ -1273,11 +1273,35 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 2999,
+    "popularity": 3081,
     "favourites": 25,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 44
+  },
+  {
+    "id": 205896,
+    "mal_id": 63292,
+    "name": "Shinja Zero no Megami-sama to Hajimeru Isekai Kouryaku",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-10-11",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205896-ElrV8oVAsuax.jpg",
+    "trailer": null,
+    "site_url": "https://anilist.co/anime/205896",
+    "start_date": "2026-10-11",
+    "season": "Fall",
+    "season_year": 2026,
+    "studios": "HORNETS",
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "popularity": 2954,
+    "favourites": 34,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 45
   },
   {
     "id": 209499,
@@ -1301,32 +1325,8 @@
       "Action",
       "Sci-Fi"
     ],
-    "popularity": 2885,
+    "popularity": 2946,
     "favourites": 18,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 45
-  },
-  {
-    "id": 205896,
-    "mal_id": 63292,
-    "name": "Shinja Zero no Megami-sama to Hajimeru Isekai Kouryaku",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-10-11",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205896-ElrV8oVAsuax.jpg",
-    "trailer": null,
-    "site_url": "https://anilist.co/anime/205896",
-    "start_date": "2026-10-11",
-    "season": "Fall",
-    "season_year": 2026,
-    "studios": "HORNETS",
-    "genres": [
-      "Adventure",
-      "Fantasy"
-    ],
-    "popularity": 2862,
-    "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 46
@@ -1357,7 +1357,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2817,
+    "popularity": 2929,
     "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
@@ -1382,8 +1382,8 @@
       "Mystery",
       "Supernatural"
     ],
-    "popularity": 2777,
-    "favourites": 20,
+    "popularity": 2839,
+    "favourites": 19,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 48
@@ -1411,7 +1411,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2530,
+    "popularity": 2584,
     "favourites": 23,
     "anilist_score": null,
     "streaming_links": [],
@@ -1440,7 +1440,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2440,
+    "popularity": 2479,
     "favourites": 11,
     "anilist_score": null,
     "streaming_links": [],
@@ -1467,7 +1467,7 @@
     "genres": [
       "Sports"
     ],
-    "popularity": 2382,
+    "popularity": 2401,
     "favourites": 25,
     "anilist_score": null,
     "streaming_links": [],
@@ -1495,7 +1495,7 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 2181,
+    "popularity": 2222,
     "favourites": 14,
     "anilist_score": null,
     "streaming_links": [],
@@ -1524,7 +1524,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2137,
+    "popularity": 2196,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
@@ -1548,7 +1548,7 @@
       "Action",
       "Drama"
     ],
-    "popularity": 2105,
+    "popularity": 2123,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
@@ -1576,8 +1576,8 @@
       "Comedy",
       "Slice of Life"
     ],
-    "popularity": 2060,
-    "favourites": 9,
+    "popularity": 2114,
+    "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 55
@@ -1604,7 +1604,7 @@
       "Action",
       "Mecha"
     ],
-    "popularity": 1930,
+    "popularity": 1956,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
@@ -1631,7 +1631,7 @@
     "genres": [
       "Slice of Life"
     ],
-    "popularity": 1755,
+    "popularity": 1798,
     "favourites": 5,
     "anilist_score": null,
     "streaming_links": [],
@@ -1659,10 +1659,34 @@
       "Mecha",
       "Sci-Fi"
     ],
-    "popularity": 1023,
+    "popularity": 1055,
     "favourites": 5,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 58
+  },
+  {
+    "id": 209032,
+    "mal_id": 63667,
+    "name": "Mahou no Shimai LuluttoLilly Part 2",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-10-04",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209032-MD8TDzYtFoL0.png",
+    "trailer": null,
+    "site_url": "https://anilist.co/anime/209032",
+    "start_date": "2026-10-04",
+    "season": "Fall",
+    "season_year": 2026,
+    "studios": "Bandai Namco Filmworks, Studio Pierrot",
+    "genres": [
+      "Mahou Shoujo",
+      "Music"
+    ],
+    "popularity": 1006,
+    "favourites": 9,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 59
   }
 ]
