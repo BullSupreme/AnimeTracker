@@ -1,5 +1,40 @@
 [
   {
+    "id": 196187,
+    "mal_id": 62076,
+    "name": "Super no Ura de Yani Suu Futari",
+    "english_title": "Smoking Behind the Supermarket with You",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196187-0dgFi2CPp3xn.jpg",
+    "trailer": {
+      "id": "aOOwNK6Ul6E",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/aOOwNK6Ul6E/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/196187",
+    "start_date": "2026-07-10",
+    "end_date": "2026-09-24",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00378116/smoking-behind-the-supermarket-with-you",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/82757039",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 123722,
+    "anilist_score": 81,
+    "recently_finished": true,
+    "popularity_rank": 6
+  },
+  {
     "id": 203880,
     "mal_id": 63082,
     "name": "Reiwa no Dara-san",
@@ -28,6 +63,36 @@
     "anilist_score": 66,
     "recently_finished": true,
     "popularity_rank": 52
+  },
+  {
+    "id": 108992,
+    "mal_id": 63802,
+    "name": "Mebius Dust",
+    "english_title": "Mebius Dust",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108992-skuOsfmLmMd2.jpg",
+    "trailer": {
+      "id": "ByOF3FLlAws",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/ByOF3FLlAws/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/108992",
+    "start_date": "2026-07-09",
+    "end_date": "2026-09-24",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00379439/mebius-dust",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 7848,
+    "anilist_score": 48,
+    "recently_finished": true,
+    "popularity_rank": 61
   },
   {
     "id": 135865,
