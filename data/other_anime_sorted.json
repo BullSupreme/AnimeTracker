@@ -1,136 +1,5 @@
 [
   {
-    "id": 235,
-    "mal_id": 235,
-    "name": "Meitantei Conan",
-    "english_title": "Detective Conan",
-    "episode": 1214,
-    "release_date": "2026-09-26",
-    "next_airing_date": "2026-09-26",
-    "next_episode_number": 1214,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx235-MyYT7K3chBdO.jpg",
-    "trailer": null,
-    "site_url": "https://anilist.co/anime/235",
-    "start_date": "1996-01-08",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "http://www.crunchyroll.com/case-closed",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "Netflix",
-        "url": "http://www.netflix.com/title/80090370",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      },
-      {
-        "site": "Amazon Prime Video",
-        "url": "https://www.amazon.com/The-Bizarre-Manhunt-Murder/dp/B09Q2CH8RS/ref=sr_1_1?crid=3667GOL0MHJ0P",
-        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@conan_anime",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 80100,
-    "anilist_score": 82,
-    "recently_finished": false,
-    "popularity_rank": 9
-  },
-  {
-    "id": 199066,
-    "mal_id": 62535,
-    "name": "Hanaori-san wa Tensei Shite mo Kenka ga Shitai",
-    "english_title": "Hanaori-san Still Wants to Fight in the Next Life",
-    "episode": 12,
-    "release_date": "2026-09-26",
-    "next_airing_date": "2026-09-26",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199066-YXDVsguvFZMm.jpg",
-    "trailer": {
-      "id": "xueZbCyZcnI",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/xueZbCyZcnI/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/199066",
-    "start_date": "2026-07-12",
-    "end_date": "2026-09-27",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00378066/hanaori-san-still-wants-to-fight-in-the-next-life",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 25654,
-    "anilist_score": 69,
-    "recently_finished": false,
-    "popularity_rank": 41
-  },
-  {
-    "id": 196017,
-    "mal_id": 62051,
-    "name": "Grow Up Show: Himawari no Circus-dan",
-    "english_title": "Grow Up Show",
-    "episode": 13,
-    "release_date": "2026-09-26",
-    "next_airing_date": "2026-09-26",
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196017-GynDNdbDzqzk.jpg",
-    "trailer": {
-      "id": "PAneuhZLHzU",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/PAneuhZLHzU/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/196017",
-    "start_date": "2026-07-05",
-    "end_date": "2026-09-27",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00378063/grow-up-show",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 9749,
-    "anilist_score": 71,
-    "recently_finished": false,
-    "popularity_rank": 60
-  },
-  {
-    "id": 185692,
-    "mal_id": 60552,
-    "name": "Kabushiki Gaisha Magi Lumiere 2nd Season",
-    "english_title": "Magilumiere Magical Girls Inc. Season 2",
-    "episode": 12,
-    "release_date": "2026-09-26",
-    "next_airing_date": "2026-09-26",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185692-1a8huwOIx7gw.jpg",
-    "trailer": {
-      "id": "3w7_piPtkNY",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/3w7_piPtkNY/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/185692",
-    "start_date": "2026-07-05",
-    "end_date": "2026-09-27",
-    "streaming_links": [
-      {
-        "site": "Prime Video",
-        "url": "https://www.primevideo.com/detail/0FE2AB0LVV5MWJ89ZVNG6KSNUC",
-        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
-      }
-    ],
-    "popularity": 7297,
-    "anilist_score": 64,
-    "recently_finished": false,
-    "popularity_rank": 63
-  },
-  {
     "id": 21,
     "mal_id": 21,
     "name": "ONE PIECE",
@@ -211,7 +80,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 160775,
+    "popularity": 161248,
     "anilist_score": 85,
     "recently_finished": false,
     "popularity_rank": 2
@@ -241,7 +110,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 61298,
+    "popularity": 61472,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 13
@@ -301,10 +170,70 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5875,
-    "anilist_score": 57,
+    "popularity": 5881,
+    "anilist_score": 56,
     "recently_finished": false,
     "popularity_rank": 66
+  },
+  {
+    "id": 187260,
+    "mal_id": 61126,
+    "name": "Kimi ga Shinu made Koi wo Shitai",
+    "english_title": "I Want to Love You Till Your Dying Day",
+    "episode": 13,
+    "release_date": "2026-09-29",
+    "next_airing_date": "2026-09-29",
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187260-WW5RBa5NINRP.jpg",
+    "trailer": {
+      "id": "zJLbfK_9ZmQ",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/zJLbfK_9ZmQ/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/187260",
+    "start_date": "2026-07-07",
+    "end_date": "2026-09-29",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00374354/i-want-to-love-you-till-your-dying-day",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 56104,
+    "anilist_score": 74,
+    "recently_finished": false,
+    "popularity_rank": 15
+  },
+  {
+    "id": 207809,
+    "mal_id": 63489,
+    "name": "Sora wa Akai Kawa no Hotori",
+    "english_title": "Red River",
+    "episode": 13,
+    "release_date": "2026-09-29",
+    "next_airing_date": "2026-09-29",
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207809-cpS7CAyjN7iP.jpg",
+    "trailer": {
+      "id": "qpFcQ1Bek08",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/qpFcQ1Bek08/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/207809",
+    "start_date": "2026-07-08",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00378099/red-river",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 10901,
+    "anilist_score": 62,
+    "recently_finished": false,
+    "popularity_rank": 57
   },
   {
     "id": 197754,
@@ -331,50 +260,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 43420,
+    "popularity": 43474,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 25
-  },
-  {
-    "id": 184492,
-    "mal_id": 60310,
-    "name": "Mairimashita! Iruma-kun 4",
-    "english_title": "Welcome to Demon School! Iruma-kun Season 4",
-    "episode": 24,
-    "release_date": null,
-    "next_airing_date": "2026-09-26",
-    "next_episode_number": 24,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184492-KUVFGieuMaOx.jpg",
-    "trailer": {
-      "id": "6Lo1DUCY9nY",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/6Lo1DUCY9nY/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/184492",
-    "start_date": "2026-04-04",
-    "end_date": "2026-09-26",
-    "streaming_links": [
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@animeofficial5506",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G6NVG970Y/welcome-to-demon-school-iruma-kun",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1-aoCFQ-X1pmxfTVRvrRAt",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 41943,
-    "anilist_score": 80,
-    "recently_finished": false,
-    "popularity_rank": 27
+    "popularity_rank": 24
   },
   {
     "id": 171110,
@@ -401,115 +290,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 39182,
+    "popularity": 39214,
     "anilist_score": 76,
     "recently_finished": false,
-    "popularity_rank": 33
-  },
-  {
-    "id": 196012,
-    "mal_id": 62048,
-    "name": "MAO",
-    "english_title": "MAO",
-    "episode": 26,
-    "release_date": null,
-    "next_airing_date": "2026-09-26",
-    "next_episode_number": 26,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196012-R3YNjunufpYh.jpg",
-    "trailer": {
-      "id": "eVfpoS0rjw0",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/eVfpoS0rjw0/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/196012",
-    "start_date": "2026-04-04",
-    "end_date": "2026-09-26",
-    "streaming_links": [
-      {
-        "site": "Hulu",
-        "url": "https://www.hulu.com/series/mao-7c9b966e-4234-4994-b1ef-37242b834d72",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      },
-      {
-        "site": "Disney Plus",
-        "url": "https://www.disneyplus.com/pt-br/browse/entity-6b6116ca-6f0b-4748-bb8d-b0fbb8eb5119",
-        "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jh6jFqpP-B97p7eUzipzZzv",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "Amazon Prime Video",
-        "url": "https://www.amazon.co.jp/gp/video/detail/amzn1.dv.gti.216799c0-8263-4bc4-b95a-d91f002591c8",
-        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
-      }
-    ],
-    "popularity": 19722,
-    "anilist_score": 65,
-    "recently_finished": false,
-    "popularity_rank": 49
-  },
-  {
-    "id": 187260,
-    "mal_id": 61126,
-    "name": "Kimi ga Shinu made Koi wo Shitai",
-    "english_title": "I Want to Love You Till Your Dying Day",
-    "episode": 12,
-    "release_date": "2026-09-22",
-    "next_airing_date": "2026-09-29",
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187260-WW5RBa5NINRP.jpg",
-    "trailer": {
-      "id": "zJLbfK_9ZmQ",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/zJLbfK_9ZmQ/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/187260",
-    "start_date": "2026-07-07",
-    "end_date": "2026-09-29",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00374354/i-want-to-love-you-till-your-dying-day",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 55933,
-    "anilist_score": 74,
-    "recently_finished": false,
-    "popularity_rank": 15
-  },
-  {
-    "id": 207809,
-    "mal_id": 63489,
-    "name": "Sora wa Akai Kawa no Hotori",
-    "english_title": "Red River",
-    "episode": 12,
-    "release_date": "2026-09-22",
-    "next_airing_date": "2026-09-29",
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207809-cpS7CAyjN7iP.jpg",
-    "trailer": {
-      "id": "qpFcQ1Bek08",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/qpFcQ1Bek08/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/207809",
-    "start_date": "2026-07-08",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00378099/red-river",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 10863,
-    "anilist_score": 62,
-    "recently_finished": false,
-    "popularity_rank": 57
+    "popularity_rank": 32
   },
   {
     "id": 189046,
@@ -546,10 +330,80 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 143048,
+    "popularity": 143444,
     "anilist_score": 90,
     "recently_finished": false,
     "popularity_rank": 3
+  },
+  {
+    "id": 198946,
+    "mal_id": 62513,
+    "name": "Clevatess II: Majuu no Ou to Itsuwari no Yuusha Denshou",
+    "english_title": "Clevatess Season 2",
+    "episode": 12,
+    "release_date": "2026-09-23",
+    "next_airing_date": "2026-09-30",
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198946-IGXmbqBEYRYD.jpg",
+    "trailer": {
+      "id": "0N1-8XY_3Rs",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/0N1-8XY_3Rs/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/198946",
+    "start_date": "2026-07-08",
+    "end_date": "2026-09-30",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G8DHV78ZM/clevatess",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLDvQscScOUXg",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 45724,
+    "anilist_score": 76,
+    "recently_finished": false,
+    "popularity_rank": 19
+  },
+  {
+    "id": 184356,
+    "mal_id": 63316,
+    "name": "Dogul Wang",
+    "english_title": "Tomb Raider King",
+    "episode": 11,
+    "release_date": "2026-09-23",
+    "next_airing_date": "2026-09-30",
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184356-SlFIstXUXJYP.png",
+    "trailer": {
+      "id": "6f702O_nnq8",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/6f702O_nnq8/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/184356",
+    "start_date": "2026-07-09",
+    "end_date": "2026-10-01",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00378123/",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLRwxYv2koIzY",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 36885,
+    "anilist_score": 66,
+    "recently_finished": false,
+    "popularity_rank": 33
   },
   {
     "id": 185874,
@@ -586,79 +440,44 @@
         "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
       }
     ],
-    "popularity": 88800,
+    "popularity": 89019,
     "anilist_score": 90,
     "recently_finished": false,
     "popularity_rank": 8
   },
   {
-    "id": 198946,
-    "mal_id": 62513,
-    "name": "Clevatess II: Majuu no Ou to Itsuwari no Yuusha Denshou",
-    "english_title": "Clevatess Season 2",
-    "episode": 12,
-    "release_date": "2026-09-23",
-    "next_airing_date": "2026-09-30",
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198946-IGXmbqBEYRYD.jpg",
+    "id": 180136,
+    "mal_id": 59741,
+    "name": "Tsuihou Sareta Tensei Juukishi wa Game Chishiki de Musou Suru",
+    "english_title": "The Exiled Heavy Knight Knows How to Game the System",
+    "episode": 13,
+    "release_date": "2026-09-24",
+    "next_airing_date": "2026-10-01",
+    "next_episode_number": 14,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180136-gtMTCRlOD4OE.jpg",
     "trailer": {
-      "id": "0N1-8XY_3Rs",
+      "id": "uC13b3_8riU",
       "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/0N1-8XY_3Rs/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/uC13b3_8riU/hqdefault.jpg"
     },
-    "site_url": "https://anilist.co/anime/198946",
-    "start_date": "2026-07-08",
-    "end_date": "2026-09-30",
+    "site_url": "https://anilist.co/anime/180136",
+    "start_date": "2026-07-03",
+    "end_date": "2026-12-25",
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G8DHV78ZM/clevatess",
+        "url": "https://www.crunchyroll.com/series/GT00378018/the-exiled-heavy-knight-knows-how-to-game-the-system",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       },
       {
         "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLDvQscScOUXg",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3yq1oZEC8iNCwgMsg0NmIZ",
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 45498,
-    "anilist_score": 76,
+    "popularity": 64387,
+    "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 20
-  },
-  {
-    "id": 184356,
-    "mal_id": 63316,
-    "name": "Dogul Wang",
-    "english_title": "Tomb Raider King",
-    "episode": 11,
-    "release_date": "2026-09-23",
-    "next_airing_date": "2026-09-30",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184356-SlFIstXUXJYP.png",
-    "trailer": {
-      "id": "6f702O_nnq8",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/6f702O_nnq8/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/184356",
-    "start_date": "2026-07-09",
-    "end_date": "2026-10-01",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00378123/",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLRwxYv2koIzY",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 36646,
-    "anilist_score": 66,
-    "recently_finished": false,
-    "popularity_rank": 34
+    "popularity_rank": 12
   }
 ]
