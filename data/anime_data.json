@@ -40,7 +40,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 753667,
+    "popularity": 753962,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -163,11 +163,11 @@
   {
     "id": 182205,
     "mal_id": 59970,
-    "name": "Tensei Shitara Slime Datta Ken 4th Season",
+    "name": "Tensei Shitara Slime Datta Ken 4th Season Part 1 & 2",
     "english_title": "That Time I Got Reincarnated as a Slime Season 4",
     "episode": 24,
-    "release_date": "2026-09-25",
-    "next_airing_date": "2026-09-25",
+    "release_date": null,
+    "next_airing_date": null,
     "next_episode_number": 24,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182205-q2AeO1owuQbO.jpg",
     "trailer": {
@@ -346,7 +346,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 80100,
+    "popularity": 80123,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 9
@@ -511,7 +511,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 58553,
+    "popularity": 58747,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 14
@@ -947,8 +947,8 @@
     "name": "Hell Mode: Yarikomi-zuki no Gamer wa Haisettei no Isekai de Musou Suru 2nd Season",
     "english_title": "HELL MODE: The Hardcore Gamer Dominates in Another World with Garbage Balancing Season 2",
     "episode": 13,
-    "release_date": "2026-09-26",
-    "next_airing_date": "2026-09-25",
+    "release_date": "2026-09-25",
+    "next_airing_date": null,
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209983-sFOcKyqMufxb.jpg",
     "trailer": {
@@ -1268,8 +1268,8 @@
     "english_title": "The Elusive Samurai Season 2",
     "episode": 11,
     "release_date": "2026-09-25",
-    "next_airing_date": "2026-09-25",
-    "next_episode_number": 11,
+    "next_airing_date": "2026-10-02",
+    "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182616-DymJCBpkR4qs.jpg",
     "trailer": {
       "id": "5xV6uMwR-Xo",
@@ -1791,8 +1791,8 @@
     "name": "Ibitte Konai Gibo to Gishi",
     "english_title": "My Stepmother and Stepsisters Aren’t Wicked",
     "episode": 12,
-    "release_date": "2026-09-26",
-    "next_airing_date": "2026-09-25",
+    "release_date": "2026-09-25",
+    "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196356-2TNt2b9tu0jm.jpg",
     "trailer": {
@@ -1831,8 +1831,8 @@
     "name": "Kore Kaite Shine",
     "english_title": "Draw This, Then Die!",
     "episode": 12,
-    "release_date": "2026-09-25",
-    "next_airing_date": "2026-09-25",
+    "release_date": null,
+    "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188525-uWhw4rQcqOyF.jpg",
     "trailer": {
@@ -1930,9 +1930,9 @@
     "mal_id": 63061,
     "name": "Uchi no Otouto-domo ga Sumimasen",
     "english_title": "Please Excuse My Younger Brothers",
-    "episode": 13,
+    "episode": 12,
     "release_date": "2026-09-25",
-    "next_airing_date": "2026-09-25",
+    "next_airing_date": "2026-10-02",
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx203490-YQXiymUiDQNA.jpg",
     "trailer": {
@@ -2136,6 +2136,36 @@
     "popularity_rank": 64
   },
   {
+    "id": 169581,
+    "mal_id": 56733,
+    "name": "Magical★Explorer: Eroge no Yuujin Chara ni Tensei Shitakedo, Game Chishiki Tsukatte Jiyuu ni Ikiru",
+    "english_title": "Magical Explorer",
+    "episode": 1,
+    "release_date": "2026-09-25",
+    "next_airing_date": "2026-10-02",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169581-UlAviVH36Hxi.png",
+    "trailer": {
+      "id": "XqrBfyUNYZs",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/XqrBfyUNYZs/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/169581",
+    "start_date": "2026-09-26",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 6386,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 65
+  },
+  {
     "id": 202508,
     "mal_id": 62981,
     "name": "Kami no Shizuku",
@@ -2173,7 +2203,7 @@
     "popularity": 6040,
     "anilist_score": 56,
     "recently_finished": true,
-    "popularity_rank": 65
+    "popularity_rank": 66
   },
   {
     "id": 200230,
@@ -2203,7 +2233,7 @@
     "popularity": 5881,
     "anilist_score": 56,
     "recently_finished": false,
-    "popularity_rank": 66
+    "popularity_rank": 67
   },
   {
     "id": 201667,
@@ -2238,7 +2268,7 @@
     "popularity": 4850,
     "anilist_score": 73,
     "recently_finished": true,
-    "popularity_rank": 67
+    "popularity_rank": 68
   },
   {
     "id": 213484,
@@ -2273,6 +2303,6 @@
     "popularity": 3802,
     "anilist_score": 66,
     "recently_finished": true,
-    "popularity_rank": 68
+    "popularity_rank": 69
   }
 ]
