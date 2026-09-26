@@ -1,181 +1,5 @@
 [
   {
-    "id": 21,
-    "mal_id": 21,
-    "name": "ONE PIECE",
-    "english_title": "ONE PIECE",
-    "episode": 1180,
-    "release_date": "2026-09-27",
-    "next_airing_date": "2026-09-27",
-    "next_episode_number": 1180,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
-    "trailer": null,
-    "site_url": "https://anilist.co/anime/21",
-    "start_date": "1999-10-20",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "http://www.crunchyroll.com/one-piece",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "Hulu",
-        "url": "http://www.hulu.com/one-piece",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      },
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/80107103",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@onepieceofficial",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@OnePieceOfficialENG",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 753962,
-    "anilist_score": 87,
-    "recently_finished": false,
-    "popularity_rank": 1
-  },
-  {
-    "id": 178789,
-    "mal_id": 59193,
-    "name": "Mushoku Tensei III: Isekai Ittara Honki Dasu",
-    "english_title": "Mushoku Tensei: Jobless Reincarnation Season 3",
-    "episode": 14,
-    "release_date": "2026-09-27",
-    "next_airing_date": "2026-09-27",
-    "next_episode_number": 14,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178789-hNXjKFzUq7mk.jpg",
-    "trailer": {
-      "id": "ODxfIvSgWuo",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/ODxfIvSgWuo/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/178789",
-    "start_date": "2026-07-04",
-    "end_date": "2026-09-27",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G24H1N3MP/mushoku-tensei-jobless-reincarnation",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1LMA6zhohDzfoV-XXFxS9Z",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/80987039",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      }
-    ],
-    "popularity": 161248,
-    "anilist_score": 85,
-    "recently_finished": false,
-    "popularity_rank": 2
-  },
-  {
-    "id": 210031,
-    "mal_id": 63832,
-    "name": "Seihantai na Kimi to Boku 2nd Season",
-    "english_title": "You and I Are Polar Opposites Season 2",
-    "episode": 12,
-    "release_date": "2026-09-27",
-    "next_airing_date": "2026-09-27",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx210031-TppgcHZh46LY.jpg",
-    "trailer": {
-      "id": "HW7enBbU_hk",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/HW7enBbU_hk/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/210031",
-    "start_date": "2026-07-05",
-    "end_date": "2026-10-04",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00365624/you-and-i-are-polar-opposites",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 61472,
-    "anilist_score": 82,
-    "recently_finished": false,
-    "popularity_rank": 13
-  },
-  {
-    "id": 103303,
-    "mal_id": 62856,
-    "name": "Nijusseiki Denki Mokuroku: Eureka Evrika",
-    "english_title": "Sparks of Tomorrow",
-    "episode": 13,
-    "release_date": "2026-09-27",
-    "next_airing_date": "2026-09-27",
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103303-IF43hFJPPv2Y.png",
-    "trailer": {
-      "id": "-W2vs2etG9o",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/-W2vs2etG9o/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/103303",
-    "start_date": "2026-07-05",
-    "end_date": "2026-09-27",
-    "streaming_links": [
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/81698957",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      }
-    ],
-    "popularity": 58747,
-    "anilist_score": 76,
-    "recently_finished": false,
-    "popularity_rank": 14
-  },
-  {
-    "id": 200230,
-    "mal_id": 62683,
-    "name": "Let's Go Kaikigumi",
-    "english_title": "Let's go KAIKIGUMI",
-    "episode": 12,
-    "release_date": "2026-09-27",
-    "next_airing_date": "2026-09-27",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx200230-YuzdgbXSgi38.png",
-    "trailer": {
-      "id": "3DKfmW2aDhY",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/3DKfmW2aDhY/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/200230",
-    "start_date": "2026-07-05",
-    "end_date": "2026-09-27",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00378084/",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 5881,
-    "anilist_score": 56,
-    "recently_finished": false,
-    "popularity_rank": 67
-  },
-  {
     "id": 187260,
     "mal_id": 61126,
     "name": "Kimi ga Shinu made Koi wo Shitai",
@@ -200,7 +24,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 56104,
+    "popularity": 56236,
     "anilist_score": 74,
     "recently_finished": false,
     "popularity_rank": 15
@@ -230,68 +54,78 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 10901,
+    "popularity": 10926,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 57
+    "popularity_rank": 55
   },
   {
-    "id": 197754,
-    "mal_id": 62331,
-    "name": "LIAR GAME",
-    "english_title": "LIAR GAME",
-    "episode": 26,
-    "release_date": null,
-    "next_airing_date": "2026-09-28",
-    "next_episode_number": 26,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197754-Q5KqcUhIdypp.png",
+    "id": 198946,
+    "mal_id": 62513,
+    "name": "Clevatess II: Majuu no Ou to Itsuwari no Yuusha Denshou",
+    "english_title": "Clevatess Season 2",
+    "episode": 13,
+    "release_date": "2026-09-30",
+    "next_airing_date": "2026-09-30",
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198946-IGXmbqBEYRYD.jpg",
     "trailer": {
-      "id": "FIPOXj00ysQ",
+      "id": "0N1-8XY_3Rs",
       "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/FIPOXj00ysQ/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/0N1-8XY_3Rs/hqdefault.jpg"
     },
-    "site_url": "https://anilist.co/anime/197754",
-    "start_date": "2026-04-07",
-    "end_date": "2026-09-29",
+    "site_url": "https://anilist.co/anime/198946",
+    "start_date": "2026-07-08",
+    "end_date": "2026-09-30",
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371851/liar-game",
+        "url": "https://www.crunchyroll.com/series/G8DHV78ZM/clevatess",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 43474,
-    "anilist_score": 62,
-    "recently_finished": false,
-    "popularity_rank": 24
-  },
-  {
-    "id": 171110,
-    "mal_id": 57466,
-    "name": "Honzuki no Gekokujou: Ryoushu no Youjo",
-    "english_title": "Ascendance of a Bookworm: Adopted Daughter of an Archduke",
-    "episode": 23,
-    "release_date": null,
-    "next_airing_date": "2026-09-26",
-    "next_episode_number": 23,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171110-7zOdInS6DQNL.jpg",
-    "trailer": {
-      "id": "rtPF6rjrdSU",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/rtPF6rjrdSU/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/171110",
-    "start_date": "2026-04-04",
-    "end_date": "2026-10-03",
-    "streaming_links": [
+      },
       {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G6793XKZY/ascendance-of-a-bookworm",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLDvQscScOUXg",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 39214,
+    "popularity": 45878,
     "anilist_score": 76,
+    "recently_finished": false,
+    "popularity_rank": 20
+  },
+  {
+    "id": 184356,
+    "mal_id": 63316,
+    "name": "Dogul Wang",
+    "english_title": "Tomb Raider King",
+    "episode": 12,
+    "release_date": "2026-09-30",
+    "next_airing_date": "2026-09-30",
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184356-SlFIstXUXJYP.png",
+    "trailer": {
+      "id": "6f702O_nnq8",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/6f702O_nnq8/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/184356",
+    "start_date": "2026-07-09",
+    "end_date": "2026-10-01",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00378123/",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLRwxYv2koIzY",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 37061,
+    "anilist_score": 66,
     "recently_finished": false,
     "popularity_rank": 32
   },
@@ -300,8 +134,8 @@
     "mal_id": 61316,
     "name": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
     "english_title": "Re:ZERO -Starting Life in Another World- Season 4",
-    "episode": 18,
-    "release_date": "2026-09-23",
+    "episode": 19,
+    "release_date": null,
     "next_airing_date": "2026-09-30",
     "next_episode_number": 19,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189046-yaHWtS5FII46.jpg",
@@ -330,80 +164,75 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 143444,
+    "popularity": 143745,
     "anilist_score": 90,
     "recently_finished": false,
     "popularity_rank": 3
   },
   {
-    "id": 198946,
-    "mal_id": 62513,
-    "name": "Clevatess II: Majuu no Ou to Itsuwari no Yuusha Denshou",
-    "english_title": "Clevatess Season 2",
-    "episode": 12,
-    "release_date": "2026-09-23",
-    "next_airing_date": "2026-09-30",
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198946-IGXmbqBEYRYD.jpg",
+    "id": 197754,
+    "mal_id": 62331,
+    "name": "LIAR GAME",
+    "english_title": "LIAR GAME",
+    "episode": 26,
+    "release_date": null,
+    "next_airing_date": "2026-09-28",
+    "next_episode_number": 26,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197754-Q5KqcUhIdypp.png",
     "trailer": {
-      "id": "0N1-8XY_3Rs",
+      "id": "FIPOXj00ysQ",
       "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/0N1-8XY_3Rs/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/FIPOXj00ysQ/hqdefault.jpg"
     },
-    "site_url": "https://anilist.co/anime/198946",
-    "start_date": "2026-07-08",
-    "end_date": "2026-09-30",
+    "site_url": "https://anilist.co/anime/197754",
+    "start_date": "2026-04-07",
+    "end_date": "2026-09-29",
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G8DHV78ZM/clevatess",
+        "url": "https://www.crunchyroll.com/series/GT00371851/liar-game",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLDvQscScOUXg",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 45724,
-    "anilist_score": 76,
+    "popularity": 43514,
+    "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 19
+    "popularity_rank": 23
   },
   {
-    "id": 184356,
-    "mal_id": 63316,
-    "name": "Dogul Wang",
-    "english_title": "Tomb Raider King",
-    "episode": 11,
-    "release_date": "2026-09-23",
-    "next_airing_date": "2026-09-30",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184356-SlFIstXUXJYP.png",
+    "id": 180136,
+    "mal_id": 59741,
+    "name": "Tsuihou Sareta Tensei Juukishi wa Game Chishiki de Musou Suru",
+    "english_title": "The Exiled Heavy Knight Knows How to Game the System",
+    "episode": 13,
+    "release_date": "2026-09-24",
+    "next_airing_date": "2026-10-01",
+    "next_episode_number": 14,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180136-gtMTCRlOD4OE.jpg",
     "trailer": {
-      "id": "6f702O_nnq8",
+      "id": "uC13b3_8riU",
       "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/6f702O_nnq8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/uC13b3_8riU/hqdefault.jpg"
     },
-    "site_url": "https://anilist.co/anime/184356",
-    "start_date": "2026-07-09",
-    "end_date": "2026-10-01",
+    "site_url": "https://anilist.co/anime/180136",
+    "start_date": "2026-07-03",
+    "end_date": "2026-12-25",
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00378123/",
+        "url": "https://www.crunchyroll.com/series/GT00378018/the-exiled-heavy-knight-knows-how-to-game-the-system",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       },
       {
         "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLRwxYv2koIzY",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3yq1oZEC8iNCwgMsg0NmIZ",
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 36885,
-    "anilist_score": 66,
+    "popularity": 64736,
+    "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 33
+    "popularity_rank": 12
   },
   {
     "id": 185874,
@@ -440,44 +269,169 @@
         "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
       }
     ],
-    "popularity": 89019,
+    "popularity": 89227,
     "anilist_score": 90,
     "recently_finished": false,
     "popularity_rank": 8
   },
   {
-    "id": 180136,
-    "mal_id": 59741,
-    "name": "Tsuihou Sareta Tensei Juukishi wa Game Chishiki de Musou Suru",
-    "english_title": "The Exiled Heavy Knight Knows How to Game the System",
-    "episode": 13,
-    "release_date": "2026-09-24",
-    "next_airing_date": "2026-10-01",
-    "next_episode_number": 14,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180136-gtMTCRlOD4OE.jpg",
+    "id": 210482,
+    "mal_id": 61469,
+    "name": "JoJo no Kimyou na Bouken: Steel Ball Run - 2nd & 3rd STAGE",
+    "english_title": "STEEL BALL RUN JoJo's Bizarre Adventure 2nd - 3rd STAGE",
+    "episode": 1,
+    "release_date": "2026-09-25",
+    "next_airing_date": "2026-10-02",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx210482-P1VNKbqdJ6Zj.jpg",
     "trailer": {
-      "id": "uC13b3_8riU",
+      "id": "jXtG_lcR9P4",
       "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/uC13b3_8riU/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/jXtG_lcR9P4/hqdefault.jpg"
     },
-    "site_url": "https://anilist.co/anime/180136",
-    "start_date": "2026-07-03",
-    "end_date": "2026-12-25",
+    "site_url": "https://anilist.co/anime/210482",
+    "start_date": "2026-09-25",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/82116553",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 29237,
+    "anilist_score": 85,
+    "recently_finished": false,
+    "popularity_rank": 35
+  },
+  {
+    "id": 182616,
+    "mal_id": 60059,
+    "name": "Nige Jouzu no Wakagimi 2nd Season",
+    "english_title": "The Elusive Samurai Season 2",
+    "episode": 11,
+    "release_date": "2026-09-25",
+    "next_airing_date": "2026-10-02",
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182616-DymJCBpkR4qs.jpg",
+    "trailer": {
+      "id": "5xV6uMwR-Xo",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/5xV6uMwR-Xo/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/182616",
+    "start_date": "2026-07-17",
+    "end_date": "2026-10-02",
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00378018/the-exiled-heavy-knight-knows-how-to-game-the-system",
+        "url": "https://www.crunchyroll.com/series/GQWH0M19X/the-elusive-samurai",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 27695,
+    "anilist_score": 76,
+    "recently_finished": false,
+    "popularity_rank": 38
+  },
+  {
+    "id": 191832,
+    "mal_id": 61607,
+    "name": "Shiguang Dailiren III",
+    "english_title": "Link Click Season 3",
+    "episode": 8,
+    "release_date": "2026-09-25",
+    "next_airing_date": "2026-10-02",
+    "next_episode_number": 9,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx191832-bsnCaLNVjzEw.png",
+    "trailer": {
+      "id": "4HJNiZV0HJ4",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/4HJNiZV0HJ4/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/191832",
+    "start_date": "2026-08-14",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GP5HJ8E81/link-click",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       },
       {
+        "site": "Bilibili",
+        "url": "https://www.bilibili.com/bangumi/media/md26949780",
+        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
+      },
+      {
         "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3yq1oZEC8iNCwgMsg0NmIZ",
+        "url": "https://youtube.com/playlist?list=PLU90m5tcq7b0&si=pg_BN47xePVo7POD",
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 64387,
-    "anilist_score": 67,
+    "popularity": 17279,
+    "anilist_score": 84,
     "recently_finished": false,
-    "popularity_rank": 12
+    "popularity_rank": 48
+  },
+  {
+    "id": 203490,
+    "mal_id": 63061,
+    "name": "Uchi no Otouto-domo ga Sumimasen",
+    "english_title": "Please Excuse My Younger Brothers",
+    "episode": 12,
+    "release_date": "2026-09-25",
+    "next_airing_date": "2026-10-02",
+    "next_episode_number": 13,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx203490-YQXiymUiDQNA.jpg",
+    "trailer": {
+      "id": "P927_ZvgUUg",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/P927_ZvgUUg/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/203490",
+    "start_date": "2026-07-04",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371926/",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 10230,
+    "anilist_score": 68,
+    "recently_finished": false,
+    "popularity_rank": 56
+  },
+  {
+    "id": 169581,
+    "mal_id": 56733,
+    "name": "Magical★Explorer: Eroge no Yuujin Chara ni Tensei Shitakedo, Game Chishiki Tsukatte Jiyuu ni Ikiru",
+    "english_title": "Magical Explorer",
+    "episode": 1,
+    "release_date": "2026-09-25",
+    "next_airing_date": "2026-10-02",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169581-UlAviVH36Hxi.png",
+    "trailer": {
+      "id": "XqrBfyUNYZs",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/XqrBfyUNYZs/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/169581",
+    "start_date": "2026-09-26",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 6757,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 62
   }
 ]
