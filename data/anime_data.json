@@ -511,7 +511,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 58747,
+    "popularity": 58926,
     "anilist_score": 76,
     "recently_finished": false,
     "popularity_rank": 14
@@ -1327,8 +1327,8 @@
     "name": "Hanaori-san wa Tensei Shite mo Kenka ga Shitai",
     "english_title": "Hanaori-san Still Wants to Fight in the Next Life",
     "episode": 12,
-    "release_date": "2026-09-27",
-    "next_airing_date": "2026-09-26",
+    "release_date": "2026-09-26",
+    "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199066-YXDVsguvFZMm.jpg",
     "trailer": {
@@ -1546,8 +1546,8 @@
     "name": "MAO",
     "english_title": "MAO",
     "episode": 26,
-    "release_date": "2026-09-26",
-    "next_airing_date": "2026-09-26",
+    "release_date": null,
+    "next_airing_date": null,
     "next_episode_number": 26,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196012-R3YNjunufpYh.jpg",
     "trailer": {
@@ -1691,6 +1691,36 @@
     "popularity_rank": 50
   },
   {
+    "id": 185756,
+    "mal_id": 60601,
+    "name": "Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season",
+    "english_title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World Season 3",
+    "episode": 1,
+    "release_date": "2026-09-27",
+    "next_airing_date": "2026-09-27",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185756-xPCl0RyQ7fXD.jpg",
+    "trailer": {
+      "id": "8_Lxr7vO9l0",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/8_Lxr7vO9l0/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/185756",
+    "start_date": "2026-09-27",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GG5H5XQMD/as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-to-rise-in-the-world",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 14773,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 51
+  },
+  {
     "id": 208225,
     "mal_id": 63537,
     "name": "\"Kimi wo Aisuru Ki wa nai\" to Itta Jiki Koushaku-sama ga Naze ka Dekiai Shitekimasu",
@@ -1718,7 +1748,7 @@
     "popularity": 12891,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 51
+    "popularity_rank": 52
   },
   {
     "id": 196356,
@@ -1758,7 +1788,7 @@
     "popularity": 12700,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 52
+    "popularity_rank": 53
   },
   {
     "id": 188525,
@@ -1798,7 +1828,7 @@
     "popularity": 11934,
     "anilist_score": 79,
     "recently_finished": true,
-    "popularity_rank": 53
+    "popularity_rank": 54
   },
   {
     "id": 204060,
@@ -1828,7 +1858,7 @@
     "popularity": 11497,
     "anilist_score": 75,
     "recently_finished": true,
-    "popularity_rank": 54
+    "popularity_rank": 55
   },
   {
     "id": 207809,
@@ -1858,7 +1888,37 @@
     "popularity": 10926,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 55
+    "popularity_rank": 56
+  },
+  {
+    "id": 204389,
+    "mal_id": 63140,
+    "name": "Yasei no Last Boss ga Arawareta! 2nd Season",
+    "english_title": "A Wild Last Boss Appeared! Season 2",
+    "episode": 1,
+    "release_date": "2026-09-26",
+    "next_airing_date": "2026-10-03",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204389-jCoFCeTthDMy.jpg",
+    "trailer": {
+      "id": "LyDMSUR6_Q8",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/LyDMSUR6_Q8/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/204389",
+    "start_date": "2026-09-26",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00361955/a-wild-last-boss-appeared",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 10688,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 57
   },
   {
     "id": 203490,
@@ -1888,7 +1948,7 @@
     "popularity": 10230,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 56
+    "popularity_rank": 58
   },
   {
     "id": 185875,
@@ -1918,7 +1978,7 @@
     "popularity": 10140,
     "anilist_score": 64,
     "recently_finished": true,
-    "popularity_rank": 57
+    "popularity_rank": 59
   },
   {
     "id": 196017,
@@ -1926,8 +1986,8 @@
     "name": "Grow Up Show: Himawari no Circus-dan",
     "english_title": "Grow Up Show",
     "episode": 13,
-    "release_date": "2026-09-27",
-    "next_airing_date": "2026-09-26",
+    "release_date": "2026-09-26",
+    "next_airing_date": null,
     "next_episode_number": 13,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196017-GynDNdbDzqzk.jpg",
     "trailer": {
@@ -1948,7 +2008,7 @@
     "popularity": 9779,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 58
+    "popularity_rank": 60
   },
   {
     "id": 108992,
@@ -1975,10 +2035,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7901,
+    "popularity": 7924,
     "anilist_score": 48,
     "recently_finished": true,
-    "popularity_rank": 59
+    "popularity_rank": 61
   },
   {
     "id": 209669,
@@ -2008,7 +2068,7 @@
     "popularity": 7363,
     "anilist_score": 71,
     "recently_finished": true,
-    "popularity_rank": 60
+    "popularity_rank": 62
   },
   {
     "id": 185692,
@@ -2016,8 +2076,8 @@
     "name": "Kabushiki Gaisha Magi Lumiere 2nd Season",
     "english_title": "Magilumiere Magical Girls Inc. Season 2",
     "episode": 12,
-    "release_date": "2026-09-27",
-    "next_airing_date": "2026-09-26",
+    "release_date": "2026-09-26",
+    "next_airing_date": null,
     "next_episode_number": 12,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185692-1a8huwOIx7gw.jpg",
     "trailer": {
@@ -2038,7 +2098,7 @@
     "popularity": 7318,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 61
+    "popularity_rank": 63
   },
   {
     "id": 169581,
@@ -2068,7 +2128,7 @@
     "popularity": 6757,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 62
+    "popularity_rank": 64
   },
   {
     "id": 206249,
@@ -2098,7 +2158,7 @@
     "popularity": 6554,
     "anilist_score": 54,
     "recently_finished": true,
-    "popularity_rank": 63
+    "popularity_rank": 65
   },
   {
     "id": 202508,
@@ -2138,7 +2198,7 @@
     "popularity": 6053,
     "anilist_score": 57,
     "recently_finished": true,
-    "popularity_rank": 64
+    "popularity_rank": 66
   },
   {
     "id": 200230,
@@ -2168,7 +2228,7 @@
     "popularity": 5891,
     "anilist_score": 56,
     "recently_finished": false,
-    "popularity_rank": 65
+    "popularity_rank": 67
   },
   {
     "id": 201667,
@@ -2203,7 +2263,7 @@
     "popularity": 4860,
     "anilist_score": 73,
     "recently_finished": true,
-    "popularity_rank": 66
+    "popularity_rank": 68
   },
   {
     "id": 213484,
@@ -2238,6 +2298,6 @@
     "popularity": 3819,
     "anilist_score": 66,
     "recently_finished": true,
-    "popularity_rank": 67
+    "popularity_rank": 69
   }
 ]

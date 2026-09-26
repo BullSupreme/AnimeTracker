@@ -70,6 +70,51 @@
     "popularity_rank": 26
   },
   {
+    "id": 196012,
+    "mal_id": 62048,
+    "name": "MAO",
+    "english_title": "MAO",
+    "episode": 26,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 26,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196012-R3YNjunufpYh.jpg",
+    "trailer": {
+      "id": "eVfpoS0rjw0",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/eVfpoS0rjw0/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/196012",
+    "start_date": "2026-04-04",
+    "end_date": "2026-09-26",
+    "streaming_links": [
+      {
+        "site": "Hulu",
+        "url": "https://www.hulu.com/series/mao-7c9b966e-4234-4994-b1ef-37242b834d72",
+        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
+      },
+      {
+        "site": "Disney Plus",
+        "url": "https://www.disneyplus.com/pt-br/browse/entity-6b6116ca-6f0b-4748-bb8d-b0fbb8eb5119",
+        "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jh6jFqpP-B97p7eUzipzZzv",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "Amazon Prime Video",
+        "url": "https://www.amazon.co.jp/gp/video/detail/amzn1.dv.gti.216799c0-8263-4bc4-b95a-d91f002591c8",
+        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+      }
+    ],
+    "popularity": 19765,
+    "anilist_score": 65,
+    "recently_finished": true,
+    "popularity_rank": 47
+  },
+  {
     "id": 196356,
     "mal_id": 62102,
     "name": "Ibitte Konai Gibo to Gishi",
@@ -107,7 +152,7 @@
     "popularity": 12700,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 52
+    "popularity_rank": 53
   },
   {
     "id": 182205,
@@ -222,7 +267,7 @@
     "popularity": 11934,
     "anilist_score": 79,
     "recently_finished": true,
-    "popularity_rank": 53
+    "popularity_rank": 54
   },
   {
     "id": 196187,
@@ -314,10 +359,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7901,
+    "popularity": 7924,
     "anilist_score": 48,
     "recently_finished": true,
-    "popularity_rank": 59
+    "popularity_rank": 61
   },
   {
     "id": 135865,
@@ -972,7 +1017,7 @@
     "popularity": 12891,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 51
+    "popularity_rank": 52
   },
   {
     "id": 204060,
@@ -1002,7 +1047,7 @@
     "popularity": 11497,
     "anilist_score": 75,
     "recently_finished": true,
-    "popularity_rank": 54
+    "popularity_rank": 55
   },
   {
     "id": 185875,
@@ -1032,7 +1077,7 @@
     "popularity": 10140,
     "anilist_score": 64,
     "recently_finished": true,
-    "popularity_rank": 57
+    "popularity_rank": 59
   },
   {
     "id": 195600,
@@ -1156,7 +1201,7 @@
     "popularity": 6554,
     "anilist_score": 54,
     "recently_finished": true,
-    "popularity_rank": 63
+    "popularity_rank": 65
   },
   {
     "id": 199748,
@@ -1291,7 +1336,7 @@
     "popularity": 6053,
     "anilist_score": 57,
     "recently_finished": true,
-    "popularity_rank": 64
+    "popularity_rank": 66
   },
   {
     "id": 209669,
@@ -1321,7 +1366,7 @@
     "popularity": 7363,
     "anilist_score": 71,
     "recently_finished": true,
-    "popularity_rank": 60
+    "popularity_rank": 62
   },
   {
     "id": 201667,
@@ -1356,7 +1401,7 @@
     "popularity": 4860,
     "anilist_score": 73,
     "recently_finished": true,
-    "popularity_rank": 66
+    "popularity_rank": 68
   },
   {
     "id": 196219,
@@ -1421,6 +1466,6 @@
     "popularity": 3819,
     "anilist_score": 66,
     "recently_finished": true,
-    "popularity_rank": 67
+    "popularity_rank": 69
   }
 ]
