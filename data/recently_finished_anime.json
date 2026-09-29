@@ -1,5 +1,35 @@
 [
   {
+    "id": 197754,
+    "mal_id": 62331,
+    "name": "LIAR GAME",
+    "english_title": "LIAR GAME",
+    "episode": 26,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 26,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197754-Q5KqcUhIdypp.png",
+    "trailer": {
+      "id": "FIPOXj00ysQ",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/FIPOXj00ysQ/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/197754",
+    "start_date": "2026-04-07",
+    "end_date": "2026-09-29",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371851/liar-game",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 43589,
+    "anilist_score": 62,
+    "recently_finished": true,
+    "popularity_rank": 23
+  },
+  {
     "id": 178789,
     "mal_id": 59193,
     "name": "Mushoku Tensei III: Isekai Ittara Honki Dasu",
@@ -127,7 +157,7 @@
     "popularity": 10006,
     "anilist_score": 73,
     "recently_finished": true,
-    "popularity_rank": 61
+    "popularity_rank": 60
   },
   {
     "id": 185692,
@@ -157,7 +187,7 @@
     "popularity": 7417,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 64
+    "popularity_rank": 63
   },
   {
     "id": 200230,
@@ -187,7 +217,7 @@
     "popularity": 6021,
     "anilist_score": 62,
     "recently_finished": true,
-    "popularity_rank": 68
+    "popularity_rank": 67
   },
   {
     "id": 209983,
@@ -302,7 +332,7 @@
     "popularity": 19917,
     "anilist_score": 66,
     "recently_finished": true,
-    "popularity_rank": 47
+    "popularity_rank": 46
   },
   {
     "id": 196356,
@@ -342,7 +372,7 @@
     "popularity": 12854,
     "anilist_score": 68,
     "recently_finished": true,
-    "popularity_rank": 55
+    "popularity_rank": 54
   },
   {
     "id": 182205,
@@ -457,7 +487,7 @@
     "popularity": 12251,
     "anilist_score": 80,
     "recently_finished": true,
-    "popularity_rank": 56
+    "popularity_rank": 55
   },
   {
     "id": 196187,
@@ -522,7 +552,7 @@
     "popularity": 15072,
     "anilist_score": 72,
     "recently_finished": true,
-    "popularity_rank": 51
+    "popularity_rank": 50
   },
   {
     "id": 108992,
@@ -552,7 +582,7 @@
     "popularity": 7938,
     "anilist_score": 48,
     "recently_finished": true,
-    "popularity_rank": 62
+    "popularity_rank": 61
   },
   {
     "id": 135865,
@@ -972,7 +1002,7 @@
     "popularity": 15486,
     "anilist_score": 62,
     "recently_finished": true,
-    "popularity_rank": 50
+    "popularity_rank": 49
   },
   {
     "id": 188139,
@@ -1207,7 +1237,7 @@
     "popularity": 12965,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 54
+    "popularity_rank": 53
   },
   {
     "id": 204060,
@@ -1237,7 +1267,7 @@
     "popularity": 11592,
     "anilist_score": 75,
     "recently_finished": true,
-    "popularity_rank": 57
+    "popularity_rank": 56
   },
   {
     "id": 185875,
@@ -1267,7 +1297,7 @@
     "popularity": 10186,
     "anilist_score": 64,
     "recently_finished": true,
-    "popularity_rank": 60
+    "popularity_rank": 59
   },
   {
     "id": 195600,
@@ -1361,7 +1391,7 @@
     "popularity": 21064,
     "anilist_score": 58,
     "recently_finished": true,
-    "popularity_rank": 46
+    "popularity_rank": 45
   },
   {
     "id": 206249,
@@ -1391,7 +1421,7 @@
     "popularity": 6575,
     "anilist_score": 54,
     "recently_finished": true,
-    "popularity_rank": 66
+    "popularity_rank": 65
   },
   {
     "id": 199748,
@@ -1526,7 +1556,7 @@
     "popularity": 6063,
     "anilist_score": 57,
     "recently_finished": true,
-    "popularity_rank": 67
+    "popularity_rank": 66
   },
   {
     "id": 209669,
@@ -1556,7 +1586,7 @@
     "popularity": 7410,
     "anilist_score": 71,
     "recently_finished": true,
-    "popularity_rank": 65
+    "popularity_rank": 64
   },
   {
     "id": 201667,
@@ -1591,71 +1621,6 @@
     "popularity": 4875,
     "anilist_score": 73,
     "recently_finished": true,
-    "popularity_rank": 69
-  },
-  {
-    "id": 196219,
-    "mal_id": 62080,
-    "name": "Mujikaku Seijo wa Kyou mo Muishiki ni Chikara wo Tare Nagasu",
-    "english_title": "The Oblivious Saint Can't Contain Her Power",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196219-imvC0rbk4VzH.jpg",
-    "trailer": {
-      "id": "R82wqxOXPIM",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/R82wqxOXPIM/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/196219",
-    "start_date": "2026-06-30",
-    "end_date": "2026-09-15",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00378125/",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 21485,
-    "anilist_score": 63,
-    "recently_finished": true,
-    "popularity_rank": 45
-  },
-  {
-    "id": 213484,
-    "mal_id": 62957,
-    "name": "Bai Ri Cheng Wang",
-    "english_title": "Crowned in a Hundred Days",
-    "episode": 25,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 25,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213484-FIyYH43ASHgB.png",
-    "trailer": {
-      "id": "IYcGvpXYfGE",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/IYcGvpXYfGE/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/213484",
-    "start_date": "2026-07-03",
-    "end_date": "2026-09-15",
-    "streaming_links": [
-      {
-        "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md281710135",
-        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00379214/crowned-in-a-hundred-days",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 3853,
-    "anilist_score": 66,
-    "recently_finished": true,
-    "popularity_rank": 70
+    "popularity_rank": 68
   }
 ]
