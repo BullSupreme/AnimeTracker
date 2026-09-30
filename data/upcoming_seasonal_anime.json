@@ -87,35 +87,6 @@
     "popularity_rank": 3
   },
   {
-    "id": 159042,
-    "mal_id": 53913,
-    "name": "Tensei Shitara Ken Deshita 2nd Season",
-    "english_title": "Reincarnated as a Sword Season 2",
-    "episode": 1,
-    "release_date": "2026-10-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx159042-GGFwlDskc5vR.png",
-    "trailer": {
-      "id": "kbtRqqa2GyA",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/kbtRqqa2GyA/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/159042",
-    "start_date": "2026-10-01",
-    "season": "Fall",
-    "season_year": 2026,
-    "studios": "NBCUniversal Entertainment Japan, C2C",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "popularity": 39739,
-    "favourites": 617,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 4
-  },
-  {
     "id": 189123,
     "mal_id": 61323,
     "name": "Ao no Hako Season 2",
@@ -142,7 +113,7 @@
     "favourites": 514,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 5
+    "popularity_rank": 4
   },
   {
     "id": 178083,
@@ -172,7 +143,7 @@
     "favourites": 300,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 6
+    "popularity_rank": 5
   },
   {
     "id": 213805,
@@ -202,7 +173,7 @@
     "favourites": 243,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 7
+    "popularity_rank": 6
   },
   {
     "id": 172192,
@@ -231,7 +202,7 @@
     "favourites": 272,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 8
+    "popularity_rank": 7
   },
   {
     "id": 152677,
@@ -262,7 +233,7 @@
     "favourites": 272,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 9
+    "popularity_rank": 8
   },
   {
     "id": 205909,
@@ -290,7 +261,7 @@
     "favourites": 236,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 10
+    "popularity_rank": 9
   },
   {
     "id": 213457,
@@ -320,7 +291,7 @@
     "favourites": 118,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 11
+    "popularity_rank": 10
   },
   {
     "id": 191788,
@@ -347,7 +318,7 @@
     "favourites": 188,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 12
+    "popularity_rank": 11
   },
   {
     "id": 191656,
@@ -375,13 +346,13 @@
     "favourites": 125,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 13
+    "popularity_rank": 12
   },
   {
     "id": 206814,
     "mal_id": 63367,
     "name": "Dragon Ball Super: Beerus",
-    "english_title": null,
+    "english_title": "Dragon Ball Super: Beerus",
     "episode": 1,
     "release_date": "2026-10-11",
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206814-PVVzRbf1IQpe.jpg",
@@ -397,13 +368,14 @@
     "studios": "Toei Animation, Shueisha",
     "genres": [
       "Action",
-      "Adventure"
+      "Adventure",
+      "Sci-Fi"
     ],
     "popularity": 11994,
     "favourites": 207,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 14
+    "popularity_rank": 13
   },
   {
     "id": 204650,
@@ -432,7 +404,7 @@
     "favourites": 140,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 15
+    "popularity_rank": 14
   },
   {
     "id": 209872,
@@ -461,7 +433,7 @@
     "favourites": 85,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 16
+    "popularity_rank": 15
   },
   {
     "id": 212503,
@@ -490,7 +462,7 @@
     "favourites": 123,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 17
+    "popularity_rank": 16
   },
   {
     "id": 198727,
@@ -518,7 +490,7 @@
     "favourites": 111,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 18
+    "popularity_rank": 17
   },
   {
     "id": 176314,
@@ -547,7 +519,7 @@
     "favourites": 94,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 19
+    "popularity_rank": 18
   },
   {
     "id": 207191,
@@ -575,7 +547,7 @@
     "favourites": 70,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 20
+    "popularity_rank": 19
   },
   {
     "id": 204011,
@@ -604,7 +576,7 @@
     "favourites": 120,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 21
+    "popularity_rank": 20
   },
   {
     "id": 186541,
@@ -636,7 +608,7 @@
     "favourites": 111,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 22
+    "popularity_rank": 21
   },
   {
     "id": 206949,
@@ -663,7 +635,7 @@
     "favourites": 65,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 23
+    "popularity_rank": 22
   },
   {
     "id": 187402,
@@ -692,13 +664,13 @@
     "favourites": 56,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 24
+    "popularity_rank": 23
   },
   {
     "id": 209502,
     "mal_id": 63754,
     "name": "Shiotaiou no Satou-san ga Ore ni dake Amai",
-    "english_title": null,
+    "english_title": "The Cold Sato-san is Only Sweet to Me",
     "episode": 1,
     "release_date": "2026-10-06",
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209502-C81oN8M4Smlo.jpg",
@@ -720,7 +692,7 @@
     "favourites": 78,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 25
+    "popularity_rank": 24
   },
   {
     "id": 178868,
@@ -750,13 +722,13 @@
     "favourites": 43,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 26
+    "popularity_rank": 25
   },
   {
     "id": 186742,
     "mal_id": 61014,
     "name": "Toaru Anbu no ITEM",
-    "english_title": null,
+    "english_title": "A Certain Dark Item",
     "episode": 1,
     "release_date": "2026-10-09",
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186742-v7yfbefc8fuO.png",
@@ -778,7 +750,7 @@
     "favourites": 46,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 27
+    "popularity_rank": 26
   },
   {
     "id": 207329,
@@ -808,7 +780,7 @@
     "favourites": 72,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 28
+    "popularity_rank": 27
   },
   {
     "id": 195571,
@@ -837,7 +809,7 @@
     "favourites": 42,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 29
+    "popularity_rank": 28
   },
   {
     "id": 206401,
@@ -846,7 +818,7 @@
     "english_title": "FX Fighter Kurumi-chan",
     "episode": 1,
     "release_date": "2026-10-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206401-tToJHZcMGrvp.jpg",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206401-8cAebkI0i8BA.png",
     "trailer": {
       "id": "7rxIZ3z0S4s",
       "site": "youtube",
@@ -865,7 +837,7 @@
     "favourites": 42,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 30
+    "popularity_rank": 29
   },
   {
     "id": 213657,
@@ -894,7 +866,7 @@
     "favourites": 54,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 31
+    "popularity_rank": 30
   },
   {
     "id": 160803,
@@ -924,7 +896,7 @@
     "favourites": 42,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 32
+    "popularity_rank": 31
   },
   {
     "id": 211778,
@@ -953,13 +925,13 @@
     "favourites": 36,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 33
+    "popularity_rank": 32
   },
   {
     "id": 202250,
     "mal_id": 62922,
     "name": "Kashita Maryoku wa [Revo Barai] de Kyousei Choushuu",
-    "english_title": null,
+    "english_title": "Magic Repo Man: Dumped by My Party, I’ll Cash In With a Cute Support Fairy to Become the Strongest!",
     "episode": 1,
     "release_date": "2026-10-04",
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202250-duq4XpZP8TU3.jpg",
@@ -982,7 +954,7 @@
     "favourites": 53,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 34
+    "popularity_rank": 33
   },
   {
     "id": 199007,
@@ -1013,7 +985,7 @@
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 35
+    "popularity_rank": 34
   },
   {
     "id": 200455,
@@ -1042,7 +1014,7 @@
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 36
+    "popularity_rank": 35
   },
   {
     "id": 203275,
@@ -1071,7 +1043,7 @@
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 37
+    "popularity_rank": 36
   },
   {
     "id": 180894,
@@ -1100,7 +1072,7 @@
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 38
+    "popularity_rank": 37
   },
   {
     "id": 212667,
@@ -1128,7 +1100,7 @@
     "favourites": 79,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 39
+    "popularity_rank": 38
   },
   {
     "id": 209219,
@@ -1160,13 +1132,13 @@
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 40
+    "popularity_rank": 39
   },
   {
     "id": 205896,
     "mal_id": 63292,
     "name": "Shinja Zero no Megami-sama to Hajimeru Isekai Kouryaku",
-    "english_title": null,
+    "english_title": "Full Clearing Another World under a Goddess with Zero Believers",
     "episode": 1,
     "release_date": "2026-10-11",
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205896-ElrV8oVAsuax.jpg",
@@ -1184,7 +1156,7 @@
     "favourites": 43,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 41
+    "popularity_rank": 40
   },
   {
     "id": 209499,
@@ -1212,13 +1184,13 @@
     "favourites": 23,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 42
+    "popularity_rank": 41
   },
   {
     "id": 203473,
     "mal_id": 63053,
     "name": "Kyoufu Collector",
-    "english_title": null,
+    "english_title": "HORROR COLLECTOR",
     "episode": 1,
     "release_date": "2026-10-10",
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b203473-pzyaqV432Qko.jpg",
@@ -1237,7 +1209,7 @@
     "favourites": 23,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 43
+    "popularity_rank": 42
   },
   {
     "id": 187316,
@@ -1266,13 +1238,13 @@
     "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 44
+    "popularity_rank": 43
   },
   {
     "id": 209463,
     "mal_id": 63753,
     "name": "Kanata Kara",
-    "english_title": null,
+    "english_title": "From Far Away",
     "episode": 1,
     "release_date": "2026-10-05",
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209463-Yxk2q10RXgg8.jpg",
@@ -1295,7 +1267,7 @@
     "favourites": 13,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 45
+    "popularity_rank": 44
   },
   {
     "id": 212799,
@@ -1324,7 +1296,7 @@
     "favourites": 14,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 46
+    "popularity_rank": 45
   },
   {
     "id": 202079,
@@ -1352,7 +1324,7 @@
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 47
+    "popularity_rank": 46
   },
   {
     "id": 213658,
@@ -1379,13 +1351,13 @@
     "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 48
+    "popularity_rank": 47
   },
   {
     "id": 200294,
     "mal_id": 62696,
     "name": "Choujun! Choujou Senpai",
-    "english_title": null,
+    "english_title": "Super Psychic Policeman Chojo",
     "episode": 1,
     "release_date": "2026-10-06",
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx200294-E6KIgkFaJOfG.jpg",
@@ -1407,7 +1379,7 @@
     "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 49
+    "popularity_rank": 48
   },
   {
     "id": 199426,
@@ -1431,7 +1403,7 @@
     "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 50
+    "popularity_rank": 49
   },
   {
     "id": 209562,
@@ -1459,7 +1431,7 @@
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 51
+    "popularity_rank": 50
   },
   {
     "id": 199594,
@@ -1486,7 +1458,7 @@
     "favourites": 6,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 52
+    "popularity_rank": 51
   },
   {
     "id": 179876,
@@ -1514,13 +1486,13 @@
     "favourites": 11,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 53
+    "popularity_rank": 52
   },
   {
     "id": 213068,
     "mal_id": 64344,
     "name": "Jyuоu Mujin Dandivine",
-    "english_title": null,
+    "english_title": "Dandivine",
     "episode": 1,
     "release_date": "2026-10-08",
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213068-aFSedkY5bQ4m.png",
@@ -1542,7 +1514,7 @@
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 54
+    "popularity_rank": 53
   },
   {
     "id": 209032,
@@ -1570,6 +1542,6 @@
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 55
+    "popularity_rank": 54
   }
 ]
