@@ -207,7 +207,7 @@
     "popularity": 3024,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 101
+    "popularity_rank": 102
   },
   {
     "id": 207191,
@@ -675,36 +675,6 @@
     "popularity_rank": 70
   },
   {
-    "id": 203490,
-    "mal_id": 63061,
-    "name": "Uchi no Otouto-domo ga Sumimasen",
-    "english_title": "Please Excuse My Younger Brothers",
-    "episode": 13,
-    "release_date": null,
-    "next_airing_date": "2026-10-02",
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx203490-YQXiymUiDQNA.jpg",
-    "trailer": {
-      "id": "P927_ZvgUUg",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/P927_ZvgUUg/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/203490",
-    "start_date": "2026-07-04",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371926/",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 10390,
-    "anilist_score": 68,
-    "recently_finished": false,
-    "popularity_rank": 74
-  },
-  {
     "id": 159042,
     "mal_id": 53913,
     "name": "Tensei Shitara Ken Deshita 2nd Season",
@@ -780,7 +750,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 755841,
+    "popularity": 756137,
     "anilist_score": 87,
     "recently_finished": false,
     "popularity_rank": 1
@@ -1061,6 +1031,36 @@
     "popularity_rank": 88
   },
   {
+    "id": 203275,
+    "mal_id": 63045,
+    "name": "Demons' Crest",
+    "english_title": "Devils' Crest",
+    "episode": 1,
+    "release_date": "2026-11-06",
+    "next_airing_date": "2026-11-06",
+    "next_episode_number": 1,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b203275-YyNHygkzIjMC.jpg",
+    "trailer": {
+      "id": "z_aHrTag3Ig",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/z_aHrTag3Ig/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/203275",
+    "start_date": "2026-11-06",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Amazon Prime Video",
+        "url": "https://amazon.com",
+        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+      }
+    ],
+    "popularity": 4420,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 97
+  },
+  {
     "id": 205896,
     "mal_id": 63292,
     "name": "Shinja Zero no Megami-sama to Hajimeru Isekai Kouryaku",
@@ -1088,7 +1088,7 @@
     "popularity": 4273,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 98
+    "popularity_rank": 99
   },
   {
     "id": 203473,
@@ -1114,6 +1114,6 @@
     "popularity": 3547,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 99
+    "popularity_rank": 100
   }
 ]
