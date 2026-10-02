@@ -22,8 +22,8 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 34716,
-    "favourites": 369,
+    "popularity": 35101,
+    "favourites": 378,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 1
@@ -53,8 +53,8 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "popularity": 34447,
-    "favourites": 535,
+    "popularity": 34677,
+    "favourites": 536,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 2
@@ -85,8 +85,8 @@
       "Mystery",
       "Romance"
     ],
-    "popularity": 27458,
-    "favourites": 334,
+    "popularity": 27618,
+    "favourites": 336,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 3
@@ -113,8 +113,8 @@
       "Action",
       "Comedy"
     ],
-    "popularity": 24379,
-    "favourites": 235,
+    "popularity": 24636,
+    "favourites": 239,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 4
@@ -141,8 +141,8 @@
       "Music",
       "Romance"
     ],
-    "popularity": 22184,
-    "favourites": 364,
+    "popularity": 22378,
+    "favourites": 363,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 5
@@ -171,7 +171,7 @@
       "Fantasy",
       "Supernatural"
     ],
-    "popularity": 16896,
+    "popularity": 17059,
     "favourites": 145,
     "anilist_score": null,
     "streaming_links": [],
@@ -201,8 +201,8 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 12815,
-    "favourites": 104,
+    "popularity": 12904,
+    "favourites": 106,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 7
@@ -230,8 +230,8 @@
       "Ecchi",
       "Romance"
     ],
-    "popularity": 12024,
-    "favourites": 138,
+    "popularity": 12139,
+    "favourites": 139,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 8
@@ -258,8 +258,8 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 8951,
-    "favourites": 104,
+    "popularity": 9003,
+    "favourites": 105,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 9
@@ -287,7 +287,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 8604,
+    "popularity": 8711,
     "favourites": 88,
     "anilist_score": null,
     "streaming_links": [],
@@ -312,8 +312,8 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 7463,
-    "favourites": 68,
+    "popularity": 7594,
+    "favourites": 70,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 11
@@ -339,8 +339,8 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 6774,
-    "favourites": 33,
+    "popularity": 6811,
+    "favourites": 34,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 12
@@ -368,8 +368,8 @@
       "Drama",
       "Slice of Life"
     ],
-    "popularity": 5407,
-    "favourites": 40,
+    "popularity": 5559,
+    "favourites": 41,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 13
@@ -399,40 +399,11 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 5301,
+    "popularity": 5348,
     "favourites": 56,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 14
-  },
-  {
-    "id": 205130,
-    "mal_id": 63215,
-    "name": "Historié",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2027-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205130-dC5WuIvGMMgr.png",
-    "trailer": {
-      "id": "GM1Y206Unwg",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/GM1Y206Unwg/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/205130",
-    "start_date": "2027-01-01",
-    "season": "Winter",
-    "season_year": 2027,
-    "studios": "LIDENFILMS, Mainichi Broadcasting System",
-    "genres": [
-      "Adventure",
-      "Drama",
-      "Psychological"
-    ],
-    "popularity": 5203,
-    "favourites": 25,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 15
   },
   {
     "id": 216624,
@@ -459,8 +430,37 @@
       "Fantasy",
       "Supernatural"
     ],
-    "popularity": 5187,
+    "popularity": 5309,
     "favourites": 62,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 15
+  },
+  {
+    "id": 205130,
+    "mal_id": 63215,
+    "name": "Historié",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2027-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205130-dC5WuIvGMMgr.png",
+    "trailer": {
+      "id": "GM1Y206Unwg",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/GM1Y206Unwg/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/205130",
+    "start_date": "2027-01-01",
+    "season": "Winter",
+    "season_year": 2027,
+    "studios": "LIDENFILMS, Mainichi Broadcasting System",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Psychological"
+    ],
+    "popularity": 5272,
+    "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 16
@@ -486,8 +486,8 @@
     "genres": [
       "Slice of Life"
     ],
-    "popularity": 4744,
-    "favourites": 23,
+    "popularity": 4844,
+    "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 17
@@ -513,7 +513,7 @@
     "genres": [
       "Music"
     ],
-    "popularity": 4739,
+    "popularity": 4750,
     "favourites": 45,
     "anilist_score": null,
     "streaming_links": [],
@@ -537,8 +537,8 @@
       "Action",
       "Comedy"
     ],
-    "popularity": 4604,
-    "favourites": 69,
+    "popularity": 4655,
+    "favourites": 68,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 19
@@ -568,8 +568,8 @@
       "Mystery",
       "Romance"
     ],
-    "popularity": 4545,
-    "favourites": 50,
+    "popularity": 4574,
+    "favourites": 49,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 20
@@ -597,8 +597,8 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 4431,
-    "favourites": 30,
+    "popularity": 4474,
+    "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 21
@@ -624,8 +624,8 @@
       "Romance",
       "Thriller"
     ],
-    "popularity": 4011,
-    "favourites": 54,
+    "popularity": 4039,
+    "favourites": 55,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 22
@@ -653,7 +653,7 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 3025,
+    "popularity": 3055,
     "favourites": 31,
     "anilist_score": null,
     "streaming_links": [],
@@ -683,7 +683,7 @@
       "Supernatural",
       "Thriller"
     ],
-    "popularity": 2990,
+    "popularity": 3015,
     "favourites": 35,
     "anilist_score": null,
     "streaming_links": [],
@@ -708,7 +708,7 @@
     "season_year": 2027,
     "studios": "Satelight, Staple Entertainment",
     "genres": [],
-    "popularity": 2943,
+    "popularity": 2969,
     "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
@@ -736,7 +736,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2899,
+    "popularity": 2920,
     "favourites": 42,
     "anilist_score": null,
     "streaming_links": [],
@@ -764,7 +764,7 @@
       "Action",
       "Fantasy"
     ],
-    "popularity": 2820,
+    "popularity": 2855,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
@@ -794,7 +794,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 2682,
+    "popularity": 2719,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
@@ -822,7 +822,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2561,
+    "popularity": 2611,
     "favourites": 36,
     "anilist_score": null,
     "streaming_links": [],
@@ -851,7 +851,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2554,
+    "popularity": 2596,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
@@ -882,7 +882,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "popularity": 2456,
+    "popularity": 2477,
     "favourites": 25,
     "anilist_score": null,
     "streaming_links": [],
@@ -914,8 +914,8 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2341,
-    "favourites": 20,
+    "popularity": 2368,
+    "favourites": 21,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 32
@@ -942,7 +942,7 @@
       "Action",
       "Adventure"
     ],
-    "popularity": 2335,
+    "popularity": 2347,
     "favourites": 13,
     "anilist_score": null,
     "streaming_links": [],
@@ -969,8 +969,8 @@
     "genres": [
       "Action"
     ],
-    "popularity": 2310,
-    "favourites": 7,
+    "popularity": 2343,
+    "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 34
@@ -999,7 +999,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 2164,
+    "popularity": 2195,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
@@ -1028,7 +1028,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2138,
+    "popularity": 2158,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
@@ -1057,8 +1057,8 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 1866,
-    "favourites": 14,
+    "popularity": 1886,
+    "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 37
@@ -1085,8 +1085,8 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 1478,
-    "favourites": 29,
+    "popularity": 1485,
+    "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 38
@@ -1110,7 +1110,7 @@
     "season_year": 2027,
     "studios": "Kotobukiya, TV Asahi",
     "genres": [],
-    "popularity": 1202,
+    "popularity": 1214,
     "favourites": 4,
     "anilist_score": null,
     "streaming_links": [],
@@ -1139,7 +1139,7 @@
       "Mystery",
       "Romance"
     ],
-    "popularity": 1178,
+    "popularity": 1191,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
@@ -1163,7 +1163,7 @@
       "Music",
       "Slice of Life"
     ],
-    "popularity": 1123,
+    "popularity": 1127,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
@@ -1192,7 +1192,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 1051,
+    "popularity": 1054,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
@@ -1221,10 +1221,34 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 1001,
+    "popularity": 1018,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 43
+  },
+  {
+    "id": 214049,
+    "mal_id": 64600,
+    "name": "Kizuguchi to Houtai",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2027-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx214049-8lsk5vf0XIdu.jpg",
+    "trailer": null,
+    "site_url": "https://anilist.co/anime/214049",
+    "start_date": "2027-01-01",
+    "season": "Winter",
+    "season_year": 2027,
+    "studios": "J.C.STAFF",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "popularity": 1018,
+    "favourites": 9,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 44
   }
 ]
