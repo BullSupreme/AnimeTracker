@@ -536,7 +536,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 60698,
+    "popularity": 60843,
     "anilist_score": 74,
     "recently_finished": true,
     "popularity_rank": 15
@@ -1303,8 +1303,8 @@
     "english_title": "Overgeared",
     "episode": 2,
     "release_date": "2026-10-04",
-    "next_airing_date": "2026-10-04",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-10-11",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212888-NhyvqPt5aIuJ.jpg",
     "trailer": {
       "id": "e1Km0FqUZl0",
@@ -1487,8 +1487,8 @@
     "english_title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World Season 3",
     "episode": 2,
     "release_date": "2026-10-04",
-    "next_airing_date": "2026-10-04",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-10-11",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185756-xPCl0RyQ7fXD.jpg",
     "trailer": {
       "id": "8_Lxr7vO9l0",
@@ -2281,7 +2281,7 @@
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com",
+        "url": "https://www.crunchyroll.com/series/GT00384006/reborn-as-a-space-mercenary-i-woke-up-piloting-the-strongest-starship",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
@@ -2321,6 +2321,36 @@
     "popularity_rank": 71
   },
   {
+    "id": 208025,
+    "mal_id": 63509,
+    "name": "Dark Summoner to Dekiteiru",
+    "english_title": "I'm Dating a Dark Summoner",
+    "episode": 1,
+    "release_date": "2026-10-04",
+    "next_airing_date": "2026-10-11",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx208025-JKvqWNr8rz8l.jpg",
+    "trailer": {
+      "id": "-YCols5lYow",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/-YCols5lYow/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/208025",
+    "start_date": "2026-10-05",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "HIDIVE",
+        "url": "https://www.hidive.com/season/39541",
+        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
+      }
+    ],
+    "popularity": 9167,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 72
+  },
+  {
     "id": 209502,
     "mal_id": 63754,
     "name": "Shiotaiou no Satou-san ga Ore ni dake Amai",
@@ -2348,7 +2378,7 @@
     "popularity": 8954,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 72
+    "popularity_rank": 73
   },
   {
     "id": 202250,
@@ -2378,7 +2408,7 @@
     "popularity": 8756,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 73
+    "popularity_rank": 74
   },
   {
     "id": 108992,
@@ -2405,10 +2435,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 7994,
-    "anilist_score": 48,
+    "popularity": 7999,
+    "anilist_score": 49,
     "recently_finished": true,
-    "popularity_rank": 74
+    "popularity_rank": 75
   },
   {
     "id": 186742,
@@ -2438,7 +2468,7 @@
     "popularity": 7900,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 75
+    "popularity_rank": 76
   },
   {
     "id": 178868,
@@ -2473,7 +2503,7 @@
     "popularity": 7799,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 76
+    "popularity_rank": 77
   },
   {
     "id": 185692,
@@ -2503,7 +2533,7 @@
     "popularity": 7519,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 77
+    "popularity_rank": 78
   },
   {
     "id": 207329,
@@ -2533,7 +2563,7 @@
     "popularity": 7169,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 78
+    "popularity_rank": 79
   },
   {
     "id": 199007,
@@ -2563,7 +2593,7 @@
     "popularity": 6818,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 79
+    "popularity_rank": 80
   },
   {
     "id": 180894,
@@ -2598,7 +2628,31 @@
     "popularity": 6813,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 80
+    "popularity_rank": 81
+  },
+  {
+    "id": 211877,
+    "mal_id": 64131,
+    "name": "Kanojo no Tomodachi",
+    "english_title": "My Girlfriend's Friend",
+    "episode": 1,
+    "release_date": "2026-10-04",
+    "next_airing_date": "2026-10-11",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx211877-yWQ2r7XmWvG6.jpg",
+    "trailer": {
+      "id": "E-stx_wwVSs",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/E-stx_wwVSs/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/211877",
+    "start_date": "2026-10-05",
+    "end_date": "2026-12-21",
+    "streaming_links": [],
+    "popularity": 6639,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 82
   },
   {
     "id": 200230,
@@ -2628,7 +2682,7 @@
     "popularity": 6154,
     "anilist_score": 63,
     "recently_finished": true,
-    "popularity_rank": 81
+    "popularity_rank": 83
   },
   {
     "id": 211778,
@@ -2658,7 +2712,7 @@
     "popularity": 5878,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 82
+    "popularity_rank": 84
   },
   {
     "id": 160803,
@@ -2688,7 +2742,7 @@
     "popularity": 5650,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 83
+    "popularity_rank": 85
   },
   {
     "id": 200455,
@@ -2697,8 +2751,8 @@
     "english_title": "Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé",
     "episode": 1,
     "release_date": "2026-10-04",
-    "next_airing_date": "2026-10-04",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-10-11",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx200455-P3XStRQMJ7Di.png",
     "trailer": {
       "id": "e41RGxVwJRs",
@@ -2711,14 +2765,14 @@
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/",
+        "url": "https://www.crunchyroll.com/series/GT00365562",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
     "popularity": 5251,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 84
+    "popularity_rank": 86
   },
   {
     "id": 203275,
@@ -2748,7 +2802,7 @@
     "popularity": 4674,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 85
+    "popularity_rank": 87
   },
   {
     "id": 205896,
@@ -2778,7 +2832,7 @@
     "popularity": 4630,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 86
+    "popularity_rank": 88
   },
   {
     "id": 187316,
@@ -2802,7 +2856,7 @@
     "popularity": 4615,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 87
+    "popularity_rank": 89
   },
   {
     "id": 212799,
@@ -2832,17 +2886,17 @@
     "popularity": 4342,
     "anilist_score": 58,
     "recently_finished": false,
-    "popularity_rank": 88
+    "popularity_rank": 90
   },
   {
     "id": 209499,
     "mal_id": 63751,
     "name": "TANK CHAIR: Sensha Isu",
-    "english_title": null,
+    "english_title": "TANK CHAIR",
     "episode": 1,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 1,
+    "release_date": "2026-10-04",
+    "next_airing_date": "2026-10-11",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209499-S0sWFrCpft85.jpg",
     "trailer": {
       "id": "ihAvU833DHA",
@@ -2852,11 +2906,17 @@
     "site_url": "https://anilist.co/anime/209499",
     "start_date": "2026-10-04",
     "end_date": null,
-    "streaming_links": [],
+    "streaming_links": [
+      {
+        "site": "Prime Video",
+        "url": "https://www.primevideo.com/detail/0FYBTVJ1JB731K9U0XDE7U20F1",
+        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+      }
+    ],
     "popularity": 3892,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 89
+    "popularity_rank": 91
   },
   {
     "id": 203473,
@@ -2882,7 +2942,37 @@
     "popularity": 3722,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 90
+    "popularity_rank": 92
+  },
+  {
+    "id": 209463,
+    "mal_id": 63753,
+    "name": "Kanata Kara",
+    "english_title": "From Far Away",
+    "episode": 1,
+    "release_date": "2026-10-04",
+    "next_airing_date": "2026-10-11",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209463-Yxk2q10RXgg8.jpg",
+    "trailer": {
+      "id": "dLRKywRu3iM",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/dLRKywRu3iM/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/209463",
+    "start_date": "2026-10-05",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00384000/from-far-away",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 3191,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 93
   },
   {
     "id": 209562,
@@ -2912,36 +3002,6 @@
     "popularity": 3191,
     "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 91
-  },
-  {
-    "id": 209463,
-    "mal_id": 63753,
-    "name": "Kanata Kara",
-    "english_title": "From Far Away",
-    "episode": 1,
-    "release_date": "2026-10-04",
-    "next_airing_date": "2026-10-04",
-    "next_episode_number": 1,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209463-Yxk2q10RXgg8.jpg",
-    "trailer": {
-      "id": "dLRKywRu3iM",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/dLRKywRu3iM/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/209463",
-    "start_date": "2026-10-05",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 3191,
-    "anilist_score": null,
-    "recently_finished": false,
-    "popularity_rank": 92
+    "popularity_rank": 94
   }
 ]

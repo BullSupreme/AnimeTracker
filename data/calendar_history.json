@@ -8127,8 +8127,8 @@
     "english_title": "Overgeared",
     "episode": 1,
     "release_date": "2026-09-27",
-    "next_airing_date": "2026-10-04",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-10-11",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212888-NhyvqPt5aIuJ.jpg",
     "trailer": {
       "id": "e1Km0FqUZl0",
@@ -8157,8 +8157,8 @@
     "english_title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World Season 3",
     "episode": 1,
     "release_date": "2026-09-27",
-    "next_airing_date": "2026-10-04",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-10-11",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185756-xPCl0RyQ7fXD.jpg",
     "trailer": {
       "id": "8_Lxr7vO9l0",
@@ -8733,7 +8733,7 @@
     "popularity": 6818,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 79
+    "popularity_rank": 80
   },
   {
     "id": 195604,
@@ -8787,7 +8787,7 @@
     "popularity": 4615,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 87
+    "popularity_rank": 89
   },
   {
     "id": 202250,
@@ -8817,7 +8817,7 @@
     "popularity": 8756,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 73
+    "popularity_rank": 74
   },
   {
     "id": 212799,
@@ -8847,7 +8847,7 @@
     "popularity": 4342,
     "anilist_score": 58,
     "recently_finished": false,
-    "popularity_rank": 88
+    "popularity_rank": 90
   },
   {
     "id": 235,
@@ -8953,7 +8953,7 @@
     "popularity": 6813,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 80
+    "popularity_rank": 81
   },
   {
     "id": 191656,
@@ -9037,7 +9037,7 @@
     "popularity": 3191,
     "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 91
+    "popularity_rank": 94
   },
   {
     "id": 204389,
@@ -9135,14 +9135,44 @@
     "popularity_rank": 50
   },
   {
+    "id": 208025,
+    "mal_id": 63509,
+    "name": "Dark Summoner to Dekiteiru",
+    "english_title": "I'm Dating a Dark Summoner",
+    "episode": 1,
+    "release_date": "2026-10-04",
+    "next_airing_date": "2026-10-11",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx208025-JKvqWNr8rz8l.jpg",
+    "trailer": {
+      "id": "-YCols5lYow",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/-YCols5lYow/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/208025",
+    "start_date": "2026-10-05",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "HIDIVE",
+        "url": "https://www.hidive.com/season/39541",
+        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
+      }
+    ],
+    "popularity": 9167,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 72
+  },
+  {
     "id": 209463,
     "mal_id": 63753,
     "name": "Kanata Kara",
     "english_title": "From Far Away",
     "episode": 1,
     "release_date": "2026-10-04",
-    "next_airing_date": "2026-10-04",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-10-11",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209463-Yxk2q10RXgg8.jpg",
     "trailer": {
       "id": "dLRKywRu3iM",
@@ -9155,14 +9185,38 @@
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/",
+        "url": "https://www.crunchyroll.com/series/GT00384000/from-far-away",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
     "popularity": 3191,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 92
+    "popularity_rank": 93
+  },
+  {
+    "id": 211877,
+    "mal_id": 64131,
+    "name": "Kanojo no Tomodachi",
+    "english_title": "My Girlfriend's Friend",
+    "episode": 1,
+    "release_date": "2026-10-04",
+    "next_airing_date": "2026-10-11",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx211877-yWQ2r7XmWvG6.jpg",
+    "trailer": {
+      "id": "E-stx_wwVSs",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/E-stx_wwVSs/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/211877",
+    "start_date": "2026-10-05",
+    "end_date": "2026-12-21",
+    "streaming_links": [],
+    "popularity": 6639,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 82
   },
   {
     "id": 186541,
@@ -9185,7 +9239,7 @@
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com",
+        "url": "https://www.crunchyroll.com/series/GT00384006/reborn-as-a-space-mercenary-i-woke-up-piloting-the-strongest-starship",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
@@ -9241,14 +9295,44 @@
     "popularity_rank": 1
   },
   {
+    "id": 209499,
+    "mal_id": 63751,
+    "name": "TANK CHAIR: Sensha Isu",
+    "english_title": "TANK CHAIR",
+    "episode": 1,
+    "release_date": "2026-10-04",
+    "next_airing_date": "2026-10-11",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209499-S0sWFrCpft85.jpg",
+    "trailer": {
+      "id": "ihAvU833DHA",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/ihAvU833DHA/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/209499",
+    "start_date": "2026-10-04",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Prime Video",
+        "url": "https://www.primevideo.com/detail/0FYBTVJ1JB731K9U0XDE7U20F1",
+        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+      }
+    ],
+    "popularity": 3892,
+    "anilist_score": null,
+    "recently_finished": false,
+    "popularity_rank": 91
+  },
+  {
     "id": 212888,
     "mal_id": 64340,
     "name": "Tempal: Item no Chikara",
     "english_title": "Overgeared",
     "episode": 2,
     "release_date": "2026-10-04",
-    "next_airing_date": "2026-10-04",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-10-11",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212888-NhyvqPt5aIuJ.jpg",
     "trailer": {
       "id": "e1Km0FqUZl0",
@@ -9277,8 +9361,8 @@
     "english_title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World Season 3",
     "episode": 2,
     "release_date": "2026-10-04",
-    "next_airing_date": "2026-10-04",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-10-11",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185756-xPCl0RyQ7fXD.jpg",
     "trailer": {
       "id": "8_Lxr7vO9l0",
@@ -9307,8 +9391,8 @@
     "english_title": "Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé",
     "episode": 1,
     "release_date": "2026-10-04",
-    "next_airing_date": "2026-10-04",
-    "next_episode_number": 1,
+    "next_airing_date": "2026-10-11",
+    "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx200455-P3XStRQMJ7Di.png",
     "trailer": {
       "id": "e41RGxVwJRs",
@@ -9321,13 +9405,13 @@
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/",
+        "url": "https://www.crunchyroll.com/series/GT00365562",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
     "popularity": 5251,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 84
+    "popularity_rank": 86
   }
 ]
