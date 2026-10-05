@@ -22,8 +22,8 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 35922,
-    "favourites": 384,
+    "popularity": 36292,
+    "favourites": 398,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 1
@@ -53,8 +53,8 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "popularity": 35258,
-    "favourites": 539,
+    "popularity": 35542,
+    "favourites": 548,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 2
@@ -85,8 +85,8 @@
       "Mystery",
       "Romance"
     ],
-    "popularity": 27957,
-    "favourites": 343,
+    "popularity": 28124,
+    "favourites": 346,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 3
@@ -113,8 +113,8 @@
       "Action",
       "Comedy"
     ],
-    "popularity": 25234,
-    "favourites": 240,
+    "popularity": 25528,
+    "favourites": 247,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 4
@@ -141,8 +141,8 @@
       "Music",
       "Romance"
     ],
-    "popularity": 22827,
-    "favourites": 370,
+    "popularity": 23066,
+    "favourites": 371,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 5
@@ -171,8 +171,8 @@
       "Fantasy",
       "Supernatural"
     ],
-    "popularity": 17394,
-    "favourites": 148,
+    "popularity": 17590,
+    "favourites": 150,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 6
@@ -201,8 +201,8 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 13109,
-    "favourites": 109,
+    "popularity": 13223,
+    "favourites": 112,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 7
@@ -230,8 +230,8 @@
       "Ecchi",
       "Romance"
     ],
-    "popularity": 12347,
-    "favourites": 142,
+    "popularity": 12479,
+    "favourites": 144,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 8
@@ -258,8 +258,8 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 9101,
-    "favourites": 107,
+    "popularity": 9145,
+    "favourites": 109,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 9
@@ -287,8 +287,8 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 8896,
-    "favourites": 90,
+    "popularity": 9031,
+    "favourites": 92,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 10
@@ -312,8 +312,8 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 7943,
-    "favourites": 74,
+    "popularity": 8165,
+    "favourites": 75,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 11
@@ -339,7 +339,7 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 6905,
+    "popularity": 6945,
     "favourites": 34,
     "anilist_score": null,
     "streaming_links": [],
@@ -368,7 +368,7 @@
       "Drama",
       "Slice of Life"
     ],
-    "popularity": 5722,
+    "popularity": 5822,
     "favourites": 41,
     "anilist_score": null,
     "streaming_links": [],
@@ -399,8 +399,8 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 5660,
-    "favourites": 59,
+    "popularity": 5816,
+    "favourites": 61,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 14
@@ -430,7 +430,7 @@
       "Fantasy",
       "Supernatural"
     ],
-    "popularity": 5537,
+    "popularity": 5645,
     "favourites": 63,
     "anilist_score": null,
     "streaming_links": [],
@@ -459,7 +459,7 @@
       "Drama",
       "Psychological"
     ],
-    "popularity": 5372,
+    "popularity": 5440,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
@@ -486,11 +486,35 @@
     "genres": [
       "Slice of Life"
     ],
-    "popularity": 4960,
+    "popularity": 5033,
     "favourites": 23,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 17
+  },
+  {
+    "id": 207251,
+    "mal_id": 63419,
+    "name": "Mairimashita! Iruma-kun: If Episode of Mafia",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2027-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207251-9HLT5632FOMw.jpg",
+    "trailer": null,
+    "site_url": "https://anilist.co/anime/207251",
+    "start_date": "2027-01-01",
+    "season": "Winter",
+    "season_year": 2027,
+    "studios": "NHK",
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "popularity": 4800,
+    "favourites": 71,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 18
   },
   {
     "id": 189121,
@@ -513,32 +537,8 @@
     "genres": [
       "Music"
     ],
-    "popularity": 4778,
+    "popularity": 4789,
     "favourites": 44,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 18
-  },
-  {
-    "id": 207251,
-    "mal_id": 63419,
-    "name": "Mairimashita! Iruma-kun: If Episode of Mafia",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2027-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207251-9HLT5632FOMw.jpg",
-    "trailer": null,
-    "site_url": "https://anilist.co/anime/207251",
-    "start_date": "2027-01-01",
-    "season": "Winter",
-    "season_year": 2027,
-    "studios": "NHK",
-    "genres": [
-      "Action",
-      "Comedy"
-    ],
-    "popularity": 4756,
-    "favourites": 68,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 19
@@ -568,8 +568,8 @@
       "Mystery",
       "Romance"
     ],
-    "popularity": 4645,
-    "favourites": 49,
+    "popularity": 4687,
+    "favourites": 50,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 20
@@ -597,7 +597,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 4545,
+    "popularity": 4591,
     "favourites": 34,
     "anilist_score": null,
     "streaming_links": [],
@@ -624,8 +624,8 @@
       "Romance",
       "Thriller"
     ],
-    "popularity": 4101,
-    "favourites": 56,
+    "popularity": 4130,
+    "favourites": 57,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 22
@@ -653,7 +653,7 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 3110,
+    "popularity": 3151,
     "favourites": 30,
     "anilist_score": null,
     "streaming_links": [],
@@ -683,8 +683,8 @@
       "Supernatural",
       "Thriller"
     ],
-    "popularity": 3075,
-    "favourites": 37,
+    "popularity": 3106,
+    "favourites": 38,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 24
@@ -708,39 +708,11 @@
     "season_year": 2027,
     "studios": "Satelight, Staple Entertainment",
     "genres": [],
-    "popularity": 3026,
+    "popularity": 3064,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 25
-  },
-  {
-    "id": 202282,
-    "mal_id": 60348,
-    "name": "Disney Twisted-Wonderland: THE ANIMATION - Season 2: EPISODE of SAVANACLAW",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2026-12-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202282-4KJHHwWKebwv.jpg",
-    "trailer": {
-      "id": "-NF3hbmXclE",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/-NF3hbmXclE/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/202282",
-    "start_date": "2026-12-01",
-    "season": "Winter",
-    "season_year": 2027,
-    "studios": "Walt Disney Studios, Yumeta Company",
-    "genres": [
-      "Adventure",
-      "Fantasy"
-    ],
-    "popularity": 2966,
-    "favourites": 43,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 26
   },
   {
     "id": 209661,
@@ -764,8 +736,36 @@
       "Action",
       "Fantasy"
     ],
-    "popularity": 2950,
-    "favourites": 29,
+    "popularity": 2999,
+    "favourites": 30,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 26
+  },
+  {
+    "id": 202282,
+    "mal_id": 60348,
+    "name": "Disney Twisted-Wonderland: THE ANIMATION - Season 2: EPISODE of SAVANACLAW",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2026-12-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202282-4KJHHwWKebwv.jpg",
+    "trailer": {
+      "id": "-NF3hbmXclE",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/-NF3hbmXclE/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/202282",
+    "start_date": "2026-12-01",
+    "season": "Winter",
+    "season_year": 2027,
+    "studios": "Walt Disney Studios, Yumeta Company",
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "popularity": 2988,
+    "favourites": 43,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 27
@@ -794,11 +794,39 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 2789,
-    "favourites": 26,
+    "popularity": 2824,
+    "favourites": 27,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 28
+  },
+  {
+    "id": 207782,
+    "mal_id": 63476,
+    "name": "Odebu Akujo ni Tensei Shitara, Naze ka Last Boss Ouji-sama ni Shuuchaku Sareteimasu",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2027-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207782-wKac51K7adn3.jpg",
+    "trailer": {
+      "id": "OL9U8xq13Jo",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/OL9U8xq13Jo/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/207782",
+    "start_date": "2027-01-01",
+    "season": "Winter",
+    "season_year": 2027,
+    "studios": "infinite, Studio Lings",
+    "genres": [
+      "Fantasy",
+      "Romance"
+    ],
+    "popularity": 2719,
+    "favourites": 37,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 29
   },
   {
     "id": 202503,
@@ -823,36 +851,8 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2672,
-    "favourites": 30,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 29
-  },
-  {
-    "id": 207782,
-    "mal_id": 63476,
-    "name": "Odebu Akujo ni Tensei Shitara, Naze ka Last Boss Ouji-sama ni Shuuchaku Sareteimasu",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2027-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207782-wKac51K7adn3.jpg",
-    "trailer": {
-      "id": "OL9U8xq13Jo",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/OL9U8xq13Jo/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/207782",
-    "start_date": "2027-01-01",
-    "season": "Winter",
-    "season_year": 2027,
-    "studios": "infinite, Studio Lings",
-    "genres": [
-      "Fantasy",
-      "Romance"
-    ],
-    "popularity": 2667,
-    "favourites": 36,
+    "popularity": 2715,
+    "favourites": 31,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 30
@@ -882,7 +882,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "popularity": 2518,
+    "popularity": 2545,
     "favourites": 27,
     "anilist_score": null,
     "streaming_links": [],
@@ -914,8 +914,8 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2428,
-    "favourites": 22,
+    "popularity": 2455,
+    "favourites": 23,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 32
@@ -941,7 +941,7 @@
     "genres": [
       "Action"
     ],
-    "popularity": 2408,
+    "popularity": 2440,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
@@ -969,7 +969,7 @@
       "Action",
       "Adventure"
     ],
-    "popularity": 2372,
+    "popularity": 2380,
     "favourites": 13,
     "anilist_score": null,
     "streaming_links": [],
@@ -999,7 +999,7 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 2252,
+    "popularity": 2287,
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
@@ -1028,7 +1028,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2188,
+    "popularity": 2218,
     "favourites": 13,
     "anilist_score": null,
     "streaming_links": [],
@@ -1057,7 +1057,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 1930,
+    "popularity": 1953,
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
@@ -1085,7 +1085,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 1502,
+    "popularity": 1517,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
@@ -1110,7 +1110,7 @@
     "season_year": 2027,
     "studios": "Kotobukiya, TV Asahi",
     "genres": [],
-    "popularity": 1240,
+    "popularity": 1258,
     "favourites": 5,
     "anilist_score": null,
     "streaming_links": [],
@@ -1139,7 +1139,7 @@
       "Mystery",
       "Romance"
     ],
-    "popularity": 1218,
+    "popularity": 1237,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
@@ -1163,40 +1163,11 @@
       "Music",
       "Slice of Life"
     ],
-    "popularity": 1137,
+    "popularity": 1142,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 41
-  },
-  {
-    "id": 185699,
-    "mal_id": 60555,
-    "name": "Ramen Aka Neko: Sono ni",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2027-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185699-4L2mtzKvHgaf.jpg",
-    "trailer": {
-      "id": "DK7UiS4hMz0",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/DK7UiS4hMz0/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/185699",
-    "start_date": "2027-01-01",
-    "season": "Winter",
-    "season_year": 2027,
-    "studios": "E&H Production, Good Smile Company",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Slice of Life"
-    ],
-    "popularity": 1063,
-    "favourites": 10,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 42
   },
   {
     "id": 211258,
@@ -1221,11 +1192,11 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 1058,
+    "popularity": 1077,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 43
+    "popularity_rank": 42
   },
   {
     "id": 214049,
@@ -1245,8 +1216,37 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 1055,
+    "popularity": 1070,
     "favourites": 9,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 43
+  },
+  {
+    "id": 185699,
+    "mal_id": 60555,
+    "name": "Ramen Aka Neko: Sono ni",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2027-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185699-4L2mtzKvHgaf.jpg",
+    "trailer": {
+      "id": "DK7UiS4hMz0",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/DK7UiS4hMz0/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/185699",
+    "start_date": "2027-01-01",
+    "season": "Winter",
+    "season_year": 2027,
+    "studios": "E&H Production, Good Smile Company",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Slice of Life"
+    ],
+    "popularity": 1067,
+    "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 44
