@@ -57,7 +57,7 @@
     "popularity": 40270,
     "anilist_score": 77,
     "recently_finished": true,
-    "popularity_rank": 26
+    "popularity_rank": 25
   },
   {
     "id": 182616,
@@ -87,7 +87,7 @@
     "popularity": 28735,
     "anilist_score": 76,
     "recently_finished": true,
-    "popularity_rank": 31
+    "popularity_rank": 29
   },
   {
     "id": 184356,
@@ -122,7 +122,7 @@
     "popularity": 39200,
     "anilist_score": 68,
     "recently_finished": true,
-    "popularity_rank": 27
+    "popularity_rank": 26
   },
   {
     "id": 189046,
@@ -357,7 +357,7 @@
     "popularity": 27734,
     "anilist_score": 73,
     "recently_finished": true,
-    "popularity_rank": 33
+    "popularity_rank": 31
   },
   {
     "id": 196017,
@@ -387,7 +387,7 @@
     "popularity": 10320,
     "anilist_score": 73,
     "recently_finished": true,
-    "popularity_rank": 64
+    "popularity_rank": 62
   },
   {
     "id": 185692,
@@ -417,7 +417,7 @@
     "popularity": 7533,
     "anilist_score": 67,
     "recently_finished": true,
-    "popularity_rank": 73
+    "popularity_rank": 71
   },
   {
     "id": 200230,
@@ -447,7 +447,7 @@
     "popularity": 6190,
     "anilist_score": 63,
     "recently_finished": true,
-    "popularity_rank": 77
+    "popularity_rank": 75
   },
   {
     "id": 209983,
@@ -517,7 +517,7 @@
     "popularity": 42993,
     "anilist_score": 81,
     "recently_finished": true,
-    "popularity_rank": 24
+    "popularity_rank": 23
   },
   {
     "id": 196012,
@@ -562,7 +562,7 @@
     "popularity": 20071,
     "anilist_score": 66,
     "recently_finished": true,
-    "popularity_rank": 41
+    "popularity_rank": 39
   },
   {
     "id": 196356,
@@ -602,7 +602,7 @@
     "popularity": 13202,
     "anilist_score": 69,
     "recently_finished": true,
-    "popularity_rank": 51
+    "popularity_rank": 49
   },
   {
     "id": 182205,
@@ -717,7 +717,7 @@
     "popularity": 12741,
     "anilist_score": 81,
     "recently_finished": true,
-    "popularity_rank": 53
+    "popularity_rank": 51
   },
   {
     "id": 196187,
@@ -782,7 +782,7 @@
     "popularity": 15463,
     "anilist_score": 72,
     "recently_finished": true,
-    "popularity_rank": 45
+    "popularity_rank": 43
   },
   {
     "id": 108992,
@@ -812,7 +812,7 @@
     "popularity": 8010,
     "anilist_score": 48,
     "recently_finished": true,
-    "popularity_rank": 70
+    "popularity_rank": 68
   },
   {
     "id": 135865,
@@ -908,65 +908,5 @@
     "anilist_score": 72,
     "recently_finished": true,
     "popularity_rank": 19
-  },
-  {
-    "id": 199111,
-    "mal_id": 62542,
-    "name": "Grand Blue Season 3",
-    "english_title": "Grand Blue Dreaming Season 3",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199111-gBSuBG61ElcW.jpg",
-    "trailer": {
-      "id": "KJw6ZZaMOWA",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/KJw6ZZaMOWA/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/199111",
-    "start_date": "2026-07-07",
-    "end_date": "2026-09-22",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GNVHKN94W/grand-blue-dreaming",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 43442,
-    "anilist_score": 82,
-    "recently_finished": true,
-    "popularity_rank": 23
-  },
-  {
-    "id": 128757,
-    "mal_id": 46488,
-    "name": "Tai-Ari deshita.: Ojou-sama wa Kakutou Game nante Shinai",
-    "english_title": "Young Ladies Don't Play Fighting Games",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128757-Iqc6hTjEYIz4.png",
-    "trailer": {
-      "id": "5PAsOIcot7I",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/5PAsOIcot7I/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/128757",
-    "start_date": "2026-07-07",
-    "end_date": "2026-09-22",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00362362/young-ladies-dont-play-fighting-games",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 29613,
-    "anilist_score": 75,
-    "recently_finished": true,
-    "popularity_rank": 30
   }
 ]
