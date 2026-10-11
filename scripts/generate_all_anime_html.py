@@ -736,6 +736,7 @@ def generate_html(catalog):
                      onerror="this.src='data:image/svg+xml,<svg xmlns=\\'http://www.w3.org/2000/svg\\'><rect width=\\'100%\\' height=\\'100%\\' fill=\\'%231e2433\\'/></svg>'">
                 ${{trailerOverlay}}
                 ${{contentWarnings}}
+                ${{continuationBadges}}
                 <div class="card-overlay">
                     <button class="favorite-btn${{isFav ? ' active' : ''}}" data-anime-id="${{id}}" onclick="event.stopPropagation(); toggleFavorite(${{id}})">
                         <span class="favorite-icon" aria-hidden="true"></span>
@@ -744,7 +745,6 @@ def generate_html(catalog):
                 </div>
             </div>
             <div class="card-info">
-                ${{continuationBadges}}
                 ${{engTitle}}
                 <h3 class="anime-title">${{escapeHtml(name)}}</h3>
                 <div class="episode-info">

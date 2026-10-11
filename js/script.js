@@ -258,7 +258,6 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Get all the elements we need to reorganize
             const englishTitle = cardInfo.querySelector('.anime-english-title');
-            const continuationBadges = cardInfo.querySelector('.continuation-badges');
             const title = cardInfo.querySelector('.anime-title');
             const episodeInfo = cardInfo.querySelector('.episode-info');
             const streamingLinks = cardInfo.querySelector('.streaming-links');
@@ -274,7 +273,6 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Clear card-info and rebuild structure
             cardInfo.innerHTML = '';
-            if (continuationBadges) cardInfo.appendChild(continuationBadges);
             cardInfo.appendChild(infoTextWrapper);
             if (streamingLinks) cardInfo.appendChild(streamingLinks);
         });

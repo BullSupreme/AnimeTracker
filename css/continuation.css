@@ -1,18 +1,32 @@
 .card-info {
-    position: relative;
+    padding-top: 0.25rem;
 }
 
-/* Use the existing top padding without changing card height or title spacing. */
+/* Poster overlay: badges never participate in the title/episode layout. */
 .continuation-badges {
     position: absolute;
-    top: 0;
-    left: 1rem;
-    right: 1rem;
-    height: 1rem;
+    bottom: 8px;
+    left: 8px;
+    right: 8px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 2px;
     margin: 0;
+    z-index: 18;
+    pointer-events: none;
+}
+
+.card-image-wrapper:has(.streaming-links-overlay) .continuation-badges {
+    bottom: 52px;
+}
+
+.card-image-wrapper:has(.continuation-badges) .popularity-rank-badge {
+    bottom: 5rem;
+}
+
+.card-image-wrapper.trailer-active .continuation-badges {
+    display: none;
 }
 
 .continuation-badge {
@@ -21,7 +35,7 @@
     padding: 1px 4px;
     border: 1px solid rgba(126, 210, 234, 0.45);
     border-radius: 4px;
-    background: rgba(55, 135, 161, 0.13);
+    background: rgba(12, 25, 31, 0.94);
     color: #9adbea;
     font-size: 9px;
     font-weight: 700;
@@ -29,28 +43,32 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    max-width: 100%;
+    pointer-events: auto;
 }
 
 .continuation-part,
 .continuation-cour {
     color: #b7baff;
     border-color: rgba(167, 171, 246, 0.45);
-    background: rgba(121, 126, 217, 0.13);
+    background: rgba(23, 23, 44, 0.94);
 }
 
 .continuation-continuing {
     color: #9ae3c0;
     border-color: rgba(125, 209, 172, 0.45);
-    background: rgba(58, 142, 102, 0.13);
+    background: rgba(13, 30, 23, 0.94);
 }
 
 .layout-compact .continuation-badges {
-    left: 0.75rem;
-    right: 0.75rem;
-    height: 0.75rem;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .layout-compact .continuation-badge {
     padding: 0 3px;
-    font-size: 8px;
+    font-size: 7px;
 }

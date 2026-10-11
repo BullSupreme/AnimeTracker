@@ -122,7 +122,7 @@ def trailer_data_attrs(anime):
 
 
 def build_trailer_overlay(anime):
-    warnings = content_warning_html(anime)
+    warnings = content_warning_html(anime) + continuation_html(anime)
     trailer = normalize_media_trailer(anime.get('trailer'))
     if not trailer:
         return warnings
@@ -477,7 +477,7 @@ def generate_html():
                                 </div>
                                 {streaming_links_html}
                             </div>
-                            <div class="card-info">{continuation_html(anime)}"""
+                            <div class="card-info">"""
 
             if anime.get('english_title'):
                 html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
@@ -563,7 +563,7 @@ def generate_html():
                                 </div>
                                 {streaming_links_html}
                             </div>
-                            <div class="card-info">{continuation_html(anime)}"""
+                            <div class="card-info">"""
 
             if anime.get('english_title'):
                 html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
@@ -653,7 +653,7 @@ def generate_html():
                                 </div>
                                 {streaming_links_html}
                             </div>
-                            <div class="card-info">{continuation_html(anime)}"""
+                            <div class="card-info">"""
 
             if anime.get('english_title'):
                 html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
@@ -752,7 +752,7 @@ def generate_html():
                                 </div>
                                 {streaming_links_html}
                             </div>
-                            <div class="card-info">{continuation_html(anime)}"""
+                            <div class="card-info">"""
 
             if anime.get('english_title'):
                 html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
@@ -812,7 +812,7 @@ def generate_html():
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-info">{continuation_html(anime)}"""
+                            <div class="card-info">"""
             
             if anime.get('english_title'):
                 html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
