@@ -8,15 +8,17 @@ class ContinuationTests(unittest.TestCase):
     def labels(self, **anime):
         return [b['label'] for b in get_continuation_badges(anime, date(2026, 1, 15))]
 
-    def test_sequel_and_part_coexist_without_duplicates(self):
+    def test_part_and_season_share_one_sequel_badge(self):
         self.assertEqual(self.labels(name='Example 2nd Season Part 2', english_title='Example Part 2',
-                                     prequels=[{'title': {'romaji': 'Example'}}]), ['Sequel', 'Part 2'])
+                                     prequels=[{'title': {'romaji': 'Example'}}]), ['Sequel'])
+        self.assertEqual(self.labels(name='Example Part 2'), ['Sequel'])
 
     def test_cour_orders(self):
-        self.assertEqual(self.labels(name='Example 2nd Cour'), ['2nd Cour'])
-        self.assertEqual(self.labels(name='Example Cour 3'), ['3rd Cour'])
-        self.assertEqual(self.labels(name='Example Second Cour'), ['2nd Cour'])
+        self.assertEqual(self.labels(name='Example 2nd Cour'), ['Sequel'])
+        self.assertEqual(self.labels(name='Example Cour 3'), ['Sequel'])
+        self.assertEqual(self.labels(name='Example Second Cour'), ['Sequel'])
         self.assertEqual(self.labels(name='Example Second Season'), ['Sequel'])
+        self.assertEqual(self.labels(name='Example 1st Cour'), [])
 
     def test_not_every_number_or_relation_means_sequel(self):
         self.assertEqual(self.labels(name='86', english_title='Example Part 1'), [])

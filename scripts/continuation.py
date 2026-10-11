@@ -44,10 +44,12 @@ def get_continuation_badges(anime, today=None):
                 if started is None or season_index(p.get('season'), p.get('seasonYear')) is None
                 or season_index(p.get('season'), p.get('seasonYear')) <= started]
     badges = []
-    if prequels or (season and int(next(g for g in season.groups() if g)) > 1):
+    explicit_continuation = any(match and int(next(g for g in match.groups() if g)) > 1
+                                for match in (season, part, cour))
+    if prequels or explicit_continuation:
         names = [(p.get('title') or {}).get('english') or (p.get('title') or {}).get('romaji')
                  for p in prequels]
-        detail = 'Follows: ' + ', '.join(n for n in names if n) if any(names) else 'Explicit sequel season in the title'
+        detail = 'Follows: ' + ', '.join(n for n in names if n) if any(names) else 'Explicit continuation in the title'
         previous = {}
         for prequel in prequels:
             media_id = prequel.get('id')
@@ -56,13 +58,6 @@ def get_continuation_badges(anime, today=None):
                 previous[media_id] = dict(url=f'https://anilist.co/anime/{media_id}/',
                                          title=title.get('english') or title.get('romaji') or f'Anime {media_id}')
         badges.append(dict(key='sequel', label='Sequel', detail=detail, previous=list(previous.values())))
-    if part and int(part.group(1)) > 1:
-        badges.append(dict(key='part', label=f'Part {part.group(1)}', detail='Part number stated in the AniList title'))
-    if cour:
-        number = int(next(g for g in cour.groups() if g))
-        if number > 1:
-            suffix = 'th' if 10 <= number % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(number % 10, 'th')
-            badges.append(dict(key='cour', label=f'{number}{suffix} Cour', detail='Cour number stated in the AniList title'))
     current = today.year * 4 + (today.month - 1) // 3
     if anime.get('status') == 'RELEASING' and started is not None and started < current:
         label = 'From Last Season' if started == current - 1 else 'Continuing'

@@ -115,13 +115,6 @@ a.continuation-badge:hover,
     white-space: nowrap;
 }
 
-.continuation-part,
-.continuation-cour {
-    color: #b7baff;
-    border-color: rgba(167, 171, 246, 0.45);
-    background: rgba(23, 23, 44, 0.94);
-}
-
 .continuation-continuing {
     color: #9ae3c0;
     border-color: rgba(125, 209, 172, 0.45);
