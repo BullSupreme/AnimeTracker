@@ -62,35 +62,6 @@
     border-radius: 10px;
 }
 
-.anime-card[data-rarity]::after {
-    content: attr(data-rarity-label);
-    position: absolute;
-    top: 9px;
-    left: 9px;
-    padding: 4px 7px;
-    border: 1px solid var(--rarity-color);
-    border-radius: 6px;
-    background: rgba(12, 16, 23, 0.9);
-    color: var(--rarity-color);
-    font-size: 10px;
-    font-weight: 800;
-    letter-spacing: 0.08em;
-    pointer-events: none;
-    z-index: 16;
-}
-
-/* Streaming providers occupy the upper left of tracker posters. */
-#list-view .anime-card[data-rarity]::after {
-    top: auto;
-    bottom: 9px;
-    left: auto;
-    right: 9px;
-}
-
-.layout-table .anime-card[data-rarity]::after {
-    display: none;
-}
-
 .all-anime-grid.poster-mode .anime-card[data-rarity]::before {
     border-radius: 5px;
 }
