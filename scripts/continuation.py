@@ -48,7 +48,14 @@ def get_continuation_badges(anime, today=None):
         names = [(p.get('title') or {}).get('english') or (p.get('title') or {}).get('romaji')
                  for p in prequels]
         detail = 'Follows: ' + ', '.join(n for n in names if n) if any(names) else 'Explicit sequel season in the title'
-        badges.append(dict(key='sequel', label='Sequel', detail=detail))
+        previous = {}
+        for prequel in prequels:
+            media_id = prequel.get('id')
+            if isinstance(media_id, int) and media_id > 0:
+                title = prequel.get('title') or {}
+                previous[media_id] = dict(url=f'https://anilist.co/anime/{media_id}/',
+                                         title=title.get('english') or title.get('romaji') or f'Anime {media_id}')
+        badges.append(dict(key='sequel', label='Sequel', detail=detail, previous=list(previous.values())))
     if part and int(part.group(1)) > 1:
         badges.append(dict(key='part', label=f'Part {part.group(1)}', detail='Part number stated in the AniList title'))
     if cour:
@@ -71,6 +78,21 @@ def continuation_html(anime):
     if not badges:
         return ''
     return '<div class="continuation-badges" aria-label="Series continuation">' + ''.join(
-        f'<span class="continuation-badge continuation-{badge["key"]}" tabindex="0"'
-        f' title="{escape(badge["detail"], quote=True)}">{escape(badge["label"])}</span>'
-        for badge in badges) + '</div>'
+        render_badge(badge) for badge in badges) + '</div>'
+
+
+def render_badge(badge):
+    attrs = (f'class="continuation-badge continuation-{badge["key"]}"'
+             f' title="{escape(badge["detail"], quote=True)}"')
+    label = escape(badge['label'])
+    previous = badge.get('previous') or []
+    if len(previous) == 1:
+        return (f'<a {attrs} href="{escape(previous[0]["url"], quote=True)}"'
+                f' target="_blank" rel="noopener noreferrer"'
+                f' aria-label="Open preceding anime: {escape(previous[0]["title"], quote=True)}">{label}</a>')
+    if len(previous) > 1:
+        links = ''.join(f'<a href="{escape(p["url"], quote=True)}" target="_blank"'
+                        f' rel="noopener noreferrer">{escape(p["title"])}</a>' for p in previous)
+        return (f'<details class="previous-anime-picker"><summary {attrs}>{label}</summary>'
+                f'<div class="previous-anime-links">{links}</div></details>')
+    return f'<span {attrs} tabindex="0">{label}</span>'

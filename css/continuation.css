@@ -45,6 +45,74 @@
     text-overflow: ellipsis;
     max-width: 100%;
     pointer-events: auto;
+    text-decoration: none;
+}
+
+a.continuation-badge:hover,
+.previous-anime-picker summary:hover {
+    filter: brightness(1.25);
+    cursor: pointer;
+}
+
+.continuation-badge:focus-visible,
+.previous-anime-links a:focus-visible {
+    outline: 2px solid #9adbea;
+    outline-offset: 2px;
+}
+
+.previous-anime-picker {
+    min-width: 0;
+    max-width: 100%;
+    pointer-events: auto;
+}
+
+.previous-anime-picker summary {
+    list-style: none;
+}
+
+.previous-anime-picker summary::-webkit-details-marker {
+    display: none;
+}
+
+.previous-anime-links {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: calc(100% + 4px);
+    max-height: 140px;
+    overflow-y: auto;
+    padding: 4px;
+    border: 1px solid #6cafc0;
+    border-radius: 5px;
+    background: rgba(12, 25, 31, 0.98);
+}
+
+.previous-anime-links a {
+    display: block;
+    padding: 5px;
+    color: #c3eaf4;
+    font-size: 10px;
+    line-height: 1.3;
+    text-decoration: none;
+}
+
+.previous-anime-links a:hover {
+    background: rgba(126, 210, 234, 0.15);
+}
+
+.next-seasonal-section .section-title {
+    flex-wrap: wrap;
+}
+
+.season-countdown {
+    padding: 3px 7px;
+    border: 1px solid rgba(125, 209, 172, 0.3);
+    border-radius: 6px;
+    color: #9ae3c0;
+    background: rgba(58, 142, 102, 0.1);
+    font-size: 0.65rem;
+    font-weight: 500;
+    white-space: nowrap;
 }
 
 .continuation-part,

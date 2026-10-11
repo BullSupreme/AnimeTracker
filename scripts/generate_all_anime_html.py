@@ -701,7 +701,18 @@ def generate_html(catalog):
         const warnings = anime.content_warnings || [];
         const continuations = anime.continuation_badges || [];
         const continuationBadges = continuations.length
-            ? `<div class="continuation-badges" aria-label="Series continuation">${{continuations.map(b => `<span class="continuation-badge continuation-${{b.key}}" tabindex="0" title="${{escapeAttr(b.detail)}}">${{escapeHtml(b.label)}}</span>`).join('')}}</div>`
+            ? `<div class="continuation-badges" aria-label="Series continuation">${{continuations.map(b => {{
+                const attrs = `class="continuation-badge continuation-${{b.key}}" title="${{escapeAttr(b.detail)}}"`;
+                const previous = b.previous || [];
+                if (previous.length === 1) {{
+                    return `<a ${{attrs}} href="${{escapeAttr(previous[0].url)}}" target="_blank" rel="noopener noreferrer" aria-label="${{escapeAttr('Open preceding anime: ' + previous[0].title)}}">${{escapeHtml(b.label)}}</a>`;
+                }}
+                if (previous.length > 1) {{
+                    const links = previous.map(p => `<a href="${{escapeAttr(p.url)}}" target="_blank" rel="noopener noreferrer">${{escapeHtml(p.title)}}</a>`).join('');
+                    return `<details class="previous-anime-picker"><summary ${{attrs}}>${{escapeHtml(b.label)}}</summary><div class="previous-anime-links">${{links}}</div></details>`;
+                }}
+                return `<span ${{attrs}} tabindex="0">${{escapeHtml(b.label)}}</span>`;
+            }}).join('')}}</div>`
             : '';
         const contentWarnings = warnings.length
             ? `<div class="content-warnings" aria-label="Content warnings">${{warnings.map(w => `<span class="content-warning content-warning-${{w.key}}" tabindex="0" title="${{escapeAttr(w.detail)}}" aria-label="${{escapeAttr(w.detail)}}">${{escapeHtml(w.label)}}</span>`).join('')}}</div>`

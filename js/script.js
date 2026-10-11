@@ -905,6 +905,7 @@ document.addEventListener('DOMContentLoaded', () => {
         card.addEventListener('click', (e) => {
             // Prevent click if clicking on button or streaming links
             if (e.target.closest('.favorite-btn') ||
+                e.target.closest('.continuation-badges') ||
                 e.target.closest('.streaming-links') ||
                 e.target.closest('.streaming-links-overlay') ||
                 e.target.closest('.main-link-btn') ||

@@ -43,6 +43,22 @@ class ContinuationTests(unittest.TestCase):
     def test_html_escapes_related_titles(self):
         self.assertIn('&lt;Example&gt;', continuation_html({'prequels': [{'title': {'romaji': '<Example>'}}]}))
 
+    def test_single_prequel_links_to_anilist(self):
+        html = continuation_html({'prequels': [{'id': 123, 'title': {'english': 'Previous'}}]})
+        self.assertIn('href="https://anilist.co/anime/123/"', html)
+        self.assertIn('aria-label="Open preceding anime: Previous"', html)
+        self.assertNotIn('<details', html)
+
+    def test_multiple_prequels_offer_choice_and_deduplicate(self):
+        html = continuation_html({'prequels': [{'id': 1}, {'id': 2}, {'id': 1}]})
+        self.assertIn('<details', html)
+        self.assertEqual(html.count('href='), 2)
+
+    def test_title_only_sequel_does_not_invent_previous_link(self):
+        html = continuation_html({'name': 'Example Season 2'})
+        self.assertIn('Sequel', html)
+        self.assertNotIn('href=', html)
+
 
 if __name__ == '__main__':
     unittest.main()

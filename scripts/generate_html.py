@@ -5,6 +5,10 @@ from datetime import datetime, timedelta
 import os
 import re
 try:
+    from .season_countdown import season_start, countdown_label
+except ImportError:
+    from season_countdown import season_start, countdown_label
+try:
     from .continuation import continuation_html, get_continuation_badges
 except ImportError:
     from continuation import continuation_html, get_continuation_badges
@@ -785,11 +789,16 @@ def generate_html():
         next_season = metadata.get('next_season', 'Summer').title()
         next_season_year = metadata.get('next_season_year', 2025)
         season_icon = get_season_icon(next_season)
+        start = season_start(next_season, next_season_year)
+        countdown = (f'<span class="season-countdown" data-season-start="{start.isoformat()}"'
+                     f' title="Calendar season starts {start.isoformat()}; individual premiere dates vary">'
+                     f'{countdown_label(start)}</span>') if start else ''
         
         html_content += f"""                <div class="time-section next-seasonal-section">
                     <h2 class="section-title">
                         <span class="section-icon">{icon_img(season_icon, next_season)}</span>
                         Next Seasonal Anime ({next_season} {next_season_year})
+                        {countdown}
                     </h2>
                     <div class="anime-grid upcoming-grid">
 """
@@ -914,6 +923,7 @@ def generate_html():
             window.tomorrowDate = \"""" + tomorrow_date + """\";
         </script>
         <script src="js/script.js"></script>
+        <script src="js/season-countdown.js"></script>
     </body>
 </html>"""
     
