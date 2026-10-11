@@ -477,7 +477,7 @@ def generate_html():
                                 </div>
                                 {streaming_links_html}
                             </div>
-                            <div class="card-info">"""
+                            <div class="card-info">{continuation_html(anime)}"""
 
             if anime.get('english_title'):
                 html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
@@ -491,7 +491,7 @@ def generate_html():
                                         9anime
                                     </a>"""
 
-            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>{continuation_html(anime)}
+            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
                                 <div class="episode-info">
                                     <span class="episode-badge">Episode {anime['episode']}</span>
                                     <a href="{custom_link}" target="_blank" class="main-link-btn">
@@ -563,7 +563,7 @@ def generate_html():
                                 </div>
                                 {streaming_links_html}
                             </div>
-                            <div class="card-info">"""
+                            <div class="card-info">{continuation_html(anime)}"""
 
             if anime.get('english_title'):
                 html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
@@ -577,7 +577,7 @@ def generate_html():
                                         9anime
                                     </a>"""
 
-            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>{continuation_html(anime)}
+            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
                                 <div class="episode-info">
                                     <span class="episode-badge">Episode {anime['episode']}</span>
                                     <a href="{custom_link}" target="_blank" class="main-link-btn">
@@ -653,7 +653,7 @@ def generate_html():
                                 </div>
                                 {streaming_links_html}
                             </div>
-                            <div class="card-info">"""
+                            <div class="card-info">{continuation_html(anime)}"""
 
             if anime.get('english_title'):
                 html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
@@ -677,7 +677,7 @@ def generate_html():
                                         9anime
                                     </a>"""
 
-            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>{continuation_html(anime)}
+            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
                                 <div class="episode-info">
                                     <span class="episode-badge">{episode_display}</span>
                                     <a href="{custom_link}" target="_blank" class="main-link-btn">
@@ -752,7 +752,7 @@ def generate_html():
                                 </div>
                                 {streaming_links_html}
                             </div>
-                            <div class="card-info">"""
+                            <div class="card-info">{continuation_html(anime)}"""
 
             if anime.get('english_title'):
                 html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
@@ -766,7 +766,7 @@ def generate_html():
                                         9anime
                                     </a>"""
 
-            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>{continuation_html(anime)}
+            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
                                 <div class="episode-info">
                                     <span class="episode-badge">Total: {total_episodes} Episodes</span>
                                     <a href="{custom_link}" target="_blank" class="main-link-btn">
@@ -812,7 +812,7 @@ def generate_html():
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-info">"""
+                            <div class="card-info">{continuation_html(anime)}"""
             
             if anime.get('english_title'):
                 html_content += f"""                                <div class="anime-english-title">{anime['english_title']}</div>"""
@@ -826,7 +826,7 @@ def generate_html():
                                         9anime
                                     </a>"""
 
-            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>{continuation_html(anime)}
+            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
                                 <div class="episode-info">
                                     <span class="episode-badge">Episode 1</span>
                                     <a href="{anime['site_url']}" target="_blank" class="main-link-btn">

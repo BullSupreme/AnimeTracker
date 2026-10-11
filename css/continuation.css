@@ -1,13 +1,24 @@
+.card-info {
+    position: relative;
+}
+
+/* Use the existing top padding without changing card height or title spacing. */
 .continuation-badges {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    right: 1rem;
+    height: 1rem;
     display: flex;
-    flex-wrap: wrap;
-    gap: 3px;
-    margin: 3px 0 5px;
+    align-items: center;
+    gap: 2px;
+    margin: 0;
 }
 
 .continuation-badge {
     display: inline-block;
-    padding: 2px 5px;
+    min-width: 0;
+    padding: 1px 4px;
     border: 1px solid rgba(126, 210, 234, 0.45);
     border-radius: 4px;
     background: rgba(55, 135, 161, 0.13);
@@ -15,6 +26,9 @@
     font-size: 9px;
     font-weight: 700;
     line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .continuation-part,
@@ -30,7 +44,13 @@
     background: rgba(58, 142, 102, 0.13);
 }
 
+.layout-compact .continuation-badges {
+    left: 0.75rem;
+    right: 0.75rem;
+    height: 0.75rem;
+}
+
 .layout-compact .continuation-badge {
-    padding: 1px 4px;
+    padding: 0 3px;
     font-size: 8px;
 }

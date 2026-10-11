@@ -744,9 +744,9 @@ def generate_html(catalog):
                 </div>
             </div>
             <div class="card-info">
+                ${{continuationBadges}}
                 ${{engTitle}}
                 <h3 class="anime-title">${{escapeHtml(name)}}</h3>
-                ${{continuationBadges}}
                 <div class="episode-info">
                     <span class="episode-badge">${{episodeLabel}}</span>
                     <a href="${{escapeAttr(siteUrl)}}" target="_blank" class="main-link-btn" onclick="event.stopPropagation()">anilist.co</a>
