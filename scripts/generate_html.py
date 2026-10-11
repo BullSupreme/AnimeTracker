@@ -4,6 +4,10 @@ import json
 from datetime import datetime, timedelta
 import os
 import re
+try:
+    from .season_rankings import build_season_rankings, rarity_attrs
+except ImportError:
+    from season_rankings import build_season_rankings, rarity_attrs
 
 NINE_ANIME_SEARCH_BASE = "https://9anime.me.uk/"
 PRIME_VIDEO_SEARCH_BASE = "https://www.primevideo.com/region/na/search/ref=atv_nb_sug"
@@ -99,10 +103,11 @@ def escape_attr(value):
 
 
 def trailer_data_attrs(anime):
+    attrs = rarity_attrs(anime.get('season_ranking'))
     trailer = normalize_media_trailer(anime.get('trailer'))
     if not trailer:
-        return ""
-    return (
+        return attrs
+    return attrs + (
         f' data-trailer-site="{escape_attr(trailer["site"])}"'
         f' data-trailer-id="{escape_attr(trailer["id"])}"'
     )
@@ -329,6 +334,12 @@ def filter_recently_finished(anime_list, today_date, days=14):
 def generate_html():
     """Generate static HTML file"""
     anime_data, other_anime_sorted, metadata, upcoming_anime, manual_streaming_links, recently_finished_anime, calendar_history, nine_anime_links = load_data()
+    catalog_path = 'data/all_anime_catalog.json'
+    if os.path.exists(catalog_path):
+        with open(catalog_path, encoding='utf-8') as f:
+            season_rankings = build_season_rankings(json.load(f))
+        for anime in anime_data + other_anime_sorted + recently_finished_anime + upcoming_anime:
+            anime['season_ranking'] = season_rankings.get(anime['id'])
     
     
     if not anime_data:
@@ -362,6 +373,7 @@ def generate_html():
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Anime Tracker</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/season-rarity.css">
     </head>
     <body>
         <header>
@@ -567,12 +579,13 @@ def generate_html():
     
     # Add other seasonal anime section with current season icon
     current_season = metadata.get('current_season', 'Spring').title()
+    current_season_year = datetime.strptime(today_date, '%Y-%m-%d').year
     current_season_icon = get_season_icon(current_season)
     
     html_content += f"""                <div class="time-section">
                     <h2 class="section-title">
                         <span class="section-icon">{icon_img(current_season_icon, current_season)}</span>
-                        {current_season} 2025 Anime
+                        {current_season} {current_season_year} Anime
                 
                     </h2>
                     <div class="anime-grid other-grid">

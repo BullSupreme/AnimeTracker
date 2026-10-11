@@ -9,6 +9,10 @@ import json
 import os
 from datetime import datetime
 from urllib.parse import quote
+try:
+    from .season_rankings import build_season_rankings
+except ImportError:
+    from season_rankings import build_season_rankings
 
 CATALOG_FILE = "data/all_anime_catalog.json"
 OUTPUT_FILE = "all-anime.html"
@@ -80,7 +84,10 @@ def generate_html(catalog):
         season_opts_html += f'                        <option value="{value}" {selected}>{label}</option>\n'
 
     # Embed catalog as JSON (sorted by popularity descending)
-    catalog_sorted = sorted(catalog, key=lambda x: x.get("popularity", 0), reverse=True)
+    rankings = build_season_rankings(catalog)
+    catalog_sorted = sorted(
+        [dict(anime, season_ranking=rankings.get(anime['id'])) for anime in catalog],
+        key=lambda x: x.get("popularity", 0), reverse=True)
     catalog_json = json.dumps(catalog_sorted, ensure_ascii=False)
 
     html = f"""<!DOCTYPE html>
@@ -90,6 +97,7 @@ def generate_html(catalog):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Anime - Anime Tracker</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/season-rarity.css">
     <style>
         /* All Anime Page Specific Styles */
         .all-anime-header {{
@@ -497,6 +505,7 @@ def generate_html(catalog):
             icon.textContent = '';
             icon.closest('.favorite-btn').classList.toggle('active', isFavorite(sid));
         }});
+        updateFavoriteStates();
     }}
 
     // ============================================================
@@ -666,6 +675,10 @@ def generate_html(catalog):
         const genres = anime.genres || [];
         const episodes = anime.episodes;
         const popularity = anime.popularity || 0;
+        const seasonal = anime.season_ranking;
+        const rarityAttrs = seasonal && seasonal.tier
+            ? ` data-rarity="${{seasonal.tier}}" data-season-rank="${{seasonal.rank}}" data-rarity-label="${{seasonal.tier}} #${{seasonal.rank}}" data-rarity-title="${{seasonal.season}} ${{seasonal.year}} popularity rank #${{seasonal.rank}}"`
+            : '';
         const nineAnimeUrl = create9AnimeSearchUrl(eng || name);
         const trailer = getSupportedTrailer(anime.trailer);
         const trailerAttrs = trailer
@@ -699,7 +712,7 @@ def generate_html(catalog):
                      data-english="${{escapeAttr(eng)}}"
                      data-link="${{escapeAttr(siteUrl)}}"
                      data-site-url="${{escapeAttr(siteUrl)}}"
-                     data-poster="${{escapeAttr(poster)}}"${{trailerAttrs}}>
+                     data-poster="${{escapeAttr(poster)}}"${{trailerAttrs}}${{rarityAttrs}}>
             <div class="card-image-wrapper">
                 <img class="anime-poster" src="${{escapeAttr(poster)}}" loading="lazy" alt="${{escapeAttr(name)}} poster"
                      onerror="this.src='data:image/svg+xml,<svg xmlns=\\'http://www.w3.org/2000/svg\\'><rect width=\\'100%\\' height=\\'100%\\' fill=\\'%231e2433\\'/></svg>'">
@@ -708,7 +721,7 @@ def generate_html(catalog):
                     <button class="favorite-btn${{isFav ? ' active' : ''}}" data-anime-id="${{id}}" onclick="event.stopPropagation(); toggleFavorite(${{id}})">
                         <span class="favorite-icon" aria-hidden="true"></span>
                     </button>
-                    <div class="popularity-rank-badge" data-tooltip="${{escapeAttr(popularityTooltip)}}">#${{rank}}</div>
+                    <div class="popularity-rank-badge" data-tooltip="${{escapeAttr(seasonal ? anime.season + ' ' + anime.season_year + ' popularity rank #' + seasonal.rank : popularityTooltip)}}">${{seasonal ? (seasonal.tier ? seasonal.tier + ' ' : '') + '#' + seasonal.rank : '#' + rank}}</div>
                 </div>
             </div>
             <div class="card-info">
@@ -771,6 +784,7 @@ def generate_html(catalog):
             const id = btn.getAttribute('data-anime-id');
             const active = isFavorite(id);
             btn.classList.toggle('active', active);
+            btn.closest('.anime-card')?.classList.toggle('favorite', active);
             const icon = btn.querySelector('.favorite-icon');
             if (icon) icon.textContent = '';
         }});

@@ -1,0 +1,111 @@
+/* Rarity is an inset frame; the outer favorite border stays gold. */
+@property --rarity-angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.anime-card[data-rarity] {
+    --rarity-color: #78b8cc;
+    --rarity-speed: 14s;
+    --rarity-width: 1px;
+}
+
+.anime-card[data-rarity="SR"] {
+    --rarity-color: #56d9a0;
+    --rarity-speed: 11s;
+}
+
+.anime-card[data-rarity="SSR"] {
+    --rarity-color: #75aaff;
+    --rarity-speed: 8s;
+    --rarity-width: 2px;
+}
+
+.anime-card[data-rarity="UR"] {
+    --rarity-color: #ff8b64;
+    --rarity-speed: 5s;
+    --rarity-width: 2px;
+}
+
+.anime-card[data-rarity="LR"] {
+    --rarity-color: #fff2b3;
+    --rarity-speed: 3s;
+    --rarity-width: 3px;
+}
+
+.anime-card[data-rarity]::before {
+    content: '';
+    position: absolute;
+    inset: 3px;
+    padding: var(--rarity-width);
+    border-radius: 13px;
+    background: conic-gradient(from var(--rarity-angle),
+        transparent 10%, var(--rarity-color) 25%, transparent 40%,
+        transparent 60%, var(--rarity-color) 75%, transparent 90%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: 15;
+    animation: rarity-orbit var(--rarity-speed) linear infinite;
+}
+
+.anime-card[data-rarity="LR"]::before {
+    background: conic-gradient(from var(--rarity-angle),
+        #fff2b3, #ff946e, #fff, #78dfff, #fff2b3, #ff946e, #fff2b3);
+}
+
+.anime-card.favorite[data-rarity]::before {
+    inset: 6px;
+    border-radius: 10px;
+}
+
+.anime-card[data-rarity]::after {
+    content: attr(data-rarity-label);
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    padding: 4px 7px;
+    border: 1px solid var(--rarity-color);
+    border-radius: 6px;
+    background: rgba(12, 16, 23, 0.9);
+    color: var(--rarity-color);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    pointer-events: none;
+    z-index: 16;
+}
+
+/* Streaming providers occupy the upper left of tracker posters. */
+#list-view .anime-card[data-rarity]::after {
+    top: auto;
+    bottom: 9px;
+    left: auto;
+    right: 9px;
+}
+
+.layout-table .anime-card[data-rarity]::after {
+    display: none;
+}
+
+.all-anime-grid.poster-mode .anime-card[data-rarity]::before {
+    border-radius: 5px;
+}
+
+.all-anime-grid.poster-mode .anime-card.favorite[data-rarity]::before {
+    border-radius: 3px;
+}
+
+@keyframes rarity-orbit {
+    to { --rarity-angle: 360deg; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .anime-card[data-rarity]::before {
+        animation: none;
+        background: var(--rarity-color);
+    }
+}
