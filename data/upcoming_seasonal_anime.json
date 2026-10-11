@@ -22,8 +22,8 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 37531,
-    "favourites": 423,
+    "popularity": 37800,
+    "favourites": 428,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 1
@@ -53,8 +53,8 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "popularity": 36542,
-    "favourites": 566,
+    "popularity": 36723,
+    "favourites": 570,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 2
@@ -85,8 +85,8 @@
       "Mystery",
       "Romance"
     ],
-    "popularity": 28720,
-    "favourites": 356,
+    "popularity": 28837,
+    "favourites": 359,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 3
@@ -113,8 +113,8 @@
       "Music",
       "Romance"
     ],
-    "popularity": 26810,
-    "favourites": 414,
+    "popularity": 27788,
+    "favourites": 426,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 4
@@ -141,8 +141,8 @@
       "Action",
       "Comedy"
     ],
-    "popularity": 26442,
-    "favourites": 258,
+    "popularity": 26652,
+    "favourites": 262,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 5
@@ -171,8 +171,8 @@
       "Fantasy",
       "Supernatural"
     ],
-    "popularity": 18175,
-    "favourites": 154,
+    "popularity": 18305,
+    "favourites": 157,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 6
@@ -201,8 +201,8 @@
       "Sci-Fi",
       "Supernatural"
     ],
-    "popularity": 14901,
-    "favourites": 138,
+    "popularity": 15050,
+    "favourites": 141,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 7
@@ -231,8 +231,8 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 13638,
-    "favourites": 117,
+    "popularity": 13735,
+    "favourites": 118,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 8
@@ -260,8 +260,8 @@
       "Ecchi",
       "Romance"
     ],
-    "popularity": 12916,
-    "favourites": 147,
+    "popularity": 13003,
+    "favourites": 148,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 9
@@ -289,7 +289,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 9608,
+    "popularity": 9742,
     "favourites": 101,
     "anilist_score": null,
     "streaming_links": [],
@@ -317,7 +317,7 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 9317,
+    "popularity": 9366,
     "favourites": 110,
     "anilist_score": null,
     "streaming_links": [],
@@ -342,8 +342,8 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 8763,
-    "favourites": 82,
+    "popularity": 8876,
+    "favourites": 84,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 12
@@ -369,11 +369,42 @@
     "genres": [
       "Drama"
     ],
-    "popularity": 7085,
+    "popularity": 7118,
     "favourites": 35,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 13
+  },
+  {
+    "id": 216624,
+    "mal_id": 64950,
+    "name": "Shishite Ikiru SSS-kyuu Hunter",
+    "english_title": "SSS-Class Revival Hunter",
+    "episode": 1,
+    "release_date": "2027-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx216624-ZgSowlLTtu3G.png",
+    "trailer": {
+      "id": "C6ecZk2mHqA",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/C6ecZk2mHqA/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/216624",
+    "start_date": "2027-01-01",
+    "season": "Winter",
+    "season_year": 2027,
+    "studios": "STUDIO fu, HAYATE",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Supernatural"
+    ],
+    "popularity": 6243,
+    "favourites": 68,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 14
   },
   {
     "id": 196333,
@@ -398,11 +429,11 @@
       "Drama",
       "Slice of Life"
     ],
-    "popularity": 6171,
+    "popularity": 6237,
     "favourites": 41,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 14
+    "popularity_rank": 15
   },
   {
     "id": 186741,
@@ -429,39 +460,8 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 6160,
+    "popularity": 6231,
     "favourites": 63,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 15
-  },
-  {
-    "id": 216624,
-    "mal_id": 64950,
-    "name": "Shishite Ikiru SSS-kyuu Hunter",
-    "english_title": "SSS-Class Revival Hunter",
-    "episode": 1,
-    "release_date": "2027-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx216624-ZgSowlLTtu3G.png",
-    "trailer": {
-      "id": "zuk_UJIRnik",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/zuk_UJIRnik/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/216624",
-    "start_date": "2027-01-01",
-    "season": "Winter",
-    "season_year": 2027,
-    "studios": "STUDIO fu, HAYATE",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Drama",
-      "Fantasy",
-      "Supernatural"
-    ],
-    "popularity": 6062,
-    "favourites": 68,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 16
@@ -489,7 +489,7 @@
       "Drama",
       "Psychological"
     ],
-    "popularity": 5637,
+    "popularity": 5676,
     "favourites": 27,
     "anilist_score": null,
     "streaming_links": [],
@@ -516,8 +516,8 @@
     "genres": [
       "Slice of Life"
     ],
-    "popularity": 5308,
-    "favourites": 24,
+    "popularity": 5375,
+    "favourites": 25,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 18
@@ -540,7 +540,7 @@
       "Action",
       "Comedy"
     ],
-    "popularity": 4959,
+    "popularity": 4980,
     "favourites": 70,
     "anilist_score": null,
     "streaming_links": [],
@@ -567,7 +567,7 @@
     "genres": [
       "Music"
     ],
-    "popularity": 4836,
+    "popularity": 4843,
     "favourites": 44,
     "anilist_score": null,
     "streaming_links": [],
@@ -598,7 +598,7 @@
       "Mystery",
       "Romance"
     ],
-    "popularity": 4815,
+    "popularity": 4831,
     "favourites": 50,
     "anilist_score": null,
     "streaming_links": [],
@@ -627,8 +627,8 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 4769,
-    "favourites": 37,
+    "popularity": 4817,
+    "favourites": 38,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 22
@@ -654,11 +654,39 @@
       "Romance",
       "Thriller"
     ],
-    "popularity": 4248,
+    "popularity": 4277,
     "favourites": 60,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 23
+  },
+  {
+    "id": 209661,
+    "mal_id": 63763,
+    "name": "Zatsuyou Fuyojutsu-shi ga Jibun no Saikyou ni Kizuku Made",
+    "english_title": "Magical Buffs: The Support Caster is Stronger Than He Realized!",
+    "episode": 1,
+    "release_date": "2027-01-04",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209661-RHN7Jp3VPdFV.jpg",
+    "trailer": {
+      "id": "yqvAv5li9Pw",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/yqvAv5li9Pw/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/209661",
+    "start_date": "2027-01-04",
+    "season": "Winter",
+    "season_year": 2027,
+    "studios": "J.C.STAFF, Starry Cube",
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "popularity": 3307,
+    "favourites": 34,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 24
   },
   {
     "id": 213052,
@@ -683,36 +711,8 @@
       "Drama",
       "Romance"
     ],
-    "popularity": 3277,
+    "popularity": 3306,
     "favourites": 31,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 24
-  },
-  {
-    "id": 209661,
-    "mal_id": 63763,
-    "name": "Zatsuyou Fuyojutsu-shi ga Jibun no Saikyou ni Kizuku Made",
-    "english_title": "Magical Buffs: The Support Caster is Stronger Than He Realized!",
-    "episode": 1,
-    "release_date": "2027-01-04",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209661-RHN7Jp3VPdFV.jpg",
-    "trailer": {
-      "id": "yqvAv5li9Pw",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/yqvAv5li9Pw/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/209661",
-    "start_date": "2027-01-04",
-    "season": "Winter",
-    "season_year": 2027,
-    "studios": "J.C.STAFF, Starry Cube",
-    "genres": [
-      "Action",
-      "Fantasy"
-    ],
-    "popularity": 3249,
-    "favourites": 34,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 25
@@ -741,8 +741,8 @@
       "Supernatural",
       "Thriller"
     ],
-    "popularity": 3221,
-    "favourites": 40,
+    "popularity": 3249,
+    "favourites": 42,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 26
@@ -766,7 +766,7 @@
     "season_year": 2027,
     "studios": "Satelight, Staple Entertainment",
     "genres": [],
-    "popularity": 3183,
+    "popularity": 3206,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
@@ -794,7 +794,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 3071,
+    "popularity": 3089,
     "favourites": 44,
     "anilist_score": null,
     "streaming_links": [],
@@ -824,7 +824,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "popularity": 3003,
+    "popularity": 3028,
     "favourites": 30,
     "anilist_score": null,
     "streaming_links": [],
@@ -852,7 +852,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2860,
+    "popularity": 2899,
     "favourites": 38,
     "anilist_score": null,
     "streaming_links": [],
@@ -881,7 +881,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2857,
+    "popularity": 2886,
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
@@ -912,7 +912,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "popularity": 2638,
+    "popularity": 2659,
     "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
@@ -944,8 +944,8 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2581,
-    "favourites": 25,
+    "popularity": 2603,
+    "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 33
@@ -971,39 +971,11 @@
     "genres": [
       "Action"
     ],
-    "popularity": 2553,
+    "popularity": 2577,
     "favourites": 8,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 34
-  },
-  {
-    "id": 199337,
-    "mal_id": 62580,
-    "name": "Shin Samurai-den YAIBA 2",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2027-01-09",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199337-ZGs9fsoxYT6N.jpg",
-    "trailer": {
-      "id": "CxwcbS6nx1c",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/CxwcbS6nx1c/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/199337",
-    "start_date": "2027-01-09",
-    "season": "Winter",
-    "season_year": 2027,
-    "studios": "WIT STUDIO",
-    "genres": [
-      "Action",
-      "Adventure"
-    ],
-    "popularity": 2412,
-    "favourites": 13,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 35
   },
   {
     "id": 197095,
@@ -1029,8 +1001,36 @@
       "Drama",
       "Fantasy"
     ],
-    "popularity": 2399,
+    "popularity": 2427,
     "favourites": 17,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 35
+  },
+  {
+    "id": 199337,
+    "mal_id": 62580,
+    "name": "Shin Samurai-den YAIBA 2",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2027-01-09",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199337-ZGs9fsoxYT6N.jpg",
+    "trailer": {
+      "id": "CxwcbS6nx1c",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/CxwcbS6nx1c/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/199337",
+    "start_date": "2027-01-09",
+    "season": "Winter",
+    "season_year": 2027,
+    "studios": "WIT STUDIO",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "popularity": 2420,
+    "favourites": 13,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 36
@@ -1058,7 +1058,7 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 2284,
+    "popularity": 2307,
     "favourites": 14,
     "anilist_score": null,
     "streaming_links": [],
@@ -1087,7 +1087,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 2024,
+    "popularity": 2036,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
@@ -1115,7 +1115,7 @@
       "Romance",
       "Slice of Life"
     ],
-    "popularity": 1560,
+    "popularity": 1572,
     "favourites": 30,
     "anilist_score": null,
     "streaming_links": [],
@@ -1145,8 +1145,8 @@
       "Fantasy",
       "Romance"
     ],
-    "popularity": 1503,
-    "favourites": 24,
+    "popularity": 1561,
+    "favourites": 25,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 40
@@ -1170,7 +1170,7 @@
     "season_year": 2027,
     "studios": "Kotobukiya, TV Asahi",
     "genres": [],
-    "popularity": 1311,
+    "popularity": 1318,
     "favourites": 6,
     "anilist_score": null,
     "streaming_links": [],
@@ -1199,7 +1199,7 @@
       "Mystery",
       "Romance"
     ],
-    "popularity": 1286,
+    "popularity": 1302,
     "favourites": 11,
     "anilist_score": null,
     "streaming_links": [],
@@ -1228,35 +1228,11 @@
       "Adventure",
       "Fantasy"
     ],
-    "popularity": 1166,
+    "popularity": 1174,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 43
-  },
-  {
-    "id": 210157,
-    "mal_id": 63851,
-    "name": "Love Live! Hasunosora Jogakuin School Idol Club",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2027-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx210157-TsOt9K0ADCmK.jpg",
-    "trailer": null,
-    "site_url": "https://anilist.co/anime/210157",
-    "start_date": "2027-01-01",
-    "season": "Winter",
-    "season_year": 2027,
-    "studios": "TBD",
-    "genres": [
-      "Music",
-      "Slice of Life"
-    ],
-    "popularity": 1153,
-    "favourites": 9,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 44
   },
   {
     "id": 214049,
@@ -1276,7 +1252,31 @@
       "Comedy",
       "Romance"
     ],
-    "popularity": 1148,
+    "popularity": 1168,
+    "favourites": 9,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 44
+  },
+  {
+    "id": 210157,
+    "mal_id": 63851,
+    "name": "Love Live! Hasunosora Jogakuin School Idol Club",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2027-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx210157-TsOt9K0ADCmK.jpg",
+    "trailer": null,
+    "site_url": "https://anilist.co/anime/210157",
+    "start_date": "2027-01-01",
+    "season": "Winter",
+    "season_year": 2027,
+    "studios": "TBD",
+    "genres": [
+      "Music",
+      "Slice of Life"
+    ],
+    "popularity": 1155,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
@@ -1305,7 +1305,7 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "popularity": 1081,
+    "popularity": 1085,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
