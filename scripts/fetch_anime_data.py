@@ -917,7 +917,7 @@ def process_anime_data(api_data):
             'Prime Video', 'Amazon Video',
             'Disney Plus', 'HBO Max', 'VRV', 'Hidive', 'HIDIVE', 'AnimeLab', 'Wakanim',
             'Bilibili', 'iQiyi', 'Tencent Video', 'YouTube', 'Niconico',
-            'AbemaTV', 'dAnime Store', 'U-NEXT', 'Muse Asia', 'Oceanveil', 'Crave',
+            'AbemaTV', 'dAnime Store', 'U-NEXT', 'Muse Asia', 'OceanVeil', 'Crave',
             'Apple TV+', 'Apple TV Plus', 'Peacock'
         }
         
@@ -928,25 +928,30 @@ def process_anime_data(api_data):
             'HBO Max': 'hbomax.com', 'YouTube': 'youtube.com', 'Funimation': 'funimation.com',
             'VRV': 'vrv.co', 'Hidive': 'www.hidive.com', 'HIDIVE': 'www.hidive.com',
             'Bilibili': 'bilibili.com', 'AnimeLab': 'animelab.com', 'Wakanim': 'wakanim.tv',
-            'Oceanveil': 'oceanveil.org', 'Crave': 'crave.ca', 'Apple TV+': 'tv.apple.com',
+            'OceanVeil': 'oceanveil.net', 'Crave': 'crave.ca', 'Apple TV+': 'tv.apple.com',
             'Apple TV Plus': 'tv.apple.com', 'Peacock': 'peacocktv.com'
         }
         
         if anime.get('externalLinks'):
             for link in anime['externalLinks']:
                 site_name = link.get('site', '')
-                if site_name in streaming_sites and link.get('url'):
+                link_url = link.get('url')
+                # OceanVeil entries may omit a title URL; keep the provider link.
+                if site_name.strip().casefold() == 'oceanveil':
+                    site_name = 'OceanVeil'
+                    link_url = 'https://oceanveil.net/'
+                if site_name in streaming_sites and link_url:
                     domain = site_domains.get(site_name)
                     if not domain:
                         try:
                             from urllib.parse import urlparse
-                            domain = urlparse(link['url']).netloc
+                            domain = urlparse(link_url).netloc
                             if domain.startswith('www.'):
                                 domain = domain[4:]
                         except:
-                            domain = link['url']
+                            domain = link_url
                     icon_url = f"https://www.google.com/s2/favicons?domain={domain}&sz=32"
-                    streaming_links.append({'site': site_name, 'url': link['url'], 'icon': icon_url})
+                    streaming_links.append({'site': site_name, 'url': link_url, 'icon': icon_url})
         
         # Check if anime is ending today or tomorrow and set release_date accordingly
         # Only do this if there's actually a next episode (indicating a finale airing today/tomorrow)

@@ -669,7 +669,13 @@
     "site_url": "https://anilist.co/anime/191656",
     "start_date": "2026-10-04",
     "end_date": null,
-    "streaming_links": [],
+    "streaming_links": [
+      {
+        "site": "OceanVeil",
+        "url": "https://oceanveil.net/",
+        "icon": "https://www.google.com/s2/favicons?domain=oceanveil.net&sz=32"
+      }
+    ],
     "popularity": 33234,
     "anilist_score": 73,
     "recently_finished": false,
