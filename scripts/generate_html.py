@@ -623,7 +623,7 @@ def generate_html():
             # Add special class if 4+ streaming links
             many_links_class = " many-streaming-links" if streaming_link_count >= 4 else ""
 
-            html_content += f"""                        <div class="anime-card{many_links_class}" data-name="{escape_attr(anime['name'])}" data-link="{escape_attr(custom_link)}" data-anime-id="{anime['id']}" data-release="{escape_attr(anime.get('release_date', ''))}" data-site-url="{escape_attr(anime['site_url'])}" data-poster="{escape_attr(anime['poster_url'])}"{trailer_data_attrs(anime)}>
+            html_content += f"""                        <div class="anime-card other-anime-card{many_links_class}" data-name="{escape_attr(anime['name'])}" data-link="{escape_attr(custom_link)}" data-anime-id="{anime['id']}" data-release="{escape_attr(anime.get('release_date', ''))}" data-site-url="{escape_attr(anime['site_url'])}" data-poster="{escape_attr(anime['poster_url'])}"{trailer_data_attrs(anime)}>
                             <div class="card-image-wrapper">
                                 <img class="anime-poster" src="{escape_attr(anime['poster_url'])}" alt="{escape_attr(anime['name'])} poster">
                                 {build_trailer_overlay(anime)}

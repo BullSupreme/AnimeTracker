@@ -1535,6 +1535,28 @@ main {
 }
 
 /* Day Anime List (for modal) */
+.other-anime-card .episode-info {
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}
+
+.other-anime-card .episode-badge {
+    padding: 0.15rem 0.35rem;
+    font-size: 0.6rem;
+    white-space: nowrap;
+}
+
+.other-anime-card .main-link-btn,
+.other-anime-card .nine-anime-btn {
+    margin-left: 0;
+    white-space: nowrap;
+}
+
+.other-anime-card .release-date {
+    flex-basis: 100%;
+    font-size: 0.7rem;
+}
+
 .day-anime-list {
     display: flex;
     flex-direction: column;
