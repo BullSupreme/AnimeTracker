@@ -220,7 +220,19 @@
     "status": "RELEASING",
     "start_date": "1999-10-20",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 167404,
+        "type": "ANIME",
+        "title": {
+          "romaji": "MONSTERS: Ippaku Sanjou Hiryuu Jigoku",
+          "english": "MONSTERS: 103 Mercies Dragon Damnation"
+        },
+        "season": "WINTER",
+        "seasonYear": 2024
+      }
+    ]
   },
   {
     "id": 5114,
@@ -8750,10 +8762,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 14,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-04",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 166873,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2",
+          "english": "Mushoku Tensei: Jobless Reincarnation Season 2 Part 2"
+        },
+        "season": "SPRING",
+        "seasonYear": 2024
+      }
+    ]
   },
   {
     "id": 1887,
@@ -12523,10 +12547,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-10",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 66,
@@ -13110,10 +13135,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 19,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-04-08",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 163134,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season",
+          "english": "Re:ZERO -Starting Life in Another World- Season 3"
+        },
+        "season": "FALL",
+        "seasonYear": 2024
+      }
+    ]
   },
   {
     "id": 130586,
@@ -13722,10 +13759,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 24,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-04-04",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 153930,
@@ -13987,10 +14025,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-04-03",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 156822,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Tensei Shitara Slime Datta Ken 3rd Season",
+          "english": "That Time I Got Reincarnated as a Slime Season 3"
+        },
+        "season": "SPRING",
+        "seasonYear": 2024
+      }
+    ]
   },
   {
     "id": 140596,
@@ -15285,10 +15335,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-08",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 100878,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Youjo Senki Movie",
+          "english": "Saga of Tanya the Evil - the Movie -"
+        },
+        "season": "WINTER",
+        "seasonYear": 2019
+      }
+    ]
   },
   {
     "id": 142455,
@@ -16715,10 +16777,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-02",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 176301,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Kusuriya no Hitorigoto 2nd Season",
+          "english": "The Apothecary Diaries Season 2"
+        },
+        "season": "WINTER",
+        "seasonYear": 2025
+      }
+    ]
   },
   {
     "id": 139648,
@@ -17471,7 +17545,8 @@
     "status": "RELEASING",
     "start_date": "1996-01-08",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 21460,
@@ -18419,7 +18494,8 @@
     "status": "NOT_YET_RELEASED",
     "start_date": "2026-10-20",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 1691,
@@ -19045,10 +19121,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-03",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 97940,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Black Clover",
+          "english": "Black Clover"
+        },
+        "season": "FALL",
+        "seasonYear": 2017
+      }
+    ]
   },
   {
     "id": 20047,
@@ -19816,7 +19904,19 @@
     "status": "RELEASING",
     "start_date": "2026-07-25",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 169755,
+        "type": "ANIME",
+        "title": {
+          "romaji": "BLEACH: Sennen Kessen-hen - Soukoku-tan",
+          "english": "BLEACH: Thousand-Year Blood War - The Conflict"
+        },
+        "season": "FALL",
+        "seasonYear": 2024
+      }
+    ]
   },
   {
     "id": 21378,
@@ -22167,7 +22267,7 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-03",
     "is_adult": false,
     "tags": [
@@ -22175,7 +22275,8 @@
         "name": "Nudity",
         "rank": 67
       }
-    ]
+    ],
+    "prequels": []
   },
   {
     "id": 158704,
@@ -23616,10 +23717,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-04",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 101117,
@@ -26131,10 +26233,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 13,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-05",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 184951,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Seihantai na Kimi to Boku",
+          "english": "You and I Are Polar Opposites"
+        },
+        "season": "WINTER",
+        "seasonYear": 2026
+      }
+    ]
   },
   {
     "id": 178090,
@@ -26405,7 +26519,8 @@
     "status": "RELEASING",
     "start_date": "2026-07-03",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 130549,
@@ -26773,10 +26888,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 13,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-07",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 148465,
@@ -26951,10 +27067,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 13,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-05",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 155890,
@@ -27794,10 +27911,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-08",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 142074,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Otomege Sekai wa Mob ni Kibishii Sekai desu",
+          "english": "Trapped in a Dating Sim: The World of Otome Games Is Tough for Mobs"
+        },
+        "season": "SPRING",
+        "seasonYear": 2022
+      }
+    ]
   },
   {
     "id": 97995,
@@ -29178,10 +29307,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-04",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 132474,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu",
+          "english": "Skeleton Knight in Another World"
+        },
+        "season": "SPRING",
+        "seasonYear": 2022
+      }
+    ]
   },
   {
     "id": 178433,
@@ -31548,10 +31689,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 13,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-08",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 178869,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Clevatess: Majuu no Ou to Akago to Kabane no Yuusha",
+          "english": "Clevatess"
+        },
+        "season": "SUMMER",
+        "seasonYear": 2025
+      }
+    ]
   },
   {
     "id": 10456,
@@ -32113,10 +32266,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-04",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 170942,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Ao no Hako",
+          "english": "Blue Box"
+        },
+        "season": "FALL",
+        "seasonYear": 2024
+      }
+    ]
   },
   {
     "id": 16668,
@@ -32184,10 +32349,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-08",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 179955,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Katainaka no Ossan, Kensei ni Naru",
+          "english": "From Old Country Bumpkin to Master Swordsman"
+        },
+        "season": "SPRING",
+        "seasonYear": 2025
+      }
+    ]
   },
   {
     "id": 21034,
@@ -33103,13 +33280,25 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-07",
     "is_adult": false,
     "tags": [
       {
         "name": "Nudity",
         "rank": 90
+      }
+    ],
+    "prequels": [
+      {
+        "id": 182309,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Grand Blue Season 2",
+          "english": "Grand Blue Dreaming Season 2"
+        },
+        "season": "SUMMER",
+        "seasonYear": 2025
       }
     ]
   },
@@ -34050,7 +34239,19 @@
     "status": "RELEASING",
     "start_date": "2026-09-25",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 190327,
+        "type": "ANIME",
+        "title": {
+          "romaji": "JoJo no Kimyou na Bouken: Steel Ball Run - 1st STAGE",
+          "english": "STEEL BALL RUN JoJo's Bizarre Adventure 1st STAGE"
+        },
+        "season": "WINTER",
+        "seasonYear": 2026
+      }
+    ]
   },
   {
     "id": 5940,
@@ -34158,10 +34359,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-04",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 20645,
@@ -34401,13 +34603,25 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-05",
     "is_adult": false,
     "tags": [
       {
         "name": "Nudity",
         "rank": 40
+      }
+    ],
+    "prequels": [
+      {
+        "id": 172258,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Kimi no Koto ga Dai Dai Dai Dai Daisuki na 100-nin no Kanojo 2nd Season",
+          "english": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 2"
+        },
+        "season": "WINTER",
+        "seasonYear": 2025
       }
     ]
   },
@@ -34871,10 +35085,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-05",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 2596,
@@ -35493,10 +35708,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-06",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 166452,
@@ -35584,10 +35800,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-04-07",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 139643,
@@ -35942,7 +36159,7 @@
     "season_year": 2026,
     "format": "ONA",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-03",
     "is_adult": false,
     "tags": [
@@ -35950,7 +36167,8 @@
         "name": "Nudity",
         "rank": 33
       }
-    ]
+    ],
+    "prequels": []
   },
   {
     "id": 146206,
@@ -36321,7 +36539,7 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-03",
     "is_adult": false,
     "tags": [
@@ -36329,7 +36547,8 @@
         "name": "Nudity",
         "rank": 55
       }
-    ]
+    ],
+    "prequels": []
   },
   {
     "id": 20575,
@@ -36761,10 +36980,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 24,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-04-04",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 139092,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Mairimashita! Iruma-kun 3",
+          "english": "Welcome to Demon School! Iruma-kun Season 3"
+        },
+        "season": "FALL",
+        "seasonYear": 2022
+      }
+    ]
   },
   {
     "id": 21316,
@@ -36971,10 +37202,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-06",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 143327,
@@ -37231,10 +37463,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-04-04",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 121176,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 3rd Season",
+          "english": "Ascendance of a Bookworm Season 3"
+        },
+        "season": "SPRING",
+        "seasonYear": 2022
+      }
+    ]
   },
   {
     "id": 93,
@@ -37622,10 +37866,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 13,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-04",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 185262,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Hell Mode: Yarikomi-zuki no Gamer wa Haisettei no Isekai de Musou Suru",
+          "english": "HELL MODE: The Hardcore Gamer Dominates in Another World with Garbage Balancing"
+        },
+        "season": "WINTER",
+        "seasonYear": 2026
+      }
+    ]
   },
   {
     "id": 108040,
@@ -39639,10 +39895,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 11,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-12",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 2156,
@@ -40540,10 +40797,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-03",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 163329,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Tokyo Revengers: Tenjiku-hen",
+          "english": "Tokyo Revengers Season 2 Part 2"
+        },
+        "season": "FALL",
+        "seasonYear": 2023
+      }
+    ]
   },
   {
     "id": 288,
@@ -40850,10 +41119,11 @@
     "season_year": null,
     "format": "TV",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-09",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 166477,
@@ -41281,10 +41551,11 @@
     "season_year": 2026,
     "format": "ONA",
     "episodes": null,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-03",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 103638,
@@ -41466,10 +41737,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-06",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 5671,
@@ -42710,10 +42982,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-07",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 178701,
@@ -43361,10 +43634,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-17",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 162896,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Nige Jouzu no Wakagimi",
+          "english": "The Elusive Samurai"
+        },
+        "season": "SUMMER",
+        "seasonYear": 2024
+      }
+    ]
   },
   {
     "id": 3467,
@@ -43916,7 +44201,7 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-05",
     "is_adult": false,
     "tags": [
@@ -43924,7 +44209,8 @@
         "name": "Nudity",
         "rank": 60
       }
-    ]
+    ],
+    "prequels": []
   },
   {
     "id": 16355,
@@ -44431,10 +44717,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-08",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 163142,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Kikansha no Mahou wa Tokubetsu desu",
+          "english": "A Returner's Magic Should Be Special"
+        },
+        "season": "FALL",
+        "seasonYear": 2023
+      }
+    ]
   },
   {
     "id": 7662,
@@ -44485,7 +44783,8 @@
     "status": "RELEASING",
     "start_date": "2026-09-27",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 14515,
@@ -44708,10 +45007,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-07",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 128712,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Tantei wa mou, Shindeiru.",
+          "english": "The Detective Is Already Dead"
+        },
+        "season": "SUMMER",
+        "seasonYear": 2021
+      }
+    ]
   },
   {
     "id": 186333,
@@ -45049,10 +45360,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-09",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 13203,
@@ -46600,7 +46912,19 @@
     "status": "RELEASING",
     "start_date": "2026-09-27",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 178434,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Tensei Kizoku, Kantei Skill de Nariagaru 2nd Season",
+          "english": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World Season 2"
+        },
+        "season": "FALL",
+        "seasonYear": 2024
+      }
+    ]
   },
   {
     "id": 19117,
@@ -46859,10 +47183,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-06",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 202955,
@@ -49383,7 +49708,7 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-12",
     "is_adult": false,
     "tags": [
@@ -49391,7 +49716,8 @@
         "name": "Nudity",
         "rank": 20
       }
-    ]
+    ],
+    "prequels": []
   },
   {
     "id": 5118,
@@ -50110,10 +50436,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-06",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 21836,
@@ -50244,10 +50571,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 24,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-04",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 134732,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Aoashi",
+          "english": "Aoashi"
+        },
+        "season": "SPRING",
+        "seasonYear": 2022
+      }
+    ]
   },
   {
     "id": 158530,
@@ -50700,10 +51039,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-04-12",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 155011,
@@ -51627,7 +51967,7 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-04",
     "is_adult": false,
     "tags": [
@@ -51635,7 +51975,8 @@
         "name": "Nudity",
         "rank": 86
       }
-    ]
+    ],
+    "prequels": []
   },
   {
     "id": 957,
@@ -51767,10 +52108,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-05",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 139804,
@@ -51928,7 +52270,19 @@
     "status": "RELEASING",
     "start_date": "2026-09-26",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 180523,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Yasei no Last Boss ga Arawareta!",
+          "english": "A Wild Last Boss Appeared!"
+        },
+        "season": "FALL",
+        "seasonYear": 2025
+      }
+    ]
   },
   {
     "id": 151679,
@@ -52661,7 +53015,19 @@
     "status": "RELEASING",
     "start_date": "2026-08-14",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 170166,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Shiguang Dailiren: Yingdu Pian",
+          "english": "Link Click: Bridon Arc"
+        },
+        "season": null,
+        "seasonYear": null
+      }
+    ]
   },
   {
     "id": 108450,
@@ -53318,7 +53684,7 @@
     "season_year": 2026,
     "format": "TV_SHORT",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-04",
     "is_adult": false,
     "tags": [
@@ -53330,7 +53696,8 @@
         "name": "Public Sex",
         "rank": 70
       }
-    ]
+    ],
+    "prequels": []
   },
   {
     "id": 77,
@@ -53612,10 +53979,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 26,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-04-04",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 183661,
@@ -58208,10 +58576,32 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-11",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 813,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Dragon Ball Z",
+          "english": "Dragon Ball Z"
+        },
+        "season": "SPRING",
+        "seasonYear": 1989
+      },
+      {
+        "id": 20635,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Dragon Ball Kai (2014)",
+          "english": "Dragon Ball Z Kai: The Final Chapters"
+        },
+        "season": "SPRING",
+        "seasonYear": 2014
+      }
+    ]
   },
   {
     "id": 535,
@@ -58827,10 +59217,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-02",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 177474,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Tougen Anki",
+          "english": "TOUGEN ANKI"
+        },
+        "season": "SUMMER",
+        "seasonYear": 2025
+      }
+    ]
   },
   {
     "id": 113932,
@@ -59061,7 +59463,7 @@
     "season_year": 2026,
     "format": "ONA",
     "episodes": 13,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-06-29",
     "is_adult": false,
     "tags": [
@@ -59069,7 +59471,8 @@
         "name": "Nudity",
         "rank": 20
       }
-    ]
+    ],
+    "prequels": []
   },
   {
     "id": 21702,
@@ -59157,10 +59560,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-04",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 185731,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Ranma 1/2 (2024) 2nd Season",
+          "english": "Ranma1/2 (2024) Season 2"
+        },
+        "season": "FALL",
+        "seasonYear": 2025
+      }
+    ]
   },
   {
     "id": 163205,
@@ -60146,10 +60561,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-06",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 15489,
@@ -61343,10 +61759,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-09",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 148116,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Hyouken no Majutsushi ga Sekai wo Suberu",
+          "english": "The Iceblade Sorcerer Shall Rule the World"
+        },
+        "season": "WINTER",
+        "seasonYear": 2023
+      }
+    ]
   },
   {
     "id": 940,
@@ -61522,7 +61950,7 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 13,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-02",
     "is_adult": false,
     "tags": [
@@ -61530,7 +61958,8 @@
         "name": "Nudity",
         "rank": 71
       }
-    ]
+    ],
+    "prequels": []
   },
   {
     "id": 92,
@@ -61720,7 +62149,19 @@
     "status": "NOT_YET_RELEASED",
     "start_date": "2026-10-13",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 180082,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Chitose-kun wa Ramune Bin no Naka",
+          "english": "Chitose Is in the Ramune Bottle"
+        },
+        "season": "FALL",
+        "seasonYear": 2025
+      }
+    ]
   },
   {
     "id": 196144,
@@ -62149,10 +62590,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-05",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 17397,
@@ -62348,10 +62790,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-07",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 152682,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Sasaki to Pii-chan",
+          "english": "Sasaki and Peeps"
+        },
+        "season": "WINTER",
+        "seasonYear": 2024
+      }
+    ]
   },
   {
     "id": 20662,
@@ -62875,10 +63329,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-08",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 132528,
@@ -63149,10 +63604,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-05",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 1110,
@@ -63586,10 +64042,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-05",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 1601,
@@ -64120,10 +64577,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-04",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 101471,
@@ -64453,7 +64911,8 @@
     "status": "RELEASING",
     "start_date": "2026-07-08",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 98473,
@@ -65639,10 +66098,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-06",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 100661,
@@ -66234,10 +66694,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-03",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 145813,
@@ -66466,10 +66927,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-03",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 169581,
@@ -66504,7 +66966,8 @@
         "name": "Nudity",
         "rank": 68
       }
-    ]
+    ],
+    "prequels": []
   },
   {
     "id": 208025,
@@ -66530,7 +66993,7 @@
     "season_year": 2026,
     "format": "TV_SHORT",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-05",
     "is_adult": false,
     "tags": [
@@ -66542,7 +67005,8 @@
         "name": "Hypersexuality",
         "rank": 66
       }
-    ]
+    ],
+    "prequels": []
   },
   {
     "id": 7805,
@@ -66673,10 +67137,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-05",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 173263,
@@ -66721,10 +67186,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-06",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 131878,
@@ -66858,10 +67324,11 @@
     "season_year": 2026,
     "format": "ONA",
     "episodes": null,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-06-27",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 14237,
@@ -66993,10 +67460,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-05",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 99614,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Mahou Shoujo Lyrical Nanoha Detonation",
+          "english": "Magical Girl Lyrical Nanoha Detonation"
+        },
+        "season": "FALL",
+        "seasonYear": 2018
+      }
+    ]
   },
   {
     "id": 111145,
@@ -67883,10 +68362,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-05",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 130997,
@@ -68444,7 +68924,8 @@
     "status": "RELEASING",
     "start_date": "2026-07-04",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 579,
@@ -68831,10 +69312,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-07",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 253,
@@ -69632,10 +70114,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-09",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 3456,
@@ -69840,10 +70323,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-09",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 1055,
@@ -71916,10 +72400,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-07",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 2683,
@@ -72259,10 +72744,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-05",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 171025,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Kabushiki Gaisha Magi Lumiere",
+          "english": "Magilumiere Magical Girls Inc."
+        },
+        "season": "FALL",
+        "seasonYear": 2024
+      }
+    ]
   },
   {
     "id": 17681,
@@ -72348,10 +72845,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-10",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 112748,
@@ -73417,10 +73915,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-11",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 182578,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Yozakura-san Chi no Daisakusen 2nd Season",
+          "english": "Mission: Yozakura Family Season 2"
+        },
+        "season": "SPRING",
+        "seasonYear": 2026
+      }
+    ]
   },
   {
     "id": 211877,
@@ -73445,7 +73955,7 @@
     "season_year": 2026,
     "format": "TV_SHORT",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-05",
     "is_adult": false,
     "tags": [
@@ -73453,7 +73963,8 @@
         "name": "Nudity",
         "rank": 79
       }
-    ]
+    ],
+    "prequels": []
   },
   {
     "id": 10519,
@@ -74398,10 +74909,22 @@
     "season_year": 2026,
     "format": "ONA",
     "episodes": 13,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-02",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 177580,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Hanazakari no Kimitachi e",
+          "english": "Hana-Kimi"
+        },
+        "season": "WINTER",
+        "seasonYear": 2026
+      }
+    ]
   },
   {
     "id": 154876,
@@ -75470,10 +75993,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-04",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 6919,
@@ -75561,10 +76085,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-06",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 21340,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Mahou Shoujo Ikusei Keikaku",
+          "english": "Magical Girl Raising Project"
+        },
+        "season": "FALL",
+        "seasonYear": 2016
+      }
+    ]
   },
   {
     "id": 519,
@@ -76064,10 +76600,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-07",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 99727,
@@ -76426,10 +76963,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-04",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 6024,
@@ -78471,7 +79009,7 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-07-05",
     "is_adult": false,
     "tags": [
@@ -78479,7 +79017,8 @@
         "name": "Nudity",
         "rank": 10
       }
-    ]
+    ],
+    "prequels": []
   },
   {
     "id": 233,
@@ -78526,10 +79065,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-03",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 100246,
@@ -78635,10 +79175,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-04",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 99002,
@@ -81178,10 +81719,11 @@
     "season_year": 2026,
     "format": "ONA",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-03",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 127225,
@@ -81288,10 +81830,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 24,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-04-10",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 103,
@@ -81922,10 +82465,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-11",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 992,
@@ -82014,10 +82558,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-05",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 10384,
@@ -83895,10 +84440,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-04",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 15045,
@@ -84848,10 +85394,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 12,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-10",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 104102,
@@ -85594,10 +86141,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-03",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 128369,
@@ -87853,10 +88401,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-05",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 172242,
@@ -88042,10 +88591,11 @@
     "season_year": null,
     "format": "ONA",
     "episodes": 7,
-    "status": "RELEASING",
+    "status": "FINISHED",
     "start_date": "2026-08-28",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 98577,
@@ -88110,10 +88660,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": 20,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-03",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 100966,
@@ -89655,10 +90206,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-04",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 708,
@@ -89767,10 +90319,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-06",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 102663,
@@ -90102,10 +90655,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-11",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 177634,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Diamond no Ace act II: Second Season",
+          "english": "Ace of the Diamond act II -Second Season-"
+        },
+        "season": "SPRING",
+        "seasonYear": 2026
+      }
+    ]
   },
   {
     "id": 127163,
@@ -92231,10 +92796,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-03",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 1149,
@@ -92317,10 +92883,22 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-04",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 184034,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Hotel Inhumans",
+          "english": "HOTEL INHUMANS"
+        },
+        "season": "SUMMER",
+        "seasonYear": 2025
+      }
+    ]
   },
   {
     "id": 1224,
@@ -92833,10 +93411,11 @@
     "season_year": 2026,
     "format": "TV",
     "episodes": null,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-09",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": []
   },
   {
     "id": 12123,
@@ -99152,10 +99731,22 @@
     "season_year": null,
     "format": "ONA",
     "episodes": 12,
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "start_date": "2026-10-03",
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 146543,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Dawang Raoming 2",
+          "english": null
+        },
+        "season": null,
+        "seasonYear": null
+      }
+    ]
   },
   {
     "id": 2165,

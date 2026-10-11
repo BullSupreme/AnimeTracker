@@ -13,6 +13,10 @@ import requests
 import time
 import argparse
 import os
+try:
+    from .continuation import continuation_metadata, RELATION_FIELDS
+except ImportError:
+    from continuation import continuation_metadata, RELATION_FIELDS
 from datetime import datetime, timedelta, date
 from calendar import monthrange
 try:
@@ -39,6 +43,7 @@ query ($page: Int, $perPage: Int, $startDate: FuzzyDateInt, $endDate: FuzzyDateI
             title { romaji english }
             averageScore popularity genres episodes format status
             isAdult tags { name rank }
+            CONTINUATION_RELATIONS
             season seasonYear
             coverImage { large }
             trailer { id site thumbnail }
@@ -47,7 +52,7 @@ query ($page: Int, $perPage: Int, $startDate: FuzzyDateInt, $endDate: FuzzyDateI
         }
     }
 }
-'''
+'''.replace('CONTINUATION_RELATIONS', RELATION_FIELDS)
 
 
 
@@ -137,6 +142,7 @@ def process_anime(raw):
         'popularity': raw.get('popularity', 0),
         'genres': raw.get('genres', []),
         **content_metadata(raw),
+        **continuation_metadata(raw),
         'season': raw.get('season'),
         'season_year': raw.get('seasonYear'),
         'format': raw.get('format'),

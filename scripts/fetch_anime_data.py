@@ -4,6 +4,10 @@ import requests
 from datetime import datetime, timedelta
 import os
 import time
+try:
+    from .continuation import continuation_metadata, RELATION_FIELDS
+except ImportError:
+    from continuation import continuation_metadata, RELATION_FIELDS
 from zoneinfo import ZoneInfo
 try:
     from .content_warnings import content_metadata
@@ -137,6 +141,8 @@ def fetch_manual_anime_data(manual_entries):
                 genres
                 isAdult
                 tags { name rank }
+                season seasonYear
+                CONTINUATION_RELATIONS
                 duration
                 format
                 popularity
@@ -206,6 +212,7 @@ def refreshed_manual_entries(manual_entries, existing_ids, today_date):
 
 def make_anilist_request(query, variables, retry_count=3):
     """Makes a request to the AniList API with retries for transient errors."""
+    query = query.replace('CONTINUATION_RELATIONS', RELATION_FIELDS)
     for attempt in range(retry_count):
         try:
             response = requests.post(ANILIST_API_URL, json={'query': query, 'variables': variables}, timeout=15)
@@ -321,6 +328,8 @@ def fetch_current_anime():
                 genres
                 isAdult
                 tags { name rank }
+                season seasonYear
+                CONTINUATION_RELATIONS
                 duration
                 format
                 popularity
@@ -351,6 +360,8 @@ def fetch_current_anime():
                 genres
                 isAdult
                 tags { name rank }
+                season seasonYear
+                CONTINUATION_RELATIONS
                 duration
                 format
                 popularity
@@ -381,6 +392,8 @@ def fetch_current_anime():
                 genres
                 isAdult
                 tags { name rank }
+                season seasonYear
+                CONTINUATION_RELATIONS
                 duration
                 format
                 popularity
@@ -529,6 +542,7 @@ def fetch_upcoming_seasonal_anime():
                 genres
                 isAdult
                 tags { name rank }
+                CONTINUATION_RELATIONS
                 duration
                 format
                 popularity
@@ -1008,7 +1022,8 @@ def process_anime_data(api_data):
             'popularity': anime.get('popularity', 0),
             'anilist_score': anime.get('averageScore'),
             'recently_finished': is_recently_finished,
-            **content_metadata(anime)
+            **content_metadata(anime),
+            **continuation_metadata(anime)
         })
     
     # Sort by popularity (highest first) to calculate rankings
@@ -1095,6 +1110,7 @@ def process_upcoming_anime_data(api_data):
             'studios': studio_display,
             'genres': anime.get('genres', []),
             **content_metadata(anime),
+            **continuation_metadata(anime),
             'popularity': anime.get('popularity', 0),
             'favourites': anime.get('favourites', 0),
             'anilist_score': anime.get('averageScore'),
@@ -1205,7 +1221,8 @@ def update_calendar_history(anime_list, today_date, history_days=CALENDAR_HISTOR
             'anilist_score': anime.get('anilist_score'),
             'recently_finished': anime.get('recently_finished', False),
             'popularity_rank': anime.get('popularity_rank'),
-            **content_metadata(anime)
+            **content_metadata(anime),
+            **continuation_metadata(anime)
         }
         return snapshot
 

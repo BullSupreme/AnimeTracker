@@ -7,6 +7,10 @@ for client-side filtering, sorting, and search — no server needed.
 """
 import json
 import os
+try:
+    from .continuation import get_continuation_badges
+except ImportError:
+    from continuation import get_continuation_badges
 from datetime import datetime
 from urllib.parse import quote
 try:
@@ -90,7 +94,7 @@ def generate_html(catalog):
     # Embed catalog as JSON (sorted by popularity descending)
     rankings = build_season_rankings(catalog)
     catalog_sorted = sorted(
-        [dict(anime, season_ranking=rankings.get(anime['id']), content_warnings=get_content_warnings(anime)) for anime in catalog],
+        [dict(anime, season_ranking=rankings.get(anime['id']), content_warnings=get_content_warnings(anime), continuation_badges=get_continuation_badges(anime)) for anime in catalog],
         key=lambda x: x.get("popularity", 0), reverse=True)
     catalog_json = json.dumps(catalog_sorted, ensure_ascii=False)
 
@@ -103,6 +107,7 @@ def generate_html(catalog):
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/season-rarity.css">
     <link rel="stylesheet" href="css/content-warnings.css">
+    <link rel="stylesheet" href="css/continuation.css">
     <style>
         /* All Anime Page Specific Styles */
         .all-anime-header {{
@@ -694,6 +699,10 @@ def generate_html(catalog):
             : '';
         const isFav = isFavorite(id);
         const warnings = anime.content_warnings || [];
+        const continuations = anime.continuation_badges || [];
+        const continuationBadges = continuations.length
+            ? `<div class="continuation-badges" aria-label="Series continuation">${{continuations.map(b => `<span class="continuation-badge continuation-${{b.key}}" tabindex="0" title="${{escapeAttr(b.detail)}}">${{escapeHtml(b.label)}}</span>`).join('')}}</div>`
+            : '';
         const contentWarnings = warnings.length
             ? `<div class="content-warnings" aria-label="Content warnings">${{warnings.map(w => `<span class="content-warning content-warning-${{w.key}}" tabindex="0" title="${{escapeAttr(w.detail)}}" aria-label="${{escapeAttr(w.detail)}}">${{escapeHtml(w.label)}}</span>`).join('')}}</div>`
             : '';
@@ -737,6 +746,7 @@ def generate_html(catalog):
             <div class="card-info">
                 ${{engTitle}}
                 <h3 class="anime-title">${{escapeHtml(name)}}</h3>
+                ${{continuationBadges}}
                 <div class="episode-info">
                     <span class="episode-badge">${{episodeLabel}}</span>
                     <a href="${{escapeAttr(siteUrl)}}" target="_blank" class="main-link-btn" onclick="event.stopPropagation()">anilist.co</a>

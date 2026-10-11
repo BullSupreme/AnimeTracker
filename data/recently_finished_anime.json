@@ -35,7 +35,22 @@
       "Slice of Life"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 184951,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Seihantai na Kimi to Boku",
+          "english": "You and I Are Polar Opposites"
+        },
+        "season": "WINTER",
+        "seasonYear": 2026
+      }
+    ],
+    "season": "SUMMER",
+    "season_year": 2026,
+    "status": "FINISHED"
   },
   {
     "id": 171110,
@@ -72,7 +87,22 @@
       "Slice of Life"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 121176,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 3rd Season",
+          "english": "Ascendance of a Bookworm Season 3"
+        },
+        "season": "SPRING",
+        "seasonYear": 2022
+      }
+    ],
+    "season": "SPRING",
+    "season_year": 2026,
+    "status": "FINISHED"
   },
   {
     "id": 182616,
@@ -108,7 +138,22 @@
       "Adventure"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 162896,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Nige Jouzu no Wakagimi",
+          "english": "The Elusive Samurai"
+        },
+        "season": "SUMMER",
+        "seasonYear": 2024
+      }
+    ],
+    "season": "SUMMER",
+    "season_year": 2026,
+    "status": "FINISHED"
   },
   {
     "id": 184356,
@@ -150,7 +195,11 @@
       "Fantasy"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": null,
+    "season_year": null,
+    "status": "FINISHED"
   },
   {
     "id": 189046,
@@ -201,7 +250,22 @@
       "Thriller"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 163134,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season",
+          "english": "Re:ZERO -Starting Life in Another World- Season 3"
+        },
+        "season": "FALL",
+        "seasonYear": 2024
+      }
+    ],
+    "season": "SPRING",
+    "season_year": 2026,
+    "status": "FINISHED"
   },
   {
     "id": 198946,
@@ -243,7 +307,22 @@
       "Fantasy"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 178869,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Clevatess: Majuu no Ou to Akago to Kabane no Yuusha",
+          "english": "Clevatess"
+        },
+        "season": "SUMMER",
+        "seasonYear": 2025
+      }
+    ],
+    "season": "SUMMER",
+    "season_year": 2026,
+    "status": "FINISHED"
   },
   {
     "id": 187260,
@@ -280,7 +359,11 @@
       "Romance"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "SUMMER",
+    "season_year": 2026,
+    "status": "FINISHED"
   },
   {
     "id": 197754,
@@ -316,6 +399,10 @@
       "Psychological"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "SPRING",
+    "season_year": 2026,
+    "status": "FINISHED"
   }
 ]

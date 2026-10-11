@@ -40,7 +40,11 @@
       "Slice of Life"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 206949,
@@ -76,7 +80,11 @@
       "Fantasy"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 209502,
@@ -112,7 +120,11 @@
       "Romance"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 198727,
@@ -148,7 +160,22 @@
       "Romance"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 180082,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Chitose-kun wa Ramune Bin no Naka",
+          "english": "Chitose Is in the Ramune Bottle"
+        },
+        "season": "FALL",
+        "seasonYear": 2025
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 187316,
@@ -185,7 +212,11 @@
       "Fantasy"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 200294,
@@ -221,7 +252,11 @@
       "Slice of Life"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 159042,
@@ -268,7 +303,22 @@
       "Fantasy"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 139587,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Tensei Shitara Ken Deshita",
+          "english": "Reincarnated as a Sword"
+        },
+        "season": "FALL",
+        "seasonYear": 2022
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 172192,
@@ -305,7 +355,22 @@
       "Fantasy"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 163142,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Kikansha no Mahou wa Tokubetsu desu",
+          "english": "A Returner's Magic Should Be Special"
+        },
+        "season": "FALL",
+        "seasonYear": 2023
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 152677,
@@ -344,7 +409,22 @@
       "Supernatural"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 128712,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Tantei wa mou, Shindeiru.",
+          "english": "The Detective Is Already Dead"
+        },
+        "season": "SUMMER",
+        "seasonYear": 2021
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 176314,
@@ -381,7 +461,22 @@
       "Mahou Shoujo"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 152682,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Sasaki to Pii-chan",
+          "english": "Sasaki and Peeps"
+        },
+        "season": "WINTER",
+        "seasonYear": 2024
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 211778,
@@ -423,7 +518,11 @@
       "Fantasy"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 178868,
@@ -466,7 +565,11 @@
       "Mecha"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 213805,
@@ -504,7 +607,22 @@
       "Slice of Life"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 186497,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Koori no Jouheki",
+          "english": "The Ramparts of Ice"
+        },
+        "season": "SPRING",
+        "seasonYear": 2026
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 212503,
@@ -541,7 +659,22 @@
       "Fantasy"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 148116,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Hyouken no Majutsushi ga Sekai wo Suberu",
+          "english": "The Iceblade Sorcerer Shall Rule the World"
+        },
+        "season": "WINTER",
+        "seasonYear": 2023
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 206401,
@@ -582,7 +715,11 @@
       "Slice of Life"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 188034,
@@ -611,7 +748,11 @@
       "Comedy"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 199594,
@@ -651,7 +792,11 @@
       "Slice of Life"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 185874,
@@ -698,7 +843,22 @@
       "Supernatural"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 169755,
+        "type": "ANIME",
+        "title": {
+          "romaji": "BLEACH: Sennen Kessen-hen - Soukoku-tan",
+          "english": "BLEACH: Thousand-Year Blood War - The Conflict"
+        },
+        "season": "FALL",
+        "seasonYear": 2024
+      }
+    ],
+    "season": "SUMMER",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 180136,
@@ -739,7 +899,11 @@
       "Fantasy"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "SUMMER",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 207809,
@@ -778,7 +942,11 @@
       "Romance"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "SUMMER",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 195516,
@@ -819,7 +987,22 @@
       "Mystery"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 176301,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Kusuriya no Hitorigoto 2nd Season",
+          "english": "The Apothecary Diaries Season 2"
+        },
+        "season": "WINTER",
+        "seasonYear": 2025
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 210482,
@@ -858,7 +1041,22 @@
       "Supernatural"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 190327,
+        "type": "ANIME",
+        "title": {
+          "romaji": "JoJo no Kimyou na Bouken: Steel Ball Run - 1st STAGE",
+          "english": "STEEL BALL RUN JoJo's Bizarre Adventure 1st STAGE"
+        },
+        "season": "WINTER",
+        "seasonYear": 2026
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 178083,
@@ -901,7 +1099,22 @@
       "Supernatural"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 163329,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Tokyo Revengers: Tenjiku-hen",
+          "english": "Tokyo Revengers Season 2 Part 2"
+        },
+        "season": "FALL",
+        "seasonYear": 2023
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 205909,
@@ -937,7 +1150,11 @@
       "Romance"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 191832,
@@ -985,7 +1202,22 @@
       "Thriller"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 170166,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Shiguang Dailiren: Yingdu Pian",
+          "english": "Link Click: Bridon Arc"
+        },
+        "season": null,
+        "seasonYear": null
+      }
+    ],
+    "season": null,
+    "season_year": null,
+    "status": "RELEASING"
   },
   {
     "id": 204650,
@@ -1037,7 +1269,22 @@
       "Supernatural"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 177474,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Tougen Anki",
+          "english": "TOUGEN ANKI"
+        },
+        "season": "SUMMER",
+        "seasonYear": 2025
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 203490,
@@ -1074,7 +1321,11 @@
       "Slice of Life"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "SUMMER",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 186742,
@@ -1110,7 +1361,11 @@
       "Sci-Fi"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 21,
@@ -1165,7 +1420,22 @@
       "Fantasy"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 167404,
+        "type": "ANIME",
+        "title": {
+          "romaji": "MONSTERS: Ippaku Sanjou Hiryuu Jigoku",
+          "english": "MONSTERS: 103 Mercies Dragon Damnation"
+        },
+        "season": "WINTER",
+        "seasonYear": 2024
+      }
+    ],
+    "season": "FALL",
+    "season_year": 1999,
+    "status": "RELEASING"
   },
   {
     "id": 195604,
@@ -1203,7 +1473,22 @@
       "Fantasy"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 97940,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Black Clover",
+          "english": "Black Clover"
+        },
+        "season": "FALL",
+        "seasonYear": 2017
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 235,
@@ -1252,7 +1537,11 @@
       "Psychological"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "WINTER",
+    "season_year": 1996,
+    "status": "RELEASING"
   },
   {
     "id": 195539,
@@ -1289,7 +1578,11 @@
       "Sci-Fi"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 191656,
@@ -1331,7 +1624,11 @@
         "name": "Nudity",
         "rank": 86
       }
-    ]
+    ],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 213457,
@@ -1369,7 +1666,11 @@
       "Thriller"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 204389,
@@ -1411,7 +1712,22 @@
       "Fantasy"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 180523,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Yasei no Last Boss ga Arawareta!",
+          "english": "A Wild Last Boss Appeared!"
+        },
+        "season": "FALL",
+        "seasonYear": 2025
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 169581,
@@ -1455,7 +1771,11 @@
         "name": "Nudity",
         "rank": 68
       }
-    ]
+    ],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 202250,
@@ -1497,7 +1817,11 @@
       "Fantasy"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 209872,
@@ -1534,7 +1858,22 @@
       "Romance"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 185731,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Ranma 1/2 (2024) 2nd Season",
+          "english": "Ranma1/2 (2024) Season 2"
+        },
+        "season": "FALL",
+        "seasonYear": 2025
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 187402,
@@ -1576,7 +1915,11 @@
       "Fantasy"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 180894,
@@ -1618,7 +1961,11 @@
       "Fantasy"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 195571,
@@ -1655,7 +2002,11 @@
       "Supernatural"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 199007,
@@ -1694,7 +2045,11 @@
       "Supernatural"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 212799,
@@ -1731,7 +2086,11 @@
       "Romance"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 203275,
@@ -1768,7 +2127,11 @@
       "Fantasy"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 203473,
@@ -1801,7 +2164,11 @@
       "Supernatural"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 209562,
@@ -1837,7 +2204,11 @@
       "Mecha"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
   },
   {
     "id": 199353,
@@ -1873,6 +2244,21 @@
       "Fantasy"
     ],
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 146543,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Dawang Raoming 2",
+          "english": null
+        },
+        "season": null,
+        "seasonYear": null
+      }
+    ],
+    "season": null,
+    "season_year": null,
+    "status": "RELEASING"
   }
 ]

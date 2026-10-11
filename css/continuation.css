@@ -1,0 +1,36 @@
+.continuation-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin: 3px 0 5px;
+}
+
+.continuation-badge {
+    display: inline-block;
+    padding: 2px 5px;
+    border: 1px solid rgba(126, 210, 234, 0.45);
+    border-radius: 4px;
+    background: rgba(55, 135, 161, 0.13);
+    color: #9adbea;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.continuation-part,
+.continuation-cour {
+    color: #b7baff;
+    border-color: rgba(167, 171, 246, 0.45);
+    background: rgba(121, 126, 217, 0.13);
+}
+
+.continuation-continuing {
+    color: #9ae3c0;
+    border-color: rgba(125, 209, 172, 0.45);
+    background: rgba(58, 142, 102, 0.13);
+}
+
+.layout-compact .continuation-badge {
+    padding: 1px 4px;
+    font-size: 8px;
+}

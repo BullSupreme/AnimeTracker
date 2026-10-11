@@ -5,6 +5,10 @@ from datetime import datetime, timedelta
 import os
 import re
 try:
+    from .continuation import continuation_html, get_continuation_badges
+except ImportError:
+    from continuation import continuation_html, get_continuation_badges
+try:
     from .content_warnings import content_warning_html
 except ImportError:
     from content_warnings import content_warning_html
@@ -361,6 +365,8 @@ def generate_html():
                 nine_anime_by_id[str(aid)] = url
 
     today_date = metadata.get('today_date', datetime.now().strftime('%Y-%m-%d'))
+    for anime in anime_data + other_anime_sorted + recently_finished_anime + upcoming_anime:
+        anime['continuation_badges'] = get_continuation_badges(anime, datetime.strptime(today_date, '%Y-%m-%d').date())
     tomorrow_date = metadata.get('tomorrow_date', (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d'))
     last_updated = metadata.get('last_updated', datetime.now().isoformat())
     recently_finished_anime = filter_recently_finished(recently_finished_anime, today_date)
@@ -380,6 +386,7 @@ def generate_html():
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/season-rarity.css">
         <link rel="stylesheet" href="css/content-warnings.css">
+        <link rel="stylesheet" href="css/continuation.css">
     </head>
     <body>
         <header>
@@ -484,7 +491,7 @@ def generate_html():
                                         9anime
                                     </a>"""
 
-            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
+            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>{continuation_html(anime)}
                                 <div class="episode-info">
                                     <span class="episode-badge">Episode {anime['episode']}</span>
                                     <a href="{custom_link}" target="_blank" class="main-link-btn">
@@ -570,7 +577,7 @@ def generate_html():
                                         9anime
                                     </a>"""
 
-            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
+            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>{continuation_html(anime)}
                                 <div class="episode-info">
                                     <span class="episode-badge">Episode {anime['episode']}</span>
                                     <a href="{custom_link}" target="_blank" class="main-link-btn">
@@ -670,7 +677,7 @@ def generate_html():
                                         9anime
                                     </a>"""
 
-            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
+            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>{continuation_html(anime)}
                                 <div class="episode-info">
                                     <span class="episode-badge">{episode_display}</span>
                                     <a href="{custom_link}" target="_blank" class="main-link-btn">
@@ -759,7 +766,7 @@ def generate_html():
                                         9anime
                                     </a>"""
 
-            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
+            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>{continuation_html(anime)}
                                 <div class="episode-info">
                                     <span class="episode-badge">Total: {total_episodes} Episodes</span>
                                     <a href="{custom_link}" target="_blank" class="main-link-btn">
@@ -819,7 +826,7 @@ def generate_html():
                                         9anime
                                     </a>"""
 
-            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>
+            html_content += f"""                                <h3 class="anime-title">{anime['name']}</h3>{continuation_html(anime)}
                                 <div class="episode-info">
                                     <span class="episode-badge">Episode 1</span>
                                     <a href="{anime['site_url']}" target="_blank" class="main-link-btn">

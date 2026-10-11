@@ -14,7 +14,7 @@
     },
     "site_url": "https://anilist.co/anime/177704",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "Aniplex, Shueisha",
     "genres": [
@@ -28,7 +28,20 @@
     "streaming_links": [],
     "popularity_rank": 1,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 166610,
+        "type": "ANIME",
+        "title": {
+          "romaji": "MASHLE: Kami Shinkakusha Kouho Senbatsu Shiken-hen",
+          "english": "MASHLE: MAGIC AND MUSCLES Season 2"
+        },
+        "season": "WINTER",
+        "seasonYear": 2024
+      }
+    ],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 189323,
@@ -45,7 +58,7 @@
     },
     "site_url": "https://anilist.co/anime/189323",
     "start_date": "2027-01-10",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "C2C",
     "genres": [
@@ -61,7 +74,20 @@
     "streaming_links": [],
     "popularity_rank": 2,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 176508,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Shangri-La Frontier 2nd Season",
+          "english": "Shangri-La Frontier Season 2"
+        },
+        "season": "FALL",
+        "seasonYear": 2024
+      }
+    ],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 169579,
@@ -78,7 +104,7 @@
     },
     "site_url": "https://anilist.co/anime/169579",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "KADOKAWA, SILVER LINK.",
     "genres": [
@@ -95,7 +121,20 @@
     "streaming_links": [],
     "popularity_rank": 3,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 129898,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru",
+          "english": "The World's Finest Assassin Gets Reincarnated in Another World as an Aristocrat"
+        },
+        "season": "FALL",
+        "seasonYear": 2021
+      }
+    ],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 186822,
@@ -112,7 +151,7 @@
     },
     "site_url": "https://anilist.co/anime/186822",
     "start_date": "2027-01-08",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "CloverWorks, Aniplex",
     "genres": [
@@ -125,7 +164,9 @@
     "streaming_links": [],
     "popularity_rank": 4,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 204363,
@@ -142,7 +183,7 @@
     },
     "site_url": "https://anilist.co/anime/204363",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "TMS Entertainment",
     "genres": [
@@ -155,7 +196,20 @@
     "streaming_links": [],
     "popularity_rank": 5,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 184237,
+        "type": "ANIME",
+        "title": {
+          "romaji": "SAKAMOTO DAYS Part 2",
+          "english": "SAKAMOTO DAYS Part 2"
+        },
+        "season": "SUMMER",
+        "seasonYear": 2025
+      }
+    ],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 197620,
@@ -172,7 +226,7 @@
     },
     "site_url": "https://anilist.co/anime/197620",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "Qzil.la",
     "genres": [
@@ -187,7 +241,9 @@
     "streaming_links": [],
     "popularity_rank": 6,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 204747,
@@ -204,7 +260,7 @@
     },
     "site_url": "https://anilist.co/anime/204747",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "J.C.STAFF, Bandai Namco Filmworks",
     "genres": [
@@ -219,7 +275,20 @@
     "streaming_links": [],
     "popularity_rank": 7,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 153800,
+        "type": "ANIME",
+        "title": {
+          "romaji": "One Punch Man 3",
+          "english": "One-Punch Man Season 3"
+        },
+        "season": "FALL",
+        "seasonYear": 2025
+      }
+    ],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 213752,
@@ -236,7 +305,7 @@
     },
     "site_url": "https://anilist.co/anime/213752",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "bones film, bones",
     "genres": [
@@ -251,7 +320,20 @@
     "streaming_links": [],
     "popularity_rank": 8,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 199547,
+        "type": "ANIME",
+        "title": {
+          "romaji": "MARRIAGETOXIN",
+          "english": "MARRIAGETOXIN"
+        },
+        "season": "SPRING",
+        "seasonYear": 2026
+      }
+    ],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 202564,
@@ -268,7 +350,7 @@
     },
     "site_url": "https://anilist.co/anime/202564",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "ROLL2, infinite",
     "genres": [
@@ -282,7 +364,9 @@
     "streaming_links": [],
     "popularity_rank": 9,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 204579,
@@ -299,7 +383,7 @@
     },
     "site_url": "https://anilist.co/anime/204579",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "SynergySP, King Records",
     "genres": [
@@ -313,7 +397,9 @@
     "streaming_links": [],
     "popularity_rank": 10,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 188892,
@@ -330,7 +416,7 @@
     },
     "site_url": "https://anilist.co/anime/188892",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "SynergySP",
     "genres": [
@@ -343,7 +429,20 @@
     "streaming_links": [],
     "popularity_rank": 11,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 177552,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Kuroiwa Medaka ni Watashi no Kawaii ga Tsuujinai",
+          "english": "Medaka Kuroiwa is Impervious to My Charms"
+        },
+        "season": "WINTER",
+        "seasonYear": 2025
+      }
+    ],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 217070,
@@ -356,7 +455,7 @@
     "trailer": null,
     "site_url": "https://anilist.co/anime/217070",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "TBD",
     "genres": [
@@ -370,7 +469,20 @@
     "streaming_links": [],
     "popularity_rank": 12,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 188139,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Futsutsuka na Akujo de wa Gozaimasu ga: Suuguu Chouso Torikae Den",
+          "english": "Though I Am an Inept Villainess"
+        },
+        "season": "SUMMER",
+        "seasonYear": 2026
+      }
+    ],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 213360,
@@ -387,7 +499,7 @@
     },
     "site_url": "https://anilist.co/anime/213360",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "Aniplex, TV Asahi",
     "genres": [
@@ -399,7 +511,20 @@
     "streaming_links": [],
     "popularity_rank": 13,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 196935,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Akane-banashi",
+          "english": "Akane-banashi"
+        },
+        "season": "SPRING",
+        "seasonYear": 2026
+      }
+    ],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 216624,
@@ -416,7 +541,7 @@
     },
     "site_url": "https://anilist.co/anime/216624",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "STUDIO fu, HAYATE",
     "genres": [
@@ -432,7 +557,9 @@
     "streaming_links": [],
     "popularity_rank": 14,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 196333,
@@ -449,7 +576,7 @@
     },
     "site_url": "https://anilist.co/anime/196333",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "Production +h, Shogakukan-Shueisha Productions",
     "genres": [
@@ -463,7 +590,9 @@
     "streaming_links": [],
     "popularity_rank": 15,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 186741,
@@ -480,7 +609,7 @@
     },
     "site_url": "https://anilist.co/anime/186741",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "BLADE, KADOKAWA",
     "genres": [
@@ -496,7 +625,9 @@
     "streaming_links": [],
     "popularity_rank": 16,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 205130,
@@ -513,7 +644,7 @@
     },
     "site_url": "https://anilist.co/anime/205130",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "LIDENFILMS, Mainichi Broadcasting System",
     "genres": [
@@ -527,7 +658,9 @@
     "streaming_links": [],
     "popularity_rank": 17,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 208766,
@@ -544,7 +677,7 @@
     },
     "site_url": "https://anilist.co/anime/208766",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "A-1 Pictures, Aniplex",
     "genres": [
@@ -556,7 +689,9 @@
     "streaming_links": [],
     "popularity_rank": 18,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 207251,
@@ -569,7 +704,7 @@
     "trailer": null,
     "site_url": "https://anilist.co/anime/207251",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "NHK",
     "genres": [
@@ -582,7 +717,9 @@
     "streaming_links": [],
     "popularity_rank": 19,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 189121,
@@ -599,7 +736,7 @@
     },
     "site_url": "https://anilist.co/anime/189121",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "TBD",
     "genres": [
@@ -611,7 +748,20 @@
     "streaming_links": [],
     "popularity_rank": 20,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 169295,
+        "type": "ANIME",
+        "title": {
+          "romaji": "BanG Dream! Ave Mujica",
+          "english": "Ave Mujica - The Die is Cast -"
+        },
+        "season": "WINTER",
+        "seasonYear": 2025
+      }
+    ],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 200578,
@@ -628,7 +778,7 @@
     },
     "site_url": "https://anilist.co/anime/200578",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "Sakura Create, KADOKAWA",
     "genres": [
@@ -644,7 +794,9 @@
     "streaming_links": [],
     "popularity_rank": 21,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 197619,
@@ -661,7 +813,7 @@
     },
     "site_url": "https://anilist.co/anime/197619",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "TROYCA, KADOKAWA",
     "genres": [
@@ -675,7 +827,9 @@
     "streaming_links": [],
     "popularity_rank": 22,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 210199,
@@ -688,7 +842,7 @@
     "trailer": null,
     "site_url": "https://anilist.co/anime/210199",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "VAP, Tezuka Productions",
     "genres": [
@@ -704,7 +858,20 @@
     "streaming_links": [],
     "popularity_rank": 23,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 166910,
+        "type": "ANIME",
+        "title": {
+          "romaji": "The Fable",
+          "english": "The Fable"
+        },
+        "season": "SPRING",
+        "seasonYear": 2024
+      }
+    ],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 209661,
@@ -721,7 +888,7 @@
     },
     "site_url": "https://anilist.co/anime/209661",
     "start_date": "2027-01-04",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "J.C.STAFF, Starry Cube",
     "genres": [
@@ -734,7 +901,9 @@
     "streaming_links": [],
     "popularity_rank": 24,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 213052,
@@ -751,7 +920,7 @@
     },
     "site_url": "https://anilist.co/anime/213052",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "Studio DEEN, Aniplex",
     "genres": [
@@ -765,7 +934,9 @@
     "streaming_links": [],
     "popularity_rank": 25,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 174427,
@@ -782,7 +953,7 @@
     },
     "site_url": "https://anilist.co/anime/174427",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "Frontier Works, Acca effe",
     "genres": [
@@ -797,7 +968,9 @@
     "streaming_links": [],
     "popularity_rank": 26,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 213877,
@@ -814,7 +987,7 @@
     },
     "site_url": "https://anilist.co/anime/213877",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "Satelight, Staple Entertainment",
     "genres": [],
@@ -829,7 +1002,9 @@
         "name": "Nudity",
         "rank": 60
       }
-    ]
+    ],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 202282,
@@ -846,7 +1021,7 @@
     },
     "site_url": "https://anilist.co/anime/202282",
     "start_date": "2026-12-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "Walt Disney Studios, Yumeta Company",
     "genres": [
@@ -859,7 +1034,20 @@
     "streaming_links": [],
     "popularity_rank": 28,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 140291,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Disney Twisted-Wonderland: THE ANIMATION - Season 1: EPISODE of HEARTSLABYUL",
+          "english": "Disney Twisted-Wonderland: The Animation"
+        },
+        "season": "FALL",
+        "seasonYear": 2025
+      }
+    ],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 213497,
@@ -876,7 +1064,7 @@
     },
     "site_url": "https://anilist.co/anime/213497",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "project No.9, Avex Pictures",
     "genres": [
@@ -891,7 +1079,9 @@
     "streaming_links": [],
     "popularity_rank": 29,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 207782,
@@ -908,7 +1098,7 @@
     },
     "site_url": "https://anilist.co/anime/207782",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "infinite, Studio Lings",
     "genres": [
@@ -921,7 +1111,9 @@
     "streaming_links": [],
     "popularity_rank": 30,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 202503,
@@ -938,7 +1130,7 @@
     },
     "site_url": "https://anilist.co/anime/202503",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "Studio Palette, Asmik Ace",
     "genres": [
@@ -952,7 +1144,9 @@
     "streaming_links": [],
     "popularity_rank": 31,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 187303,
@@ -969,7 +1163,7 @@
     },
     "site_url": "https://anilist.co/anime/187303",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "Tatsunoko Production, Half H.P Studio",
     "genres": [
@@ -985,7 +1179,9 @@
     "streaming_links": [],
     "popularity_rank": 32,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 194030,
@@ -1002,7 +1198,7 @@
     },
     "site_url": "https://anilist.co/anime/194030",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "Zero-G, Saber Works",
     "genres": [
@@ -1019,7 +1215,9 @@
     "streaming_links": [],
     "popularity_rank": 33,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 198728,
@@ -1036,7 +1234,7 @@
     },
     "site_url": "https://anilist.co/anime/198728",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "Live2D Creative Studio, Drive",
     "genres": [
@@ -1048,7 +1246,9 @@
     "streaming_links": [],
     "popularity_rank": 34,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 197095,
@@ -1065,7 +1265,7 @@
     },
     "site_url": "https://anilist.co/anime/197095",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "Teddy",
     "genres": [
@@ -1080,7 +1280,9 @@
     "streaming_links": [],
     "popularity_rank": 35,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 199337,
@@ -1097,7 +1299,7 @@
     },
     "site_url": "https://anilist.co/anime/199337",
     "start_date": "2027-01-09",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "WIT STUDIO",
     "genres": [
@@ -1110,7 +1312,20 @@
     "streaming_links": [],
     "popularity_rank": 36,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 177476,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Shin Samurai-den YAIBA",
+          "english": "YAIBA: Samurai Legend"
+        },
+        "season": "SPRING",
+        "seasonYear": 2025
+      }
+    ],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 199590,
@@ -1127,7 +1342,7 @@
     },
     "site_url": "https://anilist.co/anime/199590",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "KADOKAWA, Maho Film",
     "genres": [
@@ -1141,7 +1356,9 @@
     "streaming_links": [],
     "popularity_rank": 37,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 209221,
@@ -1158,7 +1375,7 @@
     },
     "site_url": "https://anilist.co/anime/209221",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "Studio DEEN",
     "genres": [
@@ -1172,7 +1389,9 @@
     "streaming_links": [],
     "popularity_rank": 38,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 188546,
@@ -1189,7 +1408,7 @@
     },
     "site_url": "https://anilist.co/anime/188546",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "Pony Canyon, Studio Hibari",
     "genres": [
@@ -1202,7 +1421,9 @@
     "streaming_links": [],
     "popularity_rank": 39,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 206798,
@@ -1219,7 +1440,7 @@
     },
     "site_url": "https://anilist.co/anime/206798",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "WolfsBane, WWWave",
     "genres": [
@@ -1239,7 +1460,9 @@
         "name": "Nudity",
         "rank": 80
       }
-    ]
+    ],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 185697,
@@ -1256,7 +1479,7 @@
     },
     "site_url": "https://anilist.co/anime/185697",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "Kotobukiya, TV Asahi",
     "genres": [],
@@ -1266,7 +1489,9 @@
     "streaming_links": [],
     "popularity_rank": 41,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 211070,
@@ -1283,7 +1508,7 @@
     },
     "site_url": "https://anilist.co/anime/211070",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "EMT Squared",
     "genres": [
@@ -1297,7 +1522,9 @@
     "streaming_links": [],
     "popularity_rank": 42,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 211258,
@@ -1314,7 +1541,7 @@
     },
     "site_url": "https://anilist.co/anime/211258",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "YANCHESTER",
     "genres": [
@@ -1328,7 +1555,9 @@
     "streaming_links": [],
     "popularity_rank": 43,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 214049,
@@ -1341,7 +1570,7 @@
     "trailer": null,
     "site_url": "https://anilist.co/anime/214049",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "J.C.STAFF",
     "genres": [
@@ -1354,7 +1583,9 @@
     "streaming_links": [],
     "popularity_rank": 44,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 210157,
@@ -1367,7 +1598,7 @@
     "trailer": null,
     "site_url": "https://anilist.co/anime/210157",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "TBD",
     "genres": [
@@ -1380,7 +1611,20 @@
     "streaming_links": [],
     "popularity_rank": 45,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 194167,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Love Live! Hasunosora Jogakuin School Idol Club: Bloom Garden Party",
+          "english": null
+        },
+        "season": "SPRING",
+        "seasonYear": 2026
+      }
+    ],
+    "status": "NOT_YET_RELEASED"
   },
   {
     "id": 185699,
@@ -1397,7 +1641,7 @@
     },
     "site_url": "https://anilist.co/anime/185699",
     "start_date": "2027-01-01",
-    "season": "Winter",
+    "season": "WINTER",
     "season_year": 2027,
     "studios": "E&H Production, Good Smile Company",
     "genres": [
@@ -1411,6 +1655,19 @@
     "streaming_links": [],
     "popularity_rank": 46,
     "is_adult": false,
-    "tags": []
+    "tags": [],
+    "prequels": [
+      {
+        "id": 170998,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Ramen Aka Neko",
+          "english": "Ramen Akaneko"
+        },
+        "season": "SUMMER",
+        "seasonYear": 2024
+      }
+    ],
+    "status": "NOT_YET_RELEASED"
   }
 ]

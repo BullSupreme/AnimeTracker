@@ -5,6 +5,10 @@ import time
 from pathlib import Path
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
+try:
+    from .continuation import continuation_metadata, RELATION_FIELDS
+except ImportError:
+    from continuation import continuation_metadata, RELATION_FIELDS
 
 try:
     from .content_warnings import content_metadata
@@ -22,8 +26,12 @@ QUERY = '''query ($ids: [Int], $page: Int) {
 }'''
 
 
-def fetch_metadata(ids):
-    payload = json.dumps({'query': QUERY, 'variables': {'ids': ids, 'page': 1}}).encode()
+def fetch_metadata(ids, continuations=False):
+    query = QUERY
+    if continuations:
+        query = QUERY.replace('id isAdult genres tags { name rank }',
+                              'id season seasonYear status ' + RELATION_FIELDS)
+    payload = json.dumps({'query': query, 'variables': {'ids': ids, 'page': 1}}).encode()
     for attempt in range(4):
         try:
             request = Request('https://graphql.anilist.co', data=payload,
@@ -43,6 +51,7 @@ def fetch_metadata(ids):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--all', action='store_true', help='Also refresh all historical catalog entries')
+    parser.add_argument('--continuations-only', action='store_true', help='Refresh series relationships instead of content warnings')
     args = parser.parse_args()
     datasets = {}
     for name in FILES:
@@ -53,8 +62,9 @@ def main():
                   if args.all or path.name != 'all_anime_catalog.json' for entry in entries})
     refreshed = {}
     for offset in range(0, len(ids), 50):
-        for media in fetch_metadata(ids[offset:offset + 50]):
-            refreshed[media['id']] = content_metadata(media)
+        for media in fetch_metadata(ids[offset:offset + 50], args.continuations_only):
+            normalize = continuation_metadata if args.continuations_only else content_metadata
+            refreshed[media['id']] = normalize(media)
         print(f'Refreshed {min(offset + 50, len(ids))}/{len(ids)} titles', flush=True)
         time.sleep(2)
     # Write only after every batch succeeds, preserving all unrelated fields.
