@@ -27,7 +27,15 @@
     "popularity": 66499,
     "anilist_score": 84,
     "recently_finished": true,
-    "popularity_rank": 9
+    "popularity_rank": 9,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance",
+      "Slice of Life"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 171110,
@@ -57,7 +65,14 @@
     "popularity": 40690,
     "anilist_score": 77,
     "recently_finished": true,
-    "popularity_rank": 16
+    "popularity_rank": 16,
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Slice of Life"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 182616,
@@ -87,7 +102,13 @@
     "popularity": 29138,
     "anilist_score": 76,
     "recently_finished": true,
-    "popularity_rank": 23
+    "popularity_rank": 23,
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 184356,
@@ -122,7 +143,14 @@
     "popularity": 40141,
     "anilist_score": 68,
     "recently_finished": true,
-    "popularity_rank": 17
+    "popularity_rank": 17,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 189046,
@@ -162,7 +190,18 @@
     "popularity": 149797,
     "anilist_score": 90,
     "recently_finished": true,
-    "popularity_rank": 2
+    "popularity_rank": 2,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Psychological",
+      "Romance",
+      "Thriller"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 198946,
@@ -197,7 +236,14 @@
     "popularity": 48996,
     "anilist_score": 78,
     "recently_finished": true,
-    "popularity_rank": 11
+    "popularity_rank": 11,
+    "genres": [
+      "Action",
+      "Drama",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 187260,
@@ -227,7 +273,14 @@
     "popularity": 58220,
     "anilist_score": 75,
     "recently_finished": true,
-    "popularity_rank": 10
+    "popularity_rank": 10,
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 197754,
@@ -257,6 +310,12 @@
     "popularity": 44726,
     "anilist_score": 65,
     "recently_finished": true,
-    "popularity_rank": 14
+    "popularity_rank": 14,
+    "genres": [
+      "Drama",
+      "Psychological"
+    ],
+    "is_adult": false,
+    "tags": []
   }
 ]

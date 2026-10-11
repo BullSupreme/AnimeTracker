@@ -15,6 +15,10 @@ import argparse
 import os
 from datetime import datetime, timedelta, date
 from calendar import monthrange
+try:
+    from .content_warnings import content_metadata
+except ImportError:
+    from content_warnings import content_metadata
 
 ANILIST_API_URL = "https://graphql.anilist.co"
 CATALOG_FILE = "data/all_anime_catalog.json"
@@ -34,6 +38,7 @@ query ($page: Int, $perPage: Int, $startDate: FuzzyDateInt, $endDate: FuzzyDateI
             id idMal
             title { romaji english }
             averageScore popularity genres episodes format status
+            isAdult tags { name rank }
             season seasonYear
             coverImage { large }
             trailer { id site thumbnail }
@@ -131,6 +136,7 @@ def process_anime(raw):
         'anilist_score': raw.get('averageScore'),
         'popularity': raw.get('popularity', 0),
         'genres': raw.get('genres', []),
+        **content_metadata(raw),
         'season': raw.get('season'),
         'season_year': raw.get('seasonYear'),
         'format': raw.get('format'),

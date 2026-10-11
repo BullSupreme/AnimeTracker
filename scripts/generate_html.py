@@ -5,6 +5,10 @@ from datetime import datetime, timedelta
 import os
 import re
 try:
+    from .content_warnings import content_warning_html
+except ImportError:
+    from content_warnings import content_warning_html
+try:
     from .season_rankings import build_season_rankings, rarity_attrs
 except ImportError:
     from season_rankings import build_season_rankings, rarity_attrs
@@ -114,12 +118,13 @@ def trailer_data_attrs(anime):
 
 
 def build_trailer_overlay(anime):
+    warnings = content_warning_html(anime)
     trailer = normalize_media_trailer(anime.get('trailer'))
     if not trailer:
-        return ""
+        return warnings
 
     title = anime.get('english_title') or anime.get('name') or 'anime'
-    return f"""
+    return warnings + f"""
                                 <button class="trailer-play-btn" type="button" aria-label="Play trailer for {escape_attr(title)}">
                                     <span class="trailer-play-icon"></span>
                                 </button>"""
@@ -374,6 +379,7 @@ def generate_html():
         <title>Anime Tracker</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/season-rarity.css">
+        <link rel="stylesheet" href="css/content-warnings.css">
     </head>
     <body>
         <header>

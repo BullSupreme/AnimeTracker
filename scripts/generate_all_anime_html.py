@@ -10,6 +10,10 @@ import os
 from datetime import datetime
 from urllib.parse import quote
 try:
+    from .content_warnings import get_content_warnings
+except ImportError:
+    from content_warnings import get_content_warnings
+try:
     from .season_rankings import build_season_rankings
 except ImportError:
     from season_rankings import build_season_rankings
@@ -86,7 +90,7 @@ def generate_html(catalog):
     # Embed catalog as JSON (sorted by popularity descending)
     rankings = build_season_rankings(catalog)
     catalog_sorted = sorted(
-        [dict(anime, season_ranking=rankings.get(anime['id'])) for anime in catalog],
+        [dict(anime, season_ranking=rankings.get(anime['id']), content_warnings=get_content_warnings(anime)) for anime in catalog],
         key=lambda x: x.get("popularity", 0), reverse=True)
     catalog_json = json.dumps(catalog_sorted, ensure_ascii=False)
 
@@ -98,6 +102,7 @@ def generate_html(catalog):
     <title>All Anime - Anime Tracker</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/season-rarity.css">
+    <link rel="stylesheet" href="css/content-warnings.css">
     <style>
         /* All Anime Page Specific Styles */
         .all-anime-header {{
@@ -688,6 +693,10 @@ def generate_html(catalog):
             ? `<button class="trailer-play-btn" type="button" aria-label="Play trailer for ${{escapeAttr(eng || name)}}"><span class="trailer-play-icon"></span></button>`
             : '';
         const isFav = isFavorite(id);
+        const warnings = anime.content_warnings || [];
+        const contentWarnings = warnings.length
+            ? `<div class="content-warnings" aria-label="Content warnings">${{warnings.map(w => `<span class="content-warning content-warning-${{w.key}}" tabindex="0" title="${{escapeAttr(w.detail)}}" aria-label="${{escapeAttr(w.detail)}}">${{escapeHtml(w.label)}}</span>`).join('')}}</div>`
+            : '';
 
         const scoreBadge = score ? `<span class="score-badge"><img class="ui-icon badge-icon" src="assets/icons/star.png" alt=""> ${{score}}/100</span>` : '';
         const seasonLabel = season && seasonYear
@@ -717,6 +726,7 @@ def generate_html(catalog):
                 <img class="anime-poster" src="${{escapeAttr(poster)}}" loading="lazy" alt="${{escapeAttr(name)}} poster"
                      onerror="this.src='data:image/svg+xml,<svg xmlns=\\'http://www.w3.org/2000/svg\\'><rect width=\\'100%\\' height=\\'100%\\' fill=\\'%231e2433\\'/></svg>'">
                 ${{trailerOverlay}}
+                ${{contentWarnings}}
                 <div class="card-overlay">
                     <button class="favorite-btn${{isFav ? ' active' : ''}}" data-anime-id="${{id}}" onclick="event.stopPropagation(); toggleFavorite(${{id}})">
                         <span class="favorite-icon" aria-hidden="true"></span>

@@ -43,7 +43,16 @@
     "popularity": 758608,
     "anilist_score": 87,
     "recently_finished": false,
-    "popularity_rank": 1
+    "popularity_rank": 1,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 189046,
@@ -83,7 +92,18 @@
     "popularity": 149797,
     "anilist_score": 90,
     "recently_finished": true,
-    "popularity_rank": 2
+    "popularity_rank": 2,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Psychological",
+      "Romance",
+      "Thriller"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 195516,
@@ -118,7 +138,13 @@
     "popularity": 95038,
     "anilist_score": 85,
     "recently_finished": false,
-    "popularity_rank": 3
+    "popularity_rank": 3,
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 185874,
@@ -158,7 +184,14 @@
     "popularity": 92313,
     "anilist_score": 89,
     "recently_finished": false,
-    "popularity_rank": 4
+    "popularity_rank": 4,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Supernatural"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 195604,
@@ -188,7 +221,15 @@
     "popularity": 87412,
     "anilist_score": 87,
     "recently_finished": false,
-    "popularity_rank": 5
+    "popularity_rank": 5,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 235,
@@ -229,7 +270,15 @@
     "popularity": 80529,
     "anilist_score": 82,
     "recently_finished": false,
-    "popularity_rank": 6
+    "popularity_rank": 6,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Mystery",
+      "Psychological"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 195539,
@@ -259,7 +308,14 @@
     "popularity": 76531,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 7
+    "popularity_rank": 7,
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 180136,
@@ -294,7 +350,13 @@
     "popularity": 68923,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 8
+    "popularity_rank": 8,
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 210031,
@@ -324,7 +386,15 @@
     "popularity": 66499,
     "anilist_score": 84,
     "recently_finished": true,
-    "popularity_rank": 9
+    "popularity_rank": 9,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance",
+      "Slice of Life"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 187260,
@@ -354,7 +424,14 @@
     "popularity": 58220,
     "anilist_score": 75,
     "recently_finished": true,
-    "popularity_rank": 10
+    "popularity_rank": 10,
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 198946,
@@ -389,7 +466,14 @@
     "popularity": 48996,
     "anilist_score": 78,
     "recently_finished": true,
-    "popularity_rank": 11
+    "popularity_rank": 11,
+    "genres": [
+      "Action",
+      "Drama",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 159042,
@@ -429,7 +513,14 @@
     "popularity": 48458,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 12
+    "popularity_rank": 12,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 189123,
@@ -459,7 +550,14 @@
     "popularity": 45032,
     "anilist_score": 80,
     "recently_finished": false,
-    "popularity_rank": 13
+    "popularity_rank": 13,
+    "genres": [
+      "Romance",
+      "Slice of Life",
+      "Sports"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 197754,
@@ -489,7 +587,13 @@
     "popularity": 44726,
     "anilist_score": 65,
     "recently_finished": true,
-    "popularity_rank": 14
+    "popularity_rank": 14,
+    "genres": [
+      "Drama",
+      "Psychological"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 210482,
@@ -519,7 +623,16 @@
     "popularity": 40830,
     "anilist_score": 85,
     "recently_finished": false,
-    "popularity_rank": 15
+    "popularity_rank": 15,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Mystery",
+      "Supernatural"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 171110,
@@ -549,7 +662,14 @@
     "popularity": 40690,
     "anilist_score": 77,
     "recently_finished": true,
-    "popularity_rank": 16
+    "popularity_rank": 16,
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Slice of Life"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 184356,
@@ -584,7 +704,14 @@
     "popularity": 40141,
     "anilist_score": 68,
     "recently_finished": true,
-    "popularity_rank": 17
+    "popularity_rank": 17,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 212888,
@@ -614,7 +741,15 @@
     "popularity": 34057,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 18
+    "popularity_rank": 18,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 178083,
@@ -649,7 +784,15 @@
     "popularity": 33252,
     "anilist_score": 76,
     "recently_finished": false,
-    "popularity_rank": 19
+    "popularity_rank": 19,
+    "genres": [
+      "Action",
+      "Drama",
+      "Romance",
+      "Supernatural"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 191656,
@@ -679,7 +822,19 @@
     "popularity": 33234,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 20
+    "popularity_rank": 20,
+    "genres": [
+      "Comedy",
+      "Ecchi",
+      "Slice of Life"
+    ],
+    "is_adult": false,
+    "tags": [
+      {
+        "name": "Nudity",
+        "rank": 86
+      }
+    ]
   },
   {
     "id": 213805,
@@ -709,7 +864,15 @@
     "popularity": 32024,
     "anilist_score": 81,
     "recently_finished": false,
-    "popularity_rank": 21
+    "popularity_rank": 21,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance",
+      "Slice of Life"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 205909,
@@ -739,7 +902,13 @@
     "popularity": 30554,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 22
+    "popularity_rank": 22,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 182616,
@@ -769,7 +938,13 @@
     "popularity": 29138,
     "anilist_score": 76,
     "recently_finished": true,
-    "popularity_rank": 23
+    "popularity_rank": 23,
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 172192,
@@ -799,7 +974,14 @@
     "popularity": 27688,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 24
+    "popularity_rank": 24,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 207329,
@@ -834,7 +1016,15 @@
     "popularity": 24665,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 25
+    "popularity_rank": 25,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy",
+      "Slice of Life"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 152677,
@@ -864,7 +1054,16 @@
     "popularity": 24089,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 26
+    "popularity_rank": 26,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Mystery",
+      "Romance",
+      "Supernatural"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 185756,
@@ -899,7 +1098,13 @@
     "popularity": 23561,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 27
+    "popularity_rank": 27,
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 213457,
@@ -929,7 +1134,15 @@
     "popularity": 22456,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 28
+    "popularity_rank": 28,
+    "genres": [
+      "Drama",
+      "Psychological",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 191788,
@@ -964,7 +1177,12 @@
     "popularity": 22246,
     "anilist_score": 78,
     "recently_finished": false,
-    "popularity_rank": 29
+    "popularity_rank": 29,
+    "genres": [
+      "Sports"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 204389,
@@ -999,7 +1217,14 @@
     "popularity": 20468,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 30
+    "popularity_rank": 30,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 208025,
@@ -1029,7 +1254,24 @@
     "popularity": 19752,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 31
+    "popularity_rank": 31,
+    "genres": [
+      "Comedy",
+      "Ecchi",
+      "Fantasy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": [
+      {
+        "name": "Nudity",
+        "rank": 91
+      },
+      {
+        "name": "Hypersexuality",
+        "rank": 66
+      }
+    ]
   },
   {
     "id": 207191,
@@ -1059,7 +1301,13 @@
     "popularity": 19421,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 32
+    "popularity_rank": 32,
+    "genres": [
+      "Fantasy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 186541,
@@ -1089,7 +1337,17 @@
     "popularity": 18976,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 33
+    "popularity_rank": 33,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Drama",
+      "Mecha",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 191832,
@@ -1129,7 +1387,15 @@
     "popularity": 18608,
     "anilist_score": 85,
     "recently_finished": false,
-    "popularity_rank": 34
+    "popularity_rank": 34,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Supernatural",
+      "Thriller"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 206949,
@@ -1159,7 +1425,13 @@
     "popularity": 18141,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 35
+    "popularity_rank": 35,
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 169581,
@@ -1189,7 +1461,21 @@
     "popularity": 17946,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 36
+    "popularity_rank": 36,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Ecchi",
+      "Fantasy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": [
+      {
+        "name": "Nudity",
+        "rank": 68
+      }
+    ]
   },
   {
     "id": 204011,
@@ -1219,7 +1505,14 @@
     "popularity": 17386,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 37
+    "popularity_rank": 37,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 204650,
@@ -1264,7 +1557,14 @@
     "popularity": 17136,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 38
+    "popularity_rank": 38,
+    "genres": [
+      "Action",
+      "Mystery",
+      "Supernatural"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 212503,
@@ -1294,7 +1594,14 @@
     "popularity": 16285,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 39
+    "popularity_rank": 39,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 202250,
@@ -1329,7 +1636,14 @@
     "popularity": 16226,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 40
+    "popularity_rank": 40,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 209502,
@@ -1359,7 +1673,13 @@
     "popularity": 15684,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 41
+    "popularity_rank": 41,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 209872,
@@ -1389,7 +1709,14 @@
     "popularity": 15470,
     "anilist_score": 77,
     "recently_finished": false,
-    "popularity_rank": 42
+    "popularity_rank": 42,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 206401,
@@ -1424,7 +1751,13 @@
     "popularity": 14927,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 43
+    "popularity_rank": 43,
+    "genres": [
+      "Drama",
+      "Slice of Life"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 187402,
@@ -1459,7 +1792,14 @@
     "popularity": 14868,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 44
+    "popularity_rank": 44,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 209219,
@@ -1494,7 +1834,17 @@
     "popularity": 14782,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 45
+    "popularity_rank": 45,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 206814,
@@ -1524,7 +1874,14 @@
     "popularity": 14322,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 46
+    "popularity_rank": 46,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 176314,
@@ -1554,7 +1911,14 @@
     "popularity": 13026,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 47
+    "popularity_rank": 47,
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Mahou Shoujo"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 180894,
@@ -1589,7 +1953,14 @@
     "popularity": 12195,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 48
+    "popularity_rank": 48,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 203490,
@@ -1619,7 +1990,14 @@
     "popularity": 11889,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 49
+    "popularity_rank": 49,
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Slice of Life"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 211778,
@@ -1654,7 +2032,14 @@
     "popularity": 11600,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 50
+    "popularity_rank": 50,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 198727,
@@ -1684,7 +2069,13 @@
     "popularity": 11588,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 51
+    "popularity_rank": 51,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 207809,
@@ -1714,7 +2105,16 @@
     "popularity": 11419,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 52
+    "popularity_rank": 52,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 186742,
@@ -1744,7 +2144,13 @@
     "popularity": 11188,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 53
+    "popularity_rank": 53,
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 211877,
@@ -1768,7 +2174,19 @@
     "popularity": 10455,
     "anilist_score": 49,
     "recently_finished": false,
-    "popularity_rank": 54
+    "popularity_rank": 54,
+    "genres": [
+      "Drama",
+      "Ecchi",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": [
+      {
+        "name": "Nudity",
+        "rank": 79
+      }
+    ]
   },
   {
     "id": 178868,
@@ -1803,7 +2221,15 @@
     "popularity": 10043,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 55
+    "popularity_rank": 55,
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Mahou Shoujo",
+      "Mecha"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 195571,
@@ -1833,7 +2259,14 @@
     "popularity": 9985,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 56
+    "popularity_rank": 56,
+    "genres": [
+      "Action",
+      "Drama",
+      "Supernatural"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 200455,
@@ -1863,7 +2296,14 @@
     "popularity": 9767,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 57
+    "popularity_rank": 57,
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 199007,
@@ -1893,7 +2333,16 @@
     "popularity": 9090,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 58
+    "popularity_rank": 58,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Horror",
+      "Mystery",
+      "Supernatural"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 209499,
@@ -1923,7 +2372,13 @@
     "popularity": 6943,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 59
+    "popularity_rank": 59,
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 213657,
@@ -1947,7 +2402,14 @@
     "popularity": 6915,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 60
+    "popularity_rank": 60,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 160803,
@@ -1982,7 +2444,15 @@
     "popularity": 6689,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 61
+    "popularity_rank": 61,
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Mahou Shoujo",
+      "Thriller"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 187316,
@@ -2012,7 +2482,14 @@
     "popularity": 6025,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 62
+    "popularity_rank": 62,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 212799,
@@ -2042,7 +2519,14 @@
     "popularity": 5861,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 63
+    "popularity_rank": 63,
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 205896,
@@ -2072,7 +2556,13 @@
     "popularity": 5723,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 64
+    "popularity_rank": 64,
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 200294,
@@ -2102,7 +2592,13 @@
     "popularity": 5679,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 65
+    "popularity_rank": 65,
+    "genres": [
+      "Comedy",
+      "Slice of Life"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 203275,
@@ -2132,7 +2628,14 @@
     "popularity": 5307,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 66
+    "popularity_rank": 66,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 203473,
@@ -2158,7 +2661,14 @@
     "popularity": 4975,
     "anilist_score": 49,
     "recently_finished": false,
-    "popularity_rank": 67
+    "popularity_rank": 67,
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Supernatural"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 209463,
@@ -2188,7 +2698,14 @@
     "popularity": 4961,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 68
+    "popularity_rank": 68,
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 202079,
@@ -2223,7 +2740,13 @@
     "popularity": 4670,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 69
+    "popularity_rank": 69,
+    "genres": [
+      "Comedy",
+      "Slice of Life"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 209562,
@@ -2253,7 +2776,13 @@
     "popularity": 4106,
     "anilist_score": 55,
     "recently_finished": false,
-    "popularity_rank": 70
+    "popularity_rank": 70,
+    "genres": [
+      "Action",
+      "Mecha"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 188034,
@@ -2277,7 +2806,12 @@
     "popularity": 3860,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 71
+    "popularity_rank": 71,
+    "genres": [
+      "Comedy"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 199594,
@@ -2312,7 +2846,12 @@
     "popularity": 3417,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 72
+    "popularity_rank": 72,
+    "genres": [
+      "Slice of Life"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 199426,
@@ -2343,7 +2882,13 @@
     "popularity": 3131,
     "anilist_score": 58,
     "recently_finished": false,
-    "popularity_rank": 73
+    "popularity_rank": 73,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 213658,
@@ -2373,7 +2918,12 @@
     "popularity": 3044,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 74
+    "popularity_rank": 74,
+    "genres": [
+      "Sports"
+    ],
+    "is_adult": false,
+    "tags": []
   },
   {
     "id": 199353,
@@ -2403,6 +2953,12 @@
     "popularity": 2419,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 75
+    "popularity_rank": 75,
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": []
   }
 ]

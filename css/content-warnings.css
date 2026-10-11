@@ -1,0 +1,126 @@
+/* Each warning occupies its own row; border effects and favorites stay independent. */
+.content-warnings {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    z-index: 18;
+    pointer-events: none;
+}
+
+.content-warning {
+    --warning-color: #d788ff;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    max-width: 100%;
+    padding: 4px 7px;
+    border: 1px solid var(--warning-color);
+    border-radius: 5px;
+    background: rgba(16, 13, 27, 0.94);
+    color: var(--warning-color);
+    font-size: 10px;
+    line-height: 1.3;
+    font-weight: 800;
+    letter-spacing: 0.025em;
+    pointer-events: auto;
+}
+
+.content-warning::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    flex: 0 0 5px;
+    border-radius: 50%;
+    background: var(--warning-color);
+}
+
+.content-warning-ecchi {
+    animation: warning-purple-pulse 4s ease-in-out infinite;
+}
+
+.content-warning-nudity {
+    --warning-color: #87e5ff;
+    background-image: linear-gradient(110deg, transparent 25%, rgba(135, 229, 255, 0.2) 50%, transparent 75%);
+    background-size: 250% 100%;
+    animation: warning-blue-sheen 5s ease-in-out infinite;
+}
+
+.content-warning-sexual {
+    --warning-color: #f196d9;
+    border-style: dashed;
+}
+
+.content-warning-sexual::before {
+    animation: warning-dot 3s ease-in-out infinite;
+}
+
+.content-warning-adult {
+    --warning-color: #bca5ff;
+    border-left-width: 4px;
+    animation: warning-adult-glow 3.5s ease-in-out infinite;
+}
+
+.card-image-wrapper.trailer-active .content-warnings {
+    display: none;
+}
+
+.content-warning:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+@keyframes warning-purple-pulse {
+    50% { box-shadow: 0 0 9px rgba(215, 136, 255, 0.55); }
+}
+
+@keyframes warning-blue-sheen {
+    from { background-position: 120% 0; }
+    to { background-position: -120% 0; }
+}
+
+@keyframes warning-dot {
+    50% { box-shadow: 0 0 8px 2px rgba(241, 150, 217, 0.6); }
+}
+
+@keyframes warning-adult-glow {
+    50% { box-shadow: inset 0 0 9px rgba(188, 165, 255, 0.35); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .content-warning,
+    .content-warning::before { animation: none; }
+}
+
+.layout-table .content-warnings {
+    display: none;
+}
+
+.layout-compact .content-warnings {
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    gap: 2px;
+}
+
+.layout-compact .content-warning {
+    font-size: 8px;
+    padding: 1px 3px;
+    gap: 3px;
+}
+
+.all-anime-grid.poster-mode .content-warnings {
+    left: 6px;
+    right: 40px;
+    top: 6px;
+    gap: 3px;
+}
+
+.all-anime-grid.poster-mode .content-warning {
+    font-size: 8px;
+    padding: 2px 4px;
+}

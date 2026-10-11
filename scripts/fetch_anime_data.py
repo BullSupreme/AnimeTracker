@@ -5,6 +5,10 @@ from datetime import datetime, timedelta
 import os
 import time
 from zoneinfo import ZoneInfo
+try:
+    from .content_warnings import content_metadata
+except ImportError:
+    from content_warnings import content_metadata
 
 # Configuration
 ANILIST_API_URL = "https://graphql.anilist.co"
@@ -132,6 +136,7 @@ def fetch_manual_anime_data(manual_entries):
                 externalLinks { site url icon }
                 genres
                 isAdult
+                tags { name rank }
                 duration
                 format
                 popularity
@@ -315,6 +320,7 @@ def fetch_current_anime():
                 externalLinks { site url icon }
                 genres
                 isAdult
+                tags { name rank }
                 duration
                 format
                 popularity
@@ -344,6 +350,7 @@ def fetch_current_anime():
                 externalLinks { site url icon }
                 genres
                 isAdult
+                tags { name rank }
                 duration
                 format
                 popularity
@@ -373,6 +380,7 @@ def fetch_current_anime():
                 externalLinks { site url icon }
                 genres
                 isAdult
+                tags { name rank }
                 duration
                 format
                 popularity
@@ -520,6 +528,7 @@ def fetch_upcoming_seasonal_anime():
                 seasonYear
                 genres
                 isAdult
+                tags { name rank }
                 duration
                 format
                 popularity
@@ -998,7 +1007,8 @@ def process_anime_data(api_data):
             'streaming_links': streaming_links,
             'popularity': anime.get('popularity', 0),
             'anilist_score': anime.get('averageScore'),
-            'recently_finished': is_recently_finished
+            'recently_finished': is_recently_finished,
+            **content_metadata(anime)
         })
     
     # Sort by popularity (highest first) to calculate rankings
@@ -1084,6 +1094,7 @@ def process_upcoming_anime_data(api_data):
             'season_year': anime.get('seasonYear'),
             'studios': studio_display,
             'genres': anime.get('genres', []),
+            **content_metadata(anime),
             'popularity': anime.get('popularity', 0),
             'favourites': anime.get('favourites', 0),
             'anilist_score': anime.get('averageScore'),
@@ -1193,7 +1204,8 @@ def update_calendar_history(anime_list, today_date, history_days=CALENDAR_HISTOR
             'popularity': anime.get('popularity', 0),
             'anilist_score': anime.get('anilist_score'),
             'recently_finished': anime.get('recently_finished', False),
-            'popularity_rank': anime.get('popularity_rank')
+            'popularity_rank': anime.get('popularity_rank'),
+            **content_metadata(anime)
         }
         return snapshot
 
