@@ -43,7 +43,6 @@
     "popularity": 758608,
     "anilist_score": 87,
     "recently_finished": false,
-    "popularity_rank": 1,
     "genres": [
       "Action",
       "Adventure",
@@ -67,7 +66,8 @@
     ],
     "season": "FALL",
     "season_year": 1999,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 1
   },
   {
     "id": 189046,
@@ -107,7 +107,6 @@
     "popularity": 149797,
     "anilist_score": 90,
     "recently_finished": true,
-    "popularity_rank": 2,
     "genres": [
       "Action",
       "Adventure",
@@ -133,7 +132,8 @@
     ],
     "season": "SPRING",
     "season_year": 2026,
-    "status": "FINISHED"
+    "status": "FINISHED",
+    "popularity_rank": 2
   },
   {
     "id": 195516,
@@ -168,7 +168,6 @@
     "popularity": 95038,
     "anilist_score": 85,
     "recently_finished": false,
-    "popularity_rank": 3,
     "genres": [
       "Drama",
       "Mystery"
@@ -189,7 +188,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 3
   },
   {
     "id": 185874,
@@ -229,7 +229,6 @@
     "popularity": 92313,
     "anilist_score": 89,
     "recently_finished": false,
-    "popularity_rank": 4,
     "genres": [
       "Action",
       "Adventure",
@@ -251,7 +250,8 @@
     ],
     "season": "SUMMER",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 4
   },
   {
     "id": 195604,
@@ -281,7 +281,6 @@
     "popularity": 87412,
     "anilist_score": 87,
     "recently_finished": false,
-    "popularity_rank": 5,
     "genres": [
       "Action",
       "Adventure",
@@ -304,7 +303,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 5
   },
   {
     "id": 235,
@@ -345,7 +345,6 @@
     "popularity": 80529,
     "anilist_score": 82,
     "recently_finished": false,
-    "popularity_rank": 6,
     "genres": [
       "Adventure",
       "Comedy",
@@ -357,7 +356,8 @@
     "prequels": [],
     "season": "WINTER",
     "season_year": 1996,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 6
   },
   {
     "id": 195539,
@@ -387,7 +387,6 @@
     "popularity": 76531,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 7,
     "genres": [
       "Action",
       "Drama",
@@ -398,7 +397,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "NOT_YET_RELEASED"
+    "status": "NOT_YET_RELEASED",
+    "popularity_rank": 7
   },
   {
     "id": 180136,
@@ -433,7 +433,6 @@
     "popularity": 68923,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 8,
     "genres": [
       "Action",
       "Fantasy"
@@ -443,7 +442,8 @@
     "prequels": [],
     "season": "SUMMER",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 8
   },
   {
     "id": 210031,
@@ -473,7 +473,6 @@
     "popularity": 66499,
     "anilist_score": 84,
     "recently_finished": true,
-    "popularity_rank": 9,
     "genres": [
       "Comedy",
       "Drama",
@@ -496,7 +495,8 @@
     ],
     "season": "SUMMER",
     "season_year": 2026,
-    "status": "FINISHED"
+    "status": "FINISHED",
+    "popularity_rank": 9
   },
   {
     "id": 187260,
@@ -526,7 +526,6 @@
     "popularity": 58220,
     "anilist_score": 75,
     "recently_finished": true,
-    "popularity_rank": 10,
     "genres": [
       "Drama",
       "Fantasy",
@@ -537,7 +536,8 @@
     "prequels": [],
     "season": "SUMMER",
     "season_year": 2026,
-    "status": "FINISHED"
+    "status": "FINISHED",
+    "popularity_rank": 10
   },
   {
     "id": 198946,
@@ -572,7 +572,6 @@
     "popularity": 48996,
     "anilist_score": 78,
     "recently_finished": true,
-    "popularity_rank": 11,
     "genres": [
       "Action",
       "Drama",
@@ -594,7 +593,8 @@
     ],
     "season": "SUMMER",
     "season_year": 2026,
-    "status": "FINISHED"
+    "status": "FINISHED",
+    "popularity_rank": 11
   },
   {
     "id": 159042,
@@ -634,7 +634,6 @@
     "popularity": 48458,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 12,
     "genres": [
       "Action",
       "Adventure",
@@ -656,7 +655,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 12
   },
   {
     "id": 189123,
@@ -686,7 +686,6 @@
     "popularity": 45032,
     "anilist_score": 80,
     "recently_finished": false,
-    "popularity_rank": 13,
     "genres": [
       "Romance",
       "Slice of Life",
@@ -708,7 +707,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 13
   },
   {
     "id": 197754,
@@ -738,7 +738,6 @@
     "popularity": 44726,
     "anilist_score": 65,
     "recently_finished": true,
-    "popularity_rank": 14,
     "genres": [
       "Drama",
       "Psychological"
@@ -748,7 +747,8 @@
     "prequels": [],
     "season": "SPRING",
     "season_year": 2026,
-    "status": "FINISHED"
+    "status": "FINISHED",
+    "popularity_rank": 14
   },
   {
     "id": 210482,
@@ -778,7 +778,6 @@
     "popularity": 40830,
     "anilist_score": 85,
     "recently_finished": false,
-    "popularity_rank": 15,
     "genres": [
       "Action",
       "Adventure",
@@ -802,7 +801,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 15
   },
   {
     "id": 171110,
@@ -832,7 +832,6 @@
     "popularity": 40690,
     "anilist_score": 77,
     "recently_finished": true,
-    "popularity_rank": 16,
     "genres": [
       "Drama",
       "Fantasy",
@@ -854,7 +853,8 @@
     ],
     "season": "SPRING",
     "season_year": 2026,
-    "status": "FINISHED"
+    "status": "FINISHED",
+    "popularity_rank": 16
   },
   {
     "id": 184356,
@@ -889,7 +889,6 @@
     "popularity": 40141,
     "anilist_score": 68,
     "recently_finished": true,
-    "popularity_rank": 17,
     "genres": [
       "Action",
       "Adventure",
@@ -900,7 +899,8 @@
     "prequels": [],
     "season": null,
     "season_year": null,
-    "status": "FINISHED"
+    "status": "FINISHED",
+    "popularity_rank": 17
   },
   {
     "id": 212888,
@@ -930,7 +930,6 @@
     "popularity": 34057,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 18,
     "genres": [
       "Action",
       "Adventure",
@@ -942,7 +941,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 18
   },
   {
     "id": 178083,
@@ -977,7 +977,6 @@
     "popularity": 33252,
     "anilist_score": 76,
     "recently_finished": false,
-    "popularity_rank": 19,
     "genres": [
       "Action",
       "Drama",
@@ -1000,7 +999,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 19
   },
   {
     "id": 191656,
@@ -1030,7 +1030,6 @@
     "popularity": 33234,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 20,
     "genres": [
       "Comedy",
       "Ecchi",
@@ -1040,13 +1039,14 @@
     "tags": [
       {
         "name": "Nudity",
-        "rank": 86
+        "rank": 83
       }
     ],
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 20
   },
   {
     "id": 213805,
@@ -1076,7 +1076,6 @@
     "popularity": 32024,
     "anilist_score": 81,
     "recently_finished": false,
-    "popularity_rank": 21,
     "genres": [
       "Comedy",
       "Drama",
@@ -1099,7 +1098,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 21
   },
   {
     "id": 205909,
@@ -1129,7 +1129,6 @@
     "popularity": 30554,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 22,
     "genres": [
       "Drama",
       "Romance"
@@ -1139,7 +1138,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 22
   },
   {
     "id": 182616,
@@ -1169,7 +1169,6 @@
     "popularity": 29138,
     "anilist_score": 76,
     "recently_finished": true,
-    "popularity_rank": 23,
     "genres": [
       "Action",
       "Adventure"
@@ -1190,7 +1189,8 @@
     ],
     "season": "SUMMER",
     "season_year": 2026,
-    "status": "FINISHED"
+    "status": "FINISHED",
+    "popularity_rank": 23
   },
   {
     "id": 172192,
@@ -1220,7 +1220,6 @@
     "popularity": 27688,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 24,
     "genres": [
       "Action",
       "Adventure",
@@ -1242,7 +1241,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 24
   },
   {
     "id": 207329,
@@ -1277,7 +1277,6 @@
     "popularity": 24665,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 25,
     "genres": [
       "Adventure",
       "Comedy",
@@ -1289,7 +1288,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 25
   },
   {
     "id": 152677,
@@ -1319,7 +1319,6 @@
     "popularity": 24089,
     "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 26,
     "genres": [
       "Comedy",
       "Drama",
@@ -1343,7 +1342,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 26
   },
   {
     "id": 185756,
@@ -1378,7 +1378,6 @@
     "popularity": 23561,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 27,
     "genres": [
       "Adventure",
       "Fantasy"
@@ -1399,7 +1398,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 27
   },
   {
     "id": 213457,
@@ -1429,7 +1429,6 @@
     "popularity": 22456,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 28,
     "genres": [
       "Drama",
       "Psychological",
@@ -1441,7 +1440,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "NOT_YET_RELEASED"
+    "status": "NOT_YET_RELEASED",
+    "popularity_rank": 28
   },
   {
     "id": 191788,
@@ -1476,7 +1476,6 @@
     "popularity": 22246,
     "anilist_score": 78,
     "recently_finished": false,
-    "popularity_rank": 29,
     "genres": [
       "Sports"
     ],
@@ -1496,7 +1495,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 29
   },
   {
     "id": 204389,
@@ -1531,7 +1531,6 @@
     "popularity": 20468,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 30,
     "genres": [
       "Action",
       "Adventure",
@@ -1553,7 +1552,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 30
   },
   {
     "id": 208025,
@@ -1562,8 +1562,8 @@
     "english_title": "I'm Dating a Dark Summoner",
     "episode": 2,
     "release_date": "2026-10-11",
-    "next_airing_date": "2026-10-11",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-10-18",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx208025-JKvqWNr8rz8l.jpg",
     "trailer": {
       "id": "-YCols5lYow",
@@ -1583,7 +1583,6 @@
     "popularity": 19752,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 31,
     "genres": [
       "Comedy",
       "Ecchi",
@@ -1598,13 +1597,14 @@
       },
       {
         "name": "Hypersexuality",
-        "rank": 66
+        "rank": 55
       }
     ],
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 31
   },
   {
     "id": 207191,
@@ -1634,7 +1634,6 @@
     "popularity": 19421,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 32,
     "genres": [
       "Fantasy",
       "Romance"
@@ -1644,7 +1643,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 32
   },
   {
     "id": 186541,
@@ -1674,7 +1674,6 @@
     "popularity": 18976,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 33,
     "genres": [
       "Action",
       "Comedy",
@@ -1688,7 +1687,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 33
   },
   {
     "id": 191832,
@@ -1728,7 +1728,6 @@
     "popularity": 18608,
     "anilist_score": 85,
     "recently_finished": false,
-    "popularity_rank": 34,
     "genres": [
       "Drama",
       "Mystery",
@@ -1751,7 +1750,8 @@
     ],
     "season": null,
     "season_year": null,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 34
   },
   {
     "id": 206949,
@@ -1781,7 +1781,6 @@
     "popularity": 18141,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 35,
     "genres": [
       "Action",
       "Fantasy"
@@ -1791,7 +1790,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 35
   },
   {
     "id": 169581,
@@ -1821,7 +1821,6 @@
     "popularity": 17946,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 36,
     "genres": [
       "Action",
       "Adventure",
@@ -1839,7 +1838,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 36
   },
   {
     "id": 204011,
@@ -1869,7 +1869,6 @@
     "popularity": 17386,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 37,
     "genres": [
       "Action",
       "Adventure",
@@ -1880,7 +1879,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 37
   },
   {
     "id": 204650,
@@ -1925,7 +1925,6 @@
     "popularity": 17136,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 38,
     "genres": [
       "Action",
       "Mystery",
@@ -1947,7 +1946,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 38
   },
   {
     "id": 212503,
@@ -1977,7 +1977,6 @@
     "popularity": 16285,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 39,
     "genres": [
       "Action",
       "Adventure",
@@ -1999,7 +1998,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 39
   },
   {
     "id": 202250,
@@ -2034,7 +2034,6 @@
     "popularity": 16226,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 40,
     "genres": [
       "Action",
       "Adventure",
@@ -2045,7 +2044,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 40
   },
   {
     "id": 209502,
@@ -2075,7 +2075,6 @@
     "popularity": 15684,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 41,
     "genres": [
       "Comedy",
       "Romance"
@@ -2085,7 +2084,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 41
   },
   {
     "id": 209872,
@@ -2115,7 +2115,6 @@
     "popularity": 15470,
     "anilist_score": 77,
     "recently_finished": false,
-    "popularity_rank": 42,
     "genres": [
       "Action",
       "Comedy",
@@ -2137,7 +2136,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 42
   },
   {
     "id": 206401,
@@ -2172,7 +2172,6 @@
     "popularity": 14927,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 43,
     "genres": [
       "Drama",
       "Slice of Life"
@@ -2182,7 +2181,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 43
   },
   {
     "id": 187402,
@@ -2217,7 +2217,6 @@
     "popularity": 14868,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 44,
     "genres": [
       "Action",
       "Adventure",
@@ -2228,7 +2227,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 44
   },
   {
     "id": 209219,
@@ -2263,7 +2263,6 @@
     "popularity": 14782,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 45,
     "genres": [
       "Action",
       "Adventure",
@@ -2277,7 +2276,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 45
   },
   {
     "id": 206814,
@@ -2302,12 +2302,16 @@
         "site": "Netflix",
         "url": "https://www.netflix.com/title/83189604",
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00389311/dragon-ball-super-beerus",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
     "popularity": 14322,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 46,
     "genres": [
       "Action",
       "Adventure",
@@ -2339,7 +2343,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 46
   },
   {
     "id": 176314,
@@ -2369,7 +2374,6 @@
     "popularity": 13026,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 47,
     "genres": [
       "Comedy",
       "Fantasy",
@@ -2391,7 +2395,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 47
   },
   {
     "id": 180894,
@@ -2426,7 +2431,6 @@
     "popularity": 12195,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 48,
     "genres": [
       "Adventure",
       "Drama",
@@ -2437,7 +2441,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 48
   },
   {
     "id": 203490,
@@ -2467,7 +2472,6 @@
     "popularity": 11889,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 49,
     "genres": [
       "Comedy",
       "Romance",
@@ -2478,7 +2482,8 @@
     "prequels": [],
     "season": "SUMMER",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 49
   },
   {
     "id": 211778,
@@ -2513,7 +2518,6 @@
     "popularity": 11600,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 50,
     "genres": [
       "Action",
       "Comedy",
@@ -2524,7 +2528,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 50
   },
   {
     "id": 198727,
@@ -2554,7 +2559,6 @@
     "popularity": 11588,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 51,
     "genres": [
       "Comedy",
       "Romance"
@@ -2575,7 +2579,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "NOT_YET_RELEASED"
+    "status": "NOT_YET_RELEASED",
+    "popularity_rank": 51
   },
   {
     "id": 207809,
@@ -2605,7 +2610,6 @@
     "popularity": 11419,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 52,
     "genres": [
       "Action",
       "Adventure",
@@ -2618,7 +2622,8 @@
     "prequels": [],
     "season": "SUMMER",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 52
   },
   {
     "id": 186742,
@@ -2648,7 +2653,6 @@
     "popularity": 11188,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 53,
     "genres": [
       "Action",
       "Sci-Fi"
@@ -2658,7 +2662,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 53
   },
   {
     "id": 211877,
@@ -2667,8 +2672,8 @@
     "english_title": "My Girlfriend's Friend",
     "episode": 2,
     "release_date": "2026-10-11",
-    "next_airing_date": "2026-10-11",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-10-18",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx211877-yWQ2r7XmWvG6.jpg",
     "trailer": {
       "id": "E-stx_wwVSs",
@@ -2678,11 +2683,16 @@
     "site_url": "https://anilist.co/anime/211877",
     "start_date": "2026-10-05",
     "end_date": "2026-12-21",
-    "streaming_links": [],
+    "streaming_links": [
+      {
+        "site": "OceanVeil",
+        "url": "https://oceanveil.net/",
+        "icon": "https://www.google.com/s2/favicons?domain=oceanveil.net&sz=32"
+      }
+    ],
     "popularity": 10455,
     "anilist_score": 49,
     "recently_finished": false,
-    "popularity_rank": 54,
     "genres": [
       "Drama",
       "Ecchi",
@@ -2692,13 +2702,14 @@
     "tags": [
       {
         "name": "Nudity",
-        "rank": 79
+        "rank": 90
       }
     ],
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 54
   },
   {
     "id": 178868,
@@ -2733,7 +2744,6 @@
     "popularity": 10043,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 55,
     "genres": [
       "Adventure",
       "Fantasy",
@@ -2745,7 +2755,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 55
   },
   {
     "id": 195571,
@@ -2775,7 +2786,6 @@
     "popularity": 9985,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 56,
     "genres": [
       "Action",
       "Drama",
@@ -2786,7 +2796,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 56
   },
   {
     "id": 200455,
@@ -2816,7 +2827,6 @@
     "popularity": 9767,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 57,
     "genres": [
       "Comedy",
       "Fantasy",
@@ -2827,7 +2837,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 57
   },
   {
     "id": 199007,
@@ -2857,7 +2868,6 @@
     "popularity": 9090,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 58,
     "genres": [
       "Action",
       "Comedy",
@@ -2870,7 +2880,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 58
   },
   {
     "id": 209499,
@@ -2900,7 +2911,6 @@
     "popularity": 6943,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 59,
     "genres": [
       "Action",
       "Sci-Fi"
@@ -2910,7 +2920,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 59
   },
   {
     "id": 213657,
@@ -2934,7 +2945,6 @@
     "popularity": 6915,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 60,
     "genres": [
       "Action",
       "Comedy",
@@ -2956,7 +2966,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 60
   },
   {
     "id": 160803,
@@ -2983,6 +2994,11 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       },
       {
+        "site": "OceanVeil",
+        "url": "https://oceanveil.net/",
+        "icon": "https://www.google.com/s2/favicons?domain=oceanveil.net&sz=32"
+      },
+      {
         "site": "YouTube",
         "url": "https://www.youtube.com/playlist?list=PLTPDFXU5mBC8",
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
@@ -2991,7 +3007,6 @@
     "popularity": 6689,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 61,
     "genres": [
       "Action",
       "Fantasy",
@@ -3014,7 +3029,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 61
   },
   {
     "id": 187316,
@@ -3044,7 +3060,6 @@
     "popularity": 6025,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 62,
     "genres": [
       "Action",
       "Adventure",
@@ -3055,7 +3070,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 62
   },
   {
     "id": 212799,
@@ -3085,7 +3101,6 @@
     "popularity": 5861,
     "anilist_score": 62,
     "recently_finished": false,
-    "popularity_rank": 63,
     "genres": [
       "Comedy",
       "Fantasy",
@@ -3096,7 +3111,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 63
   },
   {
     "id": 205896,
@@ -3119,14 +3135,13 @@
     "streaming_links": [
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/",
+        "url": "https://www.crunchyroll.com/series/GT00383992/full-clearing-another-world-under-a-goddess-with-zero-believers",
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
     "popularity": 5723,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 64,
     "genres": [
       "Adventure",
       "Fantasy"
@@ -3136,7 +3151,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 64
   },
   {
     "id": 200294,
@@ -3166,7 +3182,6 @@
     "popularity": 5679,
     "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 65,
     "genres": [
       "Comedy",
       "Slice of Life"
@@ -3176,7 +3191,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 65
   },
   {
     "id": 203275,
@@ -3206,7 +3222,6 @@
     "popularity": 5307,
     "anilist_score": null,
     "recently_finished": false,
-    "popularity_rank": 66,
     "genres": [
       "Action",
       "Adventure",
@@ -3217,7 +3232,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "NOT_YET_RELEASED"
+    "status": "NOT_YET_RELEASED",
+    "popularity_rank": 66
   },
   {
     "id": 203473,
@@ -3243,7 +3259,6 @@
     "popularity": 4975,
     "anilist_score": 49,
     "recently_finished": false,
-    "popularity_rank": 67,
     "genres": [
       "Horror",
       "Mystery",
@@ -3254,7 +3269,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 67
   },
   {
     "id": 209463,
@@ -3263,8 +3279,8 @@
     "english_title": "From Far Away",
     "episode": 2,
     "release_date": "2026-10-11",
-    "next_airing_date": "2026-10-11",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-10-18",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209463-Yxk2q10RXgg8.jpg",
     "trailer": {
       "id": "dLRKywRu3iM",
@@ -3284,7 +3300,6 @@
     "popularity": 4961,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 68,
     "genres": [
       "Adventure",
       "Fantasy",
@@ -3295,7 +3310,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 68
   },
   {
     "id": 202079,
@@ -3330,7 +3346,6 @@
     "popularity": 4670,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 69,
     "genres": [
       "Comedy",
       "Slice of Life"
@@ -3340,7 +3355,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 69
   },
   {
     "id": 209562,
@@ -3370,7 +3386,6 @@
     "popularity": 4106,
     "anilist_score": 55,
     "recently_finished": false,
-    "popularity_rank": 70,
     "genres": [
       "Action",
       "Mecha"
@@ -3380,7 +3395,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 70
   },
   {
     "id": 188034,
@@ -3404,7 +3420,6 @@
     "popularity": 3860,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 71,
     "genres": [
       "Comedy"
     ],
@@ -3413,7 +3428,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 71
   },
   {
     "id": 199594,
@@ -3448,7 +3464,6 @@
     "popularity": 3417,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 72,
     "genres": [
       "Slice of Life"
     ],
@@ -3457,7 +3472,8 @@
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 72
   },
   {
     "id": 199426,
@@ -3466,8 +3482,8 @@
     "english_title": "HOTEL INHUMANS Season 2",
     "episode": 2,
     "release_date": "2026-10-11",
-    "next_airing_date": "2026-10-11",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-10-18",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199426-0nBgTV9BrcJn.jpg",
     "trailer": null,
     "site_url": "https://anilist.co/anime/199426",
@@ -3488,7 +3504,6 @@
     "popularity": 3131,
     "anilist_score": 58,
     "recently_finished": false,
-    "popularity_rank": 73,
     "genres": [
       "Action",
       "Drama"
@@ -3509,7 +3524,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 73
   },
   {
     "id": 213658,
@@ -3539,7 +3555,6 @@
     "popularity": 3044,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 74,
     "genres": [
       "Sports"
     ],
@@ -3559,7 +3574,8 @@
     ],
     "season": "FALL",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 74
   },
   {
     "id": 199353,
@@ -3589,7 +3605,6 @@
     "popularity": 2419,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 75,
     "genres": [
       "Action",
       "Fantasy"
@@ -3610,6 +3625,7 @@
     ],
     "season": null,
     "season_year": null,
-    "status": "RELEASING"
+    "status": "RELEASING",
+    "popularity_rank": 75
   }
 ]
