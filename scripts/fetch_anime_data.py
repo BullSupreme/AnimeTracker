@@ -10,6 +10,10 @@ except ImportError:
     from continuation import continuation_metadata, RELATION_FIELDS
 from zoneinfo import ZoneInfo
 try:
+    from .airing_window import is_paused_past_season
+except ImportError:
+    from airing_window import is_paused_past_season
+try:
     from .content_warnings import content_metadata
 except ImportError:
     from content_warnings import content_metadata
@@ -638,6 +642,8 @@ def process_anime_data(api_data):
     ]
     
     for anime in api_data['data']['Page']['media']:
+        if is_paused_past_season(anime, datetime.now(ZoneInfo('America/New_York')).date()):
+            continue
         # Skip anime that started too long ago (unless it's in our exception list)
         start_year = anime.get('startDate', {}).get('year')
         anime_title = anime['title']['romaji']

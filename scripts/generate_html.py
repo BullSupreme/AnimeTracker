@@ -5,6 +5,10 @@ from datetime import datetime, timedelta
 import os
 import re
 try:
+    from .airing_window import is_paused_past_season
+except ImportError:
+    from airing_window import is_paused_past_season
+try:
     from .season_countdown import season_start, countdown_label
 except ImportError:
     from season_countdown import season_start, countdown_label
@@ -347,6 +351,11 @@ def filter_recently_finished(anime_list, today_date, days=14):
 def generate_html():
     """Generate static HTML file"""
     anime_data, other_anime_sorted, metadata, upcoming_anime, manual_streaming_links, recently_finished_anime, calendar_history, nine_anime_links = load_data()
+    today_date = metadata.get('today_date', datetime.now().strftime('%Y-%m-%d'))
+    airing_today = datetime.strptime(today_date, '%Y-%m-%d').date()
+    # Apply the same rule to saved snapshots, including after a failed API refresh.
+    anime_data = [anime for anime in anime_data if not is_paused_past_season(anime, airing_today)]
+    other_anime_sorted = [anime for anime in other_anime_sorted if not is_paused_past_season(anime, airing_today)]
     catalog_path = 'data/all_anime_catalog.json'
     if os.path.exists(catalog_path):
         with open(catalog_path, encoding='utf-8') as f:
@@ -368,7 +377,6 @@ def generate_html():
             if url:
                 nine_anime_by_id[str(aid)] = url
 
-    today_date = metadata.get('today_date', datetime.now().strftime('%Y-%m-%d'))
     for anime in anime_data + other_anime_sorted + recently_finished_anime + upcoming_anime:
         anime['continuation_badges'] = get_continuation_badges(anime, datetime.strptime(today_date, '%Y-%m-%d').date())
     tomorrow_date = metadata.get('tomorrow_date', (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d'))
