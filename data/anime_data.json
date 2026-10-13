@@ -1,75 +1,5 @@
 [
   {
-    "id": 21,
-    "mal_id": 21,
-    "name": "ONE PIECE",
-    "english_title": "ONE PIECE",
-    "episode": 1181,
-    "release_date": "2027-01-03",
-    "next_airing_date": "2027-01-03",
-    "next_episode_number": 1181,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
-    "trailer": null,
-    "site_url": "https://anilist.co/anime/21",
-    "start_date": "1999-10-20",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "http://www.crunchyroll.com/one-piece",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "Hulu",
-        "url": "http://www.hulu.com/one-piece",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      },
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/80107103",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@onepieceofficial",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@OnePieceOfficialENG",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 759071,
-    "anilist_score": 87,
-    "recently_finished": false,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Comedy",
-      "Drama",
-      "Fantasy"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [
-      {
-        "id": 167404,
-        "type": "ANIME",
-        "title": {
-          "romaji": "MONSTERS: Ippaku Sanjou Hiryuu Jigoku",
-          "english": "MONSTERS: 103 Mercies Dragon Damnation"
-        },
-        "season": "WINTER",
-        "seasonYear": 2024
-      }
-    ],
-    "season": "FALL",
-    "season_year": 1999,
-    "status": "RELEASING",
-    "popularity_rank": 1
-  },
-  {
     "id": 189046,
     "mal_id": 61316,
     "name": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
@@ -133,7 +63,7 @@
     "season": "SPRING",
     "season_year": 2026,
     "status": "FINISHED",
-    "popularity_rank": 2
+    "popularity_rank": 1
   },
   {
     "id": 195516,
@@ -189,7 +119,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 3
+    "popularity_rank": 2
   },
   {
     "id": 185874,
@@ -251,15 +181,15 @@
     "season": "SUMMER",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 4
+    "popularity_rank": 3
   },
   {
     "id": 195604,
     "mal_id": 61967,
     "name": "Black Clover 2nd Season",
     "english_title": "Black Clover Season 2",
-    "episode": 2,
-    "release_date": "2026-10-10",
+    "episode": 3,
+    "release_date": "2026-10-17",
     "next_airing_date": "2026-10-17",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195604-tSZcfKbVqSEG.jpg",
@@ -304,15 +234,15 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 5
+    "popularity_rank": 4
   },
   {
     "id": 235,
     "mal_id": 235,
     "name": "Meitantei Conan",
     "english_title": "Detective Conan",
-    "episode": 1216,
-    "release_date": "2026-10-10",
+    "episode": 1217,
+    "release_date": "2026-10-17",
     "next_airing_date": "2026-10-17",
     "next_episode_number": 1217,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx235-MyYT7K3chBdO.jpg",
@@ -342,7 +272,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 80574,
+    "popularity": 80591,
     "anilist_score": 82,
     "recently_finished": false,
     "genres": [
@@ -357,7 +287,7 @@
     "season": "WINTER",
     "season_year": 1996,
     "status": "RELEASING",
-    "popularity_rank": 6
+    "popularity_rank": 5
   },
   {
     "id": 195539,
@@ -398,7 +328,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "NOT_YET_RELEASED",
-    "popularity_rank": 7
+    "popularity_rank": 6
   },
   {
     "id": 180136,
@@ -443,7 +373,7 @@
     "season": "SUMMER",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 8
+    "popularity_rank": 7
   },
   {
     "id": 210031,
@@ -496,48 +426,7 @@
     "season": "SUMMER",
     "season_year": 2026,
     "status": "FINISHED",
-    "popularity_rank": 9
-  },
-  {
-    "id": 187260,
-    "mal_id": 61126,
-    "name": "Kimi ga Shinu made Koi wo Shitai",
-    "english_title": "I Want to Love You Till Your Dying Day",
-    "episode": 13,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187260-WW5RBa5NINRP.jpg",
-    "trailer": {
-      "id": "zJLbfK_9ZmQ",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/zJLbfK_9ZmQ/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/187260",
-    "start_date": "2026-07-07",
-    "end_date": "2026-09-29",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00374354/i-want-to-love-you-till-your-dying-day",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 58313,
-    "anilist_score": 75,
-    "recently_finished": true,
-    "genres": [
-      "Drama",
-      "Fantasy",
-      "Romance"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "SUMMER",
-    "season_year": 2026,
-    "status": "FINISHED",
-    "popularity_rank": 10
+    "popularity_rank": 8
   },
   {
     "id": 198946,
@@ -594,7 +483,7 @@
     "season": "SUMMER",
     "season_year": 2026,
     "status": "FINISHED",
-    "popularity_rank": 11
+    "popularity_rank": 9
   },
   {
     "id": 159042,
@@ -656,7 +545,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 12
+    "popularity_rank": 10
   },
   {
     "id": 189123,
@@ -708,47 +597,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 13
-  },
-  {
-    "id": 197754,
-    "mal_id": 62331,
-    "name": "LIAR GAME",
-    "english_title": "LIAR GAME",
-    "episode": 26,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 26,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197754-Q5KqcUhIdypp.png",
-    "trailer": {
-      "id": "FIPOXj00ysQ",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/FIPOXj00ysQ/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/197754",
-    "start_date": "2026-04-07",
-    "end_date": "2026-09-29",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371851/liar-game",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 44783,
-    "anilist_score": 65,
-    "recently_finished": true,
-    "genres": [
-      "Drama",
-      "Psychological"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "SPRING",
-    "season_year": 2026,
-    "status": "FINISHED",
-    "popularity_rank": 14
+    "popularity_rank": 11
   },
   {
     "id": 210482,
@@ -802,7 +651,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 15
+    "popularity_rank": 12
   },
   {
     "id": 171110,
@@ -854,7 +703,7 @@
     "season": "SPRING",
     "season_year": 2026,
     "status": "FINISHED",
-    "popularity_rank": 16
+    "popularity_rank": 13
   },
   {
     "id": 184356,
@@ -900,7 +749,7 @@
     "season": null,
     "season_year": null,
     "status": "FINISHED",
-    "popularity_rank": 17
+    "popularity_rank": 14
   },
   {
     "id": 212888,
@@ -942,15 +791,15 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 18
+    "popularity_rank": 15
   },
   {
     "id": 191656,
     "mal_id": 61578,
     "name": "Seitokai ni mo Ana wa Aru!",
     "english_title": "Even the Student Council Has Its Holes!",
-    "episode": 2,
-    "release_date": "2026-10-10",
+    "episode": 3,
+    "release_date": "2026-10-17",
     "next_airing_date": "2026-10-17",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx191656-xFHtxM8SUTdU.png",
@@ -988,7 +837,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 19
+    "popularity_rank": 16
   },
   {
     "id": 178083,
@@ -1046,7 +895,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 20
+    "popularity_rank": 17
   },
   {
     "id": 213805,
@@ -1099,7 +948,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 21
+    "popularity_rank": 18
   },
   {
     "id": 205909,
@@ -1139,7 +988,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 22
+    "popularity_rank": 19
   },
   {
     "id": 182616,
@@ -1190,7 +1039,7 @@
     "season": "SUMMER",
     "season_year": 2026,
     "status": "FINISHED",
-    "popularity_rank": 23
+    "popularity_rank": 20
   },
   {
     "id": 172192,
@@ -1242,7 +1091,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 24
+    "popularity_rank": 21
   },
   {
     "id": 207329,
@@ -1289,7 +1138,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 25
+    "popularity_rank": 22
   },
   {
     "id": 152677,
@@ -1343,7 +1192,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 26
+    "popularity_rank": 23
   },
   {
     "id": 185756,
@@ -1399,7 +1248,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 27
+    "popularity_rank": 24
   },
   {
     "id": 191788,
@@ -1454,7 +1303,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 28
+    "popularity_rank": 25
   },
   {
     "id": 213457,
@@ -1496,7 +1345,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "NOT_YET_RELEASED",
-    "popularity_rank": 29
+    "popularity_rank": 26
   },
   {
     "id": 208025,
@@ -1547,15 +1396,15 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 30
+    "popularity_rank": 27
   },
   {
     "id": 204389,
     "mal_id": 63140,
     "name": "Yasei no Last Boss ga Arawareta! 2nd Season",
     "english_title": "A Wild Last Boss Appeared! Season 2",
-    "episode": 3,
-    "release_date": "2026-10-10",
+    "episode": 4,
+    "release_date": "2026-10-17",
     "next_airing_date": "2026-10-17",
     "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204389-jCoFCeTthDMy.jpg",
@@ -1604,7 +1453,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 31
+    "popularity_rank": 28
   },
   {
     "id": 186541,
@@ -1648,7 +1497,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 32
+    "popularity_rank": 29
   },
   {
     "id": 207191,
@@ -1688,7 +1537,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 33
+    "popularity_rank": 30
   },
   {
     "id": 206814,
@@ -1755,7 +1604,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 34
+    "popularity_rank": 31
   },
   {
     "id": 191832,
@@ -1818,15 +1667,15 @@
     "season": null,
     "season_year": null,
     "status": "RELEASING",
-    "popularity_rank": 35
+    "popularity_rank": 32
   },
   {
     "id": 169581,
     "mal_id": 56733,
     "name": "Magical★Explorer: Eroge no Yuujin Chara ni Tensei Shitakedo, Game Chishiki Tsukatte Jiyuu ni Ikiru",
     "english_title": "Magical Explorer",
-    "episode": 3,
-    "release_date": "2026-10-10",
+    "episode": 4,
+    "release_date": "2026-10-17",
     "next_airing_date": "2026-10-17",
     "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169581-UlAviVH36Hxi.png",
@@ -1866,7 +1715,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 36
+    "popularity_rank": 33
   },
   {
     "id": 206949,
@@ -1906,7 +1755,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 37
+    "popularity_rank": 34
   },
   {
     "id": 204011,
@@ -1947,7 +1796,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 38
+    "popularity_rank": 35
   },
   {
     "id": 204650,
@@ -2014,15 +1863,15 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 39
+    "popularity_rank": 36
   },
   {
     "id": 202250,
     "mal_id": 62922,
     "name": "Kashita Maryoku wa [Revo Barai] de Kyousei Choushuu",
     "english_title": "Magic Repo Man: Dumped by My Party, I’ll Cash In With a Cute Support Fairy to Become the Strongest!",
-    "episode": 2,
-    "release_date": "2026-10-10",
+    "episode": 3,
+    "release_date": "2026-10-17",
     "next_airing_date": "2026-10-17",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202250-mpm2cvr92Au2.jpg",
@@ -2060,7 +1909,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 40
+    "popularity_rank": 37
   },
   {
     "id": 212503,
@@ -2112,7 +1961,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 41
+    "popularity_rank": 38
   },
   {
     "id": 209502,
@@ -2152,15 +2001,15 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 42
+    "popularity_rank": 39
   },
   {
     "id": 209872,
     "mal_id": 63801,
     "name": "Ranma 1/2 (2024) 3rd Season",
     "english_title": "Ranma1/2 (2024) Season 3",
-    "episode": 2,
-    "release_date": "2026-10-10",
+    "episode": 3,
+    "release_date": "2026-10-17",
     "next_airing_date": "2026-10-17",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209872-RBeVPqwejHFp.jpg",
@@ -2204,15 +2053,15 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 43
+    "popularity_rank": 40
   },
   {
     "id": 187402,
     "mal_id": 61153,
     "name": "Tensei shita Dai Seijo wa, Seijo de Aru Koto wo Hita Kakusu",
     "english_title": "A Tale of the Secret Saint",
-    "episode": 3,
-    "release_date": "2026-10-10",
+    "episode": 4,
+    "release_date": "2026-10-17",
     "next_airing_date": "2026-10-17",
     "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187402-ReKkLwFmMV3q.jpg",
@@ -2250,7 +2099,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 44
+    "popularity_rank": 41
   },
   {
     "id": 206401,
@@ -2295,7 +2144,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 45
+    "popularity_rank": 42
   },
   {
     "id": 209219,
@@ -2344,7 +2193,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 46
+    "popularity_rank": 43
   },
   {
     "id": 176314,
@@ -2396,15 +2245,15 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 47
+    "popularity_rank": 44
   },
   {
     "id": 180894,
     "mal_id": 59787,
     "name": "Romelia Senki: Maou wo Taoshita nochi mo Jinrui Yabasou dakara Guntai Soshiki Shita",
     "english_title": "Romelia War Chronicle",
-    "episode": 2,
-    "release_date": "2026-10-10",
+    "episode": 3,
+    "release_date": "2026-10-17",
     "next_airing_date": "2026-10-17",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180894-o3pz4DWFm3je.png",
@@ -2442,7 +2291,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 48
+    "popularity_rank": 45
   },
   {
     "id": 203490,
@@ -2483,7 +2332,7 @@
     "season": "SUMMER",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 49
+    "popularity_rank": 46
   },
   {
     "id": 211778,
@@ -2529,7 +2378,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 50
+    "popularity_rank": 47
   },
   {
     "id": 198727,
@@ -2580,7 +2429,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "NOT_YET_RELEASED",
-    "popularity_rank": 51
+    "popularity_rank": 48
   },
   {
     "id": 186742,
@@ -2620,7 +2469,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 52
+    "popularity_rank": 49
   },
   {
     "id": 207809,
@@ -2663,15 +2512,15 @@
     "season": "SUMMER",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 53
+    "popularity_rank": 50
   },
   {
     "id": 195571,
     "mal_id": 61999,
     "name": "Shuiro no Kamen",
     "english_title": "The Vermilion Mask",
-    "episode": 1,
-    "release_date": "2026-10-10",
+    "episode": 2,
+    "release_date": "2026-10-17",
     "next_airing_date": "2026-10-17",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195571-fvj7u5GI7BRT.jpg",
@@ -2704,7 +2553,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 54
+    "popularity_rank": 51
   },
   {
     "id": 211877,
@@ -2750,7 +2599,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 55
+    "popularity_rank": 52
   },
   {
     "id": 200455,
@@ -2791,7 +2640,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 56
+    "popularity_rank": 53
   },
   {
     "id": 178868,
@@ -2838,15 +2687,15 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 57
+    "popularity_rank": 54
   },
   {
     "id": 199007,
     "mal_id": 62524,
     "name": "#Zombie Sagashitemasu",
     "english_title": "#I'm Looking For a Zombie",
-    "episode": 2,
-    "release_date": "2026-10-10",
+    "episode": 3,
+    "release_date": "2026-10-17",
     "next_airing_date": "2026-10-17",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199007-8R1HsnflnHJE.jpg",
@@ -2881,7 +2730,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 58
+    "popularity_rank": 55
   },
   {
     "id": 205896,
@@ -2921,7 +2770,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 59
+    "popularity_rank": 56
   },
   {
     "id": 213657,
@@ -2967,7 +2816,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 60
+    "popularity_rank": 57
   },
   {
     "id": 209499,
@@ -3007,7 +2856,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 61
+    "popularity_rank": 58
   },
   {
     "id": 160803,
@@ -3070,7 +2919,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 62
+    "popularity_rank": 59
   },
   {
     "id": 187316,
@@ -3095,6 +2944,11 @@
         "site": "YouTube",
         "url": "https://www.youtube.com/playlist?list=PLVEC_1AvVqqE",
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@SuikodenTheAnime-EN/videos",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
     "popularity": 6100,
@@ -3111,15 +2965,15 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 63
+    "popularity_rank": 60
   },
   {
     "id": 212799,
     "mal_id": 64326,
     "name": "Marronnier Oukoku no Shichinin no Kishi",
     "english_title": "The Seven Knights of the Marronnier Kingdom",
-    "episode": 2,
-    "release_date": "2026-10-10",
+    "episode": 3,
+    "release_date": "2026-10-17",
     "next_airing_date": "2026-10-17",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212799-n7WDdic7IL1z.png",
@@ -3152,7 +3006,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 64
+    "popularity_rank": 61
   },
   {
     "id": 200294,
@@ -3192,7 +3046,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 65
+    "popularity_rank": 62
   },
   {
     "id": 203275,
@@ -3233,15 +3087,15 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "NOT_YET_RELEASED",
-    "popularity_rank": 66
+    "popularity_rank": 63
   },
   {
     "id": 203473,
     "mal_id": 63053,
     "name": "Kyoufu Collector",
     "english_title": "HORROR COLLECTOR",
-    "episode": 1,
-    "release_date": "2026-10-10",
+    "episode": 2,
+    "release_date": "2026-10-17",
     "next_airing_date": "2026-10-17",
     "next_episode_number": 2,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b203473-pzyaqV432Qko.jpg",
@@ -3270,7 +3124,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 67
+    "popularity_rank": 64
   },
   {
     "id": 209463,
@@ -3311,7 +3165,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 68
+    "popularity_rank": 65
   },
   {
     "id": 202079,
@@ -3356,15 +3210,15 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 69
+    "popularity_rank": 66
   },
   {
     "id": 209562,
     "mal_id": 63764,
     "name": "Vertex Force",
     "english_title": "VERTEX FORCE",
-    "episode": 2,
-    "release_date": "2026-10-10",
+    "episode": 3,
+    "release_date": "2026-10-17",
     "next_airing_date": "2026-10-17",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209562-kQQbTKDuql9p.jpg",
@@ -3396,7 +3250,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 70
+    "popularity_rank": 67
   },
   {
     "id": 188034,
@@ -3429,7 +3283,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 71
+    "popularity_rank": 68
   },
   {
     "id": 199594,
@@ -3473,7 +3327,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 72
+    "popularity_rank": 69
   },
   {
     "id": 213658,
@@ -3523,7 +3377,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 73
+    "popularity_rank": 70
   },
   {
     "id": 199426,
@@ -3575,15 +3429,15 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 74
+    "popularity_rank": 71
   },
   {
     "id": 199353,
     "mal_id": 60597,
     "name": "Dawang Raoming 3",
     "english_title": null,
-    "episode": 4,
-    "release_date": "2026-10-10",
+    "episode": 5,
+    "release_date": "2026-10-17",
     "next_airing_date": "2026-10-17",
     "next_episode_number": 5,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199353-S2jczHjCWHGL.png",
@@ -3626,6 +3480,6 @@
     "season": null,
     "season_year": null,
     "status": "RELEASING",
-    "popularity_rank": 75
+    "popularity_rank": 72
   }
 ]

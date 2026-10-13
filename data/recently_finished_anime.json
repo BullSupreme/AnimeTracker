@@ -50,7 +50,7 @@
     "season": "SUMMER",
     "season_year": 2026,
     "status": "FINISHED",
-    "popularity_rank": 9
+    "popularity_rank": 8
   },
   {
     "id": 171110,
@@ -102,7 +102,7 @@
     "season": "SPRING",
     "season_year": 2026,
     "status": "FINISHED",
-    "popularity_rank": 16
+    "popularity_rank": 13
   },
   {
     "id": 182616,
@@ -153,7 +153,7 @@
     "season": "SUMMER",
     "season_year": 2026,
     "status": "FINISHED",
-    "popularity_rank": 23
+    "popularity_rank": 20
   },
   {
     "id": 184356,
@@ -199,7 +199,7 @@
     "season": null,
     "season_year": null,
     "status": "FINISHED",
-    "popularity_rank": 17
+    "popularity_rank": 14
   },
   {
     "id": 189046,
@@ -265,7 +265,7 @@
     "season": "SPRING",
     "season_year": 2026,
     "status": "FINISHED",
-    "popularity_rank": 2
+    "popularity_rank": 1
   },
   {
     "id": 198946,
@@ -322,87 +322,6 @@
     "season": "SUMMER",
     "season_year": 2026,
     "status": "FINISHED",
-    "popularity_rank": 11
-  },
-  {
-    "id": 187260,
-    "mal_id": 61126,
-    "name": "Kimi ga Shinu made Koi wo Shitai",
-    "english_title": "I Want to Love You Till Your Dying Day",
-    "episode": 13,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187260-WW5RBa5NINRP.jpg",
-    "trailer": {
-      "id": "zJLbfK_9ZmQ",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/zJLbfK_9ZmQ/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/187260",
-    "start_date": "2026-07-07",
-    "end_date": "2026-09-29",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00374354/i-want-to-love-you-till-your-dying-day",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 58313,
-    "anilist_score": 75,
-    "recently_finished": true,
-    "genres": [
-      "Drama",
-      "Fantasy",
-      "Romance"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "SUMMER",
-    "season_year": 2026,
-    "status": "FINISHED",
-    "popularity_rank": 10
-  },
-  {
-    "id": 197754,
-    "mal_id": 62331,
-    "name": "LIAR GAME",
-    "english_title": "LIAR GAME",
-    "episode": 26,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 26,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197754-Q5KqcUhIdypp.png",
-    "trailer": {
-      "id": "FIPOXj00ysQ",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/FIPOXj00ysQ/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/197754",
-    "start_date": "2026-04-07",
-    "end_date": "2026-09-29",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371851/liar-game",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 44783,
-    "anilist_score": 65,
-    "recently_finished": true,
-    "genres": [
-      "Drama",
-      "Psychological"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "SPRING",
-    "season_year": 2026,
-    "status": "FINISHED",
-    "popularity_rank": 14
+    "popularity_rank": 9
   }
 ]
