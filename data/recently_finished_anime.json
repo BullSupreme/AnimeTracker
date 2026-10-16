@@ -24,7 +24,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 67395,
+    "popularity": 67571,
     "anilist_score": 84,
     "recently_finished": true,
     "genres": [
@@ -77,7 +77,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 40907,
+    "popularity": 40946,
     "anilist_score": 77,
     "recently_finished": true,
     "genres": [
@@ -103,56 +103,5 @@
     "season_year": 2026,
     "status": "FINISHED",
     "popularity_rank": 11
-  },
-  {
-    "id": 182616,
-    "mal_id": 60059,
-    "name": "Nige Jouzu no Wakagimi 2nd Season",
-    "english_title": "The Elusive Samurai Season 2",
-    "episode": 12,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182616-DymJCBpkR4qs.jpg",
-    "trailer": {
-      "id": "5xV6uMwR-Xo",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/5xV6uMwR-Xo/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/182616",
-    "start_date": "2026-07-17",
-    "end_date": "2026-10-02",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GQWH0M19X/the-elusive-samurai",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 29338,
-    "anilist_score": 76,
-    "recently_finished": true,
-    "genres": [
-      "Action",
-      "Adventure"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [
-      {
-        "id": 162896,
-        "type": "ANIME",
-        "title": {
-          "romaji": "Nige Jouzu no Wakagimi",
-          "english": "The Elusive Samurai"
-        },
-        "season": "SUMMER",
-        "seasonYear": 2024
-      }
-    ],
-    "season": "SUMMER",
-    "season_year": 2026,
-    "status": "FINISHED",
-    "popularity_rank": 18
   }
 ]
