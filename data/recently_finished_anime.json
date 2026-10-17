@@ -24,7 +24,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 67571,
+    "popularity": 67754,
     "anilist_score": 84,
     "recently_finished": true,
     "genres": [
@@ -51,57 +51,5 @@
     "season_year": 2026,
     "status": "FINISHED",
     "popularity_rank": 7
-  },
-  {
-    "id": 171110,
-    "mal_id": 57466,
-    "name": "Honzuki no Gekokujou: Ryoushu no Youjo",
-    "english_title": "Ascendance of a Bookworm: Adopted Daughter of an Archduke",
-    "episode": 24,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 24,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171110-7zOdInS6DQNL.jpg",
-    "trailer": {
-      "id": "rtPF6rjrdSU",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/rtPF6rjrdSU/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/171110",
-    "start_date": "2026-04-04",
-    "end_date": "2026-10-03",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G6793XKZY/ascendance-of-a-bookworm",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 40946,
-    "anilist_score": 77,
-    "recently_finished": true,
-    "genres": [
-      "Drama",
-      "Fantasy",
-      "Slice of Life"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [
-      {
-        "id": 121176,
-        "type": "ANIME",
-        "title": {
-          "romaji": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 3rd Season",
-          "english": "Ascendance of a Bookworm Season 3"
-        },
-        "season": "SPRING",
-        "seasonYear": 2022
-      }
-    ],
-    "season": "SPRING",
-    "season_year": 2026,
-    "status": "FINISHED",
-    "popularity_rank": 11
   }
 ]
