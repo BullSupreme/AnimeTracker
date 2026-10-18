@@ -783,6 +783,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 section.style.display = 'block';
             }
         });
+        document.dispatchEvent(new CustomEvent('anime:list-filter-updated', { detail: { favoritesOnly } }));
     }
 
     function getTrailerEmbedUrl(site, id) {

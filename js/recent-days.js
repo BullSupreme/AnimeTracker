@@ -8,6 +8,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const title = popup.querySelector('h2');
     const close = popup.querySelector('.recent-day-close');
     let selected = null;
+    function syncFavoritesFilter() {
+        const favoritesOnly = document.querySelector('.list-tab.active')?.dataset.listTab === 'favorites';
+        panels.forEach(panel => {
+            const cards = [...panel.querySelectorAll('.anime-card')];
+            cards.forEach(card => {
+                const hidden = favoritesOnly && !card.classList.contains('favorite');
+                if (hidden) card.querySelector('.trailer-close-btn')?.click();
+                card.hidden = hidden;
+            });
+            let empty = panel.querySelector('.recent-day-no-data');
+            if (!empty) {
+                empty = document.createElement('p');
+                empty.className = 'recent-day-no-data';
+                panel.appendChild(empty);
+            }
+            empty.textContent = favoritesOnly ? 'No favorite anime aired on this day.' : 'No releases saved for this day.';
+            empty.hidden = cards.some(card => !card.hidden);
+        });
+    }
+    document.addEventListener('anime:list-filter-updated', syncFavoritesFilter);
+    syncFavoritesFilter();
     const header = document.querySelector('header');
     if (header) {
         const positionBelowHeader = () => {
@@ -36,6 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
     buttons.forEach(button => button.addEventListener('click', () => {
         popup.querySelectorAll('.trailer-close-btn').forEach(control => control.click());
         selected = button;
+        syncFavoritesFilter();
         panels.forEach(panel => { panel.hidden = panel.dataset.recentLineup !== button.dataset.recentDay; });
         buttons.forEach(day => day.setAttribute('aria-expanded', String(day === button)));
         title.textContent = button.dataset.dayTitle;

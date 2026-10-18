@@ -51,6 +51,19 @@ const { chromium } = require('playwright');
         assert(await first.evaluate(card => card.classList.contains('favorite')));
         assert((await page.context().cookies()).some(cookie => cookie.name === 'favorites' && decodeURIComponent(cookie.value).includes(id)));
         assert((await first.locator('.main-link-btn').getAttribute('href')).includes('anilist.co'));
+        const allCount = await visiblePanel.locator('.anime-card').count();
+        // The popup covers the controls visually; invoke the actual filter button handler.
+        await page.locator('.list-tab[data-list-tab="favorites"]').evaluate(button => button.click());
+        assert.equal(await visiblePanel.locator('.anime-card:visible').count(), 1);
+        assert.equal(await visiblePanel.locator('.anime-card:visible').getAttribute('data-anime-id'), id);
+        await rail.locator('button').nth(1).click();
+        assert.equal(await visiblePanel.locator('.anime-card:visible').count(), 1);
+        await first.locator('.favorite-btn').click();
+        assert.equal(await visiblePanel.locator('.anime-card:visible').count(), 0);
+        assert.equal(await visiblePanel.locator('.recent-day-no-data:visible').textContent(), 'No favorite anime aired on this day.');
+        await page.locator('.list-tab[data-list-tab="all"]').evaluate(button => button.click());
+        assert.equal(await visiblePanel.locator('.anime-card:visible').count(), allCount);
+        await first.locator('.favorite-btn').click();
         await page.selectOption('#layout-selector', 'table');
         assert.equal(await popup.locator('.table-cell-title').count(), 0);
         await rail.locator('button').nth(2).click();
@@ -83,7 +96,7 @@ const { chromium } = require('playwright');
             console.log(screenshot);
         }
         assert.deepEqual(errors, []);
-        console.log('Browser checks passed: seven days, unchanged main layout, day switching, favorites, links, table isolation, Escape, and mobile');
+        console.log('Browser checks passed: seven days, unchanged main layout, day switching, favorites-only popups, empty state, live filtering, links, table isolation, Escape, and mobile');
     } finally {
         await browser?.close();
         server.close();
