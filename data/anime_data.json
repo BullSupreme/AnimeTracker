@@ -29,7 +29,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 99660,
+    "popularity": 100579,
     "anilist_score": 85,
     "recently_finished": false,
     "genres": [
@@ -90,7 +90,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
       }
     ],
-    "popularity": 93386,
+    "popularity": 93605,
     "anilist_score": 89,
     "recently_finished": false,
     "genres": [
@@ -142,7 +142,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 92128,
+    "popularity": 93595,
     "anilist_score": 86,
     "recently_finished": false,
     "genres": [
@@ -206,7 +206,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 80710,
+    "popularity": 80746,
     "anilist_score": 82,
     "recently_finished": false,
     "genres": [
@@ -248,7 +248,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 79183,
+    "popularity": 79646,
     "anilist_score": null,
     "recently_finished": false,
     "genres": [
@@ -269,8 +269,8 @@
     "mal_id": 59741,
     "name": "Tsuihou Sareta Tensei Juukishi wa Game Chishiki de Musou Suru",
     "english_title": "The Exiled Heavy Knight Knows How to Game the System",
-    "episode": 16,
-    "release_date": "2026-10-15",
+    "episode": 17,
+    "release_date": null,
     "next_airing_date": "2026-10-22",
     "next_episode_number": 17,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180136-gtMTCRlOD4OE.jpg",
@@ -294,8 +294,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 70522,
-    "anilist_score": 68,
+    "popularity": 70810,
+    "anilist_score": 67,
     "recently_finished": false,
     "genres": [
       "Action",
@@ -308,59 +308,6 @@
     "season_year": 2026,
     "status": "RELEASING",
     "popularity_rank": 6
-  },
-  {
-    "id": 210031,
-    "mal_id": 63832,
-    "name": "Seihantai na Kimi to Boku 2nd Season",
-    "english_title": "You and I Are Polar Opposites Season 2",
-    "episode": 13,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx210031-TppgcHZh46LY.jpg",
-    "trailer": {
-      "id": "HW7enBbU_hk",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/HW7enBbU_hk/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/210031",
-    "start_date": "2026-07-05",
-    "end_date": "2026-10-04",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00365624/you-and-i-are-polar-opposites",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 67754,
-    "anilist_score": 84,
-    "recently_finished": true,
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Romance",
-      "Slice of Life"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [
-      {
-        "id": 184951,
-        "type": "ANIME",
-        "title": {
-          "romaji": "Seihantai na Kimi to Boku",
-          "english": "You and I Are Polar Opposites"
-        },
-        "season": "WINTER",
-        "seasonYear": 2026
-      }
-    ],
-    "season": "SUMMER",
-    "season_year": 2026,
-    "status": "FINISHED",
-    "popularity_rank": 7
   },
   {
     "id": 159042,
@@ -397,7 +344,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 50435,
+    "popularity": 50668,
     "anilist_score": 75,
     "recently_finished": false,
     "genres": [
@@ -422,7 +369,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 8
+    "popularity_rank": 7
   },
   {
     "id": 189123,
@@ -431,8 +378,8 @@
     "english_title": "Blue Box Season 2",
     "episode": 3,
     "release_date": "2026-10-18",
-    "next_airing_date": "2026-10-18",
-    "next_episode_number": 3,
+    "next_airing_date": "2026-10-25",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189123-0secXELIhkIW.jpg",
     "trailer": {
       "id": "hJ6Y8PAOUk8",
@@ -449,7 +396,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 47585,
+    "popularity": 47883,
     "anilist_score": 81,
     "recently_finished": false,
     "genres": [
@@ -474,7 +421,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 9
+    "popularity_rank": 8
   },
   {
     "id": 210482,
@@ -501,8 +448,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 43347,
-    "anilist_score": 85,
+    "popularity": 43866,
+    "anilist_score": 86,
     "recently_finished": false,
     "genres": [
       "Action",
@@ -528,7 +475,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 10
+    "popularity_rank": 9
   },
   {
     "id": 212888,
@@ -555,7 +502,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 40755,
+    "popularity": 41498,
     "anilist_score": 75,
     "recently_finished": false,
     "genres": [
@@ -570,7 +517,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 11
+    "popularity_rank": 10
   },
   {
     "id": 205909,
@@ -597,7 +544,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 38429,
+    "popularity": 39858,
     "anilist_score": 75,
     "recently_finished": false,
     "genres": [
@@ -610,7 +557,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 12
+    "popularity_rank": 11
   },
   {
     "id": 191656,
@@ -637,7 +584,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=oceanveil.net&sz=32"
       }
     ],
-    "popularity": 38195,
+    "popularity": 39445,
     "anilist_score": 73,
     "recently_finished": false,
     "genres": [
@@ -656,7 +603,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 13
+    "popularity_rank": 12
   },
   {
     "id": 178083,
@@ -688,7 +635,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 34990,
+    "popularity": 35321,
     "anilist_score": 76,
     "recently_finished": false,
     "genres": [
@@ -714,15 +661,15 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 14
+    "popularity_rank": 13
   },
   {
     "id": 213805,
     "mal_id": 64534,
     "name": "Koori no Jouheki 2nd Season",
     "english_title": "The Ramparts of Ice Season 2",
-    "episode": 3,
-    "release_date": "2026-10-15",
+    "episode": 4,
+    "release_date": "2026-10-22",
     "next_airing_date": "2026-10-22",
     "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213805-Nokui3uWlIlw.png",
@@ -741,7 +688,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 34268,
+    "popularity": 34593,
     "anilist_score": 81,
     "recently_finished": false,
     "genres": [
@@ -767,7 +714,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 15
+    "popularity_rank": 14
   },
   {
     "id": 207329,
@@ -799,7 +746,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 33011,
+    "popularity": 33832,
     "anilist_score": 74,
     "recently_finished": false,
     "genres": [
@@ -814,7 +761,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 16
+    "popularity_rank": 15
   },
   {
     "id": 172192,
@@ -841,8 +788,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 30173,
-    "anilist_score": 69,
+    "popularity": 30396,
+    "anilist_score": 70,
     "recently_finished": false,
     "genres": [
       "Action",
@@ -866,7 +813,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 17
+    "popularity_rank": 16
   },
   {
     "id": 185756,
@@ -898,7 +845,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 25897,
+    "popularity": 26079,
     "anilist_score": 70,
     "recently_finished": false,
     "genres": [
@@ -922,7 +869,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 18
+    "popularity_rank": 17
   },
   {
     "id": 152677,
@@ -949,8 +896,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 24993,
-    "anilist_score": 71,
+    "popularity": 25101,
+    "anilist_score": 72,
     "recently_finished": false,
     "genres": [
       "Comedy",
@@ -976,7 +923,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 19
+    "popularity_rank": 18
   },
   {
     "id": 191788,
@@ -985,8 +932,8 @@
     "english_title": "Aoashi Season 2",
     "episode": 3,
     "release_date": "2026-10-18",
-    "next_airing_date": "2026-10-18",
-    "next_episode_number": 3,
+    "next_airing_date": "2026-10-25",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx191788-XC6F24LdX6a4.jpg",
     "trailer": {
       "id": "phKPnPXm74c",
@@ -1008,7 +955,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 23829,
+    "popularity": 23996,
     "anilist_score": 79,
     "recently_finished": false,
     "genres": [
@@ -1031,7 +978,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 20
+    "popularity_rank": 19
   },
   {
     "id": 206814,
@@ -1063,7 +1010,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23440,
+    "popularity": 23820,
     "anilist_score": 81,
     "recently_finished": false,
     "genres": [
@@ -1098,6 +1045,51 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
+    "popularity_rank": 20
+  },
+  {
+    "id": 207191,
+    "mal_id": 63409,
+    "name": "Doumo, Suki na Hito ni Horegusuri wo Irai Sareta Majo desu.",
+    "english_title": "Hello, I am a Witch and my Crush Wants me to Make a Love Potion!",
+    "episode": 3,
+    "release_date": "2026-10-19",
+    "next_airing_date": "2026-10-19",
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207191-VgkIzfH92WoZ.jpg",
+    "trailer": {
+      "id": "hGRtocAh3iw",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/hGRtocAh3iw/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/207191",
+    "start_date": "2026-10-05",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00378072/hello-i-am-a-witch-and-my-crush-wants-me-to-make-a-love-potion",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 23773,
+    "anilist_score": 71,
+    "recently_finished": false,
+    "genres": [
+      "Fantasy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": [
+      {
+        "name": "Nudity",
+        "rank": 10
+      }
+    ],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING",
     "popularity_rank": 21
   },
   {
@@ -1125,7 +1117,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 23367,
+    "popularity": 23492,
     "anilist_score": null,
     "recently_finished": false,
     "genres": [
@@ -1141,51 +1133,6 @@
     "season_year": 2026,
     "status": "NOT_YET_RELEASED",
     "popularity_rank": 22
-  },
-  {
-    "id": 207191,
-    "mal_id": 63409,
-    "name": "Doumo, Suki na Hito ni Horegusuri wo Irai Sareta Majo desu.",
-    "english_title": "Hello, I am a Witch and my Crush Wants me to Make a Love Potion!",
-    "episode": 3,
-    "release_date": "2026-10-19",
-    "next_airing_date": "2026-10-19",
-    "next_episode_number": 3,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207191-VgkIzfH92WoZ.jpg",
-    "trailer": {
-      "id": "hGRtocAh3iw",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/hGRtocAh3iw/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/207191",
-    "start_date": "2026-10-05",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00378072/hello-i-am-a-witch-and-my-crush-wants-me-to-make-a-love-potion",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 23364,
-    "anilist_score": 71,
-    "recently_finished": false,
-    "genres": [
-      "Fantasy",
-      "Romance"
-    ],
-    "is_adult": false,
-    "tags": [
-      {
-        "name": "Nudity",
-        "rank": 20
-      }
-    ],
-    "prequels": [],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 23
   },
   {
     "id": 208025,
@@ -1212,7 +1159,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 22662,
+    "popularity": 22929,
     "anilist_score": 67,
     "recently_finished": false,
     "genres": [
@@ -1236,7 +1183,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 24
+    "popularity_rank": 23
   },
   {
     "id": 206949,
@@ -1263,7 +1210,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 22327,
+    "popularity": 22838,
     "anilist_score": 75,
     "recently_finished": false,
     "genres": [
@@ -1276,7 +1223,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 25
+    "popularity_rank": 24
   },
   {
     "id": 186541,
@@ -1303,7 +1250,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 22262,
+    "popularity": 22500,
     "anilist_score": 68,
     "recently_finished": false,
     "genres": [
@@ -1320,7 +1267,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 26
+    "popularity_rank": 25
   },
   {
     "id": 204389,
@@ -1352,7 +1299,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 21570,
+    "popularity": 21975,
     "anilist_score": 73,
     "recently_finished": false,
     "genres": [
@@ -1377,7 +1324,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 27
+    "popularity_rank": 26
   },
   {
     "id": 169581,
@@ -1404,7 +1351,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 19916,
+    "popularity": 20664,
     "anilist_score": 68,
     "recently_finished": false,
     "genres": [
@@ -1425,7 +1372,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 28
+    "popularity_rank": 27
   },
   {
     "id": 204011,
@@ -1452,13 +1399,59 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 19542,
+    "popularity": 19698,
     "anilist_score": 69,
     "recently_finished": false,
     "genres": [
       "Action",
       "Adventure",
       "Sci-Fi"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 28
+  },
+  {
+    "id": 202250,
+    "mal_id": 62922,
+    "name": "Kashita Maryoku wa [Revo Barai] de Kyousei Choushuu",
+    "english_title": "Magic Repo Man: Dumped by My Party, I’ll Cash In With a Cute Support Fairy to Become the Strongest!",
+    "episode": 3,
+    "release_date": "2026-10-17",
+    "next_airing_date": "2026-10-24",
+    "next_episode_number": 4,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202250-mpm2cvr92Au2.jpg",
+    "trailer": {
+      "id": "kXqx3rFSkxc",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/kXqx3rFSkxc/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/202250",
+    "start_date": "2026-10-04",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00385867/magic-repo-man-dumped-by-my-party-ill-cash-in-with-a-cute-support-fairy-to-become-the-strongest",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLAzayY4fPdjw",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 19662,
+    "anilist_score": 60,
+    "recently_finished": false,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
     ],
     "is_adult": false,
     "tags": [],
@@ -1503,7 +1496,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 19108,
+    "popularity": 19211,
     "anilist_score": 85,
     "recently_finished": false,
     "genres": [
@@ -1532,58 +1525,12 @@
     "popularity_rank": 30
   },
   {
-    "id": 202250,
-    "mal_id": 62922,
-    "name": "Kashita Maryoku wa [Revo Barai] de Kyousei Choushuu",
-    "english_title": "Magic Repo Man: Dumped by My Party, I’ll Cash In With a Cute Support Fairy to Become the Strongest!",
-    "episode": 3,
-    "release_date": "2026-10-17",
-    "next_airing_date": "2026-10-24",
-    "next_episode_number": 4,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202250-mpm2cvr92Au2.jpg",
-    "trailer": {
-      "id": "kXqx3rFSkxc",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/kXqx3rFSkxc/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/202250",
-    "start_date": "2026-10-04",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00385867/magic-repo-man-dumped-by-my-party-ill-cash-in-with-a-cute-support-fairy-to-become-the-strongest",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLAzayY4fPdjw",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 18752,
-    "anilist_score": 60,
-    "recently_finished": false,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 31
-  },
-  {
     "id": 212503,
     "mal_id": 64254,
     "name": "Hyouken no Majutsushi ga Sekai wo Suberu II",
     "english_title": "The Iceblade Sorcerer Shall Rule the World II",
-    "episode": 2,
-    "release_date": "2026-10-15",
+    "episode": 3,
+    "release_date": "2026-10-22",
     "next_airing_date": "2026-10-22",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212503-sXBpRZr96c4e.jpg",
@@ -1602,7 +1549,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 18568,
+    "popularity": 18844,
     "anilist_score": 67,
     "recently_finished": false,
     "genres": [
@@ -1627,47 +1574,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 32
-  },
-  {
-    "id": 209502,
-    "mal_id": 63754,
-    "name": "Shiotaiou no Satou-san ga Ore ni dake Amai",
-    "english_title": "The Cold Sato-san is Only Sweet to Me",
-    "episode": 3,
-    "release_date": "2026-10-20",
-    "next_airing_date": "2026-10-20",
-    "next_episode_number": 3,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209502-C81oN8M4Smlo.jpg",
-    "trailer": {
-      "id": "8XgKVzuLmJw",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/8XgKVzuLmJw/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/209502",
-    "start_date": "2026-10-06",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00384014/the-cold-sato-san-is-only-sweet-to-me",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 18339,
-    "anilist_score": 68,
-    "recently_finished": false,
-    "genres": [
-      "Comedy",
-      "Romance"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 33
+    "popularity_rank": 31
   },
   {
     "id": 204650,
@@ -1709,7 +1616,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 18282,
+    "popularity": 18548,
     "anilist_score": 71,
     "recently_finished": false,
     "genres": [
@@ -1734,7 +1641,47 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 34
+    "popularity_rank": 32
+  },
+  {
+    "id": 209502,
+    "mal_id": 63754,
+    "name": "Shiotaiou no Satou-san ga Ore ni dake Amai",
+    "english_title": "The Cold Sato-san is Only Sweet to Me",
+    "episode": 3,
+    "release_date": "2026-10-20",
+    "next_airing_date": "2026-10-20",
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209502-C81oN8M4Smlo.jpg",
+    "trailer": {
+      "id": "8XgKVzuLmJw",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/8XgKVzuLmJw/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/209502",
+    "start_date": "2026-10-06",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00384014/the-cold-sato-san-is-only-sweet-to-me",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 18547,
+    "anilist_score": 68,
+    "recently_finished": false,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 33
   },
   {
     "id": 209219,
@@ -1766,7 +1713,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 17840,
+    "popularity": 18054,
     "anilist_score": 66,
     "recently_finished": false,
     "genres": [
@@ -1783,15 +1730,15 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 35
+    "popularity_rank": 34
   },
   {
     "id": 206401,
     "mal_id": 63337,
     "name": "FX Senshi Kurumi-chan",
     "english_title": "FX Fighter Kurumi-chan",
-    "episode": 3,
-    "release_date": "2026-10-15",
+    "episode": 4,
+    "release_date": "2026-10-22",
     "next_airing_date": "2026-10-22",
     "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206401-8cAebkI0i8BA.png",
@@ -1815,12 +1762,58 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 16439,
+    "popularity": 16664,
     "anilist_score": 68,
     "recently_finished": false,
     "genres": [
       "Drama",
       "Slice of Life"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 35
+  },
+  {
+    "id": 187402,
+    "mal_id": 61153,
+    "name": "Tensei shita Dai Seijo wa, Seijo de Aru Koto wo Hita Kakusu",
+    "english_title": "A Tale of the Secret Saint",
+    "episode": 4,
+    "release_date": "2026-10-17",
+    "next_airing_date": "2026-10-24",
+    "next_episode_number": 5,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187402-ReKkLwFmMV3q.jpg",
+    "trailer": {
+      "id": "9oBywQ403ZA",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/9oBywQ403ZA/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/187402",
+    "start_date": "2026-10-03",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371633",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLFsBVQsxttbw",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 16658,
+    "anilist_score": 68,
+    "recently_finished": false,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
     ],
     "is_adult": false,
     "tags": [],
@@ -1855,7 +1848,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 16296,
+    "popularity": 16506,
     "anilist_score": 77,
     "recently_finished": false,
     "genres": [
@@ -1881,52 +1874,6 @@
     "season_year": 2026,
     "status": "RELEASING",
     "popularity_rank": 37
-  },
-  {
-    "id": 187402,
-    "mal_id": 61153,
-    "name": "Tensei shita Dai Seijo wa, Seijo de Aru Koto wo Hita Kakusu",
-    "english_title": "A Tale of the Secret Saint",
-    "episode": 4,
-    "release_date": "2026-10-17",
-    "next_airing_date": "2026-10-24",
-    "next_episode_number": 5,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187402-ReKkLwFmMV3q.jpg",
-    "trailer": {
-      "id": "9oBywQ403ZA",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/9oBywQ403ZA/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/187402",
-    "start_date": "2026-10-03",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371633",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLFsBVQsxttbw",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 16102,
-    "anilist_score": 68,
-    "recently_finished": false,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 38
   },
   {
     "id": 211778,
@@ -1958,12 +1905,58 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 14478,
-    "anilist_score": 68,
+    "popularity": 14814,
+    "anilist_score": 69,
     "recently_finished": false,
     "genres": [
       "Action",
       "Comedy",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 38
+  },
+  {
+    "id": 180894,
+    "mal_id": 59787,
+    "name": "Romelia Senki: Maou wo Taoshita nochi mo Jinrui Yabasou dakara Guntai Soshiki Shita",
+    "english_title": "Romelia War Chronicle",
+    "episode": 3,
+    "release_date": "2026-10-17",
+    "next_airing_date": "2026-10-24",
+    "next_episode_number": 4,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180894-o3pz4DWFm3je.png",
+    "trailer": {
+      "id": "PxXPcoo8uGM",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/PxXPcoo8uGM/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/180894",
+    "start_date": "2026-10-03",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@anime.romeliasenki",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00384007/romelia-war-chronicle",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 14418,
+    "anilist_score": 70,
+    "recently_finished": false,
+    "genres": [
+      "Adventure",
+      "Drama",
       "Fantasy"
     ],
     "is_adult": false,
@@ -1999,7 +1992,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 14019,
+    "popularity": 14104,
     "anilist_score": 68,
     "recently_finished": false,
     "genres": [
@@ -2027,52 +2020,6 @@
     "popularity_rank": 40
   },
   {
-    "id": 180894,
-    "mal_id": 59787,
-    "name": "Romelia Senki: Maou wo Taoshita nochi mo Jinrui Yabasou dakara Guntai Soshiki Shita",
-    "english_title": "Romelia War Chronicle",
-    "episode": 3,
-    "release_date": "2026-10-17",
-    "next_airing_date": "2026-10-24",
-    "next_episode_number": 4,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180894-o3pz4DWFm3je.png",
-    "trailer": {
-      "id": "PxXPcoo8uGM",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/PxXPcoo8uGM/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/180894",
-    "start_date": "2026-10-03",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@anime.romeliasenki",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00384007/romelia-war-chronicle",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 13832,
-    "anilist_score": 69,
-    "recently_finished": false,
-    "genres": [
-      "Adventure",
-      "Drama",
-      "Fantasy"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 41
-  },
-  {
     "id": 198727,
     "mal_id": 62484,
     "name": "Chitose-kun wa Ramune Bin no Naka Part 2",
@@ -2097,7 +2044,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 13802,
+    "popularity": 13940,
     "anilist_score": 75,
     "recently_finished": false,
     "genres": [
@@ -2118,6 +2065,47 @@
         "seasonYear": 2025
       }
     ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 41
+  },
+  {
+    "id": 195571,
+    "mal_id": 61999,
+    "name": "Shuiro no Kamen",
+    "english_title": "The Vermilion Mask",
+    "episode": 2,
+    "release_date": "2026-10-17",
+    "next_airing_date": "2026-10-24",
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195571-fvj7u5GI7BRT.jpg",
+    "trailer": {
+      "id": "iX4N-Z5Hbxw",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/iX4N-Z5Hbxw/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/195571",
+    "start_date": "2026-10-10",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/watch/GE00384363JAJP",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 13452,
+    "anilist_score": 68,
+    "recently_finished": false,
+    "genres": [
+      "Action",
+      "Drama",
+      "Supernatural"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
@@ -2148,7 +2136,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12864,
+    "popularity": 13335,
     "anilist_score": 70,
     "recently_finished": false,
     "genres": [
@@ -2188,7 +2176,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12859,
+    "popularity": 13220,
     "anilist_score": 63,
     "recently_finished": false,
     "genres": [
@@ -2202,47 +2190,6 @@
     "season_year": 2026,
     "status": "RELEASING",
     "popularity_rank": 44
-  },
-  {
-    "id": 195571,
-    "mal_id": 61999,
-    "name": "Shuiro no Kamen",
-    "english_title": "The Vermilion Mask",
-    "episode": 2,
-    "release_date": "2026-10-17",
-    "next_airing_date": "2026-10-24",
-    "next_episode_number": 3,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195571-fvj7u5GI7BRT.jpg",
-    "trailer": {
-      "id": "iX4N-Z5Hbxw",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/iX4N-Z5Hbxw/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/195571",
-    "start_date": "2026-10-10",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/watch/GE00384363JAJP",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 12576,
-    "anilist_score": 68,
-    "recently_finished": false,
-    "genres": [
-      "Action",
-      "Drama",
-      "Supernatural"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 45
   },
   {
     "id": 203490,
@@ -2269,7 +2216,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12290,
+    "popularity": 12373,
     "anilist_score": 69,
     "recently_finished": false,
     "genres": [
@@ -2283,7 +2230,7 @@
     "season": "SUMMER",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 46
+    "popularity_rank": 45
   },
   {
     "id": 207809,
@@ -2310,7 +2257,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 11574,
+    "popularity": 11603,
     "anilist_score": 61,
     "recently_finished": false,
     "genres": [
@@ -2326,7 +2273,7 @@
     "season": "SUMMER",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 47
+    "popularity_rank": 46
   },
   {
     "id": 211877,
@@ -2353,7 +2300,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=oceanveil.net&sz=32"
       }
     ],
-    "popularity": 11473,
+    "popularity": 11555,
     "anilist_score": 49,
     "recently_finished": false,
     "genres": [
@@ -2372,7 +2319,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 48
+    "popularity_rank": 47
   },
   {
     "id": 200455,
@@ -2399,7 +2346,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 11171,
+    "popularity": 11304,
     "anilist_score": 67,
     "recently_finished": false,
     "genres": [
@@ -2413,7 +2360,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 49
+    "popularity_rank": 48
   },
   {
     "id": 178868,
@@ -2445,7 +2392,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 10832,
+    "popularity": 10952,
     "anilist_score": 68,
     "recently_finished": false,
     "genres": [
@@ -2460,7 +2407,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 50
+    "popularity_rank": 49
   },
   {
     "id": 199007,
@@ -2487,7 +2434,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 9766,
+    "popularity": 10038,
     "anilist_score": 60,
     "recently_finished": false,
     "genres": [
@@ -2503,7 +2450,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 51
+    "popularity_rank": 50
   },
   {
     "id": 213657,
@@ -2512,8 +2459,8 @@
     "english_title": "Mission: Yozakura Family Season 2 Part 2",
     "episode": 2,
     "release_date": "2026-10-18",
-    "next_airing_date": "2026-10-18",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-10-25",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213657-ORNXVEBCjXaz.jpg",
     "trailer": {
       "id": "059cJjeY19Y",
@@ -2524,8 +2471,8 @@
     "start_date": "2026-10-11",
     "end_date": null,
     "streaming_links": [],
-    "popularity": 8632,
-    "anilist_score": 70,
+    "popularity": 8728,
+    "anilist_score": 71,
     "recently_finished": false,
     "genres": [
       "Action",
@@ -2549,7 +2496,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 52
+    "popularity_rank": 51
   },
   {
     "id": 209499,
@@ -2576,8 +2523,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 7838,
-    "anilist_score": 61,
+    "popularity": 7916,
+    "anilist_score": 60,
     "recently_finished": false,
     "genres": [
       "Action",
@@ -2589,7 +2536,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 53
+    "popularity_rank": 52
   },
   {
     "id": 160803,
@@ -2626,7 +2573,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 7025,
+    "popularity": 7053,
     "anilist_score": 59,
     "recently_finished": false,
     "genres": [
@@ -2652,7 +2599,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 54
+    "popularity_rank": 53
   },
   {
     "id": 187316,
@@ -2684,13 +2631,54 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 6749,
+    "popularity": 6801,
     "anilist_score": 59,
     "recently_finished": false,
     "genres": [
       "Action",
       "Adventure",
       "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 54
+  },
+  {
+    "id": 212799,
+    "mal_id": 64326,
+    "name": "Marronnier Oukoku no Shichinin no Kishi",
+    "english_title": "The Seven Knights of the Marronnier Kingdom",
+    "episode": 3,
+    "release_date": "2026-10-17",
+    "next_airing_date": "2026-10-24",
+    "next_episode_number": 4,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212799-n7WDdic7IL1z.png",
+    "trailer": {
+      "id": "wk26nTxUzPY",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/wk26nTxUzPY/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/212799",
+    "start_date": "2026-10-03",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Amazon Prime Video",
+        "url": "https://www.amazon.com/dp/B0HG6N5R36",
+        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+      }
+    ],
+    "popularity": 6500,
+    "anilist_score": 63,
+    "recently_finished": false,
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Romance"
     ],
     "is_adult": false,
     "tags": [],
@@ -2725,7 +2713,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 6418,
+    "popularity": 6489,
     "anilist_score": 64,
     "recently_finished": false,
     "genres": [
@@ -2739,47 +2727,6 @@
     "season_year": 2026,
     "status": "RELEASING",
     "popularity_rank": 56
-  },
-  {
-    "id": 212799,
-    "mal_id": 64326,
-    "name": "Marronnier Oukoku no Shichinin no Kishi",
-    "english_title": "The Seven Knights of the Marronnier Kingdom",
-    "episode": 3,
-    "release_date": "2026-10-17",
-    "next_airing_date": "2026-10-24",
-    "next_episode_number": 4,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212799-n7WDdic7IL1z.png",
-    "trailer": {
-      "id": "wk26nTxUzPY",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/wk26nTxUzPY/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/212799",
-    "start_date": "2026-10-03",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Amazon Prime Video",
-        "url": "https://www.amazon.com/dp/B0HG6N5R36",
-        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
-      }
-    ],
-    "popularity": 6313,
-    "anilist_score": 63,
-    "recently_finished": false,
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Romance"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 57
   },
   {
     "id": 203473,
@@ -2802,7 +2749,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5641,
+    "popularity": 5840,
     "anilist_score": 50,
     "recently_finished": false,
     "genres": [
@@ -2816,7 +2763,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 58
+    "popularity_rank": 57
   },
   {
     "id": 203275,
@@ -2843,7 +2790,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 5564,
+    "popularity": 5609,
     "anilist_score": null,
     "recently_finished": false,
     "genres": [
@@ -2857,7 +2804,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "NOT_YET_RELEASED",
-    "popularity_rank": 59
+    "popularity_rank": 58
   },
   {
     "id": 209463,
@@ -2884,8 +2831,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5423,
-    "anilist_score": 63,
+    "popularity": 5473,
+    "anilist_score": 64,
     "recently_finished": false,
     "genres": [
       "Adventure",
@@ -2898,7 +2845,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 60
+    "popularity_rank": 59
   },
   {
     "id": 202079,
@@ -2930,7 +2877,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 5098,
+    "popularity": 5129,
     "anilist_score": 60,
     "recently_finished": false,
     "genres": [
@@ -2943,7 +2890,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 61
+    "popularity_rank": 60
   },
   {
     "id": 209562,
@@ -2970,8 +2917,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4403,
-    "anilist_score": 55,
+    "popularity": 4512,
+    "anilist_score": 54,
     "recently_finished": false,
     "genres": [
       "Action",
@@ -2983,15 +2930,15 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 62
+    "popularity_rank": 61
   },
   {
     "id": 188034,
     "mal_id": 61227,
     "name": "Girls und Panzer: Motto Love Love Sakusen desu!",
     "english_title": null,
-    "episode": 2,
-    "release_date": "2026-10-15",
+    "episode": 3,
+    "release_date": "2026-10-22",
     "next_airing_date": "2026-10-22",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188034-oRwVKBMezOOk.jpg",
@@ -3004,7 +2951,7 @@
     "start_date": "2026-10-08",
     "end_date": "2026-12-24",
     "streaming_links": [],
-    "popularity": 3939,
+    "popularity": 3955,
     "anilist_score": 73,
     "recently_finished": false,
     "genres": [
@@ -3016,15 +2963,15 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 63
+    "popularity_rank": 62
   },
   {
     "id": 199594,
     "mal_id": 62615,
     "name": "Tetsuryou! meet with Tetsudou Musume",
     "english_title": "TETSURYO! Meet With Tetsudou Musume",
-    "episode": 2,
-    "release_date": "2026-10-15",
+    "episode": 3,
+    "release_date": "2026-10-22",
     "next_airing_date": "2026-10-22",
     "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199594-moYKzlfIH03U.jpg",
@@ -3048,8 +2995,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 3773,
-    "anilist_score": 59,
+    "popularity": 3849,
+    "anilist_score": 58,
     "recently_finished": false,
     "genres": [
       "Slice of Life"
@@ -3060,7 +3007,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 64
+    "popularity_rank": 63
   },
   {
     "id": 213658,
@@ -3069,8 +3016,8 @@
     "english_title": "Ace of the Diamond act II -Second Season-",
     "episode": 2,
     "release_date": "2026-10-18",
-    "next_airing_date": "2026-10-18",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-10-25",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213658-D3BPJaqawLxS.png",
     "trailer": {
       "id": "kLbI4teuPTc",
@@ -3087,8 +3034,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 3694,
-    "anilist_score": 73,
+    "popularity": 3742,
+    "anilist_score": 74,
     "recently_finished": false,
     "genres": [
       "Sports"
@@ -3110,7 +3057,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 65
+    "popularity_rank": 64
   },
   {
     "id": 199426,
@@ -3138,8 +3085,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 3389,
-    "anilist_score": 58,
+    "popularity": 3414,
+    "anilist_score": 59,
     "recently_finished": false,
     "genres": [
       "Action",
@@ -3162,7 +3109,7 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "RELEASING",
-    "popularity_rank": 66
+    "popularity_rank": 65
   },
   {
     "id": 199353,
@@ -3189,8 +3136,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=v.qq.com&sz=32"
       }
     ],
-    "popularity": 2735,
-    "anilist_score": 64,
+    "popularity": 2807,
+    "anilist_score": 66,
     "recently_finished": false,
     "genres": [
       "Action",
@@ -3213,6 +3160,6 @@
     "season": null,
     "season_year": null,
     "status": "RELEASING",
-    "popularity_rank": 67
+    "popularity_rank": 66
   }
 ]

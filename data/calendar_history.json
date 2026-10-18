@@ -1,330 +1,5 @@
 [
   {
-    "id": 184356,
-    "mal_id": 63316,
-    "name": "Dogul Wang",
-    "english_title": "Tomb Raider King",
-    "episode": 10,
-    "release_date": "2026-09-17",
-    "next_airing_date": "2026-09-30",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184356-SlFIstXUXJYP.png",
-    "trailer": {
-      "id": "6f702O_nnq8",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/6f702O_nnq8/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/184356",
-    "start_date": "2026-07-09",
-    "end_date": "2026-10-01",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00378123/",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLRwxYv2koIzY",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 37696,
-    "anilist_score": 66,
-    "recently_finished": false,
-    "popularity_rank": 32,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": null,
-    "season_year": null,
-    "status": "FINISHED"
-  },
-  {
-    "id": 108992,
-    "mal_id": 63802,
-    "name": "Mebius Dust",
-    "english_title": "Mebius Dust",
-    "episode": 11,
-    "release_date": "2026-09-17",
-    "next_airing_date": "2026-09-24",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108992-skuOsfmLmMd2.jpg",
-    "trailer": {
-      "id": "ByOF3FLlAws",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/ByOF3FLlAws/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/108992",
-    "start_date": "2026-07-09",
-    "end_date": "2026-09-24",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00379439/mebius-dust",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 7848,
-    "anilist_score": 48,
-    "recently_finished": true,
-    "popularity_rank": 61,
-    "genres": [
-      "Action",
-      "Supernatural"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "SUMMER",
-    "season_year": 2026,
-    "status": "FINISHED"
-  },
-  {
-    "id": 204466,
-    "mal_id": 63150,
-    "name": "Otome Kaijuu Caraméliser",
-    "english_title": "KAIJU GIRL CARAMELISE",
-    "episode": 12,
-    "release_date": "2026-09-17",
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204466-vXMvIs4VOoQd.png",
-    "trailer": {
-      "id": "ECtHlHde3EQ",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/ECtHlHde3EQ/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/204466",
-    "start_date": "2026-07-03",
-    "end_date": "2026-09-18",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00378081/kaiju-girl-caramelise",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl38hoyHQ6-C5HAQ9lJ5jkdG",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 39259,
-    "anilist_score": 74,
-    "recently_finished": false,
-    "popularity_rank": 33,
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Supernatural"
-    ],
-    "is_adult": false,
-    "tags": [
-      {
-        "name": "Nudity",
-        "rank": 55
-      }
-    ],
-    "prequels": [],
-    "season": "SUMMER",
-    "season_year": 2026,
-    "status": "FINISHED"
-  },
-  {
-    "id": 203880,
-    "mal_id": 63082,
-    "name": "Reiwa no Dara-san",
-    "english_title": "Dara-san of the Reiwa Era",
-    "episode": 12,
-    "release_date": "2026-09-17",
-    "next_airing_date": "2026-09-24",
-    "next_episode_number": 13,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx203880-lnruKftb27Nr.png",
-    "trailer": {
-      "id": "AZKlUSu5tQ0",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/AZKlUSu5tQ0/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/203880",
-    "start_date": "2026-07-02",
-    "end_date": "2026-09-24",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00377933/dara-san-of-the-reiwa-era",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 14535,
-    "anilist_score": 66,
-    "recently_finished": false,
-    "popularity_rank": 53,
-    "genres": [
-      "Comedy",
-      "Horror",
-      "Supernatural"
-    ],
-    "is_adult": false,
-    "tags": [
-      {
-        "name": "Nudity",
-        "rank": 71
-      }
-    ],
-    "prequels": [],
-    "season": "SUMMER",
-    "season_year": 2026,
-    "status": "FINISHED"
-  },
-  {
-    "id": 196187,
-    "mal_id": 62076,
-    "name": "Super no Ura de Yani Suu Futari",
-    "english_title": "Smoking Behind the Supermarket with You",
-    "episode": 11,
-    "release_date": "2026-09-17",
-    "next_airing_date": "2026-09-24",
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196187-0dgFi2CPp3xn.jpg",
-    "trailer": {
-      "id": "aOOwNK6Ul6E",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/aOOwNK6Ul6E/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/196187",
-    "start_date": "2026-07-10",
-    "end_date": "2026-09-24",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00378116/smoking-behind-the-supermarket-with-you",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/82757039",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      }
-    ],
-    "popularity": 123722,
-    "anilist_score": 81,
-    "recently_finished": true,
-    "popularity_rank": 6,
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Slice of Life"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "SUMMER",
-    "season_year": 2026,
-    "status": "FINISHED"
-  },
-  {
-    "id": 180136,
-    "mal_id": 59741,
-    "name": "Tsuihou Sareta Tensei Juukishi wa Game Chishiki de Musou Suru",
-    "english_title": "The Exiled Heavy Knight Knows How to Game the System",
-    "episode": 12,
-    "release_date": "2026-09-17",
-    "next_airing_date": "2026-10-22",
-    "next_episode_number": 17,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180136-gtMTCRlOD4OE.jpg",
-    "trailer": {
-      "id": "uC13b3_8riU",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/uC13b3_8riU/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/180136",
-    "start_date": "2026-07-03",
-    "end_date": "2026-12-25",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00378018/the-exiled-heavy-knight-knows-how-to-game-the-system",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3yq1oZEC8iNCwgMsg0NmIZ",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 70522,
-    "anilist_score": 68,
-    "recently_finished": false,
-    "popularity_rank": 6,
-    "genres": [
-      "Action",
-      "Fantasy"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "SUMMER",
-    "season_year": 2026,
-    "status": "RELEASING"
-  },
-  {
-    "id": 207141,
-    "mal_id": 63403,
-    "name": "Yani Neko",
-    "english_title": "Chainsmoker Cat",
-    "episode": 11,
-    "release_date": "2026-09-17",
-    "next_airing_date": null,
-    "next_episode_number": 12,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207141-h5q5KJPd6vaX.jpg",
-    "trailer": {
-      "id": "KYGgyQtSAdI",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/KYGgyQtSAdI/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/207141",
-    "start_date": "2026-07-03",
-    "end_date": "2026-09-25",
-    "streaming_links": [
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@yanineko_anime",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/82760630",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      }
-    ],
-    "popularity": 75661,
-    "anilist_score": 67,
-    "recently_finished": false,
-    "popularity_rank": 10,
-    "genres": [
-      "Comedy",
-      "Ecchi",
-      "Slice of Life"
-    ],
-    "is_adult": false,
-    "tags": [
-      {
-        "name": "Nudity",
-        "rank": 67
-      }
-    ],
-    "prequels": [],
-    "season": "SUMMER",
-    "season_year": 2026,
-    "status": "FINISHED"
-  },
-  {
     "id": 209983,
     "mal_id": 63817,
     "name": "Hell Mode: Yarikomi-zuki no Gamer wa Haisettei no Isekai de Musou Suru 2nd Season",
@@ -703,7 +378,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 19108,
+    "popularity": 19211,
     "anilist_score": 85,
     "recently_finished": false,
     "popularity_rank": 30,
@@ -819,10 +494,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12290,
+    "popularity": 12373,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 46,
+    "popularity_rank": 45,
     "genres": [
       "Comedy",
       "Romance",
@@ -1043,10 +718,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=v.qq.com&sz=32"
       }
     ],
-    "popularity": 2735,
-    "anilist_score": 64,
+    "popularity": 2807,
+    "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 67,
+    "popularity_rank": 66,
     "genres": [
       "Action",
       "Fantasy"
@@ -1612,7 +1287,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 80710,
+    "popularity": 80746,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 4,
@@ -2457,7 +2132,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
       }
     ],
-    "popularity": 93386,
+    "popularity": 93605,
     "anilist_score": 89,
     "recently_finished": false,
     "popularity_rank": 2,
@@ -2647,10 +2322,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 11574,
+    "popularity": 11603,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 47,
+    "popularity_rank": 46,
     "genres": [
       "Action",
       "Adventure",
@@ -3102,8 +2777,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 70522,
-    "anilist_score": 68,
+    "popularity": 70810,
+    "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 6,
     "genres": [
@@ -3295,10 +2970,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 43347,
-    "anilist_score": 85,
+    "popularity": 43866,
+    "anilist_score": 86,
     "recently_finished": false,
-    "popularity_rank": 10,
+    "popularity_rank": 9,
     "genres": [
       "Action",
       "Adventure",
@@ -3508,7 +3183,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 19108,
+    "popularity": 19211,
     "anilist_score": 85,
     "recently_finished": false,
     "popularity_rank": 30,
@@ -3624,10 +3299,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12290,
+    "popularity": 12373,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 46,
+    "popularity_rank": 45,
     "genres": [
       "Comedy",
       "Romance",
@@ -3665,10 +3340,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=v.qq.com&sz=32"
       }
     ],
-    "popularity": 2735,
-    "anilist_score": 64,
+    "popularity": 2807,
+    "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 67,
+    "popularity_rank": 66,
     "genres": [
       "Action",
       "Fantasy"
@@ -3965,10 +3640,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 19916,
+    "popularity": 20664,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 28,
+    "popularity_rank": 27,
     "genres": [
       "Action",
       "Adventure",
@@ -4024,7 +3699,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 80710,
+    "popularity": 80746,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 4,
@@ -4071,10 +3746,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 16102,
+    "popularity": 16658,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 38,
+    "popularity_rank": 36,
     "genres": [
       "Action",
       "Adventure",
@@ -4117,10 +3792,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 21570,
+    "popularity": 21975,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 27,
+    "popularity_rank": 26,
     "genres": [
       "Action",
       "Adventure",
@@ -4396,10 +4071,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 40755,
+    "popularity": 41498,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 11,
+    "popularity_rank": 10,
     "genres": [
       "Action",
       "Adventure",
@@ -4443,10 +4118,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 25897,
+    "popularity": 26079,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 18,
+    "popularity_rank": 17,
     "genres": [
       "Adventure",
       "Fantasy"
@@ -4504,7 +4179,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
       }
     ],
-    "popularity": 93386,
+    "popularity": 93605,
     "anilist_score": 89,
     "recently_finished": false,
     "popularity_rank": 2,
@@ -4601,10 +4276,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 17840,
+    "popularity": 18054,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 35,
+    "popularity_rank": 34,
     "genres": [
       "Action",
       "Adventure",
@@ -4645,10 +4320,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 11574,
+    "popularity": 11603,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 47,
+    "popularity_rank": 46,
     "genres": [
       "Action",
       "Adventure",
@@ -4744,10 +4419,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 50435,
+    "popularity": 50668,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 8,
+    "popularity_rank": 7,
     "genres": [
       "Action",
       "Adventure",
@@ -4801,10 +4476,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 16439,
+    "popularity": 16664,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 36,
+    "popularity_rank": 35,
     "genres": [
       "Drama",
       "Slice of Life"
@@ -4841,10 +4516,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 34268,
+    "popularity": 34593,
     "anilist_score": 81,
     "recently_finished": false,
-    "popularity_rank": 15,
+    "popularity_rank": 14,
     "genres": [
       "Comedy",
       "Drama",
@@ -4899,8 +4574,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 70522,
-    "anilist_score": 68,
+    "popularity": 70810,
+    "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 6,
     "genres": [
@@ -4939,10 +4614,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 43347,
-    "anilist_score": 85,
+    "popularity": 43866,
+    "anilist_score": 86,
     "recently_finished": false,
-    "popularity_rank": 10,
+    "popularity_rank": 9,
     "genres": [
       "Action",
       "Adventure",
@@ -4998,7 +4673,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 99660,
+    "popularity": 100579,
     "anilist_score": 85,
     "recently_finished": false,
     "popularity_rank": 1,
@@ -5158,7 +4833,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 19108,
+    "popularity": 19211,
     "anilist_score": 85,
     "recently_finished": false,
     "popularity_rank": 30,
@@ -5216,10 +4891,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 34990,
+    "popularity": 35321,
     "anilist_score": 76,
     "recently_finished": false,
-    "popularity_rank": 14,
+    "popularity_rank": 13,
     "genres": [
       "Action",
       "Drama",
@@ -5284,10 +4959,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 18282,
+    "popularity": 18548,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 34,
+    "popularity_rank": 32,
     "genres": [
       "Action",
       "Mystery",
@@ -5336,10 +5011,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12290,
+    "popularity": 12373,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 46,
+    "popularity_rank": 45,
     "genres": [
       "Comedy",
       "Romance",
@@ -5377,10 +5052,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 9766,
+    "popularity": 10038,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 51,
+    "popularity_rank": 50,
     "genres": [
       "Action",
       "Comedy",
@@ -5420,7 +5095,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 92128,
+    "popularity": 93595,
     "anilist_score": 86,
     "recently_finished": false,
     "popularity_rank": 3,
@@ -5473,10 +5148,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=v.qq.com&sz=32"
       }
     ],
-    "popularity": 2735,
-    "anilist_score": 64,
+    "popularity": 2807,
+    "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 67,
+    "popularity_rank": 66,
     "genres": [
       "Action",
       "Fantasy"
@@ -5570,10 +5245,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 18752,
+    "popularity": 19662,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 31,
+    "popularity_rank": 29,
     "genres": [
       "Action",
       "Adventure",
@@ -5611,10 +5286,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 19916,
+    "popularity": 20664,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 28,
+    "popularity_rank": 27,
     "genres": [
       "Action",
       "Adventure",
@@ -5659,10 +5334,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 6313,
+    "popularity": 6500,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 57,
+    "popularity_rank": 55,
     "genres": [
       "Comedy",
       "Fantasy",
@@ -5711,7 +5386,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 80710,
+    "popularity": 80746,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 4,
@@ -5753,7 +5428,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 16296,
+    "popularity": 16506,
     "anilist_score": 77,
     "recently_finished": false,
     "popularity_rank": 37,
@@ -5810,10 +5485,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 13832,
-    "anilist_score": 69,
+    "popularity": 14418,
+    "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 41,
+    "popularity_rank": 39,
     "genres": [
       "Adventure",
       "Drama",
@@ -5851,10 +5526,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=oceanveil.net&sz=32"
       }
     ],
-    "popularity": 38195,
+    "popularity": 39445,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 13,
+    "popularity_rank": 12,
     "genres": [
       "Comedy",
       "Ecchi",
@@ -5902,10 +5577,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 16102,
+    "popularity": 16658,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 38,
+    "popularity_rank": 36,
     "genres": [
       "Action",
       "Adventure",
@@ -5943,10 +5618,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4403,
-    "anilist_score": 55,
+    "popularity": 4512,
+    "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 62,
+    "popularity_rank": 61,
     "genres": [
       "Action",
       "Mecha"
@@ -5988,10 +5663,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 21570,
+    "popularity": 21975,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 27,
+    "popularity_rank": 26,
     "genres": [
       "Action",
       "Adventure",
@@ -6022,8 +5697,8 @@
     "english_title": "Blue Box Season 2",
     "episode": 1,
     "release_date": "2026-10-04",
-    "next_airing_date": "2026-10-18",
-    "next_episode_number": 3,
+    "next_airing_date": "2026-10-25",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189123-0secXELIhkIW.jpg",
     "trailer": {
       "id": "hJ6Y8PAOUk8",
@@ -6040,10 +5715,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 47585,
+    "popularity": 47883,
     "anilist_score": 81,
     "recently_finished": false,
-    "popularity_rank": 9,
+    "popularity_rank": 8,
     "genres": [
       "Romance",
       "Slice of Life",
@@ -6074,8 +5749,8 @@
     "english_title": "Aoashi Season 2",
     "episode": 1,
     "release_date": "2026-10-04",
-    "next_airing_date": "2026-10-18",
-    "next_episode_number": 3,
+    "next_airing_date": "2026-10-25",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx191788-XC6F24LdX6a4.jpg",
     "trailer": {
       "id": "phKPnPXm74c",
@@ -6097,10 +5772,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 23829,
+    "popularity": 23996,
     "anilist_score": 79,
     "recently_finished": false,
-    "popularity_rank": 20,
+    "popularity_rank": 19,
     "genres": [
       "Sports"
     ],
@@ -6147,10 +5822,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 22662,
+    "popularity": 22929,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 24,
+    "popularity_rank": 23,
     "genres": [
       "Comedy",
       "Ecchi",
@@ -6199,10 +5874,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 3389,
-    "anilist_score": 58,
+    "popularity": 3414,
+    "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 66,
+    "popularity_rank": 65,
     "genres": [
       "Action",
       "Drama"
@@ -6250,10 +5925,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5423,
-    "anilist_score": 63,
+    "popularity": 5473,
+    "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 60,
+    "popularity_rank": 59,
     "genres": [
       "Adventure",
       "Fantasy",
@@ -6291,10 +5966,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=oceanveil.net&sz=32"
       }
     ],
-    "popularity": 11473,
+    "popularity": 11555,
     "anilist_score": 49,
     "recently_finished": false,
-    "popularity_rank": 48,
+    "popularity_rank": 47,
     "genres": [
       "Drama",
       "Ecchi",
@@ -6337,10 +6012,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 22262,
+    "popularity": 22500,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 26,
+    "popularity_rank": 25,
     "genres": [
       "Action",
       "Comedy",
@@ -6456,10 +6131,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 5098,
+    "popularity": 5129,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 61,
+    "popularity_rank": 60,
     "genres": [
       "Comedy",
       "Slice of Life"
@@ -6496,10 +6171,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 7838,
-    "anilist_score": 61,
+    "popularity": 7916,
+    "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 53,
+    "popularity_rank": 52,
     "genres": [
       "Action",
       "Sci-Fi"
@@ -6536,10 +6211,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 40755,
+    "popularity": 41498,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 11,
+    "popularity_rank": 10,
     "genres": [
       "Action",
       "Adventure",
@@ -6583,10 +6258,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 25897,
+    "popularity": 26079,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 18,
+    "popularity_rank": 17,
     "genres": [
       "Adventure",
       "Fantasy"
@@ -6634,10 +6309,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 11171,
+    "popularity": 11304,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 49,
+    "popularity_rank": 48,
     "genres": [
       "Comedy",
       "Fantasy",
@@ -6685,7 +6360,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
       }
     ],
-    "popularity": 93386,
+    "popularity": 93605,
     "anilist_score": 89,
     "recently_finished": false,
     "popularity_rank": 2,
@@ -6737,10 +6412,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23364,
+    "popularity": 23773,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 23,
+    "popularity_rank": 21,
     "genres": [
       "Fantasy",
       "Romance"
@@ -6749,7 +6424,7 @@
     "tags": [
       {
         "name": "Nudity",
-        "rank": 20
+        "rank": 10
       }
     ],
     "prequels": [],
@@ -6792,10 +6467,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 7025,
+    "popularity": 7053,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 54,
+    "popularity_rank": 53,
     "genres": [
       "Action",
       "Fantasy",
@@ -6845,10 +6520,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 19542,
+    "popularity": 19698,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 29,
+    "popularity_rank": 28,
     "genres": [
       "Action",
       "Adventure",
@@ -6891,10 +6566,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 17840,
+    "popularity": 18054,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 35,
+    "popularity_rank": 34,
     "genres": [
       "Action",
       "Adventure",
@@ -6935,7 +6610,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 6418,
+    "popularity": 6489,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 56,
@@ -6980,10 +6655,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 6749,
+    "popularity": 6801,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 55,
+    "popularity_rank": 54,
     "genres": [
       "Action",
       "Adventure",
@@ -7021,10 +6696,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 22327,
+    "popularity": 22838,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 25,
+    "popularity_rank": 24,
     "genres": [
       "Action",
       "Fantasy"
@@ -7061,7 +6736,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 18339,
+    "popularity": 18547,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 33,
@@ -7101,10 +6776,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 11574,
+    "popularity": 11603,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 47,
+    "popularity_rank": 46,
     "genres": [
       "Action",
       "Adventure",
@@ -7149,10 +6824,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 33011,
+    "popularity": 33832,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 16,
+    "popularity_rank": 15,
     "genres": [
       "Adventure",
       "Comedy",
@@ -7191,10 +6866,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 30173,
-    "anilist_score": 69,
+    "popularity": 30396,
+    "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 17,
+    "popularity_rank": 16,
     "genres": [
       "Action",
       "Adventure",
@@ -7248,10 +6923,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 10832,
+    "popularity": 10952,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 50,
+    "popularity_rank": 49,
     "genres": [
       "Adventure",
       "Fantasy",
@@ -7290,7 +6965,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 14019,
+    "popularity": 14104,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 40,
@@ -7347,10 +7022,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 14478,
-    "anilist_score": 68,
+    "popularity": 14814,
+    "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 39,
+    "popularity_rank": 38,
     "genres": [
       "Action",
       "Comedy",
@@ -7388,10 +7063,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 24993,
-    "anilist_score": 71,
+    "popularity": 25101,
+    "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 19,
+    "popularity_rank": 18,
     "genres": [
       "Comedy",
       "Drama",
@@ -7452,10 +7127,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 50435,
+    "popularity": 50668,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 8,
+    "popularity_rank": 7,
     "genres": [
       "Action",
       "Adventure",
@@ -7509,10 +7184,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 16439,
+    "popularity": 16664,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 36,
+    "popularity_rank": 35,
     "genres": [
       "Drama",
       "Slice of Life"
@@ -7543,10 +7218,10 @@
     "start_date": "2026-10-08",
     "end_date": "2026-12-24",
     "streaming_links": [],
-    "popularity": 3939,
+    "popularity": 3955,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 63,
+    "popularity_rank": 62,
     "genres": [
       "Comedy"
     ],
@@ -7582,10 +7257,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 18568,
+    "popularity": 18844,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 32,
+    "popularity_rank": 31,
     "genres": [
       "Action",
       "Adventure",
@@ -7634,10 +7309,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 34268,
+    "popularity": 34593,
     "anilist_score": 81,
     "recently_finished": false,
-    "popularity_rank": 15,
+    "popularity_rank": 14,
     "genres": [
       "Comedy",
       "Drama",
@@ -7692,10 +7367,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 3773,
-    "anilist_score": 59,
+    "popularity": 3849,
+    "anilist_score": 58,
     "recently_finished": false,
-    "popularity_rank": 64,
+    "popularity_rank": 63,
     "genres": [
       "Slice of Life"
     ],
@@ -7736,8 +7411,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 70522,
-    "anilist_score": 68,
+    "popularity": 70810,
+    "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 6,
     "genres": [
@@ -7776,10 +7451,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 38429,
+    "popularity": 39858,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 12,
+    "popularity_rank": 11,
     "genres": [
       "Drama",
       "Romance"
@@ -7816,10 +7491,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 43347,
-    "anilist_score": 85,
+    "popularity": 43866,
+    "anilist_score": 86,
     "recently_finished": false,
-    "popularity_rank": 10,
+    "popularity_rank": 9,
     "genres": [
       "Action",
       "Adventure",
@@ -7875,7 +7550,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 99660,
+    "popularity": 100579,
     "anilist_score": 85,
     "recently_finished": false,
     "popularity_rank": 1,
@@ -7984,7 +7659,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 19108,
+    "popularity": 19211,
     "anilist_score": 85,
     "recently_finished": false,
     "popularity_rank": 30,
@@ -8037,7 +7712,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12864,
+    "popularity": 13335,
     "anilist_score": 70,
     "recently_finished": false,
     "popularity_rank": 43,
@@ -8082,10 +7757,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 34990,
+    "popularity": 35321,
     "anilist_score": 76,
     "recently_finished": false,
-    "popularity_rank": 14,
+    "popularity_rank": 13,
     "genres": [
       "Action",
       "Drama",
@@ -8150,10 +7825,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 18282,
+    "popularity": 18548,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 34,
+    "popularity_rank": 32,
     "genres": [
       "Action",
       "Mystery",
@@ -8202,10 +7877,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12290,
+    "popularity": 12373,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 46,
+    "popularity_rank": 45,
     "genres": [
       "Comedy",
       "Romance",
@@ -8243,10 +7918,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 9766,
+    "popularity": 10038,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 51,
+    "popularity_rank": 50,
     "genres": [
       "Action",
       "Comedy",
@@ -8286,7 +7961,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 92128,
+    "popularity": 93595,
     "anilist_score": 86,
     "recently_finished": false,
     "popularity_rank": 3,
@@ -8339,10 +8014,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=v.qq.com&sz=32"
       }
     ],
-    "popularity": 2735,
-    "anilist_score": 64,
+    "popularity": 2807,
+    "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 67,
+    "popularity_rank": 66,
     "genres": [
       "Action",
       "Fantasy"
@@ -8395,10 +8070,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 18752,
+    "popularity": 19662,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 31,
+    "popularity_rank": 29,
     "genres": [
       "Action",
       "Adventure",
@@ -8432,10 +8107,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5641,
+    "popularity": 5840,
     "anilist_score": 50,
     "recently_finished": false,
-    "popularity_rank": 58,
+    "popularity_rank": 57,
     "genres": [
       "Horror",
       "Mystery",
@@ -8473,10 +8148,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 19916,
+    "popularity": 20664,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 28,
+    "popularity_rank": 27,
     "genres": [
       "Action",
       "Adventure",
@@ -8521,10 +8196,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 6313,
+    "popularity": 6500,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 57,
+    "popularity_rank": 55,
     "genres": [
       "Comedy",
       "Fantasy",
@@ -8573,7 +8248,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 80710,
+    "popularity": 80746,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 4,
@@ -8615,7 +8290,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 16296,
+    "popularity": 16506,
     "anilist_score": 77,
     "recently_finished": false,
     "popularity_rank": 37,
@@ -8672,10 +8347,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 13832,
-    "anilist_score": 69,
+    "popularity": 14418,
+    "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 41,
+    "popularity_rank": 39,
     "genres": [
       "Adventure",
       "Drama",
@@ -8713,10 +8388,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=oceanveil.net&sz=32"
       }
     ],
-    "popularity": 38195,
+    "popularity": 39445,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 13,
+    "popularity_rank": 12,
     "genres": [
       "Comedy",
       "Ecchi",
@@ -8759,10 +8434,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12576,
+    "popularity": 13452,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 45,
+    "popularity_rank": 42,
     "genres": [
       "Action",
       "Drama",
@@ -8805,10 +8480,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 16102,
+    "popularity": 16658,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 38,
+    "popularity_rank": 36,
     "genres": [
       "Action",
       "Adventure",
@@ -8846,10 +8521,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4403,
-    "anilist_score": 55,
+    "popularity": 4512,
+    "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 62,
+    "popularity_rank": 61,
     "genres": [
       "Action",
       "Mecha"
@@ -8891,10 +8566,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 21570,
+    "popularity": 21975,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 27,
+    "popularity_rank": 26,
     "genres": [
       "Action",
       "Adventure",
@@ -8925,8 +8600,8 @@
     "english_title": "Blue Box Season 2",
     "episode": 2,
     "release_date": "2026-10-11",
-    "next_airing_date": "2026-10-18",
-    "next_episode_number": 3,
+    "next_airing_date": "2026-10-25",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189123-0secXELIhkIW.jpg",
     "trailer": {
       "id": "hJ6Y8PAOUk8",
@@ -8943,10 +8618,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 47585,
+    "popularity": 47883,
     "anilist_score": 81,
     "recently_finished": false,
-    "popularity_rank": 9,
+    "popularity_rank": 8,
     "genres": [
       "Romance",
       "Slice of Life",
@@ -8977,8 +8652,8 @@
     "english_title": "Aoashi Season 2",
     "episode": 2,
     "release_date": "2026-10-11",
-    "next_airing_date": "2026-10-18",
-    "next_episode_number": 3,
+    "next_airing_date": "2026-10-25",
+    "next_episode_number": 4,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx191788-XC6F24LdX6a4.jpg",
     "trailer": {
       "id": "phKPnPXm74c",
@@ -9000,10 +8675,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 23829,
+    "popularity": 23996,
     "anilist_score": 79,
     "recently_finished": false,
-    "popularity_rank": 20,
+    "popularity_rank": 19,
     "genres": [
       "Sports"
     ],
@@ -9050,10 +8725,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 22662,
+    "popularity": 22929,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 24,
+    "popularity_rank": 23,
     "genres": [
       "Comedy",
       "Ecchi",
@@ -9083,8 +8758,8 @@
     "english_title": "Ace of the Diamond act II -Second Season-",
     "episode": 1,
     "release_date": "2026-10-11",
-    "next_airing_date": "2026-10-18",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-10-25",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213658-D3BPJaqawLxS.png",
     "trailer": {
       "id": "kLbI4teuPTc",
@@ -9101,10 +8776,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 3694,
-    "anilist_score": 73,
+    "popularity": 3742,
+    "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 65,
+    "popularity_rank": 64,
     "genres": [
       "Sports"
     ],
@@ -9156,10 +8831,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23440,
+    "popularity": 23820,
     "anilist_score": 81,
     "recently_finished": false,
-    "popularity_rank": 21,
+    "popularity_rank": 20,
     "genres": [
       "Action",
       "Adventure",
@@ -9219,10 +8894,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 3389,
-    "anilist_score": 58,
+    "popularity": 3414,
+    "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 66,
+    "popularity_rank": 65,
     "genres": [
       "Action",
       "Drama"
@@ -9270,10 +8945,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5423,
-    "anilist_score": 63,
+    "popularity": 5473,
+    "anilist_score": 64,
     "recently_finished": false,
-    "popularity_rank": 60,
+    "popularity_rank": 59,
     "genres": [
       "Adventure",
       "Fantasy",
@@ -9311,10 +8986,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=oceanveil.net&sz=32"
       }
     ],
-    "popularity": 11473,
+    "popularity": 11555,
     "anilist_score": 49,
     "recently_finished": false,
-    "popularity_rank": 48,
+    "popularity_rank": 47,
     "genres": [
       "Drama",
       "Ecchi",
@@ -9357,10 +9032,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 22262,
+    "popularity": 22500,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 26,
+    "popularity_rank": 25,
     "genres": [
       "Action",
       "Comedy",
@@ -9476,10 +9151,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 5098,
+    "popularity": 5129,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 61,
+    "popularity_rank": 60,
     "genres": [
       "Comedy",
       "Slice of Life"
@@ -9516,7 +9191,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12859,
+    "popularity": 13220,
     "anilist_score": 63,
     "recently_finished": false,
     "popularity_rank": 44,
@@ -9556,10 +9231,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 7838,
-    "anilist_score": 61,
+    "popularity": 7916,
+    "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 53,
+    "popularity_rank": 52,
     "genres": [
       "Action",
       "Sci-Fi"
@@ -9596,10 +9271,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 40755,
+    "popularity": 41498,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 11,
+    "popularity_rank": 10,
     "genres": [
       "Action",
       "Adventure",
@@ -9643,10 +9318,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 25897,
+    "popularity": 26079,
     "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 18,
+    "popularity_rank": 17,
     "genres": [
       "Adventure",
       "Fantasy"
@@ -9694,10 +9369,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 11171,
+    "popularity": 11304,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 49,
+    "popularity_rank": 48,
     "genres": [
       "Comedy",
       "Fantasy",
@@ -9717,8 +9392,8 @@
     "english_title": "Mission: Yozakura Family Season 2 Part 2",
     "episode": 1,
     "release_date": "2026-10-11",
-    "next_airing_date": "2026-10-18",
-    "next_episode_number": 2,
+    "next_airing_date": "2026-10-25",
+    "next_episode_number": 3,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213657-ORNXVEBCjXaz.jpg",
     "trailer": {
       "id": "059cJjeY19Y",
@@ -9729,10 +9404,10 @@
     "start_date": "2026-10-11",
     "end_date": null,
     "streaming_links": [],
-    "popularity": 8632,
-    "anilist_score": 70,
+    "popularity": 8728,
+    "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 52,
+    "popularity_rank": 51,
     "genres": [
       "Action",
       "Comedy",
@@ -9791,7 +9466,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
       }
     ],
-    "popularity": 93386,
+    "popularity": 93605,
     "anilist_score": 89,
     "recently_finished": false,
     "popularity_rank": 2,
@@ -9843,10 +9518,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 23364,
+    "popularity": 23773,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 23,
+    "popularity_rank": 21,
     "genres": [
       "Fantasy",
       "Romance"
@@ -9855,7 +9530,7 @@
     "tags": [
       {
         "name": "Nudity",
-        "rank": 20
+        "rank": 10
       }
     ],
     "prequels": [],
@@ -9898,10 +9573,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 7025,
+    "popularity": 7053,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 54,
+    "popularity_rank": 53,
     "genres": [
       "Action",
       "Fantasy",
@@ -9951,10 +9626,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 19542,
+    "popularity": 19698,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 29,
+    "popularity_rank": 28,
     "genres": [
       "Action",
       "Adventure",
@@ -9997,10 +9672,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 17840,
+    "popularity": 18054,
     "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 35,
+    "popularity_rank": 34,
     "genres": [
       "Action",
       "Adventure",
@@ -10041,10 +9716,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 13802,
+    "popularity": 13940,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 42,
+    "popularity_rank": 41,
     "genres": [
       "Comedy",
       "Romance"
@@ -10092,7 +9767,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 6418,
+    "popularity": 6489,
     "anilist_score": 64,
     "recently_finished": false,
     "popularity_rank": 56,
@@ -10137,10 +9812,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 6749,
+    "popularity": 6801,
     "anilist_score": 59,
     "recently_finished": false,
-    "popularity_rank": 55,
+    "popularity_rank": 54,
     "genres": [
       "Action",
       "Adventure",
@@ -10178,10 +9853,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
       }
     ],
-    "popularity": 22327,
+    "popularity": 22838,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 25,
+    "popularity_rank": 24,
     "genres": [
       "Action",
       "Fantasy"
@@ -10218,7 +9893,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 18339,
+    "popularity": 18547,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 33,
@@ -10258,10 +9933,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 11574,
+    "popularity": 11603,
     "anilist_score": 61,
     "recently_finished": false,
-    "popularity_rank": 47,
+    "popularity_rank": 46,
     "genres": [
       "Action",
       "Adventure",
@@ -10306,10 +9981,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 33011,
+    "popularity": 33832,
     "anilist_score": 74,
     "recently_finished": false,
-    "popularity_rank": 16,
+    "popularity_rank": 15,
     "genres": [
       "Adventure",
       "Comedy",
@@ -10348,10 +10023,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 30173,
-    "anilist_score": 69,
+    "popularity": 30396,
+    "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 17,
+    "popularity_rank": 16,
     "genres": [
       "Action",
       "Adventure",
@@ -10405,10 +10080,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 10832,
+    "popularity": 10952,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 50,
+    "popularity_rank": 49,
     "genres": [
       "Adventure",
       "Fantasy",
@@ -10447,7 +10122,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 14019,
+    "popularity": 14104,
     "anilist_score": 68,
     "recently_finished": false,
     "popularity_rank": 40,
@@ -10504,10 +10179,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 14478,
-    "anilist_score": 68,
+    "popularity": 14814,
+    "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 39,
+    "popularity_rank": 38,
     "genres": [
       "Action",
       "Comedy",
@@ -10545,10 +10220,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 24993,
-    "anilist_score": 71,
+    "popularity": 25101,
+    "anilist_score": 72,
     "recently_finished": false,
-    "popularity_rank": 19,
+    "popularity_rank": 18,
     "genres": [
       "Comedy",
       "Drama",
@@ -10609,10 +10284,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 50435,
+    "popularity": 50668,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 8,
+    "popularity_rank": 7,
     "genres": [
       "Action",
       "Adventure",
@@ -10666,10 +10341,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 16439,
+    "popularity": 16664,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 36,
+    "popularity_rank": 35,
     "genres": [
       "Drama",
       "Slice of Life"
@@ -10700,10 +10375,10 @@
     "start_date": "2026-10-08",
     "end_date": "2026-12-24",
     "streaming_links": [],
-    "popularity": 3939,
+    "popularity": 3955,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 63,
+    "popularity_rank": 62,
     "genres": [
       "Comedy"
     ],
@@ -10739,10 +10414,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 18568,
+    "popularity": 18844,
     "anilist_score": 67,
     "recently_finished": false,
-    "popularity_rank": 32,
+    "popularity_rank": 31,
     "genres": [
       "Action",
       "Adventure",
@@ -10791,10 +10466,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 34268,
+    "popularity": 34593,
     "anilist_score": 81,
     "recently_finished": false,
-    "popularity_rank": 15,
+    "popularity_rank": 14,
     "genres": [
       "Comedy",
       "Drama",
@@ -10849,10 +10524,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 3773,
-    "anilist_score": 59,
+    "popularity": 3849,
+    "anilist_score": 58,
     "recently_finished": false,
-    "popularity_rank": 64,
+    "popularity_rank": 63,
     "genres": [
       "Slice of Life"
     ],
@@ -10893,8 +10568,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 70522,
-    "anilist_score": 68,
+    "popularity": 70810,
+    "anilist_score": 67,
     "recently_finished": false,
     "popularity_rank": 6,
     "genres": [
@@ -10933,10 +10608,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 38429,
+    "popularity": 39858,
     "anilist_score": 75,
     "recently_finished": false,
-    "popularity_rank": 12,
+    "popularity_rank": 11,
     "genres": [
       "Drama",
       "Romance"
@@ -10973,10 +10648,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 43347,
-    "anilist_score": 85,
+    "popularity": 43866,
+    "anilist_score": 86,
     "recently_finished": false,
-    "popularity_rank": 10,
+    "popularity_rank": 9,
     "genres": [
       "Action",
       "Adventure",
@@ -11032,7 +10707,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 99660,
+    "popularity": 100579,
     "anilist_score": 85,
     "recently_finished": false,
     "popularity_rank": 1,
@@ -11093,7 +10768,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 19108,
+    "popularity": 19211,
     "anilist_score": 85,
     "recently_finished": false,
     "popularity_rank": 30,
@@ -11146,7 +10821,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12864,
+    "popularity": 13335,
     "anilist_score": 70,
     "recently_finished": false,
     "popularity_rank": 43,
@@ -11191,10 +10866,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
       }
     ],
-    "popularity": 34990,
+    "popularity": 35321,
     "anilist_score": 76,
     "recently_finished": false,
-    "popularity_rank": 14,
+    "popularity_rank": 13,
     "genres": [
       "Action",
       "Drama",
@@ -11259,10 +10934,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 18282,
+    "popularity": 18548,
     "anilist_score": 71,
     "recently_finished": false,
-    "popularity_rank": 34,
+    "popularity_rank": 32,
     "genres": [
       "Action",
       "Mystery",
@@ -11311,10 +10986,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12290,
+    "popularity": 12373,
     "anilist_score": 69,
     "recently_finished": false,
-    "popularity_rank": 46,
+    "popularity_rank": 45,
     "genres": [
       "Comedy",
       "Romance",
@@ -11352,10 +11027,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 9766,
+    "popularity": 10038,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 51,
+    "popularity_rank": 50,
     "genres": [
       "Action",
       "Comedy",
@@ -11395,7 +11070,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 92128,
+    "popularity": 93595,
     "anilist_score": 86,
     "recently_finished": false,
     "popularity_rank": 3,
@@ -11448,10 +11123,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=v.qq.com&sz=32"
       }
     ],
-    "popularity": 2735,
-    "anilist_score": 64,
+    "popularity": 2807,
+    "anilist_score": 66,
     "recently_finished": false,
-    "popularity_rank": 67,
+    "popularity_rank": 66,
     "genres": [
       "Action",
       "Fantasy"
@@ -11504,10 +11179,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 18752,
+    "popularity": 19662,
     "anilist_score": 60,
     "recently_finished": false,
-    "popularity_rank": 31,
+    "popularity_rank": 29,
     "genres": [
       "Action",
       "Adventure",
@@ -11541,10 +11216,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 5641,
+    "popularity": 5840,
     "anilist_score": 50,
     "recently_finished": false,
-    "popularity_rank": 58,
+    "popularity_rank": 57,
     "genres": [
       "Horror",
       "Mystery",
@@ -11582,10 +11257,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 19916,
+    "popularity": 20664,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 28,
+    "popularity_rank": 27,
     "genres": [
       "Action",
       "Adventure",
@@ -11630,10 +11305,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
       }
     ],
-    "popularity": 6313,
+    "popularity": 6500,
     "anilist_score": 63,
     "recently_finished": false,
-    "popularity_rank": 57,
+    "popularity_rank": 55,
     "genres": [
       "Comedy",
       "Fantasy",
@@ -11682,7 +11357,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 80710,
+    "popularity": 80746,
     "anilist_score": 82,
     "recently_finished": false,
     "popularity_rank": 4,
@@ -11724,7 +11399,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 16296,
+    "popularity": 16506,
     "anilist_score": 77,
     "recently_finished": false,
     "popularity_rank": 37,
@@ -11781,10 +11456,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 13832,
-    "anilist_score": 69,
+    "popularity": 14418,
+    "anilist_score": 70,
     "recently_finished": false,
-    "popularity_rank": 41,
+    "popularity_rank": 39,
     "genres": [
       "Adventure",
       "Drama",
@@ -11822,10 +11497,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=oceanveil.net&sz=32"
       }
     ],
-    "popularity": 38195,
+    "popularity": 39445,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 13,
+    "popularity_rank": 12,
     "genres": [
       "Comedy",
       "Ecchi",
@@ -11868,10 +11543,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 12576,
+    "popularity": 13452,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 45,
+    "popularity_rank": 42,
     "genres": [
       "Action",
       "Drama",
@@ -11914,10 +11589,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 16102,
+    "popularity": 16658,
     "anilist_score": 68,
     "recently_finished": false,
-    "popularity_rank": 38,
+    "popularity_rank": 36,
     "genres": [
       "Action",
       "Adventure",
@@ -11955,10 +11630,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
       }
     ],
-    "popularity": 4403,
-    "anilist_score": 55,
+    "popularity": 4512,
+    "anilist_score": 54,
     "recently_finished": false,
-    "popularity_rank": 62,
+    "popularity_rank": 61,
     "genres": [
       "Action",
       "Mecha"
@@ -12000,10 +11675,10 @@
         "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
       }
     ],
-    "popularity": 21570,
+    "popularity": 21975,
     "anilist_score": 73,
     "recently_finished": false,
-    "popularity_rank": 27,
+    "popularity_rank": 26,
     "genres": [
       "Action",
       "Adventure",
@@ -12021,6 +11696,774 @@
         },
         "season": "FALL",
         "seasonYear": 2025
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
+  },
+  {
+    "id": 189123,
+    "mal_id": 61323,
+    "name": "Ao no Hako Season 2",
+    "english_title": "Blue Box Season 2",
+    "episode": 3,
+    "release_date": "2026-10-18",
+    "next_airing_date": "2026-10-25",
+    "next_episode_number": 4,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189123-0secXELIhkIW.jpg",
+    "trailer": {
+      "id": "hJ6Y8PAOUk8",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/hJ6Y8PAOUk8/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/189123",
+    "start_date": "2026-10-04",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81663323",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 47883,
+    "anilist_score": 81,
+    "recently_finished": false,
+    "popularity_rank": 8,
+    "genres": [
+      "Romance",
+      "Slice of Life",
+      "Sports"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [
+      {
+        "id": 170942,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Ao no Hako",
+          "english": "Blue Box"
+        },
+        "season": "FALL",
+        "seasonYear": 2024
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
+  },
+  {
+    "id": 191788,
+    "mal_id": 61603,
+    "name": "Aoashi 2nd Season",
+    "english_title": "Aoashi Season 2",
+    "episode": 3,
+    "release_date": "2026-10-18",
+    "next_airing_date": "2026-10-25",
+    "next_episode_number": 4,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx191788-XC6F24LdX6a4.jpg",
+    "trailer": {
+      "id": "phKPnPXm74c",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/phKPnPXm74c/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/191788",
+    "start_date": "2026-10-04",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/aoashi",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLYavYYpKm3cc",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 23996,
+    "anilist_score": 79,
+    "recently_finished": false,
+    "popularity_rank": 19,
+    "genres": [
+      "Sports"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [
+      {
+        "id": 134732,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Aoashi",
+          "english": "Aoashi"
+        },
+        "season": "SPRING",
+        "seasonYear": 2022
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
+  },
+  {
+    "id": 208025,
+    "mal_id": 63509,
+    "name": "Dark Summoner to Dekiteiru",
+    "english_title": "I'm Dating a Dark Summoner",
+    "episode": 3,
+    "release_date": "2026-10-18",
+    "next_airing_date": "2026-10-18",
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx208025-JKvqWNr8rz8l.jpg",
+    "trailer": {
+      "id": "-YCols5lYow",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/-YCols5lYow/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/208025",
+    "start_date": "2026-10-05",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "HIDIVE",
+        "url": "https://www.hidive.com/season/39541",
+        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
+      }
+    ],
+    "popularity": 22929,
+    "anilist_score": 67,
+    "recently_finished": false,
+    "popularity_rank": 23,
+    "genres": [
+      "Comedy",
+      "Ecchi",
+      "Fantasy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": [
+      {
+        "name": "Nudity",
+        "rank": 92
+      },
+      {
+        "name": "Hypersexuality",
+        "rank": 55
+      }
+    ],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
+  },
+  {
+    "id": 213658,
+    "mal_id": 64505,
+    "name": "Diamond no Ace act II: Second Season Part 2",
+    "english_title": "Ace of the Diamond act II -Second Season-",
+    "episode": 2,
+    "release_date": "2026-10-18",
+    "next_airing_date": "2026-10-25",
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213658-D3BPJaqawLxS.png",
+    "trailer": {
+      "id": "kLbI4teuPTc",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/kLbI4teuPTc/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/213658",
+    "start_date": "2026-10-11",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GYX0MZ58R/ace-of-the-diamond",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 3742,
+    "anilist_score": 74,
+    "recently_finished": false,
+    "popularity_rank": 64,
+    "genres": [
+      "Sports"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [
+      {
+        "id": 177634,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Diamond no Ace act II: Second Season",
+          "english": "Ace of the Diamond act II -Second Season-"
+        },
+        "season": "SPRING",
+        "seasonYear": 2026
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
+  },
+  {
+    "id": 206814,
+    "mal_id": 63367,
+    "name": "Dragon Ball Super: Beerus",
+    "english_title": "Dragon Ball Super: Beerus",
+    "episode": 2,
+    "release_date": "2026-10-18",
+    "next_airing_date": "2026-10-18",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206814-PVVzRbf1IQpe.jpg",
+    "trailer": {
+      "id": "CFgEL7ei8VE",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/CFgEL7ei8VE/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/206814",
+    "start_date": "2026-10-11",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/83189604",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00389311/dragon-ball-super-beerus",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 23820,
+    "anilist_score": 81,
+    "recently_finished": false,
+    "popularity_rank": 20,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [
+      {
+        "id": 813,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Dragon Ball Z",
+          "english": "Dragon Ball Z"
+        },
+        "season": "SPRING",
+        "seasonYear": 1989
+      },
+      {
+        "id": 20635,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Dragon Ball Kai (2014)",
+          "english": "Dragon Ball Z Kai: The Final Chapters"
+        },
+        "season": "SPRING",
+        "seasonYear": 2014
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
+  },
+  {
+    "id": 199426,
+    "mal_id": 62590,
+    "name": "Hotel Inhumans 2nd Season",
+    "english_title": "HOTEL INHUMANS Season 2",
+    "episode": 3,
+    "release_date": "2026-10-18",
+    "next_airing_date": "2026-10-18",
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199426-0nBgTV9BrcJn.jpg",
+    "trailer": null,
+    "site_url": "https://anilist.co/anime/199426",
+    "start_date": "2026-10-04",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GXJHM3G08/hotel-inhumans",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLL3w2EaZKrjI",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 3414,
+    "anilist_score": 59,
+    "recently_finished": false,
+    "popularity_rank": 65,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [
+      {
+        "id": 184034,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Hotel Inhumans",
+          "english": "HOTEL INHUMANS"
+        },
+        "season": "SUMMER",
+        "seasonYear": 2025
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
+  },
+  {
+    "id": 209463,
+    "mal_id": 63753,
+    "name": "Kanata Kara",
+    "english_title": "From Far Away",
+    "episode": 3,
+    "release_date": "2026-10-18",
+    "next_airing_date": "2026-10-18",
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209463-Yxk2q10RXgg8.jpg",
+    "trailer": {
+      "id": "dLRKywRu3iM",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/dLRKywRu3iM/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/209463",
+    "start_date": "2026-10-05",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00384000/from-far-away",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 5473,
+    "anilist_score": 64,
+    "recently_finished": false,
+    "popularity_rank": 59,
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
+  },
+  {
+    "id": 211877,
+    "mal_id": 64131,
+    "name": "Kanojo no Tomodachi",
+    "english_title": "My Girlfriend's Friend",
+    "episode": 3,
+    "release_date": "2026-10-18",
+    "next_airing_date": "2026-10-18",
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx211877-yWQ2r7XmWvG6.jpg",
+    "trailer": {
+      "id": "E-stx_wwVSs",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/E-stx_wwVSs/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/211877",
+    "start_date": "2026-10-05",
+    "end_date": "2026-12-21",
+    "streaming_links": [
+      {
+        "site": "OceanVeil",
+        "url": "https://oceanveil.net/",
+        "icon": "https://www.google.com/s2/favicons?domain=oceanveil.net&sz=32"
+      }
+    ],
+    "popularity": 11555,
+    "anilist_score": 49,
+    "recently_finished": false,
+    "popularity_rank": 47,
+    "genres": [
+      "Drama",
+      "Ecchi",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": [
+      {
+        "name": "Nudity",
+        "rank": 90
+      }
+    ],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
+  },
+  {
+    "id": 186541,
+    "mal_id": 60948,
+    "name": "Mezametara Saikyou Soubi to Uchuusen-mochi datta node, Ikkodate Mezashite Youhei to shite Jiyuu ni Ikitai",
+    "english_title": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!",
+    "episode": 3,
+    "release_date": "2026-10-18",
+    "next_airing_date": "2026-10-18",
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186541-caYpLsLmbCh7.jpg",
+    "trailer": {
+      "id": "Z9ofT53sz2U",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/Z9ofT53sz2U/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/186541",
+    "start_date": "2026-10-04",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00384006/reborn-as-a-space-mercenary-i-woke-up-piloting-the-strongest-starship",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 22500,
+    "anilist_score": 68,
+    "recently_finished": false,
+    "popularity_rank": 25,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Drama",
+      "Mecha",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
+  },
+  {
+    "id": 202079,
+    "mal_id": 62907,
+    "name": "Oji-san wa Kawaii Mono ga Osuki.",
+    "english_title": "Uncle's Obsession with Cute Things",
+    "episode": 3,
+    "release_date": "2026-10-18",
+    "next_airing_date": "2026-10-18",
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202079-nwBpDUms0Bab.png",
+    "trailer": {
+      "id": "YKgjylmYeoA",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/YKgjylmYeoA/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/202079",
+    "start_date": "2026-10-04",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00385445/uncles-obsession-with-cute-things",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLTx6Ft3jb3mg",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 5129,
+    "anilist_score": 60,
+    "recently_finished": false,
+    "popularity_rank": 60,
+    "genres": [
+      "Comedy",
+      "Slice of Life"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
+  },
+  {
+    "id": 205896,
+    "mal_id": 63292,
+    "name": "Shinja Zero no Megami-sama to Hajimeru Isekai Kouryaku",
+    "english_title": "Full Clearing Another World under a Goddess with Zero Believers",
+    "episode": 2,
+    "release_date": "2026-10-18",
+    "next_airing_date": "2026-10-18",
+    "next_episode_number": 2,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205896-ElrV8oVAsuax.jpg",
+    "trailer": {
+      "id": "qlMB8vSpLzc",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/qlMB8vSpLzc/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/205896",
+    "start_date": "2026-10-11",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00383992/full-clearing-another-world-under-a-goddess-with-zero-believers",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 13220,
+    "anilist_score": 63,
+    "recently_finished": false,
+    "popularity_rank": 44,
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
+  },
+  {
+    "id": 209499,
+    "mal_id": 63751,
+    "name": "TANK CHAIR: Sensha Isu",
+    "english_title": "TANK CHAIR",
+    "episode": 3,
+    "release_date": "2026-10-18",
+    "next_airing_date": "2026-10-18",
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209499-S0sWFrCpft85.jpg",
+    "trailer": {
+      "id": "ihAvU833DHA",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/ihAvU833DHA/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/209499",
+    "start_date": "2026-10-04",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Prime Video",
+        "url": "https://www.primevideo.com/detail/0FYBTVJ1JB731K9U0XDE7U20F1",
+        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+      }
+    ],
+    "popularity": 7916,
+    "anilist_score": 60,
+    "recently_finished": false,
+    "popularity_rank": 52,
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
+  },
+  {
+    "id": 212888,
+    "mal_id": 64340,
+    "name": "Tempal: Item no Chikara",
+    "english_title": "Overgeared",
+    "episode": 4,
+    "release_date": "2026-10-18",
+    "next_airing_date": "2026-10-18",
+    "next_episode_number": 4,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212888-NhyvqPt5aIuJ.jpg",
+    "trailer": {
+      "id": "e1Km0FqUZl0",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/e1Km0FqUZl0/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/212888",
+    "start_date": "2026-09-27",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00384004",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 41498,
+    "anilist_score": 75,
+    "recently_finished": false,
+    "popularity_rank": 10,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
+  },
+  {
+    "id": 185756,
+    "mal_id": 60601,
+    "name": "Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season",
+    "english_title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World Season 3",
+    "episode": 4,
+    "release_date": "2026-10-18",
+    "next_airing_date": "2026-10-18",
+    "next_episode_number": 4,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185756-xPCl0RyQ7fXD.jpg",
+    "trailer": {
+      "id": "8_Lxr7vO9l0",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/8_Lxr7vO9l0/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/185756",
+    "start_date": "2026-09-27",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GG5H5XQMD/as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-to-rise-in-the-world",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLfEwGegYhFGY",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 26079,
+    "anilist_score": 70,
+    "recently_finished": false,
+    "popularity_rank": 17,
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [
+      {
+        "id": 178434,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Tensei Kizoku, Kantei Skill de Nariagaru 2nd Season",
+          "english": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World Season 2"
+        },
+        "season": "FALL",
+        "seasonYear": 2024
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
+  },
+  {
+    "id": 200455,
+    "mal_id": 62753,
+    "name": "Yowaki MAX Reijou Nano ni, Ratsuwan Konyakusha-sama no Kake ni Notte Shimatta",
+    "english_title": "Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé",
+    "episode": 3,
+    "release_date": "2026-10-18",
+    "next_airing_date": "2026-10-18",
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx200455-P3XStRQMJ7Di.png",
+    "trailer": {
+      "id": "e41RGxVwJRs",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/e41RGxVwJRs/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/200455",
+    "start_date": "2026-10-04",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00365562",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 11304,
+    "anilist_score": 67,
+    "recently_finished": false,
+    "popularity_rank": 48,
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING"
+  },
+  {
+    "id": 213657,
+    "mal_id": 64503,
+    "name": "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
+    "english_title": "Mission: Yozakura Family Season 2 Part 2",
+    "episode": 2,
+    "release_date": "2026-10-18",
+    "next_airing_date": "2026-10-25",
+    "next_episode_number": 3,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213657-ORNXVEBCjXaz.jpg",
+    "trailer": {
+      "id": "059cJjeY19Y",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/059cJjeY19Y/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/213657",
+    "start_date": "2026-10-11",
+    "end_date": null,
+    "streaming_links": [],
+    "popularity": 8728,
+    "anilist_score": 71,
+    "recently_finished": false,
+    "popularity_rank": 51,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [
+      {
+        "id": 182578,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Yozakura-san Chi no Daisakusen 2nd Season",
+          "english": "Mission: Yozakura Family Season 2"
+        },
+        "season": "SPRING",
+        "seasonYear": 2026
       }
     ],
     "season": "FALL",
