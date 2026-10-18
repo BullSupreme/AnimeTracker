@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     function restructureForTable() {
         // Restructure anime cards for table layout
-        const animeCards = document.querySelectorAll('.anime-card:not(.table-header)');
+        const animeCards = document.querySelectorAll('#list-view .anime-card:not(.table-header)');
         animeCards.forEach(card => {
             // Skip if already restructured
             if (card.querySelector('.table-cell-poster')) return;
@@ -251,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     function restructureForCompact() {
         // Restructure card-info for compact layout
-        const animeCards = document.querySelectorAll('.anime-card');
+        const animeCards = document.querySelectorAll('#list-view .anime-card');
         animeCards.forEach(card => {
             const cardInfo = card.querySelector('.card-info');
             if (!cardInfo || cardInfo.querySelector('.anime-info-text')) return;
@@ -854,7 +854,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Initialize anime cards
-    const animeCards = document.querySelectorAll('.anime-card');
+    const animeCards = document.querySelectorAll('.anime-card:not(.table-header)');
     let currentCard = null;
     let currentAnimeData = null;
 
@@ -888,17 +888,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Update custom link indicator
         const customLinkBadge = card.querySelector('.custom-link-badge');
-        if (linkChanged) {
+        if (linkChanged && customLinkBadge) {
             customLinkBadge.style.display = 'block';
             updateFavicon(customLinkBadge, currentLink);
         }
 
         // Update favorite state
-        const favoriteBtn = card.querySelector('.favorite-btn');
         const favoriteIcon = card.querySelector('.favorite-icon');
         if (favorites.includes(animeId)) {
             card.classList.add('favorite');
-            favoriteIcon.textContent = '';
+            if (favoriteIcon) favoriteIcon.textContent = '';
         }
 
         // Card click handler
@@ -917,7 +916,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
 
-            if (listView.classList.contains('layout-poster')) {
+            if (card.closest('#list-view') && listView.classList.contains('layout-poster')) {
                 const anime = findAnimeForCard(card);
                 if (anime) {
                     showAnimeModal(anime);
@@ -937,11 +936,14 @@ document.addEventListener('DOMContentLoaded', () => {
             showContextMenu(e.pageX, e.pageY);
         });
 
-        // Favorite button click
-        favoriteBtn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            toggleFavorite(animeId);
-        });
+    });
+
+    // Delegation survives card markup being rebuilt by the layout selector.
+    document.addEventListener('click', event => {
+        const button = event.target.closest('.anime-card .favorite-btn[data-anime-id]');
+        if (!button) return;
+        event.stopPropagation();
+        toggleFavorite(button.dataset.animeId);
     });
 
     // Update favicon function

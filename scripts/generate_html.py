@@ -5,6 +5,10 @@ from datetime import datetime, timedelta
 import os
 import re
 try:
+    from .recent_days import build_recent_days
+except ImportError:
+    from recent_days import build_recent_days
+try:
     from .airing_window import is_paused_past_season
 except ImportError:
     from airing_window import is_paused_past_season
@@ -148,6 +152,75 @@ def icon_img(name, label="", extra_class=""):
         classes += f" {extra_class}"
     alt = escape_attr(label)
     return f'<img class="{classes}" src="{ICON_BASE}/{escape_attr(name)}.png" alt="{alt}" loading="lazy">'
+
+
+def build_recent_days_ui(days, rankings, manual_links, custom_links, nine_links):
+    buttons, panels = [], []
+    for offset, day in enumerate(days):
+        day_date = datetime.strptime(day['date'], '%Y-%m-%d')
+        label = 'Today' if offset == 0 else 'Yesterday' if offset == 1 else day_date.strftime('%A')
+        heading = f'{label} - {day_date.strftime("%b %d, %Y")}'
+        posters = ''.join(f'<img src="{escape_attr(a.get("poster_url", ""))}" alt="" loading="lazy">'
+                          for a in day['anime'][:4])
+        remainder = len(day['anime']) - 4
+        if remainder > 0:
+            posters += f'<span class="recent-day-more">+{remainder}</span>'
+        if not day['anime']:
+            posters = '<span class="recent-day-empty">No saved releases</span>'
+        buttons.append(f'''<button class="recent-day-button" type="button" data-recent-day="{day['date']}"
+            data-day-title="{escape_attr(heading)}" aria-expanded="false" aria-controls="recent-lineup-{day['date']}"
+            aria-label="{escape_attr(heading)}: {len(day['anime'])} anime">
+            <span class="recent-day-label"><strong>{label}</strong><small>{day_date.strftime('%b %d')}</small></span>
+            <span class="recent-day-posters">{posters}</span></button>''')
+        cards = []
+        for anime in day['anime']:
+            anime = dict(anime, season_ranking=rankings.get(anime['id']))
+            anime['continuation_badges'] = get_continuation_badges(anime, day_date.date())
+            name = anime.get('name') or ''
+            english = anime.get('english_title') or ''
+            site = anime.get('site_url') or f'https://anilist.co/anime/{anime["id"]}'
+            link = custom_links.get(name) or site
+            nine = find_9anime_link(name, english, nine_links)
+            nine_button = f'<a href="{escape_attr(nine)}" target="_blank" rel="noopener noreferrer" class="nine-anime-btn">9anime</a>' if nine else ''
+            streams = normalize_streaming_links(anime.get('streaming_links'), name, english)
+            streams += normalize_streaming_links(manual_links.get(name), name, english)
+            seen = set()
+            stream_html = ''
+            for stream in streams:
+                if not stream.get('url') or stream.get('site') in seen:
+                    continue
+                seen.add(stream.get('site'))
+                stream_html += (f'<a href="{escape_attr(stream["url"])}" target="_blank" rel="noopener noreferrer"'
+                                f' data-tooltip="{escape_attr(stream.get("site"))}" class="streaming-link">'
+                                f'<img src="{escape_attr(stream.get("icon"))}" alt="{escape_attr(stream.get("site"))}"></a>')
+            stream_html = f'<div class="streaming-links-overlay">{stream_html}</div>' if stream_html else ''
+            english_html = f'<div class="anime-english-title">{html_lib.escape(english)}</div>' if english else ''
+            ranking = anime.get('season_ranking') or {}
+            rank = ranking.get('rank') or anime.get('popularity_rank')
+            rank_badge = (f'<div class="popularity-rank-badge" data-tooltip="Season popularity rank #{rank}">#{rank}</div>') if rank else ''
+            cards.append('\n'.join(line.rstrip() for line in f'''<div class="anime-card other-anime-card recent-lineup-card" data-name="{escape_attr(name)}"
+                data-anime-id="{anime['id']}" data-link="{escape_attr(link)}" data-site-url="{escape_attr(site)}"
+                data-release="{day['date']}" data-poster="{escape_attr(anime.get('poster_url'))}"{trailer_data_attrs(anime)}>
+                <div class="card-image-wrapper">
+                    <img class="anime-poster" src="{escape_attr(anime.get('poster_url'))}" alt="{escape_attr(name)} poster" loading="lazy">
+                    {build_trailer_overlay(anime)}
+                    <div class="card-overlay"><button class="favorite-btn" type="button" data-anime-id="{anime['id']}" aria-label="Favorite {escape_attr(name)}"><span class="favorite-icon" aria-hidden="true"></span></button>{rank_badge}</div>
+                    <div class="custom-link-badge" style="display:none"><span class="custom-favicon"></span></div>
+                    {stream_html}</div>
+                <div class="card-info">{english_html}<h3 class="anime-title">{html_lib.escape(name)}</h3>
+                    <div class="episode-info"><span class="episode-badge">Episode {escape_attr(anime.get('episode') or '?')}</span>
+                        <a href="{escape_attr(site)}" target="_blank" rel="noopener noreferrer" class="main-link-btn">anilist.co</a>{nine_button}
+                    </div>
+                </div>
+            </div>'''.splitlines()))
+        content = '<div class="anime-grid recent-day-grid">' + ''.join(cards) + '</div>' if cards else '<p class="recent-day-no-data">No releases saved for this day.</p>'
+        panels.append(f'<section id="recent-lineup-{day["date"]}" data-recent-lineup="{day["date"]}" hidden>{content}</section>')
+    return ('''<button id="recent-days-toggle" class="recent-days-toggle" type="button" aria-expanded="false" aria-controls="recent-days-rail">Last 7 days</button>
+        <aside id="recent-days-rail" class="recent-days-rail" aria-label="Recent seven days" hidden><h2>Recently aired</h2>'''
+        + ''.join(buttons) + '''</aside>
+        <section id="recent-day-popup" class="recent-day-popup" role="dialog" aria-modal="false" aria-labelledby="recent-day-title" hidden>
+            <div class="recent-day-popup-header"><h2 id="recent-day-title">Day lineup</h2><button class="recent-day-close" type="button" aria-label="Close day lineup">Close</button></div>'''
+        + ''.join(panels) + '</section>')
 
 
 def normalize_title(title):
@@ -357,6 +430,7 @@ def generate_html():
     anime_data = [anime for anime in anime_data if not is_paused_past_season(anime, airing_today)]
     other_anime_sorted = [anime for anime in other_anime_sorted if not is_paused_past_season(anime, airing_today)]
     catalog_path = 'data/all_anime_catalog.json'
+    season_rankings = {}
     if os.path.exists(catalog_path):
         with open(catalog_path, encoding='utf-8') as f:
             season_rankings = build_season_rankings(json.load(f))
@@ -388,6 +462,9 @@ def generate_html():
     if os.path.exists('data/custom_links.json'):
         with open('data/custom_links.json', 'r', encoding='utf-8') as f:
             custom_links = json.load(f)
+
+    recent_days = build_recent_days(calendar_history, anime_data + other_anime_sorted + recently_finished_anime, today_date)
+    recent_days_html = build_recent_days_ui(recent_days, season_rankings, manual_streaming_links, custom_links, nine_anime_links)
     
     html_content = f"""<!DOCTYPE html>
 <html lang="en">
@@ -399,6 +476,7 @@ def generate_html():
         <link rel="stylesheet" href="css/season-rarity.css">
         <link rel="stylesheet" href="css/content-warnings.css">
         <link rel="stylesheet" href="css/continuation.css">
+        <link rel="stylesheet" href="css/recent-days.css">
     </head>
     <body>
         <header>
@@ -889,6 +967,7 @@ def generate_html():
                 </div>
             </div>
         </main>
+        """ + recent_days_html + """
         <!-- Expanded Anime Modal -->
         <div id="anime-modal" class="modal">
             <div class="modal-content">
@@ -932,6 +1011,7 @@ def generate_html():
         </script>
         <script src="js/script.js"></script>
         <script src="js/season-countdown.js"></script>
+        <script src="js/recent-days.js"></script>
     </body>
 </html>"""
     
