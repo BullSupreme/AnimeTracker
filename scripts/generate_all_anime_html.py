@@ -901,6 +901,7 @@ def generate_html(catalog):
     renderAnime();
     window.catalogDiscovery = {{ catalog: ALL_ANIME_DATA, toggleFavorite, isFavorite }};
     </script>
+    <script src="js/catalog-history.js"></script>
     <script src="js/catalog-discovery.js"></script>
 </body>
 </html>

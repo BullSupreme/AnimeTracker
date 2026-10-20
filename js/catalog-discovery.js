@@ -81,30 +81,55 @@
         return typeof value === 'number' && Number.isFinite(value) && value > 0 && value <= maximum ? `${value}/${maximum}` : 'No score available';
     }
 
-    function renderHistory(nodes) {
-        const unique = new Map();
-        for (const node of nodes || []) {
-            if (Number.isFinite(node.date) && node.date > 0 && Number.isFinite(node.averageScore) && node.averageScore > 0 && node.averageScore <= 100) unique.set(node.date, node);
-        }
-        const points = [...unique.values()].sort((a, b) => a.date - b.date);
+    function renderHistory(nodes, season) {
+        const points = window.catalogScoreHistory.seasonPoints(nodes, season);
         const target = body.querySelector('[data-history]');
         if (points.length < 2) {
-            target.innerHTML = '<p class="catalog-detail-note">Not enough recorded scores for a chart. Missing history is not estimated.</p>';
+            target.innerHTML = `<p class="catalog-detail-note">Not enough recorded scores for ${escape(season.label)}. Missing history is not estimated or replaced with recent scores.</p>`;
             return;
         }
         const low = Math.max(0, Math.floor(Math.min(...points.map(p => p.averageScore))) - 2);
         const high = Math.min(100, Math.ceil(Math.max(...points.map(p => p.averageScore))) + 2);
-        const x = p => 40 + (p.date - points[0].date) / (points.at(-1).date - points[0].date) * 620;
+        const x = p => 40 + (p.date - season.start) / (season.end - 1 - season.start) * 620;
         const y = p => 154 - (p.averageScore - low) / Math.max(1, high - low) * 130;
         let segments = '';
         points.forEach((p, index) => { segments += `${index && p.date - points[index - 1].date <= 172800 ? 'L' : 'M'}${x(p).toFixed(1)},${y(p).toFixed(1)} `; });
-        const format = timestamp => new Date(timestamp * 1000).toLocaleDateString(undefined, { month: 'short', day: 'numeric', timeZone: 'UTC' });
-        target.innerHTML = `<svg class="catalog-history-chart" viewBox="0 0 700 190" role="img" aria-label="AniList daily scores, ${points.length} recorded observations, scale ${low} to ${high} out of 100">
+        const format = (timestamp, year = false) => new Date(timestamp * 1000).toLocaleDateString(undefined, { month: 'short', day: 'numeric', ...(year ? { year: 'numeric' } : {}), timeZone: 'UTC' });
+        target.innerHTML = `<p class="catalog-detail-note">${escape(season.label)} / ${escape(format(season.start, true))} - ${escape(format(season.end - 1, true))}</p>
+            <svg class="catalog-history-chart" viewBox="0 0 700 190" role="img" aria-label="${escape(season.label)} AniList daily scores, ${points.length} recorded observations, scale ${low} to ${high} out of 100">
             <line x1="40" y1="24" x2="660" y2="24"/><line x1="40" y1="154" x2="660" y2="154"/>
             <text x="5" y="28">${high}</text><text x="5" y="158">${low}</text><path d="${segments}"/>
-            ${points.map(p => `<circle cx="${x(p).toFixed(1)}" cy="${y(p).toFixed(1)}" r="3"><title>${escape(format(p.date))}: ${p.averageScore}/100</title></circle>`).join('')}
-            <text x="40" y="180">${escape(format(points[0].date))}</text><text x="660" y="180" text-anchor="end">${escape(format(points.at(-1).date))}</text></svg>
-            <p class="catalog-detail-note">Latest ${points.length} available daily scores from AniList, out of 100. Gaps longer than two days are not connected.</p>`;
+            ${points.map(p => `<circle cx="${x(p).toFixed(1)}" cy="${y(p).toFixed(1)}" r="3"><title>${escape(format(p.date, true))}: ${p.averageScore}/100</title></circle>`).join('')}
+            <text x="40" y="180">${escape(format(season.start))}</text><text x="660" y="180" text-anchor="end">${escape(format(season.end - 1))}</text></svg>
+            <p class="catalog-detail-note">${points.length} available daily scores during the original release season, out of 100. Gaps longer than two days are not connected.</p>`;
+    }
+
+    async function loadSeasonHistory(id, anime, isCurrent) {
+        const season = window.catalogScoreHistory.seasonWindow(anime);
+        if (!isCurrent()) return;
+        if (!season) {
+            body.querySelector('[data-history]').innerHTML = '<p class="catalog-detail-note">The original release season is unknown, so a seasonal chart is unavailable.</p>';
+            return;
+        }
+        if (season.start > Date.now() / 1000) {
+            body.querySelector('[data-history]').innerHTML = `<p class="catalog-detail-note">${escape(season.label)} has not started yet. No release-season scores are available.</p>`;
+            return;
+        }
+        const query = `query ($id: Int!, $start: Int!, $end: Int!, $page: Int!) {
+            Page(page: $page, perPage: 50) { pageInfo { hasNextPage }
+                mediaTrends(mediaId: $id, date_greater: $start, date_lesser: $end, sort: DATE) { date averageScore }
+            }
+        }`;
+        const nodes = [];
+        for (let page = 1; page <= 4; page++) {
+            const json = await request('https://graphql.anilist.co', JSON.stringify({ query,
+                variables: { id, start: season.start - 1, end: season.end, page } }));
+            if (!isCurrent()) return;
+            const result = json.data.Page;
+            nodes.push(...result.mediaTrends);
+            if (!result.pageInfo.hasNextPage) { renderHistory(nodes, season); return; }
+        }
+        throw new Error('Incomplete season history');
     }
 
     function renderRecommendations(edges, currentID) {
@@ -140,7 +165,7 @@
             <button type="button" data-detail-favorite>${app.isFavorite(anime.id) ? 'Favorited' : 'Add to favorites'}</button></div></div></div>
             <div class="catalog-detail-ratings"><div class="catalog-rating"><small>AniList community rating</small><strong data-anilist-score>${escape(score(anime.anilist_score, 100))}</strong><span data-anilist-note>${aniID ? 'Checking latest score...' : 'No linked AniList entry'}</span></div>
             <div class="catalog-rating"><small>MyAnimeList community rating</small><strong data-mal-score>${escape(score(anime.mal_score, 10))}</strong><span data-mal-note>${malID ? 'Loading via Jikan...' : 'No linked MAL entry'}</span></div></div>
-            <section class="catalog-detail-section"><h3>Score history</h3><div data-history><p class="catalog-detail-note">${aniID ? 'Loading AniList daily scores...' : 'Score history requires a linked AniList entry.'}</p></div></section>
+            <section class="catalog-detail-section"><h3>Score history</h3><div data-history><p class="catalog-detail-note">${aniID ? 'Loading original release-season scores...' : 'Score history requires a linked AniList entry.'}</p></div></section>
             <section class="catalog-detail-section"><h3>More like this</h3><p class="catalog-detail-note">Community recommendations from AniList, not generated guesses.</p><div data-recommendations><p class="catalog-detail-note">${aniID ? 'Loading recommendations...' : 'Recommendations require a linked AniList entry.'}</p></div></section>`;
         body.querySelector('[data-detail-favorite]').addEventListener('click', event => {
             app.toggleFavorite(anime.id);
@@ -151,8 +176,7 @@
         dialog.scrollTop = 0;
         const isCurrent = () => token === detailRequest && dialog.open;
         if (aniID) {
-            const query = `query ($id: Int!) { Media(id: $id, type: ANIME) { averageScore
-                trends(sort: DATE_DESC, perPage: 25) { nodes { date averageScore } }
+            const query = `query ($id: Int!) { Media(id: $id, type: ANIME) { averageScore season seasonYear startDate { year month day }
                 recommendations(sort: RATING_DESC, perPage: 25) { edges { node { mediaRecommendation {
                     id idMal title { romaji english } coverImage { large } averageScore popularity season seasonYear episodes status genres isAdult
                 } } } }
@@ -163,8 +187,14 @@
                 if (!media) throw new Error('No media');
                 body.querySelector('[data-anilist-score]').textContent = score(media.averageScore, 100);
                 body.querySelector('[data-anilist-note]').textContent = 'Latest available weighted average';
-                renderHistory(media.trends?.nodes);
                 renderRecommendations(media.recommendations?.edges, aniID);
+                const start = media.startDate;
+                const historyAnime = { ...anime, season: media.season || anime.season,
+                    season_year: media.seasonYear || anime.season_year,
+                    start_date: start?.year && start?.month ? `${start.year}-${String(start.month).padStart(2, '0')}` : anime.start_date };
+                loadSeasonHistory(aniID, historyAnime, isCurrent).catch(() => {
+                    if (isCurrent()) body.querySelector('[data-history]').innerHTML = '<p class="catalog-detail-note">Season history is temporarily unavailable. Try again later.</p>';
+                });
             }).catch(() => {
                 if (!isCurrent()) return;
                 body.querySelector('[data-anilist-note]').textContent = 'Live source unavailable; showing saved rating if available';

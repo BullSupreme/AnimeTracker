@@ -22,6 +22,7 @@ const { chromium } = require('playwright');
         const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
         const errors = [];
         const counts = new Map();
+        const historyPages = [];
         let failDetails = false;
         let slowID = null;
         const media = id => ({ id, idMal: 123, title: { romaji: 'Fixture anime', english: 'Fixture anime' }, coverImage: { large: '' }, averageScore: 85, genres: ['Action'], status: 'FINISHED', isAdult: false });
@@ -33,15 +34,32 @@ const { chromium } = require('playwright');
             if (url.startsWith('http://127.0.0.1:')) return route.continue();
             if (process.env.DISCOVERY_DEBUG) console.log(url);
             if (url.startsWith('https://graphql.anilist.co')) {
+                if (process.env.DISCOVERY_LIVE_HISTORY) return route.continue();
                 const payload = route.request().postDataJSON();
                 const id = payload.variables?.id;
+                if (payload.query.includes('mediaTrends')) {
+                    const { start, end, page: number } = payload.variables;
+                    assert.equal(start, Date.UTC(2021, 0, 1) / 1000 - 1);
+                    assert.equal(end, Date.UTC(2021, 3, 1) / 1000);
+                    historyPages.push(number);
+                    const firstDay = start + 1;
+                    const nodes = id === 900001 ? [] : number === 1 ? [
+                        { date: firstDay + 8 * 86400, averageScore: 80 },
+                        { date: firstDay + 9 * 86400, averageScore: 81 },
+                        { date: firstDay + 10 * 86400, averageScore: null },
+                    ] : [
+                        { date: firstDay + 16 * 86400, averageScore: 82 },
+                        { date: firstDay - 1, averageScore: 99 }, { date: end, averageScore: 99 },
+                    ];
+                    return route.fulfill({ json: { data: { Page: { pageInfo: { hasNextPage: id !== 900001 && number === 1 }, mediaTrends: nodes } } } });
+                }
                 assert.equal(payload.query.includes('perPage: 25'), true);
                 counts.set(id, (counts.get(id) || 0) + 1);
                 if (id === slowID) await new Promise(resolve => setTimeout(resolve, 250));
                 if (failDetails) return route.fulfill({ status: 503, json: {} });
                 return route.fulfill({ json: { data: { Media: {
                     averageScore: id === slowID ? 99 : 85,
-                    trends: { nodes: id === 900001 ? [{ date: 1777600, averageScore: null }] : [{ date: 1000000, averageScore: 80 }, { date: 1086400, averageScore: 81 }, { date: 1691200, averageScore: 82 }, { date: 1777600, averageScore: null }] },
+                    season: 'WINTER', seasonYear: 2021,
                     recommendations: { edges: [
                         { node: { mediaRecommendation: { ...media(900001), title: { romaji: 'Safe <b>title</b>' } } } },
                         { node: { mediaRecommendation: { ...media(900002), isAdult: true } } },
@@ -52,6 +70,7 @@ const { chromium } = require('playwright');
                 } } } });
             }
             if (url.startsWith('https://api.jikan.moe/')) {
+                if (process.env.DISCOVERY_LIVE_HISTORY) return route.abort();
                 assert(!url.includes('/top/anime'));
                 return route.fulfill({ json: { data: mal } });
             }
@@ -59,6 +78,26 @@ const { chromium } = require('playwright');
             return route.abort();
         });
         await page.goto(`http://127.0.0.1:${server.address().port}/all-anime.html`, { waitUntil: 'domcontentloaded' });
+        if (process.env.DISCOVERY_LIVE_HISTORY) {
+            await page.selectOption('#season-select', '');
+            await page.locator('#search-input').fill('Horimiya');
+            const horimiya = page.locator('#anime-grid .anime-card[data-anime-id="124080"]');
+            await horimiya.waitFor();
+            await horimiya.locator('.catalog-explore-btn').click();
+            const history = page.locator('.catalog-details [data-history]');
+            await history.locator('.catalog-history-chart').waitFor({ timeout: 30000 });
+            assert((await history.textContent()).includes('Winter 2021'));
+            const dates = await history.locator('circle title').allTextContents();
+            assert(dates.length > 25);
+            assert(dates.every(label => label.includes('2021')));
+            console.log(`Live Horimiya chart verified: Winter 2021, ${dates.length} daily scores, ${dates[0]} through ${dates.at(-1)}`);
+            if (process.env.CATALOG_SCREENSHOTS) {
+                const screenshot = path.join(process.env.CATALOG_SCREENSHOTS, 'horimiya-original-season.png');
+                await page.screenshot({ path: screenshot }); console.log(screenshot);
+            }
+            assert.deepEqual(errors, []);
+            return;
+        }
         const first = page.locator('#anime-grid .anime-card').first();
         const firstID = Number(await first.getAttribute('data-anime-id'));
         assert.equal(await page.locator('.score-badge').count(), 0);
@@ -68,6 +107,10 @@ const { chromium } = require('playwright');
         await dialog.locator('.catalog-history-chart').waitFor();
         assert.equal(await dialog.locator('[data-anilist-score]').textContent(), '85/100');
         assert.equal(await dialog.locator('.catalog-history-chart circle').count(), 3);
+        assert.deepEqual(historyPages.slice(0, 2), [1, 2]);
+        assert((await dialog.locator('[data-history]').textContent()).includes('Winter 2021'));
+        const axis = await dialog.locator('.catalog-history-chart text').allTextContents();
+        assert(axis.includes('Jan 1') && axis.includes('Mar 31'));
         assert.equal((await dialog.locator('.catalog-history-chart path').getAttribute('d')).split('M').length - 1, 2);
         assert.equal(await dialog.locator('.catalog-recommendation').count(), 24);
         assert.equal(await dialog.locator('.catalog-recommendation span').first().textContent(), 'Safe <b>title</b>');
