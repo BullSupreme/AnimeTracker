@@ -79,6 +79,16 @@ def season_icon(season):
 
 
 def generate_html(catalog):
+    # Daily tracker scores are fresher than the monthly historical catalog.
+    current_scores = {}
+    for filename in ('upcoming_seasonal_anime.json', 'other_anime_sorted.json', 'anime_data.json'):
+        path = os.path.join('data', filename)
+        if os.path.exists(path):
+            with open(path, encoding='utf-8') as source:
+                for anime in json.load(source):
+                    if isinstance(anime.get('anilist_score'), (int, float)):
+                        current_scores[anime['id']] = anime['anilist_score']
+    catalog = [dict(anime, anilist_score=current_scores.get(anime['id'], anime.get('anilist_score'))) for anime in catalog]
     current_season, current_year = get_current_season()
     season_options = build_season_options(catalog)
     last_updated = datetime.now().strftime("%Y-%m-%d")
@@ -108,6 +118,7 @@ def generate_html(catalog):
     <link rel="stylesheet" href="css/season-rarity.css">
     <link rel="stylesheet" href="css/content-warnings.css">
     <link rel="stylesheet" href="css/continuation.css">
+    <link rel="stylesheet" href="css/catalog-discovery.css">
     <style>
         /* All Anime Page Specific Styles */
         .all-anime-header {{
@@ -315,17 +326,6 @@ def generate_html(catalog):
             align-items: center;
         }}
 
-        .score-badge {{
-            background: rgba(251, 191, 36, 0.15);
-            color: var(--accent-gold);
-            border: 1px solid rgba(251, 191, 36, 0.3);
-            padding: 0.15rem 0.5rem;
-            border-radius: 20px;
-            font-size: 0.72rem;
-            font-weight: 600;
-            white-space: nowrap;
-        }}
-
         .season-badge {{
             background: rgba(139, 92, 246, 0.15);
             color: #a78bfa;
@@ -418,7 +418,7 @@ def generate_html(catalog):
 
         <select id="sort-select" class="control-select" title="Sort by">
             <option value="popular">Most Popular</option>
-            <option value="score">Highest Score</option>
+            <option value="score">Highest AniList Score</option>
             <option value="newest">Newest First</option>
             <option value="oldest">Oldest First</option>
         </select>
@@ -476,6 +476,7 @@ def generate_html(catalog):
     }} catch(e) {{ favorites = []; }}
 
     let contextTarget = null;
+    let discoveryList = null;
 
     // ============================================================
     // COOKIE HELPERS
@@ -516,6 +517,7 @@ def generate_html(catalog):
             icon.closest('.favorite-btn').classList.toggle('active', isFavorite(sid));
         }});
         updateFavoriteStates();
+        if (document.getElementById('discovery-favorites')?.checked) renderAnime();
     }}
 
     // ============================================================
@@ -526,7 +528,7 @@ def generate_html(catalog):
         const sortVal = document.getElementById('sort-select').value;
         const seasonVal = document.getElementById('season-select').value;
 
-        let data = ALL_ANIME_DATA.slice();
+        let data = (discoveryList || ALL_ANIME_DATA).slice();
 
         // Season filter
         if (seasonVal) {{
@@ -542,6 +544,13 @@ def generate_html(catalog):
                 return name.includes(query) || eng.includes(query);
             }});
         }}
+
+        const genre = document.getElementById('discovery-genre')?.value;
+        const status = document.getElementById('discovery-status')?.value;
+        if (genre) data = data.filter(a => (a.genres || []).includes(genre));
+        if (status) data = data.filter(a => a.status === status);
+        if (document.getElementById('discovery-favorites')?.checked) data = data.filter(a => isFavorite(a.id));
+        if (discoveryList) return data;
 
         // Sort
         switch (sortVal) {{
@@ -718,13 +727,13 @@ def generate_html(catalog):
             ? `<div class="content-warnings" aria-label="Content warnings">${{warnings.map(w => `<span class="content-warning content-warning-${{w.key}}" tabindex="0" title="${{escapeAttr(w.detail)}}" aria-label="${{escapeAttr(w.detail)}}">${{escapeHtml(w.label)}}</span>`).join('')}}</div>`
             : '';
 
-        const scoreBadge = score ? `<span class="score-badge"><img class="ui-icon badge-icon" src="assets/icons/star.png" alt=""> ${{score}}/100</span>` : '';
         const seasonLabel = season && seasonYear
             ? `<span class="season-badge">${{season.charAt(0) + season.slice(1).toLowerCase()}} ${{seasonYear}}</span>`
             : '';
         const episodeLabel = episodes ? `${{episodes}} ep` : 'Ongoing';
         const engTitle = eng ? `<div class="anime-english-title">${{escapeHtml(eng)}}</div>` : '';
-        const popularityTooltip = `Popularity rank #${{rank}} • ${{popularity.toLocaleString()}} users tracking`;
+        const listPosition = anime.source_list_position || rank;
+        const popularityTooltip = `${{discoveryList ? 'Source list position' : 'Catalog list position'}} #${{listPosition}} • ${{popularity.toLocaleString()}} users tracking`;
 
         const genreTagsHtml = genres.slice(0, 3).map(g =>
             `<span class="genre-tag">${{escapeHtml(g)}}</span>`
@@ -744,15 +753,16 @@ def generate_html(catalog):
                      data-poster="${{escapeAttr(poster)}}"${{trailerAttrs}}${{rarityAttrs}}>
             <div class="card-image-wrapper">
                 <img class="anime-poster" src="${{escapeAttr(poster)}}" loading="lazy" alt="${{escapeAttr(name)}} poster"
-                     onerror="this.src='data:image/svg+xml,<svg xmlns=\\'http://www.w3.org/2000/svg\\'><rect width=\\'100%\\' height=\\'100%\\' fill=\\'%231e2433\\'/></svg>'">
+                     onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22200%22%20height=%22300%22%3E%3Crect%20width=%22200%22%20height=%22300%22%20fill=%22%231e2433%22/%3E%3C/svg%3E'">
                 ${{trailerOverlay}}
                 ${{contentWarnings}}
                 ${{continuationBadges}}
+                <button class="catalog-explore-btn" type="button" data-explore-id="${{escapeAttr(String(id))}}" aria-label="${{escapeAttr('Explore ' + (eng || name))}}">Explore</button>
                 <div class="card-overlay">
-                    <button class="favorite-btn${{isFav ? ' active' : ''}}" data-anime-id="${{id}}" onclick="event.stopPropagation(); toggleFavorite(${{id}})">
+                    <button class="favorite-btn${{isFav ? ' active' : ''}}" data-anime-id="${{id}}" onclick="event.stopPropagation(); toggleFavorite(this.dataset.animeId)">
                         <span class="favorite-icon" aria-hidden="true"></span>
                     </button>
-                    <div class="popularity-rank-badge" data-tooltip="${{escapeAttr(seasonal ? anime.season + ' ' + anime.season_year + ' popularity rank #' + seasonal.rank : popularityTooltip)}}">${{seasonal ? (seasonal.tier ? seasonal.tier + ' ' : '') + '#' + seasonal.rank : '#' + rank}}</div>
+                    <div class="popularity-rank-badge" data-tooltip="${{escapeAttr(seasonal ? anime.season + ' ' + anime.season_year + ' popularity rank #' + seasonal.rank : popularityTooltip)}}">${{seasonal ? (seasonal.tier ? seasonal.tier + ' ' : '') + '#' + seasonal.rank : '#' + listPosition}}</div>
                 </div>
             </div>
             <div class="card-info">
@@ -764,7 +774,6 @@ def generate_html(catalog):
                     <a href="${{escapeAttr(nineAnimeUrl)}}" target="_blank" class="nine-anime-btn" onclick="event.stopPropagation()">9anime</a>
                 </div>
                 <div class="score-genre-row">
-                    ${{scoreBadge}}
                     ${{seasonLabel}}
                 </div>
                 ${{genreTagsHtml ? `<div class="genre-tags">${{genreTagsHtml}}</div>` : ''}}
@@ -776,8 +785,9 @@ def generate_html(catalog):
         const grid = document.getElementById('anime-grid');
         const data = getFilteredData();
 
+        const sourceTotal = discoveryList ? discoveryList.length : CATALOG_TOTAL;
         document.getElementById('results-count').textContent =
-            data.length === CATALOG_TOTAL ? `${{CATALOG_TOTAL.toLocaleString()}} anime` : `${{data.length.toLocaleString()}} / ${{CATALOG_TOTAL.toLocaleString()}}`;
+            data.length === sourceTotal ? `${{sourceTotal.toLocaleString()}} anime` : `${{data.length.toLocaleString()}} / ${{sourceTotal.toLocaleString()}}`;
 
         if (data.length === 0) {{
             grid.innerHTML = `<div class="no-results">
@@ -898,7 +908,10 @@ def generate_html(catalog):
         `${{CATALOG_TOTAL.toLocaleString()}} anime in catalog · Updated {last_updated}`;
 
     renderAnime();
+    window.catalogDiscovery = {{ catalog: ALL_ANIME_DATA, render: renderAnime,
+        setList(list) {{ discoveryList = list; renderAnime(); }}, toggleFavorite, isFavorite }};
     </script>
+    <script src="js/catalog-discovery.js"></script>
 </body>
 </html>
 """
