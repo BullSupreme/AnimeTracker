@@ -114,6 +114,7 @@ def generate_html(catalog):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Anime - Anime Tracker</title>
+    <link rel="icon" href="assets/brand/anime-tracker-favicon.png" type="image/png" sizes="64x64">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/season-rarity.css">
     <link rel="stylesheet" href="css/content-warnings.css">

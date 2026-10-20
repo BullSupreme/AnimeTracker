@@ -474,7 +474,7 @@ def generate_html():
         <title>Anime Tracker</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/brand.css">
-        <link rel="icon" href="assets/brand/anime-tracker-mark.svg" type="image/svg+xml">
+        <link rel="icon" href="assets/brand/anime-tracker-favicon.png" type="image/png" sizes="64x64">
         <link rel="stylesheet" href="css/season-rarity.css">
         <link rel="stylesheet" href="css/content-warnings.css">
         <link rel="stylesheet" href="css/continuation.css">

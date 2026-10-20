@@ -26,6 +26,13 @@ const { chromium } = require('playwright');
         await page.goto(`http://127.0.0.1:${server.address().port}/index.html`, { waitUntil: 'domcontentloaded' });
         const logo = page.getByRole('heading', { name: 'AnimeTracker', exact: true }).locator('img');
         assert(await logo.evaluate(img => img.complete && img.naturalWidth > 0));
+        const favicon = 'assets/brand/anime-tracker-favicon.png';
+        assert.equal(await page.locator('link[rel="icon"]').getAttribute('href'), favicon);
+        const iconResponse = await page.request.get(`http://127.0.0.1:${server.address().port}/${favicon}`);
+        assert(iconResponse.ok());
+        assert.equal(iconResponse.headers()['content-type'], 'image/png');
+        const catalogResponse = await page.request.get(`http://127.0.0.1:${server.address().port}/all-anime.html`);
+        assert((await catalogResponse.text()).includes(`href="${favicon}"`));
         if (process.env.BRAND_PREVIEW_PATH) {
             await page.locator('header').screenshot({ path: process.env.BRAND_PREVIEW_PATH });
             console.log(process.env.BRAND_PREVIEW_PATH);
