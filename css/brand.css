@@ -1,3 +1,8 @@
+header {
+    padding-block: 0.2rem;
+    row-gap: 0.25rem;
+}
+
 header h1.site-brand {
     background: none;
     -webkit-text-fill-color: initial;
@@ -9,12 +14,18 @@ header h1.site-brand {
     width: 270px;
     height: auto;
     max-width: 100%;
+    /* Discount transparent canvas above and below the visible logo. */
+    margin-block: -5px -17px;
+}
+
+@media (max-width: 768px) {
+    header .nav-tabs { padding-block: 0.25rem; }
 }
 
 @media (max-width: 600px) {
-    .site-brand img { width: 195px; }
+    .site-brand img { width: 195px; margin-block: -4px -12px; }
 }
 
 @media (max-width: 380px) {
-    .site-brand img { width: 170px; }
+    .site-brand img { width: 170px; margin-block: -3px -10px; }
 }
