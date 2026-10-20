@@ -476,7 +476,6 @@ def generate_html(catalog):
     }} catch(e) {{ favorites = []; }}
 
     let contextTarget = null;
-    let discoveryList = null;
 
     // ============================================================
     // COOKIE HELPERS
@@ -517,7 +516,6 @@ def generate_html(catalog):
             icon.closest('.favorite-btn').classList.toggle('active', isFavorite(sid));
         }});
         updateFavoriteStates();
-        if (document.getElementById('discovery-favorites')?.checked) renderAnime();
     }}
 
     // ============================================================
@@ -528,7 +526,7 @@ def generate_html(catalog):
         const sortVal = document.getElementById('sort-select').value;
         const seasonVal = document.getElementById('season-select').value;
 
-        let data = (discoveryList || ALL_ANIME_DATA).slice();
+        let data = ALL_ANIME_DATA.slice();
 
         // Season filter
         if (seasonVal) {{
@@ -544,13 +542,6 @@ def generate_html(catalog):
                 return name.includes(query) || eng.includes(query);
             }});
         }}
-
-        const genre = document.getElementById('discovery-genre')?.value;
-        const status = document.getElementById('discovery-status')?.value;
-        if (genre) data = data.filter(a => (a.genres || []).includes(genre));
-        if (status) data = data.filter(a => a.status === status);
-        if (document.getElementById('discovery-favorites')?.checked) data = data.filter(a => isFavorite(a.id));
-        if (discoveryList) return data;
 
         // Sort
         switch (sortVal) {{
@@ -732,8 +723,8 @@ def generate_html(catalog):
             : '';
         const episodeLabel = episodes ? `${{episodes}} ep` : 'Ongoing';
         const engTitle = eng ? `<div class="anime-english-title">${{escapeHtml(eng)}}</div>` : '';
-        const listPosition = anime.source_list_position || rank;
-        const popularityTooltip = `${{discoveryList ? 'Source list position' : 'Catalog list position'}} #${{listPosition}} • ${{popularity.toLocaleString()}} users tracking`;
+        const listPosition = rank;
+        const popularityTooltip = `Catalog list position #${{listPosition}} • ${{popularity.toLocaleString()}} users tracking`;
 
         const genreTagsHtml = genres.slice(0, 3).map(g =>
             `<span class="genre-tag">${{escapeHtml(g)}}</span>`
@@ -785,7 +776,7 @@ def generate_html(catalog):
         const grid = document.getElementById('anime-grid');
         const data = getFilteredData();
 
-        const sourceTotal = discoveryList ? discoveryList.length : CATALOG_TOTAL;
+        const sourceTotal = CATALOG_TOTAL;
         document.getElementById('results-count').textContent =
             data.length === sourceTotal ? `${{sourceTotal.toLocaleString()}} anime` : `${{data.length.toLocaleString()}} / ${{sourceTotal.toLocaleString()}}`;
 
@@ -908,8 +899,7 @@ def generate_html(catalog):
         `${{CATALOG_TOTAL.toLocaleString()}} anime in catalog · Updated {last_updated}`;
 
     renderAnime();
-    window.catalogDiscovery = {{ catalog: ALL_ANIME_DATA, render: renderAnime,
-        setList(list) {{ discoveryList = list; renderAnime(); }}, toggleFavorite, isFavorite }};
+    window.catalogDiscovery = {{ catalog: ALL_ANIME_DATA, toggleFavorite, isFavorite }};
     </script>
     <script src="js/catalog-discovery.js"></script>
 </body>

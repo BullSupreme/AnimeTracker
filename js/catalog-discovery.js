@@ -7,11 +7,9 @@
         try { const url = new URL(value); return url.protocol === 'https:' ? url.href : ''; } catch { return ''; }
     };
     const entries = new Map(app.catalog.map(anime => [String(anime.id), anime]));
-    const malEntries = new Map(app.catalog.filter(a => a.mal_id).map(a => [Number(a.mal_id), a]));
     const cache = new Map();
     let malQueue = Promise.resolve();
     let detailRequest = 0;
-    let listRequest = 0;
     let currentAnime = null;
     const detailHistory = [];
 
@@ -56,98 +54,9 @@
             genres: Array.isArray(media.genres) ? media.genres : known.genres || [],
         };
         entries.set(String(anime.id), anime);
-        if (anime.mal_id) malEntries.set(Number(anime.mal_id), anime);
         return anime;
     }
 
-    function fromMAL(media) {
-        const known = malEntries.get(Number(media.mal_id));
-        const anime = { ...(known || {}), id: known?.id || `mal-${media.mal_id}`, mal_id: media.mal_id,
-            name: known?.name || media.title || 'Untitled anime', english_title: known?.english_title || media.title_english,
-            poster_url: safeImage(media.images?.jpg?.large_image_url) || known?.poster_url || '',
-            site_url: known?.site_url || `https://anilist.co/search/anime?search=${encodeURIComponent(media.title || '')}`,
-            genres: known?.genres || (media.genres || []).map(g => g.name), popularity: known?.popularity || 0,
-            episodes: media.episodes ?? known?.episodes, season: media.season?.toUpperCase() || known?.season,
-            season_year: media.year || known?.season_year,
-            status: known?.status || ({ 'Finished Airing': 'FINISHED', 'Currently Airing': 'RELEASING', 'Not yet aired': 'NOT_YET_RELEASED' }[media.status]),
-            mal_score: media.score, mal_rank: media.rank,
-        };
-        entries.set(String(anime.id), anime);
-        malEntries.set(Number(anime.mal_id), anime);
-        return anime;
-    }
-
-    const controls = document.createElement('div');
-    controls.className = 'catalog-discovery-controls';
-    controls.innerHTML = `<label for="discovery-source">Browse</label>
-        <select id="discovery-source" class="control-select" aria-label="Top-list source">
-            <option value="catalog">Full catalog</option><option value="anilist">AniList top rated (series)</option>
-            <option value="mal-rated">MyAnimeList top rated (TV)</option><option value="mal-popular">MyAnimeList most popular (TV)</option>
-        </select>
-        <select id="discovery-genre" class="control-select" aria-label="Genre"><option value="">All genres</option></select>
-        <select id="discovery-status" class="control-select" aria-label="Release status"><option value="">All statuses</option>
-            <option value="RELEASING">Airing</option><option value="FINISHED">Finished</option><option value="NOT_YET_RELEASED">Upcoming</option>
-        </select>
-        <label><input id="discovery-favorites" type="checkbox"> Favorites only</label>
-        <p class="catalog-source-note" id="discovery-source-note" role="status">Explore any anime for similar shows, ratings, and score history.</p>`;
-    document.querySelector('.all-anime-controls').after(controls);
-    const genreSelect = controls.querySelector('#discovery-genre');
-    [...new Set(app.catalog.flatMap(a => a.genres || []))].sort().forEach(genre => {
-        const option = document.createElement('option'); option.value = genre; option.textContent = genre; genreSelect.appendChild(option);
-    });
-    ['discovery-genre', 'discovery-status', 'discovery-favorites'].forEach(id => {
-        controls.querySelector(`#${id}`).addEventListener('change', app.render);
-    });
-    const sourceSelect = controls.querySelector('#discovery-source');
-    const sourceNote = controls.querySelector('#discovery-source-note');
-    sourceSelect.addEventListener('change', async () => {
-        const token = ++listRequest;
-        const source = sourceSelect.value;
-        sourceNote.dataset.error = 'false';
-        if (source === 'catalog') {
-            document.getElementById('sort-select').disabled = false;
-            app.setList(null);
-            sourceNote.textContent = 'Full catalog. Explore any anime for recommendations and score history.';
-            return;
-        }
-        sourceNote.textContent = 'Loading source rankings... Your catalog stays available while loading.';
-        try {
-            let list;
-            if (source === 'anilist') {
-                const query = `query { Page(perPage: 50) { media(type: ANIME, isAdult: false, format_in: [TV, ONA, TV_SHORT], sort: SCORE_DESC) {
-                    id idMal title { romaji english } coverImage { large } averageScore popularity season seasonYear episodes status genres
-                } } }`;
-                const result = await request('https://graphql.anilist.co', JSON.stringify({ query }));
-                list = result.data.Page.media.map(fromAniList);
-            } else {
-                // Omit the filter for MAL's overall highest-rated list (not airing-only).
-                const query = source === 'mal-popular' ? '&filter=bypopularity' : '';
-                const first = await request(`https://api.jikan.moe/v4/top/anime?type=tv&limit=25&page=1${query}`);
-                const second = first.pagination?.has_next_page
-                    ? await request(`https://api.jikan.moe/v4/top/anime?type=tv&limit=25&page=2${query}`) : { data: [] };
-                list = [...first.data, ...second.data]
-                    .filter(media => !String(media.rating || '').startsWith('Rx') && !(media.genres || []).some(g => g.name === 'Hentai'))
-                    .map(fromMAL);
-            }
-            if (token !== listRequest) return;
-            if (!list.length) throw new Error('No rankings returned');
-            list = [...new Map(list.map(a => [String(a.id), a])).values()]
-                .map((anime, index) => ({ ...anime, source_list_position: index + 1 }));
-            document.getElementById('season-select').value = '';
-            document.getElementById('sort-select').disabled = true;
-            app.setList(list);
-            const label = source === 'anilist' ? 'AniList highest-rated series' : source === 'mal-rated' ? 'MyAnimeList highest-rated TV anime' : 'MyAnimeList most popular TV anime';
-            sourceNote.textContent = `${label} - ${list.length} entries in source order. Filters narrow this list; seasonal outline ranks remain separate. ${source === 'anilist' ? 'Source: AniList API.' : 'MAL data via Jikan.'}`;
-        } catch (error) {
-            if (token !== listRequest) return;
-            console.warn('Catalog ranking source unavailable:', error);
-            sourceSelect.value = 'catalog';
-            document.getElementById('sort-select').disabled = false;
-            app.setList(null);
-            sourceNote.dataset.error = 'true';
-            sourceNote.textContent = 'That ranking source is temporarily unavailable. Showing the full catalog instead; try again later.';
-        }
-    });
 
     const dialog = document.createElement('dialog');
     dialog.className = 'catalog-details';
@@ -206,7 +115,7 @@
             if (!media || media.isAdult || !validID(media.id) || seen.has(String(media.id))) continue;
             seen.add(String(media.id));
             recommendations.push(fromAniList(media));
-            if (recommendations.length === 6) break;
+            if (recommendations.length === 24) break;
         }
         const target = body.querySelector('[data-recommendations]');
         target.innerHTML = recommendations.length ? `<div class="catalog-recommendations">${recommendations.map(a => `<button type="button" class="catalog-recommendation" data-explore-id="${escape(a.id)}" aria-label="${escape('Explore ' + (a.english_title || a.name))}"><img src="${escape(safeImage(a.poster_url))}" alt="" loading="lazy"><span>${escape(a.english_title || a.name)}</span></button>`).join('')}</div>`
@@ -244,7 +153,7 @@
         if (aniID) {
             const query = `query ($id: Int!) { Media(id: $id, type: ANIME) { averageScore
                 trends(sort: DATE_DESC, perPage: 25) { nodes { date averageScore } }
-                recommendations(sort: RATING_DESC, perPage: 12) { edges { node { mediaRecommendation {
+                recommendations(sort: RATING_DESC, perPage: 25) { edges { node { mediaRecommendation {
                     id idMal title { romaji english } coverImage { large } averageScore popularity season seasonYear episodes status genres isAdult
                 } } } }
             } }`;
