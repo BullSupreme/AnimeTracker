@@ -48,12 +48,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function setRail(open) {
         rail.hidden = !open;
+        document.body.classList.toggle('recent-days-open', open);
         toggle.setAttribute('aria-expanded', String(open));
         if (!open && !popup.hidden) closePopup();
     }
 
-    setRail(window.matchMedia('(min-width: 1760px)').matches);
-    toggle.addEventListener('click', () => setRail(rail.hidden));
+    const visibilityKey = 'recentDaysRailOpen';
+    let savedVisibility = null;
+    try {
+        savedVisibility = localStorage.getItem(visibilityKey);
+    } catch {
+        // The panel still works when browser storage is unavailable.
+    }
+    setRail(savedVisibility === 'true' ||
+        (savedVisibility !== 'false' && window.matchMedia('(min-width: 1760px)').matches));
+    toggle.addEventListener('click', () => {
+        const open = rail.hidden;
+        setRail(open);
+        try {
+            localStorage.setItem(visibilityKey, String(open));
+        } catch {
+            // Keep the current choice usable even if it cannot be saved.
+        }
+    });
     buttons.forEach(button => button.addEventListener('click', () => {
         popup.querySelectorAll('.trailer-close-btn').forEach(control => control.click());
         selected = button;

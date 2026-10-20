@@ -111,7 +111,34 @@ const { chromium } = require('playwright');
             console.log(screenshot);
         }
         assert.deepEqual(errors, []);
-        console.log('Browser checks passed: seven days, unchanged main layout, day switching, favorites-only popups, empty state, live filtering, links, table isolation, Escape, and mobile');
+        // An explicit choice survives refresh and overrides the viewport default.
+        await page.reload();
+        assert(await rail.isVisible());
+        assert.equal(await page.locator('#recent-days-toggle').getAttribute('aria-expanded'), 'true');
+        assert(!(await popup.isVisible()));
+        await page.locator('#recent-days-toggle').click();
+        await page.reload();
+        assert(!(await rail.isVisible()));
+        assert.equal(await page.locator('#recent-days-toggle').getAttribute('aria-expanded'), 'false');
+        await page.setViewportSize({ width: 1920, height: 1080 });
+        await page.reload();
+        assert(!(await rail.isVisible()));
+        await page.locator('#recent-days-toggle').click();
+        await page.reload();
+        assert(await rail.isVisible());
+        for (const width of [1536, 1280, 1024, 768, 390]) {
+            await page.setViewportSize({ width, height: 900 });
+            const mainBox = await page.locator('main').boundingBox();
+            const sideBox = await rail.boundingBox();
+            assert(mainBox.x >= sideBox.x + sideBox.width, `Rail overlaps main at ${width}px`);
+            assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `Overflow at ${width}px`);
+        }
+        await page.locator('#recent-days-toggle').click();
+        const toggleBox = await page.locator('#recent-days-toggle').boundingBox();
+        const controlsBox = await page.locator('.section-title-controls').first().boundingBox();
+        assert(controlsBox.y >= toggleBox.y + toggleBox.height);
+        assert.deepEqual(errors, []);
+        console.log('Browser checks passed: seven days, wide-screen layout, day switching, favorites-only popups, empty state, live filtering, links, table isolation, Escape, mobile, saved visibility, and zoom-width overlap checks');
     } finally {
         await browser?.close();
         server.close();

@@ -1,4 +1,4 @@
-/* Fixed surfaces use the gutter, never resize the existing main content. */
+/* Use the spare gutter on wide screens and reserve a column when space is tight. */
 :root { --recent-days-top: 78px; }
 
 .recent-days-toggle {
@@ -92,7 +92,17 @@
     .recent-days-rail { left: calc((100vw - 1400px) / 2 - 164px); }
 }
 
+@media (max-width: 1759px) {
+    body:has(.recent-days-toggle) main { padding-top: 3.5rem; }
+    body.recent-days-open main {
+        margin-left: 174px;
+        padding-top: 1rem;
+        min-width: 0;
+    }
+}
+
 @media (max-width: 600px) {
+    body.recent-days-open main { margin-left: 116px; }
     .recent-days-rail { width: 100px; padding: 4px; }
     .recent-day-label { flex-direction: column; gap: 0; }
     .recent-day-posters img { width: 21px; height: 30px; }
