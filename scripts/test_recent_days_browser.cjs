@@ -84,12 +84,39 @@ const { chromium } = require('playwright');
         assert.equal(await visiblePanel.locator('.anime-card:visible').count(), allCount);
         await first.locator('.favorite-btn').click();
         await page.selectOption('#layout-selector', 'table');
+        for (const width of [1920, 1280, 900]) {
+            await page.setViewportSize({ width, height: 1080 });
+            const rows = page.locator('#list-view .anime-card:visible');
+            const columns = await rows.evaluateAll(cards => cards.map(card => ({
+                columns: getComputedStyle(card).gridTemplateColumns,
+                titleWidth: card.querySelector('.table-cell-title').getBoundingClientRect().width,
+                height: card.getBoundingClientRect().height
+            })));
+            assert(columns.length > 1);
+            assert(columns.every(row => row.titleWidth > 200), `Narrow title column at ${width}px: ${JSON.stringify(columns.find(row => row.titleWidth <= 200))}`);
+            const aligned = await page.locator('#list-view .anime-grid:visible').evaluateAll(grids => grids.every(grid => {
+                const cards = [...grid.querySelectorAll('.anime-card')].filter(card => card.getBoundingClientRect().width);
+                const header = cards.find(card => card.classList.contains('table-header'));
+                if (!header) return true;
+                const expected = header.querySelector('.table-cell-title').getBoundingClientRect();
+                return cards.every(card => {
+                    const title = card.querySelector('.table-cell-title').getBoundingClientRect();
+                    return Math.abs(title.x - expected.x) < 2 && Math.abs(title.width - expected.width) < 2;
+                });
+            }));
+            assert(aligned, `Misaligned columns at ${width}px`);
+            assert(columns.every(row => row.height < 250), `Excessive title wrapping at ${width}px`);
+        }
+        await page.setViewportSize({ width: 1920, height: 1080 });
         assert.equal(await popup.locator('.table-cell-title').count(), 0);
         await rail.locator('button').nth(2).click();
         assert.equal(await popup.locator('[data-recent-lineup]:visible').getAttribute('data-recent-lineup'), dates[2]);
         await page.keyboard.press('Escape');
         assert(!(await popup.isVisible()));
         assert(await rail.isVisible());
+        if (process.env.TABLE_PREVIEW_PATH) {
+            await page.screenshot({ path: process.env.TABLE_PREVIEW_PATH });
+        }
         await page.setViewportSize({ width: 390, height: 844 });
         await page.reload();
         await page.selectOption('#layout-selector', 'grid');

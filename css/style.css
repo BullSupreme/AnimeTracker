@@ -1863,30 +1863,35 @@ main {
 
 /* Table Layout */
 .layout-table .anime-grid {
-    display: table !important;
+    display: block !important;
     width: 100% !important;
     border-collapse: collapse !important;
 }
 
-/* Future releases are grouped by date. A table cannot contain those wrapper
-   elements directly, so render each grouped card as its own full-width table. */
+/* Date wrappers and ungrouped rows share the same column sizing. */
 .layout-table .other-grid {
     display: block !important;
 }
 
 .layout-table .other-grid .day-group {
     display: block;
+    padding-inline: 0;
+    border-inline: 0;
 }
 
 .layout-table .other-grid .day-group > .anime-card {
-    display: table !important;
     width: 100% !important;
     flex-basis: 100%;
 }
 
 .layout-table .anime-card {
-    display: table-row !important;
+    display: grid !important;
+    grid-template-columns: 84px minmax(0, 1fr) 120px 174px;
+    align-items: center;
+    width: 100% !important;
     background: transparent !important;
+    transform: none !important;
+    transition: background-color var(--transition-normal);
     border: none !important;
     border-bottom: 1px solid var(--border-color) !important;
 }
@@ -1899,23 +1904,25 @@ main {
 
 /* Table cells for proper alignment */
 .layout-table .table-cell-poster {
-    display: table-cell !important;
+    display: block !important;
     vertical-align: middle !important;
     padding: 0.75rem !important;
-    width: 80px !important;
+    width: auto !important;
 }
 
 .layout-table .table-cell-title {
-    display: table-cell !important;
+    display: block !important;
     vertical-align: middle !important;
     padding: 0.75rem !important;
-    max-width: 250px !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    overflow-wrap: anywhere;
     font-weight: 500 !important;
     font-size: 0.875rem !important;
 }
 
 .layout-table .table-cell-episode {
-    display: table-cell !important;
+    display: block !important;
     vertical-align: middle !important;
     padding: 0.75rem !important;
     white-space: nowrap !important;
@@ -1924,11 +1931,11 @@ main {
 }
 
 .layout-table .table-cell-streaming {
-    display: table-cell !important;
+    display: block !important;
     vertical-align: middle !important;
     padding: 0.75rem !important;
     text-align: right !important;
-    width: 150px !important;
+    width: auto !important;
 }
 
 /* Table View rebuilds cards, so keep every outgoing link visible and clickable. */
@@ -2186,7 +2193,7 @@ main {
     
     /* Mobile table layout adjustments */
     .layout-table .table-cell-poster {
-        width: 50px !important;
+        width: auto !important;
     }
     
     .layout-table .table-cell-poster img {
@@ -2195,7 +2202,7 @@ main {
     }
     
     .layout-table .table-cell-title {
-        max-width: 150px !important;
+        max-width: none !important;
         font-size: 0.75rem !important;
     }
     
@@ -2205,7 +2212,11 @@ main {
     }
     
     .layout-table .table-cell-streaming {
-        width: 100px !important;
+        width: auto !important;
+    }
+
+    .layout-table .anime-card {
+        grid-template-columns: 64px minmax(0, 1fr) 80px 120px;
     }
     
     .layout-poster .anime-grid {
