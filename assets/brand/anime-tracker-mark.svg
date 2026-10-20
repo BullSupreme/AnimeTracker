@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <title>AnimeTracker emblem</title>
+  <defs>
+    <linearGradient id="signal" x1="8" y1="6" x2="39" y2="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a2efff"/>
+      <stop offset="0.5" stop-color="#54baff"/>
+      <stop offset="1" stop-color="#737dff"/>
+    </linearGradient>
+  </defs>
+  <path d="M15 4h17l12 12v17L33 44H15L4 33V15L15 4Z" fill="#111e30" stroke="#314661" stroke-width="1.5"/>
+  <path d="M6 29V16L16 6h14" stroke="url(#signal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m20 14 15 10-15 10V14Z" fill="url(#signal)"/>
+  <path d="M29 42h4l9-9v-5" stroke="#8593ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M10 21h4m-4 6h4" stroke="#6dcaff" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="37" cy="11" r="2" fill="#a2efff"/>
+</svg>

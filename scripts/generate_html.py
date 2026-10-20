@@ -473,6 +473,8 @@ def generate_html():
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Anime Tracker</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/brand.css">
+        <link rel="icon" href="assets/brand/anime-tracker-mark.svg" type="image/svg+xml">
         <link rel="stylesheet" href="css/season-rarity.css">
         <link rel="stylesheet" href="css/content-warnings.css">
         <link rel="stylesheet" href="css/continuation.css">
@@ -481,7 +483,7 @@ def generate_html():
     <body>
         <header>
             <div class="header-left">
-                <h1>Current Anime Tracker</h1>
+                <h1 class="site-brand"><img src="assets/brand/anime-tracker-mascot.png" alt="AnimeTracker" width="2172" height="724"></h1>
             </div>
             <nav class="nav-tabs">
                 <button class="nav-tab active" data-tab="list">{icon_img('list', 'List')} List View</button>

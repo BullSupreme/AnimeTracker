@@ -10,7 +10,7 @@ const { chromium } = require('playwright');
         const file = path.resolve(root, '.' + decodeURIComponent(request.url.split('?')[0]));
         if (!file.startsWith(root + path.sep)) { response.writeHead(403).end(); return; }
         try {
-            const mime = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.png': 'image/png' };
+            const mime = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.png': 'image/png', '.svg': 'image/svg+xml' };
             response.setHeader('Content-Type', mime[path.extname(file)] || 'application/octet-stream');
             response.end(fs.readFileSync(file));
         } catch { response.writeHead(404).end(); }
@@ -24,6 +24,18 @@ const { chromium } = require('playwright');
         page.on('pageerror', error => errors.push(error.stack));
         await page.route('https://**', route => process.env.RECENT_DAYS_SCREENSHOTS ? route.continue() : route.abort());
         await page.goto(`http://127.0.0.1:${server.address().port}/index.html`, { waitUntil: 'domcontentloaded' });
+        const logo = page.getByRole('heading', { name: 'AnimeTracker', exact: true }).locator('img');
+        assert(await logo.evaluate(img => img.complete && img.naturalWidth > 0));
+        if (process.env.BRAND_PREVIEW_PATH) {
+            await page.locator('header').screenshot({ path: process.env.BRAND_PREVIEW_PATH });
+            console.log(process.env.BRAND_PREVIEW_PATH);
+        }
+        if (process.env.BRAND_EXPORT_PATH) {
+            const assetPage = await browser.newPage({ viewport: { width: 540, height: 104 }, deviceScaleFactor: 2 });
+            await assetPage.goto(`http://127.0.0.1:${server.address().port}/assets/brand/anime-tracker-logo.svg`);
+            await assetPage.screenshot({ path: process.env.BRAND_EXPORT_PATH, omitBackground: true });
+            await assetPage.close();
+        }
         const rail = page.locator('#recent-days-rail');
         const popup = page.locator('#recent-day-popup');
         assert(await rail.isVisible());
@@ -86,6 +98,9 @@ const { chromium } = require('playwright');
         assert(popupBox.x >= railBox.x + railBox.width);
         assert(popupBox.x + popupBox.width <= 390);
         assert.equal(await page.evaluate(() => document.documentElement.scrollWidth), mobileWidth);
+        const logoBounds = await logo.boundingBox();
+        const countBounds = await page.locator('.header-right').boundingBox();
+        assert(logoBounds.x + logoBounds.width <= countBounds.x);
         const savedFavorite = popup.locator('[data-recent-lineup]:visible .anime-card').first();
         assert(await savedFavorite.evaluate(card => card.classList.contains('favorite')));
         await savedFavorite.locator('.favorite-btn').click();
