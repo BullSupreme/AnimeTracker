@@ -835,7 +835,7 @@
     "english_title": "BLEACH: Thousand-Year Blood War - The Calamity",
     "episode": 6,
     "release_date": "2026-09-28",
-    "next_airing_date": "2026-10-26",
+    "next_airing_date": null,
     "next_episode_number": 10,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185874-aU3e6tBT6wwA.jpg",
     "trailer": {
@@ -863,7 +863,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
       }
     ],
-    "popularity": 95819,
+    "popularity": 96182,
     "anilist_score": 89,
     "recently_finished": false,
     "popularity_rank": 4,
@@ -888,7 +888,7 @@
     ],
     "season": "SUMMER",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "FINISHED"
   },
   {
     "id": 197754,
@@ -973,7 +973,12 @@
       "Romance"
     ],
     "is_adult": false,
-    "tags": [],
+    "tags": [
+      {
+        "name": "Nudity",
+        "rank": 20
+      }
+    ],
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
@@ -3083,7 +3088,7 @@
     "english_title": "BLEACH: Thousand-Year Blood War - The Calamity",
     "episode": 7,
     "release_date": "2026-10-05",
-    "next_airing_date": "2026-10-26",
+    "next_airing_date": null,
     "next_episode_number": 10,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185874-aU3e6tBT6wwA.jpg",
     "trailer": {
@@ -3111,7 +3116,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
       }
     ],
-    "popularity": 95819,
+    "popularity": 96182,
     "anilist_score": 89,
     "recently_finished": false,
     "popularity_rank": 4,
@@ -3136,7 +3141,7 @@
     ],
     "season": "SUMMER",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "FINISHED"
   },
   {
     "id": 207191,
@@ -3190,8 +3195,8 @@
     "english_title": "MAGICAL GIRL RAISING PROJECT restart",
     "episode": 1,
     "release_date": "2026-10-05",
-    "next_airing_date": "2026-10-26",
-    "next_episode_number": 4,
+    "next_airing_date": "2026-11-02",
+    "next_episode_number": 5,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx160803-Rcr3IvhE7q9c.png",
     "trailer": {
       "id": "34ubb-j0kbI",
@@ -3330,7 +3335,12 @@
       "Romance"
     ],
     "is_adult": false,
-    "tags": [],
+    "tags": [
+      {
+        "name": "Nudity",
+        "rank": 20
+      }
+    ],
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
@@ -6266,7 +6276,7 @@
     "english_title": "BLEACH: Thousand-Year Blood War - The Calamity",
     "episode": 8,
     "release_date": "2026-10-12",
-    "next_airing_date": "2026-10-26",
+    "next_airing_date": null,
     "next_episode_number": 10,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185874-aU3e6tBT6wwA.jpg",
     "trailer": {
@@ -6294,7 +6304,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
       }
     ],
-    "popularity": 95819,
+    "popularity": 96182,
     "anilist_score": 89,
     "recently_finished": false,
     "popularity_rank": 4,
@@ -6319,7 +6329,7 @@
     ],
     "season": "SUMMER",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "FINISHED"
   },
   {
     "id": 207191,
@@ -6373,8 +6383,8 @@
     "english_title": "MAGICAL GIRL RAISING PROJECT restart",
     "episode": 2,
     "release_date": "2026-10-12",
-    "next_airing_date": "2026-10-26",
-    "next_episode_number": 4,
+    "next_airing_date": "2026-11-02",
+    "next_episode_number": 5,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx160803-Rcr3IvhE7q9c.png",
     "trailer": {
       "id": "34ubb-j0kbI",
@@ -6513,7 +6523,12 @@
       "Romance"
     ],
     "is_adult": false,
-    "tags": [],
+    "tags": [
+      {
+        "name": "Nudity",
+        "rank": 20
+      }
+    ],
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
@@ -9382,7 +9397,7 @@
     "english_title": "BLEACH: Thousand-Year Blood War - The Calamity",
     "episode": 9,
     "release_date": "2026-10-19",
-    "next_airing_date": "2026-10-26",
+    "next_airing_date": null,
     "next_episode_number": 10,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185874-aU3e6tBT6wwA.jpg",
     "trailer": {
@@ -9410,7 +9425,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
       }
     ],
-    "popularity": 95819,
+    "popularity": 96182,
     "anilist_score": 89,
     "recently_finished": false,
     "popularity_rank": 4,
@@ -9435,7 +9450,7 @@
     ],
     "season": "SUMMER",
     "season_year": 2026,
-    "status": "RELEASING"
+    "status": "FINISHED"
   },
   {
     "id": 207191,
@@ -9489,8 +9504,8 @@
     "english_title": "MAGICAL GIRL RAISING PROJECT restart",
     "episode": 3,
     "release_date": "2026-10-19",
-    "next_airing_date": "2026-10-26",
-    "next_episode_number": 4,
+    "next_airing_date": "2026-11-02",
+    "next_episode_number": 5,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx160803-Rcr3IvhE7q9c.png",
     "trailer": {
       "id": "34ubb-j0kbI",
@@ -9629,7 +9644,12 @@
       "Romance"
     ],
     "is_adult": false,
-    "tags": [],
+    "tags": [
+      {
+        "name": "Nudity",
+        "rank": 20
+      }
+    ],
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
@@ -12429,6 +12449,68 @@
     "status": "RELEASING"
   },
   {
+    "id": 185874,
+    "mal_id": 60636,
+    "name": "BLEACH: Sennen Kessen-hen - Kashin-tan",
+    "english_title": "BLEACH: Thousand-Year Blood War - The Calamity",
+    "episode": 10,
+    "release_date": "2026-10-26",
+    "next_airing_date": null,
+    "next_episode_number": 10,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185874-aU3e6tBT6wwA.jpg",
+    "trailer": {
+      "id": "IJONbpfIlUg",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/IJONbpfIlUg/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/185874",
+    "start_date": "2026-07-25",
+    "end_date": "2026-10-27",
+    "streaming_links": [
+      {
+        "site": "YouTube",
+        "url": "https://youtube.com/@official_bleach",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "Hulu",
+        "url": "https://www.hulu.com/series/bleach-thousand-year-blood-war-02a3c8c0-4f1d-4610-bbb4-5b8e9468d7b1",
+        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
+      },
+      {
+        "site": "Disney Plus",
+        "url": "https://www.disneyplus.com/series/bleach-thousand-year-blood-war/4Afet1Q421gy",
+        "icon": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=32"
+      }
+    ],
+    "popularity": 96182,
+    "anilist_score": 89,
+    "recently_finished": false,
+    "popularity_rank": 4,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Supernatural"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [
+      {
+        "id": 169755,
+        "type": "ANIME",
+        "title": {
+          "romaji": "BLEACH: Sennen Kessen-hen - Soukoku-tan",
+          "english": "BLEACH: Thousand-Year Blood War - The Conflict"
+        },
+        "season": "FALL",
+        "seasonYear": 2024
+      }
+    ],
+    "season": "SUMMER",
+    "season_year": 2026,
+    "status": "FINISHED"
+  },
+  {
     "id": 207191,
     "mal_id": 63409,
     "name": "Doumo, Suki na Hito ni Horegusuri wo Irai Sareta Majo desu.",
@@ -12480,8 +12562,8 @@
     "english_title": "MAGICAL GIRL RAISING PROJECT restart",
     "episode": 4,
     "release_date": "2026-10-26",
-    "next_airing_date": "2026-10-26",
-    "next_episode_number": 4,
+    "next_airing_date": "2026-11-02",
+    "next_episode_number": 5,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx160803-Rcr3IvhE7q9c.png",
     "trailer": {
       "id": "34ubb-j0kbI",
@@ -12620,7 +12702,12 @@
       "Romance"
     ],
     "is_adult": false,
-    "tags": [],
+    "tags": [
+      {
+        "name": "Nudity",
+        "rank": 20
+      }
+    ],
     "prequels": [],
     "season": "FALL",
     "season_year": 2026,
