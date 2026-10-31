@@ -454,12 +454,16 @@
     "episode": 1,
     "release_date": "2027-01-01",
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx217070-Muh7Kjw4RQsi.jpg",
-    "trailer": null,
+    "trailer": {
+      "id": "jJKK3qoVlCI",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/jJKK3qoVlCI/hqdefault.jpg"
+    },
     "site_url": "https://anilist.co/anime/217070",
     "start_date": "2027-01-01",
     "season": "WINTER",
     "season_year": 2027,
-    "studios": "TBD",
+    "studios": "Toho",
     "genres": [
       "Drama",
       "Fantasy",
@@ -550,9 +554,7 @@
     "genres": [
       "Action",
       "Adventure",
-      "Drama",
-      "Fantasy",
-      "Supernatural"
+      "Fantasy"
     ],
     "is_adult": false,
     "tags": [],
@@ -808,9 +810,9 @@
     "release_date": "2027-01-01",
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx200578-F1U6GNXA0p3l.png",
     "trailer": {
-      "id": "M4Hd-y86hIs",
+      "id": "A86REZ-veV8",
       "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/M4Hd-y86hIs/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/A86REZ-veV8/hqdefault.jpg"
     },
     "site_url": "https://anilist.co/anime/200578",
     "start_date": "2027-01-01",
@@ -1304,15 +1306,15 @@
     "release_date": "2027-01-01",
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197095-NultpVkKUJWz.jpg",
     "trailer": {
-      "id": "JXLbivdiGLc",
+      "id": "BeBqd3yuV9U",
       "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/JXLbivdiGLc/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/BeBqd3yuV9U/hqdefault.jpg"
     },
     "site_url": "https://anilist.co/anime/197095",
     "start_date": "2027-01-01",
     "season": "WINTER",
     "season_year": 2027,
-    "studios": "Teddy",
+    "studios": "Teddy, Hakuhodo DY Music & Pictures",
     "genres": [
       "Action",
       "Adventure",
