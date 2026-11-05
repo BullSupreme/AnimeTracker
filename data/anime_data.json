@@ -912,8 +912,8 @@
     "mal_id": 63409,
     "name": "Doumo, Suki na Hito ni Horegusuri wo Irai Sareta Majo desu.",
     "english_title": "Hello, I am a Witch and my Crush Wants me to Make a Love Potion!",
-    "episode": 5,
-    "release_date": "2026-11-02",
+    "episode": 6,
+    "release_date": "2026-11-09",
     "next_airing_date": "2026-11-09",
     "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207191-VgkIzfH92WoZ.jpg",
@@ -1399,8 +1399,8 @@
     "mal_id": 63098,
     "name": "PSYЯEN",
     "english_title": "PSYREN",
-    "episode": 4,
-    "release_date": "2026-11-02",
+    "episode": 5,
+    "release_date": "2026-11-09",
     "next_airing_date": "2026-11-09",
     "next_episode_number": 5,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204011-j45RZoqYbdZK.jpg",
@@ -1440,8 +1440,8 @@
     "mal_id": 63712,
     "name": "Tensei Goblin Dakedo Shitsumon Aru?",
     "english_title": "So What's Wrong with Getting Reborn as a Goblin?",
-    "episode": 6,
-    "release_date": "2026-11-02",
+    "episode": 7,
+    "release_date": "2026-11-09",
     "next_airing_date": "2026-11-09",
     "next_episode_number": 7,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209219-3yhKlRx0LX3p.jpg",
@@ -2579,8 +2579,8 @@
     "mal_id": 54344,
     "name": "Mahou Shoujo Ikusei Keikaku: restart",
     "english_title": "MAGICAL GIRL RAISING PROJECT restart",
-    "episode": 5,
-    "release_date": "2026-11-02",
+    "episode": 6,
+    "release_date": "2026-11-09",
     "next_airing_date": "2026-11-09",
     "next_episode_number": 6,
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx160803-Rcr3IvhE7q9c.png",
@@ -3236,44 +3236,5 @@
     "season_year": 2026,
     "status": "RELEASING",
     "popularity_rank": 67
-  },
-  {
-    "id": 211220,
-    "mal_id": 63987,
-    "name": "Li Xiongmao",
-    "english_title": "Raised by Demons: Panda Li",
-    "episode": 15,
-    "release_date": "2026-11-04",
-    "next_airing_date": null,
-    "next_episode_number": 15,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx211220-fkWS8gCM2rA5.png",
-    "trailer": {
-      "id": "aUuiaKnLR1g",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/aUuiaKnLR1g/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/211220",
-    "start_date": "2026-07-29",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md426797095",
-        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
-      }
-    ],
-    "popularity": 2050,
-    "anilist_score": 64,
-    "recently_finished": false,
-    "genres": [
-      "Adventure"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": null,
-    "season_year": null,
-    "status": "RELEASING",
-    "popularity_rank": 68
   }
 ]
