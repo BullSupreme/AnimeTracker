@@ -37,7 +37,7 @@
       }
     ],
     "status": null,
-    "popularity": 43899,
+    "popularity": 44062,
     "favourites": 566,
     "anilist_score": null,
     "streaming_links": [],
@@ -83,7 +83,7 @@
       }
     ],
     "status": null,
-    "popularity": 40974,
+    "popularity": 41078,
     "favourites": 684,
     "anilist_score": null,
     "streaming_links": [],
@@ -115,7 +115,7 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 36128,
+    "popularity": 36284,
     "favourites": 608,
     "anilist_score": null,
     "streaming_links": [],
@@ -162,7 +162,7 @@
       }
     ],
     "status": null,
-    "popularity": 31264,
+    "popularity": 31322,
     "favourites": 402,
     "anilist_score": null,
     "streaming_links": [],
@@ -205,7 +205,7 @@
       }
     ],
     "status": null,
-    "popularity": 30665,
+    "popularity": 30784,
     "favourites": 323,
     "anilist_score": null,
     "streaming_links": [],
@@ -239,7 +239,7 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 21629,
+    "popularity": 21705,
     "favourites": 177,
     "anilist_score": null,
     "streaming_links": [],
@@ -284,11 +284,55 @@
       }
     ],
     "status": null,
-    "popularity": 18381,
+    "popularity": 18459,
     "favourites": 171,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 7
+  },
+  {
+    "id": 181951,
+    "mal_id": 59928,
+    "name": "Ookami to Koushinryou: MERCHANT MEETS THE WISE WOLF 2nd Season",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2027-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181951-jTcWy5CUkS7L.jpg",
+    "trailer": {
+      "id": "e8Heas5oYOw",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/e8Heas5oYOw/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/181951",
+    "start_date": "2027-01-01",
+    "season": "WINTER",
+    "season_year": 2027,
+    "studios": "Passione",
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [
+      {
+        "id": 145728,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Ookami to Koushinryou: MERCHANT MEETS THE WISE WOLF",
+          "english": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF"
+        },
+        "season": "SPRING",
+        "seasonYear": 2024
+      }
+    ],
+    "status": null,
+    "popularity": 17518,
+    "favourites": 190,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 8
   },
   {
     "id": 213752,
@@ -329,11 +373,11 @@
       }
     ],
     "status": null,
-    "popularity": 15827,
+    "popularity": 15882,
     "favourites": 135,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 8
+    "popularity_rank": 9
   },
   {
     "id": 202564,
@@ -362,11 +406,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 14988,
+    "popularity": 15062,
     "favourites": 175,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 9
+    "popularity_rank": 10
   },
   {
     "id": 204579,
@@ -395,11 +439,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 12898,
+    "popularity": 12984,
     "favourites": 139,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 10
+    "popularity_rank": 11
   },
   {
     "id": 209980,
@@ -440,11 +484,11 @@
       }
     ],
     "status": null,
-    "popularity": 12387,
+    "popularity": 12465,
     "favourites": 186,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 11
+    "popularity_rank": 12
   },
   {
     "id": 217070,
@@ -484,11 +528,11 @@
       }
     ],
     "status": null,
-    "popularity": 11271,
+    "popularity": 11315,
     "favourites": 114,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 12
+    "popularity_rank": 13
   },
   {
     "id": 188892,
@@ -527,11 +571,11 @@
       }
     ],
     "status": null,
-    "popularity": 10232,
+    "popularity": 10252,
     "favourites": 127,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 13
+    "popularity_rank": 14
   },
   {
     "id": 216624,
@@ -560,11 +604,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 9030,
+    "popularity": 9127,
     "favourites": 118,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 14
+    "popularity_rank": 15
   },
   {
     "id": 196333,
@@ -593,11 +637,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 7995,
+    "popularity": 8065,
     "favourites": 52,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 15
+    "popularity_rank": 16
   },
   {
     "id": 186741,
@@ -628,11 +672,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 7911,
+    "popularity": 7959,
     "favourites": 85,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 16
+    "popularity_rank": 17
   },
   {
     "id": 213360,
@@ -670,11 +714,44 @@
       }
     ],
     "status": null,
-    "popularity": 7888,
+    "popularity": 7916,
     "favourites": 38,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 17
+    "popularity_rank": 18
+  },
+  {
+    "id": 183960,
+    "mal_id": 60253,
+    "name": "Isekai Munchkin: HP 1 no Mama de Saikyou Saisoku Dungeon Kouryaku",
+    "english_title": "Otherworldly Munchkin: Let's Speedrun the Dungeon with Only 1 HP!",
+    "episode": 1,
+    "release_date": "2027-01-07",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183960-Hgd9AMxsOyPa.jpg",
+    "trailer": {
+      "id": "xQ6qdEHfIaQ",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/xQ6qdEHfIaQ/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/183960",
+    "start_date": "2027-01-07",
+    "season": "WINTER",
+    "season_year": 2027,
+    "studios": "Durandal",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "status": null,
+    "popularity": 7323,
+    "favourites": 71,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 19
   },
   {
     "id": 208766,
@@ -701,11 +778,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 6998,
+    "popularity": 7038,
     "favourites": 40,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 18
+    "popularity_rank": 20
   },
   {
     "id": 205130,
@@ -734,11 +811,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 6751,
+    "popularity": 6782,
     "favourites": 37,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 19
+    "popularity_rank": 21
   },
   {
     "id": 197619,
@@ -767,11 +844,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 6109,
+    "popularity": 6153,
     "favourites": 64,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 20
+    "popularity_rank": 22
   },
   {
     "id": 207251,
@@ -795,11 +872,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 5891,
+    "popularity": 5915,
     "favourites": 82,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 21
+    "popularity_rank": 23
   },
   {
     "id": 200578,
@@ -830,11 +907,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 5807,
+    "popularity": 5834,
     "favourites": 61,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 22
+    "popularity_rank": 24
   },
   {
     "id": 189121,
@@ -872,11 +949,11 @@
       }
     ],
     "status": null,
-    "popularity": 5196,
+    "popularity": 5204,
     "favourites": 47,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 23
+    "popularity_rank": 25
   },
   {
     "id": 210199,
@@ -914,11 +991,11 @@
       }
     ],
     "status": null,
-    "popularity": 4854,
+    "popularity": 4871,
     "favourites": 68,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 24
+    "popularity_rank": 26
   },
   {
     "id": 219548,
@@ -949,11 +1026,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 4708,
+    "popularity": 4785,
     "favourites": 28,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 25
+    "popularity_rank": 27
   },
   {
     "id": 213877,
@@ -983,11 +1060,11 @@
     ],
     "prequels": [],
     "status": null,
-    "popularity": 4529,
+    "popularity": 4560,
     "favourites": 37,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 26
+    "popularity_rank": 28
   },
   {
     "id": 209661,
@@ -1015,11 +1092,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 4388,
+    "popularity": 4403,
     "favourites": 49,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 27
+    "popularity_rank": 29
   },
   {
     "id": 213052,
@@ -1048,11 +1125,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 3960,
+    "popularity": 3984,
     "favourites": 34,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 28
+    "popularity_rank": 30
   },
   {
     "id": 202503,
@@ -1081,11 +1158,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 3703,
+    "popularity": 3724,
     "favourites": 49,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 29
+    "popularity_rank": 31
   },
   {
     "id": 174427,
@@ -1115,11 +1192,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 3673,
+    "popularity": 3686,
     "favourites": 52,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 30
+    "popularity_rank": 32
   },
   {
     "id": 213497,
@@ -1149,11 +1226,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 3624,
+    "popularity": 3638,
     "favourites": 41,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 31
+    "popularity_rank": 33
   },
   {
     "id": 207782,
@@ -1181,11 +1258,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 3602,
+    "popularity": 3625,
     "favourites": 43,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 32
+    "popularity_rank": 34
   },
   {
     "id": 202282,
@@ -1224,11 +1301,11 @@
       }
     ],
     "status": null,
-    "popularity": 3447,
+    "popularity": 3453,
     "favourites": 52,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 33
+    "popularity_rank": 35
   },
   {
     "id": 194030,
@@ -1260,11 +1337,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 3242,
+    "popularity": 3257,
     "favourites": 34,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 34
+    "popularity_rank": 36
   },
   {
     "id": 197095,
@@ -1294,42 +1371,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 3184,
+    "popularity": 3204,
     "favourites": 26,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 35
-  },
-  {
-    "id": 198728,
-    "mal_id": 62483,
-    "name": "Kaze wo Tsugumono",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2027-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198728-1tasIeJ995QJ.jpg",
-    "trailer": {
-      "id": "ECavMtVCB08",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/ECavMtVCB08/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/198728",
-    "start_date": "2027-01-01",
-    "season": "WINTER",
-    "season_year": 2027,
-    "studios": "Live2D Creative Studio, Drive",
-    "genres": [
-      "Action"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "status": null,
-    "popularity": 3158,
-    "favourites": 9,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 36
+    "popularity_rank": 37
   },
   {
     "id": 187303,
@@ -1360,11 +1406,42 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 3144,
+    "popularity": 3172,
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 37
+    "popularity_rank": 38
+  },
+  {
+    "id": 198728,
+    "mal_id": 62483,
+    "name": "Kaze wo Tsugumono",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2027-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198728-1tasIeJ995QJ.jpg",
+    "trailer": {
+      "id": "ECavMtVCB08",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/ECavMtVCB08/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/198728",
+    "start_date": "2027-01-01",
+    "season": "WINTER",
+    "season_year": 2027,
+    "studios": "Live2D Creative Studio, Drive",
+    "genres": [
+      "Action"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "status": null,
+    "popularity": 3169,
+    "favourites": 9,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 39
   },
   {
     "id": 199590,
@@ -1393,11 +1470,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 2789,
+    "popularity": 2804,
     "favourites": 21,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 38
+    "popularity_rank": 40
   },
   {
     "id": 199337,
@@ -1436,11 +1513,11 @@
       }
     ],
     "status": null,
-    "popularity": 2587,
+    "popularity": 2588,
     "favourites": 14,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 39
+    "popularity_rank": 41
   },
   {
     "id": 209221,
@@ -1469,11 +1546,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 2532,
+    "popularity": 2550,
     "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 40
+    "popularity_rank": 42
   },
   {
     "id": 206798,
@@ -1508,11 +1585,11 @@
     ],
     "prequels": [],
     "status": null,
-    "popularity": 2484,
+    "popularity": 2509,
     "favourites": 38,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 41
+    "popularity_rank": 43
   },
   {
     "id": 205430,
@@ -1541,11 +1618,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1950,
+    "popularity": 1964,
     "favourites": 17,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 42
+    "popularity_rank": 44
   },
   {
     "id": 188546,
@@ -1573,11 +1650,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1822,
+    "popularity": 1826,
     "favourites": 29,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 43
+    "popularity_rank": 45
   },
   {
     "id": 214049,
@@ -1605,11 +1682,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1709,
+    "popularity": 1719,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 44
+    "popularity_rank": 46
   },
   {
     "id": 211070,
@@ -1638,11 +1715,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1634,
+    "popularity": 1639,
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 45
+    "popularity_rank": 47
   },
   {
     "id": 211258,
@@ -1671,11 +1748,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1583,
+    "popularity": 1593,
     "favourites": 20,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 46
+    "popularity_rank": 48
   },
   {
     "id": 185697,
@@ -1700,11 +1777,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1577,
+    "popularity": 1580,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 47
+    "popularity_rank": 49
   },
   {
     "id": 209224,
@@ -1734,11 +1811,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1362,
+    "popularity": 1378,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 48
+    "popularity_rank": 50
   },
   {
     "id": 214461,
@@ -1767,11 +1844,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1362,
+    "popularity": 1376,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 49
+    "popularity_rank": 51
   },
   {
     "id": 210157,
@@ -1810,11 +1887,11 @@
       }
     ],
     "status": null,
-    "popularity": 1359,
+    "popularity": 1364,
     "favourites": 14,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 50
+    "popularity_rank": 52
   },
   {
     "id": 207328,
@@ -1844,11 +1921,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1320,
+    "popularity": 1344,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 51
+    "popularity_rank": 53
   },
   {
     "id": 214969,
@@ -1876,11 +1953,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1253,
+    "popularity": 1266,
     "favourites": 3,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 52
+    "popularity_rank": 54
   },
   {
     "id": 185699,
@@ -1920,11 +1997,11 @@
       }
     ],
     "status": null,
-    "popularity": 1182,
+    "popularity": 1184,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 53
+    "popularity_rank": 55
   },
   {
     "id": 203116,
@@ -1952,11 +2029,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1051,
+    "popularity": 1054,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 54
+    "popularity_rank": 56
   },
   {
     "id": 214055,
@@ -1985,10 +2062,10 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1008,
+    "popularity": 1040,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 55
+    "popularity_rank": 57
   }
 ]
