@@ -538,6 +538,59 @@
     "popularity_rank": 7
   },
   {
+    "id": 213805,
+    "mal_id": 64534,
+    "name": "Koori no Jouheki 2nd Season",
+    "english_title": "The Ramparts of Ice Season 2",
+    "episode": 9,
+    "release_date": "2026-11-26",
+    "next_airing_date": "2026-11-26",
+    "next_episode_number": 9,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213805-Nokui3uWlIlw.png",
+    "trailer": {
+      "id": "VvzeL7UMCE8",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/VvzeL7UMCE8/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/213805",
+    "start_date": "2026-10-02",
+    "end_date": "2026-12-24",
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/82031882",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 41958,
+    "anilist_score": 82,
+    "recently_finished": false,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance",
+      "Slice of Life"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [
+      {
+        "id": 186497,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Koori no Jouheki",
+          "english": "The Ramparts of Ice"
+        },
+        "season": "SPRING",
+        "seasonYear": 2026
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 12
+  },
+  {
     "id": 172192,
     "mal_id": 57612,
     "name": "Kikansha no Mahou wa Tokubetsu desu 2nd Season",
@@ -686,6 +739,58 @@
     "popularity_rank": 25
   },
   {
+    "id": 212503,
+    "mal_id": 64254,
+    "name": "Hyouken no Majutsushi ga Sekai wo Suberu II",
+    "english_title": "The Iceblade Sorcerer Shall Rule the World II",
+    "episode": 8,
+    "release_date": "2026-11-26",
+    "next_airing_date": "2026-11-26",
+    "next_episode_number": 8,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212503-sXBpRZr96c4e.jpg",
+    "trailer": {
+      "id": "oxkxyAcKv2g",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/oxkxyAcKv2g/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/212503",
+    "start_date": "2026-10-09",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GDKHZEP21/the-iceblade-sorcerer-shall-rule-the-world",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 24434,
+    "anilist_score": 66,
+    "recently_finished": false,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [
+      {
+        "id": 148116,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Hyouken no Majutsushi ga Sekai wo Suberu",
+          "english": "The Iceblade Sorcerer Shall Rule the World"
+        },
+        "season": "WINTER",
+        "seasonYear": 2023
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 31
+  },
+  {
     "id": 211778,
     "mal_id": 64084,
     "name": "Sekai Saikyou no Majo, Hajimemashita",
@@ -730,6 +835,51 @@
     "season_year": 2026,
     "status": "RELEASING",
     "popularity_rank": 32
+  },
+  {
+    "id": 206401,
+    "mal_id": 63337,
+    "name": "FX Senshi Kurumi-chan",
+    "english_title": "FX Fighter Kurumi-chan",
+    "episode": 9,
+    "release_date": "2026-11-26",
+    "next_airing_date": "2026-11-26",
+    "next_episode_number": 9,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206401-8cAebkI0i8BA.png",
+    "trailer": {
+      "id": "7rxIZ3z0S4s",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/7rxIZ3z0S4s/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/206401",
+    "start_date": "2026-10-01",
+    "end_date": "2026-12-17",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://crunchyroll.com/series/GT00384001/fx-fighter-kurumi-chan",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLTQxh5nM9A2w",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 20070,
+    "anilist_score": 67,
+    "recently_finished": false,
+    "genres": [
+      "Drama",
+      "Slice of Life"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 36
   },
   {
     "id": 176314,
@@ -831,6 +981,83 @@
     "popularity_rank": 45
   },
   {
+    "id": 199594,
+    "mal_id": 62615,
+    "name": "Tetsuryou! meet with Tetsudou Musume",
+    "english_title": "TETSURYO! Meet With Tetsudou Musume",
+    "episode": 8,
+    "release_date": "2026-11-26",
+    "next_airing_date": "2026-11-26",
+    "next_episode_number": 8,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199594-moYKzlfIH03U.jpg",
+    "trailer": {
+      "id": "GixEiC7k9_4",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/GixEiC7k9_4/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/199594",
+    "start_date": "2026-10-09",
+    "end_date": "2026-12-25",
+    "streaming_links": [
+      {
+        "site": "HIDIVE",
+        "url": "https://www.hidive.com/season/39542",
+        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLJaKlqcb9GkQ",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 4531,
+    "anilist_score": 60,
+    "recently_finished": false,
+    "genres": [
+      "Slice of Life"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 61
+  },
+  {
+    "id": 188034,
+    "mal_id": 61227,
+    "name": "Girls und Panzer: Motto Love Love Sakusen desu!",
+    "english_title": null,
+    "episode": 8,
+    "release_date": "2026-11-26",
+    "next_airing_date": "2026-11-26",
+    "next_episode_number": 8,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188034-oRwVKBMezOOk.jpg",
+    "trailer": {
+      "id": "AVIDW2dT2AM",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/AVIDW2dT2AM/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/188034",
+    "start_date": "2026-10-08",
+    "end_date": "2026-12-24",
+    "streaming_links": [],
+    "popularity": 4237,
+    "anilist_score": 75,
+    "recently_finished": false,
+    "genres": [
+      "Comedy"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 62
+  },
+  {
     "id": 213068,
     "mal_id": 64344,
     "name": "Juuоu Mujin Dandivine",
@@ -869,6 +1096,51 @@
     "season_year": 2026,
     "status": "RELEASING",
     "popularity_rank": 65
+  },
+  {
+    "id": 180136,
+    "mal_id": 59741,
+    "name": "Tsuihou Sareta Tensei Juukishi wa Game Chishiki de Musou Suru",
+    "english_title": "The Exiled Heavy Knight Knows How to Game the System",
+    "episode": 22,
+    "release_date": null,
+    "next_airing_date": "2026-11-26",
+    "next_episode_number": 22,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180136-gtMTCRlOD4OE.jpg",
+    "trailer": {
+      "id": "uC13b3_8riU",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/uC13b3_8riU/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/180136",
+    "start_date": "2026-07-03",
+    "end_date": "2026-12-25",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00378018/the-exiled-heavy-knight-knows-how-to-game-the-system",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3yq1oZEC8iNCwgMsg0NmIZ",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 78388,
+    "anilist_score": 67,
+    "recently_finished": false,
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "SUMMER",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 4
   },
   {
     "id": 207809,
@@ -912,278 +1184,6 @@
     "season_year": 2026,
     "status": "RELEASING",
     "popularity_rank": 48
-  },
-  {
-    "id": 180136,
-    "mal_id": 59741,
-    "name": "Tsuihou Sareta Tensei Juukishi wa Game Chishiki de Musou Suru",
-    "english_title": "The Exiled Heavy Knight Knows How to Game the System",
-    "episode": 21,
-    "release_date": "2026-11-19",
-    "next_airing_date": "2026-11-26",
-    "next_episode_number": 22,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180136-gtMTCRlOD4OE.jpg",
-    "trailer": {
-      "id": "uC13b3_8riU",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/uC13b3_8riU/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/180136",
-    "start_date": "2026-07-03",
-    "end_date": "2026-12-25",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00378018/the-exiled-heavy-knight-knows-how-to-game-the-system",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3yq1oZEC8iNCwgMsg0NmIZ",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 78388,
-    "anilist_score": 67,
-    "recently_finished": false,
-    "genres": [
-      "Action",
-      "Fantasy"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "SUMMER",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 4
-  },
-  {
-    "id": 213805,
-    "mal_id": 64534,
-    "name": "Koori no Jouheki 2nd Season",
-    "english_title": "The Ramparts of Ice Season 2",
-    "episode": 8,
-    "release_date": "2026-11-19",
-    "next_airing_date": "2026-11-26",
-    "next_episode_number": 9,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213805-Nokui3uWlIlw.png",
-    "trailer": {
-      "id": "VvzeL7UMCE8",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/VvzeL7UMCE8/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/213805",
-    "start_date": "2026-10-02",
-    "end_date": "2026-12-24",
-    "streaming_links": [
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/82031882",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      }
-    ],
-    "popularity": 41958,
-    "anilist_score": 82,
-    "recently_finished": false,
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Romance",
-      "Slice of Life"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [
-      {
-        "id": 186497,
-        "type": "ANIME",
-        "title": {
-          "romaji": "Koori no Jouheki",
-          "english": "The Ramparts of Ice"
-        },
-        "season": "SPRING",
-        "seasonYear": 2026
-      }
-    ],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 12
-  },
-  {
-    "id": 212503,
-    "mal_id": 64254,
-    "name": "Hyouken no Majutsushi ga Sekai wo Suberu II",
-    "english_title": "The Iceblade Sorcerer Shall Rule the World II",
-    "episode": 7,
-    "release_date": "2026-11-19",
-    "next_airing_date": "2026-11-26",
-    "next_episode_number": 8,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212503-sXBpRZr96c4e.jpg",
-    "trailer": {
-      "id": "oxkxyAcKv2g",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/oxkxyAcKv2g/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/212503",
-    "start_date": "2026-10-09",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GDKHZEP21/the-iceblade-sorcerer-shall-rule-the-world",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 24434,
-    "anilist_score": 66,
-    "recently_finished": false,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [
-      {
-        "id": 148116,
-        "type": "ANIME",
-        "title": {
-          "romaji": "Hyouken no Majutsushi ga Sekai wo Suberu",
-          "english": "The Iceblade Sorcerer Shall Rule the World"
-        },
-        "season": "WINTER",
-        "seasonYear": 2023
-      }
-    ],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 31
-  },
-  {
-    "id": 206401,
-    "mal_id": 63337,
-    "name": "FX Senshi Kurumi-chan",
-    "english_title": "FX Fighter Kurumi-chan",
-    "episode": 8,
-    "release_date": "2026-11-19",
-    "next_airing_date": "2026-11-26",
-    "next_episode_number": 9,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206401-8cAebkI0i8BA.png",
-    "trailer": {
-      "id": "7rxIZ3z0S4s",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/7rxIZ3z0S4s/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/206401",
-    "start_date": "2026-10-01",
-    "end_date": "2026-12-17",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://crunchyroll.com/series/GT00384001/fx-fighter-kurumi-chan",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLTQxh5nM9A2w",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 20070,
-    "anilist_score": 67,
-    "recently_finished": false,
-    "genres": [
-      "Drama",
-      "Slice of Life"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 36
-  },
-  {
-    "id": 199594,
-    "mal_id": 62615,
-    "name": "Tetsuryou! meet with Tetsudou Musume",
-    "english_title": "TETSURYO! Meet With Tetsudou Musume",
-    "episode": 7,
-    "release_date": "2026-11-19",
-    "next_airing_date": "2026-11-26",
-    "next_episode_number": 8,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199594-moYKzlfIH03U.jpg",
-    "trailer": {
-      "id": "GixEiC7k9_4",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/GixEiC7k9_4/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/199594",
-    "start_date": "2026-10-09",
-    "end_date": "2026-12-25",
-    "streaming_links": [
-      {
-        "site": "HIDIVE",
-        "url": "https://www.hidive.com/season/39542",
-        "icon": "https://www.google.com/s2/favicons?domain=www.hidive.com&sz=32"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLJaKlqcb9GkQ",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 4531,
-    "anilist_score": 60,
-    "recently_finished": false,
-    "genres": [
-      "Slice of Life"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 61
-  },
-  {
-    "id": 188034,
-    "mal_id": 61227,
-    "name": "Girls und Panzer: Motto Love Love Sakusen desu!",
-    "english_title": null,
-    "episode": 7,
-    "release_date": "2026-11-19",
-    "next_airing_date": "2026-11-26",
-    "next_episode_number": 8,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188034-oRwVKBMezOOk.jpg",
-    "trailer": {
-      "id": "AVIDW2dT2AM",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/AVIDW2dT2AM/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/188034",
-    "start_date": "2026-10-08",
-    "end_date": "2026-12-24",
-    "streaming_links": [],
-    "popularity": 4237,
-    "anilist_score": 75,
-    "recently_finished": false,
-    "genres": [
-      "Comedy"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 62
   },
   {
     "id": 195516,
