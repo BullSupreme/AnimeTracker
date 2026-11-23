@@ -667,6 +667,156 @@
     "popularity_rank": 65
   },
   {
+    "id": 195516,
+    "mal_id": 61987,
+    "name": "Kusuriya no Hitorigoto 3rd Season",
+    "english_title": "The Apothecary Diaries Season 3",
+    "episode": 9,
+    "release_date": "2026-11-27",
+    "next_airing_date": "2026-11-27",
+    "next_episode_number": 9,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195516-MJpUZlOberqH.jpg",
+    "trailer": {
+      "id": "YvNvvUeCztE",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/YvNvvUeCztE/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/195516",
+    "start_date": "2026-10-02",
+    "end_date": "2026-12-18",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G3KHEVDJ7/the-apothecary-diaries",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/us/title/81712068",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 116215,
+    "anilist_score": 85,
+    "recently_finished": false,
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [
+      {
+        "id": 176301,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Kusuriya no Hitorigoto 2nd Season",
+          "english": "The Apothecary Diaries Season 2"
+        },
+        "season": "WINTER",
+        "seasonYear": 2025
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 1
+  },
+  {
+    "id": 205909,
+    "mal_id": 63293,
+    "name": "Hotaru no Yomeiri",
+    "english_title": "Firefly Wedding",
+    "episode": 8,
+    "release_date": "2026-11-27",
+    "next_airing_date": "2026-11-27",
+    "next_episode_number": 8,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205909-DM0fAzNQulod.jpg",
+    "trailer": {
+      "id": "Ex9LrBK-7hk",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/Ex9LrBK-7hk/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/205909",
+    "start_date": "2026-10-09",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00383999",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 58371,
+    "anilist_score": 76,
+    "recently_finished": false,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 6
+  },
+  {
+    "id": 210482,
+    "mal_id": 61469,
+    "name": "JoJo no Kimyou na Bouken: Steel Ball Run - 2nd & 3rd STAGE",
+    "english_title": "STEEL BALL RUN JoJo's Bizarre Adventure 2nd - 3rd STAGE",
+    "episode": 10,
+    "release_date": "2026-11-27",
+    "next_airing_date": "2026-11-27",
+    "next_episode_number": 10,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx210482-P1VNKbqdJ6Zj.jpg",
+    "trailer": {
+      "id": "jXtG_lcR9P4",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/jXtG_lcR9P4/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/210482",
+    "start_date": "2026-09-25",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/82116553",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 53547,
+    "anilist_score": 86,
+    "recently_finished": false,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Mystery",
+      "Supernatural"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [
+      {
+        "id": 190327,
+        "type": "ANIME",
+        "title": {
+          "romaji": "JoJo no Kimyou na Bouken: Steel Ball Run - 1st STAGE",
+          "english": "STEEL BALL RUN JoJo's Bizarre Adventure 1st STAGE"
+        },
+        "season": "WINTER",
+        "seasonYear": 2026
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 11
+  },
+  {
     "id": 213805,
     "mal_id": 64534,
     "name": "Koori no Jouheki 2nd Season",
@@ -718,6 +868,64 @@
     "season_year": 2026,
     "status": "RELEASING",
     "popularity_rank": 12
+  },
+  {
+    "id": 178083,
+    "mal_id": 59088,
+    "name": "Tokyo Revengers: Santen Sensou-hen",
+    "english_title": "Tokyo Revengers: War of the Three Titans Arc",
+    "episode": 9,
+    "release_date": "2026-11-27",
+    "next_airing_date": "2026-11-27",
+    "next_episode_number": 9,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178083-bg7pg6TCHwtG.jpg",
+    "trailer": {
+      "id": "Nm21TTXUkf4",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/Nm21TTXUkf4/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/178083",
+    "start_date": "2026-10-03",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@animetoman",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "Hulu",
+        "url": "https://www.hulu.com/series/1a195a35-e19c-4e36-b609-3b1c451f6ce4",
+        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
+      }
+    ],
+    "popularity": 41145,
+    "anilist_score": 77,
+    "recently_finished": false,
+    "genres": [
+      "Action",
+      "Drama",
+      "Romance",
+      "Supernatural"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [
+      {
+        "id": 163329,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Tokyo Revengers: Tenjiku-hen",
+          "english": "Tokyo Revengers Season 2 Part 2"
+        },
+        "season": "FALL",
+        "seasonYear": 2023
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 13
   },
   {
     "id": 213457,
@@ -814,6 +1022,73 @@
     "popularity_rank": 31
   },
   {
+    "id": 204650,
+    "mal_id": 63181,
+    "name": "Tougen Anki: Nikko・Kegon no Taki-hen",
+    "english_title": "TOUGEN ANKI: Nikko Kegon Falls Arc",
+    "episode": 9,
+    "release_date": "2026-11-27",
+    "next_airing_date": "2026-11-27",
+    "next_episode_number": 9,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204650-cAQOzQ84Lwk8.png",
+    "trailer": {
+      "id": "upBWYExYoYc",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/upBWYExYoYc/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/204650",
+    "start_date": "2026-10-02",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@tougen_anki",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GP5HJ84D2/tougen-anki",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      },
+      {
+        "site": "Amazon Prime Video",
+        "url": "https://www.amazon.com/dp/B0FCM3YGCQ",
+        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81969861",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 23053,
+    "anilist_score": 73,
+    "recently_finished": false,
+    "genres": [
+      "Action",
+      "Mystery",
+      "Supernatural"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [
+      {
+        "id": 177474,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Tougen Anki",
+          "english": "TOUGEN ANKI"
+        },
+        "season": "SUMMER",
+        "seasonYear": 2025
+      }
+    ],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 33
+  },
+  {
     "id": 206401,
     "mal_id": 63337,
     "name": "FX Senshi Kurumi-chan",
@@ -857,6 +1132,127 @@
     "season_year": 2026,
     "status": "RELEASING",
     "popularity_rank": 36
+  },
+  {
+    "id": 186742,
+    "mal_id": 61014,
+    "name": "Toaru Anbu no ITEM",
+    "english_title": "A Certain Dark Item",
+    "episode": 8,
+    "release_date": "2026-11-27",
+    "next_airing_date": "2026-11-27",
+    "next_episode_number": 8,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186742-v7yfbefc8fuO.png",
+    "trailer": {
+      "id": "NNHxQJgZdbQ",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/NNHxQJgZdbQ/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/186742",
+    "start_date": "2026-10-09",
+    "end_date": "2026-12-18",
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00383991/a-certain-dark-item",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 18103,
+    "anilist_score": 67,
+    "recently_finished": false,
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 39
+  },
+  {
+    "id": 203275,
+    "mal_id": 63045,
+    "name": "Demons' Crest",
+    "english_title": "Devils' Crest",
+    "episode": 5,
+    "release_date": "2026-11-27",
+    "next_airing_date": "2026-11-27",
+    "next_episode_number": 5,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b203275-YyNHygkzIjMC.jpg",
+    "trailer": {
+      "id": "z_aHrTag3Ig",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/z_aHrTag3Ig/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/203275",
+    "start_date": "2026-11-06",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Prime Video",
+        "url": "https://www.primevideo.com/detail/0J35D20PPSSNACER7Z6BEAHQFW",
+        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
+      }
+    ],
+    "popularity": 12760,
+    "anilist_score": 54,
+    "recently_finished": false,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 46
+  },
+  {
+    "id": 216895,
+    "mal_id": 65009,
+    "name": "Aoki Denshou: Welsh & Shedar",
+    "english_title": "Welsh & Shedar",
+    "episode": 9,
+    "release_date": "2026-11-27",
+    "next_airing_date": "2026-11-27",
+    "next_episode_number": 9,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx216895-Ofx4FSKFa4CQ.jpg",
+    "trailer": {
+      "id": "4QafpDIgjS4",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/4QafpDIgjS4/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/216895",
+    "start_date": "2026-10-02",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/channel/UC9_koculzguUeaTpeYJ3aSA",
+        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
+      }
+    ],
+    "popularity": 5023,
+    "anilist_score": 59,
+    "recently_finished": false,
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 59
   },
   {
     "id": 199594,
@@ -981,6 +1377,47 @@
     "popularity_rank": 4
   },
   {
+    "id": 203490,
+    "mal_id": 63061,
+    "name": "Uchi no Otouto-domo ga Sumimasen",
+    "english_title": "Please Excuse My Younger Brothers",
+    "episode": 21,
+    "release_date": null,
+    "next_airing_date": "2026-11-27",
+    "next_episode_number": 21,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx203490-YQXiymUiDQNA.jpg",
+    "trailer": {
+      "id": "P927_ZvgUUg",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/P927_ZvgUUg/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/203490",
+    "start_date": "2026-07-04",
+    "end_date": null,
+    "streaming_links": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00371926/",
+        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
+      }
+    ],
+    "popularity": 14035,
+    "anilist_score": 69,
+    "recently_finished": false,
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Slice of Life"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "SUMMER",
+    "season_year": 2026,
+    "status": "RELEASING",
+    "popularity_rank": 44
+  },
+  {
     "id": 207809,
     "mal_id": 63489,
     "name": "Sora wa Akai Kawa no Hotori",
@@ -1022,443 +1459,6 @@
     "season_year": 2026,
     "status": "RELEASING",
     "popularity_rank": 48
-  },
-  {
-    "id": 195516,
-    "mal_id": 61987,
-    "name": "Kusuriya no Hitorigoto 3rd Season",
-    "english_title": "The Apothecary Diaries Season 3",
-    "episode": 8,
-    "release_date": "2026-11-20",
-    "next_airing_date": "2026-11-27",
-    "next_episode_number": 9,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195516-MJpUZlOberqH.jpg",
-    "trailer": {
-      "id": "YvNvvUeCztE",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/YvNvvUeCztE/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/195516",
-    "start_date": "2026-10-02",
-    "end_date": "2026-12-18",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G3KHEVDJ7/the-apothecary-diaries",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/us/title/81712068",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      }
-    ],
-    "popularity": 116215,
-    "anilist_score": 85,
-    "recently_finished": false,
-    "genres": [
-      "Drama",
-      "Mystery"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [
-      {
-        "id": 176301,
-        "type": "ANIME",
-        "title": {
-          "romaji": "Kusuriya no Hitorigoto 2nd Season",
-          "english": "The Apothecary Diaries Season 2"
-        },
-        "season": "WINTER",
-        "seasonYear": 2025
-      }
-    ],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 1
-  },
-  {
-    "id": 205909,
-    "mal_id": 63293,
-    "name": "Hotaru no Yomeiri",
-    "english_title": "Firefly Wedding",
-    "episode": 7,
-    "release_date": "2026-11-20",
-    "next_airing_date": "2026-11-27",
-    "next_episode_number": 8,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205909-DM0fAzNQulod.jpg",
-    "trailer": {
-      "id": "Ex9LrBK-7hk",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/Ex9LrBK-7hk/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/205909",
-    "start_date": "2026-10-09",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00383999",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 58371,
-    "anilist_score": 76,
-    "recently_finished": false,
-    "genres": [
-      "Drama",
-      "Romance"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 6
-  },
-  {
-    "id": 210482,
-    "mal_id": 61469,
-    "name": "JoJo no Kimyou na Bouken: Steel Ball Run - 2nd & 3rd STAGE",
-    "english_title": "STEEL BALL RUN JoJo's Bizarre Adventure 2nd - 3rd STAGE",
-    "episode": 9,
-    "release_date": "2026-11-20",
-    "next_airing_date": "2026-11-27",
-    "next_episode_number": 10,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx210482-P1VNKbqdJ6Zj.jpg",
-    "trailer": {
-      "id": "jXtG_lcR9P4",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/jXtG_lcR9P4/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/210482",
-    "start_date": "2026-09-25",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/82116553",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      }
-    ],
-    "popularity": 53547,
-    "anilist_score": 86,
-    "recently_finished": false,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Drama",
-      "Mystery",
-      "Supernatural"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [
-      {
-        "id": 190327,
-        "type": "ANIME",
-        "title": {
-          "romaji": "JoJo no Kimyou na Bouken: Steel Ball Run - 1st STAGE",
-          "english": "STEEL BALL RUN JoJo's Bizarre Adventure 1st STAGE"
-        },
-        "season": "WINTER",
-        "seasonYear": 2026
-      }
-    ],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 11
-  },
-  {
-    "id": 178083,
-    "mal_id": 59088,
-    "name": "Tokyo Revengers: Santen Sensou-hen",
-    "english_title": "Tokyo Revengers: War of the Three Titans Arc",
-    "episode": 8,
-    "release_date": "2026-11-20",
-    "next_airing_date": "2026-11-27",
-    "next_episode_number": 9,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178083-bg7pg6TCHwtG.jpg",
-    "trailer": {
-      "id": "Nm21TTXUkf4",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/Nm21TTXUkf4/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/178083",
-    "start_date": "2026-10-03",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@animetoman",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "Hulu",
-        "url": "https://www.hulu.com/series/1a195a35-e19c-4e36-b609-3b1c451f6ce4",
-        "icon": "https://www.google.com/s2/favicons?domain=hulu.com&sz=32"
-      }
-    ],
-    "popularity": 41145,
-    "anilist_score": 77,
-    "recently_finished": false,
-    "genres": [
-      "Action",
-      "Drama",
-      "Romance",
-      "Supernatural"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [
-      {
-        "id": 163329,
-        "type": "ANIME",
-        "title": {
-          "romaji": "Tokyo Revengers: Tenjiku-hen",
-          "english": "Tokyo Revengers Season 2 Part 2"
-        },
-        "season": "FALL",
-        "seasonYear": 2023
-      }
-    ],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 13
-  },
-  {
-    "id": 204650,
-    "mal_id": 63181,
-    "name": "Tougen Anki: Nikko・Kegon no Taki-hen",
-    "english_title": "TOUGEN ANKI: Nikko Kegon Falls Arc",
-    "episode": 8,
-    "release_date": "2026-11-20",
-    "next_airing_date": "2026-11-27",
-    "next_episode_number": 9,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204650-cAQOzQ84Lwk8.png",
-    "trailer": {
-      "id": "upBWYExYoYc",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/upBWYExYoYc/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/204650",
-    "start_date": "2026-10-02",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@tougen_anki",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GP5HJ84D2/tougen-anki",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      },
-      {
-        "site": "Amazon Prime Video",
-        "url": "https://www.amazon.com/dp/B0FCM3YGCQ",
-        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
-      },
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/81969861",
-        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
-      }
-    ],
-    "popularity": 23053,
-    "anilist_score": 73,
-    "recently_finished": false,
-    "genres": [
-      "Action",
-      "Mystery",
-      "Supernatural"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [
-      {
-        "id": 177474,
-        "type": "ANIME",
-        "title": {
-          "romaji": "Tougen Anki",
-          "english": "TOUGEN ANKI"
-        },
-        "season": "SUMMER",
-        "seasonYear": 2025
-      }
-    ],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 33
-  },
-  {
-    "id": 186742,
-    "mal_id": 61014,
-    "name": "Toaru Anbu no ITEM",
-    "english_title": "A Certain Dark Item",
-    "episode": 7,
-    "release_date": "2026-11-20",
-    "next_airing_date": "2026-11-27",
-    "next_episode_number": 8,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186742-v7yfbefc8fuO.png",
-    "trailer": {
-      "id": "NNHxQJgZdbQ",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/NNHxQJgZdbQ/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/186742",
-    "start_date": "2026-10-09",
-    "end_date": "2026-12-18",
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00383991/a-certain-dark-item",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 18103,
-    "anilist_score": 67,
-    "recently_finished": false,
-    "genres": [
-      "Action",
-      "Sci-Fi"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 39
-  },
-  {
-    "id": 203490,
-    "mal_id": 63061,
-    "name": "Uchi no Otouto-domo ga Sumimasen",
-    "english_title": "Please Excuse My Younger Brothers",
-    "episode": 20,
-    "release_date": "2026-11-20",
-    "next_airing_date": "2026-11-27",
-    "next_episode_number": 21,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx203490-YQXiymUiDQNA.jpg",
-    "trailer": {
-      "id": "P927_ZvgUUg",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/P927_ZvgUUg/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/203490",
-    "start_date": "2026-07-04",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371926/",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 14035,
-    "anilist_score": 69,
-    "recently_finished": false,
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Slice of Life"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "SUMMER",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 44
-  },
-  {
-    "id": 203275,
-    "mal_id": 63045,
-    "name": "Demons' Crest",
-    "english_title": "Devils' Crest",
-    "episode": 4,
-    "release_date": "2026-11-20",
-    "next_airing_date": "2026-11-27",
-    "next_episode_number": 5,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b203275-YyNHygkzIjMC.jpg",
-    "trailer": {
-      "id": "z_aHrTag3Ig",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/z_aHrTag3Ig/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/203275",
-    "start_date": "2026-11-06",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Prime Video",
-        "url": "https://www.primevideo.com/detail/0J35D20PPSSNACER7Z6BEAHQFW",
-        "icon": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=32"
-      }
-    ],
-    "popularity": 12760,
-    "anilist_score": 54,
-    "recently_finished": false,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 46
-  },
-  {
-    "id": 216895,
-    "mal_id": 65009,
-    "name": "Aoki Denshou: Welsh & Shedar",
-    "english_title": "Welsh & Shedar",
-    "episode": 8,
-    "release_date": "2026-11-20",
-    "next_airing_date": "2026-11-27",
-    "next_episode_number": 9,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx216895-Ofx4FSKFa4CQ.jpg",
-    "trailer": {
-      "id": "4QafpDIgjS4",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/4QafpDIgjS4/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/216895",
-    "start_date": "2026-10-02",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/channel/UC9_koculzguUeaTpeYJ3aSA",
-        "icon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=32"
-      }
-    ],
-    "popularity": 5023,
-    "anilist_score": 59,
-    "recently_finished": false,
-    "genres": [
-      "Adventure",
-      "Fantasy"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 59
   },
   {
     "id": 195604,
@@ -1697,7 +1697,7 @@
     "tags": [
       {
         "name": "Nudity",
-        "rank": 74
+        "rank": 72
       }
     ],
     "prequels": [],
@@ -1762,47 +1762,6 @@
     "season_year": 2026,
     "status": "RELEASING",
     "popularity_rank": 26
-  },
-  {
-    "id": 204011,
-    "mal_id": 63098,
-    "name": "PSYЯEN",
-    "english_title": "PSYREN",
-    "episode": 7,
-    "release_date": "2026-11-30",
-    "next_airing_date": "2026-11-30",
-    "next_episode_number": 7,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204011-j45RZoqYbdZK.jpg",
-    "trailer": {
-      "id": "fmUpSXFbSK0",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/fmUpSXFbSK0/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/204011",
-    "start_date": "2026-10-05",
-    "end_date": null,
-    "streaming_links": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GT00371866/psyren",
-        "icon": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=32"
-      }
-    ],
-    "popularity": 25351,
-    "anilist_score": 69,
-    "recently_finished": false,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "RELEASING",
-    "popularity_rank": 27
   },
   {
     "id": 187402,
