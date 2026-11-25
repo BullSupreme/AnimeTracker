@@ -49,44 +49,5 @@
     "season_year": 2026,
     "status": "FINISHED",
     "popularity_rank": 64
-  },
-  {
-    "id": 211220,
-    "mal_id": 63987,
-    "name": "Li Xiongmao",
-    "english_title": "Raised by Demons: Panda Li",
-    "episode": 18,
-    "release_date": null,
-    "next_airing_date": null,
-    "next_episode_number": 18,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx211220-fkWS8gCM2rA5.png",
-    "trailer": {
-      "id": "aUuiaKnLR1g",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/aUuiaKnLR1g/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/211220",
-    "start_date": "2026-07-29",
-    "end_date": "2026-11-11",
-    "streaming_links": [
-      {
-        "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md426797095",
-        "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=32"
-      }
-    ],
-    "popularity": 2293,
-    "anilist_score": 66,
-    "recently_finished": true,
-    "genres": [
-      "Adventure"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "season": "SUMMER",
-    "season_year": 2026,
-    "status": "FINISHED",
-    "popularity_rank": 67
   }
 ]
