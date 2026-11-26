@@ -1,5 +1,47 @@
 [
   {
+    "id": 213457,
+    "mal_id": 64459,
+    "name": "Fool Night",
+    "english_title": "Fool Night",
+    "episode": 12,
+    "release_date": null,
+    "next_airing_date": null,
+    "next_episode_number": 12,
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213457-gN5p1GZjK3zi.jpg",
+    "trailer": {
+      "id": "p15JWZsi3Ao",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/p15JWZsi3Ao/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/213457",
+    "start_date": "2026-11-26",
+    "end_date": "2026-11-26",
+    "streaming_links": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81991076",
+        "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
+      }
+    ],
+    "popularity": 27921,
+    "anilist_score": 37,
+    "recently_finished": true,
+    "genres": [
+      "Drama",
+      "Psychological",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "season": "FALL",
+    "season_year": 2026,
+    "status": "FINISHED",
+    "popularity_rank": 24
+  },
+  {
     "id": 199353,
     "mal_id": 60597,
     "name": "Dawang Raoming 3",
@@ -24,7 +66,7 @@
         "icon": "https://www.google.com/s2/favicons?domain=v.qq.com&sz=32"
       }
     ],
-    "popularity": 3944,
+    "popularity": 3967,
     "anilist_score": 75,
     "recently_finished": true,
     "genres": [
