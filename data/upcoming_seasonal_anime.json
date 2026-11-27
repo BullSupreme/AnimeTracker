@@ -37,7 +37,7 @@
       }
     ],
     "status": null,
-    "popularity": 45227,
+    "popularity": 45387,
     "favourites": 587,
     "anilist_score": null,
     "streaming_links": [],
@@ -83,7 +83,7 @@
       }
     ],
     "status": null,
-    "popularity": 41861,
+    "popularity": 41953,
     "favourites": 712,
     "anilist_score": null,
     "streaming_links": [],
@@ -115,7 +115,7 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 37437,
+    "popularity": 37603,
     "favourites": 636,
     "anilist_score": null,
     "streaming_links": [],
@@ -162,7 +162,7 @@
       }
     ],
     "status": null,
-    "popularity": 31819,
+    "popularity": 31896,
     "favourites": 408,
     "anilist_score": null,
     "streaming_links": [],
@@ -205,7 +205,7 @@
       }
     ],
     "status": null,
-    "popularity": 31592,
+    "popularity": 31716,
     "favourites": 340,
     "anilist_score": null,
     "streaming_links": [],
@@ -239,7 +239,7 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 22296,
+    "popularity": 22379,
     "favourites": 181,
     "anilist_score": null,
     "streaming_links": [],
@@ -284,7 +284,7 @@
       }
     ],
     "status": null,
-    "popularity": 19014,
+    "popularity": 19096,
     "favourites": 176,
     "anilist_score": null,
     "streaming_links": [],
@@ -328,7 +328,7 @@
       }
     ],
     "status": null,
-    "popularity": 17979,
+    "popularity": 18023,
     "favourites": 193,
     "anilist_score": null,
     "streaming_links": [],
@@ -373,7 +373,7 @@
       }
     ],
     "status": null,
-    "popularity": 16295,
+    "popularity": 16345,
     "favourites": 138,
     "anilist_score": null,
     "streaming_links": [],
@@ -406,7 +406,7 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 15669,
+    "popularity": 15776,
     "favourites": 177,
     "anilist_score": null,
     "streaming_links": [],
@@ -439,7 +439,7 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 13524,
+    "popularity": 13594,
     "favourites": 147,
     "anilist_score": null,
     "streaming_links": [],
@@ -484,7 +484,7 @@
       }
     ],
     "status": null,
-    "popularity": 12946,
+    "popularity": 12994,
     "favourites": 190,
     "anilist_score": null,
     "streaming_links": [],
@@ -528,7 +528,7 @@
       }
     ],
     "status": null,
-    "popularity": 11720,
+    "popularity": 11763,
     "favourites": 117,
     "anilist_score": null,
     "streaming_links": [],
@@ -571,7 +571,7 @@
       }
     ],
     "status": null,
-    "popularity": 10435,
+    "popularity": 10449,
     "favourites": 129,
     "anilist_score": null,
     "streaming_links": [],
@@ -604,44 +604,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 9674,
+    "popularity": 9736,
     "favourites": 127,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 15
-  },
-  {
-    "id": 196333,
-    "mal_id": 62100,
-    "name": "Hirayasumi",
-    "english_title": "Hirayasumi",
-    "episode": 1,
-    "release_date": "2027-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196333-HRmwgn8j8tvi.jpg",
-    "trailer": {
-      "id": "ZoVtjJsdyB4",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/ZoVtjJsdyB4/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/196333",
-    "start_date": "2027-01-01",
-    "season": "WINTER",
-    "season_year": 2027,
-    "studios": "Production +h, Shogakukan-Shueisha Productions",
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Slice of Life"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "status": null,
-    "popularity": 8387,
-    "favourites": 53,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 16
   },
   {
     "id": 186741,
@@ -672,8 +639,41 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 8374,
+    "popularity": 8449,
     "favourites": 88,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 16
+  },
+  {
+    "id": 196333,
+    "mal_id": 62100,
+    "name": "Hirayasumi",
+    "english_title": "Hirayasumi",
+    "episode": 1,
+    "release_date": "2027-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196333-HRmwgn8j8tvi.jpg",
+    "trailer": {
+      "id": "ZoVtjJsdyB4",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/ZoVtjJsdyB4/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/196333",
+    "start_date": "2027-01-01",
+    "season": "WINTER",
+    "season_year": 2027,
+    "studios": "Production +h, Shogakukan-Shueisha Productions",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Slice of Life"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "status": null,
+    "popularity": 8439,
+    "favourites": 53,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 17
@@ -714,7 +714,7 @@
       }
     ],
     "status": null,
-    "popularity": 8074,
+    "popularity": 8096,
     "favourites": 38,
     "anilist_score": null,
     "streaming_links": [],
@@ -747,7 +747,7 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 7604,
+    "popularity": 7634,
     "favourites": 69,
     "anilist_score": null,
     "streaming_links": [],
@@ -778,7 +778,7 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 7337,
+    "popularity": 7393,
     "favourites": 43,
     "anilist_score": null,
     "streaming_links": [],
@@ -811,7 +811,7 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 7087,
+    "popularity": 7125,
     "favourites": 37,
     "anilist_score": null,
     "streaming_links": [],
@@ -844,7 +844,7 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 6531,
+    "popularity": 6581,
     "favourites": 67,
     "anilist_score": null,
     "streaming_links": [],
@@ -853,7 +853,7 @@
   {
     "id": 207251,
     "mal_id": 63419,
-    "name": "Mairimashita! Iruma-kun: If Episode of Mafia",
+    "name": "Mairimashita! Iruma-kun: if Episode of Mafia",
     "english_title": null,
     "episode": 1,
     "release_date": "2027-01-04",
@@ -872,7 +872,7 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 6087,
+    "popularity": 6116,
     "favourites": 84,
     "anilist_score": null,
     "streaming_links": [],
@@ -907,7 +907,7 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 6038,
+    "popularity": 6065,
     "favourites": 62,
     "anilist_score": null,
     "streaming_links": [],
@@ -942,7 +942,7 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 5300,
+    "popularity": 5362,
     "favourites": 30,
     "anilist_score": null,
     "streaming_links": [],
@@ -984,7 +984,7 @@
       }
     ],
     "status": null,
-    "popularity": 5270,
+    "popularity": 5282,
     "favourites": 48,
     "anilist_score": null,
     "streaming_links": [],
@@ -1026,7 +1026,7 @@
       }
     ],
     "status": null,
-    "popularity": 4976,
+    "popularity": 4994,
     "favourites": 69,
     "anilist_score": null,
     "streaming_links": [],
@@ -1064,7 +1064,7 @@
     ],
     "prequels": [],
     "status": null,
-    "popularity": 4758,
+    "popularity": 4787,
     "favourites": 38,
     "anilist_score": null,
     "streaming_links": [],
@@ -1096,7 +1096,7 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 4603,
+    "popularity": 4630,
     "favourites": 52,
     "anilist_score": null,
     "streaming_links": [],
@@ -1129,7 +1129,7 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 4130,
+    "popularity": 4159,
     "favourites": 35,
     "anilist_score": null,
     "streaming_links": [],
@@ -1162,11 +1162,43 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 4053,
+    "popularity": 4090,
     "favourites": 57,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 31
+  },
+  {
+    "id": 207782,
+    "mal_id": 63476,
+    "name": "Odebu Akujo ni Tensei Shitara, Naze ka Last Boss Ouji-sama ni Shuuchaku Sareteimasu",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2027-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207782-jmxrbTF1tLob.jpg",
+    "trailer": {
+      "id": "FTug94f5v68",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/FTug94f5v68/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/207782",
+    "start_date": "2027-01-01",
+    "season": "WINTER",
+    "season_year": 2027,
+    "studios": "infinite, Studio Lings",
+    "genres": [
+      "Fantasy",
+      "Romance"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [],
+    "status": null,
+    "popularity": 3829,
+    "favourites": 45,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 32
   },
   {
     "id": 174427,
@@ -1196,40 +1228,8 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 3790,
+    "popularity": 3807,
     "favourites": 53,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 32
-  },
-  {
-    "id": 207782,
-    "mal_id": 63476,
-    "name": "Odebu Akujo ni Tensei Shitara, Naze ka Last Boss Ouji-sama ni Shuuchaku Sareteimasu",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2027-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207782-jmxrbTF1tLob.jpg",
-    "trailer": {
-      "id": "FTug94f5v68",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/FTug94f5v68/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/207782",
-    "start_date": "2027-01-01",
-    "season": "WINTER",
-    "season_year": 2027,
-    "studios": "infinite, Studio Lings",
-    "genres": [
-      "Fantasy",
-      "Romance"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [],
-    "status": null,
-    "popularity": 3779,
-    "favourites": 45,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 33
@@ -1262,7 +1262,7 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 3763,
+    "popularity": 3779,
     "favourites": 43,
     "anilist_score": null,
     "streaming_links": [],
@@ -1305,7 +1305,7 @@
       }
     ],
     "status": null,
-    "popularity": 3528,
+    "popularity": 3535,
     "favourites": 55,
     "anilist_score": null,
     "streaming_links": [],
@@ -1340,7 +1340,7 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 3493,
+    "popularity": 3518,
     "favourites": 33,
     "anilist_score": null,
     "streaming_links": [],
@@ -1376,7 +1376,7 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 3408,
+    "popularity": 3422,
     "favourites": 34,
     "anilist_score": null,
     "streaming_links": [],
@@ -1410,7 +1410,7 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 3399,
+    "popularity": 3421,
     "favourites": 31,
     "anilist_score": null,
     "streaming_links": [],
@@ -1422,15 +1422,15 @@
     "name": "Kaze wo Tsugumono",
     "english_title": null,
     "episode": 1,
-    "release_date": "2027-01-01",
+    "release_date": "2027-01-10",
     "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198728-vuqIf9HHt6s7.jpg",
     "trailer": {
-      "id": "ECavMtVCB08",
+      "id": "VMJnMpyTC5o",
       "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/ECavMtVCB08/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/VMJnMpyTC5o/hqdefault.jpg"
     },
     "site_url": "https://anilist.co/anime/198728",
-    "start_date": "2027-01-01",
+    "start_date": "2027-01-10",
     "season": "WINTER",
     "season_year": 2027,
     "studios": "Live2D Creative Studio, Drive",
@@ -1441,7 +1441,7 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 3284,
+    "popularity": 3313,
     "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
@@ -1474,11 +1474,54 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 2946,
+    "popularity": 2960,
     "favourites": 22,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 40
+  },
+  {
+    "id": 217011,
+    "mal_id": null,
+    "name": "Neko to Ryuu 2nd Season",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2027-01-01",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx217011-6mO4XKPf42rM.jpg",
+    "trailer": {
+      "id": "_vAesQmfq5o",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/_vAesQmfq5o/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/217011",
+    "start_date": "2027-01-01",
+    "season": "WINTER",
+    "season_year": 2027,
+    "studios": "OLM",
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [
+      {
+        "id": 186863,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Neko to Ryuu",
+          "english": "The Cat and the Dragon"
+        },
+        "season": "SUMMER",
+        "seasonYear": 2026
+      }
+    ],
+    "status": null,
+    "popularity": 2804,
+    "favourites": 25,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 41
   },
   {
     "id": 206798,
@@ -1513,11 +1556,11 @@
     ],
     "prequels": [],
     "status": null,
-    "popularity": 2690,
+    "popularity": 2714,
     "favourites": 38,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 41
+    "popularity_rank": 42
   },
   {
     "id": 209221,
@@ -1546,11 +1589,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 2664,
+    "popularity": 2675,
     "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 42
+    "popularity_rank": 43
   },
   {
     "id": 199337,
@@ -1589,11 +1632,11 @@
       }
     ],
     "status": null,
-    "popularity": 2639,
+    "popularity": 2644,
     "favourites": 14,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 43
+    "popularity_rank": 44
   },
   {
     "id": 205430,
@@ -1622,11 +1665,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 2207,
+    "popularity": 2223,
     "favourites": 18,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 44
+    "popularity_rank": 45
   },
   {
     "id": 188546,
@@ -1654,11 +1697,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1887,
+    "popularity": 1891,
     "favourites": 30,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 45
+    "popularity_rank": 46
   },
   {
     "id": 214049,
@@ -1686,11 +1729,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1852,
+    "popularity": 1865,
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 46
+    "popularity_rank": 47
   },
   {
     "id": 211070,
@@ -1719,11 +1762,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1757,
+    "popularity": 1770,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 47
+    "popularity_rank": 48
   },
   {
     "id": 211258,
@@ -1752,11 +1795,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1696,
+    "popularity": 1717,
     "favourites": 20,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 48
+    "popularity_rank": 49
   },
   {
     "id": 185697,
@@ -1781,11 +1824,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1637,
+    "popularity": 1652,
     "favourites": 9,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 49
+    "popularity_rank": 50
   },
   {
     "id": 209224,
@@ -1815,11 +1858,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1504,
+    "popularity": 1516,
     "favourites": 11,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 50
+    "popularity_rank": 51
   },
   {
     "id": 214461,
@@ -1848,11 +1891,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1494,
+    "popularity": 1512,
     "favourites": 16,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 51
+    "popularity_rank": 52
   },
   {
     "id": 207328,
@@ -1882,11 +1925,11 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1474,
+    "popularity": 1499,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 52
+    "popularity_rank": 53
   },
   {
     "id": 210157,
@@ -1925,11 +1968,11 @@
       }
     ],
     "status": null,
-    "popularity": 1409,
+    "popularity": 1415,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 53
+    "popularity_rank": 54
   },
   {
     "id": 214969,
@@ -1957,52 +2000,8 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1383,
+    "popularity": 1393,
     "favourites": 3,
-    "anilist_score": null,
-    "streaming_links": [],
-    "popularity_rank": 54
-  },
-  {
-    "id": 185699,
-    "mal_id": 60555,
-    "name": "Ramen Aka Neko: Sono ni",
-    "english_title": null,
-    "episode": 1,
-    "release_date": "2027-01-01",
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185699-LBNuYhvjYoHB.jpg",
-    "trailer": {
-      "id": "DK7UiS4hMz0",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/DK7UiS4hMz0/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/185699",
-    "start_date": "2027-01-01",
-    "season": "WINTER",
-    "season_year": 2027,
-    "studios": "E&H Production, Good Smile Company",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Slice of Life"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [
-      {
-        "id": 170998,
-        "type": "ANIME",
-        "title": {
-          "romaji": "Ramen Aka Neko",
-          "english": "Ramen Akaneko"
-        },
-        "season": "SUMMER",
-        "seasonYear": 2024
-      }
-    ],
-    "status": null,
-    "popularity": 1209,
-    "favourites": 10,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 55
@@ -2034,11 +2033,55 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1203,
+    "popularity": 1228,
     "favourites": 12,
     "anilist_score": null,
     "streaming_links": [],
     "popularity_rank": 56
+  },
+  {
+    "id": 185699,
+    "mal_id": 60555,
+    "name": "Ramen Aka Neko: Sono ni",
+    "english_title": null,
+    "episode": 1,
+    "release_date": "2027-01-10",
+    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185699-LBNuYhvjYoHB.jpg",
+    "trailer": {
+      "id": "AgruQ6MGB4Y",
+      "site": "youtube",
+      "thumbnail": "https://i.ytimg.com/vi/AgruQ6MGB4Y/hqdefault.jpg"
+    },
+    "site_url": "https://anilist.co/anime/185699",
+    "start_date": "2027-01-10",
+    "season": "WINTER",
+    "season_year": 2027,
+    "studios": "E&H Production, Good Smile Company",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Slice of Life"
+    ],
+    "is_adult": false,
+    "tags": [],
+    "prequels": [
+      {
+        "id": 170998,
+        "type": "ANIME",
+        "title": {
+          "romaji": "Ramen Aka Neko",
+          "english": "Ramen Akaneko"
+        },
+        "season": "SUMMER",
+        "seasonYear": 2024
+      }
+    ],
+    "status": null,
+    "popularity": 1212,
+    "favourites": 10,
+    "anilist_score": null,
+    "streaming_links": [],
+    "popularity_rank": 57
   },
   {
     "id": 203116,
@@ -2066,10 +2109,10 @@
     "tags": [],
     "prequels": [],
     "status": null,
-    "popularity": 1103,
+    "popularity": 1111,
     "favourites": 15,
     "anilist_score": null,
     "streaming_links": [],
-    "popularity_rank": 57
+    "popularity_rank": 58
   }
 ]

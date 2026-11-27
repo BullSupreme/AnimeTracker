@@ -24,8 +24,8 @@
         "icon": "https://www.google.com/s2/favicons?domain=netflix.com&sz=32"
       }
     ],
-    "popularity": 27921,
-    "anilist_score": 37,
+    "popularity": 30665,
+    "anilist_score": 68,
     "recently_finished": true,
     "genres": [
       "Drama",
@@ -39,57 +39,6 @@
     "season": "FALL",
     "season_year": 2026,
     "status": "FINISHED",
-    "popularity_rank": 24
-  },
-  {
-    "id": 199353,
-    "mal_id": 60597,
-    "name": "Dawang Raoming 3",
-    "english_title": null,
-    "episode": 11,
-    "release_date": "2026-11-28",
-    "next_airing_date": "2026-11-28",
-    "next_episode_number": 11,
-    "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199353-S2jczHjCWHGL.png",
-    "trailer": {
-      "id": "xIa7dMUka-8",
-      "site": "youtube",
-      "thumbnail": "https://i.ytimg.com/vi/xIa7dMUka-8/hqdefault.jpg"
-    },
-    "site_url": "https://anilist.co/anime/199353",
-    "start_date": "2026-10-03",
-    "end_date": "2026-11-21",
-    "streaming_links": [
-      {
-        "site": "Tencent Video",
-        "url": "https://v.qq.com/x/cover/mzc002001zvj4ts/r4100qy0hqu.html",
-        "icon": "https://www.google.com/s2/favicons?domain=v.qq.com&sz=32"
-      }
-    ],
-    "popularity": 3967,
-    "anilist_score": 75,
-    "recently_finished": true,
-    "genres": [
-      "Action",
-      "Fantasy"
-    ],
-    "is_adult": false,
-    "tags": [],
-    "prequels": [
-      {
-        "id": 146543,
-        "type": "ANIME",
-        "title": {
-          "romaji": "Dawang Raoming 2",
-          "english": null
-        },
-        "season": "WINTER",
-        "seasonYear": 2024
-      }
-    ],
-    "season": "FALL",
-    "season_year": 2026,
-    "status": "FINISHED",
-    "popularity_rank": 64
+    "popularity_rank": 21
   }
 ]
